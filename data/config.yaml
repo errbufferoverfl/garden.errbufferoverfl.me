@@ -18,12 +18,9 @@ search:
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 description:
-  Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
-  Wikilink support, backlinks, local graph, tags, and link previews.
+  A digital garden.
 page_title:
   "errbufferoverfl.me"
 links:
-  - link_name: Twitter
-    link: https://twitter.com/errbufferoverfl
-  - link_name: GitHub
-    link: https://github.com/errbufferoverfl
+  - link_name: Where to Find Me
+    link: https://links.errbufferoverfl.me/

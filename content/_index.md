@@ -1,27 +1,39 @@
 ---
-title: 🪴 Quartz 3.3
+title: ☺️ Welcome | garden.errbufferoverfl.me
 enableToc: false
+created: 2023-05-27 22:49:33
+modified: 2023-05-28 15:47:00
 ---
 
-Host your second brain and [digital garden](https://jzhao.xyz/posts/networked-thought) for free. Quartz features
+Welcome Internet traveller! Welcome to my digital garden.
 
-1. Extremely fast natural-language [[notes/search]]
-2. Customizable and hackable design based on [Hugo](https://gohugo.io/)
-3. Automatically generated backlinks, link previews, and local graph
-4. Built-in [[notes/CJK + Latex Support (测试) | CJK + Latex Support]] and [[notes/callouts | Admonition-style callouts]]
-5. Support for both Markdown Links and Wikilinks
+I'm **[[notes/errbufferoverfl|errbufferoverfl]]**, or Buffy for short. I'm a non-binary (**they/sie/ze**) anarchic gardener, knowledge librarian, and [[notes/security engineer|security engineer]] by trade.
 
-Check out some of the [amazing gardens that community members](notes/showcase.md) have published with Quartz or read about [why I made Quartz](notes/philosophy.md) to begin with.
+I work at Canva as an Application Security engineer, focusing on building out a Partnerships function and helping to build a secure app ecosystem. I currently live on the unceded land of the [[notes/Wadawurrung and Dja Dja Wurrung People|Wadawurrung and Dja Dja Wurrung People]], and can often be found:
 
-## Get Started
-> 📚 Step 1: [Setup your own digital garden using Quartz](notes/setup.md)
+* 🖋️ drawing or printing anarchic and technology themed badges, prints and designs on [Ko-Fi](https://ko-fi.com/errbufferoverfl).
 
-Returning user? Figure out how to [[notes/updating|update]] your existing Quartz garden.
+* 💾 creating patchwork quilts of code snippets and infrastructure, deep-diving technological standards and exploring all the ways teaching sand to think was a mistake.  
+  
+* 🗞️ curating the ✨vibes✨ and compiling zines that magnify marginalized voices in information security, providing a space for people to publish pieces that are messy, unpolished or don't have any expressed value under capitalism.
 
-If you prefer browsing the contents of this site through a list instead of a graph, you see a list of all [setup-related notes](/tags/setup).
+# 🌈 Now
 
-### Troubleshooting
-- 🚧 [Troubleshooting and FAQ](notes/troubleshooting.md)
-- 🐛 [Submit an Issue](https://github.com/jackyzha0/quartz/issues)
-- 👀 [Discord Community](https://discord.gg/cRFFHYye7t)
+- 📐 Security Engineer @ Canva
+- 🧠 Learning how to be a better [[anarchist]], anti-capitalist and revolutionary
+- 👨‍💻 Implementing an [[OAuth2 Authorisation Server]]
+- ✍️ Working on anarchic illustrations and prints
+- 📚 Reading - [[notes/Anarchic Agreements, a Field Guide to Collective Organising|Anarchic Agreements, a Field Guide to Collective Organising]]
+- 📍 Living on the unceded land of the Wadawurrung and Dja Dja Wurrung People
 
+# 🗺️ Explore
+
+Here are some places you might explore:
+
+- 📖 [[the aged notebook on my desk]]: a collection of musings and evolving ideas.
+- 🎨 [[the art studio]]: art & illustrative projects, notes and musings.
+- 🗑️ [[the crumpled pages in the recycling bin]]: abandoned and archived work.
+- 📚 [[notes/the antilibrary|the antilibrary]]: books that are in some state of read, being read, or to be read.
+- 🎙️ [[notes/the soapbox|the soapbox]]: meetup, conference and training that I've previously delivered.
+
+Want to get in touch? Checkout [where to find me](https://links.errbufferoverfl.me).
