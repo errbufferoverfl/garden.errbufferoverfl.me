@@ -581,6 +581,7 @@ header {
     visibility: visible;
     display: inline-block;
     animation: dropin 0.2s ease;
+    background: var(--light);
   }
 
   & > h3 {
