@@ -1,7 +1,7 @@
 ---
 title: "A Brief History of Tamper Evident Locks"
-created: 2023-05-28 00:26:08
-modified: 2023-05-28 00:30:34
+created: 2023-05-28
+modified: 2023-05-28
 tags:
 - locksport
 - canary-technology

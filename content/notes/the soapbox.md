@@ -1,8 +1,8 @@
 ---
 title: "Meetups, Conferences and Training Appearances"
 enableToc: true
-created: 2023-05-28 00:15:43
-modified: 2023-05-28 16:51:58
+created: 2023-05-28
+modified: 2023-05-28
 ---
 
 # 2021

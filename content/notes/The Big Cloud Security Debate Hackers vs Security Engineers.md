@@ -1,7 +1,7 @@
 ---
 title: "The Big Cloud Security Debate: Hackers vs Security Engineers"
-created: 2023-05-28 00:26:50
-modified: 2023-05-28 00:29:24
+created: 2023-05-27
+modified: 2023-05-28
 tags:
 - security
 - infosec

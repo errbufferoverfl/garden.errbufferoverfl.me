@@ -1,7 +1,7 @@
 ---
 title: "Building your own offline file-sharing and communication system for the inevitable downfall of the Internet"
-created: 2023-05-28 00:23:28
-modified: 2023-05-28 00:32:41
+created: 2023-05-28
+modified: 2023-05-28
 tags:
 - training
 - hacking

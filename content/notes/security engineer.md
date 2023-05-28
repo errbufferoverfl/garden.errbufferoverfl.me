@@ -1,7 +1,7 @@
 ---
 title: "What is a security engineer?"
-created: 2023-05-27 23:57:34
-modified: 2023-05-28 14:29:26
+created: 2023-05-27
+modified: 2023-05-28
 tags:
 - security-engineer
 - application-security

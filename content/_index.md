@@ -2,7 +2,7 @@
 title: ☺️ Welcome | garden.errbufferoverfl.me
 enableToc: false
 created: 2023-05-27 22:49:33
-modified: 2023-05-28 16:48:02
+modified: 2023-05-28 17:49:00
 ---
 
 Welcome Internet traveller! Welcome to my digital garden.
@@ -23,7 +23,7 @@ I work at Canva as an Application Security engineer, focusing on building out a 
 - 🧠 Learning how to be a better [[anarchist]], anti-capitalist and revolutionary
 - 👨‍💻 Implementing an [[OAuth2 Authorisation Server]]
 - ✍️ Working on anarchic illustrations and prints
-- 📚 Reading - [[notes/Anarchic Agreements a Field Guide to Collective Organising|Anarchic Agreements, a Field Guide to Collective Organising]]
+- 📚 Reading [[notes/Anarchic Agreements a Field Guide to Collective Organising|Anarchic Agreements a Field Guide to Collective Organising]]
 - 📍 Living on the unceded land of the Wadawurrung and Dja Dja Wurrung People
 
 # 🗺️ Explore

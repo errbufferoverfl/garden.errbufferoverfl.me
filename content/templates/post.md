@@ -10,6 +10,6 @@ tp.file.rename(`${title}`)
 ---
 title: "<% title %>"
 enableToc: true
-created: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
-modified: <% tp.file.creation_date("YYYY-MM-DD HH:mm:ss") %>
+created: <% tp.file.creation_date("YYYY-MM-DD") %>
+modified: <% tp.file.creation_date("YYYY-MM-DD") %>
 ---

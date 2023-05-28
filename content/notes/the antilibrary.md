@@ -1,8 +1,8 @@
 ---
 title: "The Antilibrary"
 enableToc: false
-created: 2023-05-28 15:42:13
-modified: 2023-05-28 15:47:37
+created: 2023-05-28
+modified: 2023-05-28
 ---
 
 > a scholar conscious of the power of [their] antilibrary is not concerned with treating knowledge as a property to possess or consume; rather [...] how much you don’t know—and how to find out that information when you need it.

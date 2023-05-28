@@ -1,32 +1,41 @@
 // Add your own CSS here!
 
 :root {
-  --light: #faf8f8;
+  --light: #F5F2E9;
   --dark: #141021;
   --secondary: #284b63;
   --tertiary: #84a59d;
   --visited: #afbfc9;
-  --primary: #f28482;
+  --primary: #db695a;
   --gray: #4e4e4e;
-  --lightgray: #f0f0f0;
-  --outlinegray: #dadada;
+  --lightgray: #E7E5E0;
+  --outlinegray: #D2D0C9;
   --million-progress-bar-color: var(--secondary);
   --highlighted: #f5dfaf88;
 }
 
 [saved-theme="dark"] {
-  --light: #1e1e21 !important;
+  --light: #1c1a17 !important;
   --dark: #fbfffe !important;
-  --secondary: #6b879a !important;
+  --secondary: #819fb3 !important;
   --visited: #4a575e !important;
   --tertiary: #84a59d !important;
-  --primary: #f58382 !important;
+  --primary: #c46a5e !important;
   --gray: #d4d4d4 !important;
-  --lightgray: #292633 !important;
-  --outlinegray: #343434 !important;
+  --lightgray: #33312f !important;
+  --outlinegray: #444444 !important;
   --highlighted: #574010;
 }
 
+#banner {
+  margin: 3em 0;
+  filter: invert(0%);
+  opacity: 0.85;
+
+  [saved-theme="dark"] & {
+    filter: invert(100%);
+  }
+}
 
 #index {
   & > .bio {
@@ -158,7 +167,7 @@ hr {
   border-color: var(--gray);
 
   &:after {
-    content: "·𖥸·";
+    content: "* * *";
     z-index: -999;
     display: inline-block;
     margin: -1em 0 0.5em;
@@ -173,4 +182,3 @@ hr {
   margin: 3em auto;
   width: 60%;
 }
-

@@ -1,13 +1,12 @@
 ---
 title: "Wadawurrung and Dja Dja Wurrung People"
-enableToc: true
-created: 2023-05-28 12:48:16
-modified: 2023-05-28 13:12:22
+created: 2023-05-27
+modified: 2023-05-28
 ---
 
 ## Wadawurrung Country
 
-Wadawurrung Country encompasses the area from the Great Dividing Range of Ballarat, the coast from the Werribee River to Mangowak (Airey's Inlet), including Djilang (Geelong), Ballaarat (Ballarat), Torquay, Jan Jook, the Bellarine Peninsula and Surf Coast. [^1]
+Wadawurrung country encompasses the area from the Great Dividing Range of Ballarat, the coast from the Werribee River to Mangowak (Airey's Inlet), including Djilang (Geelong), Ballaarat (Ballarat), Torquay, Jan Jook, the Bellarine Peninsula and Surf Coast. [^1]
 
 ![[notes/images/Wadawurrung and Dja Dja Wurrung People.png]]
 

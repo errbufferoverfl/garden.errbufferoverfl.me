@@ -1,7 +1,7 @@
 ---
 title: "Snake Charming for Beginners"
-created: 2023-05-28 00:24:19
-modified: 2023-05-28 00:30:59
+created: 2023-05-27
+modified: 2023-05-28
 tags:
 - training
 - python

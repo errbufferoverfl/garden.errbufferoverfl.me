@@ -1,7 +1,7 @@
 ---
 title: "LUV May 2019 Main Meeting Kali Linux"
-created: 2023-05-28 00:25:48
-modified: 2023-05-28 00:30:22
+created: 2023-05-28
+modified: 2023-05-28
 tags:
 - meetup
 - hacking
