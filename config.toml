@@ -1,4 +1,4 @@
-baseURL = "https://quartz.jzhao.xyz/"
+baseURL = "https://garden.errbufferoverfl.me/"
 languageCode = "en-us"
 relativeURLs = false
 disablePathToLower = true
@@ -31,3 +31,8 @@ enableGitInfo = true
         publishDate = ["publishDate", "date"]
     [markup.goldmark.renderer]
         unsafe = true
+
+[sitemap]
+    changefreq = 'monthly'
+    filename = 'sitemap.xml'
+    priority = 0.5

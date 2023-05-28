@@ -1,18 +1,18 @@
-name: Jacky Zhao
+name: errbuffoverfl
 enableToc: true
 openToc: false
 enableLinkPreview: true
-enableLatex: true
+enableLatex: false
 enableCodeBlockTitle: true
 enableCodeBlockCopy: true
 enableCallouts: true
 enableSPA: true
 enableFooter: true
 enableContextualBacklinks: true
-enableRecentNotes: false
+enableRecentNotes: true
 enableGitHubEdit: true
 enableMermaid: true
-GitHubLink: https://github.com/jackyzha0/quartz/tree/hugo/content
+GitHubLink: https://github.com/errbufferoverfl/garden.errbufferoverfl.me/tree/hugo/content
 search:
   enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
@@ -21,9 +21,9 @@ description:
   Host your second brain and digital garden for free. Quartz features extremely fast full-text search,
   Wikilink support, backlinks, local graph, tags, and link previews.
 page_title:
-  "🪴 Quartz 3.3"
+  "errbufferoverfl.me"
 links:
   - link_name: Twitter
-    link: https://twitter.com/_jzhao
+    link: https://twitter.com/errbufferoverfl
   - link_name: GitHub
-    link: https://github.com/jackyzha0
+    link: https://github.com/errbufferoverfl

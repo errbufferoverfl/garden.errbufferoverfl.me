@@ -28,4 +28,149 @@
 }
 
 
+#index {
+  & > .bio {
+    display: flex;
+    gap: 1.5em;
+    z-index: 1;
+    position: relative;
+
+    @media screen and (max-width: 1440px) {
+      flex-direction: column-reverse !important;
+      gap: 4em;
+    }
+
+    & > .writing-sidebar {
+      flex: 0 0 30%;
+
+      & > div {
+        margin-bottom: 2em;
+      }
+
+      & ul {
+        list-style: none;
+        padding: 0;
+        margin-left: 0;
+        z-index: 0;
+      }
+
+      & > div > a {
+        opacity: 0.6;
+      }
+
+      & h2 {
+        font-size: 1.4rem;
+        margin: 0.75em 0;
+      }
+
+      & .section {
+        margin-bottom: 1.2em;
+      }
+
+      & h3 {
+        margin: 0;
+      }
+
+      & .meta {
+        margin: 0.2em 0;
+      }
+
+      & .tags > li > a {
+        font-size: 0.9em;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+.poem {
+  font-family: var(--font-body);
+  font-size: 1.1rem;
+  padding: 0;
+  color: var(--gray);
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.return-only {
+  display: none;
+}
+
+[visited="true"] .return-only {
+  display: inline;
+}
+
+[show-animation="true"] .delay {
+  animation: fadeIn ease 0.5s;
+  opacity: 0;
+  animation-fill-mode: forwards;
+
+  &.t-1 {
+    animation-delay: 0.5s;
+  }
+
+  &.t-2 {
+    animation-delay: 1s;
+  }
+
+  &.t-3 {
+    animation-delay: 1.2s;
+  }
+
+  &.t-4 {
+    animation-delay: 1.5s;
+  }
+
+  &.t-5 {
+    animation-delay: 1.8s;
+  }
+
+  @for $j from 1 through 5 {
+    @for $i from 1 through 10 {
+      &.stagger:nth-last-of-type(#{$j}) > *:nth-child(#{$i}) {
+        animation: fadeIn ease 0.5s;
+        opacity: 0;
+        animation-fill-mode: forwards;
+        animation-delay: #{$i * .3 + 0.5}s;
+        z-index: #{-$i + 10 * ($j+1)};
+        position: relative;
+      }
+    }
+  }
+}
+
+hr {
+  overflow: visible; /* For IE */
+  padding: 0;
+  margin: 4em auto;
+  border: none;
+  color: var(--gray);
+  text-align: center;
+  width: 40%;
+  z-index: -999;
+  border-color: var(--gray);
+
+  &:after {
+    content: "·𖥸·";
+    z-index: -999;
+    display: inline-block;
+    margin: -1em 0 0.5em;
+    font-size: 1.5em;
+    padding: 0.5em 1em;
+    background: var(--light);
+    transform: translateY(-0.1em);
+  }
+}
+
+.bio > article hr {
+  margin: 3em auto;
+  width: 60%;
+}
 
