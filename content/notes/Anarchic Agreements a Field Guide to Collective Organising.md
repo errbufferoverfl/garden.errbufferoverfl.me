@@ -2,7 +2,7 @@
 title: "Anarchic Agreements, a Field Guide to Collective Organising"
 enableToc: true
 created: 2023-05-28 15:20:19
-modified: 2023-05-28 15:32:18
+modified: 2023-05-28 16:47:34
 tags:
 - political-science
 - anarchy

@@ -14,6 +14,6 @@ modified: 2023-05-28 15:47:37
 
 ## Current
 
-- [[notes/Anarchic Agreements, a Field Guide to Collective Organising|Anarchic Agreements, a Field Guide to Collective Organising]]
+- [[notes/Anarchic Agreements a Field Guide to Collective Organising|Anarchic Agreements a Field Guide to Collective Organising]]
 
 ## Past
