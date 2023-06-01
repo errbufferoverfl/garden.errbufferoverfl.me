@@ -19,6 +19,15 @@
   <meta name="twitter:title" content="{{ .Title }}" />
   <meta name="twitter:description" content="{{if .IsHome}}{{$data.description | default $.Site.Data.config.description}}{{else}}{{.Summary}}{{end}}" />
   <meta name="twitter:image" content="{{.Site.BaseURL}}icon.png">
+
+  {{- /* RSS */}}
+  {{ range .AlternativeOutputFormats -}}
+  <link rel="{{ .Rel }}" type="{{ .MediaType.Type | html }}" href="{{ .Permalink | safeURL }}">
+  {{ end -}}
+  {{- range .AllTranslations -}}
+  <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
+  {{ end -}}
+
   {{ range $data.links }}
     {{ if strings.Contains .link "twitter.com" }}
       {{ $twitter_handle := index (split .link "/") (sub (len (split .link "/")) 1) }}

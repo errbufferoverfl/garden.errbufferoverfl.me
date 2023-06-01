@@ -49,6 +49,26 @@
                 </ul>
                 <a href="/thoughts">See {{sub (len $notes) 2}} more →</a>
             </div>
+            <div class="delay t-3">
+                <h2>Currently Reading</h2>
+                {{$notes := where .Site.RegularPages "Section" "books"}}
+                <ul class="delay t-3 stagger">
+                    {{range first 1 (where $notes "Params.status" "==" "In Progress" ) }}
+                    <li>
+                        <div class="section">
+                            <div class="desc">
+                                <a href="{{ .Permalink }}"><img src="{{.Params.cover}}" width="200vw"></a>
+                                <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
+                            </div>
+                            <p class="meta">
+                                {{ .Lastmod.Format "Jan 2, 2006" }}
+                            </p>
+                        </div>
+                    </li>
+                    {{end}}
+                </ul>
+                <a href="/the-antilibrary">See {{sub (len $notes) 1}} more →</a>
+            </div>
         </div>
         <article>
             <p>Hello there, traveller of the web. <span class="return-only"> Welcome back! </span> You must be tired from your journey.</p>
