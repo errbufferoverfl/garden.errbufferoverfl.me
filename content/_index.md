@@ -23,7 +23,7 @@ I work at Canva as an Application Security engineer, focusing on building out a 
 - 🧠 Learning how to be a better [[anarchist]], anti-capitalist and revolutionary
 - 👨‍💻 Implementing an [[OAuth2 Authorisation Server]]
 - ✍️ Working on anarchic illustrations and prints
-- 📚 Reading [[notes/Anarchic Agreements a Field Guide to Collective Organising|Anarchic Agreements a Field Guide to Collective Organising]]
+- 📚 Reading [[books/Anarchic Agreements a Field Guide to Collective Organising|Anarchic Agreements a Field Guide to Collective Organising]]
 - 📍 Living on the unceded land of the Wadawurrung and Dja Dja Wurrung People
 
 # 🗺️ Explore
@@ -33,7 +33,7 @@ Here are some places you might explore:
 - 📖 [[the aged notebook on my desk]]: a collection of musings and evolving ideas.
 - 🎨 [[the art studio]]: art & illustrative projects, notes and musings.
 - 🗑️ [[the crumpled pages in the recycling bin]]: abandoned and archived work.
-- 📚 [[notes/the antilibrary|the antilibrary]]: books that are in some state of read, being read, or to be read.
-- 🎙️ [[notes/the soapbox|the soapbox]]: meetup, conference and training that I've previously delivered.
+- 📚 [[the antilibrary|the antilibrary]]: books that are in some state of read, being read, or to be read.
+- 🎙️ [[the soapbox|the soapbox]]: meetup, conference and training that I've previously delivered.
 
 Want to get in touch? Checkout [where to find me](https://links.errbufferoverfl.me).

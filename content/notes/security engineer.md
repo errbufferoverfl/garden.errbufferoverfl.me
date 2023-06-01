@@ -7,9 +7,9 @@ tags:
 - application-security
 ---
 
-As a security engineer I am responsible for *enabling* engineering teams to make good decisions about how to build and maintain adequately secure systems.
+As a security engineer my main role is *enabling* engineering teams to make good decisions about how to build and maintain adequately secure systems.
 
-I'm currently working as a technical function lead, developing a security partnerships program and as cliché as it sounds there is no "typical day" for me and it's largely shaped by the needs of the engineering group I work with. 
+I'm currently focused on app security and developing a security partnerships program and as cliché as it sounds there is no "typical day" for me and it's largely shaped by the needs of the engineering group I work with. 
 
 Generally, it can be largely be split into three or four general categories:
 - **Operational work**, this is work that keeps the Application Security teams lights on for example vulnerability management, consulting with engineers very broadly, creating and tuning automations to streamline automation all of which takes up about 30-50% of my time during a given week.
