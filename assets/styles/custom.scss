@@ -165,9 +165,7 @@ hr {
   width: 40%;
   z-index: -999;
   border-color: var(--gray);
-
   &:after {
-    content: " ·𖥸· ";
     z-index: -999;
     display: inline-block;
     margin: -1em 0 0.5em;
