@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6, thead {
   color: var(--dark);
   font-weight: revert;
   margin: 2rem 0 0;
-  padding: 2rem 1rem 0 0;
+  // padding: 2rem 1rem 0 0;
 
   &:hover > .hanchor {
     color: var(--secondary);

@@ -15,8 +15,10 @@ enableGitInfo = true
     name = 'errbufferoverfl'
 
 [outputs]
-    home = ['HTML']
     term = ['HTML', 'RSS']
+
+[minify]
+    disableXML = true
 
 [markup]
     [markup.tableOfContents]
