@@ -28,7 +28,7 @@
 }
 
 #banner {
-  margin: 3em 0;
+  margin: 2em 0;
   filter: invert(0%);
   opacity: 0.85;
 
@@ -166,6 +166,7 @@ hr {
   z-index: -999;
   border-color: var(--gray);
   &:after {
+    content: "&";
     z-index: -999;
     display: inline-block;
     margin: -1em 0 0.5em;
