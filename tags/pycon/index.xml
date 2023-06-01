@@ -1,1 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>pycon on errbufferoverlf.me</title><link>https://garden.errbufferoverfl.me/tags/pycon/</link><description>Recent content in pycon on errbufferoverlf.me</description><generator>Hugo -- gohugo.io</generator><language>en-US</language><lastBuildDate>Sun, 28 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/tags/pycon/index.xml" rel="self" type="application/rss+xml"/><item><title>Agloe: What the Map Makers of the 1930s can Teach us About Protecting our Data in 2018</title><link>https://garden.errbufferoverfl.me/notes/Agloe-What-the-Map-Makers-of-the-1930s-can-Teach-us-About-Protecting-our-Data-in-2018/</link><pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate><guid>https://garden.errbufferoverfl.me/notes/Agloe-What-the-Map-Makers-of-the-1930s-can-Teach-us-About-Protecting-our-Data-in-2018/</guid><description>What does the little town of Agloe, Colchester, NY have in common with modern day data protection? Why when I look for directions to Agloe, Colchester, NY do I only get a partial match?</description></item><item><title>Collapsology: Why your biggest threat isn’t exposed RDP</title><link>https://garden.errbufferoverfl.me/notes/Collapsology-Why-your-biggest-threat-isnt-exposed-RDP/</link><pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate><guid>https://garden.errbufferoverfl.me/notes/Collapsology-Why-your-biggest-threat-isnt-exposed-RDP/</guid><description>For decades, anthropologists, quantitative historians, and sociologists have discussed and proposed various explanations for the collapse of civilizations, from unsustainable complexity, decay of social cohesion, rising inequality and general misfortune.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>pycon on errbufferoverlf.me</title>
+    <link>https://garden.errbufferoverfl.me/tags/pycon/</link>
+    <description>Recent content in pycon on errbufferoverlf.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sun, 28 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/tags/pycon/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agloe: What the Map Makers of the 1930s can Teach us About Protecting our Data in 2018</title>
+      <link>https://garden.errbufferoverfl.me/notes/Agloe-What-the-Map-Makers-of-the-1930s-can-Teach-us-About-Protecting-our-Data-in-2018/</link>
+      <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/notes/Agloe-What-the-Map-Makers-of-the-1930s-can-Teach-us-About-Protecting-our-Data-in-2018/</guid>
+      <description>What does the little town of Agloe, Colchester, NY have in common with modern day data protection? Why when I look for directions to Agloe, Colchester, NY do I only get a partial match?</description>
+    </item>
+    
+    <item>
+      <title>Collapsology: Why your biggest threat isn’t exposed RDP</title>
+      <link>https://garden.errbufferoverfl.me/notes/Collapsology-Why-your-biggest-threat-isnt-exposed-RDP/</link>
+      <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/notes/Collapsology-Why-your-biggest-threat-isnt-exposed-RDP/</guid>
+      <description>For decades, anthropologists, quantitative historians, and sociologists have discussed and proposed various explanations for the collapse of civilizations, from unsustainable complexity, decay of social cohesion, rising inequality and general misfortune.</description>
+    </item>
+    
+  </channel>
+</rss>

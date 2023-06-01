@@ -1,12 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Notes on errbufferoverlf.me</title>
-    <link>https://garden.errbufferoverfl.me/notes/</link>
-    <description>Recent content in Notes on errbufferoverlf.me</description>
+    <title>☺️ Welcome | garden.errbufferoverfl.me on errbufferoverlf.me</title>
+    <link>https://garden.errbufferoverfl.me/</link>
+    <description>Recent content in ☺️ Welcome | garden.errbufferoverfl.me on errbufferoverlf.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sun, 28 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/notes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 28 May 2023 17:49:00 +0000</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Feminist and the Sex Offender</title>
+      <link>https://garden.errbufferoverfl.me/books/The-Feminist-and-the-Sex-Offender/</link>
+      <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/books/The-Feminist-and-the-Sex-Offender/</guid>
+      <description>In the era of #MeToo and mass incarceration, The Feminist and the Sex Offender makes a powerful feminist case for accountability without punishment and sexual safety and pleasure without injustice.</description>
+    </item>
+    
+    <item>
+      <title>the art studio</title>
+      <link>https://garden.errbufferoverfl.me/the-art-studio/</link>
+      <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/the-art-studio/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>[Supporters] Ko-Fi Weekly Roundup</title>
       <link>https://garden.errbufferoverfl.me/notes/Supporters-Ko-Fi-Weekly-Roundup/</link>
@@ -33,6 +51,15 @@ For the past week-ish I&amp;rsquo;ve been on a well needed break from work takin
       
       <guid>https://garden.errbufferoverfl.me/notes/Agloe-What-the-Map-Makers-of-the-1930s-can-Teach-us-About-Protecting-our-Data-in-2018/</guid>
       <description>What does the little town of Agloe, Colchester, NY have in common with modern day data protection? Why when I look for directions to Agloe, Colchester, NY do I only get a partial match?</description>
+    </item>
+    
+    <item>
+      <title>Anarchic Agreements, a Field Guide to Collective Organising</title>
+      <link>https://garden.errbufferoverfl.me/books/Anarchic-Agreements-a-Field-Guide-to-Collective-Organising/</link>
+      <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/books/Anarchic-Agreements-a-Field-Guide-to-Collective-Organising/</guid>
+      <description>A new world is possible and not just in our hearts. Anarchic Agreements is a quintessential field guide for the revolution, answering the practical questions often left out of works of political theory and philosophy.</description>
     </item>
     
     <item>
@@ -81,12 +108,31 @@ For the past week-ish I&amp;rsquo;ve been on a well needed break from work takin
     </item>
     
     <item>
+      <title>The Antilibrary</title>
+      <link>https://garden.errbufferoverfl.me/the-antilibrary/</link>
+      <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/the-antilibrary/</guid>
+      <description>a scholar conscious of the power of [their] antilibrary is not concerned with treating knowledge as a property to possess or consume; rather [&amp;hellip;] how much you don’t know—and how to find out that information when you need it.</description>
+    </item>
+    
+    <item>
       <title>The Big Cloud Security Debate: Hackers vs Security Engineers</title>
       <link>https://garden.errbufferoverfl.me/notes/The-Big-Cloud-Security-Debate-Hackers-vs-Security-Engineers/</link>
       <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
       
       <guid>https://garden.errbufferoverfl.me/notes/The-Big-Cloud-Security-Debate-Hackers-vs-Security-Engineers/</guid>
       <description>A debate organised by ANZ, Contino and Meetup Madness where 4 hackers vs 4 security experts engaging in a fiery debate to determine all the ways they can hack and defend cloud environments.</description>
+    </item>
+    
+    <item>
+      <title>The Soapbox</title>
+      <link>https://garden.errbufferoverfl.me/the-soapbox/</link>
+      <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/the-soapbox/</guid>
+      <description>2021 September [[notes/Collapsology Why your biggest threat isn’t exposed RDP|Collapsology Why your biggest threat isn’t exposed RDP]]
+2019 November [[notes/The Big Cloud Security Debate Hackers vs Security Engineers|The Big Cloud Security Debate Hackers vs Security Engineers]]</description>
     </item>
     
     <item>
@@ -105,6 +151,15 @@ For the past week-ish I&amp;rsquo;ve been on a well needed break from work takin
       
       <guid>https://garden.errbufferoverfl.me/notes/security-engineer/</guid>
       <description>As a security engineer my main role is enabling engineering teams to make good decisions about how to build and maintain adequately secure systems.</description>
+    </item>
+    
+    <item>
+      <title>Lost in Work Escaping Capitalism</title>
+      <link>https://garden.errbufferoverfl.me/books/Lost-in-Work-Escaping-Capitalism/</link>
+      <pubDate>Tue, 02 May 2023 21:14:26 +0000</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/books/Lost-in-Work-Escaping-Capitalism/</guid>
+      <description>&amp;lsquo;Work hard, get paid.&amp;rsquo; It&amp;rsquo;s simple. Self-evident. But it&amp;rsquo;s also a lie—at least for most of us. For young people today, the old assumptions are crumbling; hard work in school no longer guarantees a secure, well-paying job in the future.</description>
     </item>
     
   </channel>
