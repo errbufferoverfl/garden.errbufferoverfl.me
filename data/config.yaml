@@ -18,9 +18,9 @@ search:
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 description:
-  A digital garden.
+  "An open collection of notes, resources, sketches, and explorations I'm cultivating."
 page_title:
-  "errbufferoverfl.me"
+  "garden.errbufferoverfl.me"
 links:
   - link_name: Where to Find Me
     link: https://links.errbufferoverfl.me/
