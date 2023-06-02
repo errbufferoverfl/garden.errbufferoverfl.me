@@ -36,7 +36,7 @@
   {{ end }}
 
   <title>
-    {{ if .Title }}{{ .Title }}{{ else }}{{ $data.page_title | default $.Site.Data.config.page_title }}{{
+    {{ if .Title }}{{ .Title }} ✧ {{ $data.page_title | default $.Site.Data.config.page_title }}{{ else }}{{ $data.page_title | default $.Site.Data.config.page_title }}{{
     end }}
   </title>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
