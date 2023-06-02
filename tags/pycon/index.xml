@@ -5,12 +5,13 @@
     <link>https://garden.errbufferoverfl.me/tags/pycon/</link>
     <description>Recent content in pycon on errbufferoverlf.me</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Sun, 28 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/tags/pycon/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-AU</language>
+    <copyright>This content is licensed under &lt;a href=&#39;https://creativecommons.org/licenses/by/4.0/&#39;&gt;Creative Commons Attribution-ShareAlike 4.0 International&lt;/a&gt; unless otherwise specified.</copyright>
+    <lastBuildDate>Sun, 28 May 2023 00:00:00 +1000</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/tags/pycon/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Agloe: What the Map Makers of the 1930s can Teach us About Protecting our Data in 2018</title>
       <link>https://garden.errbufferoverfl.me/notes/Agloe-What-the-Map-Makers-of-the-1930s-can-Teach-us-About-Protecting-our-Data-in-2018/</link>
-      <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 28 May 2023 00:00:00 +1000</pubDate>
       
       <guid>https://garden.errbufferoverfl.me/notes/Agloe-What-the-Map-Makers-of-the-1930s-can-Teach-us-About-Protecting-our-Data-in-2018/</guid>
       <description>What does the little town of Agloe, Colchester, NY have in common with modern day data protection? Why when I look for directions to Agloe, Colchester, NY do I only get a partial match?</description>
@@ -19,10 +20,10 @@
     <item>
       <title>Collapsology: Why your biggest threat isn’t exposed RDP</title>
       <link>https://garden.errbufferoverfl.me/notes/Collapsology-Why-your-biggest-threat-isnt-exposed-RDP/</link>
-      <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 28 May 2023 00:00:00 +1000</pubDate>
       
       <guid>https://garden.errbufferoverfl.me/notes/Collapsology-Why-your-biggest-threat-isnt-exposed-RDP/</guid>
-      <description>For decades, anthropologists, quantitative historians, and sociologists have discussed and proposed various explanations for the collapse of civilizations, from unsustainable complexity, decay of social cohesion, rising inequality and general misfortune.</description>
+      <description>In September 2021, I presented a conference talk entitled &amp;ldquo;Collapsology: Why Exposed RDP Isn&amp;rsquo;t Your Biggest Threat&amp;rdquo; where I gave an overview of how to identify cultural threats in a rapidly evolving business landscape, and how we can use modern-day tools to identify these threats before they result in security culture collapse.</description>
     </item>
     
   </channel>

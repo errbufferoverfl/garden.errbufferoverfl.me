@@ -5,12 +5,13 @@
     <link>https://garden.errbufferoverfl.me/tags/hacking/</link>
     <description>Recent content in hacking on errbufferoverlf.me</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-US</language>
-    <lastBuildDate>Sun, 28 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-AU</language>
+    <copyright>This content is licensed under &lt;a href=&#39;https://creativecommons.org/licenses/by/4.0/&#39;&gt;Creative Commons Attribution-ShareAlike 4.0 International&lt;/a&gt; unless otherwise specified.</copyright>
+    <lastBuildDate>Sun, 28 May 2023 00:00:00 +1000</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/tags/hacking/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Brief History of Tamper Evident Locks</title>
       <link>https://garden.errbufferoverfl.me/notes/A-Brief-History-of-Tamper-Evident-Locks/</link>
-      <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 28 May 2023 00:00:00 +1000</pubDate>
       
       <guid>https://garden.errbufferoverfl.me/notes/A-Brief-History-of-Tamper-Evident-Locks/</guid>
       <description>A talk that discussed common &amp;ldquo;canary locks&amp;rdquo; or locks with tamper evident mechanisms through the ages, Buffy trawled through 11,335,427 patents to identify several high and low profile locks and their known, or speculated bypass techniques.</description>
@@ -19,7 +20,7 @@
     <item>
       <title>Building your own offline file-sharing and communication system for the inevitable downfall of the Internet</title>
       <link>https://garden.errbufferoverfl.me/notes/Building-your-own-offline-file-sharing-and-communication-system-for-the-inevitable-downfall-of-the-Internet/</link>
-      <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 28 May 2023 00:00:00 +1000</pubDate>
       
       <guid>https://garden.errbufferoverfl.me/notes/Building-your-own-offline-file-sharing-and-communication-system-for-the-inevitable-downfall-of-the-Internet/</guid>
       <description>Have you ever considered a world where the Internet in all it&amp;rsquo;s grandeur and tyre-fire-ness has finally imploded. Well after living for 8 months without the Internet I did and it looked a little like this.</description>
@@ -28,7 +29,7 @@
     <item>
       <title>LUV May 2019 Main Meeting Kali Linux</title>
       <link>https://garden.errbufferoverfl.me/notes/LUV-May-2019-Main-Meeting-Kali-Linux/</link>
-      <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 28 May 2023 00:00:00 +1000</pubDate>
       
       <guid>https://garden.errbufferoverfl.me/notes/LUV-May-2019-Main-Meeting-Kali-Linux/</guid>
       <description>Come together in ritual to learn about KALI LINUX! A Debian based Penetration Testing and Ethical Hacking distribution, with over 600 pre-installed packages.</description>
@@ -37,7 +38,7 @@
     <item>
       <title>Snake Charming for Beginners</title>
       <link>https://garden.errbufferoverfl.me/notes/Snake-Charming-for-Beginners/</link>
-      <pubDate>Sun, 28 May 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 28 May 2023 00:00:00 +1000</pubDate>
       
       <guid>https://garden.errbufferoverfl.me/notes/Snake-Charming-for-Beginners/</guid>
       <description>Snake-charming is an age-old practice of hypnotizing snakes by playing and waving a murli - in the modern day this practice looks much different, equipped with an Integrated Development Environment (IDE), a clackity keyboard and a trusty guide we&amp;rsquo;ll be taking you through how you can effectively charm Python 3.</description>
