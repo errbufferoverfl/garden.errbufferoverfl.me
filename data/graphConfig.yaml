@@ -34,4 +34,4 @@ globalGraph:
 ### For all graphs ###
 
 paths:
-  - /moc: "#4388cc"
+    - /books: "#93C572"
