@@ -6,11 +6,7 @@
 {{- with $notes -}}
 {{- range . -}}
 
-{{ .Param.cover }}
-{{- $image := .Resources.GetMatch .Params.cover -}}
-
-  {{$image}}
-  <img src="/{{ $image }}" />
+  <img src="(printf '/%s' .Params.cover)" />
 
 {{- end -}}
 {{- end -}}
