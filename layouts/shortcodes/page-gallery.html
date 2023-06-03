@@ -6,15 +6,10 @@
 {{- with $notes -}}
 {{- range . -}}
 {{.Params.cover}}
-{{$test := index (split .Params.cover "/") 2 }}
 
-{{$test}}
-
-{{- $image := resources.Get (printf "%s/%s" "images/" $test) -}}
-
+{{- $image := resources.Get (printf "/%s/%s" $test) -}}
 {{$image}}
-
-
+<img src='{{(printf "%s" $test)}}' />
 
 {{- end -}}
 {{- end -}}
