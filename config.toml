@@ -72,7 +72,8 @@ buildFuture = true
         style = "dracula"
     [frontmatter]
         lastmod = ["lastmod", ":git", "date", "publishDate", "modified"]
-        publishDate = ["publishDate", "date", "created"]
+        publishDate = ["created", "publishDate", "date"]
+        date = ["created", "publishDate", "date"]
     [markup.goldmark.renderer]
         unsafe = true
 
