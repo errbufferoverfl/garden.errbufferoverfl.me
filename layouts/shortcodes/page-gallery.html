@@ -13,7 +13,7 @@
   {{- $imgTitle := index (split .Params.cover ".") 0 -}}
   {{- $imgTitle := index (split $imgTitle "/") 2 | humanize -}}
   {{- $resized := $img.Fill "300x300 Center" -}}
-  <a href="{{ $imgLink }}" data-lightbox="x" data-title="<a href='{{.Permalink}}'>{{ $imgTitle }}</a>" data-src="{{.Permalink}}">
+  <a href="{{ $imgLink }}" data-lightbox="x" data-title="<a href='{{.Permalink}}'>{{ .Name }}</a>" data-src="{{.Permalink}}">
     <img src="{{ $resized.Permalink }}" data-src="{{.Permalink}}" width="200"/></a>
 {{- end -}}
 
