@@ -5,8 +5,9 @@ modified: 2023-06-03
 cover: "notes/images/woodcut.png"
 alt: "Demons tempt the dying man with crowns (a medieval allegory to earthly pride) under the disapproving gaze of Mary, Christ and God."
 tags:
-- woodblock
+- woodcut
 - pre-16th century
+- reference
 ---
 
 ![Demons tempt the dying man with crowns (a medieval allegory to earthly pride) under the disapproving gaze of Mary, Christ and God.](notes/images/woodcut.png)

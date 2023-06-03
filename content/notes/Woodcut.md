@@ -6,6 +6,7 @@ tags:
 - seedling
 - relief printing
 - printing
+- woodcut
 - art
 ---
 
@@ -17,4 +18,4 @@ Linocut is a variation of woodcutting where Linoleum is used instead of wood, ma
 
 ## Inspiration
 
-{{<page-gallery tag="woodcut">}}
+{{< page-gallery tag="woodcut">}} 

@@ -5,7 +5,8 @@ modified: 2023-06-03
 cover: "notes/images/woodcut.png"
 alt: "Alchemical image taken from the British alchemical theater of ripley, depicts the two-headed serpent of arabia: azoth and kibrit."
 tags:
-- woodblock
+- reference
+- woodcut
 - 16th century
 ---
 
