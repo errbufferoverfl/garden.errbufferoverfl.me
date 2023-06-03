@@ -3,7 +3,7 @@ let title;
 if (tp.file.title !== "Untitled"){
 	title = tp.file.title
 } else {
-	title = tp.system.prompt('Note Title:')
+	title = await tp.system.prompt('Note Title:')
 }
 tp.file.rename(`${title}`)
 -%>
