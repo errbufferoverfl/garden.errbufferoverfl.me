@@ -5,7 +5,7 @@ if (tp.file.title !== "Untitled"){
 } else {
 	title = await tp.system.prompt('Note Title:')
 }
-tp.file.rename(`${title}`)
+await tp.file.rename(`${title}`)
 -%>
 ---
 title: "<% title %>"

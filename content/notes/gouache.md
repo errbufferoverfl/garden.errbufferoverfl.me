@@ -18,12 +18,4 @@ Gouache is similar to watercolour in that it can be re-hydrated and it infuses w
 
 ## Gouache Paintings
 
-![[notes/images/Lago dAverno.png|400]]
-> 
-
-![[notes/images/gouache-1.png|400]]
-> [@rowan_sugar](https://rowansugar.carrd.co), [Coaster 3/6 for the Salut!](https://www.instagram.com/p/Cst6vuNP8Tj/), 2023
-
-## Resources
-
-- [Gouache Mixing Charts - Part 1](https://fearlessbrush.com/2020/10/11/gouache-mixing-charts-part-1/)
+{{< page-gallery tag="gouache">}} 
