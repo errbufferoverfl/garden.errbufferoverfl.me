@@ -17,9 +17,9 @@ Linocut is a variation of woodcutting where Linoleum is used instead of wood, ma
 
 ## Inspiration
 
-**[[Ars moriendi]]**,  circa 1460, illustrator unknown, en wikipedia. ; [http://userpage.fu-berlin.de/~aeimhof/seelefr.htm](http://userpage.fu-berlin.de/~aeimhof/seelefr.htm)
 
-![Demons tempt the dying man with crowns (a medieval allegory to earthly pride) under the disapproving gaze of Mary, Christ and God.](notes/img/woodcut.png)
+
+![](
 
 ---
 
