@@ -51,7 +51,7 @@
             </div>
             <div class="delay t-3">
                 <h2>Currently Reading</h2>
-                {{$notes := where .Site.RegularPages "Section" "books"}}
+                {{$notes := where .Site.RegularPages "Section" "the-antilibrary"}}
                 <ul class="delay t-3 stagger">
                     {{range first 1 (where $notes "Params.status" "==" "In Progress" ) }}
                     <li>
