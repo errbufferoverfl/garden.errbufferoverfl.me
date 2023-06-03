@@ -5,8 +5,16 @@
 {{- $notes := (where .Site.RegularPages "Params.tags" "intersect" (slice $tag)) -}}
 {{- with $notes -}}
 {{- range . -}}
-{{- $image := resources.Get .Params.cover -}}
+{{.Params.cover}}
+{{$test := index (split .Params.cover "/") 2 }}
+
+{{$test}}
+
+{{- $image := resources.Get (printf "%s/%s" "images/" $test) -}}
+
 {{$image}}
+
+
 
 {{- end -}}
 {{- end -}}
