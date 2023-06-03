@@ -1,13 +1,12 @@
 {{- $status := .Get "status" }}
 {{- $notes := where .Site.Pages "Params.status" $status -}}
-{{ $notes}}
 {{- with $notes -}}
 <ul class="section-ul">
   {{- range . -}}
   <li class="section-li">
     <div class="section">
       <div class="meta">
-        <a href="{{ .Permalink }}"><img src="{{.Params.cover}}"></a>
+        <a href="{{ .Permalink }}"><img src="{{.Params.cover}}" width="96px"></a>
       </div>
       <div class="desc" style="padding-left: 2em;">
         <h3><a href="{{ .Permalink }}" class="internal-link" data-src="{{ .RelPermalink }}">{{- .Title -}}</a></h3>
