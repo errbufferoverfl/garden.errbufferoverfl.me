@@ -12,4 +12,4 @@ If you want to stay connected and show your support, you can follow or supported
 
 ### [[the-art-studio/100 days of gouache/index|100 days of gouache]]
 
-{{< summary link="the-art-studio/100 days of gouache/index">}} 
+{{< summary link="100 days of gouache">}} 
