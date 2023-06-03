@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>oeuvre on errbufferoverlf.me</title>
+    <link>https://garden.errbufferoverfl.me/tags/oeuvre/</link>
+    <description>Recent content in oeuvre on errbufferoverlf.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-AU</language>
+    <copyright>This content is licensed under &lt;a href=&#39;https://creativecommons.org/licenses/by/4.0/&#39;&gt;Creative Commons Attribution-ShareAlike 4.0 International&lt;/a&gt; unless otherwise specified.</copyright>
+    <lastBuildDate>Fri, 02 Jun 2023 00:00:00 +1000</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/tags/oeuvre/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>100 days of gouache</title>
+      <link>https://garden.errbufferoverfl.me/art/100-days-of-gouache/</link>
+      <pubDate>Fri, 02 Jun 2023 00:00:00 +1000</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/art/100-days-of-gouache/</guid>
+      <description>The concept of a 100 days project is you commit to doing something consistently for 100 days straight. For a non sequential 100 days I created a [[notes/gouache|gouache]] painting using 100 Days of Drawing by Jennifer Lewis.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>printing on errbufferoverlf.me</title>
+    <link>https://garden.errbufferoverfl.me/tags/printing/</link>
+    <description>Recent content in printing on errbufferoverlf.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-AU</language>
+    <copyright>This content is licensed under &lt;a href=&#39;https://creativecommons.org/licenses/by/4.0/&#39;&gt;Creative Commons Attribution-ShareAlike 4.0 International&lt;/a&gt; unless otherwise specified.</copyright>
+    <lastBuildDate>Sat, 03 Jun 2023 00:00:00 +1000</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/tags/printing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>woodcut</title>
+      <link>https://garden.errbufferoverfl.me/notes/woodcut/</link>
+      <pubDate>Sat, 03 Jun 2023 00:00:00 +1000</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/notes/woodcut/</guid>
+      <description>A technique originally developed in China as a way of printing on textiles and later on paper, the oldest surviving fragments to survive date back to the Han dynasty (before 220).</description>
+    </item>
+    
+  </channel>
+</rss>
