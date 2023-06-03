@@ -2,7 +2,7 @@
 title: "woodcut"
 created: 2023-06-03
 modified: 2023-06-03
-tags
+tags:
 - seedling
 - relief printing
 - printing
@@ -17,4 +17,6 @@ Linocut is a variation of woodcutting where Linoleum is used instead of wood, ma
 
 ## Inspiration
 
-Ars Moriendi
+![[notes/images/woodcut.png]]
+
+By [[Ars moriendi]] - en wikipedia.; <a rel="nofollow" class="external free" href="http://userpage.fu-berlin.de/~aeimhof/seelefr.htm">http://userpage.fu-berlin.de/~aeimhof/seelefr.htm</a>, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=203317">Link</a>
