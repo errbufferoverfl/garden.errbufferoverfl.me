@@ -7,14 +7,12 @@
 {{- with $notes -}}
   {{- range . -}}
   {{- if .Params.cover -}}
+    {{- $img := .Page.Resources.Get (printf "/%s" .Params.cover) -}}
 
-
-  {{- $img := (.Page.Resources.Get .Params.cover) -}}
-
-{{.Page.Resources}}
-{{.Params.cover}}
+img = {{$img}}
 
 {{- if $img -}}
+"found"
       {{- $imgLink := printf "%s%s" .Site.BaseURL .Params.cover -}}
       {{- $imgTitle := index (split .Params.cover ".") 0 -}}
       {{- $imgTitle := index (split $imgTitle "/") 2 | humanize -}}
