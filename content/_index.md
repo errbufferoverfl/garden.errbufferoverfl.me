@@ -30,7 +30,7 @@ Here are some places you might explore:
 - 📖 [[/notes|the notebook]]: a collection of musings and evolving ideas.
 - 🎨 [[the art studio]]: art & illustrative projects, notes and musings.
 - 🗑️ [[the recycling bin]]: abandoned, archived or long-term incomplete work.
-- 📚 [[the-antilibrary/_index|the antilibrary]]: books that are in some state of read, being read, or to be read.
+- 📚 [[the-antilibrary/|the antilibrary]]: books that are in some state of read, being read, or to be read.
 - 🎙️ [[/soapbox|the soapbox]]: meetup, conference and training that I've previously delivered.
 
 Want to get in touch? Checkout [where to find me](https://links.errbufferoverfl.me).
