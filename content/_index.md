@@ -27,10 +27,10 @@ I work at Canva as an Application Security engineer, focusing on building out a 
 
 Here are some places you might explore:
 
-- 📖 [[the notebook]]: a collection of musings and evolving ideas.
+- 📖 [[/notes|the notebook]]: a collection of musings and evolving ideas.
 - 🎨 [[the art studio]]: art & illustrative projects, notes and musings.
 - 🗑️ [[the recycling bin]]: abandoned, archived or long-term incomplete work.
 - 📚 [[the antilibrary]]: books that are in some state of read, being read, or to be read.
-- 🎙️ [[the soapbox]]: meetup, conference and training that I've previously delivered.
+- 🎙️ [[/soapbox|the soapbox]]: meetup, conference and training that I've previously delivered.
 
 Want to get in touch? Checkout [where to find me](https://links.errbufferoverfl.me).
