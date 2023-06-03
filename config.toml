@@ -6,6 +6,7 @@ baseURL = "https://garden.errbufferoverfl.me/"
 
 staticDir = [
     "static",
+    "content/static",
 ]
 
 # The time zone (or location), e.g. Europe/Oslo, used to parse front matter dates without such information and in the
