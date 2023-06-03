@@ -11,9 +11,14 @@ If you want to stay connected and show your support, you can follow or supported
 
 ### [[art/100 days of gouache|100 days of gouache]]
 
-{{<summary link="">}}
+{{<summary link="100 days of gouache">}}
 
 ## Mediums
 
-- [[notes/gouache|gouache]]
-- [[notes/woodcut|woodcut]]
+### [[notes/gouache|gouache]]
+
+{{<summary link="gouache/">}}
+
+### [[notes/woodcut|woodcut]]
+
+{{<summary link="woodcut/">}}
