@@ -25,4 +25,7 @@ Linocut is a variation of woodcutting where Linoleum is used instead of wood, ma
 
 **Theatrum Chemicum Britannicum**, circa 1652, Elias Ashmole, [The Public Domain Review](https://publicdomainreview.org/collection/theatrum-chemicum)
 
-![[notes/images/woodcut-1.png]]
+![Alchemical image taken from the British alchemical theater of ripley, depicts the two-headed serpent of arabia: azoth and kibrit](notes/images/woodcut-1.png)
+
+---
+
