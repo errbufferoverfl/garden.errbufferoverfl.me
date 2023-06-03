@@ -5,13 +5,14 @@
 {{- $tag := .Get "tag" }}
 {{- $notes := (where .Site.RegularPages "Params.tags" "intersect" (slice $tag)) -}}
 
+{{ .Resources.Match "images/*" }}
+
+
 {{- with $notes -}}
   {{- range . -}}
-{{printf "images/%s<br>" .Params.cover}}
   {{- if .Params.cover -}}
-
-    {{- $img := .Resources.GetMatch (printf "images/%s" .Params.cover) -}}
-
+    {{printf "images/%s" .Params.cover}}<br>
+    {{- $img := .Resources.GetMatch (printf "/images/%s" .Params.cover) -}}
 {{- if $img -}}
 
       {{- $imgLink := printf "%s%s" .Site.BaseURL .Params.cover -}}
