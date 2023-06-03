@@ -181,3 +181,15 @@ hr {
   margin: 3em auto;
   width: 60%;
 }
+
+.section-li > .section p {
+  flex-basis: unset
+}
+
+.meta {
+  min-width: 6em;
+}
+
+.tags {
+  min-width: 11em;
+}
