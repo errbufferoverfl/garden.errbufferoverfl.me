@@ -2,7 +2,7 @@
 title: "Lago d'Averno"
 created: 2023-06-03
 modified: 2023-06-03
-cover: "notes/images/Lago-dAverno.png"
+cover: "Lago-dAverno.png"
 tags:
 - gouache
 - reference
