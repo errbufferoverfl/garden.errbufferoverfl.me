@@ -5,9 +5,6 @@
 {{- $image := (where .Site.RegularPages "Params.tags" "intersect" (slice $tag)) -}}
 {{- with $image -}}
 {{- range . -}}
-{{- $imgTitle := index (split .Name ".") 0 -}}
-{{- $imgTitle := index (split $imgTitle "/") 1 | humanize -}}
-{{- $resized := .Fill "230x300 q20" -}}
-<a href="{{ .Permalink }}" data-lightbox="x" data-title="{{ $imgTitle }}"><img src="{{ $resized.Permalink }}" /></a>
+{{.cover}}
 {{- end -}}
 {{- end -}}
