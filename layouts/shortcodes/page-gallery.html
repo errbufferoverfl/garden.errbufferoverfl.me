@@ -8,6 +8,21 @@
 {{- range . -}}
 
 {{- if .Params.cover -}}
+
+{{ $all_images := slice }}
+{{ range .Site.Pages }}
+{{ $all_images = $all_images | append (.Page.Resources.ByType "image") }}
+{{ end }}
+
+{{$all_images}}
+
+{{ $search_image := "" }}
+{{ with .Page.Resources.GetMatch "Coaster-for-Salut.png" }}
+{{ $search_image = . }}
+{{- end -}}
+
+Some search image {{ $search_image }}
+
   {{- $imgLink := printf "/%s" .Params.cover -}}
   {{- $imgTitle := index (split .Params.cover ".") 0 -}}
   {{- $imgTitle := index (split $imgTitle "/") 2 | humanize -}}

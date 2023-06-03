@@ -2,4 +2,4 @@
 title: "Gallary Shortcode Test"
 ---
 
-{{< page-gallery tag="art">}} 
+{{< page-gallery tag="gouache">}} 
