@@ -8,16 +8,11 @@
 {{- with $notes -}}
   {{- range . -}}
   {{- if .Params.cover -}}
-    {{printf "images/%s" .Params.cover}}<br>
     {{- $img := $.Page.Resources.GetMatch .Params.cover -}}
-{{- if $img -}}
-
-      {{- $imgLink := printf "%s%s" .Site.BaseURL .Params.cover -}}
-      {{- $imgTitle := index (split .Params.cover ".") 0 -}}
-      {{- $imgTitle := index (split $imgTitle "/") 2 | humanize -}}
+    {{- if $img -}}
       {{- $resized := $img.Fill "300x300 Center" -}}
-     <a href="{{ $imgLink }}" data-lightbox="x" data-title="<a href='{{.Permalink}}'>{{ .Name }}</a>" data-src="{{.Permalink}}">
-      <img src="{{ $resized.Permalink }}" data-src="{{.Permalink}}" width="200"/></a>
+     <a href="{{ $img.Permalink }}" data-lightbox="x" data-title="<a href='{{ .Permalink }}'>{{ .Name }}</a>" data-src="{{ .Permalink }}">
+      <img src="{{ $resized.Permalink }}" data-src="{{ .Permalink }}" width="200"/></a>
   {{- end -}}
 {{- end -}}
 
