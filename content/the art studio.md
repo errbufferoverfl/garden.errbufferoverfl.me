@@ -10,9 +10,9 @@ If you want to stay connected and show your support, you can follow or supported
 
 ## Projects
 
-### [[the-art-studio/100 days of gouache/index|100 days of gouache]]
+### [[art/100 days of gouache/index|100 days of gouache]]
 
 
 ## Mediums
 
-{{< page-tagged tag="medium" > }}
+{{<page-tagged tag="medium">}}
