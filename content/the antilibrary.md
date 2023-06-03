@@ -13,14 +13,12 @@ tags:
 
 ## Up Next
 
+{{<page-books status="Up Next">}}
 
 ## Current
 
 {{<page-books status="In Progress">}}
 
-- [[the-antilibrary/Anarchic Agreements a Field Guide to Collective Organising|Anarchic Agreements a Field Guide to Collective Organising]]
-
 ## Past
 
-- [[the-antilibrary/Lost in Work Escaping Capitalism|Lost in Work Escaping Capitalism]]
-- [[the-antilibrary/The Feminist and the Sex Offender|The Feminist and the Sex Offender]]
+{{<page-books status="Completed">}}
