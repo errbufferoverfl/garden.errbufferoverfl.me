@@ -2,7 +2,6 @@
 title: "the antilibrary"
 created: 2023-06-03
 modified: 2023-06-03
-source:
-tags:
-- seedling
+taxonomies: "books"
+type: "taxonomy"
 ---
