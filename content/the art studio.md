@@ -17,8 +17,8 @@ If you want to stay connected and show your support, you can follow or supported
 
 ### [[notes/gouache|gouache]]
 
-{{<summary link="gouache/">}}
+{{<summary link="notes/gouache">}}
 
 ### [[notes/woodcut|woodcut]]
 
-{{<summary link="woodcut/">}}
+{{<summary link="notes/woodcut">}}
