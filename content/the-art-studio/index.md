@@ -10,6 +10,6 @@ If you want to stay connected and show your support, you can follow or supported
 
 ## Projects
 
-### [[the-art-studio/100 days of gouache/index|100 days of gouache]]
+### [[the-art-studio/100 days of gouache/index|index]]
 
 {{< summary link="100 days of gouache">}} 
