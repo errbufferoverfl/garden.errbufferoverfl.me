@@ -6,6 +6,7 @@
 {{- $notes := (where .Site.RegularPages "Params.tags" "intersect" (slice $tag)) -}}
 {{- with $notes -}}
 {{- range . -}}
+
 {{- if .Params.cover -}}
   {{- $img := resources.GetRemote (printf "%s%s" .Site.BaseURL .Params.cover) -}}
   {{- $imgLink := printf "%s%s" .Site.BaseURL .Params.cover -}}
