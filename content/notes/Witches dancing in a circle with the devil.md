@@ -2,7 +2,7 @@
 title: "Witches dancing in a circle with the devil"
 created: 2023-06-03
 modified: 2023-06-03
-cover: "notes/images/woodcut-4.png"
+cover: "woodcut-4.png"
 tags:
 - reference
 - woodcut

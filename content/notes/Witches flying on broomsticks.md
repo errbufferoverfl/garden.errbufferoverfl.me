@@ -2,7 +2,7 @@
 title: "Witches flying on broomsticks"
 created: 2023-06-03
 modified: 2023-06-03
-cover: "notes/images/woodcut-3.png"
+cover: "woodcut-3.png"
 tags:
 - reference
 - woodcut

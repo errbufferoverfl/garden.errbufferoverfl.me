@@ -7,7 +7,12 @@
 {{- with $notes -}}
   {{- range . -}}
   {{- if .Params.cover -}}
-  {{- $img := (.Resources.Get "image") -}}
+
+
+  {{- $img := (.Page.Resources.Get .Params.cover) -}}
+
+{{.Page.Resources}}
+{{.Params.cover}}
 
 {{- if $img -}}
       {{- $imgLink := printf "%s%s" .Site.BaseURL .Params.cover -}}
