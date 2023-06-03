@@ -19,3 +19,4 @@ Gouache is similar to watercolour in that it can be re-hydrated and it infuses w
 
 ## Gouache Paintings
 
+{{< page-gallery tag="gouache">}} 
