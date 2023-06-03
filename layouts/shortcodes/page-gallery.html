@@ -2,6 +2,9 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
 
+{{- $image := (.Page.Resources.ByType "image") -}}
+{{$image}}
+
 {{- $tag := .Get "tag" }}
 {{- $notes := (where .Site.RegularPages "Params.tags" "intersect" (slice $tag)) -}}
 {{- with $notes -}}
@@ -10,7 +13,7 @@
 {{- if .Params.cover -}}
 
   {{ $search_image := "" }}
-  {{ with .Page.Resources.GetMatch "images/Coaster-for-Salut.png" }}
+  {{ with resources.Get "images/Coaster-for-Salut.png" }}
     {{ $search_image = . }}
   {{- end -}}
 
