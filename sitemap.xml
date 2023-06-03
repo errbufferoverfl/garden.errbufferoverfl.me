@@ -157,6 +157,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://garden.errbufferoverfl.me/books/</loc>
+    <lastmod>2023-06-01T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/evergreen/</loc>
     <lastmod>2023-06-02T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -202,7 +207,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://garden.errbufferoverfl.me/the-antilibrary/The-Feminist-and-the-Sex-Offender/</loc>
+    <loc>https://garden.errbufferoverfl.me/books/The-Feminist-and-the-Sex-Offender/</loc>
     <lastmod>2023-06-01T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -222,7 +227,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://garden.errbufferoverfl.me/the-antilibrary/Anarchic-Agreements-a-Field-Guide-to-Collective-Organising/</loc>
+    <loc>https://garden.errbufferoverfl.me/books/Anarchic-Agreements-a-Field-Guide-to-Collective-Organising/</loc>
     <lastmod>2023-05-28T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -248,6 +253,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/political-science/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/the-antilibrary/</loc>
     <lastmod>2023-05-28T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -327,7 +337,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://garden.errbufferoverfl.me/the-antilibrary/Lost-in-Work-Escaping-Capitalism/</loc>
+    <loc>https://garden.errbufferoverfl.me/books/Lost-in-Work-Escaping-Capitalism/</loc>
     <lastmod>2023-05-02T21:14:26+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -464,11 +474,6 @@
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/diy/</loc>
     <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/the-antilibrary/</loc>
-    <lastmod>2023-06-03T19:06:54+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
