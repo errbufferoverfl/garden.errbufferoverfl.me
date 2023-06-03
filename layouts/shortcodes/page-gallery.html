@@ -7,14 +7,10 @@
 {{- range . -}}
 
 {{- if .Params.cover -}}
-
+  {{- $imgLink := printf "/%s" .Params.cover -}}
   {{- $imgTitle := index (split .Params.cover ".") 0 -}}
-  {{- $imgTitle := index (split $imgTitle "/") 1 | humanize -}}
-  <a href="{{ .Params.cover }}" data-lightbox="x" data-title="{{ $imgTitle }}"><img src="{{printf "/%s" .Params.cover}}" /></a>
-
-
-
-  <img src="{{printf "/%s" .Params.cover}}" />
+  {{- $imgTitle := index (split $imgTitle "/") 2 | humanize -}}
+  <a href="{{ $imgLink }}" data-lightbox="x" data-title="<a href='{{.Permalink}}'>{{ $imgTitle }}</a>" data-src="{{.Permalink}}"><img src="{{ $imgLink }}" data-src="{{.Permalink}}"/></a>
 {{- end -}}
 
 {{- end -}}
