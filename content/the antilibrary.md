@@ -16,9 +16,9 @@ tags:
 
 ## Current
 
-- [[books/Anarchic Agreements a Field Guide to Collective Organising|Anarchic Agreements a Field Guide to Collective Organising]]
+- [[the-antilibrary/Anarchic Agreements a Field Guide to Collective Organising|Anarchic Agreements a Field Guide to Collective Organising]]
 
 ## Past
 
-- [[books/Lost in Work Escaping Capitalism|Lost in Work Escaping Capitalism]]
-- [[books/The Feminist and the Sex Offender|The Feminist and the Sex Offender]]
+- [[the-antilibrary/Lost in Work Escaping Capitalism|Lost in Work Escaping Capitalism]]
+- [[the-antilibrary/The Feminist and the Sex Offender|The Feminist and the Sex Offender]]
