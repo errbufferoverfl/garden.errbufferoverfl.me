@@ -8,6 +8,6 @@ tags:
 - reference
 ---
 
-![[notes/img/Coaster-for-Salut.png]]
+![[notes/images/Coaster-for-Salut.png]]
 
 [@rowan_sugar](https://rowansugar.carrd.co), [Coaster 3/6 for the Salut!](https://www.instagram.com/p/Cst6vuNP8Tj/), 2023
