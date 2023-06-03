@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Soapboxes on errbufferoverlf.me</title>
+    <link>https://garden.errbufferoverfl.me/soapbox/</link>
+    <description>Recent content in Soapboxes on errbufferoverlf.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-AU</language>
+    <copyright>This content is licensed under &lt;a href=&#39;https://creativecommons.org/licenses/by/4.0/&#39;&gt;Creative Commons Attribution-ShareAlike 4.0 International&lt;/a&gt; unless otherwise specified.</copyright>
+    <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +1000</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/soapbox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Collapsology: Why your biggest threat isn’t exposed RDP</title>
+      <link>https://garden.errbufferoverfl.me/soapbox/Collapsology-Why-your-biggest-threat-isnt-exposed-RDP/</link>
+      <pubDate>Mon, 13 Sep 2021 00:00:00 +1000</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/soapbox/Collapsology-Why-your-biggest-threat-isnt-exposed-RDP/</guid>
+      <description>In September 2021, I presented a conference talk entitled &amp;ldquo;Collapsology: Why Exposed RDP Isn&amp;rsquo;t Your Biggest Threat&amp;rdquo; where I gave an overview of how to identify cultural threats in a rapidly evolving business landscape, and how we can use modern-day tools to identify these threats before they result in security culture collapse.</description>
+    </item>
+    
+    <item>
+      <title>The Big Cloud Security Debate: Hackers vs Security Engineers</title>
+      <link>https://garden.errbufferoverfl.me/soapbox/The-Big-Cloud-Security-Debate-Hackers-vs-Security-Engineers/</link>
+      <pubDate>Fri, 06 Dec 2019 00:00:00 +1100</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/soapbox/The-Big-Cloud-Security-Debate-Hackers-vs-Security-Engineers/</guid>
+      <description>A debate organised by ANZ, Contino and Meetup Madness where 4 hackers vs 4 security experts engaging in a fiery debate to determine all the ways they can hack and defend cloud environments.</description>
+    </item>
+    
+    <item>
+      <title>A Brief History of Tamper Evident Locks</title>
+      <link>https://garden.errbufferoverfl.me/soapbox/A-Brief-History-of-Tamper-Evident-Locks/</link>
+      <pubDate>Sat, 26 Oct 2019 00:00:00 +1100</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/soapbox/A-Brief-History-of-Tamper-Evident-Locks/</guid>
+      <description>A talk that discussed common &amp;ldquo;canary locks&amp;rdquo; or locks with tamper evident mechanisms through the ages, Buffy trawled through 11,335,427 patents to identify several high and low profile locks and their known, or speculated bypass techniques.</description>
+    </item>
+    
+    <item>
+      <title>Snake Charming for Beginners</title>
+      <link>https://garden.errbufferoverfl.me/soapbox/Snake-Charming-for-Beginners/</link>
+      <pubDate>Fri, 25 Oct 2019 00:00:00 +1100</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/soapbox/Snake-Charming-for-Beginners/</guid>
+      <description>Snake-charming is an age-old practice of hypnotizing snakes by playing and waving a murli - in the modern day this practice looks much different, equipped with an Integrated Development Environment (IDE), a clackity keyboard and a trusty guide we&amp;rsquo;ll be taking you through how you can effectively charm Python 3.</description>
+    </item>
+    
+    <item>
+      <title>Linux Users Victoria Main Meeting Kali Linux</title>
+      <link>https://garden.errbufferoverfl.me/soapbox/Linux-Users-Victoria-Main-Meeting-Kali-Linux/</link>
+      <pubDate>Tue, 07 May 2019 00:00:00 +1000</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/soapbox/Linux-Users-Victoria-Main-Meeting-Kali-Linux/</guid>
+      <description>Come together in ritual to learn about KALI LINUX! A Debian based Penetration Testing and Ethical Hacking distribution, with over 600 pre-installed packages.</description>
+    </item>
+    
+    <item>
+      <title>Agloe: What the Map Makers of the 1930s can Teach us About Protecting our Data in 2018</title>
+      <link>https://garden.errbufferoverfl.me/soapbox/Agloe-What-the-Map-Makers-of-the-1930s-can-Teach-us-About-Protecting-our-Data-in-2018/</link>
+      <pubDate>Fri, 24 Aug 2018 00:00:00 +1000</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/soapbox/Agloe-What-the-Map-Makers-of-the-1930s-can-Teach-us-About-Protecting-our-Data-in-2018/</guid>
+      <description>What does the little town of Agloe, Colchester, NY have in common with modern day data protection? Why when I look for directions to Agloe, Colchester, NY do I only get a partial match?</description>
+    </item>
+    
+    <item>
+      <title>Building your own offline file-sharing and communication system for the inevitable downfall of the Internet</title>
+      <link>https://garden.errbufferoverfl.me/soapbox/Building-your-own-offline-file-sharing-and-communication-system-for-the-inevitable-downfall-of-the-Internet/</link>
+      <pubDate>Sat, 20 Jan 2018 00:00:00 +1100</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/soapbox/Building-your-own-offline-file-sharing-and-communication-system-for-the-inevitable-downfall-of-the-Internet/</guid>
+      <description>Have you ever considered a world where the Internet in all it&amp;rsquo;s grandeur and tyre-fire-ness has finally imploded. Well after living for 8 months without the Internet I did and it looked a little like this.</description>
+    </item>
+    
+  </channel>
+</rss>

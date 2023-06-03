@@ -7,23 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-AU</language>
     <copyright>This content is licensed under &lt;a href=&#39;https://creativecommons.org/licenses/by/4.0/&#39;&gt;Creative Commons Attribution-ShareAlike 4.0 International&lt;/a&gt; unless otherwise specified.</copyright>
-    <lastBuildDate>Sun, 28 May 2023 00:00:00 +1000</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/tags/training/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 25 Oct 2019 00:00:00 +1100</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/tags/training/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Building your own offline file-sharing and communication system for the inevitable downfall of the Internet</title>
-      <link>https://garden.errbufferoverfl.me/notes/Building-your-own-offline-file-sharing-and-communication-system-for-the-inevitable-downfall-of-the-Internet/</link>
-      <pubDate>Sun, 28 May 2023 00:00:00 +1000</pubDate>
+      <title>Snake Charming for Beginners</title>
+      <link>https://garden.errbufferoverfl.me/soapbox/Snake-Charming-for-Beginners/</link>
+      <pubDate>Fri, 25 Oct 2019 00:00:00 +1100</pubDate>
       
-      <guid>https://garden.errbufferoverfl.me/notes/Building-your-own-offline-file-sharing-and-communication-system-for-the-inevitable-downfall-of-the-Internet/</guid>
-      <description>Have you ever considered a world where the Internet in all it&amp;rsquo;s grandeur and tyre-fire-ness has finally imploded. Well after living for 8 months without the Internet I did and it looked a little like this.</description>
+      <guid>https://garden.errbufferoverfl.me/soapbox/Snake-Charming-for-Beginners/</guid>
+      <description>Snake-charming is an age-old practice of hypnotizing snakes by playing and waving a murli - in the modern day this practice looks much different, equipped with an Integrated Development Environment (IDE), a clackity keyboard and a trusty guide we&amp;rsquo;ll be taking you through how you can effectively charm Python 3.</description>
     </item>
     
     <item>
-      <title>Snake Charming for Beginners</title>
-      <link>https://garden.errbufferoverfl.me/notes/Snake-Charming-for-Beginners/</link>
-      <pubDate>Sun, 28 May 2023 00:00:00 +1000</pubDate>
+      <title>Building your own offline file-sharing and communication system for the inevitable downfall of the Internet</title>
+      <link>https://garden.errbufferoverfl.me/soapbox/Building-your-own-offline-file-sharing-and-communication-system-for-the-inevitable-downfall-of-the-Internet/</link>
+      <pubDate>Sat, 20 Jan 2018 00:00:00 +1100</pubDate>
       
-      <guid>https://garden.errbufferoverfl.me/notes/Snake-Charming-for-Beginners/</guid>
-      <description>Snake-charming is an age-old practice of hypnotizing snakes by playing and waving a murli - in the modern day this practice looks much different, equipped with an Integrated Development Environment (IDE), a clackity keyboard and a trusty guide we&amp;rsquo;ll be taking you through how you can effectively charm Python 3.</description>
+      <guid>https://garden.errbufferoverfl.me/soapbox/Building-your-own-offline-file-sharing-and-communication-system-for-the-inevitable-downfall-of-the-Internet/</guid>
+      <description>Have you ever considered a world where the Internet in all it&amp;rsquo;s grandeur and tyre-fire-ness has finally imploded. Well after living for 8 months without the Internet I did and it looked a little like this.</description>
     </item>
     
   </channel>

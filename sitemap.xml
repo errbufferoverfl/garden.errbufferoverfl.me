@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://garden.errbufferoverfl.me/tags/aquarium/</loc>
+    <lastmod>2023-06-03T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/notes/Aquarium-Algae-Scrubber/</loc>
+    <lastmod>2023-06-03T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/notes/</loc>
+    <lastmod>2023-06-03T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/project/</loc>
+    <lastmod>2023-06-03T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/seedling/</loc>
+    <lastmod>2023-06-03T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/solarpunk/</loc>
+    <lastmod>2023-06-03T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/</loc>
+    <lastmod>2023-06-03T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://garden.errbufferoverfl.me/art/100-days-of-gouache/</loc>
     <lastmod>2023-06-02T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -17,37 +52,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/evergreen/</loc>
-    <lastmod>2023-06-02T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/gouache/</loc>
     <lastmod>2023-06-02T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/notes/gouache/</loc>
-    <lastmod>2023-06-02T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/notes/</loc>
-    <lastmod>2023-06-02T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/personal/</loc>
-    <lastmod>2023-06-02T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/</loc>
-    <lastmod>2023-06-02T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/the-recycling-bin/</loc>
     <lastmod>2023-06-02T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -64,6 +74,11 @@
   </url><url>
     <loc>https://garden.errbufferoverfl.me/books/</loc>
     <lastmod>2023-06-01T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/evergreen/</loc>
+    <lastmod>2023-06-02T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -87,6 +102,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/personal/</loc>
+    <lastmod>2023-06-02T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/philosophy/</loc>
     <lastmod>2023-06-01T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -107,6 +127,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://garden.errbufferoverfl.me/the-recycling-bin/</loc>
+    <lastmod>2023-06-02T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/theory/</loc>
     <lastmod>2023-06-01T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -114,26 +139,6 @@
   </url><url>
     <loc>https://garden.errbufferoverfl.me/the-art-studio/</loc>
     <lastmod>2023-05-31T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/the-notebook/</loc>
-    <lastmod>2023-05-31T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/notes/Supporters-Ko-Fi-Weekly-Roundup/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/notes/A-Brief-History-of-Tamper-Evident-Locks/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/notes/Agloe-What-the-Map-Makers-of-the-1930s-can-Teach-us-About-Protecting-our-Data-in-2018/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -152,62 +157,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/application-security/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/notes/Building-your-own-offline-file-sharing-and-communication-system-for-the-inevitable-downfall-of-the-Internet/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/canary-technology/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/notes/Collapsology-Why-your-biggest-threat-isnt-exposed-RDP/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/conference/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/constitutions/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/debate/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/digital-commons/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/diy/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/notes/errbufferoverfl/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/exploit-development/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/hacking/</loc>
     <lastmod>2023-05-28T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -217,82 +167,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://garden.errbufferoverfl.me/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/infosec/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/kofi/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/linux/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/locksport/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/notes/LUV-May-2019-Main-Meeting-Kali-Linux/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/meetup/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/political-science/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/pycon/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/python/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/security/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/security-culture/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/security-engineer/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/notes/Snake-Charming-for-Beginners/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/social-engineering/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/supporters/</loc>
     <lastmod>2023-05-28T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -302,22 +177,37 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://garden.errbufferoverfl.me/notes/The-Big-Cloud-Security-Debate-Hackers-vs-Security-Engineers/</loc>
+    <loc>https://garden.errbufferoverfl.me/notes/Supporters-Ko-Fi-Weekly-Roundup/</loc>
     <lastmod>2023-05-28T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://garden.errbufferoverfl.me/the-soapbox/</loc>
+    <loc>https://garden.errbufferoverfl.me/tags/application-security/</loc>
     <lastmod>2023-05-28T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/thinkst/</loc>
+    <loc>https://garden.errbufferoverfl.me/notes/errbufferoverfl/</loc>
     <lastmod>2023-05-28T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/training/</loc>
+    <loc>https://garden.errbufferoverfl.me/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/kofi/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/security-engineer/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/supporters/</loc>
     <lastmod>2023-05-28T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -369,6 +259,136 @@
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/sociology/</loc>
     <lastmod>2023-05-02T21:14:26+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/soapbox/Collapsology-Why-your-biggest-threat-isnt-exposed-RDP/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/conference/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/pycon/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/security-culture/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/soapbox/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/social-engineering/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/debate/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/infosec/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/security/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/soapbox/The-Big-Cloud-Security-Debate-Hackers-vs-Security-Engineers/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/soapbox/A-Brief-History-of-Tamper-Evident-Locks/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/canary-technology/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/hacking/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/locksport/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/exploit-development/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/python/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/soapbox/Snake-Charming-for-Beginners/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/training/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/linux/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/soapbox/Linux-Users-Victoria-Main-Meeting-Kali-Linux/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/meetup/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/soapbox/Agloe-What-the-Map-Makers-of-the-1930s-can-Teach-us-About-Protecting-our-Data-in-2018/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/thinkst/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/soapbox/Building-your-own-offline-file-sharing-and-communication-system-for-the-inevitable-downfall-of-the-Internet/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/digital-commons/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/diy/</loc>
+    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
