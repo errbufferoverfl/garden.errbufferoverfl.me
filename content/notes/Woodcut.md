@@ -19,7 +19,10 @@ Linocut is a variation of woodcutting where Linoleum is used instead of wood, ma
 
 **[[Ars moriendi]]**,  circa 1460, illustrator unknown, en wikipedia. ; [http://userpage.fu-berlin.de/~aeimhof/seelefr.htm](http://userpage.fu-berlin.de/~aeimhof/seelefr.htm)
 
-![[notes/images/woodcut.png alt="Demons tempt the dying man with crowns (a medieval allegory to earthly pride) under the disapproving gaze of Mary, Christ and God."]]
+![Demons tempt the dying man with crowns (a medieval allegory to earthly pride) under the disapproving gaze of Mary, Christ and God.](notes/images/woodcut.png)
 
 ---
 
+**Theatrum Chemicum Britannicum**, circa 1652, Elias Ashmole, [The Public Domain Review](https://publicdomainreview.org/collection/theatrum-chemicum)
+
+![[notes/images/woodcut-1.png]]
