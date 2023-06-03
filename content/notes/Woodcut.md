@@ -19,23 +19,23 @@ Linocut is a variation of woodcutting where Linoleum is used instead of wood, ma
 
 **[[Ars moriendi]]**,  circa 1460, illustrator unknown, en wikipedia. ; [http://userpage.fu-berlin.de/~aeimhof/seelefr.htm](http://userpage.fu-berlin.de/~aeimhof/seelefr.htm)
 
-![Demons tempt the dying man with crowns (a medieval allegory to earthly pride) under the disapproving gaze of Mary, Christ and God.](static/images/woodcut.png)
+![Demons tempt the dying man with crowns (a medieval allegory to earthly pride) under the disapproving gaze of Mary, Christ and God.](notes/images/woodcut.png)
 
 ---
 
 **Theatrum Chemicum Britannicum**, circa 1652, Elias Ashmole, [The Public Domain Review](https://publicdomainreview.org/collection/theatrum-chemicum)
 
-![Alchemical image taken from the British alchemical theater of ripley, depicts the two-headed serpent of arabia: azoth and kibrit](static/images/woodcut-1.png)
+![Alchemical image taken from the British alchemical theater of ripley, depicts the two-headed serpent of arabia: azoth and kibrit](notes/images/woodcut-1.png)
 
 ---
 
 **The history of witches and wizards: giving a true account of all their tryals in England, Scotland, Swedeland, France, and New England; with their confession and condemnation**, circa 1720, Collected from Bishop Hall, Bishop Morton, Sir Matthew Hale, etc., [Wellcome Collection](https://wellcomecollection.org/works/abkab8tq/images?id=a3nuy2zq)
 
 *A feast around a table with devils and witches*
-![A feast around a table with devils and witches](static/images/woodcut-2.png)
+![A feast around a table with devils and witches](notes/images/woodcut-2.png)
 
 *Witches flying on broomsticks*
-![Witches flying on broomsticks](static/images/woodcut-3.png)
+![Witches flying on broomsticks](notes/images/woodcut-3.png)
 
 *Witches dancing in a circle with the devil*
-![Witches dancing in a circle with the devil](static/images/woodcut-4.png)
+![Witches dancing in a circle with the devil](notes/images/woodcut-4.png)
