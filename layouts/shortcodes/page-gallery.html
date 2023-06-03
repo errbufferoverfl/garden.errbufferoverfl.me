@@ -6,7 +6,16 @@
 {{- with $notes -}}
 {{- range . -}}
 
-  <img src="(printf '/%s' .Params.cover)" />
+{{- if .Params.cover -}}
+
+  {{- $imgTitle := index (split .Params.cover ".") 0 -}}
+  {{- $imgTitle := index (split $imgTitle "/") 1 | humanize -}}
+  <a href="{{ .Params.cover }}" data-lightbox="x" data-title="{{ $imgTitle }}"><img src="{{printf "/%s" .Params.cover}}" /></a>
+
+
+
+  <img src="{{printf "/%s" .Params.cover}}" />
+{{- end -}}
 
 {{- end -}}
 {{- end -}}
