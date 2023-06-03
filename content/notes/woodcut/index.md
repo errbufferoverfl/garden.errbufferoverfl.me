@@ -3,8 +3,7 @@ title: "woodcut"
 created: 2023-06-03
 modified: 2023-06-03
 tags:
-- seedling
-- relief printing
+- medium
 - printing
 - woodcut
 - art

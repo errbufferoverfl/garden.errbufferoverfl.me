@@ -6,6 +6,7 @@ tags:
 - medium
 - painting
 - gouache
+- art
 ---
 
 Gouache is a water based medium made of pigment, water and a binding agent, normally gum arabic or dextrin. 

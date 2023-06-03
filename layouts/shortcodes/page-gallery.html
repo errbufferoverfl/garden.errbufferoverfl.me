@@ -4,11 +4,10 @@
 
 {{- $tag := .Get "tag" }}
 {{- $notes := (where .Site.RegularPages "Params.tags" "intersect" (slice $tag)) -}}
-
 {{- with $notes -}}
   {{- range . -}}
   {{- if .Params.cover -}}
-    {{- $img := $.Page.Resources.GetMatch .Params.cover -}}
+    {{- $img := $.Page.Resources.GetMatch (printf "images/%s" .Params.cover) -}}
     {{- if $img -}}
       {{- $resized := $img.Fill "300x300 Center" -}}
      <a href="{{ $img.Permalink }}" data-lightbox="x" data-title="<a href='{{ .Permalink }}'>{{ .Name }}</a>" data-src="{{ .Permalink }}">
