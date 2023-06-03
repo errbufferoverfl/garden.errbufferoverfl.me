@@ -31,7 +31,7 @@
             </div>
             <div class="delay t-3">
                 <h2>Recent Notes</h2>
-                {{$notes := where .Site.RegularPages "Section" "thoughts"}}
+                {{$notes := where .Site.RegularPages "Section" "notes"}}
                 <ul class="delay t-3 stagger">
                     {{range first 2 $notes }}
                     <li>
@@ -47,7 +47,7 @@
                     </li>
                     {{end}}
                 </ul>
-                <a href="/thoughts">See {{sub (len $notes) 2}} more →</a>
+                <a href="/notes">See {{sub (len $notes) 2}} more →</a>
             </div>
             <div class="delay t-3">
                 <h2>Currently Reading</h2>
