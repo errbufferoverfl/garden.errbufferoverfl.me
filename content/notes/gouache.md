@@ -2,7 +2,6 @@
 title: "gouache"
 created: 2023-06-02
 modified: 2023-06-02
-cover: "notes/images/gouache.png"
 tags:
 - art
 - gouache

@@ -2,7 +2,7 @@
 title: "Coaster for Salut"
 created: 2023-06-03
 modified: 2023-06-03
-cover: "notes/images/Coaster-for-Salute.png"
+cover: "notes/images/Coaster-for-Salut.png"
 tags:
 - gouache
 - reference

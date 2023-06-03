@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" />
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
+
 {{- $tag := .Get "tag" }}
 {{- $notes := (where .Site.RegularPages "Params.tags" "intersect" (slice $tag)) -}}
 {{- with $notes -}}
@@ -10,7 +11,8 @@
   {{- $imgLink := printf "/%s" .Params.cover -}}
   {{- $imgTitle := index (split .Params.cover ".") 0 -}}
   {{- $imgTitle := index (split $imgTitle "/") 2 | humanize -}}
-  <a href="{{ $imgLink }}" data-lightbox="x" data-title="<a href='{{.Permalink}}'>{{ $imgTitle }}</a>" data-src="{{.Permalink}}"><img src="{{ $imgLink }}" data-src="{{.Permalink}}"/></a>
+  <a href="{{ $imgLink }}" data-lightbox="x" data-title="<a href='{{.Permalink}}'>{{ $imgTitle }}</a>" data-src="{{.Permalink}}">
+    <img src="{{ $imgLink }}" data-src="{{.Permalink}}" width="300"/></a>
 {{- end -}}
 
 {{- end -}}
