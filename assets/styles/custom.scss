@@ -193,3 +193,10 @@ hr {
 .tags {
   min-width: 11em;
 }
+
+/*
+Fixes an issue on the lightbox where the left margin was double the with of the border making it look wonky
+ */
+.lightbox .lb-image {
+  margin-left: 0;
+}
