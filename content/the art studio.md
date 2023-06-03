@@ -9,8 +9,11 @@ If you want to stay connected and show your support, you can follow or supported
 
 ## Projects
 
-{{<page-tagged tag="oeuvre">}}
+### [[art/100 days of gouache|100 days of gouache]]
+
+{{<summary link="">}}
 
 ## Mediums
 
-{{<page-tagged tag="medium">}}
+- [[notes/gouache|gouache]]
+- [[notes/woodcut|woodcut]]
