@@ -2,10 +2,7 @@
 title: "The history of witches and wizards"
 created: 2023-06-03
 modified: 2023-06-03
-cover:
-- "notes/images/woodcut-2.png"
-- "notes/images/woodcut-3.png"
-- "notes/images/woodcut-4.png"
+cover: "notes/images/woodcut-2.png"
 tags:
 - reference
 - woodcut
