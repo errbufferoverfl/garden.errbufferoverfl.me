@@ -2,21 +2,19 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
 
-{{- $image := (.Page.Resources.ByType "image") -}}
-{{$image}}
-
 {{- $tag := .Get "tag" }}
 {{- $notes := (where .Site.RegularPages "Params.tags" "intersect" (slice $tag)) -}}
 {{- with $notes -}}
 {{- range . -}}
 
 {{- if .Params.cover -}}
-  {{- $imgLink := resources.GetRemote (printf "%s%s" .Site.BaseURL .Params.cover) -}}
-{{(printf "%s%s" .Site.BaseURL .Params.cover)}}
+  {{- $img := resources.GetRemote (printf "%s%s" .Site.BaseURL .Params.cover) -}}
+  {{- $imgLink := printf "%s%s" .Site.BaseURL .Params.cover -}}
   {{- $imgTitle := index (split .Params.cover ".") 0 -}}
   {{- $imgTitle := index (split $imgTitle "/") 2 | humanize -}}
+  {{- $resized := $img.Fill "200x200 q20 Center" -}}
   <a href="{{ $imgLink }}" data-lightbox="x" data-title="<a href='{{.Permalink}}'>{{ $imgTitle }}</a>" data-src="{{.Permalink}}">
-    <img src="{{ $imgLink }}" data-src="{{.Permalink}}" width="300"/></a>
+    <img src="{{ $resized.Permalink }}" data-src="{{.Permalink}}" width="300"/></a>
 {{- end -}}
 
 {{- end -}}
