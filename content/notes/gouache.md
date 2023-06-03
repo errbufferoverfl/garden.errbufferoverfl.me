@@ -19,9 +19,9 @@ Gouache is similar to watercolour in that it can be re-hydrated and it infuses w
 ## Gouache Paintings
 
 ![[notes/images/gouache.png|400]]
-> [Jacob Philipp Hackert](https://en.wikipedia.org/wiki/Jacob_Philipp_Hackert "Jacob Philipp Hackert"), _[Lago d'Averno](https://en.wikipedia.org/wiki/Lago_d%27Averno "Lago d'Averno")_, 1794
+> 
 
-![[notes/images/gouache-1.png|400]]
+![[notes/images/Lago d'Averno.png|400]]
 > [@rowan_sugar](https://rowansugar.carrd.co), [Coaster 3/6 for the Salut!](https://www.instagram.com/p/Cst6vuNP8Tj/), 2023
 
 ## Resources
