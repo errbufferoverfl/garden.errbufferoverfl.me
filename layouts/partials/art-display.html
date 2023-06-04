@@ -7,10 +7,8 @@
       <div class="section">
         <div class="desc">
           {{ if .Params.cover }}
-          {{.}}
-          {{.Params.cover}}
           {{ $img := .Resources.GetMatch (printf "images/%s" .Params.cover) }}
-          <a href="{{ .Permalink }}"><img src="{{ $img }}" width="200vw"></a>
+          <a href="{{ .Permalink }}"><img src="{{ $img.Permalink }}" width="200vw"></a>
           <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
           {{ else }}
           <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
@@ -24,5 +22,5 @@
     </li>
     {{end}}
   </ul>
-  <a href="/books">See {{sub (len $notes) 1}} more →</a>
+  <a href="/art">See {{sub (len $notes) 1}} more →</a>
 </div>

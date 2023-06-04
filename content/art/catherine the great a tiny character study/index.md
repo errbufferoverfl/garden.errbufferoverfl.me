@@ -1,10 +1,11 @@
 ---
-title: "Catherine the Great - A Tiny Character Study"
+title: "👑 Catherine the Great - A Tiny Character Study"
 alias:
 - "Catherine the Great - A Tiny Character Study"
 created: 2023-06-04
 modified: 2023-06-04
-cover: "Catherine the Great - A Tiny Character Study.png"
+series: "Character Studies"
+cover: "catherine-the-great-study.png"
 tags:
 - oeuvre
 - character-study

@@ -9,26 +9,6 @@
     <img id="banner" src="/banner.svg" />
     <div class="bio">
         <div class="writing-sidebar">
-            <div class="delay t-2">
-                <h2>Recent Writing</h2>
-                {{$writing := where .Site.RegularPages "Section" "posts" }}
-                <ul class="delay t-2 stagger">
-                    {{range first 3 $writing }}
-                    <li>
-                        <div class="section">
-                            <div class="desc">
-                                <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
-                            </div>
-                            <p class="meta">
-                                {{.WordCount}} words on {{partial "date-fmt.html" .}}
-                            </p>
-                            {{partial "tags.html" .}}
-                        </div>
-                    </li>
-                    {{end}}
-                </ul>
-                <a href="/posts">See {{sub (len $writing) 3}} more →</a>
-            </div>
             <div class="delay t-3">
                 <h2>Recent Notes</h2>
                 {{$notes := where .Site.RegularPages "Section" "notes"}}
@@ -50,6 +30,26 @@
                 <a href="/notes">See {{sub (len $notes) 2}} more →</a>
             </div>
             {{ partial "art-display.html" .}}
+            <div class="delay t-2">
+                <h2>Recent Writing</h2>
+                {{$writing := where .Site.RegularPages "Section" "posts" }}
+                <ul class="delay t-2 stagger">
+                    {{range first 3 $writing }}
+                    <li>
+                        <div class="section">
+                            <div class="desc">
+                                <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
+                            </div>
+                            <p class="meta">
+                                {{.WordCount}} words on {{partial "date-fmt.html" .}}
+                            </p>
+                            {{partial "tags.html" .}}
+                        </div>
+                    </li>
+                    {{end}}
+                </ul>
+                <a href="/posts">See {{sub (len $writing) 3}} more →</a>
+            </div>
             <div class="delay t-3">
                 <h2>Currently Reading</h2>
                 {{$notes := where .Site.RegularPages "Section" "books"}}
