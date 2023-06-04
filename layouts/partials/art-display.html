@@ -7,8 +7,10 @@
       <div class="section">
         <div class="desc">
           {{ if .Params.cover }}
-          {{ img := .resource.Get .Params.cover }}
-          <a href="{{ .Permalink }}"><img src="{{ .Params.cover }}" width="200vw"></a>
+          {{.}}
+          {{.Params.cover}}
+          {{ $img := .Resources.GetMatch (printf "images/%s" .Params.cover) }}
+          <a href="{{ .Permalink }}"><img src="{{ $img }}" width="200vw"></a>
           <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
           {{ else }}
           <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>

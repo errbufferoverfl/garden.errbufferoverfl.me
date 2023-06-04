@@ -14,6 +14,6 @@ I've been sick these past few days, so I've been watching a lot of "The Great" a
 
 I'm absolutely in love with all the characters and their performance, especially Elle Fanning and Nicholas Hoult so I drew up a little study of Catherine storming around the Winter Palace.
 
-![[art/catherine the great a tiny character study/images/Catherine the Great - A Tiny Character Study.png]]
+![[art/catherine the great a tiny character study/images/catherine-the-great-study.png]]
 
 Check it out on Ko-Fi
