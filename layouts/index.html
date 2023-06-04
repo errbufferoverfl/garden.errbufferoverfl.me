@@ -49,7 +49,7 @@
                 </ul>
                 <a href="/notes">See {{sub (len $notes) 2}} more →</a>
             </div>
-            {{partial "art-display.html" . }}
+            {{ partial "art-display.html" .}}
             <div class="delay t-3">
                 <h2>Currently Reading</h2>
                 {{$notes := where .Site.RegularPages "Section" "books"}}

@@ -1,13 +1,19 @@
 <div class="delay t-3">
   <h2>Recent Art</h2>
-  {{$notes := where .Site.RegularPages "Section" "art"}}
+  {{- $notes := (where .Site.RegularPages "Params.tags" "intersect" (slice "oeuvre")) -}}
   <ul class="delay t-3 stagger">
-    {{range first 1 }}
+    {{range first 1 $notes }}
     <li>
       <div class="section">
         <div class="desc">
-          <a href="{{ .Permalink }}"><img src="{{.Params.cover}}" width="200vw"></a>
+          {{ if .Params.cover }}
+          {{ img := .resource.Get .Params.cover }}
+          <a href="{{ .Permalink }}"><img src="{{ .Params.cover }}" width="200vw"></a>
           <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
+          {{ else }}
+          <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
+          {{ .Summary }}
+          {{ end }}
         </div>
         <p class="meta">
           {{ .Lastmod.Format "Jan 2, 2006" }}
