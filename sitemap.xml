@@ -12,7 +12,42 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/economics/</loc>
+    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/feminism/</loc>
+    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/gender/</loc>
+    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/oeuvre/</loc>
+    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/politics/</loc>
+    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/posts/</loc>
+    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/posts/reproductive-labor/</loc>
+    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/seedling/</loc>
     <lastmod>2023-06-04T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -102,11 +137,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/seedling/</loc>
-    <lastmod>2023-06-03T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/solarpunk/</loc>
     <lastmod>2023-06-03T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -163,12 +193,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/book/</loc>
-    <lastmod>2023-06-01T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/books/</loc>
-    <lastmod>2023-06-01T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -187,11 +217,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/gender/</loc>
-    <lastmod>2023-06-01T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/non-fiction/</loc>
     <lastmod>2023-06-01T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -203,12 +228,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/philosophy/</loc>
-    <lastmod>2023-06-01T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/politics/</loc>
-    <lastmod>2023-06-01T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -228,7 +248,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/theory/</loc>
-    <lastmod>2023-06-01T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -327,16 +347,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/economics/</loc>
-    <lastmod>2023-05-02T21:14:26+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/feminism/</loc>
-    <lastmod>2023-05-02T21:14:26+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/history/</loc>
     <lastmod>2023-05-02T21:14:26+10:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -354,6 +364,26 @@
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/sociology/</loc>
     <lastmod>2023-05-02T21:14:26+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/essays/</loc>
+    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/nonfiction/</loc>
+    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/books/Revolution-at-Point-Zero/</loc>
+    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/social-science/</loc>
+    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
