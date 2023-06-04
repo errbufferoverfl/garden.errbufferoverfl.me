@@ -2,6 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://garden.errbufferoverfl.me/art/</loc>
+    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/character-study/</loc>
+    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/oeuvre/</loc>
+    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/</loc>
+    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/art/catherine-the-great-a-tiny-character-study/</loc>
+    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/16th-century/</loc>
     <lastmod>2023-06-03T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -87,11 +112,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/</loc>
-    <lastmod>2023-06-03T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://garden.errbufferoverfl.me/notes/A-feast-around-a-table-with-devils-and-witches/</loc>
     <lastmod>2023-06-03T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -127,17 +147,7 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://garden.errbufferoverfl.me/art/</loc>
-    <lastmod>2023-06-02T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://garden.errbufferoverfl.me/notes/gouache/</loc>
-    <lastmod>2023-06-02T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/oeuvre/</loc>
     <lastmod>2023-06-02T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -223,7 +233,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/the-art-studio/</loc>
-    <lastmod>2023-05-31T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
