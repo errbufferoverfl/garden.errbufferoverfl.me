@@ -21,9 +21,11 @@ So when discussing reproductive labor in any context I think it’s important to
 
 So while we can generally agree reproductive labor is critical to the capitalist production process it remains a blind spot in mainstream economics. Instead we focus on activities that are considered *productive* like generating goods and services that are remunerated and market-intermediated.
 
-This helps us understand why related types of labor Elder Care are also very often undervalued (if at all) – the elderly often don’t reproduce the labor force – and Elder Care instead it focuses on what we do with people when they “no longer have value to the market”.
+This helps us understand why related types of labor, like elder care are also often even more undervalued than other types of labor like cleaning – we can justify paying someone to keep our houses clean, but we are surprised when [aged care employees strike](https://www.sbs.com.au/news/article/interim-pay-rise-for-some-aged-care-workers-in-australia-welcomed-but-unions-urge-more-action/hhv5vmeva). 
 
-Ultimately, most social and economic models of society wether they are progressive, or radical-left aligned tend to overlook reproductive labor often because the people who are writing the economic models, aren’t the ones reproducing labor.
+The elderly often don’t reproduce the labor force, and elder care focuses on what we do with people when they “no longer have value to the market”.
+
+Ultimately, most social and economic models of society wether they are progressive-, or radical-left aligned tend to overlook reproductive labor often because the people who are writing the essays and economic models, aren’t the ones reproducing labor.
 
 Additionally, as far as I’ve seen a lot of contemporary writing about reproductive labor has remained focused on heteronormative relationships which means that even if we were to develop more accurate economic models, until they are more considerate of queer relationships we will never be able to discuss, build, and experiment with more egalitarian labor models.
 
