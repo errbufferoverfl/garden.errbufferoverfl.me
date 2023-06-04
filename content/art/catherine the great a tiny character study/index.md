@@ -13,3 +13,5 @@ tags:
 Been watching a lot of "The Great" a quasi-historical comedy-drama based on the rise to power of Catherine the Great, Empress of All Russia. So I drew up a little study of Catherine storming around the Winter Palace.
 
 ![[art/catherine the great a tiny character study/images/Catherine the Great - A Tiny Character Study.png]]
+
+Check it out on Ko-Fi

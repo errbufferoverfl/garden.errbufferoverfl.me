@@ -7,7 +7,7 @@
   <div class="spacer"></div>
   <ul class="tags">
     {{ range ($page.GetTerms "tags") }}
-    <li><a href="{{ $page.Permalink }}">{{ $page.LinkTitle | title}}</a></li>
+    <li><a href="{{ .Permalink }}">{{ .LinkTitle | title}}</a></li>
     {{ end }}
   </ul>
 </div>
