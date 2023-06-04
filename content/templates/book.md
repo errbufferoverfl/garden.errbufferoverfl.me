@@ -4,11 +4,10 @@ let genre = "{{category}}".split(',');
 -%>
 ---
 title: "{{title}}"
-cover: "{{cover}}"
+cover: "{{coverUrl}}"
 created: <% tp.file.creation_date("YYYY-MM-DD") %>
 modified: <% tp.file.creation_date("YYYY-MM-DD") %>
 status: "Backlog"
-enableToc: false
 tags:
 - book
 <% genre.map(line => `- ${line}\n`.replace(" ", "-").toLowerCase()) -%>
