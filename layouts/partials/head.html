@@ -10,8 +10,19 @@
   />
   <meta property="og:title" content="{{ .Title }}">
   <meta property="og:description" content="{{if .IsHome}}{{$data.description | default $.Site.Data.config.description}}{{else}}{{.Summary}}{{end}}">
+  {{- $type := .Params.og_type -}}
+  {{- if $type -}}
+  <meta property="og:type" content="{{ $type }}">
+  {{- else -}}
   <meta property="og:type" content="website">
-  <meta property="og:image" content="{{.Site.BaseURL}}icon.png">
+  {{- end -}}
+
+  {{- $img := .Params.og_img -}}
+  {{- if $img -}}
+  <meta property="og:image" content="{{.Site.BaseURL}}notes/images/{{ $img }}">
+  {{- else -}}
+  <meta property="og:image" content="{{.Site.BaseURL}}notes/images/opengraph-template.png">
+  {{- end -}}
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:width" content="200">
   <meta property="og:height" content="200">

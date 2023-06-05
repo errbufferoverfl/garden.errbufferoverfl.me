@@ -2,9 +2,9 @@
 title: "Revolution at Point Zero"
 cover: "http://books.google.com/books/content?id=O7VHEAAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
 created: 2023-01-28
-modified: 2023-06-04
+modified: 2023-06-05
 status: "Completed"
-enableToc: false
+og_type: "book"
 tags:
 - book
 - social science

@@ -1,10 +1,10 @@
 ---
 title: "Anarchic Agreements, a Field Guide to Collective Organising"
-cover: "http://books.google.com/books/content?id=4DZYEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
 created: 2023-05-28
-modified: 2023-05-28
+modified: 2023-06-05
+cover: "http://books.google.com/books/content?id=4DZYEAAAQBAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
 status: "In Progress"
-enableToc: false
+og_type: "book"
 tags:
 - political-science
 - anarchy

@@ -1,8 +1,11 @@
 ---
 title: "The history of witches and wizards"
 created: 2023-06-03
-modified: 2023-06-03
+modified: 2023-06-05
 cover: "woodcut-2.png"
+og_type: "article"
+og_img: "opengraph-template.png"
+summary: "The history of witches and wizards: giving a true account of all their tryals in England, Scotland, Swedeland, France, and New England; with their confession and condemnation."
 tags:
 - reference
 - woodcut

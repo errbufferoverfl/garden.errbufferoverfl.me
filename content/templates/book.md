@@ -8,6 +8,7 @@ cover: "{{coverUrl}}"
 created: <% tp.file.creation_date("YYYY-MM-DD") %>
 modified: <% tp.file.creation_date("YYYY-MM-DD") %>
 status: "Backlog"
+og_type: "book"
 tags:
 - book
 <% genre.map(line => `- ${line}\n`.replace(" ", "-").toLowerCase()) -%>

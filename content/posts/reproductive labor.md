@@ -3,8 +3,10 @@ title: "reproductive labor"
 alias:
 - "reproductive work"
 created: 2023-06-04
-modified: 2023-06-04
-source:
+modified: 2023-06-05
+og_type: "article"
+og_img: "open-graph-reproductive-labor.png"
+summary: "Reproductive labor was first brought into the discourse during the wages for housework campaign during the 1970s (discussed in Revolution at Point Zero). Referring to it this was is important because it emphasises that reproductive activities are also labor that are enforced by the gender hierarchy and not a goodwill gesture of women."
 tags:
 - seedling
 - feminism

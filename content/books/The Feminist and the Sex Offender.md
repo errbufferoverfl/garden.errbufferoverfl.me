@@ -4,7 +4,7 @@ cover: "https://cdn.shopify.com/s/files/1/0569/3869/2669/products/getimage_46072
 created: 2023-06-01
 modified: 2023-06-01
 status: "Completed"
-enableToc: false
+og_type: "book"
 tags:
 - non-fiction
 - book

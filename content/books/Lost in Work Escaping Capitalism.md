@@ -1,10 +1,10 @@
 ---
 title: "Lost in Work Escaping Capitalism"
-created: 2023-04-10 08:32:42
-modified: 2023-05-02 21:14:26
+created: 2023-04-10
+modified: 2023-06-05
 cover: "http://books.google.com/books/content?id=dWqJzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
 status: "Completed"
-enableToc: false
+og_type: "book"
 tags:
 - non-fiction 
 - politics  
