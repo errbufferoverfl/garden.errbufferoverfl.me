@@ -3,7 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://garden.errbufferoverfl.me/art/</loc>
-    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-06T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/art/autumn-pumpkins/</loc>
+    <lastmod>2023-06-06T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/digital-painting/</loc>
+    <lastmod>2023-06-06T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/oeuvre/</loc>
+    <lastmod>2023-06-06T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/</loc>
+    <lastmod>2023-06-06T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -27,11 +47,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/oeuvre/</loc>
-    <lastmod>2023-06-04T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/politics/</loc>
     <lastmod>2023-06-05T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -52,18 +67,13 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/</loc>
-    <lastmod>2023-06-05T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://garden.errbufferoverfl.me/art/catherine-the-great-a-tiny-character-study/</loc>
     <lastmod>2023-06-04T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/16th-century/</loc>
-    <lastmod>2023-06-03T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-05T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -73,17 +83,17 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/aquarium/</loc>
-    <lastmod>2023-06-03T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-05T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/notes/Aquarium-Algae-Scrubber/</loc>
-    <lastmod>2023-06-03T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-05T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/notes/Ars-moriendi/</loc>
-    <lastmod>2023-06-03T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-05T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -118,7 +128,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/pre-16th-century/</loc>
-    <lastmod>2023-06-03T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-05T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -128,7 +138,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/project/</loc>
-    <lastmod>2023-06-03T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-05T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -138,7 +148,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/solarpunk/</loc>
-    <lastmod>2023-06-03T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-05T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -148,17 +158,17 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/notes/Theatrum-Chemicum-Britannicum/</loc>
-    <lastmod>2023-06-03T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-05T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/notes/Witches-dancing-in-a-circle-with-the-devil/</loc>
-    <lastmod>2023-06-03T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-05T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/notes/Witches-flying-on-broomsticks/</loc>
-    <lastmod>2023-06-03T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-05T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
