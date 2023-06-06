@@ -29,7 +29,12 @@
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="{{ .Title }}" />
   <meta name="twitter:description" content="{{if .IsHome}}{{$data.description | default $.Site.Data.config.description}}{{else}}{{.Summary}}{{end}}" />
-  <meta name="twitter:image" content="{{.Site.BaseURL}}icon.png">
+  {{- $img := .Params.og_img -}}
+  {{- if $img -}}
+  <meta name="twitter:image" content="{{.Site.BaseURL}}notes/images/{{ $img }}">
+  {{- else -}}
+  <meta name="twitter:image" content="{{.Site.BaseURL}}notes/images/opengraph-template.png">
+  {{- end -}}
 
   {{- /* RSS */}}
   {{ range .AlternativeOutputFormats -}}

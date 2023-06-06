@@ -2,6 +2,8 @@
 title: "What is a security engineer?"
 created: 2023-05-27
 modified: 2023-05-28
+og_type: "article"
+og_img: "opengraph-template.png"
 tags:
 - security-engineer
 - application-security
