@@ -2,14 +2,17 @@
   <h2>Recent Art</h2>
   {{- $notes := (where .Site.Pages "Params.tags" "intersect" (slice "oeuvre")) -}}
   <ul class="delay t-3 stagger">
-
-    {{ range first 1 $notes }}
-    {{.Date}}
+    {{- range first 1 (sort $notes ".Date" "desc") -}}
     <li>
       <div class="section">
         <div class="desc">
-          {{ if .Params.cover }}
-          {{ $img := .Resources.GetMatch (printf "%s" .Params.cover) }}
+          {{ $img := ""}}
+          {{ if .Params.cover (and .Params.resource) }}
+              {{ $img := .Resources.GetMatch (printf "$s%s" .Params.resource .Params.cover) }}
+          {{else}}
+            {{ $img := .Resources.GetMatch (printf "%s" .Params.cover) }}
+          {{end}}
+          {{if $img}}
           <a href="{{ .Permalink }}"><img src="{{ .Params.cover }}" width="200vw"></a>
           <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
           {{ else }}
@@ -18,7 +21,7 @@
           {{ end }}
         </div>
         <p class="meta">
-          {{ .Lastmod.Format "Jan 2, 2006" }}
+          {{ .Date.Format "Jan 2, 2006" }}
         </p>
       </div>
     </li>
