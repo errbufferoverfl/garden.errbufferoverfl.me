@@ -77,8 +77,7 @@ buildFuture = true
         lineNumbersInTable = true
         style = "dracula"
     [frontmatter]
-        lastmod = ["lastmod", ":git", "date", "publishDate", "modified"]
-        publishDate = ["created", "publishDate", "date"]
+        lastmod = ["modified", "lastmod", ":git", "date", "publishDate"]
         date = ["created", "publishDate", "date"]
     [markup.goldmark.renderer]
         unsafe = true

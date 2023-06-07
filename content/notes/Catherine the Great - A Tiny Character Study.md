@@ -3,12 +3,11 @@ title: "👑 Catherine the Great - A Tiny Character Study"
 alias:
 - "Catherine the Great - A Tiny Character Study"
 created: 2023-06-04
-modified: 2023-06-04
-series: "Character Studies"
+modified: 2023-06-07
 cover: "catherine-the-great-study.png"
 tags:
 - oeuvre
-- character-study
+- character study
 ---
 
 I've been sick these past few days, so I've been watching a lot of "The Great" a quasi-historical comedy-drama based on the rise to power of Catherine the Great, Empress of All Russia. 
@@ -17,4 +16,4 @@ I'm absolutely in love with all the characters and their performance, especially
 
 [Check it out on Ko-Fi →](https://ko-fi.com/i/IG2G2LXDA3).
 
-![[art/catherine the great a tiny character study/images/catherine-the-great-study.png]]
+![[art/character studies/images/catherine-the-great-study.png]]

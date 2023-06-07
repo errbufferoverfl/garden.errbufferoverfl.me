@@ -1,7 +1,7 @@
 ---
 title: "The history of witches and wizards"
 created: 2023-06-03
-modified: 2023-06-05
+modified: 2023-06-07
 cover: "woodcut-2.png"
 og_type: "article"
 og_img: "opengraph-template.png"

@@ -1,7 +1,7 @@
 ---
 title: "the art studio"
 created: 2023-05-31
-modified: 2023-06-04
+modified: 2023-06-07
 ---
 If you've been enjoying my work and finding it entertaining. Your support means the world to me, and I can't thank you enough for being a part of this journey.
 
@@ -13,9 +13,13 @@ If you want to stay connected and show your support, you can follow or supported
 
 {{<summary link="100 days of gouache">}}
 
-### [[art/catherine the great a tiny character study|Catherine the Great - A Tiny Character Study]]
+### [[art/character studies|character studies]]
 
-{{<summary link="catherine the great a tiny character study">}}
+{{<summary link="character studies">}}
+
+### [[art/vegetable portraits|vegetable portraits]]
+
+{{<summary link="vegetable portraits">}}
 
 ## Mediums
 
