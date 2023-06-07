@@ -194,9 +194,22 @@ hr {
   min-width: 11em;
 }
 
-/*
-Fixes an issue on the lightbox where the left margin was double the with of the border making it look wonky
- */
-.lightbox .lb-image {
-  margin-left: 0;
+section.gallery {
+  border: 1px solid black;
+  margin: 0 10px 20px;
+  padding-bottom: 1rem;
+  -webkit-column-break-inside: avoid;
+  break-inside: avoid;
+}
+
+section .gallery > img {
+  width: 100%;
+}
+
+section h3 {
+  margin: 0 1rem;
+}
+
+section a {
+  margin: 0 1rem;
 }

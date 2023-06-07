@@ -1,19 +1,20 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" />
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
-
-{{- $tag := .Get "tag" }}
-{{- $notes := (where .Site.RegularPages "Params.tags" "intersect" (slice $tag)) -}}
-{{- with $notes -}}
+<section>
+  {{- $tag := .Get "tag" }}
+  {{- $notes := (where .Site.RegularPages "Params.tags" "intersect" (slice $tag)) -}}
+  {{- with $notes -}}
   {{- range . -}}
-  {{- if .Params.cover -}}
-    {{- $img := $.Page.Resources.GetMatch (printf "images/%s" .Params.cover) -}}
-    {{- if $img -}}
-      {{- $resized := $img.Fill "300x300 Center" -}}
-     <a href="{{ $img.Permalink }}" data-lightbox="x" data-title="<a href='{{ .Permalink }}'>{{ .Name }}</a>" data-src="{{ .Permalink }}">
-      <img src="{{ $resized.Permalink }}" data-src="{{ .Permalink }}" width="200"/></a>
+    {{- if .Params.cover -}}
+      {{- $img := $.Page.Resources.GetMatch (printf "images/%s" .Params.cover) -}}
+      {{- if $img -}}
+        {{- $resized := $img.Fill "300x300 Center" -}}
+  <div class="gallery">
+    <img src="{{ $resized.Permalink }}" width="200" />
+    <h3>{{ .Title }}</h3>
+    <p>{{.Summary}}</p>
+    <a href="{{ .Params.kofi }}">Check it out on Ko-Fi →</a>
+  </div>
+      {{- end -}}
+    {{- end -}}
   {{- end -}}
-{{- end -}}
-
-{{- end -}}
-{{- end -}}
+  {{- end -}}
+</section>

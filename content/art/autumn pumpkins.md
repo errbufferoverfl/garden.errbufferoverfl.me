@@ -5,6 +5,7 @@ alias:
 created: 2023-06-06
 modified: 2023-06-07
 series: "Vegetables"
+kofi: "https://ko-fi.com/i/IF1F6LYK3N"
 resource: "/art/vegetable-portraits/images/"
 cover: "autumn-pumpkins.jpg"
 tags:
@@ -12,7 +13,3 @@ tags:
 - digital painting
 - vegetables
 ---
-
-[Check it out on Ko-Fi →](https://ko-fi.com/i/IF1F6LYK3N).
-
-![[art/vegetable portraits/images/autumn-pumpkins.jpg]]
