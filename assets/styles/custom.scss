@@ -195,18 +195,20 @@ hr {
 }
 
 section {
-  
+  column-width: 250px;
 }
 
-section.gallery {
-  border: 1px solid black;
+section .gallery {
+  width: 100%;
   margin: 0 10px 20px;
   padding-bottom: 1rem;
+  padding-right: 1rem;
   -webkit-column-break-inside: avoid;
   break-inside: avoid;
 }
 
 section .gallery > img {
+  max-width: 100%;
   width: 100%;
 }
 
