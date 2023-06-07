@@ -2,7 +2,7 @@
   <h2>Recent Art</h2>
   {{- $notes := (where .Site.RegularPages "Params.tags" "intersect" (slice "oeuvre")) -}}
   <ul class="delay t-3 stagger">
-    {{range sort .Date "asc" | first 1 $notes }}
+    {{range first 1 $notes }}
     <li>
       <div class="section">
         <div class="desc">
