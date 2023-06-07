@@ -5,7 +5,7 @@ alias:
 created: 2023-06-06
 modified: 2023-06-07
 series: "Vegetables"
-cover: "autumn-pumpkins.jpg"
+cover: "/art/vegetable-portraits/images/autumn-pumpkins.jpg"
 tags:
 - oeuvre
 - digital painting

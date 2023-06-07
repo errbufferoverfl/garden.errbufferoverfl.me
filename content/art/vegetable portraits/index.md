@@ -9,3 +9,5 @@ tags:
 ---
 
 {{< page-gallery tag="vegetables">}} 
+
+{{< page-gallery tag="woodcut">}} 
