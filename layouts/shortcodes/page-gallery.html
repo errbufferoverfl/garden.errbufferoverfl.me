@@ -11,7 +11,11 @@
     <img src="{{ $resized.Permalink }}" width="200" />
     <h3>{{ .Title }}</h3>
     <p>{{.Summary}}</p>
+    {{- if .Params.kofi -}}
     <a href="{{ .Params.kofi }}">Check it out on Ko-Fi →</a>
+    {{- else -}}
+    <a href="{{ .Permalink }}">Read more →</a>
+  {{end}}
   </div>
       {{- end -}}
     {{- end -}}

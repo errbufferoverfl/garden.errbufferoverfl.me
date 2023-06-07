@@ -8,4 +8,6 @@ tags:
 - project
 ---
 
+Portraits of my favourite and seasonal vegetables created using a variety of artistic mediums, they act as consistent theme that records changes in art style.
+
 {{< page-gallery tag="vegetables">}} 

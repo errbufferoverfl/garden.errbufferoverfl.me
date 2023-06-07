@@ -8,4 +8,6 @@ tags:
 - project
 ---
 
+Little illustrations and spreads that have been created to explore the traits of characters, featuring my favourites from television shows, movies and my imagination.
+
 {{< page-gallery tag="character study">}} 
