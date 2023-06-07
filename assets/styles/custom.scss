@@ -194,6 +194,10 @@ hr {
   min-width: 11em;
 }
 
+article > img {
+  margin-left: 0;
+}
+
 section {
   column-width: 250px;
 }
@@ -212,10 +216,12 @@ section .gallery > img {
   width: 100%;
 }
 
-section h3 {
+section h1, section h2, section h3, section h4, section h5, section a {
   margin: 0 1rem;
 }
 
-section a {
-  margin: 0 1rem;
+section p {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
 }

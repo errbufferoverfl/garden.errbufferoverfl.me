@@ -12,3 +12,5 @@ tags:
 - digital painting
 - vegetables
 ---
+
+![autumn pumpkins](/art/vegetable-portraits/images/autumn-pumpkins.jpg)

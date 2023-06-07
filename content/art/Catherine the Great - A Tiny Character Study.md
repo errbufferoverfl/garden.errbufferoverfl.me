@@ -11,3 +11,5 @@ tags:
 - oeuvre
 - character study
 ---
+
+![autumn pumpkins](/art/character%20studies/images/catherine-the-great-study.png)

@@ -10,7 +10,7 @@
   <div class="gallery">
     <img src="{{ $resized.Permalink }}" width="200" />
     <h3>{{ .Title }}</h3>
-    <p>{{.Summary}}</p>
+    <p>{{ .Summary }}</p>
     {{- if .Params.kofi -}}
     <a href="{{ .Params.kofi }}">Check it out on Ko-Fi →</a>
     {{- else -}}
