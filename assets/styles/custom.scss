@@ -194,7 +194,21 @@ hr {
   min-width: 11em;
 }
 
+em {
+  font-family: var(--font-body);
+  color: var(--gray);
+  fill: var(--gray);
+  font-weight: revert;
+  font-style: italic;
+  margin: revert;
+  padding: revert;
+}
+
 article > img {
+  margin-left: 0;
+}
+
+a > img {
   margin-left: 0;
 }
 

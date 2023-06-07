@@ -6,7 +6,7 @@
     {{- if .Params.cover -}}
       {{- $img := $.Page.Resources.GetMatch (printf "images/%s" .Params.cover) -}}
       {{- if $img -}}
-        {{- $resized := $img.Fill "300x300 Center" -}}
+        {{- $resized := $img.Fill "600x600 Center" -}}
   <div class="gallery">
     <img src="{{ $resized.Permalink }}" width="200" />
     <h3>{{ .Title }}</h3>
