@@ -7,18 +7,16 @@
       <div class="section">
         <div class="desc">
           {{ $img := ""}}
-          {{ if .Params.cover (and .Params.resource) }}
-              {{ $img := .Resources.GetMatch (printf "$s%s" .Params.resource .Params.cover) }}
+          {{ if and (isset .Params "cover") (isset .Params "resource") }}
+            <a href="{{ .Permalink }}"><img src="{{ .Params.resource }}{{ .Params.cover }}" width="200vw"></a>
+            <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
+          {{else if (isset .Params "cover")}}
+            <a href="{{ .Permalink }}"><img src="{{ .Params.cover }}" width="200vw"></a>
+            <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
           {{else}}
-            {{ $img := .Resources.GetMatch (printf "%s" .Params.cover) }}
+            <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
+            {{ .Summary }}
           {{end}}
-          {{if $img}}
-          <a href="{{ .Permalink }}"><img src="{{ .Params.cover }}" width="200vw"></a>
-          <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
-          {{ else }}
-          <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
-          {{ .Summary }}
-          {{ end }}
         </div>
         <p class="meta">
           {{ .Date.Format "Jan 2, 2006" }}
@@ -27,5 +25,5 @@
     </li>
     {{end}}
   </ul>
-  <a href="/the-art-studio">See {{sub (len $notes) 1}} more →</a>
+  <a href="/the-art-studio">See more →</a>
 </div>
