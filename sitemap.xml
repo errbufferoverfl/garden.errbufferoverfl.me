@@ -7,7 +7,32 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://garden.errbufferoverfl.me/art/autumn-pumpkins-1-1/</loc>
+    <lastmod>2023-06-07T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/art/autumn-pumpkins-1/</loc>
+    <lastmod>2023-06-07T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/art/autumn-pumpkins/</loc>
+    <lastmod>2023-06-07T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://garden.errbufferoverfl.me/art/character-studies/</loc>
+    <lastmod>2023-06-07T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/digital-painting/</loc>
+    <lastmod>2023-06-07T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/oeuvre/</loc>
     <lastmod>2023-06-07T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -23,6 +48,16 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/art/vegetable-portraits/</loc>
+    <lastmod>2023-06-07T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/vegetables/</loc>
+    <lastmod>2023-06-07T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/character-study/</loc>
     <lastmod>2023-06-07T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -59,6 +94,11 @@
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/seedling/</loc>
     <lastmod>2023-06-05T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/art/Catherine-the-Great-A-Tiny-Character-Study/</loc>
+    <lastmod>2023-06-07T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -177,11 +217,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/oeuvre/</loc>
-    <lastmod>2023-06-02T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/painting/</loc>
     <lastmod>2023-06-02T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -292,8 +327,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://garden.errbufferoverfl.me/notes/Supporters-Ko-Fi-Weekly-Roundup/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <loc>https://garden.errbufferoverfl.me/art/Supporters-Ko-Fi-Weekly-Roundup/</loc>
+    <lastmod>2023-06-07T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -313,7 +348,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/kofi/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-07T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -323,7 +358,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/supporters/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-07T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -333,7 +368,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/weekly-update/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-07T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
