@@ -212,6 +212,10 @@ a > img {
   margin-left: 0;
 }
 
+section .footnotes {
+  column-width: 0;
+}
+
 section {
   column-width: 250px;
 }
