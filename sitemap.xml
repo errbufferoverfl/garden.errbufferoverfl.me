@@ -2,6 +2,51 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://garden.errbufferoverfl.me/tags/evergreen/</loc>
+    <lastmod>2023-06-09T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/gouache/</loc>
+    <lastmod>2023-06-09T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/notes/ideas/</loc>
+    <lastmod>2023-06-09T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/notes/</loc>
+    <lastmod>2023-06-09T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/reference/</loc>
+    <lastmod>2023-06-09T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/</loc>
+    <lastmod>2023-06-09T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/notes/projects/</loc>
+    <lastmod>2023-06-09T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/notes/The-Inner-Sanctum/</loc>
+    <lastmod>2023-06-09T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/notes/The-Offering/</loc>
+    <lastmod>2023-06-09T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://garden.errbufferoverfl.me/art/</loc>
     <lastmod>2023-06-07T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -29,11 +74,6 @@
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/project/</loc>
     <lastmod>2023-06-07T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/</loc>
-    <lastmod>2023-06-09T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -118,16 +158,11 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/art/</loc>
-    <lastmod>2023-06-03T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-09T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/notes/Coaster-for-Salute/</loc>
-    <lastmod>2023-06-07T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/gouache/</loc>
     <lastmod>2023-06-07T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -138,12 +173,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/medium/</loc>
-    <lastmod>2023-06-03T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/notes/</loc>
-    <lastmod>2023-06-07T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-09T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -154,11 +184,6 @@
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/printing/</loc>
     <lastmod>2023-06-03T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/reference/</loc>
-    <lastmod>2023-06-07T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -203,12 +228,12 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/notes/gouache/</loc>
-    <lastmod>2023-06-02T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-09T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/painting/</loc>
-    <lastmod>2023-06-02T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-09T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -227,11 +252,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/evergreen/</loc>
-    <lastmod>2023-06-09T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/feminisim/</loc>
     <lastmod>2023-06-01T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -247,11 +267,6 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/personal/</loc>
-    <lastmod>2023-06-09T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/philosophy/</loc>
     <lastmod>2023-06-05T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -264,11 +279,6 @@
   </url><url>
     <loc>https://garden.errbufferoverfl.me/books/The-Feminist-and-the-Sex-Offender/</loc>
     <lastmod>2023-06-01T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/the-recycling-bin/</loc>
-    <lastmod>2023-06-02T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -307,6 +317,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/personal/</loc>
+    <lastmod>2023-06-09T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/political-science/</loc>
     <lastmod>2023-06-05T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
@@ -333,7 +348,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/</loc>
-    <lastmod>2023-05-28T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-09T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
