@@ -1,5 +1,7 @@
 ---
 title: "gouache"
+alias:
+- "gouache"
 created: 2023-06-02
 modified: 2023-06-09
 tags:

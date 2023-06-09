@@ -14,4 +14,4 @@ tags:
 ---
 
 ![](notes/gouache/images/the-offering.png)
-*<center>**The Offering**, Bill Mayer, [Bill Mayer's Personal Website](https://www.thebillmayer.com/)</center>*
+*<center>**The Offering**, [gouache](notes/gouache) painting by Bill Mayer, [Bill Mayer's Personal Website](https://www.thebillmayer.com/)</center>*

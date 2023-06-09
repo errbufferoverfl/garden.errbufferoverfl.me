@@ -14,4 +14,4 @@ tags:
 ---
 
 ![The Inner Sanctum](/notes/gouache/images/The-Inner-Sanctum.png)
-*<center>**The Inner Sanctum** (2022), gouache, watercolor, and ink on paper, 100 x 70 centimeters, [Colossal](https://www.thisiscolossal.com/2022/11/rithika-merchant-mixed-media-works/)</center>*
+*<center>**The Inner Sanctum** (2022), [gouache](notes/gouache), watercolor, and ink on paper, 100 x 70 centimeters, [Colossal](https://www.thisiscolossal.com/2022/11/rithika-merchant-mixed-media-works/)</center>*

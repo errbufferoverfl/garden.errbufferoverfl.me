@@ -12,5 +12,5 @@ tags:
 - 16th century
 ---
 
-![Alchemical image taken from the British alchemical theater of ripley, depicts the two-headed serpent of arabia: azoth and kibrit](notes/woodcut/images/theatrum-chemicum-britannicum.png)
-*<center>**Theatrum Chemicum Britannicum**, circa 1652, Elias Ashmole, [The Public Domain Review](https://publicdomainreview.org/collection/theatrum-chemicum)</center>*
+![Alchemical image taken from the British alchemical theater of ripley, depicts the two-headed serpent of arabia: azoth and kibrit](notes/woodblock/images/theatrum-chemicum-britannicum.png)
+*<center>**Theatrum Chemicum Britannicum**, [woodblock](notes/woodblock), circa 1652, Elias Ashmole, [The Public Domain Review](https://publicdomainreview.org/collection/theatrum-chemicum)</center>*

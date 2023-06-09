@@ -1,7 +1,10 @@
 ---
-title: "woodcut"
+title: "woodblock"
+alias:
+- "woodblock"
+- "woodcut"
 created: 2023-06-03
-modified: 2023-06-03
+modified: 2023-06-09
 tags:
 - medium
 - printing
