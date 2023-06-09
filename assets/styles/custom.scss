@@ -221,8 +221,7 @@ section {
 }
 
 section .gallery {
-  width: 100%;
-  margin: 0 10px 20px;
+  margin: 0 0 20px;
   padding-bottom: 1rem;
   padding-right: 1rem;
   -webkit-column-break-inside: avoid;
@@ -230,8 +229,8 @@ section .gallery {
 }
 
 section .gallery > img {
-  max-width: 100%;
   width: 100%;
+  max-width: 100%;
 }
 
 section h1, section h2, section h3, section h4, section h5, section a {

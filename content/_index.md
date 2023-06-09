@@ -1,7 +1,7 @@
 ---
 title: "home"
 created: 2023-05-27
-modified: 2023-05-28
+modified: 2023-06-09
 ---
 
 Welcome Internet traveller! Welcome to my digital garden.
@@ -20,7 +20,7 @@ I work at Canva as an Application Security engineer, focusing on building out a 
 - 🧠 Learning how to be a better [[anarchist]], anti-capitalist and revolutionary
 - 👨‍💻 Implementing an [[OAuth2 Authorisation Server]]
 - ✍️ Working on anarchic illustrations and prints
-- 📚 Reading [[books/Anarchic Agreements a Field Guide to Collective Organising|Anarchic Agreements a Field Guide to Collective Organising]]
+- 📚 Reading [Anarchic Agreements a Field Guide to Collective Organising](books/Anarchic%20Agreements%20a%20Field%20Guide%20to%20Collective%20Organising.md)
 - 📍 Living on the unceded land of the Wadawurrung and Dja Dja Wurrung People
 
 # 🗺️ Explore
@@ -28,9 +28,9 @@ I work at Canva as an Application Security engineer, focusing on building out a 
 Here are some places you might explore:
 
 - 📖 [[/notes|the notebook]]: a collection of musings and evolving ideas.
-- 🎨 [[the art studio]]: art & illustrative projects, notes and musings.
-- 📚 [[the antilibrary|the antilibrary]]: books that are in some state of read, being read, or to be read.
+- 🎨 [the art studio](the%20art%20studio.md): art & illustrative projects, notes and musings.
+- 📚 [the antilibrary](the%20antilibrary.md): books that are in some state of read, being read, or to be read.
 - 🎙️ [[/soapbox|the soapbox]]: meetup, conference and training that I've previously delivered.
-- 🗑️ [[the recycling bin]]: abandoned, archived or long-term incomplete work.
+- 🔧 [the engineering anthology](notes/projects.md): a collection of notable projects that I’ve finished and or currently maintaining.
 
 Want to get in touch? Checkout [where to find me](https://links.errbufferoverfl.me).
