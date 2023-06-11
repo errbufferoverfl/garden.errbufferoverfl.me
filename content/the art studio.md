@@ -1,7 +1,7 @@
 ---
 title: "the art studio"
 created: 2023-05-31
-modified: 2023-06-07
+modified: 2023-06-09
 ---
 If you've been enjoying my work and finding it entertaining. Your support means the world to me, and I can't thank you enough for being a part of this journey.
 
@@ -27,6 +27,6 @@ If you want to stay connected and show your support, you can follow or supported
 
 {{<summary link="notes/gouache">}}
 
-### [[notes/woodcut|woodcut]]
+### [notes/woodblock](woodcut)
 
 {{<summary link="notes/woodcut">}}
