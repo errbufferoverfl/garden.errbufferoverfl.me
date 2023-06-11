@@ -38,7 +38,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/distributed-system/</loc>
-    <lastmod>2023-06-11T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-12T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -83,7 +83,7 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/notes/</loc>
-    <lastmod>2023-06-11T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-12T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -97,18 +97,28 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://garden.errbufferoverfl.me/tags/project/</loc>
+    <lastmod>2023-06-12T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/protocol/</loc>
     <lastmod>2023-06-11T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/seedling/</loc>
-    <lastmod>2023-06-11T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-12T00:00:00+10:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://garden.errbufferoverfl.me/notes/Setting-Up-Distributed-Press-on-Digital-Ocean/</loc>
+    <lastmod>2023-06-12T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/</loc>
-    <lastmod>2023-06-11T00:00:00+10:00</lastmod>
+    <lastmod>2023-06-12T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -168,11 +178,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://garden.errbufferoverfl.me/tags/oeuvre/</loc>
-    <lastmod>2023-06-07T00:00:00+10:00</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://garden.errbufferoverfl.me/tags/project/</loc>
     <lastmod>2023-06-07T00:00:00+10:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>

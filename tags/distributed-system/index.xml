@@ -26,5 +26,14 @@
       <description>InterPlanetary File System (IPFS) is a protocol, hypermedia and file sharing peer-to-peer network for storing and sharing data to a distributed file system.</description>
     </item>
     
+    <item>
+      <title>Setting Up Distributed Press on Digital Ocean</title>
+      <link>https://garden.errbufferoverfl.me/notes/Setting-Up-Distributed-Press-on-Digital-Ocean/</link>
+      <pubDate>Sun, 11 Jun 2023 00:00:00 +1000</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/notes/Setting-Up-Distributed-Press-on-Digital-Ocean/</guid>
+      <description>Distributed Press is an open source publishing tool for the World Wide Web and Distributed Web. It automates publishing and hosting content to the web that it seeds to decentralized protocols like Hypercore and IPFS.</description>
+    </item>
+    
   </channel>
 </rss>
