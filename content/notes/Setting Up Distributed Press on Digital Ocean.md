@@ -93,20 +93,25 @@ cd /home/press/api.distributed.press/
 
 2. Run `npm run make-admin` which will print out the token to stdout.
 
-## Generating a new capability token
+## Create a new Publisher
 
 To make sure we're always operating in line with the principal of least privilege exchange the root token for a new one with the publisher subset of capabilities:
 
 ```shell
-curl -X POST https://distributed.errbufferoverfl.me/v1/publisher -d {"name":"garden.errbufferoverfl.me"}
-
+curl -X POST https://distributed.errbufferoverfl.me/v1/publisher \
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer JWT" \
+-d '{"name":"garden.errbufferoverfl.me"}'
 ```
+
+## Add a site to a Publisher
 
 ```shell
-curl -X POST https://distributed.errbufferoverfl.me -d \
-
+curl -X POST https://distributed.errbufferoverfl.me/v1/sites \
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer JWT" \
+  -d '{"domain":"garden.errbufferoverfl.me", "public": true, "protocols":{"http": false, "hyper": true, "ipfs": true} }'
 ```
-
 
 ## Dealing with Errors
 
