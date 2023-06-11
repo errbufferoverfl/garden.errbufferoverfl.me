@@ -89,6 +89,21 @@ cd /home/press/api.distributed.press/
 
 2. Run `npm run make-admin` which will print out the token to stdout.
 
+## Generating a new capability token
+
+To make sure we're always operating in line with the principal of least privilege exchange the root token for a new one with the publisher subset of capabilities:
+
+```shell
+curl -X POST https://distributed.errbufferoverfl.me/v1/publisher -d {"name":"garden.errbufferoverfl.me"}
+
+```
+
+```shell
+curl -X POST https://distributed.errbufferoverfl.me -d \
+
+```
+
+
 ## Dealing with Errors
 
 > [!bug]
@@ -106,4 +121,6 @@ cd /home/press/api.distributed.press/
 
 > [!bug]
 > Error: ENOENT: no such file or directory, open '/root/.local/share/distributed-press-nodejs/keys/private.key'
-> 
+> .
+> Run `npm run keygen` 
+> Run `npm run make-admin` again
