@@ -14,7 +14,10 @@ tags:
 
 Distributed Press is an open source publishing tool for the World Wide Web and Distributed Web. It automates publishing and hosting content to the web that it seeds to decentralized protocols like [Hypercore](notes/Hypercore.md) and [IPFS](notes/IPFS.md).
 
-1. Install `ansible`, ensure you install `ansible` and not `ansible-core` which doesn't ship with `ansible-galaxy`:
+1. Install `ansible` on your desktop, cry a little because this is the only thing that needs it. 
+> [!note] Note
+> 
+> Make sure you install `ansible` and not `ansible-core` which doesn't ship with `ansible-galaxy`.
 
 ```shell
 apt install ansible
