@@ -12,7 +12,7 @@ tags:
 - distributed system
 ---
 
-Distributed Press is an open source publishing tool for the World Wide Web and Distributed Web. It automates publishing and hosting content to the web that it seeds to decentralized protocols like [Hypercore](notes/Hypercore.md) and [IPFS](notes/IPFS.md).
+[Distributed Press](https://docs.distributed.press/) is an open source publishing tool for the World Wide Web and Distributed Web. It automates publishing and hosting content to the web that it seeds to decentralized protocols like [Hypercore](notes/Hypercore.md) and [IPFS](notes/IPFS.md).
 
 1. Create a new virtual private server (VPS) with your provider of choice. Ensure you have a static IP address configured.
 
