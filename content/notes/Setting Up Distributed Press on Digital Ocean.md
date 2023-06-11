@@ -80,6 +80,10 @@ ansible-playbook distributed_press.yml -i inventory.yml
 systemctl status distributed.press
 ```
 
+> [!warning]
+>
+> Also double check the logs using `journalctl -fu distributed.press`, if you see a `bind EADDRINUSE 0.0.0.0:53` error you will need to disable  an installed utility called `dnsmasq`.[^1]
+
 ## Getting the `root` admin token
 
 1. `ssh` into the VPS and navigate to the the root directory of `api.distributed.press`
@@ -120,7 +124,10 @@ curl -X POST https://distributed.errbufferoverfl.me -d \
 > ```
 
 > [!bug]
+> 
 > Error: ENOENT: no such file or directory, open '/root/.local/share/distributed-press-nodejs/keys/private.key'
 > .
 > Run `npm run keygen` 
 > Run `npm run make-admin` again
+
+[^1]: [Port 53 Problems?](https://github.com/MASQ-Project/Node/blob/master/node/docs/PORT_53.md#linux)
