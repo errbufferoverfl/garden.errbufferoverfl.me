@@ -28,7 +28,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo
 
       - name: Use Node.js 18
         uses: actions/setup-node@v3
