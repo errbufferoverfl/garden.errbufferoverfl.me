@@ -22,7 +22,7 @@
                             <p class="meta">
                                 {{.WordCount}} words on {{ .Lastmod.Format "Jan 2, 2006" }}
                             </p>
-                            {{partial "tags.html" .}}
+                            {{ partial "tags.html" . }}
                         </div>
                     </li>
                     {{end}}
@@ -79,8 +79,11 @@
         </article>
     </div>
     <div class="delay t-4">
-        {{partial "footer.html" .}}
+        {{ partial "footer.html" . }}
     </div>
+    {{ if $.Site.Data.config.enableKofi }}
+        {{ partial "kofi-donation.html" . }}
+    {{ end }}
 </div>
 </body>
 </html>

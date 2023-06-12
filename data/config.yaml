@@ -24,3 +24,10 @@ page_title:
 links:
   - link_name: Where to Find Me
     link: https://links.errbufferoverfl.me/
+
+enableKofi: true
+kofi:
+  username: "errbufferoverfl"
+  buttonTxt: "Support me!"
+  backgroundColor: #5bc0de
+  textColor: #323842
