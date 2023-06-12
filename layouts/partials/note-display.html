@@ -1,0 +1,20 @@
+<div class="delay t-3">
+  <h2>Recent Notes</h2>
+  {{ $notes := where .Site.RegularPages "Section" "notes" }}
+  <ul class="delay t-3 stagger">
+    {{- range first 2 (sort $notes ".Lastmod" "desc") -}}
+    <li>
+      <div class="section">
+        <div class="desc">
+          <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
+        </div>
+        <p class="meta">
+          {{.WordCount}} words on {{ .Lastmod.Format "Jan 2, 2006" }}
+        </p>
+        {{ partial "tags.html" . }}
+      </div>
+    </li>
+    {{end}}
+  </ul>
+  <a href="/notes">See {{sub (len $notes) 2}} more →</a>
+</div>
