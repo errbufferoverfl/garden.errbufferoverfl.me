@@ -1,7 +1,9 @@
 ---
 title: "Lost in Work Escaping Capitalism"
+alias:
+- "Lost in Work Escaping Capitalism"
 created: 2023-04-10
-modified: 2023-06-05
+modified: 2023-06-12
 cover: "http://books.google.com/books/content?id=dWqJzgEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
 status: "Completed"
 og_type: "book"

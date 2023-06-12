@@ -1,7 +1,9 @@
 ---
 title: "the art studio"
+alias:
+- "the art studio"
 created: 2023-05-31
-modified: 2023-06-09
+modified: 2023-06-12
 ---
 If you've been enjoying my work and finding it entertaining. Your support means the world to me, and I can't thank you enough for being a part of this journey.
 
@@ -27,6 +29,6 @@ If you want to stay connected and show your support, you can follow or supported
 
 {{<summary link="notes/gouache">}}
 
-### [notes/woodblock](woodcut)
+### [[notes/woodblock]]
 
-{{<summary link="notes/woodcut">}}
+{{<summary link="notes/woodblock">}}
