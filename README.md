@@ -9,13 +9,13 @@
 <div align="center">
   Digital garden, second brain
 </div>
-
 <br />
 
 <div align="center">
   <!-- Stability -->
   <!-- NPM version -->
   <!-- Build Status -->
+[![Deploy to GitHub Pages](https://github.com/errbufferoverfl/garden.errbufferoverfl.me/actions/workflows/deploy.yml/badge.svg)](https://github.com/errbufferoverfl/garden.errbufferoverfl.me/actions/workflows/deploy.yml)
   <!-- Test Coverage -->
   <!-- Downloads -->
   <!-- Standard -->
@@ -30,10 +30,6 @@
     <a href="https://garden.errbufferoverfl.me">
       Handbook
     </a>
-    <span> | </span>
-    <a href="https://github.com/garden.errbufferoverfl.me/blob/master/.github/CONTRIBUTING.md">
-      Contributing
-    </a>
   </h3>
 </div>
 
@@ -44,13 +40,15 @@
 
 ## Introduction
 
+![product-screenshot]
+
 garden.errbufferoverfl.me is my second brain and mind garden, it is an alternative to a traditional blog and used to explore a variety of indieweb and distributed publishing techniques.
 
 ## Table of contents
 
 - [Introduction](#introduction)
 - [Tech Stack](#tech-stack)
-- [Roadmap](#roadmap)
+- [Getting Started](#getting-started)
 - [License](#license)
 - [Thank you!](#thank-you)
 
@@ -58,58 +56,118 @@ garden.errbufferoverfl.me is my second brain and mind garden, it is an alternati
 
 Here's a brief high-level overview of the tech stack garden.errbufferoverfl.me uses:
 
-- Hugo for static website generation.
+- Hugo is used for static website generation.
 - Quartz for mind-garden theming, and `hugo-obsidian` to scrape Obsidian vault for links for easy consumption by Hugo.
+- Content is managed using [Obsidian](https://obsidian.md/).
 - Deployment to Hypercore & IPFS (Coming Soon!).
 
 ## Getting Started
 
+### Local Development
+
 <!-- GETTING STARTED -->
 
-// TODO
+**Install Prerequisites**
+
+Install the extended version of Hugo on [your operating system of choice](https://gohugo.io/installation/).
+
+**Clone the Repository**
+
+git clone this repository to your local computer:
+```shell
+git clone https://github.com/errbufferoverfl/quartz
+```
+
+**Setup the Editor**
+
+All content in my garden can found in the `/content` folder. To make edits, you can open any of the files and make changes 
+directly and save it. I recommend using [Obsidian](https://obsidian.md/) when working in the garden. For more information 
+on how to setup Obsidian for Quartz checkout [this guide by Jacky Zhao](https://quartz.jzhao.xyz/notes/obsidian/).
+
+**Preview Changes Locally**
+
+This step is helpful because it will show you the local backlinks and interactive graph so you can ensure everything is 
+rendered correctly.
+
+If you’d like to preview what your Quartz site looks like before deploying it to the Internet you will need to install
+`hugo-obsidian`.
+
+```shell
+go install github.com/jackyzha0/hugo-obsidian@latest
+```
+
+{% note %}
+**Note:** If you are running into an error saying that command not found: `hugo-obsidian`, make sure you set your GOPATH correctly
+{% endnote %}
+
+Once you have installed `hugo-obsidian`, navigate to your Quartz directory:
+
+```shell
+cd <location-of-your-local-quartz>
+```
+
+Start the local Hugo server using the custom [Makefile](Makefile:
+
+```shell
+make serve
+```
+
+View the local site at http://localhost:1313/
+
+### Publishing Content
+
+This site is deployed via Github actions, the workflows are defined in [.github/workflows/deploy.yml]. To update the website,
+`git add` and `git commit` as normal. This will trigger a new build and deployment.
+
+For information on how to setup Github workflows for Quartz, checkout [this guide by Jacky Zhao](https://quartz.jzhao.xyz/notes/hosting/)
+
+### DNS Configuration
+
+For more information on how to configure a custom domain for your own deployment, checkout the GitHub guide to ["Configuring a custom domain for your GitHub Pages site"](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
+
+```text
+CNAME <subdomain> <username>.github.io
+```
 
 <!-- LICENSE -->
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](LICENSE.md) for more information.
+Distributed under the MIT License. See [LICENSE](LICENSE.txt) for more information.
 
 <!-- CONTACT -->
 
-Your Name - [@errbufferoverfl](https://twitter.com/errbufferoverfl) - email
+## Contact
 
+For issues relating to this repository and content hosted on https://garden.errbufferoverfl.me contact:
 
-<!-- ACKNOWLEDGEMENTS -->
+errbufferoverfl - [@errbufferoverfl](https://twitter.com/errbufferoverfl)
 
-* []()
-* []()
-* []()
+For issues relating to the Quartz theme, please refer to the [Quartz repository](https://github.com/jackyzha0/quartz)
+
+<!-- THANK YOU -->
+
+## Thank You
+
+* [Jacky Zhao](https://github.com/jackyzha0/) - for all the amazing work to create this theme.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/errbufferoverfl/mygardenjournal.svg?style=flat-square
+[contributors-shield]: https://img.shields.io/github/contributors/errbufferoverfl/garden.errbufferoverfl.me.svg?style=flat-square
 
-[contributors-url]: https://github.com/errbufferoverfl/mygardenjournal/graphs/contributors
+[contributors-url]: https://github.com/errbufferoverfl/garden.errbufferoverfl.me/graphs/contributors
 
-[forks-shield]: https://img.shields.io/github/forks/errbufferoverfl/mygardenjournal.svg?style=flat-square
+[forks-shield]: https://img.shields.io/github/forks/errbufferoverfl/garden.errbufferoverfl.me.svg?style=flat-square
 
-[forks-url]: https://github.com/errbufferoverfl/mygardenjournal/network/members
+[forks-url]: https://github.com/errbufferoverfl/garden.errbufferoverfl.me/network/members
 
-[stars-shield]: https://img.shields.io/github/stars/errbufferoverfl/mygardenjournal.svg?style=flat-square
+[stars-shield]: https://img.shields.io/github/stars/errbufferoverfl/garden.errbufferoverfl.me.svg?style=flat-square
 
-[stars-url]: https://github.com/errbufferoverfl/mygardenjournal/stargazers
+[stars-url]: https://github.com/errbufferoverfl/garden.errbufferoverfl.me/stargazers
 
-[issues-shield]: https://img.shields.io/github/issues/errbufferoverfl/mygardenjournal.svg?style=flat-square
+[license-shield]: https://img.shields.io/github/license/errbufferoverfl/garden.errbufferoverfl.me.svg?style=flat-square
 
-[issues-url]: https://github.com/errbufferoverfl/mygardenjournal/issues
+[license-url]: https://github.com/errbufferoverfl/garden.errbufferoverfl.me/blob/master/LICENSE.txt
 
-[license-shield]: https://img.shields.io/github/license/errbufferoverfl/mygardenjournal.svg?style=flat-square
-
-[license-url]: https://github.com/errbufferoverfl/mygardenjournal/blob/master/LICENSE.txt
-
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-
-[linkedin-url]: https://linkedin.com/in/errbufferoverfl
-
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: screenshot.png
