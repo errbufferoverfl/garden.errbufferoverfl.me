@@ -41,7 +41,7 @@ jobs:
       - name: Publish to Distributed Press
         uses: hyphacoop/actions-distributed-press@v1.1
         with:
-          publish_dir: ./public/notes
+          publish_dir: ./public
           dp_url: https://distributed.errbufferoverfl.me
           refresh_token: ${{ secrets.REFRESH_TOKEN }}
           site_url: garden.errbufferoverfl.me
