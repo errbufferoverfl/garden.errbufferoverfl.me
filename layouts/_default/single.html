@@ -30,5 +30,8 @@
     </article>
     {{partial "footer.html" .}}
 </div>
+{{ if $.Site.Data.config.enableKofi }}
+{{ partial "kofi-donation.html" . }}
+{{ end }}
 </body>
 </html>
