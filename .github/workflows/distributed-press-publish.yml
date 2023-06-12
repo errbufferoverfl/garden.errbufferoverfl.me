@@ -30,6 +30,11 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      - name: Use Node.js 18
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
       - name: Publish to Distributed Press
         uses: hyphacoop/actions-distributed-press@v1.1
         with:
