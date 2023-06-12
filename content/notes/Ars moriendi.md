@@ -5,7 +5,6 @@ modified: 2023-06-09
 cover: "ars-moriendi.png"
 alt: "Demons tempt the dying man with crowns (a medieval allegory to earthly pride) under the disapproving gaze of Mary, Christ and God."
 og_type: "article"
-og_img: "opengraph-template.png"
 summary: "The Ars Moriendi (The Art of Dying) is a Mediaeval Christian death manual that appeared around the middle of the fifteenth century. The text is understood to be a response to the devastation of the Black Death."
 tags:
 - woodcut

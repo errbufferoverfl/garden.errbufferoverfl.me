@@ -1,13 +1,12 @@
 ---
 title: "Hyperswarm"
 created: 2023-06-11
-modified: 2023-06-11
-source: ""
+modified: 2023-06-12
 og_type: "article"
-og_img: "opengraph-template.png"
-summary: ""
 tags:
 - seedling
+- distributed system
+- hypercore
 ---
 
 A high-level API for finding and connecting to peers who are interested in a "topic".

@@ -1,11 +1,11 @@
 ---
 title: "IPFS"
+alias:
+- "IPFS"
+- "InterPlanetary File System"
 created: 2023-06-11
-modified: 2023-06-11
-source: ""
+modified: 2023-06-12
 og_type: "article"
-og_img: "opengraph-template.png"
-summary: ""
 tags:
 - seedling
 - protocol
@@ -39,6 +39,6 @@ Cloudflare started using IPFS in 2018 and launched its own gateway in 2022.
 - Phishing
 	- The phishing email is stored on Cloudflare's IPFS which displays the content as secure.
 - Command and Control
-	- The IPStore botnet uses IPFS to hide C2 traffic amongst the flow of legitimate data on the IPFS network. ([English Translation](notes/images/IPFS-and-IPNS-protocols-as-a-means-of-botnet-control-proof-of-concept.pdf))[^1]
+	- The IPStore botnet uses IPFS to hide C2 traffic amongst the flow of legitimate data on the IPFS network. ([English Translation](notes/attachements/IPFS-and-IPNS-protocols-as-a-means-of-botnet-control-proof-of-concept.pdf))[^1]
 
 [^1]: AQUINO, Bruno Macabeus M. de; LIMA, Marcus Vinicius L. de; OLIVEIRA, João Paolo Cavalcante M. de; SOUZA, Cidcley Teixeira de. [Protocolos IPFS e IPNS como meio para o controle de botnet: prova de conceito](https://sol.sbc.org.br/index.php/wscdc/article/view/2400). _In_: CONNECTED DEVICES CYBERSECURITY WORKSHOP (WSCDC), 1. , 2018, São José dos Campos. **Anais** [...]. Porto Alegre: Sociedade Brasileira de Computação, 2018.

@@ -3,11 +3,9 @@ title: "The Offering"
 alias:
 - "The Offering"
 created: 2023-06-09
-modified: 2023-06-09
+modified: 2023-06-12
 cover: "the-offering.png"
-alt: ""
 og_type: "article"
-og_img: "the-offering.png"
 tags:
 - reference
 - gouache

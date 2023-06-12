@@ -1,11 +1,10 @@
 ---
 title: "Theatrum Chemicum Britannicum"
 created: 2023-06-03
-modified: 2023-06-05
+modified: 2023-06-12
 cover: "theatrum-chemicum-britannicum.png"
 alt: "Alchemical image taken from the British alchemical theater of ripley, depicts the two-headed serpent of arabia: azoth and kibrit."
 og_type: "article"
-og_img: "theatrum-chemicum-britannicum.png"
 tags:
 - reference
 - woodcut

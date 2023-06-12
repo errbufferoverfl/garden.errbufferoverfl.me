@@ -19,7 +19,6 @@ cover: "<% title %>.png"
 tags:
 - oeuvre
 - digital painting
-- vegetables
 ---
 
 ![<% title %>](/art/XXX/images/<% title %>.png)

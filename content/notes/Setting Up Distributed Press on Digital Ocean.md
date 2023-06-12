@@ -2,14 +2,13 @@
 title: "Setting Up Distributed Press on Digital Ocean"
 created: 2023-06-11
 modified: 2023-06-12
-source: ""
 og_type: "article"
-og_img: "opengraph-template.png"
-summary: ""
 tags:
 - seedling
 - project
 - distributed system
+- ipfs
+- hypercore
 ---
 
 [Distributed Press](https://docs.distributed.press/) is an open source publishing tool for the World Wide Web and Distributed Web. It automates publishing and hosting content to the web that it seeds to decentralized protocols like [Hypercore](notes/Hypercore.md) and [IPFS](notes/IPFS.md).

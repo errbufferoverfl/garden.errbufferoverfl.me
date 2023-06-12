@@ -1,13 +1,13 @@
 ---
 title: "Autobase"
 created: 2023-06-11
-modified: 2023-06-11
-source: ""
+modified: 2023-06-12
 og_type: "article"
-og_img: "opengraph-template.png"
 summary: ""
 tags:
 - seedling
+- distributed system
+- hypercore
 ---
 
-An experimental module that's used to rebase (follow?) multiple casually linked [Hypercores](notes/Hypercore.md) into a single, linearized Hypercore for multi-user collaboration
+An experimental module that's used to rebase (follow?) multiple casually linked [Hypercores](notes/Hypercore.md) into a single, linearized Hypercore for multi-user collaboration.

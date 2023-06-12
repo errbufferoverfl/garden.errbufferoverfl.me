@@ -1,10 +1,9 @@
 ---
 title: "Lago d'Averno"
 created: 2023-06-03
-modified: 2023-06-09
+modified: 2023-06-12
 cover: "Lago-dAverno.png"
 og_type: "article"
-og_img: "opengraph-template.png"
 tags:
 - gouache
 - reference

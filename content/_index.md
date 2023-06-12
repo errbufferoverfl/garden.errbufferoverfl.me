@@ -1,27 +1,22 @@
 ---
 title: "home"
 created: 2023-05-27
-modified: 2023-06-09
+modified: 2023-06-12
 ---
 
-Welcome Internet traveller! Welcome to my digital garden.
+Welcome to my digital garden. 🌱
 
 I'm **[[notes/errbufferoverfl|errbufferoverfl]]**, or Buffy for short. I'm a non-binary (**they/sie/ze**) anarchic gardener, knowledge librarian, and [[notes/security engineer|security engineer]] by trade.
 
-I work at Canva as an Application Security engineer, focusing on building out a Partnerships function and helping to build a secure app ecosystem. I currently live on the unceded land of the [[notes/Wadawurrung and Dja Dja Wurrung People|Wadawurrung and Dja Dja Wurrung People]], and can often be found:
-
-- 🖋️ drawing or printing anarchic and technology themed badges, prints and designs on [Ko-Fi](https://ko-fi.com/errbufferoverfl).
-- 💾 creating patchwork quilts of code snippets and infrastructure, deep-diving technological standards and exploring all the ways teaching sand to think was a mistake.
-- 🗞️ curating the ✨vibes✨ and compiling zines that magnify marginalized voices in information security, providing a space for people to publish pieces that are messy, unpolished or don't have any expressed value under capitalism.
+I currently live on the unceded land of the [[notes/Wadawurrung and Dja Dja Wurrung People|Wadawurrung and Dja Dja Wurrung People]].
 
 # 🌈 Now
 
 - 📐 Security Engineer @ Canva
 - 🧠 Learning how to be a better [[anarchist]], anti-capitalist and revolutionary
-- 👨‍💻 Implementing an [[OAuth2 Authorisation Server]]
-- ✍️ Working on anarchic illustrations and prints
+- 👨‍💻 Currently working on making this site available on [IPFS](notes/IPFS.md) and [Hypercore](notes/Hypercore.md)
+- ✍️ Working on anarchic illustrations and prints and tending to my winter garden
 - 📚 Reading [Anarchic Agreements a Field Guide to Collective Organising](books/Anarchic%20Agreements%20a%20Field%20Guide%20to%20Collective%20Organising.md)
-- 📍 Living on the unceded land of the Wadawurrung and Dja Dja Wurrung People
 
 # 🗺️ Explore
 

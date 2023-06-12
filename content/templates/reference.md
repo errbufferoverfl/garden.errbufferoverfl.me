@@ -13,13 +13,14 @@ alias:
 - "<% title %>"
 created: 
 modified: 
+image-name-key: "<% title.replace(" ", "-").toLowerCase() %>"
 cover: "<% title.replace(" ", "-").toLowerCase() %>.png"
 alt: ""
 og_type: "article"
-og_img: "<% title.replace(" ", "-").toLowerCase() %>.png"
 tags:
 - reference
 ---
 
+![](<% title.replace(" ", "-").toLowerCase() %>.png)
 
 *<center>**<% title %>**</center>*

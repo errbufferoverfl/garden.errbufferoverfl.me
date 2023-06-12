@@ -1,14 +1,13 @@
 ---
 title: "Hyperdrive"
 created: 2023-06-11
-modified: 2023-06-11
-source: ""
+modified: 2023-06-12
 og_type: "article"
-og_img: "opengraph-template.png"
-summary: ""
 tags:
 - seedling
 - file system
+- distributed system
+- hypercore
 ---
 
 A real-time distributed file system.

@@ -1,11 +1,10 @@
 ---
 title: "ideas"
+alias:
+- "Ideas"
 created: 2023-06-09
-modified: 2023-06-09
-source: “”
+modified: 2023-06-12
 og_type: "article"
-og_img: "opengraph-template.png"
-summary: ""
 tags:
 - evergreen
 ---

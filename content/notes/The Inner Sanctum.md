@@ -3,11 +3,10 @@ title: "The Inner Sanctum"
 alias:
 - "The Inner Sanctum"
 created: 2023-06-09
-modified: 2023-06-09
+modified: 2023-06-12
 cover: "The-Inner-Sanctum.png"
 alt: "A vivid mixed-media work with hybrid figures and symbols"
 og_type: "article"
-og_img: "The-Inner-Sanctum.png"
 tags:
 - gouache
 - reference
