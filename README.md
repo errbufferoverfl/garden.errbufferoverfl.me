@@ -15,7 +15,7 @@
   <!-- Stability -->
   <!-- NPM version -->
   <!-- Build Status -->
-[![Deploy to GitHub Pages](https://github.com/errbufferoverfl/garden.errbufferoverfl.me/actions/workflows/deploy.yml/badge.svg)](https://github.com/errbufferoverfl/garden.errbufferoverfl.me/actions/workflows/deploy.yml)
+<a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/actions/workflows/deploy.yml"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/errbufferoverfl/garden.errbufferoverfl.me/deploy.yml?style=for-the-badge"></a>
   <!-- Test Coverage -->
   <!-- Downloads -->
   <!-- Standard -->
@@ -34,13 +34,12 @@
 </div>
 
 <div align="center">
+  <img src="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/blob/dae58c0d36c388d5132bb5a45c37987ae3814033/screenshot.png" width="500"><br>
   <sub>The little experiment that could. Built with ❤︎ by
   <a href="https://twitter.com/errbufferoverfl">errbufferoverfl</a>
 </div>
 
 ## Introduction
-
-![product-screenshot]
 
 garden.errbufferoverfl.me is my second brain and mind garden, it is an alternative to a traditional blog and used to explore a variety of indieweb and distributed publishing techniques.
 
