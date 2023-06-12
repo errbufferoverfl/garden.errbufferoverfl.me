@@ -14,7 +14,7 @@
       <pubDate>Sun, 11 Jun 2023 00:00:00 +1000</pubDate>
       
       <guid>https://garden.errbufferoverfl.me/notes/Autobase/</guid>
-      <description>An experimental module that&amp;rsquo;s used to rebase (follow?) multiple casually linked Hypercores into a single, linearized Hypercore for multi-user collaboration</description>
+      <description>An experimental module that&amp;rsquo;s used to rebase (follow?) multiple casually linked Hypercores into a single, linearized Hypercore for multi-user collaboration.</description>
     </item>
     
     <item>
@@ -32,7 +32,7 @@
       <pubDate>Sun, 11 Jun 2023 00:00:00 +1000</pubDate>
       
       <guid>https://garden.errbufferoverfl.me/notes/DHT/</guid>
-      <description>A decentralized data structure that is used to store and retrieve data over a network. The [[notes/Holepunch.md#HyperDHT|Holepunch]] is used to facilitate the discovery of peers and to enable connections between them.</description>
+      <description>A decentralized data structure that is used to store and retrieve data over a network. The HyperDHT is used to facilitate the discovery of peers and to enable connections between them.</description>
     </item>
     
     <item>
@@ -59,7 +59,7 @@
       <pubDate>Sun, 11 Jun 2023 00:00:00 +1000</pubDate>
       
       <guid>https://garden.errbufferoverfl.me/notes/Hyperbee/</guid>
-      <description>An append-only B-tree running on Hypercode. It provides a key-value store API with mechanisms that can be used for: - Inserting and retrieving key-value pairs; - Atomic batch insertion; - Creation of sorted iterators.</description>
+      <description>An append-only B-tree running on Hypercore. It provides a key-value store API with mechanisms that can be used for: - Inserting and retrieving key-value pairs; - Atomic batch insertion; - Creation of sorted iterators.</description>
     </item>
     
     <item>
