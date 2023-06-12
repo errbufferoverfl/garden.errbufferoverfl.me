@@ -42,6 +42,3 @@ jobs:
           dp_url: https://distributed.errbufferoverfl.me
           refresh_token: ${{ secrets.REFRESH_TOKEN }}
           site_url: garden.errbufferoverfl.me
-          deploy_http: false
-          deploy_hyper: true
-          deploy_ipfs: true
