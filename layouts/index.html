@@ -62,9 +62,9 @@
     <div class="delay t-4">
         {{ partial "footer.html" . }}
     </div>
-    {{ if $.Site.Data.config.enableKofi }}
-        {{ partial "kofi-donation.html" . }}
-    {{ end }}
 </div>
+{{ if $.Site.Data.config.enableKofi }}
+{{ partial "kofi-donation.html" . }}
+{{ end }}
 </body>
 </html>

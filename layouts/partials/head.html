@@ -8,32 +8,35 @@
     name="description"
     content="{{if .IsHome}}{{$data.description | default $.Site.Data.config.description}}{{else}}{{.Summary}}{{end}}"
   />
+  <meta name="author" content="{{ $.Site.Data.config.name }}">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--  Essential META Tags -->
   <meta property="og:title" content="{{ .Title }}">
   <meta property="og:description" content="{{if .IsHome}}{{$data.description | default $.Site.Data.config.description}}{{else}}{{.Summary}}{{end}}">
-  {{- $type := .Params.og_type -}}
-  {{- if $type -}}
-  <meta property="og:type" content="{{ $type }}">
-  {{- else -}}
-  <meta property="og:type" content="website">
-  {{- end -}}
-
-  {{- $img := .Params.og_img -}}
-  {{- if $img -}}
-  <meta property="og:image" content="{{.Site.BaseURL}}notes/images/{{ $img }}">
-  {{- else -}}
-  <meta property="og:image" content="{{.Site.BaseURL}}notes/images/opengraph-template.png">
-  {{- end -}}
   <meta property="og:url" content="{{ .Permalink }}">
   <meta property="og:width" content="200">
   <meta property="og:height" content="200">
+
+  {{- $type := .Params.og_type -}}
+  {{- if $type -}}<meta property="og:type" content="{{ $type }}">{{- else -}}<meta property="og:type" content="website">{{- end -}}
+
+  {{- $featured := partial "get-featured-image.html" . }}
+  {{- if $featured -}}<meta property="og:image" content="{{ $featured.Permalink }}" />{{- end -}}
+
+  {{- if .IsPage }}
+  {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+  <meta property="article:section" content="{{ .Section }}" />
+  {{ with .PublishDate }}<meta property="article:published_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{ end }}
+  {{ with .Lastmod }}<meta property="article:modified_time" {{ .Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />{{ end }}
+  {{- end -}}
+
+  <!--  Twitter Meta Tags -->
   <meta name="twitter:card" content="summary" />
   <meta name="twitter:title" content="{{ .Title }}" />
   <meta name="twitter:description" content="{{if .IsHome}}{{$data.description | default $.Site.Data.config.description}}{{else}}{{.Summary}}{{end}}" />
-  {{- $img := .Params.og_img -}}
-  {{- if $img -}}
-  <meta name="twitter:image" content="{{.Site.BaseURL}}notes/images/{{ $img }}">
-  {{- else -}}
-  <meta name="twitter:image" content="{{.Site.BaseURL}}notes/images/opengraph-template.png">
+  {{- if $featured -}}
+  <meta property="twitter:image" content="{{ $featured.Permalink }}" />
   {{- end -}}
 
   {{- /* RSS */}}
@@ -55,7 +58,6 @@
     {{ if .Title }}{{ .Title }} ✧ {{ $data.page_title | default $.Site.Data.config.page_title }}{{ else }}{{ $data.page_title | default $.Site.Data.config.page_title }}{{
     end }}
   </title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- HTML Favicon -->
   {{ $favicon := $data.favicon  | default $.Site.Data.config.favicon | default (slice (dict "rel" "shortcut icon" "type" "image/png" "href" "icon.png")) }}
