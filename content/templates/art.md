@@ -5,6 +5,7 @@ if (tp.file.title !== "Untitled"){
 } else {
 	title = await tp.system.prompt('Note Title:')
 }
+const imgName = title.replace(" ", "-").toLowerCase();
 await tp.file.rename(`${title}`)
 -%>
 ---
@@ -14,11 +15,12 @@ alias:
 created: 
 modified: 
 kofi: ""
+image-name-key: "<% imgName %>"
 resource: "/art/XXX/images/"
-cover: "<% title %>.png"
+cover: "<% title.replace(" ", "-").toLowerCase() %>.png"
 tags:
 - oeuvre
 - digital painting
 ---
 
-![<% title %>](/art/XXX/images/<% title %>.png)
+![<% title %>](/art/XXX/images/<% imgName %>.png)

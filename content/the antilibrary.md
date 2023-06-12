@@ -1,7 +1,7 @@
 ---
 title: "the antilibrary"
 created: 2023-05-28
-modified: 2023-06-09
+modified: 2023-06-12
 tags:
 - personal
 - evergreen

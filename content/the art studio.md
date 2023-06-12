@@ -23,6 +23,10 @@ If you want to stay connected and show your support, you can follow or supported
 
 {{<summary link="vegetable portraits">}}
 
+### [[art/work in progress|work in progress]]
+
+{{<summary link="work in progress">}}
+
 ## Mediums
 
 ### [[notes/gouache|gouache]]
