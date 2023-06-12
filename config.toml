@@ -1,11 +1,12 @@
 # Site title.
-title = "errbufferoverlf.me"
+title = "garden.errbufferoverlf.me"
 
 # The absolute URL (protocol, host, path, and trailing slash) of your published site
 baseURL = "https://garden.errbufferoverfl.me/"
 
 staticDir = [
     "static",
+    "assets/opengraph"
 ]
 
 timeout = 60000
