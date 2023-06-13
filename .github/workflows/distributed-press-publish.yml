@@ -44,4 +44,4 @@ jobs:
           site_url: garden.errbufferoverfl.me
           deploy_http: true
           deploy_hyper: true
-          deploy_ipfs: false
+          deploy_ipfs: true
