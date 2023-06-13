@@ -53,37 +53,37 @@ enableGitInfo = true
 buildFuture = true
 
 [author]
-    name = 'errbufferoverfl'
+name = 'errbufferoverfl'
 
 [outputs]
-    term = ['HTML', 'RSS']
+term = ['HTML', 'RSS']
 
 [minify]
-    disableXML = true
+disableXML = true
 
 [markup]
-    [markup.tableOfContents]
-        endLevel = 3
-        ordered = false
-        startLevel = 2
-    [markup.highlight]
-        noClasses = false
-        anchorLineNos = false
-        codeFences = true
-        guessSyntax = true
-        hl_Lines = ""
-        lineAnchors = ""
-        lineNoStart = 1
-        lineNos = true
-        lineNumbersInTable = true
-        style = "dracula"
-    [frontmatter]
-        lastmod = ["modified", "lastmod", ":git", "date", "publishDate"]
-        date = ["created", "publishDate", "date"]
-    [markup.goldmark.renderer]
-        unsafe = true
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 2
+[markup.highlight]
+noClasses = false
+anchorLineNos = false
+codeFences = true
+guessSyntax = true
+hl_Lines = ""
+lineAnchors = ""
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+style = "dracula"
+[frontmatter]
+lastmod = ["modified", "lastmod", ":git", "date", "publishDate"]
+date = ["created", "publishDate", "date"]
+[markup.goldmark.renderer]
+unsafe = true
 
 [sitemap]
-    changefreq = 'monthly'
-    filename = 'sitemap.xml'
-    priority = 0.5
+changefreq = 'daily'
+filename = 'sitemap.xml'
+priority = 0.5
