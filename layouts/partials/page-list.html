@@ -3,10 +3,9 @@
     <li class="section-li">
         <div class="section">
             <p class="meta">
-                {{partial "date-fmt.html" .}}
-            </p>
+                {{partial "date-fmt.html" .}} </p>
             <div class="desc">
-              <h3><a href="{{ .Permalink }}" class="internal-link" data-src="{{ .RelPermalink }}">{{- .Title -}}</a></h3>
+                <h3><a class="internal-link" data-src="{{ .RelPermalink }}" href="{{ .Permalink }}">{{- .Title -}}</a></h3>
                 {{.Summary}}
             </div>
             <div class="spacer"></div>

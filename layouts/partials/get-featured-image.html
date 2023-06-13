@@ -1,5 +1,4 @@
 {{ $img := resources.Get "opengraph/base.png" }}
-
 {{ $size := 80 }}
 {{ $title := $.LinkTitle }}
 {{ if gt (len $title) 20 }}
@@ -33,9 +32,8 @@
 "color" "#000"
 "size" 20
 "lineSpacing" 10
-"x" 900 "y" 555
+"x" 900 "y" 565
 "font" (resources.Get "/opengraph/CaslonThree.otf")
 }}
 {{ $img = $img | images.Filter (images.Text $basename $textOptions) }}
-
 {{ return $img }}
