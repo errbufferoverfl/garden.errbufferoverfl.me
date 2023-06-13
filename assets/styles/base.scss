@@ -1,20 +1,23 @@
 // Replace this with your own font imports!
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Inter:wght@400;600;700&family=Source+Sans+Pro:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Inconsolata:wght@300&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Quattrocento:wght@400;700&display=swap');
+
 :root {
-  --font-body: "Source Sans Pro";
-  --font-header: "Inter";
-  --font-mono: "Fira Code"
+  --font-body: 'Quattrocento', serif;
+  --font-header: 'Lora', serif;
+  --font-mono: 'Inconsolata', monospace;
 }
 
 // typography
 html {
   scroll-behavior: smooth;
+
   &:lang(ar) {
     & p, & h1, & h2, & h3, article, header {
       direction: rtl;
       text-align: right;
     }
   }
+
   & footer > p {
     text-align: center !important;
   }
@@ -44,7 +47,7 @@ h1, h2, h3, h4, h5, h6, thead {
   color: var(--dark);
   font-weight: revert;
   margin: 2rem 0 0;
-  // padding: 2rem 1rem 0 0;
+  //padding: 2rem 0 1rem;
 
   &:hover > .hanchor {
     color: var(--secondary);
@@ -93,12 +96,16 @@ tbody, li, p {
   counter-reset: section;
   margin-left: 0;
   padding-left: 1.5em;
+
   & > li {
     counter-increment: section;
+
     & > ol {
       counter-reset: subsection;
+
       & > li {
         counter-increment: subsection;
+
         &::marker {
           content: counter(section) "." counter(subsection) "  ";
         }
@@ -131,7 +138,7 @@ td, th {
 img {
   max-width: 100%;
   border-radius: 3px;
-  margin: 1em 1em;
+  margin: 1em 0;
 }
 
 p > img + em {
@@ -219,9 +226,11 @@ article {
 
   & .meta {
     margin: 1.5em 0;
+
     & > h1 {
       margin: 0;
     }
+
     & > p {
       margin: 0;
     }
@@ -236,6 +245,7 @@ article {
     border-radius: 8px;
     border: var(--outlinegray) 1px solid;
     padding: 0.2em 0.5em;
+
     &::before {
       content: "#";
       margin-right: 0.3em;
@@ -256,6 +266,7 @@ sup > a {
 
 #page-title {
   margin: 0;
+
   & > a {
     font-family: var(--font-header);
   }
@@ -267,6 +278,7 @@ a {
   text-decoration: none;
   transition: all 0.2s ease;
   color: var(--secondary);
+
   &:hover {
     color: var(--tertiary) !important;
   }
@@ -288,13 +300,18 @@ code {
 }
 
 @keyframes fadeIn {
-  0% {opacity:0;}
-  100% {opacity:1;}
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 footer {
   margin-top: 4em;
   text-align: center;
+
   & ul {
     padding-left: 0;
   }
@@ -381,6 +398,7 @@ header {
     display: flex;
     align-items: center;
     cursor: pointer;
+
     & > p {
       display: inline;
       padding: 0 1.5em 0 2em;
@@ -570,7 +588,7 @@ header {
   transition: opacity 0.2s ease, transform 0.2s ease;
   user-select: none;
   overflow-wrap: anywhere;
-  box-shadow: 6px 6px 36px 0 rgba(0,0,0,0.25);
+  box-shadow: 6px 6px 36px 0 rgba(0, 0, 0, 0.25);
 
   @media all and (max-width: 600px) {
     display: none !important;
@@ -581,7 +599,6 @@ header {
     visibility: visible;
     display: inline-block;
     animation: dropin 0.2s ease;
-    background: var(--light);
   }
 
   & > h3 {

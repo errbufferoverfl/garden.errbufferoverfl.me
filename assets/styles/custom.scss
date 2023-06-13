@@ -99,15 +99,6 @@
   color: var(--gray);
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-
 .return-only {
   display: none;
 }
@@ -165,6 +156,7 @@ hr {
   width: 40%;
   z-index: -999;
   border-color: var(--gray);
+
   &:after {
     content: "&";
     z-index: -999;
@@ -202,14 +194,6 @@ em {
   font-style: italic;
   margin: revert;
   padding: revert;
-}
-
-article > img {
-  margin-left: 0;
-}
-
-a > img {
-  margin-left: 0;
 }
 
 section .footnotes {
