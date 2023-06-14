@@ -9,6 +9,7 @@
     name="description"
     content="{{if .IsHome}}{{$data.description | default $.Site.Data.config.description}}{{else}}{{.Summary}}{{end}}"
   />
+
   <meta name="author" content="{{ $.Site.Data.config.name }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -61,7 +62,7 @@
   </title>
 
   <!-- HTML Favicon -->
-  {{ $favicon := $data.favicon  | default $.Site.Data.config.favicon | default (slice (dict "rel" "shortcut icon" "type" "image/png" "href" "icon.png")) }}
+  {{ $favicon := $data.favicon  | default $.Site.Data.config.favicon | default (slice (dict "rel" "shortcut icon" "type" "image/png" "href" "/icon.png")) }}
   {{ $type := (printf "%T" $favicon) }}
   {{ if eq $type "string" }}
   {{ $favicon | safeHTML }}
@@ -171,7 +172,7 @@
 
       {{if $data.enableLinkPreview | default $.Site.Data.config.enableLinkPreview}}
       initPopover(
-        {{strings.TrimRight "/" .Site.BaseURL }},
+        "/",
         {{$data.enableContextualBacklinks | default $.Site.Data.config.enableContextualBacklinks}}
       )
       {{end}}
@@ -185,7 +186,7 @@
         // clear the graph in case there is anything within it
         container.textContent = ""
 
-        const drawGlobal = isHome && {{$.Site.Data.graphConfig.enableGlobalGraph}};
+        const drawGlobal = isHome && {{$.Site.Data.graphConfig.enableGlobalGraph}}
         drawGraph(
             {{strings.TrimRight "/" .Site.BaseURL}},
             drawGlobal,
