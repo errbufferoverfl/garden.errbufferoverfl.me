@@ -9,22 +9,22 @@
     {{if $inbound}}
     {{$backlinks := dict "SENTINEL" "SENTINEL"}}
     {{range $k, $v := $inbound}}
-      {{$cleanedInbound := replace $v.source " " "-"}}
-      {{$ctx := $v.text}}
-      {{$backlinks = merge $backlinks (dict $cleanedInbound $ctx)}}
+    {{$cleanedInbound := replace $v.source " " "-"}}
+    {{$ctx := $v.text}}
+    {{$backlinks = merge $backlinks (dict $cleanedInbound $ctx)}}
     {{end}}
     {{- range $lnk, $ctx := $backlinks -}}
-      {{$l := printf "%s%s/" $host $lnk}}
-      {{$l = cond (eq $l "//") "/" $l}}
-      {{with (index $contentTable $lnk)}}
-      <li>
+    {{$l := printf "%s/" $lnk}}
+    {{$l = cond (eq $l "//") "/" $l}}
+    {{with (index $contentTable $lnk)}}
+    <li>
         <a href="{{$l}}" data-ctx="{{$ctx}}" data-src="{{$lnk}}" class="internal-link">{{index (index . "title")}}</a>
-      </li>
-      {{end}}
+    </li>
+    {{end}}
     {{- end -}}
     {{else}}
     <li>
-      {{ i18n "no_backlinks" }}
+        {{ i18n "no_backlinks" }}
     </li>
     {{end}}
 </ul>
