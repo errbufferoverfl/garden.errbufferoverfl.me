@@ -7,22 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-AU</language>
     <copyright>This content is licensed under &lt;a href=&#39;https://creativecommons.org/licenses/by/4.0/&#39;&gt;Creative Commons Attribution-ShareAlike 4.0 International&lt;/a&gt; unless otherwise specified.</copyright>
-    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +1000</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/tags/protocol/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +1000</lastBuildDate><atom:link href="/tags/protocol/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Holepunch</title>
-      <link>https://garden.errbufferoverfl.me/notes/Holepunch/</link>
+      <link>/notes/Holepunch/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +1000</pubDate>
       
-      <guid>https://garden.errbufferoverfl.me/notes/Holepunch/</guid>
+      <guid>/notes/Holepunch/</guid>
       <description>Holepunch is a company and suite of tools that &amp;ldquo;equips developers with a powerful suite of independent components to effortlessly construct peer-to-peer applications.</description>
     </item>
     
     <item>
       <title>IPFS</title>
-      <link>https://garden.errbufferoverfl.me/notes/IPFS/</link>
+      <link>/notes/IPFS/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +1000</pubDate>
       
-      <guid>https://garden.errbufferoverfl.me/notes/IPFS/</guid>
+      <guid>/notes/IPFS/</guid>
       <description>InterPlanetary File System (IPFS) is a protocol, hypermedia and file sharing peer-to-peer network for storing and sharing data to a distributed file system.</description>
     </item>
     

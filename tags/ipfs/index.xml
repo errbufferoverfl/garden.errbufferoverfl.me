@@ -7,22 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-AU</language>
     <copyright>This content is licensed under &lt;a href=&#39;https://creativecommons.org/licenses/by/4.0/&#39;&gt;Creative Commons Attribution-ShareAlike 4.0 International&lt;/a&gt; unless otherwise specified.</copyright>
-    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +1000</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/tags/ipfs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +1000</lastBuildDate><atom:link href="/tags/ipfs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DHT</title>
-      <link>https://garden.errbufferoverfl.me/notes/DHT/</link>
+      <link>/notes/DHT/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +1000</pubDate>
       
-      <guid>https://garden.errbufferoverfl.me/notes/DHT/</guid>
+      <guid>/notes/DHT/</guid>
       <description>A decentralized data structure that is used to store and retrieve data over a network. The HyperDHT is used to facilitate the discovery of peers and to enable connections between them.</description>
     </item>
     
     <item>
       <title>Setting Up Distributed Press on Digital Ocean</title>
-      <link>https://garden.errbufferoverfl.me/notes/Setting-Up-Distributed-Press-on-Digital-Ocean/</link>
+      <link>/notes/Setting-Up-Distributed-Press-on-Digital-Ocean/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +1000</pubDate>
       
-      <guid>https://garden.errbufferoverfl.me/notes/Setting-Up-Distributed-Press-on-Digital-Ocean/</guid>
+      <guid>/notes/Setting-Up-Distributed-Press-on-Digital-Ocean/</guid>
       <description>[!info] Environment Metadata
  Ubuntu 22.10 x64  Distributed Press v1.2.1   About Distributed Press  Distributed Press is an open source publishing tool for the World Wide Web and Distributed Web.</description>
     </item>

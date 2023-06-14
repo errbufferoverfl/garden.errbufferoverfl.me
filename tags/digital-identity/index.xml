@@ -7,13 +7,13 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-AU</language>
     <copyright>This content is licensed under &lt;a href=&#39;https://creativecommons.org/licenses/by/4.0/&#39;&gt;Creative Commons Attribution-ShareAlike 4.0 International&lt;/a&gt; unless otherwise specified.</copyright>
-    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +1000</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/tags/digital-identity/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +1000</lastBuildDate><atom:link href="/tags/digital-identity/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>DID</title>
-      <link>https://garden.errbufferoverfl.me/notes/DID/</link>
+      <link>/notes/DID/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +1000</pubDate>
       
-      <guid>https://garden.errbufferoverfl.me/notes/DID/</guid>
+      <guid>/notes/DID/</guid>
       <description>Decentralized identifier (DIDs) identifies any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) that the controller of the DID decides that it identifies.</description>
     </item>
     
