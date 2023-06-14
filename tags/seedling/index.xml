@@ -159,7 +159,8 @@
       <pubDate>Sun, 11 Jun 2023 00:00:00 +1000</pubDate>
       
       <guid>https://garden.errbufferoverfl.me/notes/Setting-Up-Distributed-Press-on-Digital-Ocean/</guid>
-      <description>Distributed Press is an open source publishing tool for the World Wide Web and Distributed Web. It automates publishing and hosting content to the web that it seeds to decentralized protocols like Hypercore and IPFS.</description>
+      <description>[!info] Environment Metadata
+ Ubuntu 22.10 x64  Distributed Press v1.2.1   About Distributed Press  Distributed Press is an open source publishing tool for the World Wide Web and Distributed Web.</description>
     </item>
     
     <item>
