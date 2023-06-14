@@ -8,19 +8,19 @@ const syntaxTheme = document.querySelector("#theme-link");
 
 if (currentTheme) {
   document.documentElement.setAttribute('saved-theme', currentTheme);
-  syntaxTheme.href = currentTheme === 'dark' ?  '{{ $darkSyntax.Permalink }}' :  '{{ $lightSyntax.Permalink }}';
+  syntaxTheme.href = currentTheme === 'dark' ?  '{{ $darkSyntax.RelPermalink }}' :  '{{ $lightSyntax.Permalink }}';
 }
 
 const switchTheme = (e) => {
   if (e.target.checked) {
     document.documentElement.setAttribute('saved-theme', 'dark');
     localStorage.setItem('theme', 'dark');
-    syntaxTheme.href = '{{ $darkSyntax.Permalink }}';
+    syntaxTheme.href = '{{ $darkSyntax.RelPermalink }}';
   }
   else {
     document.documentElement.setAttribute('saved-theme', 'light')
     localStorage.setItem('theme', 'light')
-    syntaxTheme.href = '{{ $lightSyntax.Permalink }}';
+    syntaxTheme.href = '{{ $lightSyntax.RelPermalink }}';
   }
 }
 
