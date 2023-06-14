@@ -3,7 +3,6 @@
 {{ $data := index $.Site.Data $config }}
 <head>
   <link rel="me" href="https://mastodon.errbufferoverfl.me/@errbufferoverfl">
-
   <!-- Meta tags -->
   <meta charset="UTF-8" />
   <meta
@@ -134,7 +133,6 @@
     const SEARCH_ENABLED = {{.Site.Data.config.search.enableSemanticSearch}}
     const LATEX_ENABLED = {{.Site.Data.config.enableLatex}}
     const PRODUCTION = {{ hugo.IsProduction }}
-    const BASE_URL = {{.Site.BaseURL}}
     const fetchData = Promise.all([
           fetch("{{ $linkIndex.Permalink }}")
             .then(data => data.json())
@@ -152,12 +150,12 @@
         }))
 
       const render = () => {
-      // NOTE: everything within this callback will be executed for every page navigation. This is a good place to put JavaScript that loads or modifies data on the page, adds event listeners, etc. If you are only dealing with basic DOM replacement, use the init function
+      // NOTE: everything within this callback will be executed for every page navigation. This is a good place to
+      // put JavaScript that loads or modifies data on the page, adds event listeners, etc. If you are only dealing with basic DOM replacement, use the init function
 
-      const siteBaseURL = new URL(BASE_URL);
-      const pathBase = siteBaseURL.pathname;
+      const pathBase = "/";
       const pathWindow = window.location.pathname;
-      const isHome = pathBase == pathWindow;
+      const isHome = pathBase === pathWindow;
 
       {{if $data.enableCodeBlockCopy | default $.Site.Data.config.enableCodeBlockCopy -}}
       addCopyButtons();
