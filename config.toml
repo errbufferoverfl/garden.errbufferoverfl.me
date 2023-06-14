@@ -22,7 +22,7 @@ copyright = "This content is licensed under <a href='https://creativecommons.org
 titleCaseStyle = "chicago"
 
 # Enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
-relativeURLs = false
+relativeURLs = true
 
 # A language tag as defined by RFC 5646.
 languageCode = "en-AU"
@@ -51,8 +51,6 @@ enableGitInfo = true
 
 # Include content with publishdate in the future.
 buildFuture = true
-
-relativeURLs = true
 
 [author]
 name = 'errbufferoverfl'
