@@ -9,7 +9,7 @@
         <p>{{ i18n "copyright" (dict "name" $name "year" $year) | safeHTML}}. {{$.Site.Copyright | safeHTML}}</p>
         <ul>
             {{ if not .IsHome }}
-            <li><a href="\">{{ i18n "home" }}</a></li>
+            <li><a href="/">{{ i18n "home" }}</a></li>
             {{end}}
             {{- range $data.links | default $.Site.Data.config.links -}}
             <li><a href="{{.link}}">{{.link_name}}</a></li>

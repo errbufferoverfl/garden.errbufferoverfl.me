@@ -15,7 +15,10 @@
   <!-- Stability -->
   <!-- NPM version -->
   <!-- Build Status -->
-<a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/actions/workflows/deploy.yml"><img alt="GitHub Workflow Status" src="https://img.shields.io/github/actions/workflow/status/errbufferoverfl/garden.errbufferoverfl.me/deploy.yml?style=for-the-badge"></a>
+<a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/actions/workflows/deploy.yml"><img alt="GitHub Workflow Status for Hugo Build" src="https://img.shields.io/github/actions/workflow/status/errbufferoverfl/garden.errbufferoverfl.me/deploy.yml?
+label=Hugo%20Build&style=for-the-badge"></a>
+
+<a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/actions/workflows/distributed-press-publish.yml"><img alt="GitHub Workflow Status for Hugo Build" src="https://img.shields.io/github/actions/workflow/status/errbufferoverfl/garden.errbufferoverfl.me/distributed-press-publish.yml?label=Distributed%20Press%20Build&style=for-the-badge"></a>
   <!-- Test Coverage -->
   <!-- Downloads -->
   <!-- Standard -->
@@ -73,19 +76,20 @@ Install the extended version of Hugo on [your operating system of choice](https:
 **Clone the Repository**
 
 git clone this repository to your local computer:
+
 ```shell
 git clone https://github.com/errbufferoverfl/quartz
 ```
 
 **Setup the Editor**
 
-All content in my garden can found in the `/content` folder. To make edits, you can open any of the files and make changes 
-directly and save it. I recommend using [Obsidian](https://obsidian.md/) when working in the garden. For more information 
+All content in my garden can found in the `/content` folder. To make edits, you can open any of the files and make changes
+directly and save it. I recommend using [Obsidian](https://obsidian.md/) when working in the garden. For more information
 on how to setup Obsidian for Quartz checkout [this guide by Jacky Zhao](https://quartz.jzhao.xyz/notes/obsidian/).
 
 **Preview Changes Locally**
 
-This step is helpful because it will show you the local backlinks and interactive graph so you can ensure everything is 
+This step is helpful because it will show you the local backlinks and interactive graph so you can ensure everything is
 rendered correctly.
 
 If you’d like to preview what your Quartz site looks like before deploying it to the Internet you will need to install

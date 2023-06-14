@@ -6,7 +6,7 @@
 {{partial "search.html" .}}
 <div id="index" class="singlePage">
     {{partial "header.html" .}}
-    <img id="banner" src="/banner.svg" />
+    <img id="banner" src="/banner.svg"/>
     <div class="bio">
         <div class="writing-sidebar">
             {{ partial "note-display.html" . }}
@@ -19,7 +19,8 @@
                     <li>
                         <div class="section">
                             <div class="desc">
-                                <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
+                                {{.}}
+                                <h3><a href="{{ .RelPermalink }}">{{- .Title -}}</a></h3>
                             </div>
                             <p class="meta">
                                 {{.WordCount}} words on {{partial "date-fmt.html" .}}
@@ -42,8 +43,8 @@
                     <li>
                         <div class="section">
                             <div class="desc">
-                                <a href="{{ .Permalink }}"><img src="{{.Params.cover}}" width="200vw"></a>
-                                <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
+                                <a href="{{ .RelPermalink }}"><img src="{{ .Params.cover }}" width="200vw"></a>
+                                <h3><a href="{{ .RelPermalink }}">{{- .Title -}}</a></h3>
                             </div>
                             <p class="meta">
                                 {{ .Lastmod.Format "Jan 2, 2006" }}

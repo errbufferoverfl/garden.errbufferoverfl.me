@@ -1,31 +1,31 @@
 <div class="delay t-3">
-  <h2>Recent Art</h2>
-  {{- $notes := (where .Site.Pages "Params.tags" "intersect" (slice "oeuvre")) -}}
-  <ul class="delay t-3 stagger">
-    {{- range first 1 (sort $notes ".Date" "desc") -}}
-    <li>
-      <div class="section">
-        <div class="desc">
-          {{- $img := "" -}}
-          {{- if and (isset .Params "cover") (isset .Params "resource") -}}
-            {{- if .Params.kofi -}}
-              <a href="{{ .Params.kofi }}"><img src="{{ .Params.resource }}{{ .Params.cover }}" width="200vw"></a>
-              <h3><a href="{{ .Params.kofi }}">{{- .Title -}} on Ko-Fi</a></h3>
-            {{- else -}}
-              <a href="{{ .Permalink }}"><img src="{{ .Params.resource }}{{ .Params.cover }}" width="200vw"></a>
-              <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
-            {{- end -}}
-          {{else}}
-            <h3><a href="{{ .Permalink }}">{{- .Title -}}</a></h3>
-            {{ .Summary }}
-          {{end}}
-        </div>
-        <p class="meta">
-          {{ .Date.Format "Jan 2, 2006" }}
-        </p>
-      </div>
-    </li>
-    {{end}}
-  </ul>
-  <a href="/the-art-studio">See more →</a>
+    <h2>Recent Art</h2>
+    {{- $notes := (where .Site.Pages "Params.tags" "intersect" (slice "oeuvre")) -}}
+    <ul class="delay t-3 stagger">
+        {{- range first 1 (sort $notes ".Date" "desc") -}}
+        <li>
+            <div class="section">
+                <div class="desc">
+                    {{- $img := "" -}}
+                    {{- if and (isset .Params "cover") (isset .Params "resource") -}}
+                    {{- if .Params.kofi -}}
+                    <a href="{{ .Params.kofi }}"><img src="{{ .Params.resource }}{{ .Params.cover }}" width="200vw"></a>
+                    <h3><a href="{{ .Params.kofi }}">{{- .Title -}} on Ko-Fi</a></h3>
+                    {{- else -}}
+                    <a href="{{ .RelPermalink }}"><img src="{{ .Params.resource }}{{ .Params.cover }}" width="200vw"></a>
+                    <h3><a href="{{ .RelPermalink }}">{{- .Title -}}</a></h3>
+                    {{- end -}}
+                    {{else}}
+                    <h3><a href="{{ .RelPermalink }}">{{- .Title -}}</a></h3>
+                    {{ .Summary }}
+                    {{end}}
+                </div>
+                <p class="meta">
+                    {{ .Date.Format "Jan 2, 2006" }}
+                </p>
+            </div>
+        </li>
+        {{end}}
+    </ul>
+    <a href="/the-art-studio">See more →</a>
 </div>

@@ -10,12 +10,12 @@
     <article>
         <h1>{{ i18n "all_posts" . }}</h1>
         {{with .Params.description}}
-            <p>{{.}}</p>
+        <p>{{.}}</p>
         {{end}}
         <div class="tags">
             {{ range .Site.Taxonomies.tags.ByCount }}
             <div class="meta">
-                <h1><a href="{{ .Page.Permalink }}">{{ .Page.Title | humanize }}</a></h1>
+                <h1><a href="{{ .Page.RelPermalink }}">{{ .Page.Title | humanize }}</a></h1>
                 <p><b>{{ .Count }}</b> {{ i18n "notes_count" }} {{if gt .Count 10}}({{ i18n "first_10"}}){{end}}</p>
             </div>
             {{ with ($.Site.GetPage (printf "/tags/%s" .Page.Title)) }}

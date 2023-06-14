@@ -13,4 +13,4 @@
         --g-link-active: #5a7282;
     }
 </style>{{ $js := resources.Get "js/graph.js" | resources.Fingerprint "md5" }}
-<script src="{{ $js.Permalink }}"></script>
+<script src="{{ $js.RelPermalink }}"></script>
