@@ -6,16 +6,16 @@
   <li class="section-li">
     <div class="section">
       <div class="meta">
-        <a href="{{ .Permalink }}"><img src="{{.Params.cover}}" width="96px"></a>
+        <a href="{{ .RelPermalink }}"><img src="{{.Params.cover}}" width="96px"></a>
       </div>
       <div class="desc" style="padding-left: 2em;">
-        <h3><a href="{{ .Permalink }}" class="internal-link" data-src="{{ .RelPermalink }}">{{- .Title -}}</a></h3>
+        <h3><a href="{{ .RelPermalink }}" class="internal-link" data-src="{{ .RelPermalink }}">{{- .Title -}}</a></h3>
         <p style="padding-bottom: 1em; padding-top: 1em;">{{.Summary}}</p>
       </div>
     </div>
     <ul class="tags">
       {{ range (.GetTerms "tags") }}
-      <li><a href="{{ .Permalink }}">{{ .LinkTitle | title}}</a></li>
+      <li><a href="{{ .RelPermalink }}">{{ .LinkTitle | title}}</a></li>
       {{ end }}
     </ul>
   </li>

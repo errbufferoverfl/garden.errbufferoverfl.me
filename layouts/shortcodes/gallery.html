@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css"/>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js"></script>
 {{- $image := (.Page.Resources.ByType "image") -}}
@@ -7,6 +7,6 @@
 {{- $imgTitle := index (split .Name ".") 0 -}}
 {{- $imgTitle := index (split $imgTitle "/") 1 | humanize -}}
 {{- $resized := .Fill "230x300 q20" -}}
-<a href="{{ .Permalink }}" data-lightbox="x" data-title="{{ $imgTitle }}"><img src="{{ $resized.Permalink }}" /></a>
+<a href="{{ .RelPermalink }}" data-lightbox="x" data-title="{{ $imgTitle }}"><img src="{{ $resized.RelPermalink }}"/></a>
 {{- end -}}
 {{- end -}}
