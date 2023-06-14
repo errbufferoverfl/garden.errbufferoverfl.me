@@ -52,6 +52,8 @@ enableGitInfo = true
 # Include content with publishdate in the future.
 buildFuture = true
 
+relativeURLs = true
+
 [author]
 name = 'errbufferoverfl'
 
