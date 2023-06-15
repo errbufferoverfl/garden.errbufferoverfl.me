@@ -91,10 +91,10 @@
     
     <item>
       <title>Setting Up Distributed Press on Digital Ocean</title>
-      <link>https://garden.errbufferoverfl.me/notes/Setting-Up-Distributed-Press-on-Digital-Ocean/</link>
+      <link>https://garden.errbufferoverfl.me/posts/Setting-Up-Distributed-Press-on-Digital-Ocean/</link>
       <pubDate>Sun, 11 Jun 2023 00:00:00 +1000</pubDate>
       
-      <guid>https://garden.errbufferoverfl.me/notes/Setting-Up-Distributed-Press-on-Digital-Ocean/</guid>
+      <guid>https://garden.errbufferoverfl.me/posts/Setting-Up-Distributed-Press-on-Digital-Ocean/</guid>
       <description>[!info] Environment Metadata
  Ubuntu 22.10 x64  Distributed Press v1.2.1   About Distributed Press  Distributed Press is an open source publishing tool for the World Wide Web and Distributed Web.</description>
     </item>
