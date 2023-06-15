@@ -1,7 +1,7 @@
 ---
 title: "Setting Up Distributed Press on Digital Ocean"
 created: 2023-06-11
-modified: 2023-06-14
+modified: 2023-06-15
 og_type: "article"
 tags:
 - seedling
@@ -25,18 +25,20 @@ tags:
 
 ## Method
 
-1. Create a new virtual private server (VPS) with your provider of choice, when using Digital Ocean I used a droplet with the following specifications:
+- Create a new virtual private server (VPS) with your provider of choice, when using Digital Ocean I used a droplet with the following specifications:
 	- **Image:** Ubuntu 22.10 x64
 	- **CPU:** 4 vCPUs
 	- **Memory:** 8GB[^1]
 	- **Disk:** 10GB Disk
 	- **Droplet Cost:** $AUD 48/mo
 
+If you're using Digital Ocean and unfamiliar with configuring your own logging and monitoring I'd advise against enabling the improved metrics monitoring because it will consume `journalctl` making it harder to debug.
+
 > [!warning] System Specifications
 > 
 > The most important part of the system specifications is the memory, you want at a minimum 8GB to ensure that service works as expected.[^1]
 
-2. Install `ansible` on your desktop, cry a little because this is the only thing that needs it. 
+- Install `ansible` on your desktop, cry a little because this is the only thing that needs it. 
 ```shell
 brew install ansible
 ```
@@ -47,17 +49,21 @@ brew install ansible
 
 ![Image that says "2000 Years Later"](notes/images/Setting%20Up%20Distributed%20Press%20on%20Digital%20Ocean.png)
 
-3. Git clone the `api.distributed.press`  repository onto your computer:
+-  Git clone the `api.distributed.press`  repository onto your computer:
 ```shell
 git clone https://github.com/hyphacoop/api.distributed.press.git
 ```
 
-4. Using the terminal, navigate to the `ansible` directory:
+- Using the terminal, navigate to the `ansible` directory:
 ```shell
 cd api.distributed.press/ansible
 ```
 
-5. Edit the `inventory.yml` file to specify your own domain to run the scripts on as well as any variables you wish to set.
+> [!warning] Check the pinned version of Distribution Press
+> 
+> Before starting I recommend doing a quick sense check that the `distributed_press_git_branch` located in `api.distributed.press/ansible/roles/distributed_press/defaults/main.yml` matches the [latest tagged version](https://github.com/hyphacoop/api.distributed.press/tags), otherwise you can run into esoteric issues that are difficult to debug.
+
+- Edit the `inventory.yml` file to specify your own domain to run the scripts on as well as any variables you want to set.
 	- You **must** specify the `distributed_press_domain` to be your server, and your `distributed_press_letsencrypt_email` for registering the HTTPS certificate.
  
 ```yaml
@@ -73,12 +79,12 @@ all:
           ansible_user: root
 ```
 
-6. Install the dependencies.
+-  Install the dependencies on your local machine.
 ```shell
 ansible-galaxy install -r ./requirements.yml
 ```
 
-7. Add the VPS's IP address and the `distributed_press_domain` to your `/etc/hosts` file so you don't experience an `UNREACHABLE` error when you run the playbook. e.g.,
+- Add the VPS's IP address and the `distributed_press_domain` to your `/etc/hosts` file so you don't experience an `UNREACHABLE` error when you run the playbook. e.g.,
 ```text
 127.0.0.1	localhost
 255.255.255.255	broadcasthost
@@ -87,23 +93,24 @@ ansible-galaxy install -r ./requirements.yml
 {{VPS IP ADDRESS}} example.com
 ```
 
-9. Execute the playbook.
+- Execute the playbook.
 ```shell
 ansible-playbook distributed_press.yml -i inventory.yml
 ```
 
-9. Once the playbook has finished, login to your DNS provider and add in an new A record pointing your VPS to the new domain.
+- Once the playbook has finished, login to your DNS provider and add in an new A record pointing your VPS to the new domain.
 	- **Type:** A
 	- **Name:** `subdomain`
 	- **Content:** VPS static IP address
 	- **TTL:** Auto
-10. Add an `NS` record linking `_dnslink` to your site:
+
+- Add an `NS` record linking `_dnslink` to your site:
 	- **Type:** NS
 	- **Name:** `_dnslink`
 	- **Content:** the `distributed_press_domain`
 	- **TTL:** Auto
 
-11. Login to the VPS and check the status of the service.
+- Login to the VPS and check the status of the service.
 ```shell
 systemctl status distributed.press
 ```
@@ -182,14 +189,14 @@ Authorisation on the service is handled using JSON Web Tokens (JWTs) that are is
 
 To generate the auth token necessary to make the very first admin user, you must use the 'root' admin token.
 
-1. `ssh` into the VPS that is hosting your `distributed.press` instance and navigate to the the root directory of `api.distributed.press`
+- `ssh` into the VPS that is hosting your `distributed.press` instance and navigate to the the root directory of `api.distributed.press`
 ```shell
 sudo su press
 cd
 cd api.distributed.press
 ```
 
-2. Run `npm run make-admin` which will print out the token to stdout.
+- Run `npm run make-admin` which will print out the token to stdout.
 
 > [!tip] Save the Token
 > 
@@ -235,6 +242,14 @@ curl -X POST https://distributed.errbufferoverfl.me/v1/sites \
 > 	"unreachable": true
 > }
 > ```
+
+### Unable to resolve remote host **after** installation
+
+If you were running on a version of apt-based Linux and had to disable the default DNS server to get node working, when you attempt to run `apt-update` or try to run the Ansible script again it **will** fail.
+
+![A Mastodon post written by me that says "Why won't apt repositories resolve! WHAT IS GOING ON?!  Me two hours earlier: `systemctl disable systemd-resolved`"](posts/images/Setting%20Up%20Distributed%20Press%20on%20Digital%20Ocean.png)
+
+To fix this, you'll want to `ssh` onto the remote host, stop the `distributed.press` service and restart `systemd-resolved`.
 
 ## Additional Resources
 
