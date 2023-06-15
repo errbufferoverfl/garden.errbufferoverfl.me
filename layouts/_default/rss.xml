@@ -14,7 +14,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>{{ if eq .Title site.Title }}{{ site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ site.Title }}{{ end }}</title>
-    <link>{{ .RelPermalink }}</link>
+    <link>{{ .Permalink }}</link>
     <description>Recent content {{ if ne .Title site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ site.Title }}</description>
     {{- with site.Params.images }}
     <image>
