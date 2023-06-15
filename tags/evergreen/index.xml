@@ -2,36 +2,36 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>evergreen on garden.errbufferoverlf.me</title>
-    <link>/tags/evergreen/</link>
+    <link>https://garden.errbufferoverfl.me/tags/evergreen/</link>
     <description>Recent content in evergreen on garden.errbufferoverlf.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-AU</language>
     <copyright>This content is licensed under &lt;a href=&#39;https://creativecommons.org/licenses/by/4.0/&#39;&gt;Creative Commons Attribution-ShareAlike 4.0 International&lt;/a&gt; unless otherwise specified.</copyright>
-    <lastBuildDate>Fri, 09 Jun 2023 00:00:00 +1000</lastBuildDate><atom:link href="/tags/evergreen/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 09 Jun 2023 00:00:00 +1000</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/tags/evergreen/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ideas</title>
-      <link>/notes/ideas/</link>
+      <link>https://garden.errbufferoverfl.me/notes/ideas/</link>
       <pubDate>Fri, 09 Jun 2023 00:00:00 +1000</pubDate>
       
-      <guid>/notes/ideas/</guid>
+      <guid>https://garden.errbufferoverfl.me/notes/ideas/</guid>
       <description>Technical Writing </description>
     </item>
     
     <item>
       <title>the engineering anthology</title>
-      <link>/notes/projects/</link>
+      <link>https://garden.errbufferoverfl.me/notes/projects/</link>
       <pubDate>Fri, 09 Jun 2023 00:00:00 +1000</pubDate>
       
-      <guid>/notes/projects/</guid>
+      <guid>https://garden.errbufferoverfl.me/notes/projects/</guid>
       <description>This is a list of notable projects that I’ve finished and or currently maintaining. My (considerably longer) list of unfinished ideas can be found here.</description>
     </item>
     
     <item>
       <title>the antilibrary</title>
-      <link>/the-antilibrary/</link>
+      <link>https://garden.errbufferoverfl.me/the-antilibrary/</link>
       <pubDate>Sun, 28 May 2023 00:00:00 +1000</pubDate>
       
-      <guid>/the-antilibrary/</guid>
+      <guid>https://garden.errbufferoverfl.me/the-antilibrary/</guid>
       <description>a scholar conscious of the power of [their] antilibrary is not concerned with treating knowledge as a property to possess or consume; rather [&amp;hellip;] how much you don’t know—and how to find out that information when you need it.</description>
     </item>
     

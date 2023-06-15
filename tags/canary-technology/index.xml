@@ -2,27 +2,27 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>canary-technology on garden.errbufferoverlf.me</title>
-    <link>/tags/canary-technology/</link>
+    <link>https://garden.errbufferoverfl.me/tags/canary-technology/</link>
     <description>Recent content in canary-technology on garden.errbufferoverlf.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-AU</language>
     <copyright>This content is licensed under &lt;a href=&#39;https://creativecommons.org/licenses/by/4.0/&#39;&gt;Creative Commons Attribution-ShareAlike 4.0 International&lt;/a&gt; unless otherwise specified.</copyright>
-    <lastBuildDate>Sat, 26 Oct 2019 00:00:00 +1100</lastBuildDate><atom:link href="/tags/canary-technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 26 Oct 2019 00:00:00 +1100</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/tags/canary-technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Brief History of Tamper Evident Locks</title>
-      <link>/soapbox/A-Brief-History-of-Tamper-Evident-Locks/</link>
+      <link>https://garden.errbufferoverfl.me/soapbox/A-Brief-History-of-Tamper-Evident-Locks/</link>
       <pubDate>Sat, 26 Oct 2019 00:00:00 +1100</pubDate>
       
-      <guid>/soapbox/A-Brief-History-of-Tamper-Evident-Locks/</guid>
+      <guid>https://garden.errbufferoverfl.me/soapbox/A-Brief-History-of-Tamper-Evident-Locks/</guid>
       <description>A talk that discussed common &amp;ldquo;canary locks&amp;rdquo; or locks with tamper evident mechanisms through the ages, Buffy trawled through 11,335,427 patents to identify several high and low profile locks and their known, or speculated bypass techniques.</description>
     </item>
     
     <item>
       <title>Agloe: What the Map Makers of the 1930s can Teach us About Protecting our Data in 2018</title>
-      <link>/soapbox/Agloe-What-the-Map-Makers-of-the-1930s-can-Teach-us-About-Protecting-our-Data-in-2018/</link>
+      <link>https://garden.errbufferoverfl.me/soapbox/Agloe-What-the-Map-Makers-of-the-1930s-can-Teach-us-About-Protecting-our-Data-in-2018/</link>
       <pubDate>Fri, 24 Aug 2018 00:00:00 +1000</pubDate>
       
-      <guid>/soapbox/Agloe-What-the-Map-Makers-of-the-1930s-can-Teach-us-About-Protecting-our-Data-in-2018/</guid>
+      <guid>https://garden.errbufferoverfl.me/soapbox/Agloe-What-the-Map-Makers-of-the-1930s-can-Teach-us-About-Protecting-our-Data-in-2018/</guid>
       <description>What does the little town of Agloe, Colchester, NY have in common with modern day data protection? Why when I look for directions to Agloe, Colchester, NY do I only get a partial match?</description>
     </item>
     

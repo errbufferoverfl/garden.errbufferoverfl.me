@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>security-culture on garden.errbufferoverlf.me</title>
-    <link>/tags/security-culture/</link>
+    <link>https://garden.errbufferoverfl.me/tags/security-culture/</link>
     <description>Recent content in security-culture on garden.errbufferoverlf.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-AU</language>
     <copyright>This content is licensed under &lt;a href=&#39;https://creativecommons.org/licenses/by/4.0/&#39;&gt;Creative Commons Attribution-ShareAlike 4.0 International&lt;/a&gt; unless otherwise specified.</copyright>
-    <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +1000</lastBuildDate><atom:link href="/tags/security-culture/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Sep 2021 00:00:00 +1000</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/tags/security-culture/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Collapsology: Why your biggest threat isn’t exposed RDP</title>
-      <link>/soapbox/Collapsology-Why-your-biggest-threat-isnt-exposed-RDP/</link>
+      <link>https://garden.errbufferoverfl.me/soapbox/Collapsology-Why-your-biggest-threat-isnt-exposed-RDP/</link>
       <pubDate>Mon, 13 Sep 2021 00:00:00 +1000</pubDate>
       
-      <guid>/soapbox/Collapsology-Why-your-biggest-threat-isnt-exposed-RDP/</guid>
+      <guid>https://garden.errbufferoverfl.me/soapbox/Collapsology-Why-your-biggest-threat-isnt-exposed-RDP/</guid>
       <description>In September 2021, I presented a conference talk entitled &amp;ldquo;Collapsology: Why Exposed RDP Isn&amp;rsquo;t Your Biggest Threat&amp;rdquo; where I gave an overview of how to identify cultural threats in a rapidly evolving business landscape, and how we can use modern-day tools to identify these threats before they result in security culture collapse.</description>
     </item>
     

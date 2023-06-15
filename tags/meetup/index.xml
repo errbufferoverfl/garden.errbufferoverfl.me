@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>meetup on garden.errbufferoverlf.me</title>
-    <link>/tags/meetup/</link>
+    <link>https://garden.errbufferoverfl.me/tags/meetup/</link>
     <description>Recent content in meetup on garden.errbufferoverlf.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-AU</language>
     <copyright>This content is licensed under &lt;a href=&#39;https://creativecommons.org/licenses/by/4.0/&#39;&gt;Creative Commons Attribution-ShareAlike 4.0 International&lt;/a&gt; unless otherwise specified.</copyright>
-    <lastBuildDate>Tue, 07 May 2019 00:00:00 +1000</lastBuildDate><atom:link href="/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 07 May 2019 00:00:00 +1000</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/tags/meetup/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linux Users Victoria Main Meeting Kali Linux</title>
-      <link>/soapbox/Linux-Users-Victoria-Main-Meeting-Kali-Linux/</link>
+      <link>https://garden.errbufferoverfl.me/soapbox/Linux-Users-Victoria-Main-Meeting-Kali-Linux/</link>
       <pubDate>Tue, 07 May 2019 00:00:00 +1000</pubDate>
       
-      <guid>/soapbox/Linux-Users-Victoria-Main-Meeting-Kali-Linux/</guid>
+      <guid>https://garden.errbufferoverfl.me/soapbox/Linux-Users-Victoria-Main-Meeting-Kali-Linux/</guid>
       <description>Come together in ritual to learn about KALI LINUX! A Debian based Penetration Testing and Ethical Hacking distribution, with over 600 pre-installed packages.</description>
     </item>
     

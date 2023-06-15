@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>application-security on garden.errbufferoverlf.me</title>
-    <link>/tags/application-security/</link>
+    <link>https://garden.errbufferoverfl.me/tags/application-security/</link>
     <description>Recent content in application-security on garden.errbufferoverlf.me</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-AU</language>
     <copyright>This content is licensed under &lt;a href=&#39;https://creativecommons.org/licenses/by/4.0/&#39;&gt;Creative Commons Attribution-ShareAlike 4.0 International&lt;/a&gt; unless otherwise specified.</copyright>
-    <lastBuildDate>Sat, 27 May 2023 00:00:00 +1000</lastBuildDate><atom:link href="/tags/application-security/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 May 2023 00:00:00 +1000</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/tags/application-security/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is a security engineer?</title>
-      <link>/notes/security-engineer/</link>
+      <link>https://garden.errbufferoverfl.me/notes/security-engineer/</link>
       <pubDate>Sat, 27 May 2023 00:00:00 +1000</pubDate>
       
-      <guid>/notes/security-engineer/</guid>
+      <guid>https://garden.errbufferoverfl.me/notes/security-engineer/</guid>
       <description>As a security engineer my main role is enabling engineering teams to make good decisions about how to build and maintain adequately secure systems.</description>
     </item>
     
