@@ -28,6 +28,8 @@
         {{partial "toc.html" .}}
         {{partial "textprocessing.html" . }}
     </article>
+    <hr>
+    {{partial "comments.html" .}}
     {{partial "footer.html" .}}
 </div>
 {{ if $.Site.Data.config.enableKofi }}
