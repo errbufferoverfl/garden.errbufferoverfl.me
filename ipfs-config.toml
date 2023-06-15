@@ -1,0 +1,89 @@
+# Site title.
+title = "errbufferoverfl"
+
+# The absolute URL (protocol, host, path, and trailing slash) of your published site
+baseURL = "ipns://garden.ipfs.errbufferoverfl.me/"
+
+staticDir = [
+    "static",
+    "assets/opengraph"
+]
+
+timeout = 60000
+
+# The time zone (or location), e.g. Europe/Oslo, used to parse front matter dates without such information and in the
+# time function. The list of valid values may be system dependent, but should include UTC, Local, and any location
+# in the IANA Time Zone database.
+timeZone = "Australia/Melbourne"
+
+# Copyright notice for your site, typically displayed in the footer.
+copyright = "This content is licensed under <a href='https://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution-ShareAlike 4.0 International</a> unless otherwise specified."
+
+titleCaseStyle = "chicago"
+
+# Enable this to make all relative URLs relative to content root. Note that this does not affect absolute URLs.
+relativeURLs = true
+
+# A language tag as defined by RFC 5646.
+languageCode = "en-AU"
+
+# Do not convert the url/path to lowercase.
+disablePathToLower = true
+
+# To exclude specific files from the content, data, and i18n directories when rendering your site.
+ignoreFiles = [
+    "/content/templates/*",
+    "/content/private/*",
+]
+
+# Enable generation of robots.txt file.
+enableRobotsTXT = true
+
+# The length of text in words to show in a .Summary.
+summaryLength = 20
+
+# Default number of elements per page in pagination.
+paginate = 10
+
+# Enable .GitInfo object for each page (if the Hugo site is versioned by Git). This will then update the Lastmod
+# parameter for each page using the last git commit date for that content file.
+enableGitInfo = true
+
+# Include content with publishdate in the future.
+buildFuture = true
+
+[author]
+name = 'errbufferoverfl'
+
+[outputs]
+term = ['HTML', 'RSS']
+
+[minify]
+disableXML = true
+
+[markup]
+[markup.tableOfContents]
+endLevel = 3
+ordered = false
+startLevel = 2
+[markup.highlight]
+noClasses = false
+anchorLineNos = false
+codeFences = true
+guessSyntax = true
+hl_Lines = ""
+lineAnchors = ""
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+style = "dracula"
+[frontmatter]
+lastmod = ["modified", "lastmod", ":git", "date", "publishDate"]
+date = ["created", "publishDate", "date"]
+[markup.goldmark.renderer]
+unsafe = true
+
+[sitemap]
+changefreq = 'daily'
+filename = 'sitemap.xml'
+priority = 0.5
