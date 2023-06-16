@@ -41,7 +41,7 @@ jobs:
       - name: Download a Build Artifact
         uses: actions/download-artifact@v2.1.1
         with:
-          path: /home/runner/work/garden.errbufferoverfl.me/garden.errbufferoverfl.me/public/artifact
+          path: ./public
       - name: Deploy to www
         uses: peaceiris/actions-gh-pages@v3
         with:
