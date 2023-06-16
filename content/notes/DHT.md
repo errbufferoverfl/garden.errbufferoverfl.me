@@ -5,8 +5,6 @@ alias:
 - "Distributed Hash Table"
 created: 2023-06-11
 modified: 2023-06-12
-og_type: "article"
-summary: ""
 tags:
 - seedling
 - data structure
