@@ -26,14 +26,22 @@ jobs:
           extended: true
       - name: Build
         run: hugo --minify
+      - name: Upload a Build Artifact
+        uses: actions/upload-artifact@v3.1.2
+        with:
+          path: /home/runner/work/garden.errbufferoverfl.me/garden.errbufferoverfl.me/public/*
 
   deploy_www:
     runs-on: ubuntu-20.04
     needs: [ build ]
     steps:
+      - name: Download a Build Artifact
+        uses: actions/download-artifact@v2.1.1
+        if: ${{ contains(github.event.head_commit.message, 'www') }}
+        with:
+          path: /home/runner/work/garden.errbufferoverfl.me/garden.errbufferoverfl.me/public/
       - name: Deploy to www
         uses: peaceiris/actions-gh-pages@v3
-        if: ${{ contains(github.event.head_commit.message, 'www') }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
