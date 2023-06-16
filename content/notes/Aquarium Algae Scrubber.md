@@ -3,7 +3,6 @@ title: "Aquarium Algae Scrubber"
 created: 2023-06-03
 modified: 2023-06-05
 source: "https://www.youtube.com/watch?v=qGLnBvDkaO0"
-og_type: "article"
 tags:
 - aquarium
 - solarpunk
