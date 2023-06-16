@@ -4,7 +4,7 @@ created: 2019-10-26
 modified: 2023-05-28
 tags:
 - locksport
-- canary-technology
+- canary technology
 - hacking
 - conference
 ---
