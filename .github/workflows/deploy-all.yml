@@ -31,7 +31,7 @@ jobs:
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.1.2
         with:
-          path: /home/runner/work/garden.errbufferoverfl.me/garden.errbufferoverfl.me/public/*
+          path: /home/runner/work/garden.errbufferoverfl.me/garden.errbufferoverfl.me/public/
 
   deploy_www:
     runs-on: ubuntu-20.04
@@ -41,7 +41,7 @@ jobs:
       - name: Download a Build Artifact
         uses: actions/download-artifact@v2.1.1
         with:
-          path: /home/runner/work/garden.errbufferoverfl.me/garden.errbufferoverfl.me/public/*
+          path: /home/runner/work/garden.errbufferoverfl.me/garden.errbufferoverfl.me/public/artifact
       - name: Deploy to www
         uses: peaceiris/actions-gh-pages@v3
         with:
