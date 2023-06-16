@@ -3,8 +3,6 @@ title: "Coaster for Salut"
 created: 2023-06-03
 modified: 2023-06-09
 cover: "Coaster-for-Salut.png"
-og_type: "article"
-og_img: "opengraph-template.png"
 tags:
 - gouache
 - reference
