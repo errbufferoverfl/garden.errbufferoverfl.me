@@ -6,7 +6,7 @@
 {{- $featured := partial "get-featured-image.html" . }}
 {{- if $featured -}}
 <meta property="og:image" content="{{ $featured.Permalink }}"/>{{- end -}}
-{{-end-}}
+{{end}}
 
 {{- if .IsPage }}
 {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
