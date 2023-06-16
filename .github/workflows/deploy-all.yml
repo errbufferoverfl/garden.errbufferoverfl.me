@@ -33,7 +33,7 @@ jobs:
     steps:
       - name: Deploy to www
         uses: peaceiris/actions-gh-pages@v3
-        if: ${{ !contains(github.event.head_commit.message, 'www') }}
+        if: ${{ contains(github.event.head_commit.message, 'www') }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
@@ -46,7 +46,7 @@ jobs:
     steps:
       - name: Publish to IPFS
         uses: hyphacoop/actions-distributed-press@v1.1
-        if: ${{ !contains(github.event.head_commit.message, 'ipfs') }}
+        if: ${{ contains(github.event.head_commit.message, 'ipfs') }}
         with:
           publish_dir: ./public
           dp_url: https://press.errbufferoverfl.me
@@ -62,7 +62,7 @@ jobs:
     steps:
       - name: Publish to Hyper
         uses: hyphacoop/actions-distributed-press@v1.1
-        if: ${{ !contains(github.event.head_commit.message, 'hyper') }}
+        if: ${{ contains(github.event.head_commit.message, 'hyper') }}
         with:
           publish_dir: ./public
           dp_url: https://press.errbufferoverfl.me
