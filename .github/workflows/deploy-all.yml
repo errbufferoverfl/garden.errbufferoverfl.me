@@ -40,34 +40,34 @@ jobs:
           publish_branch: master  # deploying branch
           cname: garden.errbufferoverfl.me
 
-    deploy_ipfs:
-      runs-on: ubuntu-20.04
-      needs: [ build ]
-      steps:
-        - name: Publish to IPFS
-          uses: hyphacoop/actions-distributed-press@v1.1
-          if: ${{ !contains(github.event.head_commit.message, 'ipfs') }}
-          with:
-            publish_dir: ./public
-            dp_url: https://press.errbufferoverfl.me
-            refresh_token: ${{ secrets.REFRESH_TOKEN }}
-            site_url: garden.ipfs.errbufferoverfl.me
-            deploy_http: false
-            deploy_hyper: false
-            deploy_ipfs: true
+  deploy_ipfs:
+    runs-on: ubuntu-20.04
+    needs: [ build ]
+    steps:
+      - name: Publish to IPFS
+        uses: hyphacoop/actions-distributed-press@v1.1
+        if: ${{ !contains(github.event.head_commit.message, 'ipfs') }}
+        with:
+          publish_dir: ./public
+          dp_url: https://press.errbufferoverfl.me
+          refresh_token: ${{ secrets.REFRESH_TOKEN }}
+          site_url: garden.ipfs.errbufferoverfl.me
+          deploy_http: false
+          deploy_hyper: false
+          deploy_ipfs: true
 
-    deploy_hyper:
-      runs-on: ubuntu-20.04
-      needs: [ build ]
-      steps:
-        - name: Publish to Hyper
-          uses: hyphacoop/actions-distributed-press@v1.1
-          if: ${{ !contains(github.event.head_commit.message, 'hyper') }}
-          with:
-            publish_dir: ./public
-            dp_url: https://press.errbufferoverfl.me
-            refresh_token: ${{ secrets.REFRESH_TOKEN }}
-            site_url: garden.hyper.errbufferoverfl.me
-            deploy_http: false
-            deploy_hyper: true
-            deploy_ipfs: false
+  deploy_hyper:
+    runs-on: ubuntu-20.04
+    needs: [ build ]
+    steps:
+      - name: Publish to Hyper
+        uses: hyphacoop/actions-distributed-press@v1.1
+        if: ${{ !contains(github.event.head_commit.message, 'hyper') }}
+        with:
+          publish_dir: ./public
+          dp_url: https://press.errbufferoverfl.me
+          refresh_token: ${{ secrets.REFRESH_TOKEN }}
+          site_url: garden.hyper.errbufferoverfl.me
+          deploy_http: false
+          deploy_hyper: true
+          deploy_ipfs: false
