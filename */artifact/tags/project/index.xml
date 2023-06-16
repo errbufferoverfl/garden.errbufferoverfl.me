@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>project on garden.errbufferoverlf.me</title>
+    <link>https://garden.errbufferoverfl.me/tags/project/</link>
+    <description>Recent content in project on garden.errbufferoverlf.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-AU</language>
+    <copyright>This content is licensed under &lt;a href=&#39;https://creativecommons.org/licenses/by/4.0/&#39;&gt;Creative Commons Attribution-ShareAlike 4.0 International&lt;/a&gt; unless otherwise specified.</copyright>
+    <lastBuildDate>Mon, 12 Jun 2023 00:00:00 +1000</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/tags/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Work in Progress</title>
+      <link>https://garden.errbufferoverfl.me/art/work-in-progress/</link>
+      <pubDate>Mon, 12 Jun 2023 00:00:00 +1000</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/art/work-in-progress/</guid>
+      <description>Work that is still in progress and being worked on.
+freedom is not given its taken  Check it out on Ko-Fi →  </description>
+    </item>
+    
+    <item>
+      <title>Setting Up Distributed Press on Digital Ocean</title>
+      <link>https://garden.errbufferoverfl.me/posts/Setting-Up-Distributed-Press-on-Digital-Ocean/</link>
+      <pubDate>Sun, 11 Jun 2023 00:00:00 +1000</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/posts/Setting-Up-Distributed-Press-on-Digital-Ocean/</guid>
+      <description>[!info] Environment Metadata
+ Ubuntu 22.10 x64  Distributed Press v1.2.1   About Distributed Press  Distributed Press is an open source publishing tool for the World Wide Web and Distributed Web.</description>
+    </item>
+    
+    <item>
+      <title>Character Studies</title>
+      <link>https://garden.errbufferoverfl.me/art/character-studies/</link>
+      <pubDate>Tue, 06 Jun 2023 00:00:00 +1000</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/art/character-studies/</guid>
+      <description>Little illustrations and spreads that have been created to explore the traits of characters, featuring my favourites from television shows, movies and my imagination.</description>
+    </item>
+    
+    <item>
+      <title>Vegetable Still Lifes</title>
+      <link>https://garden.errbufferoverfl.me/art/vegetable-portraits/</link>
+      <pubDate>Tue, 06 Jun 2023 00:00:00 +1000</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/art/vegetable-portraits/</guid>
+      <description>Portraits of my favourite and seasonal vegetables created using a variety of artistic mediums, they act as consistent theme that records changes in art style.</description>
+    </item>
+    
+    <item>
+      <title>Aquarium Algae Scrubber</title>
+      <link>https://garden.errbufferoverfl.me/notes/Aquarium-Algae-Scrubber/</link>
+      <pubDate>Sat, 03 Jun 2023 00:00:00 +1000</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/notes/Aquarium-Algae-Scrubber/</guid>
+      <description>An algae scrubber is a water filtering device thats used to grow algae, which in the process, filters undesirable chemicals like nitrate, phosphate, nitrite, ammonia, ammonium from the water.</description>
+    </item>
+    
+  </channel>
+</rss>

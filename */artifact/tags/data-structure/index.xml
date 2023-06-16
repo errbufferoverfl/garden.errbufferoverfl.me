@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>data structure on garden.errbufferoverlf.me</title>
+    <link>https://garden.errbufferoverfl.me/tags/data-structure/</link>
+    <description>Recent content in data structure on garden.errbufferoverlf.me</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-AU</language>
+    <copyright>This content is licensed under &lt;a href=&#39;https://creativecommons.org/licenses/by/4.0/&#39;&gt;Creative Commons Attribution-ShareAlike 4.0 International&lt;/a&gt; unless otherwise specified.</copyright>
+    <lastBuildDate>Sun, 11 Jun 2023 00:00:00 +1000</lastBuildDate><atom:link href="https://garden.errbufferoverfl.me/tags/data-structure/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>B-tree</title>
+      <link>https://garden.errbufferoverfl.me/notes/B-tree/</link>
+      <pubDate>Sun, 11 Jun 2023 00:00:00 +1000</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/notes/B-tree/</guid>
+      <description>A self-balancing tree data structure that is used to store data in a sorted and searchable manner.</description>
+    </item>
+    
+    <item>
+      <title>DHT</title>
+      <link>https://garden.errbufferoverfl.me/notes/DHT/</link>
+      <pubDate>Sun, 11 Jun 2023 00:00:00 +1000</pubDate>
+      
+      <guid>https://garden.errbufferoverfl.me/notes/DHT/</guid>
+      <description>A decentralized data structure that is used to store and retrieve data over a network. The HyperDHT is used to facilitate the discovery of peers and to enable connections between them.</description>
+    </item>
+    
+  </channel>
+</rss>
