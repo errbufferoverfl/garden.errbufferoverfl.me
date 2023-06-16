@@ -76,7 +76,7 @@
   "image":
 {{- $featured := partial "get-featured-image.html" . }}
 {{- if $featured -}}
-        "{{ $featured.Permalink }}"
+        "{{ $featured.Permalink }}",
   {{- end -}}
   "datePublished": {{ .PublishDate }},
   "dateModified": {{ .Lastmod }},
