@@ -34,12 +34,12 @@ jobs:
   deploy_www:
     runs-on: ubuntu-20.04
     needs: [ build ]
+    if: ${{ contains(github.event.head_commit.message, 'www') }}
     steps:
       - name: Download a Build Artifact
         uses: actions/download-artifact@v2.1.1
-        if: ${{ contains(github.event.head_commit.message, 'www') }}
         with:
-          path: /home/runner/work/garden.errbufferoverfl.me/garden.errbufferoverfl.me/public/
+          path: /home/runner/work/garden.errbufferoverfl.me/garden.errbufferoverfl.me/public/*
       - name: Deploy to www
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -51,10 +51,10 @@ jobs:
   deploy_ipfs:
     runs-on: ubuntu-20.04
     needs: [ build ]
+    if: ${{ contains(github.event.head_commit.message, 'ipfs') }}
     steps:
       - name: Publish to IPFS
         uses: hyphacoop/actions-distributed-press@v1.1
-        if: ${{ contains(github.event.head_commit.message, 'ipfs') }}
         with:
           publish_dir: ./public
           dp_url: https://press.errbufferoverfl.me
@@ -67,10 +67,10 @@ jobs:
   deploy_hyper:
     runs-on: ubuntu-20.04
     needs: [ build ]
+    if: ${{ contains(github.event.head_commit.message, 'hyper') }}
     steps:
       - name: Publish to Hyper
         uses: hyphacoop/actions-distributed-press@v1.1
-        if: ${{ contains(github.event.head_commit.message, 'hyper') }}
         with:
           publish_dir: ./public
           dp_url: https://press.errbufferoverfl.me
