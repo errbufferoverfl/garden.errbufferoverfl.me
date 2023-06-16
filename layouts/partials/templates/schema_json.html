@@ -73,13 +73,10 @@
   "articleBody": {{ .Content | safeJS | htmlUnescape | plainify }},
   "wordCount" : "{{ .WordCount }}",
   "inLanguage": {{ .Language.Lang | default "en-us" }},
-  {{ if .Params.cover.image -}}
   "image":
-    {{- if (ne .Params.cover.relative true) -}}
-    {{ .Params.cover.image | absURL }},
-    {{- else -}}
-    {{ (path.Join .Permalink .Params.cover.image ) | absURL }},
-    {{- end}}
+{{- $featured := partial "get-featured-image.html" . }}
+{{- if $featured -}}
+        "{{ $featured.Permalink }}"
   {{- end -}}
   "datePublished": {{ .PublishDate }},
   "dateModified": {{ .Lastmod }},
@@ -115,5 +112,4 @@
 }
 </script>
 {{- end }}{{/* .IsPage end */}}
-
 {{- end -}}
