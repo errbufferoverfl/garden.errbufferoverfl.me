@@ -2,25 +2,25 @@ const userPref = window.matchMedia('(prefers-color-scheme: light)').matches ? 'l
 const currentTheme = localStorage.getItem('theme') ?? userPref
 const syntaxTheme = document.querySelector("#theme-link");
 
+
 {{ $darkSyntax := resources.Get "styles/_dark_syntax.scss" | resources.ToCSS (dict "outputStyle" "compressed") | resources.Fingerprint "md5" | resources.Minify  }}
 {{ $lightSyntax := resources.Get "styles/_light_syntax.scss" | resources.ToCSS (dict "outputStyle" "compressed") | resources.Fingerprint "md5" | resources.Minify  }}
-/* eslint-enable no-alert */
 
 if (currentTheme) {
   document.documentElement.setAttribute('saved-theme', currentTheme);
-  syntaxTheme.href = currentTheme === 'dark' ?  '{{ $darkSyntax.RelPermalink }}' :  '{{ $lightSyntax.RelPermalink }}';
+  syntaxTheme.href = currentTheme === 'dark' ?  '{{ $darkSyntax.Permalink }}' :  '{{ $lightSyntax.Permalink }}';
 }
 
 const switchTheme = (e) => {
   if (e.target.checked) {
     document.documentElement.setAttribute('saved-theme', 'dark');
     localStorage.setItem('theme', 'dark');
-    syntaxTheme.href = '{{ $darkSyntax.RelPermalink }}';
+    syntaxTheme.href = '{{ $darkSyntax.Permalink }}';
   }
   else {
     document.documentElement.setAttribute('saved-theme', 'light')
     localStorage.setItem('theme', 'light')
-    syntaxTheme.href = '{{ $lightSyntax.RelPermalink }}';
+    syntaxTheme.href = '{{ $lightSyntax.Permalink }}';
   }
 }
 
