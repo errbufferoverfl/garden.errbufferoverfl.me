@@ -31,3 +31,8 @@ kofi:
   buttonTxt: "Support me!"
   backgroundColor: #5bc0de
   textColor: #323842
+
+rel_me:
+  - https://mastodon.errbufferoverfl.me/@errbufferoverfl
+  - https://github.com/errbufferoverfl
+  - https://twitter.com/errbufferoverfl
