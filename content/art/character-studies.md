@@ -3,7 +3,7 @@ title: "Character Studies"
 alias:
   - "Character Studies"
 created: 2023-06-06T00:00:00+10:00
-modified: 2023-06-17T22:13:15+10:00
+modified: 2023-06-17T22:19:47+10:00
 tags:
 - project
 ---

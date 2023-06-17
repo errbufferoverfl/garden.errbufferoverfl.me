@@ -12,4 +12,4 @@ tags:
 - vegetables
 ---
 
-![autumn pumpkins](/imgs/autumn-pumpkins.jpg)
+![autumn pumpkins](art/imgs/autumn-pumpkins.jpg)

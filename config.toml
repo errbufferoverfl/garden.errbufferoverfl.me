@@ -48,11 +48,9 @@ buildFuture = true
 [[module.mounts]]
 source = 'static/imgs'
 target = 'static/imgs'
-
 [[module.mounts]]
 source = 'content/notes/images'
 target = 'static/imgs'
-
 [[module.mounts]]
 source = 'content/art/imgs'
 target = 'assets/art'
