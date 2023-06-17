@@ -1,10 +1,9 @@
 ---
 title: "ideas"
 alias:
-- "Ideas"
-created: 2023-06-09
-modified: 2023-06-12
-og_type: "article"
+  - "Ideas"
+created: 2023-06-09T00:00:00+10:00
+modified: 2023-06-17T21:39:35+10:00
 tags:
 - evergreen
 ---

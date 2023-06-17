@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 {{ partial "head.html" . }}
-
 <body>
 {{partial "search.html" .}}
 <div id="index" class="singlePage">
     {{partial "header.html" .}}
-    <img id="banner" src="/banner.svg"/>
+    <img id="banner" src="/imgs/banner.svg"/>
     <div class="bio">
         <div class="writing-sidebar">
             {{ partial "note-display.html" . }}
@@ -52,7 +51,7 @@
                     </li>
                     {{end}}
                 </ul>
-                <a href="/books">See {{sub (len $notes) 1}} more →</a>
+                <a href="/the-antilibrary">See {{sub (len $notes) 1}} more →</a>
             </div>
         </div>
         <article>

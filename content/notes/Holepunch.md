@@ -1,8 +1,9 @@
 ---
 title: "Holepunch"
-created: 2023-06-11
-modified: 2023-06-11
-og_type: "article"
+alias:
+  - "Holepunch"
+created: 2023-06-11T00:00:00+10:00
+modified: 2023-06-17T21:37:10+10:00
 tags:
 - seedling
 - protocol
@@ -17,12 +18,12 @@ A Holepunch stack can be broken up into three parts:
 
 ## Building Blocks
 
-- [Hypercore](notes/Hypercore.md)
-- [Hyperbee](notes/Hyperbee.md)
-- [Hyperdrive](notes/Hyperdrive.md)
-- [Autobase](notes/Autobase.md)
-- [HyperDHT](notes/HyperDHT.md)
-- [Hyperswarm](notes/Hyperswarm.md)
+- [hypercore](notes/hypercore.md)
+- [hyperbee](notes/hyperbee.md)
+- [hyperdrive](notes/hyperdrive.md)
+- [autobase](notes/autobase.md)
+- [hyperdht](notes/hyperdht.md)
+- [hyperswarm](notes/hyperswarm.md)
 
 keet.io is a peer to peer chat that is built entirely on Holepunch.
 

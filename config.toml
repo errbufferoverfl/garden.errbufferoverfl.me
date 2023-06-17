@@ -44,6 +44,19 @@ enableGitInfo = true
 # Include content with publishdate in the future.
 buildFuture = true
 
+[module]
+[[module.mounts]]
+source = 'static/imgs'
+target = 'static/imgs'
+
+[[module.mounts]]
+source = 'content/notes/images'
+target = 'static/imgs'
+
+[[module.mounts]]
+source = 'content/art/imgs'
+target = 'assets/art'
+
 [outputs]
 term = ['html', 'rss', 'json']
 home = ['html', 'rss', 'json']
@@ -53,6 +66,7 @@ home = ['html', 'rss', 'json']
 endLevel = 3
 ordered = false
 startLevel = 2
+
 [markup.highlight]
 noClasses = false
 anchorLineNos = false
@@ -64,9 +78,11 @@ lineNoStart = 1
 lineNos = true
 lineNumbersInTable = true
 style = "dracula"
+
 [frontmatter]
 lastmod = ["modified", "lastmod", ":git", "date", "publishDate"]
 date = ["created", "publishDate", "date"]
+
 [markup.goldmark.renderer]
 unsafe = true
 

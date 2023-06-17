@@ -6,17 +6,17 @@ modified: 2023-06-12
 
 Welcome to my digital garden. 🌱
 
-I'm **[[notes/errbufferoverfl|errbufferoverfl]]**, or Buffy for short. I'm a non-binary (**they/sie/ze**) anarchic gardener, knowledge librarian, and [[notes/security engineer|security engineer]] by trade.
+I'm **[[notes/errbufferoverfl|errbufferoverfl]]**, or Buffy for short. I'm a non-binary (**they/sie/ze**) anarchic gardener, knowledge librarian, and [[notes/security-engineer|security-engineer]] by trade.
 
-I currently live on the unceded land of the [[notes/Wadawurrung and Dja Dja Wurrung People|Wadawurrung and Dja Dja Wurrung People]].
+I currently live on the unceded land of the [[notes/wadawurrung-and-dja-dja-wurrung-people|wadawurrung-and-dja-dja-wurrung-people]].
 
 # 🌈 Now
 
 - 📐 Security Engineer @ Canva
 - 🧠 Learning how to be a better [[anarchist]], anti-capitalist and revolutionary
-- 👨‍💻 Currently working on making this site available on [IPFS](notes/IPFS.md) and [Hypercore](notes/Hypercore.md)
+- 👨‍💻 Currently working on making this site available on [ipfs](notes/ipfs.md) and [hypercore](notes/hypercore.md)
 - ✍️ Working on anarchic illustrations and prints and tending to my winter garden
-- 📚 Reading [Anarchic Agreements a Field Guide to Collective Organising](books/Anarchic%20Agreements%20a%20Field%20Guide%20to%20Collective%20Organising.md)
+- 📚 Reading [anarchic-agreements-a-field-guide-to-collective-organising](books/anarchic-agreements-a-field-guide-to-collective-organising.md)
 
 # 🗺️ Explore
 

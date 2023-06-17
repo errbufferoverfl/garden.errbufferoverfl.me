@@ -4,7 +4,7 @@
   {{- with $notes -}}
   {{- range . -}}
   {{- if .Params.cover -}}
-  {{- $img := $.Page.Resources.GetMatch (printf "images/%s" .Params.cover) -}}
+  {{- $img := $.Page.Resources.GetMatch (printf "imgs/%s" .Params.cover) -}}
   {{- if $img -}}
   {{- $resized := $img.Fill "600x600 Center" -}}
   <div class="gallery">

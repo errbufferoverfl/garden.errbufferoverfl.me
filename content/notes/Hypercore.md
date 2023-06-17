@@ -1,8 +1,9 @@
 ---
 title: "Hypercore"
-created: 2023-06-11
-modified: 2023-06-12
-og_type: "article"
+alias:
+  - "Hypercore"
+created: 2023-06-11T00:00:00+10:00
+modified: 2023-06-17T21:37:46+10:00
 tags:
 - seedling
 - distributed system

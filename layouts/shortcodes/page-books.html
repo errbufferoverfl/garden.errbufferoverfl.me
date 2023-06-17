@@ -6,7 +6,9 @@
   <li class="section-li">
     <div class="section">
       <div class="meta">
-        <a href="{{ .RelPermalink }}"><img src="{{.Params.cover}}" width="96px"></a>
+        {{ $coverPath := .Params.cover | default "imgs/missing.svg" }}
+        {{- $cover := resources.Get $coverPath }}
+        <a href="{{ .RelPermalink }}"><img src="{{ $coverPath }}" width="96px"></a>
       </div>
       <div class="desc" style="padding-left: 2em;">
         <h3><a href="{{ .RelPermalink }}" class="internal-link" data-src="{{ .RelPermalink }}">{{- .Title -}}</a></h3>
