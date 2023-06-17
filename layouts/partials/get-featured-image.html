@@ -1,6 +1,9 @@
-{{ $img := resources.Get "opengraph/base.png" }}
+{{ $img := resources.Get "/imgs/opengraph-base.png" }}
+{{ $font := resources.Get "/font/CaslonThree.otf" }}
+
 {{ $size := 80 }}
 {{ $title := $.LinkTitle }}
+
 {{ if gt (len $title) 20 }}
 {{ $size = 70 }}
 {{end}}
@@ -11,7 +14,7 @@
 "size" $size
 "lineSpacing" 10
 "x" 65 "y" 80
-"font" (resources.Get "/opengraph/CaslonThree.otf")
+"font" $font
 }}
 
 {{ $img = $img | images.Filter (images.Text $text $textOptions) }}
@@ -21,7 +24,7 @@
 "size" 20
 "lineSpacing" 10
 "x" 65 "y" 250
-"font" (resources.Get "/opengraph/CaslonThree.otf")
+"font" $font
 }}
 
 {{ $text := time.Format "Monday, Jan 2, 2006" $.Date }}
@@ -33,7 +36,7 @@
 "size" 20
 "lineSpacing" 10
 "x" 900 "y" 565
-"font" (resources.Get "/opengraph/CaslonThree.otf")
+"font" $font
 }}
 {{ $img = $img | images.Filter (images.Text $basename $textOptions) }}
 {{ return $img }}
