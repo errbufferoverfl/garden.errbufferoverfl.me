@@ -1,6 +1,3 @@
-# Site title.
-title = "garden.errbufferoverlf.me"
-
 # The absolute URL (protocol, host, path, and trailing slash) of your published site
 baseURL = "https://garden.errbufferoverfl.me/"
 
@@ -52,14 +49,9 @@ enableGitInfo = true
 # Include content with publishdate in the future.
 buildFuture = true
 
-[author]
-name = 'errbufferoverfl'
-
 [outputs]
-term = ['HTML', 'RSS']
-
-[minify]
-disableXML = true
+term = ['html', 'rss', 'json']
+home = ['html', 'rss', 'json']
 
 [markup]
 [markup.tableOfContents]

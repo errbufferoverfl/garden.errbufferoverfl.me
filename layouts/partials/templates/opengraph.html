@@ -1,5 +1,8 @@
-<meta property="og:title" content="{{ .Title }}"/>
-<meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}"/>
+{{ $title := "" }}{{ if .Title }}{{ $title = ( printf "%s ✧ %s" .Title $.Site.Data.config.title )}}{{ else }}{{ $title = $.Site.Data.title | default $.Site.Data.config.title }}{{ end }}
+<meta property="og:title" content="{{ $title }}"/>
+<meta property="og:description" content="{{- with $.Site.Data.config.description }}{{ . }}{{- else }}{{- if or .IsPage .IsSection}}
+  {{- .Summary | default $title }}{{- else }}
+  {{- with .Site.Params.description }}{{ . }}{{- end }}{{- end }}{{- end -}}"/>
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}"/>
 <meta property="og:url" content="{{ .Permalink }}"/>
 

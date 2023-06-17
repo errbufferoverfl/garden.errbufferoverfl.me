@@ -1,11 +1,12 @@
 {{ if .IsHome }}
+{{ $title := "" }}{{ if .Title }}{{ $title = ( printf "%s ✧ %s" .Title $.Site.Data.config.title )}}{{ else }}{{ $title = $.Site.Data.title | default $.Site.Data.config.title }}{{ end }}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "{{- ( .Site.Params.schema.publisherType | default "Organization") | title -}}",
-  "name": {{ .Site.Title }},
+  "name": {{ $title }},
   "url": {{ .Site.BaseURL }},
-  "description": {{ .Site.Params.description | plainify | truncate 180 | safeHTML }},
+  "description": {{ $.Site.Data.config.description | plainify | truncate 180 | safeHTML }},
   "thumbnailUrl": {{ .Site.Params.assets.favicon | default "favicon.ico" | absURL }},
   "sameAs": [
     {{- if .Site.Params.schema.sameAs }}

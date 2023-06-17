@@ -1,6 +1,7 @@
 <!-- set data/config yaml file based on website language -->
 {{ $config := cond (eq $.Site.Language.Lang "en") "config" (printf "config.%s" $.Site.Language.Lang) }}
 {{ $data := index $.Site.Data $config }}
+{{ $title := "" }}{{ if .Title }}{{ $title = ( printf "%s ✧ %s" .Title $.Site.Data.config.title )}}{{ else }}{{ $title = $data.title | default $.Site.Data.config.title }}{{ end }}
 <head>
   <!-- Meta tags -->
   <meta charset="UTF-8"/>
@@ -27,22 +28,27 @@
     {{- range $i, $e := .Params.keywords }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} {{- else }}
     {{- range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }} {{- end -}}"/>
   {{- end }}
-  <meta name="description" content="{{- with .Description }}{{ . }}{{- else }}{{- if or .IsPage .IsSection}}
-  {{- .Summary | default (printf " %s - %s" .Title .Site.Title) }}{{- else }}
+  <meta name="description" content="{{- with $.Site.Data.config.description }}{{ . }}{{- else }}{{- if or .IsPage .IsSection}}
+  {{- .Summary | default $title }}{{- else }}
   {{- with .Site.Params.description }}{{ . }}{{- end }}{{- end }}{{- end -}}">
   <meta name="author" content="{{if .IsHome}}{{ $.Site.Data.author | default $.Site.Data.config.author}}{{else}}{{site.Author.name}}{{end}}">
   <link rel="canonical" href="{{ if .Params.canonicalURL -}} {{ trim .Params.canonicalURL " " }} {{- else -}} {{ .Permalink }} {{- end }}" />
+
+  <!-- Opengraph config -->
+  {{- template "partials/templates/opengraph.html" . }}
+  <!-- Twitter card config -->
+  {{- template "partials/templates/twitter_cards.html" . }}
+  <!-- JSON Schema config -->
+  {{- template "partials/templates/schema_json.html" . }}
 
   <!--  Hugo Generator -->
   {{ hugo.Generator }}
 
   <!--  Configure alternative feed types e.g., RSS, JSON -->
-  {{$feedTitle := ""}}
-  {{if .IsHome}}{{ $feedTitle = $.Site.Data.title | default $.Site.Data.config.title }}{{else}}{{$feedTitle = .Title}}{{end}}
   {{ range .AlternativeOutputFormats -}}
   {{ printf `
   <link rel="%s" type="%s" href="%s" title="%s"/>
-  ` .Rel .MediaType.Type .Permalink $feedTitle| safeHTML }}
+  ` .Rel .MediaType.Type .Permalink $title | safeHTML }}
   {{ end -}}
 
   <!--  Configure alternative translations -->
@@ -50,17 +56,7 @@
   <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink | safeURL }}">
   {{ end -}}
 
-  <!--  Configure Twitter Card -->
-  {{ range $data.links }}
-    {{ if strings.Contains .link "twitter.com" }}
-      {{ $twitter_handle := index (split .link "/") (sub (len (split .link "/")) 1) }}
-      <meta name="twitter:site" content="{{ $twitter_handle }}" />
-    {{ end }}
-  {{ end }}
-  <title>
-    {{ if .Title }}{{ .Title }} ✧ {{ $data.page_title | default $.Site.Data.config.page_title }}{{ else }}{{ $data.page_title | default $.Site.Data.config.page_title }}{{
-    end }}
-  </title>
+  <title>{{$title}}</title>
   <!-- HTML Favicon -->
   {{ $favicon := $data.favicon  | default $.Site.Data.config.favicon | default (slice (dict "rel" "shortcut icon" "type" "image/png" "href" "/icon.png")) }}
   {{ $type := (printf "%T" $favicon) }}
@@ -107,15 +103,6 @@
   {{partial "katex.html" .}}
   <!-- Load in Mermaid -->
   {{partial "mermaid.html" .}}
-
-  {{- if hugo.IsProduction | or (eq .Site.Params.env "production") }}
-  <!-- Opengraph config -->
-  {{- template "partials/templates/opengraph.html" . }}
-  <!-- Twitter card config -->
-  {{- template "partials/templates/twitter_cards.html" . }}
-  <!-- JSON Schema config -->
-  {{- template "partials/templates/schema_json.html" . }}
-  {{- end -}}
 
   <script src="https://cdn.jsdelivr.net/npm/@floating-ui/core@1.2.1"></script>
   <script src="https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.2.1"></script>

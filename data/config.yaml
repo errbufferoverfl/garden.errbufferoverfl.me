@@ -1,4 +1,7 @@
-name: errbuffoverfl
+title: errbufferoverfl
+description: "An open collection of notes, resources, sketches, and explorations I'm cultivating."
+author: errbuffoverfl
+
 enableToc: false
 openToc: false
 enableLinkPreview: true
@@ -6,21 +9,20 @@ enableLatex: false
 enableCodeBlockTitle: true
 enableCodeBlockCopy: true
 enableCallouts: true
-enableSPA: false
+enableSPA: true
 enableFooter: true
+
 enableContextualBacklinks: true
 enableRecentNotes: true
 enableGitHubEdit: true
 enableMermaid: true
 GitHubLink: https://github.com/errbufferoverfl/garden.errbufferoverfl.me/tree/hugo/content
+
 search:
   enableSemanticSearch: false
   operandApiKey: "REPLACE-WITH-YOUR-OPERAND-API-KEY"
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
-description:
-  "An open collection of notes, resources, sketches, and explorations I'm cultivating."
-page_title:
-  "errbufferoverfl"
+
 links:
   - link_name: Where to Find Me
     link: https://links.errbufferoverfl.me/
