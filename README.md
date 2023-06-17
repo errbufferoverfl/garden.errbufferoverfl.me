@@ -98,9 +98,7 @@ If you’d like to preview what your Quartz site looks like before deploying it 
 go install github.com/jackyzha0/hugo-obsidian@latest
 ```
 
-{% note %}
 **Note:** If you are running into an error saying that command not found: `hugo-obsidian`, make sure you set your GOPATH correctly
-{% endnote %}
 
 Once you have installed `hugo-obsidian`, navigate to your Quartz directory:
 
@@ -130,6 +128,13 @@ For more information on how to configure a custom domain for your own deployment
 ```text
 CNAME <subdomain> <username>.github.io
 ```
+
+### Directory Structure Explained
+
+Some notes to myself about Hugo file structure to contextualize things:
+- assets directory stores all the files which need be processed by Hugo Pipes. Only the files whose `.Permalink` or`.RelPermalink` are used will be published to the public directory.
+- data directory is used to store configuration files that can be used by Hugo when generating your website. All the website customization is handed by the `config.yaml` file, while formatting of the interactive graph is done in `graphConfig.yaml`.
+- `config.toml` should only be used for configuring Hugo.
 
 <!-- LICENSE -->
 
