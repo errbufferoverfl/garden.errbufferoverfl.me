@@ -61,6 +61,11 @@ jobs:
     needs: [ build ]
     if: ${{ contains(github.event.head_commit.message, 'ipfs') }}
     steps:
+      - name: Download a Build Artifact
+        uses: actions/download-artifact@v2.1.1
+        with:
+          name: public
+          path: ./public
       - name: Publish to IPFS
         uses: hyphacoop/actions-distributed-press@v1.1
         with:
@@ -77,6 +82,11 @@ jobs:
     needs: [ build ]
     if: ${{ contains(github.event.head_commit.message, 'hyper') }}
     steps:
+      - name: Download a Build Artifact
+        uses: actions/download-artifact@v2.1.1
+        with:
+          name: public
+          path: ./public
       - name: Publish to Hyper
         uses: hyphacoop/actions-distributed-press@v1.1
         with:
