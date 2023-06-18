@@ -3,7 +3,7 @@ title: "Aquarium Algae Scrubber"
 alias:
   - "Aquarium Algae Scrubber"
 created: 2023-06-03T00:00:00+10:00
-modified: 2023-06-17T21:27:44+10:00
+modified: 2023-06-18T23:08:38+10:00
 source: "https://www.youtube.com/watch?v=qGLnBvDkaO0"
 tags:
 - aquarium
@@ -42,7 +42,7 @@ An algae scrubber is a water filtering device thats used to grow algae, which in
 - Cut two notches at the top and bottom of the knitting mesh, these will be used to affix the mesh to the top of the container and the airstone.
 - At the bottom of the mesh affix the airstone using two cable ties like so:
 
-![[notes/img/Aquarium Algae Scrubber.png]]
+![aquarium-algae-scrubber](imgs/aquarium-algae-scrubber.png)
 
 > [!note]
 > You'll want to make sure you have a clearance of about 2cm at the bottom, so the mesh and airstone can move freely

@@ -3,7 +3,7 @@ title: "Setting Up Distributed Press on Digital Ocean"
 alias:
   - "Setting Up Distributed Press on Digital Ocean"
 created: 2023-06-11T00:00:00+10:00
-modified: 2023-06-17T21:54:52+10:00
+modified: 2023-06-18T23:12:29+10:00
 tags:
 - seedling
 - project
@@ -48,7 +48,7 @@ brew install ansible
 > 
 > Make sure you install `ansible` and not `ansible-core` which doesn't ship with `ansible-galaxy`.
 
-![Image that says "2000 Years Later"](notes/images/Setting%20Up%20Distributed%20Press%20on%20Digital%20Ocean.png)
+![Image that says "2000 Years Later"](imgs/setting-up-distributed-press-on-digital-ocean.png)
 
 -  Git clone the `api.distributed.press`  repository onto your computer:
 ```shell

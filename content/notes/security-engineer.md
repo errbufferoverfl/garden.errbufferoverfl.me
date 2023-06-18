@@ -4,7 +4,7 @@ alias:
   - "What is a security engineer?"
   - "Security Engineer"
 created: 2023-05-27T00:00:00+10:00
-modified: 2023-06-17T21:40:41+10:00
+modified: 2023-06-18T23:11:17+10:00
 tags:
 - security-engineer
 - application-security

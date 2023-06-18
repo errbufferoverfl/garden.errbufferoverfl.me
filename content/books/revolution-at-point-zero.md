@@ -1,10 +1,10 @@
 ---
 title: "Revolution at Point Zero"
 alias:
-- "Revolution at Point Zero"
+  - "Revolution at Point Zero"
 cover: "/imgs/revolution-at-point-zero.png"
-created: 2023-01-28
-modified: 2023-06-17
+created: 2023-01-28T00:00:00+11:00
+modified: 2023-06-18T22:56:20+10:00
 status: "Completed"
 tags:
 - book

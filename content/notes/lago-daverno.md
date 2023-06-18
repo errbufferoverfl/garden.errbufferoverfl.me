@@ -3,7 +3,7 @@ title: "Lago d'Averno"
 alias:
   - "Lago d'Averno"
 created: 2023-06-03T00:00:00+10:00
-modified: 2023-06-18T19:54:45+10:00
+modified: 2023-06-18T23:11:08+10:00
 cover: "/imgs/Lago-dAverno.png"
 tags:
 - gouache

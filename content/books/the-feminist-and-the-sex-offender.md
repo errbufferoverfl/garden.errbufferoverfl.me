@@ -1,10 +1,10 @@
 ---
 title: "The Feminist and the Sex Offender"
 alias:
-- "The Feminist and the Sex Offender"
+  - "The Feminist and the Sex Offender"
 cover: "/imgs/the-feminist-and-the-sex-offender.png"
-created: 2023-06-01
-modified: 2023-06-17
+created: 2023-06-01T00:00:00+10:00
+modified: 2023-06-18T22:56:24+10:00
 status: "Completed"
 tags:
 - non-fiction

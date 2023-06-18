@@ -16,6 +16,6 @@ There are 17 principles in total, organised into 5 clusters:
 - Movements
 - Economy
 - Expression
-- [[notes/embodiment]]
+- [embodiment](notes/embodiment.md)
 
 They aim to provide a framework for women's movements to articulate and explore issues related to technology.

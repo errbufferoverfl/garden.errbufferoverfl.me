@@ -3,7 +3,7 @@ title: "Embodiment"
 alias:
   - "Embodiment"
 created: 2023-06-12T00:00:00+10:00
-modified: 2023-06-17T21:33:17+10:00
+modified: 2023-06-18T23:10:23+10:00
 tags:
 - seedling
 - feminist principles
@@ -19,7 +19,7 @@ If social media wanted to they could embed consent into their product, but they 
 
 In the *general* (read: Newscorp & Murdoch) media, we see a lack of outrage about a lack of transparency in privacy breaches.
 
-This is also a core theme of [the-age-of-surveillance-capitalism](books/the-age-of-surveillance-capitalism.md) and is core to maintaining [[notes/surveillance-capitalism]].
+This is also a core theme of [The Age of Surveillance Capitalism](books/the-age-of-surveillance-capitalism.md) and is core to maintaining [surveillance capitalism](notes/surveillance-capitalism.md).
 
 ### Principle in Action
 
@@ -37,7 +37,7 @@ Surveillance is a patriarchal tool, used to control and restrict women's bodies,
 
 ### More Thoughts
 
-- [[private/Ethical hacking, the antithesis of ethical hacking?]]
+- [Ethical hacking, the antithesis of ethical hacking?](private/Ethical%20hacking,%20the%20antithesis%20of%20ethical%20hacking?.md)
 
 ## Memory
 

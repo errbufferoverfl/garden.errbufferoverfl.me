@@ -3,7 +3,7 @@ title: "reproductive labor"
 alias:
   - "reproductive work"
 created: 2023-06-04T00:00:00+10:00
-modified: 2023-06-17T21:54:22+10:00
+modified: 2023-06-18T23:12:10+10:00
 tags:
 - seedling
 - feminism
@@ -12,7 +12,7 @@ tags:
 - gender
 ---
 
-Reproductive labor was first brought into the discourse during the *wages for housework* campaign during the 1970s (discussed in [[books/revolution-at-point-zero|revolution-at-point-zero]]). Referring to it this was is important because it emphasises that reproductive activities are also labor that are enforced by the gender hierarchy and not a goodwill gesture of women.
+Reproductive labor was first brought into the discourse during the *wages for housework* campaign during the 1970s (discussed in [Revolution at Point Zero](books/revolution-at-point-zero.md)). Referring to it this was is important because it emphasises that reproductive activities are also labor that are enforced by the gender hierarchy and not a goodwill gesture of women.
 
 I think reproductive labor can be a bit of a misnomer when used without sufficient context because “reproductive” on its own would suggest reproductive labor is focused on… well reproduction of humans.
 
