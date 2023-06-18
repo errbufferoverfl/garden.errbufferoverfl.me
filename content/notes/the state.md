@@ -1,11 +1,10 @@
 ---
 title: "the state"
 alias:
-- "the state"
-- "who is the state?"
-created: 2023-06-12
-modified: 2023-06-12
-og_type: "article"
+  - "the state"
+  - "who is the state?"
+created: 2023-06-12T00:00:00+10:00
+modified: 2023-06-18T19:58:07+10:00
 tags:
 - seedling
 - authority control

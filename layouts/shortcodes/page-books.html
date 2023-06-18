@@ -2,25 +2,26 @@
 {{- $notes := where .Site.Pages "Params.status" $status -}}
 {{- with $notes -}}
 <ul class="section-ul">
-  {{- range . -}}
-  <li class="section-li">
-    <div class="section">
-      <div class="meta">
-        {{ $coverPath := .Params.cover | default "imgs/missing.svg" }}
-        {{- $cover := resources.Get $coverPath }}
-        <a href="{{ .RelPermalink }}"><img src="{{ $coverPath }}" width="96px"></a>
-      </div>
-      <div class="desc" style="padding-left: 2em;">
-        <h3><a href="{{ .RelPermalink }}" class="internal-link" data-src="{{ .RelPermalink }}">{{- .Title -}}</a></h3>
-        <p style="padding-bottom: 1em; padding-top: 1em;">{{.Summary}}</p>
-      </div>
-    </div>
-    <ul class="tags">
-      {{ range (.GetTerms "tags") }}
-      <li><a href="{{ .RelPermalink }}">{{ .LinkTitle | title}}</a></li>
-      {{ end }}
-    </ul>
-  </li>
-  {{- end -}}
+    {{- range . -}}
+    <li class="section-li">
+        <div class="section">
+            <div class="meta">
+                {{ $coverPath := .Params.cover | default "imgs/missing.png" }}
+                {{- $cover := resources.GetMatch $coverPath }}
+                {{ $cover }}
+                <a href="{{ .RelPermalink }}"><img src="{{ $coverPath }}" width="96px"></a>
+            </div>
+            <div class="desc" style="padding-left: 2em;">
+                <h3><a href="{{ .RelPermalink }}" class="internal-link" data-src="{{ .RelPermalink }}">{{- .Title -}}</a></h3>
+                <p style="padding-bottom: 1em; padding-top: 1em;">{{.Summary}}</p>
+            </div>
+        </div>
+        <ul class="tags">
+            {{ range (.GetTerms "tags") }}
+            <li><a href="{{ .RelPermalink }}">{{ .LinkTitle | title}}</a></li>
+            {{ end }}
+        </ul>
+    </li>
+    {{- end -}}
 </ul>
 {{- end -}}

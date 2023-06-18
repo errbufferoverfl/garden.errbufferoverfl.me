@@ -1,11 +1,10 @@
 ---
 title: "👑 Catherine the Great - A Tiny Character Study"
 alias:
-- "Catherine the Great - A Tiny Character Study"
-created: 2023-06-04
-modified: 2023-06-12
-resource: "/art/character studies/images/"
-cover: "catherine-the-great-study.png"
+  - "Catherine the Great - A Tiny Character Study"
+created: 2023-06-04T00:00:00+10:00
+modified: 2023-06-18T19:59:06+10:00
+cover: "/imgs/art/catherine-the-great-study.png"
 kofi: "https://ko-fi.com/i/IG2G2LXDA3"
 tags:
 - oeuvre

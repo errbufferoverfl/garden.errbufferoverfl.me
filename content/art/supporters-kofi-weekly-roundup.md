@@ -1,9 +1,8 @@
 ---
 title: "[Supporters] Ko-Fi Weekly Roundup"
-created: 2023-05-27
-modified: 2023-06-12
+created: 2023-05-27T00:00:00+10:00
+modified: 2023-06-18T09:34:08+10:00
 series: "Kofi - Supporters Only"
-og_type: "article"
 tags:
 - kofi
 - supporters

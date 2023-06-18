@@ -1,24 +1,24 @@
 <section>
-  {{- $tag := .Get "tag" }}
-  {{- $notes := (where .Site.RegularPages "Params.tags" "intersect" (slice $tag)) -}}
-  {{- with $notes -}}
-  {{- range . -}}
-  {{- if .Params.cover -}}
-  {{- $img := $.Page.Resources.GetMatch (printf "imgs/%s" .Params.cover) -}}
-  {{- if $img -}}
-  {{- $resized := $img.Fill "600x600 Center" -}}
-  <div class="gallery">
-    <img src="{{ $resized.RelPermalink }}" width="200"/>
-    <h3>{{ .Title }}</h3>
-    <p>{{ .Summary }}</p>
-    {{- if .Params.kofi -}}
-    <a href="{{ .Params.kofi }}">Check it out on Ko-Fi →</a>
-    {{- else -}}
-    <a href="{{ .RelPermalink }}">Read more →</a>
-    {{end}}
-  </div>
-  {{- end -}}
-  {{- end -}}
-  {{- end -}}
-  {{- end -}}
+    {{- $tag := .Get "tag" }}
+    {{- $notes := (where .Site.RegularPages "Params.tags" "intersect" (slice $tag)) -}}
+    {{- with $notes -}}
+    {{- range . -}}
+    {{- $img := "" -}}
+    {{- $img = resources.GetMatch (printf "%s" .Params.cover) -}}
+    <div class="gallery">
+        {{- if $img -}}
+        {{- $resized := $img.Fill "600x600 Center" -}}
+        <img src="{{ $resized.RelPermalink }}" width="200"/>
+        {{- else -}}
+        <img src="/imgs/missing.png" width="200"/>
+        {{- end -}}
+        <h3>{{ .Title }}</h3>
+        {{- if .Params.kofi -}}
+        <a href="{{ .Params.kofi }}">Check it out on Ko-Fi →</a>
+        {{- else -}}
+        <a href="{{ .RelPermalink }}">Read more →</a>
+        {{- end -}}
+    </div>
+    {{- end -}}
+    {{- end -}}
 </section>

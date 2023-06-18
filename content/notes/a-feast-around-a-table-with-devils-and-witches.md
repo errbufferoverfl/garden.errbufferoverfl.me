@@ -3,7 +3,7 @@ title: "The history of witches and wizards"
 alias:
   - "The history of witches and wizards"
 created: 2023-06-03T00:00:00+10:00
-modified: 2023-06-17T21:28:55+10:00
+modified: 2023-06-18T19:58:48+10:00
 cover: "/imgs/a-feast-around-a-table-with-devils-and-witches.png"
 tags:
 - reference

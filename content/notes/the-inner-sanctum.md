@@ -3,8 +3,8 @@ title: "The Inner Sanctum"
 alias:
   - "The Inner Sanctum"
 created: 2023-06-09T00:00:00+10:00
-modified: 2023-06-17T21:41:19+10:00
-cover: "The-Inner-Sanctum.png"
+modified: 2023-06-18T19:58:02+10:00
+cover: "/imgs/The-Inner-Sanctum.png"
 tags:
 - gouache
 - reference

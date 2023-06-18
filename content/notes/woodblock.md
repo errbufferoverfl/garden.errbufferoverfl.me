@@ -1,14 +1,13 @@
 ---
 title: "woodblock"
 alias:
-- "woodblock"
-- "woodcut"
-created: 2023-06-03
-modified: 2023-06-09
+  - "woodblock"
+  - "woodcut"
+created: 2023-06-03T00:00:00+10:00
+modified: 2023-06-18T22:37:52+10:00
 tags:
 - medium
 - printing
-- woodcut
 - art
 ---
 

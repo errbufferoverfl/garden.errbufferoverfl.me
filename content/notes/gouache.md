@@ -1,13 +1,12 @@
 ---
 title: "gouache"
 alias:
-- "gouache"
-created: 2023-06-02
-modified: 2023-06-09
+  - "gouache"
+created: 2023-06-02T00:00:00+10:00
+modified: 2023-06-18T22:39:27+10:00
 tags:
 - medium
 - painting
-- gouache
 - art
 ---
 

@@ -1,5 +1,5 @@
-{{ $img := resources.Get "/imgs/opengraph-base.png" }}
-{{ $font := resources.Get "/font/CaslonThree.otf" }}
+{{ $img := resources.GetMatch "/imgs/opengraph-base.png" }}
+{{ $font := resources.GetMatch "/font/CaslonThree.otf" }}
 
 {{ $size := 80 }}
 {{ $title := $.LinkTitle }}
@@ -30,7 +30,7 @@
 {{ $text := time.Format "Monday, Jan 2, 2006" $.Date }}
 {{ $img = $img | images.Filter (images.Text $text $textOptions) }}
 
-{{ $basename := .Site.Title }}
+{{ $basename := $.Site.Data.config.domain }}
 {{ $textOptions := dict
 "color" "#000"
 "size" 20

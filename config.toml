@@ -46,14 +46,13 @@ buildFuture = true
 
 [module]
 [[module.mounts]]
-source = 'static/imgs'
-target = 'static/imgs'
+source = 'assets'
+target = 'assets'
+
 [[module.mounts]]
-source = 'content/notes/images'
-target = 'static/imgs'
-[[module.mounts]]
-source = 'content/art/imgs'
-target = 'assets/art'
+source = 'content/imgs'
+target = 'assets'
+includeFiles = ['font/**', 'imgs/**', 'indices/**', 'js/**', 'styles/**']
 
 [outputs]
 term = ['html', 'rss', 'json']

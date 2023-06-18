@@ -1,27 +1,25 @@
 <%*
 let title;
-if (tp.file.title !== "Untitled"){
+if (!tp.file.title.startsWith("Untitled")){
 	title = tp.file.title
 } else {
 	title = await tp.system.prompt('Art Title:')
 }
 
-const imgName = title.replace(" ", "-").toLowerCase();
-await tp.file.rename(`art/${title}`)
+const fileTitle = title.replace(" ", "-").toLowerCase();
+await tp.file.rename(`${fileTitle}`)
 -%>
 ---
 title: "<% title %>"
 alias:
 - "<% title %>"
-created: <% tp.file.creation_date("YYYY-MM-DD") %>
-modified: <% tp.file.creation_date("YYYY-MM-DD") %>
+created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
+modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
 kofi: ""
-image-name-key: "<% imgName %>"
-resource: "/art/XXX/images/"
-cover: "<% title.replace(" ", "-").toLowerCase() %>.png"
+cover: "/img/<% fileTitle %>.png"
 tags:
 - oeuvre
 - digital painting
 ---
 
-![<% title %>](/art/XXX/images/<% imgName %>.png)
+![<% title %>](/art/imgs/<% fileTitle %>.png)

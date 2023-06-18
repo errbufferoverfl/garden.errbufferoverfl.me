@@ -9,10 +9,10 @@
                     {{- $img := "" -}}
                     {{- if and (isset .Params "cover") (isset .Params "resource") -}}
                     {{- if .Params.kofi -}}
-                    <a href="{{ .Params.kofi }}"><img src="{{ .Params.resource }}{{ .Params.cover }}" width="200vw"></a>
+                    <a href="{{ .Params.kofi }}"><img src="{{ .Params.cover }}" width="200vw"></a>
                     <h3><a href="{{ .Params.kofi }}">{{- .Title -}} on Ko-Fi</a></h3>
                     {{- else -}}
-                    <a href="{{ .RelPermalink }}"><img src="{{ .Params.resource }}{{ .Params.cover }}" width="200vw"></a>
+                    <a href="{{ .RelPermalink }}"><img src="{{ .Params.cover }}" width="200vw"></a>
                     <h3><a href="{{ .RelPermalink }}">{{- .Title -}}</a></h3>
                     {{- end -}}
                     {{else}}
