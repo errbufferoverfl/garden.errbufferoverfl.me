@@ -7,14 +7,12 @@ title: "{{title}}"
 alias:
 - "{{title}}"
 cover: "{{coverUrl}}"
-created: <% tp.file.creation_date("YYYY-MM-DD") %>
-modified: <% tp.file.creation_date("YYYY-MM-DD") %>
+created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
+modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
 status: "Backlog"
-og_type: "book"
-summary: "{{description}}"
 tags:
 - book
-<% genre.map(line => `- ${line}\n`.replace(" ", "-").toLowerCase()) -%>
+<% genre.map(line => `- ${line}\n`.toLowerCase()) -%>
 ---
 
 {{description}}

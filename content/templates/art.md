@@ -6,7 +6,7 @@ if (!tp.file.title.startsWith("Untitled")){
 	title = await tp.system.prompt('Art Title:')
 }
 
-const fileTitle = title.replace(" ", "-").toLowerCase();
+const fileTitle = title.replace(/ /g, "-").toLowerCase();
 await tp.file.rename(`${fileTitle}`)
 -%>
 ---

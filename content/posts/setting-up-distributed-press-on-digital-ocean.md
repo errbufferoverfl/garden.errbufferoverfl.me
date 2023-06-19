@@ -248,7 +248,7 @@ curl -X POST https://distributed.errbufferoverfl.me/v1/sites \
 
 If you were running on a version of apt-based Linux and had to disable the default DNS server to get node working, when you attempt to run `apt-update` or try to run the Ansible script again it **will** fail.
 
-![A Mastodon post written by me that says "Why won't apt repositories resolve! WHAT IS GOING ON?!  Me two hours earlier: `systemctl disable systemd-resolved`"](posts/images/Setting%20Up%20Distributed%20Press%20on%20Digital%20Ocean.png)
+![A Mastodon post written by me that says "Why won't apt repositories resolve! WHAT IS GOING ON?!  Me two hours earlier: `systemctl disable systemd-resolved`"](imgs/setting-up-distributed-press-on-digital-ocean.png)
 
 To fix this, you'll want to `ssh` onto the remote host, stop the `distributed.press` service and restart `systemd-resolved`.
 

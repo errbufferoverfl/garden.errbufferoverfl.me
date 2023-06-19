@@ -7,7 +7,7 @@
             <div class="section">
                 <div class="desc">
                     {{- $img := "" -}}
-                    {{- if and (isset .Params "cover") (isset .Params "resource") -}}
+                    {{- if and (isset .Params "cover") -}}
                     {{- if .Params.kofi -}}
                     <a href="{{ .Params.kofi }}"><img src="{{ .Params.cover }}" width="200vw"></a>
                     <h3><a href="{{ .Params.kofi }}">{{- .Title -}} on Ko-Fi</a></h3>

@@ -33,7 +33,7 @@ This is also a core theme of [The Age of Surveillance Capitalism](books/the-age-
 
 Everyone should have the right to privacy and to full control over personal data and information online at all levels. There is a staunch rejection of private and state data collection for profit and online user manipulation.
 
-Surveillance is a patriarchal tool, used to control and restrict women's bodies, speech and activism. This type of control doesn't start at home, or end with the state and we must pay equal attention to the surveillance practices of individuals, the private sector, [the state](notes/the%20state.md) and non-state actors.
+Surveillance is a patriarchal tool, used to control and restrict women's bodies, speech and activism. This type of control doesn't start at home, or end with the state and we must pay equal attention to the surveillance practices of individuals, the private sector, [the-state](notes/the-state.md)] and non-state actors.
 
 ### More Thoughts
 

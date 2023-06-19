@@ -8,7 +8,6 @@
             <div class="meta">
                 {{ $coverPath := .Params.cover | default "imgs/missing.png" }}
                 {{- $cover := resources.GetMatch $coverPath }}
-                {{ $cover }}
                 <a href="{{ .RelPermalink }}"><img src="{{ $coverPath }}" width="96px"></a>
             </div>
             <div class="desc" style="padding-left: 2em;">

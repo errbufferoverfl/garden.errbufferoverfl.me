@@ -13,10 +13,6 @@ alias:
 - "<% title %>"
 created: <% tp.file.creation_date("YYYY-MM-DD") %>
 modified: <% tp.file.creation_date("YYYY-MM-DD") %>
-image-name-key: "<% title.replace(" ", "-").toLowerCase() %>"
-cover: "<% title.replace(" ", "-").toLowerCase() %>.png"
-alt: ""
-og_type: "article"
 tags:
 - reference
 ---
