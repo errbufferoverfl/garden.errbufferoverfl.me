@@ -1,7 +1,7 @@
 ---
 title: "the antilibrary"
-created: 2023-05-28
-modified: 2023-06-12
+created: 2023-05-28T00:00:00+10:00
+modified: 2023-06-20T18:28:58+10:00
 tags:
 - personal
 - evergreen
@@ -11,14 +11,18 @@ tags:
 > 
 > \- Giovanni da Col, HAU: Journal of Ethnographic Theory
 
-## Up Next
+## Before you begin…
+
+The notes and summaries included in these pages are snippets that remind me, or help me relate and explore high-level concepts. They aren't a summary of the chapter or book! If you look through these notes and like the ideas, disagree with them, or you find yourself synthesising new ideas, I recommend you read the whole book!
+
+### Up Next
 
 {{<page-books status="Up Next">}}
 
-## Current
+### Current
 
 {{<page-books status="In Progress">}}
 
-## Past
+### Past
 
 {{<page-books status="Completed">}}
