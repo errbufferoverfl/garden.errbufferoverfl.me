@@ -3,9 +3,9 @@ title: "Anarchic Agreements, a Field Guide to Collective Organising"
 alias:
   - "Anarchic Agreements, a Field Guide to Collective Organising"
 created: 2023-05-28T00:00:00+10:00
-modified: 2023-06-20T18:32:22+10:00
+modified: 2023-06-20T21:29:05+10:00
 cover: "/imgs/anarchic-agreements-a-field-guide-to-collective-organising.png"
-status: "In Progress"
+status: "Completed"
 tags:
 - political-science
 - anarchy
@@ -41,6 +41,8 @@ Therefore it's important to keep in mind, having a constitution, or a constituti
 
 A constitution, wether written or not should aim to create a shared understanding of who the group is, and how they do things. (Similar to a team working agreement?). A good anarchic constitution must be: **consensual**, **changeable**, and **conscious**.
 
-Consensual doesn't mean being told what to do, to have a proper consensual agreement, everyone should be able to shape the agreement, or at the least have their needs taken into account. 
+Consensual doesn't mean being told what to do, to have a proper consensual agreement, everyone should be able to shape the agreement, or at the least have their needs taken into account.
+For example:
+- [Consensus and Humming in the IETF](notes/consensus-and-humming-in-the-ietf.md)
 
 Because protracted meetings about policies can lead to a group losing people who are keen to get things done, it's important to find compromise 

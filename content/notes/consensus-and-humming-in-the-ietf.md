@@ -3,15 +3,15 @@ title: "Consensus and Humming in the IETF"
 alias:
   - "Consensus and Humming in the IETF"
 created: 2023-06-20T18:37:06+10:00
-modified: 2023-06-20T19:42:45+10:00
+modified: 2023-06-20T21:26:54+10:00
 tags:
 - seedling
 - consensus building
 - humming
-- shut up about humming in the ietf bec
+- shut up about humming in the ietf Bec
 ---
 
-This post summarises [RFC 7282](https://datatracker.ietf.org/doc/html/rfc7282) and informational RFC (Request for Comment) published in 2014. This post is? will be? part of an ongoing collection on decision making and consensus building that aims to explore how groups make decisions and why.
+This post summarises the key points of [RFC 7282](https://datatracker.ietf.org/doc/html/rfc7282) an informational RFC (Request for Comment) published in 2014. This post is? will be? part of an ongoing collection on decision making and consensus building that looks to explore how groups make decisions and why.
 
 > We reject: kinds, presidents and voting.
 > We believe in: rough consensus and running code.
@@ -82,6 +82,8 @@ You could also be surprised to find that the hums is unanimous and no further di
 
 The IETF doesn't see consensus as the destination, rather consensus-building is a tool to get the best technical outcome. They found voting can result in important minority views being ignored, and, ultimately worse technical outcomes.
 
-At the end of the day, humming for consensus building is another way of thinking about how decisions can be made.
+---
+
+The author [Pete Resnick](https://www.episteme.net/Work/) goes into more detail and provides more examples in the RFC so I recommend reading it in full to learn more about it.
 
 [^1]: https://datatracker.ietf.org/doc/html/rfc1603
