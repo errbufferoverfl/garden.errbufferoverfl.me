@@ -1,11 +1,13 @@
 <%*
 let title;
-if (tp.file.title !== "Untitled"){
+if (!tp.file.title.startsWith("Untitled")){
 	title = tp.file.title
 } else {
-	title = await tp.system.prompt('Reference Title:')
+	title = await tp.system.prompt('Post Title:')
 }
-await tp.file.rename(`${title}`)
+
+const fileTitle = title.replace(/ /g, "-").toLowerCase();
+await tp.file.rename(`${fileTitle}`)
 -%>
 ---
 title: "<% title %>"
