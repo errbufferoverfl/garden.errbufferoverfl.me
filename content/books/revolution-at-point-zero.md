@@ -54,4 +54,12 @@ Controlling food and food based aid is able to do what arming militia can't. Oft
 
 Even if troops aren't involved in the distribution or guarding of food, the delivery of food is always intervention that prolongs war by feeding contending armies (more often then civilians). This in turn shapes military strategy and most benefits those who can take advantage of food distribution.
 
-Because of the control food aid gives to imperial forces, shaping warfare
+Because of the control food aid gives to imperial forces, shaping warfare it also contributes to the displacement of rural communities by setting up distribution around the needs of the NGOs.
+
+So wether food aid actually benefits civilians is questionable at best. It seems more likely that the real motivation is to phase out subsistence farming, and create a dependence on important food both of which benefit the World Bank.
+
+Questioning wether food aid is beneficial if probably seen as controversial in the west because its such a focus of NGOs and "charitable" efforts but we've known about the negative effects of food aid since the 1960s and its been the subject of a lot of protest and research.
+
+Since then the axiom adopted is "you don't help people by giving them food, but by giving them the tools to feed themselves".
+
+NGOs have further marginalised people caught in the cross section of conflict and famine because they have been denied the ability to control relief activities while being portrayed as helpless and unable to care for themselves unless you donate today, which then justifies military intervention.
