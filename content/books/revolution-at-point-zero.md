@@ -4,7 +4,7 @@ alias:
   - "Revolution at Point Zero"
 cover: "/imgs/revolution-at-point-zero.png"
 created: 2023-01-28T00:00:00+11:00
-modified: 2023-06-23T17:08:43+10:00
+modified: 2023-06-23T21:04:20+10:00
 status: "Completed"
 tags:
 - book
@@ -39,7 +39,7 @@ published on 2020-08-01 by PM Press
 
 Developed world initiatives are largely based on globalisation and pushing imperialism, but it takes the form of food aid and humanitarianism. These are just tactics to gain and maintain control over other states.
 
-Comes in the form of structural adjustment programs (SAPs), introduced in the 19080s by the World Bank and the International Monetary Fund.
+Comes in the form of [structural adjustment programs](notes/structural-adjustment-programs.md) (SAPs), introduced in the 19080s by the World Bank and the International Monetary Fund.
 
 Americanisation of the world, and pushing "neoliberal" ideals and policy, including land privatisation, abolition of communal land tenure, downsizing the public sector and defunding social services, all these activities shift systems of controls from African governments to the World Bank and NGOs.
 
@@ -63,3 +63,7 @@ Questioning wether food aid is beneficial if probably seen as controversial in t
 Since then the axiom adopted is "you don't help people by giving them food, but by giving them the tools to feed themselves".
 
 NGOs have further marginalised people caught in the cross section of conflict and famine because they have been denied the ability to control relief activities while being portrayed as helpless and unable to care for themselves unless you donate today, which then justifies military intervention.
+
+> This is a colonialism that aims at controlling policies and resources rather than gaining territorial possession, in political terms, a 'philanthropic', 'humanitarian', 'foot-loose' colonialism that aims at 'governance' rather than 'government…
+
+Today's imperialism is then by definition different, imperialism of the late nineteenth and early twentieth centuries was defined by weapons and force where we could hold someone to account, for example, King Leopold of Belgium who had a personal responsibility for the killing of millions of people in the Congo. But today as millions die as a consequence of structural adjustment, no one person is help to account because it is a social cause of death that is invisible to the western capitalist market.
