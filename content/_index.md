@@ -5,7 +5,7 @@ alias:
   - "index"
   - "home"
 created: 2023-05-27T00:00:00+10:00
-modified: 2023-06-19T19:17:07+10:00
+modified: 2023-06-23T12:27:53+10:00
 ---
 
 Welcome to my digital garden. 🌱
@@ -22,16 +22,16 @@ I currently live on the unceded land of the [Wadawurrung and Dja Dja Wurrung Peo
 	- [x] `ipns://garden.ipfs.errbufferovefl.me`
 	- [x] `hyper://garden.hyper.errbufferovefl.me`
 - ✍️ Working on anarchic illustrations and prints and tending to my winter garden
-- 📚 Reading [Anarchic Agreements, a Field Guide to Collective Organising](books/anarchic-agreements-a-field-guide-to-collective-organising.md)
+- 📚 Reading [Expect Resistance: A Crimethink Field Manual](books/expect-resistance-a-crimethinc-field-manual.md)
 
 # 🗺️ Explore
 
 Here are some places you might explore:
 
-- 📖 [[/notes|the notebook]]: a collection of musings and evolving ideas.
-- 🎨 [the art studio](the%20art%20studio.md): art & illustrative projects, notes and musings.
-- 📚 [the antilibrary](the%20antilibrary.md): books that are in some state of read, being read, or to be read.
-- 🎙️ [[/soapbox|the soapbox]]: meetup, conference and training that I've previously delivered.
+- 📖 [the notebook](/notes): a collection of musings and evolving ideas.
+- 🎨 [the art studio](/the-art-studio.md): art & illustrative projects, notes and musings.
+- 📚 [the antilibrary](/the-antilibrary.md): books that are in some state of read, being read, or to be read.
+- 🎙️ [the soapbox](/soapbox): meetup, conference and training that I've previously delivered.
 - 🔧 [the engineering anthology](notes/projects.md): a collection of notable projects that I’ve finished and or currently maintaining.
 
 Want to get in touch? Checkout [where to find me](https://links.errbufferoverfl.me).

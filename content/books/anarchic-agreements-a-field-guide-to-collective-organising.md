@@ -3,16 +3,16 @@ title: "Anarchic Agreements, a Field Guide to Collective Organising"
 alias:
   - "Anarchic Agreements, a Field Guide to Collective Organising"
 created: 2023-05-28T00:00:00+10:00
-modified: 2023-06-21T11:30:40+10:00
+modified: 2023-06-23T09:08:21+10:00
 cover: "/imgs/anarchic-agreements-a-field-guide-to-collective-organising.png"
 status: "Completed"
 tags:
+- book
 - political-science
 - anarchy
 - anarchism
 - constitutions
 - history-and-theory
-- book
 ---
 
 A new world is possible and not just in our hearts. Anarchic Agreements is a quintessential field guide for the revolution, answering the practical questions often left out of works of political theory and philosophy. How do leaderless groups organize? How might they create constitutions, balance power and write protocols? How do group cultures and institutions maintain coalitions? This urgent and inspiring how-to is the product of more than twenty years of research. Designed explicitly for everyday use, it contains lived examples, illustrations throughout, and text from current horizontally organized constitutions. These documents illustrate the never-ending process of developing community and keeping collaborations alive in the fairest ways possible. Written by dedicated anarchist scholars and organizers, and based on the widely popular Anarchic Agreements pamphlet series, this book facilitates grassroots activism and provides methods to improve and streamline decision making. It is an inspiring celebration of the novel, complex and flexible constitutions Anarchists have created over time. This book shows how to realize another world, collectively without domination, while leaving the future open to infinite other possibilities.
@@ -35,15 +35,15 @@ The difference with constitutions backed by [the state](notes/the-state.md) is n
 
 Modern constitutions represent the interests of the most powerful individuals and groups in society and changing these constitutions means changing the interests of the most powerful – which is unlikely to happen especially if as part of redefining the constitution their power and privilege is reduced, redistributed or removed.
 
-Therefore it's important to keep in mind, having a constitution, or a constitutional process is not the same as democracy, and democracy isn't always antithetical to the constitution of a society.
+Having a constitution, or a constitutional process is not the same as democracy, and democracy isn't always antithetical to the constitution of a society.
 
 ### Building Durable Groups
 
 A constitution, wether written or not should aim to create a shared understanding of who the group is, and how they do things. (Similar to a team working agreement?). A good anarchic constitution must be: **consensual**, **changeable**, and **conscious**.
 
-Consensual doesn't mean being told what to do, to have a proper consensual agreement, everyone should be able to shape the agreement, or at the least have their needs taken into account.
+**Consensual** doesn't mean being told what to do, to have a proper consensual agreement, everyone should be able to shape the agreement, or at the least have their needs taken into account.
 
-Because protracted meetings about policies can lead to a group losing people who are keen to get things done, it's important to find compromise [Consensus and Humming in the IETF](notes/consensus-and-humming-in-the-ietf.md) provides a method of creating rough consensus that I think is applicable here.
+Protracted meetings about policies can lead to a group losing people who are keen to get things done, it's important to find compromise [Consensus and Humming in the IETF](notes/consensus-and-humming-in-the-ietf.md) provides a method of creating rough consensus that I think is applicable here.
 
 Constitutions should be revised regularly, cadence can be decided by the group but it can be tied to key events, like new people joining, established members leaving etc., it could also be regularly updated as established members update their views and/or circumstances change.
 
@@ -63,18 +63,17 @@ While this can affect **everyone** in a group, when it comes to groups where the
 
 Having conscious conversations about how labour is divided means it's possible to consider the implications of different options and choose the one that works best.
 
-Conscious decisions are also easier to communicate to new members – it can shape the development of a clear responsibility model and means messaging will be consistent, which in turn makes it easier to hand over if someone else takes over the job.
+Conscious decisions are easier to communicate to new members – it can shape the development of a clear responsibility model and means messaging will be consistent, which in turn makes it easier to hand over if someone else takes over the job.
 
 Less-conscious decisions on the other hand will favour those already empowered by the group – e.g., if you're an establishing member or you're more confident in your position in a group you're likely going to explain group dynamics within that context.
 
-Conscious decision making is balancing act though – if you're empowered, you're also likely to put forward your views, fight for your ideals, and perhaps assume that if no one disagreed your suggestion was agreed to. 
+Conscious decision making is balancing act – if you're empowered, you're also likely to put forward your views, fight for your ideals, and perhaps assume that if no one disagreed your suggestion was agreed to. 
 
-So as important as it is for others to speak up, it's just as important, if not more important for the empowered to step back.
+As important as it is for others to speak up, it's just as important, if not more important for the empowered to step back.
 
 **Helpful tools:** Roles and Responsibilities, Responsible, Accountable, Consulted and Informed (RACI) Matrix, Team Working Agreements, Ritual Resets.
 
-Questions to ask:
-- **What is the group?** What is the purpose, and what are our aims? What principals and values do we share? What do we need to do to achieve our aims? Who can join the group?
+**What is the group?** What is the purpose, and what are our aims? What principals and values do we share? What do we need to do to achieve our aims? Who can join the group?
 
 In this set of questions I also like to ask: how do we make tradeoffs? This is sometimes covered under principals and values but I like to take to about them as tenets and frame them as statements that show how they are applied.
 
@@ -82,22 +81,12 @@ In this set of questions I also like to ask: how do we make tradeoffs? This is s
 
 **How do we get things done?** How often do we meet? Are there regular social events? How do we communicate with each other outside of meetings? How do we communicate with people outside of the group? Are sub-groups or individuals responsible for certain tasks?
 
-> [!note] On the term "OPSEC"
-> 
-> I don't particular like using the phrase OPSEC (Operational Security) because it can often be overloaded, but when discussing how you get things done I think it's also important to consider operational security.
-
 **How do we manage operational security?** How do we share passwords and secrets? How can people outside our group identify a communication is from us? How do we communicate securely amongst ourselves?
-
-> [!warning] A short digression for those "not doing anything wrong"
-> 
-> It's common for people to argue, but operational security doesn't matter! I'm not doing anything wrong and have nothing to hide.
-> 
-> In the modern threat landscape it doesn't matter. Between government suppression and threat groups managing your operational security is as much about keeping your data secure as much as it is keeping those who work with you secure.
->  
-> This means having reasonably good operational security: using a password vault to manage and share passwords, using reputable hosting providers, using services that offer end to end encryption, etc.
 
 **What policies do we need?** How will we respond if someone makes a complaint to the group? Is there a system that would make it harder to steal group funds?
 
 **How can we make the group empowered?** Are there groups of people who are likely to be empowered/disempowered in the group? What checks and balances can we introduce to make sure no one sub-group gains too much influence? What can we do to make it easier for people who are currently marginalised to take on roles and help shape the group?
 
-This can include creating systems to reduce barriers to people getting involved, stipends or paying for baby-sitting so parents can attend more easily, picking venues more consciously so they are accessible. Picking issues affecting the most affected.
+Consider creating systems to reduce barriers to people getting involved: a stipend or paying for baby-sitting so parents can attend more easily, picking venues more consciously so they are accessible. Picking issues affecting the most affected.
+
+

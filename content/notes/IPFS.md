@@ -31,13 +31,13 @@ Cloudflare started using IPFS in 2018 and launched its own gateway in 2022.
 
 - Cryptocurrency
 - Content Delivery
-- Microsoft has built their [did](notes/did.md) on IPFS
+- Microsoft has built their [DID](notes/did.md) on IPFS
 - Discussion systems
 - To prevent and/or circumvent censorship
 	- [Distributed, privacy-enhancing technologies in the 2017 Catalan referendum on independence: New tactics and models of participatory democracy](https://firstmonday.org/ojs/index.php/fm/article/view/9402/7692)
 - Phishing
 	- The phishing email is stored on Cloudflare's IPFS which displays the content as secure.
 - Command and Control
-	- The IPStore botnet uses IPFS to hide C2 traffic amongst the flow of legitimate data on the IPFS network. ([English Translation](notes/attachements/IPFS-and-IPNS-protocols-as-a-means-of-botnet-control-proof-of-concept.pdf))[^1]
+	- The IPStore botnet uses IPFS to hide C2 traffic amongst the flow of legitimate data on the IPFS network. ([English Translation](attachements/IPFS-and-IPNS-protocols-as-a-means-of-botnet-control-proof-of-concept.pdf))[^1]
 
 [^1]: AQUINO, Bruno Macabeus M. de; LIMA, Marcus Vinicius L. de; OLIVEIRA, João Paolo Cavalcante M. de; SOUZA, Cidcley Teixeira de. [Protocolos IPFS e IPNS como meio para o controle de botnet: prova de conceito](https://sol.sbc.org.br/index.php/wscdc/article/view/2400). _In_: CONNECTED DEVICES CYBERSECURITY WORKSHOP (WSCDC), 1. , 2018, São José dos Campos. **Anais** [...]. Porto Alegre: Sociedade Brasileira de Computação, 2018.

@@ -21,7 +21,7 @@ border-radius: 8px; will-change: transform;">
   
    <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAEn_kdzmTs&#x2F;view?utm_content=DAEn_kdzmTs&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">PyConline 2021 - Collapsology: Why your biggest threat isn’t exposed RDP</a> by errbufferoverfl
 
-[[notes/attachements/collapsology-why-your-biggest-threat-isnt-exposed-rdp-errbufferoverfl.pdf|PDF Download (without speakers notes)]]
+[[attachements/collapsology-why-your-biggest-threat-isnt-exposed-rdp-errbufferoverfl.pdf|PDF Download (without speakers notes)]]
 
 ### Security Culture 
 
@@ -31,9 +31,9 @@ The People-Centric Security Toolkit by [Lance Hayden](https://twitter.com/hay_la
 
 The People-Centric Security Toolkit can also be downloaded in it’s original format from my site below:
 
-- [[notes/attachements/security-culture-toolkit/SCDS.zip|Security Culture Diagnostic Survey]]
-- [[notes/attachements/security-culture-toolkit/Security_FORCE_Survey.zip|Security FORCE Survey]]
-- [[notes/attachements/security-culture-toolkit/Security_FORCE_Metrics.zip|Security FORCE Metrics]]
+- [[attachements/security-culture-toolkit/SCDS.zip|Security Culture Diagnostic Survey]]
+- [[attachements/security-culture-toolkit/Security_FORCE_Survey.zip|Security FORCE Survey]]
+- [[attachements/security-culture-toolkit/Security_FORCE_Metrics.zip|Security FORCE Metrics]]
 
 ### Resources
 

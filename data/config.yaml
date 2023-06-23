@@ -4,6 +4,7 @@ description: "An open collection of notes, resources, sketches, and explorations
 author: errbuffoverfl
 
 enableToc: false
+enablePermalink: true
 openToc: false
 enableLinkPreview: true
 enableLatex: false
