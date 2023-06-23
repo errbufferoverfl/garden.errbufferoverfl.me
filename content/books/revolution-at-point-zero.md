@@ -48,4 +48,10 @@ Americanisation of the world, and pushing "neoliberal" ideals and policy, includ
 
  These "programs" were supposed to improve the state of the economy, but more than a decade on the opposite has happened, local economies have collapsed, foreign investment hasn't materialised. 
  
-War forces people off the land, it takes producers away from the means of production. Then when the land is no longer being used, the land is reclaimed in the name of capitalists, boosting the production of [[notes/cash-crops]] and export oriented agriculture.
+War forces people off the land, it takes producers away from the means of production. Then when the land is no longer being used, the land is reclaimed in the name of capitalists, boosting the production of [cash crops](notes/cash-crops.md) and export oriented agriculture.
+
+Controlling food and food based aid is able to do what arming militia can't. Often delivered to both sides it can be delivered by organisations other than the Red Cross which allows them to intervene in areas of conflict. This was used to justify the US/UN military intervention in Somalia in 1992/3.
+
+Even if troops aren't involved in the distribution or guarding of food, the delivery of food is always intervention that prolongs war by feeding contending armies (more often then civilians). This in turn shapes military strategy and most benefits those who can take advantage of food distribution.
+
+Because of the control food aid gives to imperial forces, shaping warfare
