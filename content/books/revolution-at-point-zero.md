@@ -48,3 +48,4 @@ Americanisation of the world, and pushing "neoliberal" ideals and policy, includ
 
  These "programs" were supposed to improve the state of the economy, but more than a decade on the opposite has happened, local economies have collapsed, foreign investment hasn't materialised. 
  
+War forces people off the land, it takes producers away from the means of production. Then when the land is no longer being used, the land is reclaimed in the name of capitalists, boosting the production of [[notes/cash-crops]] and export oriented agriculture.
