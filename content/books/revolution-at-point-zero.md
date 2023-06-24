@@ -28,8 +28,6 @@ published on 2020-08-01 by PM Press
 
 ## High-Level Thoughts
 
-
-
 ## Summary Notes
 
 ### War, Globalisation and Reproduction (2000)

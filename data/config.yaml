@@ -36,6 +36,16 @@ kofi:
   backgroundColor: #5bc0de
   textColor: #323842
 
+hcard:
+  avatar: "images/me.jpg"
+  fullName: "errbufferoverfl"
+  pronouns: [ "they", "them", "theirs" ]
+  nickname: "errbufferoverfl"
+  showLocation: true
+  city: ""
+  region: "The unceded land of the Wadawurrung and Dja Dja Wurrung People"
+  country: "Australia"
+
 rel_me:
   - https://mastodon.errbufferoverfl.me/@errbufferoverfl
   - https://github.com/errbufferoverfl

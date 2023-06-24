@@ -1,5 +1,6 @@
 # The absolute URL (protocol, host, path, and trailing slash) of your published site
 baseURL = "https://garden.errbufferoverfl.me/"
+tags = ["blog", "gardening", "politics", "mind garden"]
 
 timeout = 60000
 
