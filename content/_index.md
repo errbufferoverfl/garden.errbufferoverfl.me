@@ -5,7 +5,7 @@ alias:
   - "index"
   - "home"
 created: 2023-05-27T00:00:00+10:00
-modified: 2023-06-23T12:27:53+10:00
+modified: 2023-06-24T20:18:57+10:00
 ---
 
 Welcome to my digital garden. 🌱
@@ -21,6 +21,7 @@ I currently live on the unceded land of the [Wadawurrung and Dja Dja Wurrung Peo
 - 👨‍💻 Currently working on making this site available on a handful of esoteric protocols like [IPFS](notes/ipfs.md) and [Hypercore](notes/hypercore.md):
 	- [x] `ipns://garden.ipfs.errbufferovefl.me`
 	- [x] `hyper://garden.hyper.errbufferovefl.me`
+	- [ ] `gemini://garden.gemini.errbufferoverfl.me`
 - ✍️ Working on anarchic illustrations and prints and tending to my winter garden
 - 📚 Reading [Expect Resistance: A Crimethink Field Manual](books/expect-resistance-a-crimethinc-field-manual.md)
 

@@ -4,7 +4,7 @@ alias:
   - "Revolution at Point Zero"
 cover: "/imgs/revolution-at-point-zero.png"
 created: 2023-01-28T00:00:00+11:00
-modified: 2023-06-23T21:04:20+10:00
+modified: 2023-06-24T20:10:14+10:00
 status: "Completed"
 tags:
 - book
@@ -28,7 +28,7 @@ published on 2020-08-01 by PM Press
 
 ## High-Level Thoughts
 
-
+A series of essays that explore globalisation, [reproductive work](posts/reproductive-labor.md) and how these things intertwine to suppress women across the world. A series of essays, it's a lot easier to read than a complete book. While some of the concepts like [structural adjustment programs](notes/structural-adjustment-programs.md) can seem fairly beyond those in the process of being radicalised, or those new to economic radicalisation Federici provides sufficient context to understand the concepts.
 
 ## Summary Notes
 
