@@ -3,7 +3,7 @@ title: "OAuth2.1 State Machine"
 alias:
   - "OAuth2.1 State Machine"
 created: 2023-06-28T21:36:45+10:00
-modified: 2023-06-28T22:06:52+10:00
+modified: 2023-06-28T22:13:34+10:00
 tags:
 - seedling
 ---
@@ -27,4 +27,4 @@ stateDiagram-v2
 	Authorised --> [*]
 ```
 
-> Built for [erlaubnis](https://github.com/errbufferoverfl/erlaubnis).
+Built for [erlaubnis](https://github.com/errbufferoverfl/erlaubnis).
