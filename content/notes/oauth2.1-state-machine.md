@@ -18,7 +18,7 @@ stateDiagram-v2
 	Verifing --> Waiting_Approval: Grant Valid
 	Verifing --> Unauthorised: Grant Invalid
 	Waiting_Approval --> Authorised: Grant Approved
-	Waiting_Approval --> Unauthorised: Grant Denyed
+	Waiting_Approval --> Unauthorised: Grant Denied
 	Waiting_Approval --> Timed_Out: Grant Unserviced
 	Authorised --> Revoked: Grant Revoked
 	Revoked --> [*]
