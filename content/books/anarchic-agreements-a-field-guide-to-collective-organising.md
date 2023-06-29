@@ -3,16 +3,17 @@ title: "Anarchic Agreements, a Field Guide to Collective Organising"
 alias:
   - "Anarchic Agreements, a Field Guide to Collective Organising"
 created: 2023-05-28T00:00:00+10:00
-modified: 2023-06-23T16:20:04+10:00
+modified: 2023-06-29T23:05:20+10:00
 cover: "/imgs/anarchic-agreements-a-field-guide-to-collective-organising.png"
 status: "Completed"
 tags:
 - book
-- political-science
+- non-fiction
+- political science
 - anarchy
 - anarchism
 - constitutions
-- history-and-theory
+- history and theory
 ---
 
 *A new world is possible and not just in our hearts. Anarchic Agreements is a quintessential field guide for the revolution, answering the practical questions often left out of works of political theory and philosophy.*

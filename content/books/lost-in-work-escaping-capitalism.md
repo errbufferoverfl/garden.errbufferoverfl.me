@@ -3,11 +3,12 @@ title: "Lost in Work Escaping Capitalism"
 alias:
   - "Lost in Work Escaping Capitalism"
 created: 2023-04-10T00:00:00+10:00
-modified: 2023-06-18T22:56:21+10:00
+modified: 2023-06-29T23:04:40+10:00
 cover: "/imgs/lost-in-work-escaping-capitalism.png"
 status: "Completed"
 tags:
-- non-fiction 
+- book
+- non fiction 
 - politics  
 - sociology 
 - economics 
@@ -17,7 +18,6 @@ tags:
 - labor 
 - theory 
 - activism
-- book
 ---
 
 'Work hard, get paid.' It's simple. Self-evident. But it's also a lie—at least for most of us. For young people today, the old assumptions are crumbling; hard work in school no longer guarantees a secure, well-paying job in the future. Far from equating to riches and fulfilment, 'work' increasingly means precarity, anxiety and alienation.  

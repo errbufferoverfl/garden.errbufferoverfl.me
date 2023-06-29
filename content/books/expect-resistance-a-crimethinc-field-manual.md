@@ -2,12 +2,13 @@
 title: "Expect Resistance: A Crimethink Field Manual"
 alias:
   - "Expect Resistance: A Crimethink Field Manual"
-cover: "imgs/expect-resistance-a-crimethinc-field-manual.png"
+cover: "/imgs/expect-resistance-a-crimethinc-field-manual.png"
 created: 2023-06-20T21:30:40+10:00
-modified: 2023-06-24T20:10:31+10:00
-status: "In Progress"
+modified: 2023-06-29T23:05:31+10:00
+status: "Incomplete"
 tags:
 - book
+- non fiction
 - political science
 - politics
 - non fiction
@@ -37,6 +38,10 @@ When breaking apart from the status quo you will need to fight off every convict
 
 The author recounts a story of dropping a coffee machine off of an eleven story building, noting a pedestrian lurched back as it hit the ground and this was _not_ a vibe. No ones desire to be liberated should come at the expense of hitting a random person with a fucking coffee machine.
 
-Our modern indulgences are crafted by external factors rather than our own, for example: we like fast food because we have to hurry back to work, it disrupts the brain-gut axis, and we're so busy and stressed we can't justify enjoying the festivity in cooking and eating.[^1]
+Our modern indulgences are crafted by external factors rather than our own, for example: we like fast food because we have to hurry back to work, it disrupts the brain-gut axis, and we're so busy and stressed we can't justify enjoying the festivity in cooking and eating.
 
-[^1]: 
+> [!info] 2023-06-29
+> 
+> In the past few days I've found myself at a bit of a crossroads with this book. While I know it's brimming with tales of anarchy and camaraderie, the message within these pages requires a receptive mind and I'm just not *there* yet.
+> 
+> So, dear book, rest assured I will return and retrace my steps. But for now, I'm going to bid you farewell.

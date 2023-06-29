@@ -1,7 +1,7 @@
 ---
 title: "the antilibrary"
 created: 2023-05-28T00:00:00+10:00
-modified: 2023-06-20T18:28:58+10:00
+modified: 2023-06-29T22:41:48+10:00
 tags:
 - personal
 - evergreen
@@ -26,3 +26,7 @@ The notes and summaries included in these pages are snippets that remind me, or 
 ### Past
 
 {{<page-books status="Completed">}}
+
+### Incomplete
+
+{{<page-books status="Incomplete">}}
