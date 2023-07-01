@@ -1,10 +1,9 @@
 ---
 title: "Erlaubnis Project Diagrams"
 alias:
-  - "OAuth2.1 State Machine"
   - "Erlaubnis Project Diagrams"
 created: 2023-06-28T21:36:45+10:00
-modified: 2023-07-01T23:07:58+10:00
+modified: 2023-07-01T23:34:51+10:00
 tags:
 - seedling
 - state machine
