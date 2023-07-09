@@ -3,7 +3,7 @@ title: "Interesting Tech Tools"
 alias:
   - "Interesting Tech Tools"
 created: 2023-06-28T21:08:38+10:00
-modified: 2023-07-04T09:01:42+10:00
+modified: 2023-07-09T12:35:50+10:00
 tags:
 - evergreen
 - opensource
@@ -40,3 +40,32 @@ An open source programming model that can be used to provide in depth tracing us
 A bunch of helpful colour tools like pallet, tone, tint and shade generators. Also has digital colour tools for checking contrast and colour blindcheckers.
 
 [Dopely](https://colors.dopely.top/)
+
+## Software Development
+
+### Refactoring Guru
+
+Provides high-level and implementation guides for common design patterns and refactoring.
+
+[Refactoring Guru](https://refactoring.guru/)
+
+### Python Patterns
+
+Brandon Rhodes, evolving guide to design patterns in the Python programming language. The site allows him to collect his ideas about Python and Design Patterns all in one place.
+
+[Python Patterns](https://python-patterns.guide/)
+
+### Flask Documentation
+
+Comprehensive guide to Flask, that includes common patterns, how Flask works, and how to get started with common components, like SQL Lite.
+
+[Flask Documentation](https://flask.palletsprojects.com/en/2.3.x/)
+
+
+## Graphs
+
+### Cytoscape.js
+
+Graph theory (network) library for visualisation and analysis.
+
+[Cytoscape.js Official Website](https://js.cytoscape.org/)
