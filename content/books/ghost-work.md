@@ -4,7 +4,7 @@ alias:
   - "Ghost Work"
 cover: "/imgs/ghost-work.png"
 created: 2023-06-29T23:00:43+10:00
-modified: 2023-07-02T17:37:26+10:00
+modified: 2023-07-13T17:56:00+10:00
 status: "In Progress"
 tags:
 - book
@@ -49,12 +49,41 @@ Within the first few pages Grey has already set the scene for this book – ther
 On page xiv of the introduction, Grey says:
 > Unlike CPUs, humans have agency: they make their own decisions.
 
-And while I understand the general sentiment she is getting at, I disagree because when you live in a society that values individual-ruggidism? (what ever that phrase is) and limits the basic oppurtunities people have, they don't have significant self-determination. It becomes something that only the privilaged have.
+And while I understand the general sentiment she is getting at, I disagree because when you live in a society that values rugged individualism and limits the basic opportunities people have, they don't have significant self-determination. It becomes something that only the privileged have.
+
+Companies rely on an assembly line of workers to satisfy customers **who have grown to expect responses to their requests within seconds**. 
+
+Elon Musk, Stephen Hawking and Larry Page are people who have expressed panic about AI or have revealed in a time "before AI" when people "controlled their destiny". But one must ask if humans especially humans who live in states that have dismantled welfare were ever really in control of their destiny or if this notion of destiny is just something reserved for the people who have time and money to pursue "destiny".
+
+Foxconn, who make iPhones apparently replaced 60,000 humans with robots in 2016.[^4]
+
+In 2016, Amazon's 20 fulfilment centres apparently deployed 45, 00 robots to work alongside 230,000 people. In 2019, Amazon started rolling out machines to automate boxing up customer orders.[^5]
+
+Robots and automations often allow employers to have what they want when they want the, which allows them to avoid navigating the the problems of negotiating with employees for better, safer working conditions. It also means they no longer need to deal with the classification of types of work, or engaging with the employment laws that are protecting humans.
+
+Dismantling employment on the surface sounds positive, but this is occurring along side the dismantling of the welfare state, which encourages this value of rugged individualism.
+
+We're also seeing years of global reform be undone, from child labor laws,[^6] [^7]to workplace safety guidelines.[^8]
+
+JPMorgan Chase Institute found 4.3% of U.S adults (10.73 million people) had worked an online-platform-economy job at least once between 2015 and 2016. The jobs provide no professional title, no ladder to climb, no bonuses, and no guarantees.
+
+Gray talks about the thing that is common with all the people she interviewed was their hope;
+- Their hope to use on-demand jobs to control when they work, who they work with, and what tasks they take on.
+- The hope to avoid long commutes and hostile work environments.
+- They hope to gain experiences that refreshes their resume or opens the door to new possibilities.
+
+Gray interviewed a bunch of people some looking to starve off boredom, or pay for weddings, younger siblings degrees, and in line with previous observations, disabled and retired folks looking for alternative routes to employment or making extra money to pad their social security checks.
 
 **Platforms**
 - Mechanical Turk (MTurk): The Amazon on-demand work platform.
 - Universal Human Relevance System (UHRS): The Microsoft on-demand work platform, can only be used by Microsoft staff and authorised third-parties.
+- CrowdFlower (Figure Eight Inc.)
 
 [^1]: Ghost Work, Mary L. Gray, Siddharth Suri, Introduction, page. xiii
-[^2]: https://www.whitesupremacyculture.info/urgency.html
-[^3]: https://www.australianunions.org.au/2021/03/01/serving-up-abuse-and-exploitation-australian-horticultures-dark-secret/
+[^2]: [Sense of Urgency](https://www.whitesupremacyculture.info/urgency.html)
+[^3]: [Serving up abuse and exploitation – Australian horticulture’s dark secret](https://www.australianunions.org.au/2021/03/01/serving-up-abuse-and-exploitation-australian-horticultures-dark-secret/)
+[^4]: [Apple supplier Foxconn seeks to slim workforce over time, eyes robotics](https://www.reuters.com/article/us-hon-hai-labor-idINKBN0L00Z520150128)
+[^5]: [Exclusive: Amazon rolls out machines that pack orders and replace jobs](https://www.reuters.com/article/us-amazon-com-automation-exclusive-idUSKCN1SJ0X1)
+[^6]: [U.S. to crack down on child labor amid massive uptick](https://www.reuters.com/business/us-crack-down-child-labor-amid-massive-uptick-2023-02-27/)
+[^7]: [Arkansas leads charge to weaken child labor protections](https://www.theguardian.com/us-news/2023/mar/08/arkansas-bill-child-labor-protections)
+[^8]: [After rejecting COVID rule, Arizona could lose oversight of workplace safety](https://www.reuters.com/legal/government/after-rejecting-covid-rule-arizona-could-lose-oversight-workplace-safety-2022-04-20/)
