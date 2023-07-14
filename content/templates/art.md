@@ -16,10 +16,10 @@ alias:
 created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
 modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
 kofi: ""
-cover: "/img/<% fileTitle %>.png"
+cover: "/imgs/art/<% fileTitle %>.png"
 tags:
 - oeuvre
 - digital painting
 ---
 
-![<% title %>](/art/imgs/<% fileTitle %>.png)
+![<% title %>](/imgs/art/<% fileTitle %>.png)

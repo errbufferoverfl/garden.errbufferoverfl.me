@@ -8,9 +8,9 @@
     <div class="gallery">
         {{- if $img -}}
         {{- $resized := $img.Fill "600x600 Center" -}}
-        <img src="{{ $resized.RelPermalink }}" width="200"/>
+        <img src="{{ $resized.RelPermalink }}" width="200" alt={{printf "%s" .Params.alt}} />
         {{- else -}}
-        <img src="/imgs/missing.png" width="200"/>
+        <img src="/imgs/missing.png" width="200" alt="An illustration of a Pomegrante tree"/>
         {{- end -}}
         <h3>{{ .Title }}</h3>
         {{- if .Params.kofi -}}
