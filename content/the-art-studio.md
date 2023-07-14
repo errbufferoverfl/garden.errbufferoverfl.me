@@ -11,6 +11,10 @@ If you want to stay connected and show your support, you can follow or supported
 
 ## Projects
 
+### [Anarchic Illustrations](art/anarchic-illustrations.md)
+
+{{<summary link="art/anarchic-illustrations">}}
+
 ### [100 days of gouache](art/one-hundered-days-of-gouache.md)
 
 {{<summary link="art/one-hundered-days-of-gouache">}}
