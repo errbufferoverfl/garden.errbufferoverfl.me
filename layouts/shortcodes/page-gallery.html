@@ -7,10 +7,16 @@
     {{- $img = resources.GetMatch (printf "%s" .Params.cover) -}}
     <div class="gallery">
         {{- if $img -}}
-        {{- $resized := $img.Fill "600x600 Center" -}}
-        <img src="{{ $resized.RelPermalink }}" width="200" alt={{printf "%s" .Params.alt}} />
+            {{- $resized := $img.Fill "600x600 Center" -}}
+            {{- $alt := "" -}}
+            {{- if .Params.alt -}}
+                {{- $alt = .Params.alt }}
+            {{- else -}}
+                {{- $alt = "This image is missing alt text." }}
+            {{- end -}}
+        <img src="{{ $resized.RelPermalink }}" width="200" alt="{{ $alt }}" />
         {{- else -}}
-        <img src="/imgs/missing.png" width="200" alt="An illustration of a Pomegrante tree"/>
+        <img src="/imgs/missing.png" width="200" alt="No image available."/>
         {{- end -}}
         <h3>{{ .Title }}</h3>
         {{- if .Params.kofi -}}

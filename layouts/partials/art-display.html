@@ -8,11 +8,17 @@
                 <div class="desc">
                     {{- $img := "" -}}
                     {{- if and (isset .Params "cover") -}}
+                    {{- $alt := "" -}}
+                    {{- if .Params.alt -}}
+                    {{- $alt = .Params.alt }}
+                    {{- else -}}
+                    {{- $alt = "This image is missing alt text." }}
+                    {{- end -}}
                     {{- if .Params.kofi -}}
-                    <a href="{{ .Params.kofi }}"><img src="{{ .Params.cover }}" width="200vw"></a>
+                    <a href="{{ .Params.kofi }}"><img src="{{ .Params.cover }}" alt="{{ $alt }}. View of Ko-Fi." width="200vw"></a>
                     <h3><a href="{{ .Params.kofi }}">{{- .Title -}} on Ko-Fi</a></h3>
                     {{- else -}}
-                    <a href="{{ .RelPermalink }}"><img src="{{ .Params.cover }}" width="200vw"></a>
+                    <a href="{{ .RelPermalink }}"><img src="{{ .Params.cover }}" alt="{{ $alt }}" width="200vw"></a>
                     <h3><a href="{{ .RelPermalink }}">{{- .Title -}}</a></h3>
                     {{- end -}}
                     {{else}}
