@@ -3,8 +3,8 @@ title: "Using Pytest with Flask"
 alias:
   - "Using Pytest with Flask"
 created: 2023-07-14T11:44:22+10:00
-modified: 2023-07-14T11:54:08+10:00
-url: "https://testdriven.io/blog/flask-pytest/"
+modified: 2023-07-15T11:57:01+10:00
+source: "https://testdriven.io/blog/flask-pytest/"
 tags:
 - seedling
 - python

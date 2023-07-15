@@ -19,8 +19,8 @@ I currently live on the unceded land of the [Wadawurrung and Dja Dja Wurrung Peo
 - 📐 Security Engineer @ Canva
 - 🧠 Learning how to be a better [[anarchist]], anti-capitalist and revolutionary
 - 👨‍💻 Currently working on making this site available on a handful of esoteric protocols like [IPFS](notes/ipfs.md) and [Hypercore](notes/hypercore.md):
-	- [x] `ipns://garden.ipfs.errbufferovefl.me`
-	- [x] `hyper://garden.hyper.errbufferovefl.me`
+	- [x] `ipns://garden.ipfs.errbufferoverfl.me`
+	- [x] `hyper://garden.hyper.errbufferoverfl.me`
 	- [ ] `gemini://garden.gemini.errbufferoverfl.me`
 - ✍️ Working on anarchic illustrations and prints and tending to my winter garden
 - 📚 Reading [Ghost Work](books/ghost-work.md)
