@@ -3,8 +3,10 @@ title: "Using Pytest with Flask"
 alias:
   - "Using Pytest with Flask"
 created: 2023-07-14T11:44:22+10:00
-modified: 2023-07-15T11:57:01+10:00
-source: "https://testdriven.io/blog/flask-pytest/"
+modified: 2023-07-15T13:08:30+10:00
+source: 
+- "https://testdriven.io/blog/flask-pytest/"
+- "https://miguendes.me/how-to-check-if-an-exception-is-raised-or-not-with-pytest"
 tags:
 - seedling
 - python
@@ -38,6 +40,34 @@ THEN check the email, hashed_password, and role fields are defined correctly
 - GIVEN - what are the initial conditions for the test?
 - WHEN - what is occurring that needs to be tested?
 - THEN - what is the expected response?
+
+## Testing for Exceptions
+
+Asserting an exception **is** raised:
+
+```python
+import pytest
+
+def test_raises_exception():
+    with pytest.raises(ZeroDivisionError):
+        1 / 0
+```
+
+Asserting an exception **is not** raised:
+
+```python
+def my_division_function(a, b):
+    return a / b
+
+def test_code_raises_no_exception():
+    """
+    Assert your python code raises no exception.    
+    """
+    try:
+        my_division_function(10, 5)
+    except ZeroDivisionError as exc:
+        assert False, f"'10 / 5' raised an exception {exc}"
+```
 
 ## Pytest Fixtures
 
