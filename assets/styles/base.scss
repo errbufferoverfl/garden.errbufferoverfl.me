@@ -1,9 +1,17 @@
 // Replace this with your own font imports!
-@import url('https://fonts.googleapis.com/css2?family=Domine:wght@400;500;600;700&family=Inconsolata:wght@300&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Quattrocento:wght@400;700&display=swap');
+@font-face {
+  font-family: Marcellus;
+  src: url("/font/Marcellus.ttf");
+}
+
+@font-face {
+  font-family: Inconsolata;
+  src: url("/font/Inconsolata.ttf");
+}
 
 :root {
-  --font-body: 'Quattrocento', serif;
-  --font-header: 'Lora', serif;
+  --font-body: monospace;
+  --font-header: 'Marcellus', serif;
   --font-mono: 'Inconsolata', monospace;
 }
 
