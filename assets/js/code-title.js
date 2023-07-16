@@ -1,4 +1,3 @@
-
 function addTitleToCodeBlocks() {
   const els = document.getElementsByClassName("highlight");
   for (let i = 0; i < els.length; i++) {

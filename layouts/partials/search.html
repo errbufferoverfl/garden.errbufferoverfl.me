@@ -1,6 +1,6 @@
 <div id="search-container">
   <div id="search-space">
-    <input autocomplete="off" id="search-bar" name="search" type="text" aria-label="{{ i18n "search" }}"
+    <input autocomplete="off" id="search-bar" name="search" type="text" tabindex="0" aria-label="{{ i18n " search" }}"
       placeholder="{{ i18n "search_for_something" }}" dir="{{ $.Site.Language.LanguageDirection }}">
     <div id="results-container">
     </div>
@@ -15,4 +15,3 @@
 {{ $js := resources.Get "js/full-text-search.js" | resources.Fingerprint "md5" | resources.Minify }}
 <script defer src="{{ $js.RelPermalink }}"></script>
 {{end}}
-

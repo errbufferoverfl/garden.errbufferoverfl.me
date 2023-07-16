@@ -1,7 +1,6 @@
-const userPref = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark'
-const currentTheme = localStorage.getItem('theme') ?? userPref
+const userPref = window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+const currentTheme = localStorage.getItem('theme') ?? userPref;
 const syntaxTheme = document.querySelector("#theme-link");
-
 
 {{ $darkSyntax := resources.Get "styles/_dark_syntax.scss" | resources.ToCSS (dict "outputStyle" "compressed") | resources.Fingerprint "md5" | resources.Minify  }}
 {{ $lightSyntax := resources.Get "styles/_light_syntax.scss" | resources.ToCSS (dict "outputStyle" "compressed") | resources.Fingerprint "md5" | resources.Minify  }}
@@ -22,7 +21,7 @@ const switchTheme = (e) => {
     localStorage.setItem('theme', 'light')
     syntaxTheme.href = '{{ $lightSyntax.Permalink }}';
   }
-}
+};
 
 window.addEventListener('DOMContentLoaded', () => {
   // Darkmode toggle
@@ -34,4 +33,4 @@ window.addEventListener('DOMContentLoaded', () => {
   if (currentTheme === 'dark') {
     toggleSwitch.checked = true
   }
-})
+});

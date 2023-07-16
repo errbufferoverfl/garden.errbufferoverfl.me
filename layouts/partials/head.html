@@ -88,9 +88,6 @@
   {{$lightSyntax := resources.Get "styles/_light_syntax.scss" | resources.ToCSS (dict "outputStyle" "compressed") | resources.Fingerprint "md5" | resources.Minify }}
   <link href="{{$lightSyntax.Permalink}}" rel="stylesheet" id="theme-link">
 
-  {{$finalCss := $css | resources.Concat "styles/custom.css" | resources.Fingerprint "md5" | resources.Minify }}
-  <link href="{{$finalCss.Permalink}}" rel="stylesheet"/>
-
   <!-- Base scripts -->
   {{$scripts := (slice "js/darkmode.js" "js/util.js")}}
   {{range $scripts}}
@@ -106,6 +103,7 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@floating-ui/core@1.2.1"></script>
   <script src="https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.2.1"></script>
+
   {{ $popover := resources.Get "js/popover.js" | resources.Fingerprint "md5" | resources.Minify }}
   <script defer src="{{$popover.Permalink}}"></script>
 
@@ -124,6 +122,15 @@
   {{ $callouts := resources.Get "js/callouts.js" | resources.Fingerprint "md5" | resources.Minify }}
   <script defer src="{{$callouts.Permalink}}"></script>
   {{ end }}
+
+  {{ $fontAwesomeRegular := resources.Get "js/regular.min.js" | resources.Fingerprint "md5"}}
+  <script defer src="{{$fontAwesomeRegular.Permalink}}"></script>
+
+  {{ $fontAwesomeSolid := resources.Get "js/solid.min.js" | resources.Fingerprint "md5"}}
+  <script defer src="{{$fontAwesomeSolid.Permalink}}"></script>
+
+  {{ $fontawesome := resources.Get "js/fontawesome.min.js" | resources.Fingerprint "md5"}}
+  <script defer src="{{$fontawesome.Permalink}}"></script>
 
   <!--  Preload page vars  -->
   {{ $linkIndex := resources.Get "indices/linkIndex.json" | resources.Fingerprint "md5" | resources.Minify | }}

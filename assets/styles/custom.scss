@@ -226,3 +226,27 @@ section p {
   margin-bottom: 1rem;
   margin-left: 1rem;
 }
+
+.visually-hidden{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  white-space: nowrap;
+}
+
+header .search-bar {
+  background-color: var(--lightgray);
+  border: none;
+  border-radius: 4px;
+  height: 2em;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+::placeholder{
+  color: var(--gray);
+}
