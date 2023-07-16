@@ -18,7 +18,7 @@
 <a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/actions/workflows/deploy.yml"><img alt="GitHub Workflow Status for Hugo Build" src="https://img.shields.io/github/actions/workflow/status/errbufferoverfl/garden.errbufferoverfl.me/deploy.yml?label=Hugo%20Build&style=for-the-badge"></a>
 
 <a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/actions/workflows/distributed-press-publish.yml"><img alt="GitHub Workflow Status for Hugo Build" src="https://img.shields.io/github/actions/workflow/status/errbufferoverfl/garden.errbufferoverfl.me/distributed-press-publish.yml?label=Distributed%20Press%20Build&style=for-the-badge"></a>
-  <!-- Test Coverage -->
+  <!-- Test Coverage --> 
   <!-- Downloads -->
   <!-- Standard -->
 </div>
