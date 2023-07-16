@@ -239,14 +239,13 @@ section p {
 
 header .search-bar {
   background-color: var(--lightgray);
+  color: var(--gray);
   border: none;
   border-radius: 4px;
   height: 2em;
   display: flex;
-  align-items: center;
+  text-align: center;
   cursor: pointer;
-}
+  font-family: var(--font-body);
 
-::placeholder{
-  color: var(--gray);
 }
