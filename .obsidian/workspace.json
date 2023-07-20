@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "58ae5605fb804bf1",
+    "type": "split",
+    "children": [
+      {
+        "id": "cdc3b98c5628493f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8ef5ea026210bb49",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "df2f100c11539636",
+    "type": "split",
+    "children": [
+      {
+        "id": "2319076d961d35e5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7ac42fe2c0fc4bcb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b37254c87ea16f80",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "bad6e28c3422a14e",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "3abe30c530e21567",
+    "type": "split",
+    "children": [
+      {
+        "id": "5488e1e0066cad28",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "46169ae965191b9d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1dc858ef9be84230",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "611d83d8258a814c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9c6efc830f1f61df",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "8ef5ea026210bb49",
+  "lastOpenFiles": [
+    "attachements/collapsology-why-your-biggest-threat-isnt-exposed-rdp-errbufferoverfl.pdf",
+    "attachements/IPFS-and-IPNS-protocols-as-a-means-of-botnet-control-proof-of-concept.pdf",
+    "attachements/security-culture-toolkit/Security_FORCE_Metrics.zip",
+    "attachements/security-culture-toolkit/Security_FORCE_Survey.zip",
+    "imgs/art/catherine-the-great-study.png",
+    "imgs/the-inner-sanctum.png",
+    "imgs/a-feast-around-a-table-with-devils-and-witches.png",
+    "imgs/art/autumn-pumpkins.jpg",
+    "imgs/coaster-for-salut.png",
+    "imgs/witches-flying-on-broomsticks.png",
+    "imgs/witches-dancing-in-a-circle-with-the-devil.png",
+    "imgs/art/all-crustaceans-really-are-beautiful.jpeg",
+    "imgs/theatrum-chemicum-britannicum.png",
+    "imgs/setting-up-distributed-press-on-digital-ocean.png",
+    "posts/setting-up-distributed-press-on-digital-ocean.md",
+    "books/anarchic-agreements-a-field-guide-to-collective-organising.md",
+    "books/revolution-at-point-zero.md",
+    "notes/consensus-and-humming-in-the-ietf.md",
+    "soapbox/Collapsology - Why your biggest threat isn’t exposed RDP.md",
+    "notes/e2e-fear-campaign-accce-and-police.md",
+    "posts/reproductive-labor.md",
+    "books/expect-resistance-a-crimethinc-field-manual.md",
+    "notes/using-pytest-with-flask.md",
+    "notes/sauerkraut-recipe.md",
+    "notes/Embodiment.md",
+    "notes/aquarium-algae-scrubber.md",
+    "notes/erlaubnis-project-diagrams.md",
+    "notes/security-engineer.md",
+    "notes/IPFS.md",
+    "notes/interesting-tech-tools.md",
+    "books/the-age-of-surveillance-capitalism.md",
+    "notes/structural-adjustment-programs.md",
+    "soapbox/Building your own offline file-sharing and communication system for the inevitable downfall of the Internet.md",
+    "notes/nasa's-adlr-framework-for-lessons-learned.md",
+    "books/the-feminist-and-the-sex-offender.md",
+    "soapbox/Agloe What the Map Makers of the 1930s can Teach us About Protecting our Data in 2018.md",
+    "books/lost-in-work-escaping-capitalism.md",
+    "notes/surveillance-capitalism.md",
+    "notes/wadawurrung-and-dja-dja-wurrung-people.md",
+    "attachements/security-culture-toolkit",
+    "attachements",
+    "templates",
+    "imgs/art",
+    "private",
+    "soapbox",
+    "books"
+  ]
+}
