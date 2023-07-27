@@ -384,6 +384,8 @@ hr {
 header {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
   margin: 1em 0 2em;
 
