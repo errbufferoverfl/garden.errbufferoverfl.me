@@ -60,7 +60,7 @@ Here's a brief high-level overview of the tech stack garden.errbufferoverfl.me u
 - Hugo is used for static website generation.
 - Quartz for mind-garden theming, and `hugo-obsidian` to scrape Obsidian vault for links for easy consumption by Hugo.
 - Content is managed using [Obsidian](https://obsidian.md/).
-- Deployment to Hypercore & IPFS (Coming Soon!).
+- Deployment to Hypercore & IPFS.
 
 ## Getting Started
 
