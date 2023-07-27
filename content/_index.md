@@ -7,7 +7,6 @@ alias:
 created: 2023-05-27T00:00:00+10:00
 modified: 2023-07-15T12:14:16+10:00
 ---
-
 Welcome to my digital garden. 🌱
 
 I'm **[errbufferoverfl](notes/errbufferoverfl.md)**, or Buffy for short. I'm a non-binary (**they/sie/ze**) anarchic gardener, knowledge librarian, and [Security Engineer](notes/security-engineer.md) by trade.
