@@ -3,7 +3,7 @@ title: "the art studio"
 alias:
   - "the art studio"
 created: 2023-05-31T00:00:00+10:00
-modified: 2023-06-17T22:12:07+10:00
+modified: 2023-08-06T16:00:14+10:00
 ---
 If you've been enjoying my work and finding it entertaining. Your support means the world to me, and I can't thank you enough for being a part of this journey.
 
