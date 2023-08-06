@@ -4,7 +4,7 @@ alias:
   - "Ghost Work"
 cover: "/imgs/ghost-work.png"
 created: 2023-06-29T23:00:43+10:00
-modified: 2023-07-13T17:56:00+10:00
+modified: 2023-08-06T16:40:40+10:00
 status: "In Progress"
 tags:
 - book
@@ -44,7 +44,7 @@ In the same way as fruit picking in Australia, it's not that the technology indu
 
 Grey reports that [[FAANG]] companies often use ghost work to remove as much "not safe for work" content from their platform, for me the call out and an important distinction here is that it's not safe for **work**, not, not safe for people, which begs the question why are we investing so much money into sanitising the Internet? (That's a rhetorical question).
 
-Within the first few pages Grey has already set the scene for this book – there is the general understanding that this work is **important** and **valuable** to the usability of the platform but the associated monetary value is low. I mean it is exactly like how we value [reproductive-labor](posts/reproductive-labor.md).
+Within the first few pages Grey has already set the scene for this book – there is the general understanding that this work is **important** and **valuable** to the usability of the platform but the associated monetary value is low. I mean it is exactly like how we value [reproductive-labor](reproductive-labor.md).
 
 On page xiv of the introduction, Grey says:
 > Unlike CPUs, humans have agency: they make their own decisions.
