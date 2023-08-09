@@ -10,4 +10,4 @@ tags:
 - hypercore
 ---
 
-An experimental module that's used to rebase (follow?) multiple casually linked [Hypercores](notes/hypercore.md) into a single, linearized Hypercore for multi-user collaboration.
+An experimental module that's used to rebase (follow?) multiple casually linked [Hypercores](hypercore.md) into a single, linearized Hypercore for multi-user collaboration.

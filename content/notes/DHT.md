@@ -12,4 +12,4 @@ tags:
 - ipfs
 ---
 
-A decentralized data structure that is used to store and retrieve data over a network. The [HyperDHT](notes/hyperdht.md) is used to facilitate the discovery of peers and to enable connections between them.
+A decentralized data structure that is used to store and retrieve data over a network. The [HyperDHT](hyperdht.md) is used to facilitate the discovery of peers and to enable connections between them.

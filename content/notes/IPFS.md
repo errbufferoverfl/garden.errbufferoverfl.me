@@ -4,7 +4,7 @@ alias:
   - "IPFS"
   - "InterPlanetary File System"
 created: 2023-06-11T00:00:00+10:00
-modified: 2023-06-19T19:15:33+10:00
+modified: 2023-08-09T12:49:10+10:00
 tags:
 - seedling
 - protocol
@@ -19,7 +19,7 @@ InterPlanetary File System (IPFS) is a protocol, hypermedia and file sharing pee
 
 It is an alternative location-based hyper media server protocol that could replace HTTP/HTTPS. It allows users to host and receive content is a similar way to BitTorrent.
 
-Any user in the network can serve a file by it's content address, and many other peers in the network can find and request content from any node who has it using a [DHT](notes/dht.md).
+Any user in the network can serve a file by it's content address, and many other peers in the network can find and request content from any node who has it using a [DHT](dht.md).
 
 IPFS seems to be strongly aligned to [[Web3]], and is often mentioned in the same breath as cryptocurrency protocols. 🚨
 
@@ -31,7 +31,7 @@ Cloudflare started using IPFS in 2018 and launched its own gateway in 2022.
 
 - Cryptocurrency
 - Content Delivery
-- Microsoft has built their [DID](notes/did.md) on IPFS
+- Microsoft has built their [DID](did.md) on IPFS
 - Discussion systems
 - To prevent and/or circumvent censorship
 	- [Distributed, privacy-enhancing technologies in the 2017 Catalan referendum on independence: New tactics and models of participatory democracy](https://firstmonday.org/ojs/index.php/fm/article/view/9402/7692)

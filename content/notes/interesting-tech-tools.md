@@ -20,7 +20,7 @@ tags:
 
 [Website](https://distributed.press/)  ·  [Github Repo](https://github.com/hyphacoop/api.distributed.press)
 
-an open source publishing tool for the World Wide Web and [[Distributed Web]]. It automates publishing to the world wide web, and seeds to [IPFS](notes/ipfs.md) and [Holepunch](notes/holepunch.md).
+an open source publishing tool for the World Wide Web and [[Distributed Web]]. It automates publishing to the world wide web, and seeds to [IPFS](ipfs.md) and [Holepunch](holepunch.md).
 
 **Additional Notes**
 - [Setting Up Distributed Press on Digital Ocean](posts/setting-up-distributed-press-on-digital-ocean.md)
