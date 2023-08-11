@@ -83,7 +83,7 @@ ansible-galaxy install -r ./requirements.yml
 ```
 
 - Add the VPS's IP address and the `distributed_press_domain` to your `/etc/hosts` file so you don't experience an `UNREACHABLE` error when you run the playbook. e.g.,
-```text {title="/etc/hosts"}
+```text {title="/etc/hostsAs "}
 127.0.0.1	localhost
 255.255.255.255	broadcasthost
 ::1             localhost%

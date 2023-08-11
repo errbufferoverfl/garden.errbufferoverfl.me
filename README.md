@@ -43,7 +43,8 @@
 
 ## Introduction
 
-garden.errbufferoverfl.me is my second brain and mind garden, it is an alternative to a traditional blog and used to explore a variety of indieweb and distributed publishing techniques.
+garden.errbufferoverfl.me is my second brain and mind garden. It's an alternative to a traditional blog and used to 
+explore a variety of indieweb, distributed publishing techniques and lower-tech online publishing.
 
 ## Table of contents
 
@@ -98,7 +99,8 @@ If you’d like to preview what your Quartz site looks like before deploying it 
 go install github.com/jackyzha0/hugo-obsidian@latest
 ```
 
-**Note:** If you are running into an error saying that command not found: `hugo-obsidian`, make sure you set your GOPATH correctly
+**Note:** If you are running into an error saying that command not found: `hugo-obsidian`, make sure you set your 
+`GOPATH` correctly
 
 Once you have installed `hugo-obsidian`, navigate to your Quartz directory:
 
