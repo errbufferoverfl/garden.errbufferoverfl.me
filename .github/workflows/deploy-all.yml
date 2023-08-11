@@ -31,9 +31,6 @@ jobs:
       - name: Install dependencies
         run: poetry install --no-interaction --no-root
         
-      - name: Activate poetry env
-        run: poetry shell
-        
       - name: Dither Images
         run: |
           PYTHONPATH=utils/ poetry run python -m dither.py -d ../assets/imgs
