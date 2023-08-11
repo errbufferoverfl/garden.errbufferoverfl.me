@@ -1,12 +1,12 @@
 ---
-title: "Holepunch"
-alias:
-  - "Holepunch"
+title: holepunch
+aliases:
+  - Holepunch
 created: 2023-06-11T00:00:00+10:00
-modified: 2023-08-09T12:48:32+10:00
+modified: 2023-08-12T08:09:44+10:00
 tags:
-- seed
-- dweb
+  - seed
+  - dweb
 ---
 
 [Holepunch](https://github.com/holepunchto) is a company and suite of tools that "equips developers with a powerful suite of independent components to effortlessly construct peer-to-peer applications."

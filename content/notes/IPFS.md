@@ -1,13 +1,13 @@
 ---
-title: "IPFS"
-alias:
-  - "IPFS"
-  - "InterPlanetary File System"
+title: ipfs
+aliases:
+  - IPFS
+  - InterPlanetary File System
 created: 2023-06-11T00:00:00+10:00
-modified: 2023-08-09T12:49:10+10:00
+modified: 2023-08-12T08:07:03+10:00
 tags:
-- seed
-- dweb
+  - seed
+  - dweb
 ---
 
 InterPlanetary File System (IPFS) is a protocol, hypermedia and file sharing peer-to-peer network for storing and sharing data to a distributed file system.
