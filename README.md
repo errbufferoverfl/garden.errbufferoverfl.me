@@ -44,7 +44,7 @@
 ## Introduction
 
 garden.errbufferoverfl.me is my second brain and mind garden. It's an alternative to a traditional blog and used to 
-explore a variety of indieweb, distributed publishing techniques and lower-tech online publishing.
+explore a variety of indieweb, distributed publishing techniques and lower-tech online publishing. 
 
 ## Table of contents
 
