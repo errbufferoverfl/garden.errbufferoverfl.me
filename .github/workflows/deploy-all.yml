@@ -29,6 +29,8 @@ jobs:
           installer-parallel: true
       - name: Install dependencies
         run: poetry install --no-interaction --no-root
+      - name: Activate poetry env
+        run: poetry shell
       - name: Dither Images
         run: |
           ./utils/dither.py -d assets/imgs
