@@ -17,7 +17,7 @@
             {{ range (.GetTerms "tags") }}
             <li><a href="{{ .RelPermalink }}">
                 {{if (eq $.Site.Language.Lang "en")}}
-                {{ .LinkTitle | humanize }}
+                {{ .LinkTitle | lower }}
                 {{else}}
                 {{ .LinkTitle }}
                 {{end}}
@@ -28,9 +28,11 @@
         {{partial "toc.html" .}}
         {{partial "textprocessing.html" . }}
     </article>
+    {{ if $.Site.Data.config.enableComments }}
     <hr>
     {{partial "comments.html" .}}
-    {{partial "contact.html" .}}
+    {{ end }}
+    {{partial "footer.html" .}}
 </div>
 {{ if $.Site.Data.config.enableKofi }}
 {{ partial "kofi-donation.html" . }}

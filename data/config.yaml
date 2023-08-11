@@ -1,7 +1,7 @@
-title: errbufferoverfl
+title: "errbufferoverfl"
 domain: "garden.errbufferoverfl.me"
 description: "An open collection of notes, resources, sketches, and explorations I'm cultivating."
-author: errbuffoverfl
+author: "errbuffoverfl"
 
 enableToc: false
 enablePermalink: true
@@ -11,8 +11,9 @@ enableLatex: false
 enableCodeBlockTitle: true
 enableCodeBlockCopy: true
 enableCallouts: true
-enableSPA: false
+enableSPA: true
 enableFooter: true
+enableComments: false
 
 enableContextualBacklinks: true
 enableRecentNotes: true
@@ -29,7 +30,7 @@ links:
   - link_name: Where to Find Me
     link: https://links.errbufferoverfl.me/
 
-enableKofi: true
+enableKofi: false
 kofi:
   username: "errbufferoverfl"
   buttonTxt: "Support me!"

@@ -4,9 +4,19 @@
 {{- $image := (.Page.Resources.ByType "image") -}}
 {{- with $image -}}
 {{- range . -}}
+
+{{- $alt := "" -}}
+{{- if .Params.alt -}}
+{{- $alt = .Params.alt }}
+{{- else -}}
+{{- $alt = "This image is missing alt text." }}
+{{- end -}}
+
 {{- $imgTitle := index (split .Name ".") 0 -}}
 {{- $imgTitle := index (split $imgTitle "/") 1 | humanize -}}
 {{- $resized := .Fill "230x300 q20" -}}
-<a href="{{ .RelPermalink }}" data-lightbox="x" data-title="{{ $imgTitle }}"><img src="{{ $resized.RelPermalink }}"/></a>
+<a href="{{ .RelPermalink }}" data-lightbox="x" data-title="{{ $imgTitle }}">
+  <img src="{{ $resized.RelPermalink }}" alt="{{ $alt }}"/>
+</a>
 {{- end -}}
 {{- end -}}

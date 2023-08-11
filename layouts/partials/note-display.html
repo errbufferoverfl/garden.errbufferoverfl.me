@@ -1,5 +1,7 @@
 <div class="delay t-3">
-    <h2>Recent Notes</h2>
+  <a href="#recent-notes">
+    <h2 id="recent-notes">Recent Notes</h2>
+  </a>
     {{ $notes := where .Site.RegularPages "Section" "notes" }}
     <ul class="delay t-3 stagger">
         {{- range first 2 (sort $notes ".Date" "desc") -}}
@@ -16,4 +18,5 @@
         {{end}}
     </ul>
     <a href="/notes">See {{sub (len $notes) 2}} more →</a>
+
 </div>

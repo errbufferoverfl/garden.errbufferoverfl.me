@@ -1,9 +1,14 @@
-{{$src := .Destination | safeURL }}
-{{$width := index (split .Text "|") 1 | default "auto" }}
-{{$external := strings.HasPrefix $src "http" }}
+{{- $src := .Destination | safeURL -}}
+{{- $width := index (split .Text "|") 1 | default "auto" -}}
+{{- $external := strings.HasPrefix $src "http" -}}
 {{- if $external -}}
-<img src="{{ $src }}" width="{{ $width }}" alt="{{ .Text }}" {{ with .Title }} title="{{ . }}" {{ end }}/>
+<div class="article-img">
+  <img src="{{ $src }}" width="{{ $width }}" alt="{{ .Text }}" {{ with .Title }} title="{{ . }}" {{ end }}/>
+</div>
 {{- else -}}
-{{$fixedUrl := (cond (hasPrefix $src "/") $src (print "/" $src)) | urlize}}
-<img src="{{ $fixedUrl }}" width="{{ $width }}" alt="{{ .Text }}" {{ with .Title }} title="{{ . }}" {{ end }}/>
+{{- $coverPath := $src | default "imgs/missing.png" -}}
+{{- $cover := resources.GetMatch $coverPath -}}
+<div class="article-img">
+  <img src="{{ $cover.RelPermalink }}" width="{{ $width }}" alt="{{ .Text }}" {{ with .Title }} title="{{ . }}" {{ end }}/>
+</div>
 {{- end -}}

@@ -5,7 +5,8 @@ alias:
 created: 2023-06-23T17:31:07+10:00
 modified: 2023-06-23T17:34:41+10:00
 tags:
-- seedling
+- seed
+- agriculture
 ---
 
 A crop that is grown to sell for profit rather than for the benefit of the farmer. Used to distinguish between marketed crops from subsistence crops in subsistence agriculture.

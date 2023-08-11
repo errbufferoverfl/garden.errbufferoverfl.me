@@ -5,10 +5,8 @@ aliases:
 created: 2023-08-06T19:49:02+10:00
 modified: 2023-08-06T20:03:18+10:00
 tags:
-  - seedling
+  - seed
   - gardening
-  - permaculture
-  - agriculture
 ---
 A polyculture is the practice of growing more than one crop or species in the same space at the same time.
 

@@ -5,10 +5,8 @@ alias:
 created: 2023-06-20T18:37:06+10:00
 modified: 2023-06-20T21:26:54+10:00
 tags:
-- seedling
-- consensus building
-- humming
-- shut up about humming in the ietf Bec
+- seed
+- rfc
 ---
 
 This post summarises the key points of [RFC 7282](https://datatracker.ietf.org/doc/html/rfc7282) an informational RFC (Request for Comment) published in 2014. This post is? will be? part of an ongoing collection on decision making and consensus building that looks to explore how groups make decisions and why.

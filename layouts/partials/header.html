@@ -1,6 +1,8 @@
-<header>
+<header class="delay t-1">
     {{ $config := cond (eq $.Site.Language.Lang "en") "config" (printf "config.%s" $.Site.Language.Lang) }}
-    <h1 id="page-title"><a class="root-title" href="{{ "" | absLangURL }}">{{ ( index $.Site.Data $config ).title | default $.Site.Data.config.title }}</a></h1>
+    <h1 id="page-title">
+        <a class="root-title" href="{{ "" | absLangURL }}">{{ ( index $.Site.Data $config ).title | default $.Site.Data.config.title }}</a>
+    </h1>
     <div class="spacer"></div>
 
     <form role="search">
@@ -11,5 +13,5 @@
             <input type="text" id="search-icon" class="search-bar" placeholder="{{ i18n "search" }}"/>
         </div>
     </form>
-    {{partial "darkmode.html" .}}
+    {{ partial "darkmode.html" .}}
 </header>

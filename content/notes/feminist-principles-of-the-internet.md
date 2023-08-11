@@ -1,12 +1,13 @@
 ---
-title: "Feminist Principles of the Internet"
-alias:
-  - "Feminist Principles of the Internet"
+title: Feminist Principles of the Internet
+aliases:
+  - Feminist Principles of the Internet
 created: 2023-06-12T00:00:00+10:00
 modified: 2023-06-19T19:30:08+10:00
-source: "https://feministinternet.org/en/page/about"
+source: https://feministinternet.org/en/page/about
 tags:
-- seedling
+  - seed
+  - political-science
 ---
 
 The Feminist Principles of the Internet  are a series of statements that offer a gender and sexual rights lens on critical Internet-related rights.

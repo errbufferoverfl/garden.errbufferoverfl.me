@@ -5,11 +5,8 @@ aliases:
 created: 2023-08-09T12:22:00+10:00
 modified: 2023-08-09T12:46:30+10:00
 tags:
-  - seedling
-  - security-engineering
-  - software-development
-  - programming-paradigms
-  - object-capability-security
+  - seed
+  - technical
 source: https://en.wikipedia.org/wiki/Object-capability_model
 ---
 The following programming languages implement an [[object-capability-model|Object-capability model]]:

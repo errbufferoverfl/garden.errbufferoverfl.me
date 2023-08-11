@@ -18,6 +18,7 @@ update-force: ## Forcefully pull all changes and don't ask to patch
 
 serve: ## Serve Quartz locally
 	cp -R ./content/imgs assets/
+	./utils/dither.py -d assets/imgs
 	hugo-obsidian -input=content -output=assets/indices -index -root=.
 	hugo server --enableGitInfo --minify --bind=$(or $(HUGO_BIND),0.0.0.0) --baseURL=$(or $(HUGO_BASEURL),http://localhost) --port=$(or $(HUGO_PORT),1313) --appendPort=$(or $(HUGO_APPENDPORT),true) --liveReloadPort=$(or $(HUGO_LIVERELOADPORT),-1)
 

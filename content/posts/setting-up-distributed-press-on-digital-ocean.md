@@ -3,13 +3,10 @@ title: "Setting Up Distributed Press on Digital Ocean"
 alias:
   - "Setting Up Distributed Press on Digital Ocean"
 created: 2023-06-11T00:00:00+10:00
-modified: 2023-08-06T16:44:22+10:00
+modified: 2023-08-11T18:38:22+10:00
 tags:
-- seedling
-- project
-- distributed system
-- ipfs
-- hypercore
+- seed
+- dweb
 ---
 
 > [!info] Environment Metadata
@@ -40,7 +37,7 @@ If you're using Digital Ocean and unfamiliar with configuring your own logging a
 > The most important part of the system specifications is the memory, you want at a minimum 8GB to ensure that service works as expected.[^1]
 
 - Install `ansible` on your desktop, cry a little because this is the only thing that needs it. 
-```shell
+```shell {title="terminal"}
 brew install ansible
 ```
 
@@ -51,12 +48,12 @@ brew install ansible
 ![Image that says "2000 Years Later"](imgs/setting-up-distributed-press-on-digital-ocean.png)
 
 -  Git clone the `api.distributed.press`  repository onto your computer:
-```shell
+```shell {title="terminal"}
 git clone https://github.com/hyphacoop/api.distributed.press.git
 ```
 
 - Using the terminal, navigate to the `ansible` directory:
-```shell
+```shell {title="terminal"}
 cd api.distributed.press/ansible
 ```
 
@@ -67,7 +64,7 @@ cd api.distributed.press/ansible
 - Edit the `inventory.yml` file to specify your own domain to run the scripts on as well as any variables you want to set.
 	- You **must** specify the `distributed_press_domain` to be your server, and your `distributed_press_letsencrypt_email` for registering the HTTPS certificate.
  
-```yaml
+```yaml {title="inventory.yml"}
 all:
   vars:
     distributed_press_domain: "distributed.errbufferoverfl.me"
@@ -81,12 +78,12 @@ all:
 ```
 
 -  Install the dependencies on your local machine.
-```shell
+```shell {title="terminal"}
 ansible-galaxy install -r ./requirements.yml
 ```
 
 - Add the VPS's IP address and the `distributed_press_domain` to your `/etc/hosts` file so you don't experience an `UNREACHABLE` error when you run the playbook. e.g.,
-```text
+```text {title="/etc/hosts"}
 127.0.0.1	localhost
 255.255.255.255	broadcasthost
 ::1             localhost%
@@ -95,7 +92,7 @@ ansible-galaxy install -r ./requirements.yml
 ```
 
 - Execute the playbook.
-```shell
+```shell {title="terminal"}
 ansible-playbook distributed_press.yml -i inventory.yml
 ```
 
@@ -112,7 +109,7 @@ ansible-playbook distributed_press.yml -i inventory.yml
 	- **TTL:** Auto
 
 - Login to the VPS and check the status of the service.
-```shell
+```shell {title="terminal"}
 systemctl status distributed.press
 ```
 
@@ -128,13 +125,13 @@ When I installed my `distributed.press` instance a few things failed to initiali
 
 To make sure the firewall is up, you can run:
 
-```shell
+```shell {title="terminal"}
 ufw status
 ```
 
 Which, if enabled should return something like this:
 
-```shell
+```shell {title="terminal"}
 Status: active
 
 To                         Action      From
@@ -160,7 +157,7 @@ Nginx Full (v6)            ALLOW       Anywhere (v6)
 
 If you find that `ufw` is not enabled, you'll want to enable it.
 
-```shell
+```shell {title="terminal"}
 ufw enable
 ```
 
@@ -170,12 +167,12 @@ Normally `ansible` will [handle generating a key for the JWT](https://github.com
 
 I was able to identify this problem because I recieved the following error when trying to [Get a `root` admin token](#Get%20a%20`root`%20admin%20token):
 
-```
+``` {title="terminal"}
 Error: ENOENT: no such file or directory, open '/root/.local/share/distributed-press-nodejs/keys/private.key'
 ```
 
 To resolve this issue I replicated what `ansible` would do, and ran `keygen` again:
-```shell
+```shell {title="terminal"}
 sudo su press
 cd
 cd api.distributed.press
@@ -186,12 +183,14 @@ npm run keygen
 
 Authorisation on the service is handled using JSON Web Tokens (JWTs) that are issued to specific users.
 
-> [!warning] By default, tokens expire after a week.
+> [!warning] 
+> 
+> By default, tokens expire after a week.
 
 To generate the auth token necessary to make the very first admin user, you must use the 'root' admin token.
 
 - `ssh` into the VPS that is hosting your `distributed.press` instance and navigate to the the root directory of `api.distributed.press`
-```shell
+```shell {title="terminal"}
 sudo su press
 cd
 cd api.distributed.press
@@ -213,7 +212,7 @@ For more information on how to you the API you can find the Swagger docs hosted 
 
 To make sure we're always operating in line with the principal of least privilege exchange the root token for a new one with the publisher subset of capabilities:
 
-```shell
+```shell {title="terminal"}
 curl -X POST https://distributed.errbufferoverfl.me/v1/publisher \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer JWT" \
@@ -222,7 +221,7 @@ curl -X POST https://distributed.errbufferoverfl.me/v1/publisher \
 
 ### Add a site to a Publisher
 
-```shell
+```shell {title="terminal"}
 curl -X POST https://distributed.errbufferoverfl.me/v1/sites \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer JWT" \

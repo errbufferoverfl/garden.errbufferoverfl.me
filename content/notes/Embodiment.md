@@ -5,8 +5,8 @@ alias:
 created: 2023-06-12T00:00:00+10:00
 modified: 2023-06-18T23:10:23+10:00
 tags:
-- seedling
-- feminist principles
+- seed
+- feminism
 ---
 
 The principles of **embodiment** look at diverse experiences and relationships as human beings embodying multiple identities and realities in “disembodied” online spaces.

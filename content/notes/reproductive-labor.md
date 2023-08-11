@@ -1,22 +1,19 @@
 ---
-title: "reproductive labor"
-alias:
-  - "reproductive work"
+title: reproductive labor
+aliases:
+  - reproductive work
 created: 2023-06-04T00:00:00+10:00
-modified: 2023-06-18T23:12:10+10:00
+modified: 2023-08-11T08:36:47+10:00
 tags:
-- seedling
-- feminism
-- politics
-- economics
-- gender
+  - seed
+  - political-science
 ---
 
 Reproductive labor was first brought into the discourse during the *wages for housework* campaign during the 1970s (discussed in [Revolution at Point Zero](books/revolution-at-point-zero.md)). Referring to it this was is important because it emphasises that reproductive activities are also labor that are enforced by the gender hierarchy and not a goodwill gesture of women.
 
 I think reproductive labor can be a bit of a misnomer when used without sufficient context because “reproductive” on its own would suggest reproductive labor is focused on… well reproduction of humans.
 
-So when discussing reproductive labor in any context I think it’s important to emphasize that reproductive labor represents remunerated and unremunerated activities that reproduce the *workforce*, so it encompasses a significant number of activities like **cooking**, **washing**, **emotional labor**, **sex**, and yes, child rearing.
+So when discussing reproductive labor in any context I think it’s important to emphasise that reproductive labor represents remunerated and unremunerated activities that reproduce the *workforce*, so it encompasses a significant number of activities like **cooking**, **washing**, **emotional labor**, **sex**, and yes, child rearing.
 
 So while we can generally agree reproductive labor is critical to the capitalist production process it remains a blind spot in mainstream economics. Instead we focus on activities that are considered *productive* like generating goods and services that are remunerated and market-intermediated.
 

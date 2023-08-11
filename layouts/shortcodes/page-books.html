@@ -6,19 +6,29 @@
     <li class="section-li">
         <div class="section">
             <div class="meta">
-                {{ $coverPath := .Params.cover | default "imgs/missing.png" }}
-                {{- $cover := resources.GetMatch $coverPath }}
-                <a href="{{ .RelPermalink }}"><img src="{{ $coverPath }}" width="96px"></a>
+                {{- $alt := "" -}}
+                {{- if .Params.alt -}}
+                {{- $alt = .Params.alt }}
+                {{- else -}}
+                {{- $alt = "This image is missing alt text." }}
+                {{- end -}}
+
+                {{- $coverPath := .Params.cover | default "imgs/missing.png" -}}
+                {{- $cover := resources.GetMatch $coverPath -}}
+
+                <div class="article-img">
+                    <img src="{{ $cover.RelPermalink }}" alt="{{ $alt }}" width="200vw">
+                </div>
             </div>
             <div class="desc" style="padding-left: 2em;">
                 <h3><a href="{{ .RelPermalink }}" class="internal-link" data-src="{{ .RelPermalink }}">{{- .Title -}}</a></h3>
-                <p style="padding-bottom: 1em; padding-top: 1em;">{{.Summary}}</p>
+                <p style="padding-bottom: 1em; padding-top: 1em;">{{ .Summary }}</p>
             </div>
         </div>
         <ul class="tags">
-            {{ range (.GetTerms "tags") }}
-            <li><a href="{{ .RelPermalink }}">{{ .LinkTitle | title}}</a></li>
-            {{ end }}
+            {{- range (.GetTerms "tags") -}}
+            <li><a href="{{ .RelPermalink }}">{{- .LinkTitle | title -}}</a></li>
+            {{- end -}}
         </ul>
     </li>
     {{- end -}}

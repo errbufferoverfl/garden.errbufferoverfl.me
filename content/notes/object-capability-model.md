@@ -5,11 +5,8 @@ aliases:
 created: 2023-08-09T12:14:29+10:00
 modified: 2023-08-09T12:42:29+10:00
 tags:
-  - seedling
-  - security-engineering
-  - software-development
-  - programming-paradigms
-  - object-capability-security
+  - seed
+  - technical
 source: https://en.wikipedia.org/wiki/Object-capability_model
 ---
 The object-capability model (also seen written as "ocap") is a [[object-capability security]] concept that describes a computer security model. In ocap a capability describes a transferable right to perform one or more operations on a given object.

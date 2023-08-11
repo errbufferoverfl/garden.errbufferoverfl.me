@@ -1,15 +1,12 @@
 ---
-title: "E2E Fear Campaign -- ACCCE & Police"
-alias:
-  - "E2E Fear Campaign -- ACCCE & Police"
+title: E2E Fear Campaign -- ACCCE & Police
+aliases:
+  - E2E Fear Campaign -- ACCCE & Police
 created: 2023-06-12T00:00:00+10:00
 modified: 2023-06-17T21:33:06+10:00
 tags:
-- sapling
-- end to end encryption
-- e2e encryption
-- earnit act
-- csam
+  - sapling
+  - policy
 ---
 
 [Post on Twitter](https://twitter.com/errbufferoverfl/status/1646427897727688704?s=20)

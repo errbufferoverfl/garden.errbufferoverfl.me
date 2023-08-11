@@ -1,13 +1,12 @@
 ---
-title: "structural adjustment programs"
-alias:
-  - "structural adjustment programs"
+title: structural adjustment programs
+aliases:
+  - structural adjustment programs
 created: 2023-06-23T20:05:07+10:00
-modified: 2023-06-23T21:03:57+10:00
+modified: 2023-08-11T09:15:16+10:00
 tags:
-- seedling
-- economics
-- macroeconomics
+  - seed
+  - political-science
 ---
 
 Structural adjustment programs are a [[notes/neocolonialism|neocolonist]] tool that sets out a set of economic reforms that a country must adhere to secure a loan from the International Monetary Fund and/or the World Bank.

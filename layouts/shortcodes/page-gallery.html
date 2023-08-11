@@ -14,9 +14,9 @@
             {{- else -}}
                 {{- $alt = "This image is missing alt text." }}
             {{- end -}}
-        <img src="{{ $resized.RelPermalink }}" width="200" alt="{{ $alt }}" />
+        <img src="{{ $resized.RelPermalink }}" alt="{{ $alt }}" width="200" />
         {{- else -}}
-        <img src="/imgs/missing.png" width="200" alt="No image available."/>
+        <img src="/imgs/missing.png" alt="No image available." width="200" />
         {{- end -}}
         <h3>{{ .Title }}</h3>
         {{- if .Params.kofi -}}

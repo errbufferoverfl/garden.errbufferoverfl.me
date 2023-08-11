@@ -1,70 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-{{ partial "head.html" . }}
+{{- partial "head.html" . -}}
 <body>
-{{partial "search.html" .}}
+{{- partial "search.html" . -}}
 <div id="index" class="singlePage">
-    {{partial "header.html" .}}
+    {{- partial "header.html" . -}}
     <img id="banner" src="/imgs/banner.svg" alt="A psychedelic styled black and white stylised drawing of cup of tea with a daisy floating in it."/>
     <div class="bio">
         <div class="writing-sidebar">
             {{ partial "note-display.html" . }}
             {{ partial "art-display.html" . }}
-            <div class="delay t-2">
-                <h2>Recent Writing</h2>
-                {{ $writing := (where .Site.RegularPages "Section" "posts") }}
-                <ul class="delay t-2 stagger">
-                    {{range first 3 $writing }}
-                    <li>
-                        <div class="section">
-                            <div class="desc">
-                                <h3><a href="{{ .RelPermalink }}">{{- .Title -}}</a></h3>
-                            </div>
-                            <p class="meta">
-                                {{.WordCount}} words on {{partial "date-fmt.html" .}}
-                            </p>
-                            {{partial "tags.html" .}}
-                        </div>
-                    </li>
-                    {{end}}
-                </ul>
-                {{ if (lt (len $writing) 3)}}
-                {{ else }}
-                <a href="/posts">See {{sub (len $writing) 3}} more →</a>
-                {{ end }}
-            </div>
-            <div class="delay t-3">
-                <h2>Currently Reading</h2>
-                {{$notes := where .Site.RegularPages "Section" "books"}}
-                <ul class="delay t-3 stagger">
-                    {{range first 1 (where $notes "Params.status" "==" "In Progress" ) }}
-                    <li>
-                        <div class="section">
-                            <div class="desc">
-                                <a href="{{ .RelPermalink }}"><img src="{{ .Params.cover }}" width="200vw"></a>
-                                <h3><a href="{{ .RelPermalink }}">{{- .Title -}}</a></h3>
-                            </div>
-                            <p class="meta">
-                                {{ .Lastmod.Format "Jan 2, 2006" }}
-                            </p>
-                        </div>
-                    </li>
-                    {{end}}
-                </ul>
-                <a href="/the-antilibrary">See {{sub (len $notes) 1}} more →</a>
-            </div>
+            {{ partial "writing-display.html" . }}
+            {{ partial "reading-display.html" . }}
         </div>
         <article>
-            <div class="delay stagger">{{partial "textprocessing.html" . }}</div>
+            <div class="delay stagger">{{ partial "textprocessing.html" . }}</div>
         </article>
     </div>
     <div class="delay t-4">
-        {{ partial "footer.html" . }}
+        {{- partial "footer.html" . -}}
     </div>
 </div>
-{{ if $.Site.Data.config.enableKofi }}
-{{ partial "kofi-donation.html" . }}
-{{ end }}
-{{ partial "web-integrity-protest.html" . }}
+{{- if $.Site.Data.config.enableKofi -}}
+    {{- partial "kofi-donation.html" . -}}
+{{- end -}}
+{{- partial "web-integrity-protest.html" . -}}
 </body>
 </html>

@@ -1,14 +1,13 @@
 ---
-title: "Ars moriendi"
-alias:
-  - "Ars moriendi"
+title: Ars moriendi
+aliases:
+  - Ars moriendi
 created: 2023-06-03T00:00:00+10:00
 modified: 2023-06-18T19:58:41+10:00
-cover: "/imgs/ars-moriendi.png"
+cover: /imgs/ars-moriendi.png
 tags:
-- woodcut
-- pre-16th century
-- reference
+  - woodcut
+  - reference
 ---
 
 ![Demons tempt the dying man with crowns (a medieval allegory to earthly pride) under the disapproving gaze of Mary, Christ and God.](imgs/ars-moriendi.png)

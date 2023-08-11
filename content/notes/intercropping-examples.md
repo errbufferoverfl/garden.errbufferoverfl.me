@@ -3,12 +3,10 @@ title: Intercropping Examples
 aliases:
   - Intercropping Examples
 created: 2023-08-06T20:52:57+10:00
-modified: 2023-08-06T21:04:23+10:00
+modified: 2023-08-11T08:33:27+10:00
 tags:
-  - seedling
+  - seed
   - gardening
-  - permaculture
-  - agriculture
 ---
 
 The following table was compiled on companion planting which could be seen as similar to intercropping:

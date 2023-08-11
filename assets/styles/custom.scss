@@ -27,6 +27,14 @@
   --highlighted: #574010;
 }
 
+.article-img {
+  background-color: var(--light);
+}
+
+[saved-theme="light"] img {
+  mix-blend-mode: multiply;
+}
+
 #banner {
   margin: 2em 0;
   filter: invert(0%);
@@ -61,10 +69,6 @@
         padding: 0;
         margin-left: 0;
         z-index: 0;
-      }
-
-      & > div > a {
-        opacity: 0.6;
       }
 
       & h2 {

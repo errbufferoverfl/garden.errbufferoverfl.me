@@ -16,5 +16,5 @@ alias:
 created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
 modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
 tags:
-- seedling
+- seed
 ---

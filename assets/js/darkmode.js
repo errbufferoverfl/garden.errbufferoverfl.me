@@ -18,19 +18,19 @@ const switchTheme = (e) => {
   }
   else {
     document.documentElement.setAttribute('saved-theme', 'light')
-    localStorage.setItem('theme', 'light')
+    localStorage.setItem('theme', 'light');
     syntaxTheme.href = '{{ $lightSyntax.Permalink }}';
   }
 };
 
 window.addEventListener('DOMContentLoaded', () => {
   // Darkmode toggle
-  const toggleSwitch = document.querySelector('#darkmode-toggle')
+  const toggleSwitch = document.querySelector('#darkmode-toggle');
 
   // listen for toggle
-  toggleSwitch.addEventListener('change', switchTheme, false)
+  toggleSwitch.addEventListener('change', switchTheme, false);
 
   if (currentTheme === 'dark') {
-    toggleSwitch.checked = true
+    toggleSwitch.checked = true;
   }
 });
