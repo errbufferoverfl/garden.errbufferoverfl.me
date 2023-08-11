@@ -33,7 +33,7 @@ jobs:
         
       - name: Dither Images
         run: |
-          PYTHONPATH=utils/ poetry run python -m dither -d ../assets/imgs
+          PYTHONPATH=utils/ poetry run python -m dither -d assets/imgs
           
       - name: Build Link Index
         uses: jackyzha0/hugo-obsidian@v2.20
