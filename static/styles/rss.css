@@ -13,6 +13,7 @@
     --callout-summary-accent: #ccefff;
     --font-body: monospace;
     --font-header: 'Marcellus', serif;
+    --light: #F5F2E9;
 }
 
 html {
@@ -25,6 +26,7 @@ body {
     max-width: 46rem;
     width: 95%;
     margin: auto;
+    background-color: var(--light);
 }
 
 h1, h2, h3, h4, h5, h6, thead {

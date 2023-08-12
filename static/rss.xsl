@@ -6,8 +6,7 @@
         <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
             <head>
                 <title>
-                    RSS Feed |
-                    <xsl:value-of select="/atom:feed/atom:title"/>
+                    RSS Feed | <xsl:value-of select="/atom:feed/atom:title"/>
                 </title>
                 <meta charset="utf-8"/>
                 <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
@@ -30,10 +29,10 @@
                         RSS Feed Preview
                     </h1>
                     <h2>
-                        garden.errbufferoverfl.me
+                        <xsl:value-of select="/atom:feed/atom:title"/>
                     </h2>
                     <p>
-                        An open collection of notes, resources, sketches, and explorations I'm cultivating.
+                        <xsl:value-of select="/atom:feed/atom:description"/>
                     </p>
                     <p>
                         <a>

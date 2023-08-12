@@ -14,15 +14,12 @@
         {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
         {{- printf "<?xml-stylesheet href=\"/rss.xsl\" type=\"text/xsl\"?>" | safeHTML }}
 <feed version="2.0" xmlns="http://www.w3.org/2005/Atom">
-  <title>{{ if eq .Title .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}: {{ .Site.Params.Description }}</title>
+  <title>{{ $.Site.Data.config.domain }} - {{ .Title }}</title>
+  <description>{{ $.Site.Data.config.description }}</description>
   <link rel="alternate" type="text/html" language="{{.Site.Language }}" href="{{ .Permalink }}"/>
   <link rel="self" type="{{ .MediaType }}" href="/index.xml"/>
   <subtitle>Recent content {{ if ne .Title .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</subtitle>
-  <author>{{ with .Site.Author.name }}
-    <name>{{.}}</name>{{end}}{{ with .Site.Author.email }}
-    <email>{{.}}</email>{{end}}
-    <uri>{{ .Permalink }}</uri>
-  </author>
+  <author>{{ $.Site.Data.config.author }}</author>
   <id>{{ .Permalink }}</id>
   <generator>Hugo -- gohugo.io</generator>{{ with .Site.Copyright }}
   <rights>{{.}}</rights>{{end}}{{ if not .Date.IsZero }}
