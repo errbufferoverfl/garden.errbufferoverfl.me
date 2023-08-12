@@ -57,7 +57,6 @@ includeFiles = ['font/**', 'imgs/**', 'indices/**', 'js/**', 'styles/**']
 [outputs]
 term = ['html', 'rss', 'json']
 home = ['html', 'rss', 'json']
-bookmarks = ['html']
 
 [markup]
 [markup.tableOfContents]
