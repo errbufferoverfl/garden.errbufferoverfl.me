@@ -5,7 +5,7 @@ alias:
   - "index"
   - "home"
 created: 2023-05-27T00:00:00+10:00
-modified: 2023-08-12T13:17:40+10:00
+modified: 2023-08-12T16:49:09+10:00
 ---
 Welcome to my digital garden. 🌱
 
@@ -17,7 +17,7 @@ I currently live on the unceded land of the [Wadawurrung and Dja Dja Wurrung Peo
 
 - 📐 Security Engineer @ Canva.
 - 🧠 Learning how to be a better [[anarchist]], anti-capitalist and revolutionary.
-- 👨‍💻 Currently working on making this site available on a handful of esoteric protocols like [IPFS](notes/ipfs.md) and [Hypercore](notes/hypercore.md):
+- 👨‍💻 Currently working on making this site available on a handful of esoteric protocols like [[notes/ipfs|IPFS]] and [[notes/hypercore|hypercore]]:
 	- [x] `ipfs://garden.ipfs.errbufferoverfl.me`
 	- [x] `hyper://garden.hyper.errbufferoverfl.me`
 	- [ ] `gemini://garden.gemini.errbufferoverfl.me`

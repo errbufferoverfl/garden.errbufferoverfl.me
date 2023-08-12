@@ -1,9 +1,10 @@
 ---
-title: dht
+title: DHT
 aliases:
   - Distributed Hash Table
+  - DHT
 created: 2023-06-11T00:00:00+10:00
-modified: 2023-06-19T19:15:53+10:00
+modified: 2023-08-12T16:57:43+10:00
 tags:
   - seed
   - dweb

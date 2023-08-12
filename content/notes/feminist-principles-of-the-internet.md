@@ -2,7 +2,7 @@
 title: Feminist Principles of the Internet
 aliases: []
 created: 2023-06-12T00:00:00+10:00
-modified: 2023-06-19T19:30:08+10:00
+modified: 2023-08-12T17:18:25+10:00
 source: https://feministinternet.org/en/page/about
 tags:
   - seed
@@ -16,6 +16,6 @@ There are 17 principles in total, organised into 5 clusters:
 - Movements
 - Economy
 - Expression
-- [Embodiment](embodiment.md)
+- [[embodiment|embodiment]]
 
 They aim to provide a framework for women's movements to articulate and explore issues related to technology.

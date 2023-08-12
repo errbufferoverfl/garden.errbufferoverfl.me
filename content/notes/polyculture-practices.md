@@ -2,7 +2,7 @@
 title: Polyculture Practices
 aliases: []
 created: 2023-08-06T20:04:00+10:00
-modified: 2023-08-06T21:04:31+10:00
+modified: 2023-08-12T17:15:33+10:00
 tags:
   - seed
   - gardening
@@ -20,7 +20,7 @@ A technique where two or more crops are grown in a space where they overlap with
 
 Legumes are often intercropped because they fix atmospheric nitrogen into the soil a process known as nitrogen fixation.
 
-[[intercropping-examples]]
+[[intercropping-examples|Intercropping Examples]]
 
 ### Cover Cropping
 

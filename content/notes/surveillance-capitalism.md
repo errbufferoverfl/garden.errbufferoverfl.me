@@ -2,13 +2,13 @@
 title: surveillance capitalism
 aliases: []
 created: 2023-06-12T00:00:00+10:00
-modified: 2023-06-18T23:11:40+10:00
+modified: 2023-08-12T17:17:10+10:00
 tags:
   - seed
   - political-science
 ---
 
-Surveillance capitalism is a type of capitalism market form, and a [technocratic](notes/technocratic.md)-oriented phenomenon that centres on the commodification of personal data by corporations.
+Surveillance capitalism is a type of capitalism market form, and a [[technocratic]]-oriented phenomenon that centres on the commodification of personal data by corporations.
 
 It is distinct from government-surveillance, though they can, and often do reenforce each other.
 

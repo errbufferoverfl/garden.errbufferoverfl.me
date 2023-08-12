@@ -2,7 +2,7 @@
 title: polyculture
 aliases: []
 created: 2023-08-06T19:49:02+10:00
-modified: 2023-08-06T20:03:18+10:00
+modified: 2023-08-12T17:16:07+10:00
 tags:
   - seed
   - gardening

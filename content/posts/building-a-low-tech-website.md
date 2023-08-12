@@ -24,7 +24,7 @@ But in turn, more customers means more infrastructure, more infrastructure means
 
 In 2021, the [International Energy Agency (IEA)](https://www.iea.org/about)  reported that global CO2 emissions rose by 6% to 36.3 billion tonnes, their highest ever level.[^5]
 
-During the same period it's estimated that the global technology industry produced 2 and 3% of the world's carbon emissions.
+During the same period it's estimated that the global technology industry produced 2 to 3% of the world's carbon emissions.
 
 To add to the problem of the tech industries carbon footprint, in 2020, Greenpeace highlighted that while cloud companies committing to address climate change within their own operations, companies like Microsoft, Google, and Amazon all had partnerships with oil companies, many using Ai to unlock oil and gas deposits around the world.[^6]
 

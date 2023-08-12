@@ -1,8 +1,9 @@
 ---
-title: hypercore
-aliases: []
+title: Hypercore
+aliases:
+  - Hypercore
 created: 2023-06-11T00:00:00+10:00
-modified: 2023-08-12T12:30:57+10:00
+modified: 2023-08-12T17:22:36+10:00
 tags:
   - seed
   - dweb

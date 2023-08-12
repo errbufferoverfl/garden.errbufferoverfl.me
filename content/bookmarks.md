@@ -14,6 +14,7 @@ tags:
 - [police-are-not-primarily-crime-fighters-according-to-the-data](./bookmarks/police-are-not-primarily-crime-fighters-according-to-the-data.md)
 - [python-patterns](./bookmarks/python-patterns.md)
 - [refactoring-guru](./bookmarks/refactoring-guru.md)
+- [restricting-ssh-sessions-for-ci-cd-with-gnu-rush](./bookmarks/restricting-ssh-sessions-for-ci-cd-with-gnu-rush.md)
 - [tracking-database-changes-in-flask-sqlalchemy-for-audit-logs](./bookmarks/tracking-database-changes-in-flask-sqlalchemy-for-audit-logs.md)
 
 %% End Waypoint %%

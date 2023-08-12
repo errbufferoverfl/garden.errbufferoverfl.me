@@ -1,8 +1,9 @@
 ---
-title: btree
-aliases: []
+title: BTree
+aliases:
+  - B-Tree
 created: 2023-06-11T00:00:00+10:00
-modified: 2023-06-17T21:30:01+10:00
+modified: 2023-08-12T17:22:25+10:00
 tags:
   - seed
   - dweb
