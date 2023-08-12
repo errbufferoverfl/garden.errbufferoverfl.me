@@ -54,7 +54,7 @@ explore a variety of indieweb, distributed publishing techniques and lower-tech 
 - [License](#license)
 - [Thank you!](#thank-you)
 
-## Tech Stack
+## Tech Stack 
 
 Here's a brief high-level overview of the tech stack garden.errbufferoverfl.me uses:
 
