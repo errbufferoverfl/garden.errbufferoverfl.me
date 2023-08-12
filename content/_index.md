@@ -5,7 +5,7 @@ alias:
   - "index"
   - "home"
 created: 2023-05-27T00:00:00+10:00
-modified: 2023-08-12T19:48:43+10:00
+modified: 2023-08-12T20:18:42+10:00
 ---
 Welcome to my digital garden. 🌱
 
@@ -34,5 +34,8 @@ Here are some places you might explore:
 - 📚 [the antilibrary](/the-antilibrary.md): books that are in some state of read, being read, or to be read.
 - 🎙️ [the soapbox](/soapbox): meetup, conference and training that I've previously delivered.
 - 🔧 [the engineering anthology](projects.md): a collection of notable projects that I’ve finished and or currently maintaining.
-- 🧰 [[tools|the toolbox]]: interesting tools
-- 🔖 [[bookmarks]]: 
+
+# 📚 Collections
+
+- 🧰 [[tools|the toolbox]]: interesting tools that may or may not be useful one day.
+- 🔖 [[bookmarks]]: blog posts, articles or documentation that are varying states of being read.

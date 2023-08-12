@@ -19,7 +19,7 @@ The notes and summaries included in these pages are snippets that remind me, or 
 
 {{<page-books status="Up Next">}}
 
-### Current
+### Currenta
 
 {{<page-books status="In Progress">}}
 
