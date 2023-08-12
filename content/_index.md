@@ -5,24 +5,24 @@ alias:
   - "index"
   - "home"
 created: 2023-05-27T00:00:00+10:00
-modified: 2023-08-06T15:59:59+10:00
+modified: 2023-08-12T13:17:40+10:00
 ---
 Welcome to my digital garden. 🌱
 
-I'm **[errbufferoverfl](notes/errbufferoverfl.md)**, or Buffy for short. I'm a non-binary (**they/sie/ze**) anarchic gardener, knowledge librarian, and [Security Engineer](notes/security-engineer.md) by trade.
+I'm **[errbufferoverfl](notes/errbufferoverfl.md)**, or Buffy for short. I'm a non-binary (**they/sie/ze**) anarchist, gardener, knowledge librarian, and security engineer by trade.
 
 I currently live on the unceded land of the [Wadawurrung and Dja Dja Wurrung People](notes/wadawurrung-and-dja-dja-wurrung-people.md).
 
 # 🌈 Now
 
-- 📐 Security Engineer @ Canva
-- 🧠 Learning how to be a better [[anarchist]], anti-capitalist and revolutionary
+- 📐 Security Engineer @ Canva.
+- 🧠 Learning how to be a better [[anarchist]], anti-capitalist and revolutionary.
 - 👨‍💻 Currently working on making this site available on a handful of esoteric protocols like [IPFS](notes/ipfs.md) and [Hypercore](notes/hypercore.md):
 	- [x] `ipfs://garden.ipfs.errbufferoverfl.me`
 	- [x] `hyper://garden.hyper.errbufferoverfl.me`
 	- [ ] `gemini://garden.gemini.errbufferoverfl.me`
-- ✍️ Working on anarchic illustrations and prints and tending to my winter garden
-- 📚 Reading [Ghost Work](books/ghost-work.md)
+- ✍️ Working on anarchic illustrations and prints and tending to my winter garden.
+- 📚 Reading [Ghost Work](books/ghost-work.md).
 
 # 🗺️ Explore
 

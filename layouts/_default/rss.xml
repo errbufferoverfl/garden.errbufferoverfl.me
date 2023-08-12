@@ -12,6 +12,7 @@
         {{- end -}}
         {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
   <channel>
     <title>{{ if eq .Title $.Site.Data.config.title }}{{ $.Site.Data.config.title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ $.Site.Data.config.title }}{{ end }}</title>
     <link>{{ .Permalink }}</link>

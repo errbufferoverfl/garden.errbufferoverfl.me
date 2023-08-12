@@ -1,22 +1,23 @@
 ---
-title: "Ghost Work"
-alias:
-  - "Ghost Work"
-cover: "/imgs/ghost-work.png"
+title: Ghost Work
+aliases:
+  - Ghost Work
+cover: /imgs/ghost-work.png
 created: 2023-06-29T23:00:43+10:00
 modified: 2023-08-06T16:40:40+10:00
-status: "In Progress"
+status: In Progress
 tags:
-- book
-- technology
-- non fiction
-- economics
-- business
-- labor
-- anthropology
-- politics
-- sociology
-- artificial intelligence
+  - book
+  - technology
+  - economics
+  - business
+  - labor
+  - anthropology
+  - politics
+  - sociology
+  - artificial
+  - intelligence
+  - non-fiction
 ---
 
 "A startling exposé of the invisible human workforce that powers the web--and how to bring it out of the shadows. Hidden beneath the surface of the internet, a new, stark reality is looming--one that cuts to the very heart of our endless debates about the impact of AI. 
