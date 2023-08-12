@@ -8,9 +8,6 @@
         {{ $year := dateFormat "2006" now }}
         <p>{{ i18n "copyright" (dict "name" $name "year" $year) | safeHTML}}. {{$.Site.Copyright | safeHTML}}</p>
         <ul>
-            {{ if not .IsHome }}
-            <li><a href="/">{{ i18n "home" }}</a></li>
-            {{end}}
             {{- range $data.links | default $.Site.Data.config.links -}}
             <li><a href="{{.link}}"><i class="{{.link_name}}"></i></a></li>
             {{- end -}}
