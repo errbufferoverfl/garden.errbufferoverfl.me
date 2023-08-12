@@ -4,7 +4,7 @@ alias:
 - "We asked same-gender couples how they share the ‘mental load’ at home. The results might surprise you"
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-12T23:12:00+10:00
-URL:  "https://theconversation.com/we-asked-same-gender-couples-how-they-share-the-mental-load-at-home-the-results-might-surprise-you-208667"
+link:  "https://theconversation.com/we-asked-same-gender-couples-how-they-share-the-mental-load-at-home-the-results-might-surprise-you-208667"
 tags:
 - bookmark
 ---

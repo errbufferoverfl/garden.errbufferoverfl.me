@@ -4,7 +4,7 @@ alias:
 - "Why is DNS still hard to learn?"
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-12T23:12:00+10:00
-URL:  "https://jvns.ca/blog/2023/07/28/why-is-dns-still-hard-to-learn/"
+link:  "https://jvns.ca/blog/2023/07/28/why-is-dns-still-hard-to-learn/"
 tags:
 - bookmark
 ---

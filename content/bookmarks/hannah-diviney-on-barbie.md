@@ -4,7 +4,7 @@ alias:
 - "Hannah Diviney on Barbie"
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-12T23:12:00+10:00
-URL:  "https://www.missingperspectives.com/posts/hannah-diviney-on-barbie-movie/"
+link:  "https://www.missingperspectives.com/posts/hannah-diviney-on-barbie-movie/"
 tags:
 - bookmark
 ---

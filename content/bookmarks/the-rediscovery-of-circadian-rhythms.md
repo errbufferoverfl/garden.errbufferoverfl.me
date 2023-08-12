@@ -4,7 +4,7 @@ alias:
 - "The Rediscovery Of Circadian Rhythms"
 created: 2023-08-12T23:12:01+10:00
 modified: 2023-08-12T23:12:01+10:00
-URL:  "https://www.noemamag.com/the-rediscovery-of-circadian-rhythms"
+link:  "https://www.noemamag.com/the-rediscovery-of-circadian-rhythms"
 tags:
 - bookmark
 ---

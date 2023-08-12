@@ -4,7 +4,7 @@ alias:
 - "Why Internet Resilience Matters"
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-12T23:12:00+10:00
-URL:  "https://www.internetsociety.org/blog/2023/08/why-internet-resilience-matters/"
+link:  "https://www.internetsociety.org/blog/2023/08/why-internet-resilience-matters/"
 tags:
 - bookmark
 ---

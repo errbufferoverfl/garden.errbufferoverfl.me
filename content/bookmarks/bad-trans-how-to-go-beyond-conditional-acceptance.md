@@ -4,7 +4,7 @@ alias:
   - "Bad trans: how to go beyond conditional acceptance"
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-12T23:15:42+10:00
-URL:  "https://overland.org.au/2023/06/bad-trans-how-to-go-beyond-conditional-acceptance/"
+link:  "https://overland.org.au/2023/06/bad-trans-how-to-go-beyond-conditional-acceptance/"
 tags:
 - bookmark
 ---

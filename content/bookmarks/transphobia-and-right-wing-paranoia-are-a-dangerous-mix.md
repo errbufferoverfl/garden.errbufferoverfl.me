@@ -4,7 +4,7 @@ alias:
 - "Transphobia and Right-Wing Paranoia Are a Dangerous Mix"
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-12T23:12:00+10:00
-URL:  "https://www.readtpa.com/p/transphobia-and-right-wing-paranoia"
+link:  "https://www.readtpa.com/p/transphobia-and-right-wing-paranoia"
 tags:
 - bookmark
 ---

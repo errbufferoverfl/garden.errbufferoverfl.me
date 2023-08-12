@@ -4,7 +4,7 @@ alias:
 - "Appropriate Technology, Permacomputing, Post Growth, and Ecomodernism."
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-12T23:12:00+10:00
-URL:  "https://anarchosolarpunk.substack.com/p/postgrowthtech"
+link:  "https://anarchosolarpunk.substack.com/p/postgrowthtech"
 tags:
 - bookmark
 ---

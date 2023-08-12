@@ -4,7 +4,7 @@ alias:
 - "How We Create Custom Graphics at The Markup – The Markup"
 created: 2023-08-12T23:12:01+10:00
 modified: 2023-08-12T23:12:01+10:00
-URL:  "https://themarkup.org/levelup/2023/08/08/how-we-create-custom-graphics-at-the-markup"
+link:  "https://themarkup.org/levelup/2023/08/08/how-we-create-custom-graphics-at-the-markup"
 tags:
 - bookmark
 ---

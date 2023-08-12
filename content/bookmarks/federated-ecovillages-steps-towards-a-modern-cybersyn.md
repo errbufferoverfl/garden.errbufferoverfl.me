@@ -13,7 +13,7 @@ alias:
 - "<%title%>"
 created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
 modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
-URL:  "https://anarchosolarpunk.substack.com/p/ecovillages"
+link:  "https://anarchosolarpunk.substack.com/p/ecovillages"
 tags:
 - bookmark
 ---

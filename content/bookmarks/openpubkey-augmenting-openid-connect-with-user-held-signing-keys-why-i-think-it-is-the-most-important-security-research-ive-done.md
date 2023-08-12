@@ -4,7 +4,7 @@ alias:
 - "OpenPubkey (Augmenting OpenID Connect with User held Signing Keys): Why I think it is the most important security research I’ve done"
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-12T23:12:00+10:00
-URL:  "http://www.ethanheilman.com/x/30/index.html"
+link:  "http://www.ethanheilman.com/x/30/index.html"
 tags:
 - bookmark
 ---

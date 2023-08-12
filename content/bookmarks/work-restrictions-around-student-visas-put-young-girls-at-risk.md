@@ -4,7 +4,7 @@ alias:
 - "Work restrictions around student visas put young girls at risk"
 created: 2023-08-12T23:12:01+10:00
 modified: 2023-08-12T23:12:01+10:00
-URL:  "https://www.missingperspectives.com/posts/work-restrictions-of-student-visas-put-young-girls-at-risk/"
+link:  "https://www.missingperspectives.com/posts/work-restrictions-of-student-visas-put-young-girls-at-risk/"
 tags:
 - bookmark
 ---

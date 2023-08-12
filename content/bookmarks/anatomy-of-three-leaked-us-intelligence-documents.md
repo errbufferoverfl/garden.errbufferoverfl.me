@@ -13,7 +13,7 @@ alias:
 - "<%title%>"
 created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
 modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
-URL:  "https://www.bellingcat.com/news/2023/04/28/anatomy-of-three-leaked-us-intelligence-documents/"
+link:  "https://www.bellingcat.com/news/2023/04/28/anatomy-of-three-leaked-us-intelligence-documents/"
 tags:
 - bookmark
 ---

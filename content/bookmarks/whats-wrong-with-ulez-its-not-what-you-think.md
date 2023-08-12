@@ -13,7 +13,7 @@ alias:
 - "<%title%>"
 created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
 modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
-URL:  "https://www.openrightsgroup.org/blog/whats-wrong-with-ulez-its-not-what-you-think/"
+link:  "https://www.openrightsgroup.org/blog/whats-wrong-with-ulez-its-not-what-you-think/"
 tags:
 - bookmark
 ---

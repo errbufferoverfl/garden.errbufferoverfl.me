@@ -4,7 +4,7 @@ alias:
 - "Shelter Protocol Introduction by Greg Slepak @ DWebCamp2023"
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-12T23:12:00+10:00
-URL:  "https://youtu.be/w0GQz-UF0Lk"
+link:  "https://youtu.be/w0GQz-UF0Lk"
 tags:
 - bookmark
 ---

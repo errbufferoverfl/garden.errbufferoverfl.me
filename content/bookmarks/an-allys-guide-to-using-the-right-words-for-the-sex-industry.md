@@ -4,7 +4,7 @@ alias:
 - "An Ally’s Guide to Using the Right Words for the Sex Industry"
 created: 2023-08-12T23:12:01+10:00
 modified: 2023-08-12T23:12:01+10:00
-URL:  "https://tryst.link/blog/an-allys-guide-to-using-the-right-words-for-the-sex-industry/"
+link:  "https://tryst.link/blog/an-allys-guide-to-using-the-right-words-for-the-sex-industry/"
 tags:
 - bookmark
 ---

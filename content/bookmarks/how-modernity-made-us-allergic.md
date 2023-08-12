@@ -4,7 +4,7 @@ alias:
 - "How Modernity Made Us Allergic"
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-12T23:12:00+10:00
-URL:  "https://www.noemamag.com/modernity-has-made-us-allergic"
+link:  "https://www.noemamag.com/modernity-has-made-us-allergic"
 tags:
 - bookmark
 ---

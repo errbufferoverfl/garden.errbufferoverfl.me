@@ -4,7 +4,7 @@ alias:
 - "FOCI '14 - ReClaim: a Privacy-Preserving Decentralized Social Network"
 created: 2023-08-12T23:12:01+10:00
 modified: 2023-08-12T23:12:01+10:00
-URL:  "https://www.youtube.com/watch?v=VO10cKVfLXQ"
+link:  "https://www.youtube.com/watch?v=VO10cKVfLXQ"
 tags:
 - bookmark
 ---

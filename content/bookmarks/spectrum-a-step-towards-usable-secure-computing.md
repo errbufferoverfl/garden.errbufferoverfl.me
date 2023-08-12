@@ -4,7 +4,7 @@ alias:
 - "Spectrum — a step towards usable secure computing"
 created: 2023-08-12T23:09:01+10:00
 modified: 2023-08-12T23:09:01+10:00
-URL:  "https://spectrum-os.org/"
+link:  "https://spectrum-os.org/"
 tags:
 - bookmark
 ---

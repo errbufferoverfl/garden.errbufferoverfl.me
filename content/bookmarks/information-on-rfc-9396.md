@@ -4,7 +4,7 @@ alias:
 - "Information on RFC 9396"
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-12T23:12:00+10:00
-URL:  "https://www.rfc-editor.org/info/rfc9396"
+link:  "https://www.rfc-editor.org/info/rfc9396"
 tags:
 - bookmark
 ---

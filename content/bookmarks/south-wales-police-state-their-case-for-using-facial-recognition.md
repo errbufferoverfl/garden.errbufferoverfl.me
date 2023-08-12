@@ -4,7 +4,7 @@ alias:
 - "South Wales Police state their case for using facial recognition"
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-12T23:12:00+10:00
-URL:  "https://www.openrightsgroup.org/blog/south-wales-police-state-their-case-for-using-facial-recognition/"
+link:  "https://www.openrightsgroup.org/blog/south-wales-police-state-their-case-for-using-facial-recognition/"
 tags:
 - bookmark
 ---

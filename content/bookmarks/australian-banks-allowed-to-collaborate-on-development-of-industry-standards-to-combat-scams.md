@@ -4,7 +4,7 @@ alias:
 - "Australian banks allowed to collaborate on development of industry standards to combat scams."
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-12T23:12:00+10:00
-URL:  "https://www.accc.gov.au/media-release/australian-banks-allowed-to-collaborate-on-development-of-industry-standards-to-combat-scams-0"
+link:  "https://www.accc.gov.au/media-release/australian-banks-allowed-to-collaborate-on-development-of-industry-standards-to-combat-scams-0"
 tags:
 - bookmark
 ---
