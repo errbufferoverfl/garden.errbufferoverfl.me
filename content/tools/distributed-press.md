@@ -4,8 +4,8 @@ aliases: []
 created: 2023-08-09T21:51:52+10:00
 modified: 2023-08-09T21:53:15+10:00
 tags:
-  - tools
   - distributed-computing
+  - tool
 ---
 
 > An open source publishing tool for the World Wide Web and [[Distributed Web]]. It automates publishing to the world wide web, and seeds to [IPFS](ipfs.md) and [Holepunch](holepunch.md).
