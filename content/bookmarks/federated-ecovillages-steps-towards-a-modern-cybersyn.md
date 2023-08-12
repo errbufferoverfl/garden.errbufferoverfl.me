@@ -1,18 +1,9 @@
-<%*
-const title = "Federated Ecovillages & Steps Towards a Modern Cybersyn";
-let fileTitle = "Federated Ecovillages & Steps Towards a Modern Cybersyn";
-fileTitle = fileTitle.replace(/ /g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/[&'’‘’,–.;?()“”$]/g, "").toLowerCase();
-fileTitle = fileTitle.replace(/--/g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
-await tp.file.rename(`${fileTitle}`)
--%>
 ---
-title: "<%title%>"
+title: "Federated Ecovillages & Steps Towards a Modern Cybersyn"
 alias:
-- "<%title%>"
-created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
-modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
+- "Federated Ecovillages & Steps Towards a Modern Cybersyn"
+created: 2023-08-12T23:12:00+10:00
+modified: 2023-08-12T23:12:00+10:00
 link:  "https://anarchosolarpunk.substack.com/p/ecovillages"
 tags:
 - bookmark
@@ -22,6 +13,3 @@ tags:
 
 [Link](https://anarchosolarpunk.substack.com/p/ecovillages)
 
-<%*
-
--%>

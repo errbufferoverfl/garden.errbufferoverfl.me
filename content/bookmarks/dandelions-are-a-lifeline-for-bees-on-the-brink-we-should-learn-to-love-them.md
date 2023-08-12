@@ -1,18 +1,9 @@
-<%*
-const title = "Dandelions are a lifeline for bees on the brink – we should learn to love them";
-let fileTitle = "Dandelions are a lifeline for bees on the brink – we should learn to love them";
-fileTitle = fileTitle.replace(/ /g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/[&'’‘’,–.;?()“”$]/g, "").toLowerCase();
-fileTitle = fileTitle.replace(/--/g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
-await tp.file.rename(`${fileTitle}`)
--%>
 ---
-title: "<%title%>"
+title: "Dandelions are a lifeline for bees on the brink – we should learn to love them"
 alias:
-- "<%title%>"
-created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
-modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
+  - "Dandelions are a lifeline for bees on the brink – we should learn to love them"
+created: 2023-08-12T23:12:00+10:00
+modified: 2023-08-13T00:03:16+10:00
 link:  "https://theconversation.com/dandelions-are-a-lifeline-for-bees-on-the-brink-we-should-learn-to-love-them-204504"
 tags:
 - bookmark
@@ -22,6 +13,3 @@ tags:
 
 [Link](https://theconversation.com/dandelions-are-a-lifeline-for-bees-on-the-brink-we-should-learn-to-love-them-204504)
 
-<%*
-
--%>

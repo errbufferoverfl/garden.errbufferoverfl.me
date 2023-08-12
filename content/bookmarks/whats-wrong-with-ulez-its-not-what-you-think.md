@@ -1,18 +1,9 @@
-<%*
-const title = "What’s wrong with ULEZ? It’s not what you think";
-let fileTitle = "What’s wrong with ULEZ? It’s not what you think";
-fileTitle = fileTitle.replace(/ /g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/[&'’‘’,–.;?()“”$]/g, "").toLowerCase();
-fileTitle = fileTitle.replace(/--/g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
-await tp.file.rename(`${fileTitle}`)
--%>
 ---
-title: "<%title%>"
+title: "What’s wrong with ULEZ? It’s not what you think"
 alias:
-- "<%title%>"
-created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
-modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
+- "What’s wrong with ULEZ? It’s not what you think"
+created: 2023-08-12T23:12:00+10:00
+modified: 2023-08-12T23:12:00+10:00
 link:  "https://www.openrightsgroup.org/blog/whats-wrong-with-ulez-its-not-what-you-think/"
 tags:
 - bookmark
@@ -22,6 +13,3 @@ tags:
 
 [Link](https://www.openrightsgroup.org/blog/whats-wrong-with-ulez-its-not-what-you-think/)
 
-<%*
-
--%>
