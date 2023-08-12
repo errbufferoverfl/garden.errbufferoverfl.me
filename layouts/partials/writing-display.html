@@ -11,7 +11,7 @@
           <h3><a href="{{ .RelPermalink }}">{{- .Title -}}</a></h3>
         </div>
         <p class="meta">
-          {{- .WordCount -}} words on {{- partial "date-fmt.html" . -}}
+          {{- .WordCount }} words on {{ partial "date-fmt.html" . -}}
         </p>
         {{- partial "tags.html" . -}}
       </div>
