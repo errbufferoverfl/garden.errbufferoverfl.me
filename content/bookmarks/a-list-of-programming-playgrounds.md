@@ -1,18 +1,9 @@
-<%*
-const title = "A list of programming playgrounds";
-let fileTitle = "A list of programming playgrounds";
-fileTitle = fileTitle.replace(/ /g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/[&'’‘’,–.;?()“”$]/g, "").toLowerCase();
-fileTitle = fileTitle.replace(/--/g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
-await tp.file.rename(`${fileTitle}`)
--%>
 ---
-title: "<%title%>"
+title: "A list of programming playgrounds"
 alias:
-- "<%title%>"
-created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
-modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
+  - "A list of programming playgrounds"
+created: 2023-08-12T23:12:00+10:00
+modified: 2023-08-12T23:26:41+10:00
 URL:  "https://jvns.ca/blog/2023/04/17/a-list-of-programming-playgrounds/"
 tags:
 - bookmark
@@ -22,6 +13,3 @@ tags:
 
 [Link](https://jvns.ca/blog/2023/04/17/a-list-of-programming-playgrounds/)
 
-<%*
-
--%>
