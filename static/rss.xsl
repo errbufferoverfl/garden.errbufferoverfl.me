@@ -57,8 +57,6 @@
                                     <xsl:value-of select="atom:title"/>
                                 </a>
                             </h3>
-                            <p>
-                                <xsl:value-of select="atom:tags"/></p>
                             <footer>
                                 <p>Published on <xsl:value-of select="substring(atom:published, 0, 11)"/></p>
                             </footer>
