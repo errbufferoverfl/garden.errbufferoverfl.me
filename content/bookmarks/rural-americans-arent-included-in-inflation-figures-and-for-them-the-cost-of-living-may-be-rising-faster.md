@@ -4,7 +4,7 @@ alias:
   - "Rural Americans aren’t included in inflation figures – and for them, the cost of living may be rising faster"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:48:01+10:00
-URL:  "https://theconversation.com/rural-americans-arent-included-in-inflation-figures-and-for-them-the-cost-of-living-may-be-rising-faster-197781"
+link:  "https://theconversation.com/rural-americans-arent-included-in-inflation-figures-and-for-them-the-cost-of-living-may-be-rising-faster-197781"
 tags:
 - bookmark
 ---

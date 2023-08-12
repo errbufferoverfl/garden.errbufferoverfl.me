@@ -4,7 +4,7 @@ alias:
 - "The Alarming Rise of Dangerous Speech – The Markup"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://themarkup.org/hello-world/2023/01/21/the-alarming-rise-of-dangerous-speech"
+link:  "https://themarkup.org/hello-world/2023/01/21/the-alarming-rise-of-dangerous-speech"
 tags:
 - bookmark
 ---

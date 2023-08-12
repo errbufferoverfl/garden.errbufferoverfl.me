@@ -1,0 +1,15 @@
+---
+title: "What Makes a Cult a Cult "
+alias:
+- "What Makes a Cult a Cult "
+created: 2023-08-12T22:34:41+10:00
+modified: 2023-08-12T22:34:41+10:00
+URL:  "https://www.newyorker.com/magazine/2021/07/12/what-makes-a-cult-a-cult"
+tags:
+- bookmark
+---
+
+> Male cult leaders sometimes claim droit du seigneur over female followers or use physical violence to sexually exploit them.
+
+[Link](https://www.newyorker.com/magazine/2021/07/12/what-makes-a-cult-a-cult)
+

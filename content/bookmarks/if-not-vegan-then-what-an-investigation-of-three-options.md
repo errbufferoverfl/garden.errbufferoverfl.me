@@ -4,7 +4,7 @@ alias:
 - "If not vegan, then what? An investigation of three options"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://aeon.co/essays/if-not-vegan-then-what-an-investigation-of-three-options"
+link:  "https://aeon.co/essays/if-not-vegan-then-what-an-investigation-of-three-options"
 tags:
 - bookmark
 ---

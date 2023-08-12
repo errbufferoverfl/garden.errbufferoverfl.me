@@ -4,7 +4,7 @@ alias:
 - "Dark ecotourism at Toolangi: the invisible destruction of a forest"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://overland.org.au/2022/12/dark-ecotourism-at-toolangi-the-invisible-destruction-of-a-forest/"
+link:  "https://overland.org.au/2022/12/dark-ecotourism-at-toolangi-the-invisible-destruction-of-a-forest/"
 tags:
 - bookmark
 ---

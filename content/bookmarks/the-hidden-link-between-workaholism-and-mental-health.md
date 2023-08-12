@@ -4,7 +4,7 @@ alias:
 - "The Hidden Link Between Workaholism and Mental Health"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://www.theatlantic.com/family/archive/2023/02/workaholism-addiction-anxiety-depression-practical-solutions/672917/"
+link:  "https://www.theatlantic.com/family/archive/2023/02/workaholism-addiction-anxiety-depression-practical-solutions/672917/"
 tags:
 - bookmark
 ---

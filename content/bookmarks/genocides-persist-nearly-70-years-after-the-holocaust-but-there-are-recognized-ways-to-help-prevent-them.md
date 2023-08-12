@@ -4,7 +4,7 @@ alias:
 - "Genocides persist, nearly 70 years after the Holocaust – but there are recognized ways to help prevent them"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://theconversation.com/genocides-persist-nearly-70-years-after-the-holocaust-but-there-are-recognized-ways-to-help-prevent-them-195260"
+link:  "https://theconversation.com/genocides-persist-nearly-70-years-after-the-holocaust-but-there-are-recognized-ways-to-help-prevent-them-195260"
 tags:
 - bookmark
 ---

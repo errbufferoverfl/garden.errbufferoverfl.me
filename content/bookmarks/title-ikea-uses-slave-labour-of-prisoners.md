@@ -4,7 +4,7 @@ alias:
 - "Title: IKEA Uses Slave Labour of Prisoners"
 created: 2023-08-12T21:43:09+10:00
 modified: 2023-08-12T21:43:09+10:00
-URL:  "https://theanarchistlibrary.org/library/piotr-markielau-anarchisticka-federace-ikea-uses-slave-labour-of-prisoners"
+link:  "https://theanarchistlibrary.org/library/piotr-markielau-anarchisticka-federace-ikea-uses-slave-labour-of-prisoners"
 tags:
 - bookmark
 ---

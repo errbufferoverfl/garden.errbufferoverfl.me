@@ -4,7 +4,7 @@ alias:
   - "How Roomba tester’s private images ended up on Facebook"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:53:46+10:00
-URL:  "https://www.technologyreview.com/2023/01/26/1067317/podcast-roomba-irobot-robot-vacuums-artificial-intelligence-training-data-privacy-consent-agreement-misled/"
+link:  "https://www.technologyreview.com/2023/01/26/1067317/podcast-roomba-irobot-robot-vacuums-artificial-intelligence-training-data-privacy-consent-agreement-misled/"
 tags:
 - bookmark
 ---

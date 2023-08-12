@@ -4,7 +4,7 @@ alias:
 - "The weaponization of the federal government has a long history"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://theconversation.com/the-weaponization-of-the-federal-government-has-a-long-history-197848"
+link:  "https://theconversation.com/the-weaponization-of-the-federal-government-has-a-long-history-197848"
 tags:
 - bookmark
 ---

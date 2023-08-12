@@ -4,7 +4,7 @@ alias:
 - "How to study effectively"
 created: 2023-08-12T21:43:09+10:00
 modified: 2023-08-12T21:43:09+10:00
-URL:  "https://psyche.co/guides/how-research-from-psychology-can-help-you-study-effectively"
+link:  "https://psyche.co/guides/how-research-from-psychology-can-help-you-study-effectively"
 tags:
 - bookmark
 ---

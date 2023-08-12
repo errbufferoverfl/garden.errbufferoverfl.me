@@ -4,7 +4,7 @@ alias:
 - "Why we should all learn to love stinging nettles"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://theconversation.com/why-we-should-all-learn-to-love-stinging-nettles-195327"
+link:  "https://theconversation.com/why-we-should-all-learn-to-love-stinging-nettles-195327"
 tags:
 - bookmark
 ---

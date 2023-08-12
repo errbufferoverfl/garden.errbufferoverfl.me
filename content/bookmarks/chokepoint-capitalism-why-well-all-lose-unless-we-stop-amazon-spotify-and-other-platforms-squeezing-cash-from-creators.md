@@ -4,7 +4,7 @@ alias:
 - "Chokepoint Capitalism: why we’ll all lose unless we stop Amazon, Spotify and other platforms squeezing cash from creators"
 created: 2023-08-12T21:43:09+10:00
 modified: 2023-08-12T21:43:09+10:00
-URL:  "https://theconversation.com/chokepoint-capitalism-why-well-all-lose-unless-we-stop-amazon-spotify-and-other-platforms-squeezing-cash-from-creators-194069"
+link:  "https://theconversation.com/chokepoint-capitalism-why-well-all-lose-unless-we-stop-amazon-spotify-and-other-platforms-squeezing-cash-from-creators-194069"
 tags:
 - bookmark
 ---

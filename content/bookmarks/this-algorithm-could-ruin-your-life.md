@@ -4,7 +4,7 @@ alias:
 - "This Algorithm Could Ruin Your Life"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://www.wired.com/story/welfare-algorithms-discrimination/"
+link:  "https://www.wired.com/story/welfare-algorithms-discrimination/"
 tags:
 - bookmark
 ---

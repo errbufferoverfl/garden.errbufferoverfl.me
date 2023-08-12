@@ -4,7 +4,7 @@ alias:
 - "Listening Note Taking Strategies"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://student.unsw.edu.au/note-taking-skills"
+link:  "https://student.unsw.edu.au/note-taking-skills"
 tags:
 - bookmark
 ---

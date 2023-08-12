@@ -4,7 +4,7 @@ alias:
 - "Canadian engineers call for change to their private ‘iron ring’ ceremony steeped in colonialism"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://theconversation.com/canadian-engineers-call-for-change-to-their-private-iron-ring-ceremony-steeped-in-colonialism-194897"
+link:  "https://theconversation.com/canadian-engineers-call-for-change-to-their-private-iron-ring-ceremony-steeped-in-colonialism-194897"
 tags:
 - bookmark
 ---

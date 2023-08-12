@@ -4,7 +4,7 @@ alias:
   - "What Comes After Ambition?"
 created: 2023-08-12T21:43:09+10:00
 modified: 2023-08-12T22:10:57+10:00
-URL:  "https://www.elle.com/life-love/opinions-features/a40835443/women-rejecting-traditional-ambition-2022/"
+link:  "https://www.elle.com/life-love/opinions-features/a40835443/women-rejecting-traditional-ambition-2022/"
 tags:
 - bookmark
 ---

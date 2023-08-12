@@ -4,7 +4,7 @@ alias:
 - "The Download: untrustworthy AI, and Rust’s origin story"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://www.technologyreview.com/2023/02/14/1068502/download-untrustworthy-ai-rust-origin-story/"
+link:  "https://www.technologyreview.com/2023/02/14/1068502/download-untrustworthy-ai-rust-origin-story/"
 tags:
 - bookmark
 ---

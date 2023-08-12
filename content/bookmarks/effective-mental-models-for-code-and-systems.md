@@ -4,7 +4,7 @@ alias:
   - "Effective Mental Models for Code and Systems"
 created: 2023-08-12T21:04:22+10:00
 modified: 2023-08-12T21:04:44+10:00
-URL:  "https://copyconstruct.medium.com/effective-mental-models-for-code-and-systems-7c55918f1b3e"
+link:  "https://copyconstruct.medium.com/effective-mental-models-for-code-and-systems-7c55918f1b3e"
 tags:
 - bookmark
 ---

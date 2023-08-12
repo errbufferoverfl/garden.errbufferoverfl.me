@@ -4,7 +4,7 @@ alias:
 - "Against Self-Work A critique of care as a form of labor"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://theanarchistlibrary.org/library/anonymous-against-self-work"
+link:  "https://theanarchistlibrary.org/library/anonymous-against-self-work"
 tags:
 - bookmark
 ---

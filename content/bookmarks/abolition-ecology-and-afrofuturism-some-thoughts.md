@@ -4,7 +4,7 @@ alias:
 - "Abolition, Ecology, and Afrofuturism Some Thoughts"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://theanarchistlibrary.org/library/nsambu-za-suekama-abolition-ecology-and-afrofuturism"
+link:  "https://theanarchistlibrary.org/library/nsambu-za-suekama-abolition-ecology-and-afrofuturism"
 tags:
 - bookmark
 ---

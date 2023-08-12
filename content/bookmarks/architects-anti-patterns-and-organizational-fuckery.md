@@ -4,7 +4,7 @@ alias:
   - "Architects, Anti-Patterns, and Organizational Fuckery"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:51+10:00
-URL:  "https://charity.wtf/2023/03/09/architects-anti-patterns-and-organizational-fuckery/"
+link:  "https://charity.wtf/2023/03/09/architects-anti-patterns-and-organizational-fuckery/"
 tags:
 - bookmark
 ---

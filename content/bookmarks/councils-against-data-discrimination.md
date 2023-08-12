@@ -4,7 +4,7 @@ alias:
 - "Councils against data discrimination"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://www.openrightsgroup.org/campaign/councils-against-data-discrimination/"
+link:  "https://www.openrightsgroup.org/campaign/councils-against-data-discrimination/"
 tags:
 - bookmark
 ---

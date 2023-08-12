@@ -14,7 +14,7 @@ alias:
 - "The Unravelling of an Expert on Serial Killers"
 created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
 modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
-URL:  "https://www.newyorker.com/magazine/2022/04/11/the-unravelling-of-an-expert-on-serial-killers"
+link:  "https://www.newyorker.com/magazine/2022/04/11/the-unravelling-of-an-expert-on-serial-killers"
 tags:
 - bookmark
 ---

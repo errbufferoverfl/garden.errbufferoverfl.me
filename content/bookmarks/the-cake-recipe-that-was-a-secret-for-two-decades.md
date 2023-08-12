@@ -4,7 +4,7 @@ alias:
 - "The Cake Recipe That Was a Secret for Two Decades"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://www.nytimes.com/2022/11/30/magazine/chiffon-cake-recipe.html"
+link:  "https://www.nytimes.com/2022/11/30/magazine/chiffon-cake-recipe.html"
 tags:
 - bookmark
 ---

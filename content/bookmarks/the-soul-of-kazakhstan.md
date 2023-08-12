@@ -4,7 +4,7 @@ alias:
 - "The Soul of Kazakhstan"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://www.blind-magazine.com/stories/the-kazakh-soul/"
+link:  "https://www.blind-magazine.com/stories/the-kazakh-soul/"
 tags:
 - bookmark
 ---

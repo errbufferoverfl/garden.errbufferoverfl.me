@@ -4,7 +4,7 @@ alias:
   - "Permacomputing Update 2021"
 created: 2023-08-12T21:04:22+10:00
 modified: 2023-08-12T21:07:06+10:00
-URL:  "http://viznut.fi/texts-en/permacomputing_update_2021.html"
+link:  "http://viznut.fi/texts-en/permacomputing_update_2021.html"
 tags:
 - bookmark
 ---

@@ -4,7 +4,7 @@ alias:
 - "The Cloud Is a Prison. Can the Local-First Software Movement Set Us Free?"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://www.wired.com/story/the-cloud-is-a-prison-can-the-local-first-software-movement-set-us-free/"
+link:  "https://www.wired.com/story/the-cloud-is-a-prison-can-the-local-first-software-movement-set-us-free/"
 tags:
 - bookmark
 ---

@@ -4,7 +4,7 @@ alias:
 - "‘Whisper networks’ thrive when women lose faith in formal systems of reporting sexual harassment"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://theconversation.com/whisper-networks-thrive-when-women-lose-faith-in-formal-systems-of-reporting-sexual-harassment-196630"
+link:  "https://theconversation.com/whisper-networks-thrive-when-women-lose-faith-in-formal-systems-of-reporting-sexual-harassment-196630"
 tags:
 - bookmark
 ---

@@ -4,7 +4,7 @@ alias:
 - "Artificial intelligence is creating a new colonial world order"
 created: 2023-08-12T21:43:09+10:00
 modified: 2023-08-12T21:43:09+10:00
-URL:  "https://www.technologyreview.com/2022/04/19/1049592/artificial-intelligence-colonialism/"
+link:  "https://www.technologyreview.com/2022/04/19/1049592/artificial-intelligence-colonialism/"
 tags:
 - bookmark
 ---

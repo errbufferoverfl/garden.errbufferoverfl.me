@@ -4,7 +4,7 @@ alias:
 - "Palm kernel product imported for use on dairy farms may actually be harmful to cows"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://theconversation.com/palm-kernel-product-imported-for-use-on-dairy-farms-may-actually-be-harmful-to-cows-196569"
+link:  "https://theconversation.com/palm-kernel-product-imported-for-use-on-dairy-farms-may-actually-be-harmful-to-cows-196569"
 tags:
 - bookmark
 ---

@@ -4,7 +4,7 @@ alias:
 - "The real reason why there’s a global rise in trans youth"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://aeon.co/essays/the-real-reason-why-theres-a-global-rise-in-trans-youth"
+link:  "https://aeon.co/essays/the-real-reason-why-theres-a-global-rise-in-trans-youth"
 tags:
 - bookmark
 ---

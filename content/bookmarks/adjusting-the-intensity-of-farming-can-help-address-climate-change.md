@@ -4,7 +4,7 @@ alias:
 - "Adjusting the intensity of farming can help address climate change"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://theconversation.com/adjusting-the-intensity-of-farming-can-help-address-climate-change-191293"
+link:  "https://theconversation.com/adjusting-the-intensity-of-farming-can-help-address-climate-change-191293"
 tags:
 - bookmark
 ---

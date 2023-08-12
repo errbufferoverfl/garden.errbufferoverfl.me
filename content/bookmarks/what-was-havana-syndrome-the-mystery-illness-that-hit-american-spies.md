@@ -4,7 +4,7 @@ alias:
   - "CYBER: What Was Havana Syndrome, the Mystery Illness that Hit American Spies?"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:47:24+10:00
-URL:  "https://www.vice.com/en/article/wxnmz5/cyber-what-was-havana-syndrome-the-mystery-illness-that-hit-american-spies"
+link:  "https://www.vice.com/en/article/wxnmz5/cyber-what-was-havana-syndrome-the-mystery-illness-that-hit-american-spies"
 tags:
 - bookmark
 ---

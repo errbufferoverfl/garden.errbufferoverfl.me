@@ -4,7 +4,7 @@ alias:
 - "Tech Colonialism Today"
 created: 2023-08-12T21:43:08+10:00
 modified: 2023-08-12T21:43:08+10:00
-URL:  "https://points.datasociety.net/tech-colonialism-today-9633a9cb00ad"
+link:  "https://points.datasociety.net/tech-colonialism-today-9633a9cb00ad"
 tags:
 - bookmark
 ---

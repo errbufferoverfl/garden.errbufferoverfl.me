@@ -4,7 +4,7 @@ alias:
 - "Bad fire science can kill our threatened species. It’s time to cooperate with nature"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://theconversation.com/bad-fire-science-can-kill-our-threatened-species-its-time-to-cooperate-with-nature-196363"
+link:  "https://theconversation.com/bad-fire-science-can-kill-our-threatened-species-its-time-to-cooperate-with-nature-196363"
 tags:
 - bookmark
 ---

@@ -7,7 +7,6 @@ tags:
   - evergreen
 ---
 %% Begin Waypoint %%
-- [[‘it’s-not-just-burnout-’-how-grind-culture-fails-women]]
 - [[5-types-of-threat-how-those-who-want-to-divide-us-use-language-to-stoke-violence]]
 - [[17-forbidden-places-you-cant-visit]]
 - [[a-dangerous-pesticide-isnt-being-monitored-in-key-bird-of-prey-populations-were-shedding-light-on-that-gap]]

@@ -4,7 +4,7 @@ alias:
 - "This 1998 Advice From Ursula K. Le Guin About Gender-Neutral Language Is Still Relevant."
 created: 2023-08-12T21:43:09+10:00
 modified: 2023-08-12T21:43:09+10:00
-URL:  "https://getpocket.com/explore/item/this-1998-advice-from-ursula-k-le-guin-about-gender-neutral-language-is-still-relevant"
+link:  "https://getpocket.com/explore/item/this-1998-advice-from-ursula-k-le-guin-about-gender-neutral-language-is-still-relevant"
 tags:
 - bookmark
 ---

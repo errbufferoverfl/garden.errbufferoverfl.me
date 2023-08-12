@@ -6,7 +6,7 @@ aliases:
     Business Collaboration
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T22:01:05+10:00
-URL: https://www.youtube.com/watch?v=sjkGxHjNjM4
+link: https://www.youtube.com/watch?v=sjkGxHjNjM4
 tags:
   - bookmark
 ---

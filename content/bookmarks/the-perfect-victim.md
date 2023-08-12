@@ -4,7 +4,7 @@ alias:
 - "The Perfect Victim"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://getpocket.com/explore/item/the-perfect-victim"
+link:  "https://getpocket.com/explore/item/the-perfect-victim"
 tags:
 - bookmark
 ---

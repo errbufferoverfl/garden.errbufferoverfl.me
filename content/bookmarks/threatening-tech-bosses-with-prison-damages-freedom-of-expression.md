@@ -4,7 +4,7 @@ alias:
 - "Threatening tech bosses with prison damages freedom of expression"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://www.openrightsgroup.org/press-releases/threatening-tech-bosses-with-prison-damages-freedom-of-expression/"
+link:  "https://www.openrightsgroup.org/press-releases/threatening-tech-bosses-with-prison-damages-freedom-of-expression/"
 tags:
 - bookmark
 ---

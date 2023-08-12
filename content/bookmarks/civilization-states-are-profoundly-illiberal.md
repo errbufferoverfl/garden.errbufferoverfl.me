@@ -4,7 +4,7 @@ alias:
 - "Civilization States Are Profoundly Illiberal"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://www.noemamag.com/civilization-states-are-profoundly-illiberal"
+link:  "https://www.noemamag.com/civilization-states-are-profoundly-illiberal"
 tags:
 - bookmark
 ---

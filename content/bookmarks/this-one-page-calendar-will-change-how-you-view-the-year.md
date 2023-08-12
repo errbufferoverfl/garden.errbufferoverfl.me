@@ -4,7 +4,7 @@ alias:
 - "This one-page calendar will change how you view the year"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://bigthink.com/starts-with-a-bang/one-page-calendar/"
+link:  "https://bigthink.com/starts-with-a-bang/one-page-calendar/"
 tags:
 - bookmark
 ---

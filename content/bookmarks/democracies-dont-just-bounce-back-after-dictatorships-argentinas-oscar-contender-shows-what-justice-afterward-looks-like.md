@@ -4,7 +4,7 @@ alias:
 - "Democracies don’t just bounce back after dictatorships – Argentina’s Oscar contender shows what justice afterward looks like"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://theconversation.com/democracies-dont-just-bounce-back-after-dictatorships-argentinas-oscar-contender-shows-what-justice-afterward-looks-like-196771"
+link:  "https://theconversation.com/democracies-dont-just-bounce-back-after-dictatorships-argentinas-oscar-contender-shows-what-justice-afterward-looks-like-196771"
 tags:
 - bookmark
 ---

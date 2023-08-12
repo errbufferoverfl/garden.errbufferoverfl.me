@@ -4,7 +4,7 @@ alias:
 - "As QAnon Falters, European Followers Flock to a Financial Conspiracy"
 created: 2023-08-12T21:43:09+10:00
 modified: 2023-08-12T21:43:09+10:00
-URL:  "https://www.bellingcat.com/news/2022/12/21/as-qanon-falters-european-followers-flock-to-a-financial-conspiracy/"
+link:  "https://www.bellingcat.com/news/2022/12/21/as-qanon-falters-european-followers-flock-to-a-financial-conspiracy/"
 tags:
 - bookmark
 ---

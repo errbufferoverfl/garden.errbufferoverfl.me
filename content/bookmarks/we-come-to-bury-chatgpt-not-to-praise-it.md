@@ -4,7 +4,7 @@ alias:
   - "We come to bury ChatGPT, not to praise it."
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:45:17+10:00
-URL:  "https://www.danmcquillan.org/chatgpt.html"
+link:  "https://www.danmcquillan.org/chatgpt.html"
 tags:
 - bookmark
 ---

@@ -4,7 +4,7 @@ alias:
 - "The evidence is clear : learning styles theory doesn’t work"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://aeon.co/essays/the-evidence-is-clear-learning-styles-theory-doesnt-work"
+link:  "https://aeon.co/essays/the-evidence-is-clear-learning-styles-theory-doesnt-work"
 tags:
 - bookmark
 ---

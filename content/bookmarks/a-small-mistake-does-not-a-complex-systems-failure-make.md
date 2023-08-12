@@ -4,7 +4,7 @@ alias:
 - "A small mistake does not a complex systems failure make"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://surfingcomplexity.blog/2023/01/15/a-small-mistake-does-not-a-complex-systems-failure-make/"
+link:  "https://surfingcomplexity.blog/2023/01/15/a-small-mistake-does-not-a-complex-systems-failure-make/"
 tags:
 - bookmark
 ---

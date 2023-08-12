@@ -4,7 +4,7 @@ alias:
 - "How To Ferment Low-Sodium Sauerkraut"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://www.fermentingforfoodies.com/how-to-ferment-low-sodium-sauerkraut/"
+link:  "https://www.fermentingforfoodies.com/how-to-ferment-low-sodium-sauerkraut/"
 tags:
 - bookmark
 ---

@@ -4,7 +4,7 @@ alias:
   - "Failure to Cope 'Under Capitalism'"
 created: 2023-08-12T21:43:09+10:00
 modified: 2023-08-12T22:05:09+10:00
-URL:  "https://www.gawker.com/culture/failure-to-cope-under-capitalism"
+link:  "https://www.gawker.com/culture/failure-to-cope-under-capitalism"
 tags:
 - bookmark
 ---

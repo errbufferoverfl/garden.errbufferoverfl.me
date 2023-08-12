@@ -4,7 +4,7 @@ alias:
   - "Comprehensive Rust 🦀"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T22:02:30+10:00
-URL:  "https://google.github.io/comprehensive-rust/"
+link:  "https://google.github.io/comprehensive-rust/"
 tags:
 - bookmark
 ---

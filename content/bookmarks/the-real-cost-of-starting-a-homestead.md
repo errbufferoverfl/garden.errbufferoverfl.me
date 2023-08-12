@@ -4,7 +4,7 @@ alias:
 - "The Real Cost of Starting a Homestead"
 created: 2023-08-12T21:43:09+10:00
 modified: 2023-08-12T21:43:09+10:00
-URL:  "https://morningchores.com/cost-of-starting-a-homestead/"
+link:  "https://morningchores.com/cost-of-starting-a-homestead/"
 tags:
 - bookmark
 ---

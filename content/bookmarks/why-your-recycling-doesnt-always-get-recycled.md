@@ -4,7 +4,7 @@ alias:
 - "Why your recycling doesn't always get recycled"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://www.nationalgeographic.com/environment/article/why-recycling-plastic-doesnt-always-get-recycled"
+link:  "https://www.nationalgeographic.com/environment/article/why-recycling-plastic-doesnt-always-get-recycled"
 tags:
 - bookmark
 ---

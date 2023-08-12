@@ -4,7 +4,7 @@ alias:
 - "Transphobia is a Respectability Politic Thoughts on Black Community Defense"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://theanarchistlibrary.org/library/nsambu-za-suekama-transphobia-is-a-respectability-politic"
+link:  "https://theanarchistlibrary.org/library/nsambu-za-suekama-transphobia-is-a-respectability-politic"
 tags:
 - bookmark
 ---

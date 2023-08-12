@@ -4,7 +4,7 @@ alias:
 - "Henry Lee Lucas Was Considered America’s Most Prolific Serial Killer. But He Was Really a Serial Liar."
 created: 2023-08-12T21:43:09+10:00
 modified: 2023-08-12T21:43:09+10:00
-URL:  "https://getpocket.com/explore/item/henry-lee-lucas-was-considered-america-s-most-prolific-serial-killer-but-he-was-really-a-serial-liar"
+link:  "https://getpocket.com/explore/item/henry-lee-lucas-was-considered-america-s-most-prolific-serial-killer-but-he-was-really-a-serial-liar"
 tags:
 - bookmark
 ---

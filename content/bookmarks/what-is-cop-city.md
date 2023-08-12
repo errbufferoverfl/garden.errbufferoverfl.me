@@ -4,7 +4,7 @@ alias:
 - "What is Cop City?"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://stopcop.city/what-is-cop-city/"
+link:  "https://stopcop.city/what-is-cop-city/"
 tags:
 - bookmark
 ---

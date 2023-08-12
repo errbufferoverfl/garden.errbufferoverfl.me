@@ -4,7 +4,7 @@ alias:
 - "5 types of threat – how those who want to divide us use language to stoke violence"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://theconversation.com/5-types-of-threat-how-those-who-want-to-divide-us-use-language-to-stoke-violence-196189"
+link:  "https://theconversation.com/5-types-of-threat-how-those-who-want-to-divide-us-use-language-to-stoke-violence-196189"
 tags:
 - bookmark
 ---

@@ -4,7 +4,7 @@ alias:
 - "We live in a time of ‘late capitalism’. But what does that mean? And what’s so late about it?"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://theconversation.com/we-live-in-a-time-of-late-capitalism-but-what-does-that-mean-and-whats-so-late-about-it-191422"
+link:  "https://theconversation.com/we-live-in-a-time-of-late-capitalism-but-what-does-that-mean-and-whats-so-late-about-it-191422"
 tags:
 - bookmark
 ---

@@ -4,7 +4,7 @@ alias:
 - "Exploding carp numbers are ‘like a house of horrors’ for our rivers. Is it time to unleash carp herpes?"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://theconversation.com/exploding-carp-numbers-are-like-a-house-of-horrors-for-our-rivers-is-it-time-to-unleash-carp-herpes-198067"
+link:  "https://theconversation.com/exploding-carp-numbers-are-like-a-house-of-horrors-for-our-rivers-is-it-time-to-unleash-carp-herpes-198067"
 tags:
 - bookmark
 ---

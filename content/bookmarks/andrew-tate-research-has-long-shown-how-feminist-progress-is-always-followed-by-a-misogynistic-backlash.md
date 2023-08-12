@@ -4,7 +4,7 @@ alias:
 - "Andrew Tate: research has long shown how feminist progress is always followed by a misogynistic backlash"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://theconversation.com/andrew-tate-research-has-long-shown-how-feminist-progress-is-always-followed-by-a-misogynistic-backlash-197433"
+link:  "https://theconversation.com/andrew-tate-research-has-long-shown-how-feminist-progress-is-always-followed-by-a-misogynistic-backlash-197433"
 tags:
 - bookmark
 ---

@@ -4,7 +4,7 @@ aliases:
   - International Conspiracy of Mad Scientists
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL: https://iseeamess.com/wiki/Main_Page
+link: https://iseeamess.com/wiki/Main_Page
 tags:
   - bookmark
 ---

@@ -4,7 +4,7 @@ alias:
 - "Porn, Piracy, Fraud: What Lurks Inside Google’s Black Box Ad Empire"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://www.propublica.org/article/google-display-ads-piracy-porn-fraud"
+link:  "https://www.propublica.org/article/google-display-ads-piracy-porn-fraud"
 tags:
 - bookmark
 ---

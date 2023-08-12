@@ -4,7 +4,7 @@ alias:
 - "Delivering on an architecture strategy"
 created: 2023-08-12T21:04:22+10:00
 modified: 2023-08-12T21:04:22+10:00
-URL:  "https://blog.thepete.net/blog/2019/12/09/delivering-on-an-architecture-strategy/"
+link:  "https://blog.thepete.net/blog/2019/12/09/delivering-on-an-architecture-strategy/"
 tags:
 - bookmark
 ---

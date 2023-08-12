@@ -4,7 +4,7 @@ alias:
 - "Producing Transdermal Estrogen: A Do-It-Yourself Guide"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://crimethinc.com/2022/12/15/producing-transdermal-estrogen-a-do-it-yourself-guide"
+link:  "https://crimethinc.com/2022/12/15/producing-transdermal-estrogen-a-do-it-yourself-guide"
 tags:
 - bookmark
 ---

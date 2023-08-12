@@ -4,7 +4,7 @@ alias:
 - "RDR Raises Concerns About UNESCO’s Proposed Framework for Regulating Digital Platforms"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://rankingdigitalrights.org/2023/02/07/rdr-raises-concerns-about-unescos-proposed-framework-for-regulating-digital-platforms/"
+link:  "https://rankingdigitalrights.org/2023/02/07/rdr-raises-concerns-about-unescos-proposed-framework-for-regulating-digital-platforms/"
 tags:
 - bookmark
 ---

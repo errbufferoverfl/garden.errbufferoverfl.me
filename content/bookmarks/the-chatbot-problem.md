@@ -4,7 +4,7 @@ alias:
 - "The Chatbot Problem"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://www.newyorker.com/culture/cultural-comment/the-chatbot-problem"
+link:  "https://www.newyorker.com/culture/cultural-comment/the-chatbot-problem"
 tags:
 - bookmark
 ---

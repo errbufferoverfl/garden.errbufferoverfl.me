@@ -4,7 +4,7 @@ alias:
 - "Schrodinger’s Whore; Sex Work and Academia"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://tryst.link/blog/schrodingers-whore-sex-work-and-academia-tryst-sex-work-blog/"
+link:  "https://tryst.link/blog/schrodingers-whore-sex-work-and-academia-tryst-sex-work-blog/"
 tags:
 - bookmark
 ---

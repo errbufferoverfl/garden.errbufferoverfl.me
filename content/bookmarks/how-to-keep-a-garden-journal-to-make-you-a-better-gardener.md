@@ -4,7 +4,7 @@ alias:
 - "How to Keep a Garden Journal to Make You a Better Gardener"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://morningchores.com/keeping-a-garden-journal/"
+link:  "https://morningchores.com/keeping-a-garden-journal/"
 tags:
 - bookmark
 ---

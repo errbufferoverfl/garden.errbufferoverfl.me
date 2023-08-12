@@ -4,7 +4,7 @@ alias:
 - "April King — Refresh vs. Long-lived Access Tokens"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://grayduck.mn/2023/04/17/refresh-vs-long-lived-access-tokens/"
+link:  "https://grayduck.mn/2023/04/17/refresh-vs-long-lived-access-tokens/"
 tags:
 - bookmark
 ---

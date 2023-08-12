@@ -4,7 +4,7 @@ alias:
 - "Run less software"
 created: 2023-08-12T21:04:22+10:00
 modified: 2023-08-12T21:04:22+10:00
-URL:  "https://www.intercom.com/blog/run-less-software/"
+link:  "https://www.intercom.com/blog/run-less-software/"
 tags:
 - bookmark
 ---

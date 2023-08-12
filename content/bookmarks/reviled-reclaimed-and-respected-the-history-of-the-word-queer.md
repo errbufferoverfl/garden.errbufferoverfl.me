@@ -4,7 +4,7 @@ alias:
 - "Reviled, reclaimed and respected: the history of the word ‘queer’"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://theconversation.com/reviled-reclaimed-and-respected-the-history-of-the-word-queer-197533"
+link:  "https://theconversation.com/reviled-reclaimed-and-respected-the-history-of-the-word-queer-197533"
 tags:
 - bookmark
 ---

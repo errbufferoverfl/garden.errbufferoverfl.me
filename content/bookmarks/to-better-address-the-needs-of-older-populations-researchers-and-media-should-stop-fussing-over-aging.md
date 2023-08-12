@@ -4,7 +4,7 @@ alias:
 - "To better address the needs of older populations, researchers and media should stop fussing over aging"
 created: 2023-08-12T21:43:09+10:00
 modified: 2023-08-12T21:43:09+10:00
-URL:  "https://theconversation.com/to-better-address-the-needs-of-older-populations-researchers-and-media-should-stop-fussing-over-aging-195626"
+link:  "https://theconversation.com/to-better-address-the-needs-of-older-populations-researchers-and-media-should-stop-fussing-over-aging-195626"
 tags:
 - bookmark
 ---

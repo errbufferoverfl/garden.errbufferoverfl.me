@@ -4,7 +4,7 @@ alias:
 - "Where to Start"
 created: 2023-08-12T21:43:09+10:00
 modified: 2023-08-12T21:43:09+10:00
-URL:  "http://keavy.com/work/where-to-start/"
+link:  "http://keavy.com/work/where-to-start/"
 tags:
 - bookmark
 ---

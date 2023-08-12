@@ -4,7 +4,7 @@ alias:
 - "Over the holidays, try talking to your relatives like an anthropologist"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-12T21:43:10+10:00
-URL:  "https://theconversation.com/over-the-holidays-try-talking-to-your-relatives-like-an-anthropologist-195637"
+link:  "https://theconversation.com/over-the-holidays-try-talking-to-your-relatives-like-an-anthropologist-195637"
 tags:
 - bookmark
 ---

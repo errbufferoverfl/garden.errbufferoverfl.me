@@ -4,7 +4,7 @@ alias:
   - "What Writers and Editors Are Reading: January 2023"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:46:31+10:00
-URL:  "https://getpocket.com/collections/what-writers-and-editors-are-reading-january-2023"
+link:  "https://getpocket.com/collections/what-writers-and-editors-are-reading-january-2023"
 tags:
 - bookmark
 ---

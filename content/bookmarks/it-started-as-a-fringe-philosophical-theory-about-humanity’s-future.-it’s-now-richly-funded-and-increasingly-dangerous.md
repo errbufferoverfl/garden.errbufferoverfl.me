@@ -4,7 +4,7 @@ alias:
 - "It started as a fringe philosophical theory about humanity’s future. It’s now richly funded and increasingly dangerous"
 created: 2023-08-12T21:43:09+10:00
 modified: 2023-08-12T21:43:09+10:00
-URL:  "https://aeon.co/essays/why-longtermism-is-the-worlds-most-dangerous-secular-credo"
+link:  "https://aeon.co/essays/why-longtermism-is-the-worlds-most-dangerous-secular-credo"
 tags:
 - bookmark
 ---

@@ -4,7 +4,7 @@ alias:
 - "“My Brother Is So Far Gone”: How Male Influencers Turned The Men In These People’s Lives Toxic"
 created: 2023-08-12T21:43:09+10:00
 modified: 2023-08-12T21:43:09+10:00
-URL:  "https://www.buzzfeednews.com/article/adeonibada/andrew-tate-fresh-fit-podcast-kevin-samuels-toxic-male"
+link:  "https://www.buzzfeednews.com/article/adeonibada/andrew-tate-fresh-fit-podcast-kevin-samuels-toxic-male"
 tags:
 - bookmark
 ---

@@ -4,7 +4,7 @@ alias:
 - "Regina Twala was a towering intellectual and activist in Eswatini - but she was erased from history"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://theconversation.com/regina-twala-was-a-towering-intellectual-and-activist-in-eswatini-but-she-was-erased-from-history-197540"
+link:  "https://theconversation.com/regina-twala-was-a-towering-intellectual-and-activist-in-eswatini-but-she-was-erased-from-history-197540"
 tags:
 - bookmark
 ---

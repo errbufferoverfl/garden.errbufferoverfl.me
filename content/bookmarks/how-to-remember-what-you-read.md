@@ -4,7 +4,7 @@ alias:
 - "How to Remember What You Read"
 created: 2023-08-12T21:43:09+10:00
 modified: 2023-08-12T21:43:09+10:00
-URL:  "https://fs.blog/remember-books/"
+link:  "https://fs.blog/remember-books/"
 tags:
 - bookmark
 ---

@@ -4,7 +4,7 @@ alias:
 - "The World’s Farms Are Hooked on Phosphorus. It’s a Problem"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T21:43:11+10:00
-URL:  "https://www.wired.com/story/the-worlds-farms-are-hooked-on-phosphorus-its-a-problem/"
+link:  "https://www.wired.com/story/the-worlds-farms-are-hooked-on-phosphorus-its-a-problem/"
 tags:
 - bookmark
 ---
