@@ -1,7 +1,6 @@
 ---
 title: surveillance capitalism
-aliases:
-  - surveillance capitalism
+aliases: []
 created: 2023-06-12T00:00:00+10:00
 modified: 2023-06-18T23:11:40+10:00
 tags:

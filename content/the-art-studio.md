@@ -3,7 +3,7 @@ title: "the art studio"
 alias:
   - "the art studio"
 created: 2023-05-31T00:00:00+10:00
-modified: 2023-08-06T16:00:14+10:00
+modified: 2023-08-12T12:35:25+10:00
 ---
 If you've been enjoying my work and finding it entertaining. Your support means the world to me, and I can't thank you enough for being a part of this journey.
 
@@ -11,7 +11,7 @@ If you want to stay connected and show your support, you can follow or supported
 
 ## Projects
 
-### [Anarchic Illustrations](art/anarchic-illustrations.md)
+### [anarchic illustrations](art/anarchic-illustrations.md)
 
 {{<summary link="art/anarchic-illustrations">}}
 

@@ -1,14 +1,13 @@
 ---
-title: "woodblock"
-alias:
-  - "woodblock"
-  - "woodcut"
+title: woodblock
+aliases:
+  - woodcut
 created: 2023-06-03T00:00:00+10:00
 modified: 2023-06-18T22:37:52+10:00
 tags:
-- medium
-- printing
-- art
+  - medium
+  - printing
+  - art
 ---
 A technique originally developed in China as a way of printing on textiles and later on paper, the oldest surviving fragments to survive date back to the Han dynasty (before 220).
 

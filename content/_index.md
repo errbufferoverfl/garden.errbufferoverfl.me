@@ -32,6 +32,6 @@ Here are some places you might explore:
 - 🎨 [the art studio](/the-art-studio.md): art & illustrative projects, notes and musings.
 - 📚 [the antilibrary](/the-antilibrary.md): books that are in some state of read, being read, or to be read.
 - 🎙️ [the soapbox](/soapbox): meetup, conference and training that I've previously delivered.
-- 🔧 [the engineering anthology](notes/projects.md): a collection of notable projects that I’ve finished and or currently maintaining.
+- 🔧 [the engineering anthology](projects.md): a collection of notable projects that I’ve finished and or currently maintaining.
 
 Want to get in touch? Checkout [where to find me](https://links.errbufferoverfl.me).

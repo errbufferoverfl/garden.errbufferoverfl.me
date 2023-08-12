@@ -1,7 +1,6 @@
 ---
 title: structural adjustment programs
-aliases:
-  - structural adjustment programs
+aliases: []
 created: 2023-06-23T20:05:07+10:00
 modified: 2023-08-11T09:15:16+10:00
 tags:

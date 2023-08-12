@@ -1,7 +1,6 @@
 ---
 title: Dopely
-aliases:
-  - Dopely
+aliases: []
 created: 2023-08-09T21:59:39+10:00
 modified: 2023-08-09T22:00:08+10:00
 tags:

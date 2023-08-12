@@ -1,13 +1,12 @@
 ---
-title: "Lago d'Averno"
-alias:
-  - "Lago d'Averno"
+title: Lago d'Averno
+aliases: []
 created: 2023-06-03T00:00:00+10:00
 modified: 2023-06-18T23:11:08+10:00
-cover: "/imgs/Lago-dAverno.png"
+cover: /imgs/Lago-dAverno.png
 tags:
-- gouache
-- reference
+  - gouache
+  - reference
 ---
 
 ![Lago d'Averno](imgs/lago-daverno.png)

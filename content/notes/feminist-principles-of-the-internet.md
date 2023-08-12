@@ -1,7 +1,6 @@
 ---
 title: Feminist Principles of the Internet
-aliases:
-  - Feminist Principles of the Internet
+aliases: []
 created: 2023-06-12T00:00:00+10:00
 modified: 2023-06-19T19:30:08+10:00
 source: https://feministinternet.org/en/page/about

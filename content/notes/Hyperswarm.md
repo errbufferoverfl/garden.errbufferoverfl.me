@@ -1,7 +1,6 @@
 ---
 title: hyperswarm
-aliases:
-  - Hyperswarm
+aliases: []
 created: 2023-06-11T00:00:00+10:00
 modified: 2023-06-17T21:39:31+10:00
 tags:

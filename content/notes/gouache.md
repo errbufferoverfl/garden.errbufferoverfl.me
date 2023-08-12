@@ -1,13 +1,12 @@
 ---
-title: "gouache"
-alias:
-  - "gouache"
+title: gouache
+aliases: []
 created: 2023-06-02T00:00:00+10:00
 modified: 2023-06-18T22:39:27+10:00
 tags:
-- medium
-- painting
-- art
+  - medium
+  - painting
+  - art
 ---
 
 Gouache is a water based medium made of pigment, water and a binding agent, normally gum arabic or dextrin. 

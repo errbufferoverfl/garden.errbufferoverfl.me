@@ -1,7 +1,6 @@
 ---
-title: "Wadawurrung and Dja Dja Wurrung People"
-alias:
-  - "Wadawurrung and Dja Dja Wurrung People"
+title: Wadawurrung and Dja Dja Wurrung People
+aliases: []
 created: 2023-05-27T00:00:00+10:00
 modified: 2023-06-18T22:57:49+10:00
 ---

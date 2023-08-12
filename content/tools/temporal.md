@@ -1,7 +1,6 @@
 ---
 title: Temporal
-aliases:
-  - Temporal
+aliases: []
 created: 2023-08-09T21:54:10+10:00
 modified: 2023-08-09T21:58:58+10:00
 tags:

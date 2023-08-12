@@ -1,7 +1,6 @@
 ---
 title: Polyculture Practices
-aliases:
-  - Polyculture Practices
+aliases: []
 created: 2023-08-06T20:04:00+10:00
 modified: 2023-08-06T21:04:31+10:00
 tags:

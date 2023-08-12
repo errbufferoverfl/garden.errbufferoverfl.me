@@ -1,7 +1,6 @@
 ---
 title: eutrophication
-aliases:
-  - eutrophication
+aliases: []
 created: 2023-08-06T20:20:28+10:00
 modified: 2023-08-11T09:14:27+10:00
 tags:

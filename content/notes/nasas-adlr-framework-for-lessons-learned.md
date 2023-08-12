@@ -1,7 +1,6 @@
 ---
 title: NASA's ADLR Framework for Lessons Learned
-aliases:
-  - NASA's ADLR Framework for Lessons Learned
+aliases: []
 created: 2023-07-14T11:28:12+10:00
 modified: 2023-07-14T11:42:37+10:00
 source: https://www.cortexfutura.com/nasa-adlr-lessons-learned-tana/

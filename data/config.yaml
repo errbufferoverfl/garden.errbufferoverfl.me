@@ -27,7 +27,7 @@ search:
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 
 links:
-  - link_name: Where to Find Me
+  - link_name:
     link: https://links.errbufferoverfl.me/
 
 enableKofi: false

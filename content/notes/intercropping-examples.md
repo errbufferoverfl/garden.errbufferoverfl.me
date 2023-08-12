@@ -1,7 +1,6 @@
 ---
 title: Intercropping Examples
-aliases:
-  - Intercropping Examples
+aliases: []
 created: 2023-08-06T20:52:57+10:00
 modified: 2023-08-11T08:33:27+10:00
 tags:
