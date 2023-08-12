@@ -1,19 +1,9 @@
-<%*
-let title;
-if (!tp.file.title.startsWith("Untitled")){
-	title = tp.file.title
-} else {
-	title = await tp.system.prompt("Bookmark Name:")
-}
-const fileTitle = title.replace(/ /g, "-").toLowerCase();
-await tp.file.rename(`${fileTitle}`)
--%>
 ---
 title: "The Unravelling of an Expert on Serial Killers"
 alias:
-- "The Unravelling of an Expert on Serial Killers"
-created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
-modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
+  - "The Unravelling of an Expert on Serial Killers"
+created: 2023-08-12T21:43:09+10:00
+modified: 2023-08-12T22:47:07+10:00
 link:  "https://www.newyorker.com/magazine/2022/04/11/the-unravelling-of-an-expert-on-serial-killers"
 tags:
 - bookmark

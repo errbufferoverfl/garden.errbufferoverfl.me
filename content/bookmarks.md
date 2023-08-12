@@ -143,7 +143,6 @@ tags:
 - [[systems-that-defy-detailed-understanding]]
 - [[tech-colonialism-today]]
 - [[that-garbage-could-be-a-garden]]
-- [[The Unravelling of an Expert on Serial Killers]]
 - [[the-alarming-rise-of-dangerous-speech-the-markup]]
 - [[the-cake-recipe-that-was-a-secret-for-two-decades]]
 - [[the-chatbot-problem]]
