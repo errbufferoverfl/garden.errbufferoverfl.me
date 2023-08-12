@@ -129,6 +129,9 @@
   {{ $fontAwesomeSolid := resources.Get "js/solid.min.js" | resources.Fingerprint "md5"}}
   <script defer src="{{$fontAwesomeSolid.Permalink}}"></script>
 
+  {{ $fontAwesomeBrand := resources.Get "js/brands.min.js" | resources.Fingerprint "md5"}}
+  <script defer src="{{$fontAwesomeBrand.Permalink}}"></script>
+
   {{ $fontawesome := resources.Get "js/fontawesome.min.js" | resources.Fingerprint "md5"}}
   <script defer src="{{$fontawesome.Permalink}}"></script>
 

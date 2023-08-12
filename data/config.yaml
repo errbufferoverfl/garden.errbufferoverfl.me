@@ -27,8 +27,16 @@ search:
   operandIndexId: "REPLACE-WITH-YOUR-OPERAND-INDEX-ID"
 
 links:
-  - link_name:
-    link: https://links.errbufferoverfl.me/
+  - link_name: "fa-solid fa-mug-hot"
+    link: https://www.ko-fi.com/errbufferoverfl
+  - link_name: "fa-brands fa-mastodon"
+    link: https://mastodon.errbufferoverfl.me/@errbufferoverfl
+  - link_name: "fa-brands fa-github"
+    link: https://www.github.com/errbufferoverfl
+  - link_name: "fa-brands fa-twitter"
+    link: https://twitter.com/errbufferoverfl
+  - link_name: "fa-solid fa-rss"
+    link: https://garden.errbufferoverfl.me/index.xml
 
 enableKofi: false
 kofi:
