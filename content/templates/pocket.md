@@ -1,17 +1,16 @@
 <%*
-let title;
+let title = "{{title}}"
 if (!tp.file.title.startsWith("Untitled")){
 	title = tp.file.title
 } else {
 	title = await tp.system.prompt("Bookmark Name:")
 }
-const fileTitle = title.replace(/ /g, "-").toLowerCase();
-await tp.file.rename(`${fileTitle}`)
+await tp.file.rename(`${title}`)
 -%>
 ---
-title: "{{title}}"
+title: "<%title%>"
 alias:
-- "{{title}}"
+- "<%title%>"
 created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
 modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
 URL:  "{{url}}"
@@ -22,3 +21,12 @@ tags:
 > {{excerpt}}
 
 [Link]({{url}})
+
+<%*
+let fileTitle = tp.file.title;
+fileTitle = fileTitle.replace(/ /g, "-").toLowerCase();
+fileTitle = fileTitle.replace(/[&'’‘’,–.;?()“”$]/g, "").toLowerCase();
+fileTitle = fileTitle.replace(/--/g, "-").toLowerCase();
+fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
+await tp.file.rename(`${fileTitle}`)
+-%>

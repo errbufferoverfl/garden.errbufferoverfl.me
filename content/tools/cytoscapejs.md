@@ -9,6 +9,7 @@ tags:
   - library
   - npm
 ---
-[Website](https://js.cytoscape.org/)
 
 > Graph theory (network) library for visualisation and analysis.
+
+[Website](https://js.cytoscape.org/)

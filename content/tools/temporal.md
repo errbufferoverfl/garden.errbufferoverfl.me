@@ -7,6 +7,7 @@ tags:
   - tools
   - microservices
 ---
-[Website](https://temporal.io/) · [Github Repo](https://github.com/temporalio/temporal)
 
 > An open source programming model that can be used to provide in depth tracing using the concept of "business logic as code". 
+
+[Website](https://temporal.io/) · [Github Repo](https://github.com/temporalio/temporal)

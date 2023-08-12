@@ -5,9 +5,7 @@ if (!tp.file.title.startsWith("Untitled")){
 } else {
 	title = await tp.system.prompt('Post Title:')
 }
-
-const fileTitle = title.replace(/ /g, "-").toLowerCase();
-await tp.file.rename(`${fileTitle}`)
+await tp.file.rename(`${title}`)
 -%>
 ---
 title: "<% title %>"
@@ -18,3 +16,13 @@ modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
 tags:
 - seed
 ---
+
+
+<%*
+let fileTitle = tp.file.title;
+fileTitle = fileTitle.replace(/ /g, "-").toLowerCase();
+fileTitle = fileTitle.replace(/[&'’‘’,–.;?()“”$]/g, "").toLowerCase();
+fileTitle = fileTitle.replace(/--/g, "-").toLowerCase();
+fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
+await tp.file.rename(`${fileTitle}`)
+-%>

@@ -17,5 +17,4 @@ On the first day of our trek through the dense jungles of Pythonia we will be lo
 Day two we will move further into the dark jungles of Pythonia delving into forbidden user-land territory and how you can use Python to gather useful system-level information, and contact the UNIX daemons of old.  
 
 While writing this training description, errbufferoverfl wrote two Python fan fictions, the next cyber-themed Hollywood blockbuster and a Shakespearian play about the training.
-
 [GitHub](https://errbufferoverfl.github.io/snake-charming/)

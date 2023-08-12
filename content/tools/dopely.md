@@ -8,6 +8,6 @@ tags:
   - color-and-design
 ---
 
-[Website](https://colors.dopely.top/)
-
 > A bunch of helpful colour tools like pallet, tone, tint and shade generators. Also has digital colour tools for checking contrast and colour blindcheckers.
+
+[Website](https://colors.dopely.top/)
