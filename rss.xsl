@@ -46,6 +46,7 @@
 
                 <main class="container">
                     <h2>Recent blog posts</h2>
+
                     <xsl:for-each select="/atom:feed/atom:entry">
                         <article>
                             <h3>
