@@ -5,6 +5,7 @@ modified: 2023-08-12T23:19:26+10:00
 tags:
   - personal
   - evergreen
+outputs: HTML
 ---
 %% Begin Waypoint %%
 - [[5-types-of-threat-how-those-who-want-to-divide-us-use-language-to-stoke-violence]]

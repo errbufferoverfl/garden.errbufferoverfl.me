@@ -1,18 +1,9 @@
-<%*
-const title = "Anatomy of Three Leaked US Intelligence Documents";
-let fileTitle = "Anatomy of Three Leaked US Intelligence Documents";
-fileTitle = fileTitle.replace(/ /g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/[&'’‘’,–.;?()“”$]/g, "").toLowerCase();
-fileTitle = fileTitle.replace(/--/g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
-await tp.file.rename(`${fileTitle}`)
--%>
 ---
-title: "<%title%>"
+title: "Anatomy of Three Leaked US Intelligence Documents"
 alias:
-- "<%title%>"
-created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
-modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
+  - "Anatomy of Three Leaked US Intelligence Documents"
+created: 2023-08-12T23:12:00+10:00
+modified: 2023-08-12T23:57:12+10:00
 link:  "https://www.bellingcat.com/news/2023/04/28/anatomy-of-three-leaked-us-intelligence-documents/"
 tags:
 - bookmark
@@ -22,6 +13,3 @@ tags:
 
 [Link](https://www.bellingcat.com/news/2023/04/28/anatomy-of-three-leaked-us-intelligence-documents/)
 
-<%*
-
--%>
