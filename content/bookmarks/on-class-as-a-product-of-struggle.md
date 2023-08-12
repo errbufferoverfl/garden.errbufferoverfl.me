@@ -1,9 +1,9 @@
 ---
 title: "On class as a product of struggle"
 alias:
-- "On class as a product of struggle"
+  - "On class as a product of struggle"
 created: 2023-08-12T21:43:11+10:00
-modified: 2023-08-12T21:43:11+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://overland.org.au/2023/01/on-class-as-a-product-of-struggle/"
 tags:
 - bookmark

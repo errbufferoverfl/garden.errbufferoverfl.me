@@ -1,9 +1,9 @@
 ---
 title: "‘Discriminatory impact on First Nations people’: coroner calls for urgent bail reform in Veronica Nelson inquest"
 alias:
-- "‘Discriminatory impact on First Nations people’: coroner calls for urgent bail reform in Veronica Nelson inquest"
+  - "‘Discriminatory impact on First Nations people’: coroner calls for urgent bail reform in Veronica Nelson inquest"
 created: 2023-08-12T21:43:10+10:00
-modified: 2023-08-12T21:43:10+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://theconversation.com/discriminatory-impact-on-first-nations-people-coroner-calls-for-urgent-bail-reform-in-veronica-nelson-inquest-198507"
 tags:
 - bookmark

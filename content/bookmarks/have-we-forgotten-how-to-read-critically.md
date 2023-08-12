@@ -3,7 +3,7 @@ title: "Have We Forgotten How to Read Critically?"
 alias:
   - "Have We Forgotten How to Read Critically?"
 created: 2023-08-12T21:43:09+10:00
-modified: 2023-08-12T22:05:58+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.damemagazine.com/2022/01/07/have-we-forgotten-how-to-read-critically/"
 tags:
 - bookmark

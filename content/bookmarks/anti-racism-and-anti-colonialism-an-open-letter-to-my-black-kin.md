@@ -1,9 +1,9 @@
 ---
 title: "Anti-Racism and Anti-colonialism An Open Letter to my Black Kin"
 alias:
-- "Anti-Racism and Anti-colonialism An Open Letter to my Black Kin"
+  - "Anti-Racism and Anti-colonialism An Open Letter to my Black Kin"
 created: 2023-08-12T21:43:10+10:00
-modified: 2023-08-12T21:43:10+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://theanarchistlibrary.org/library/nsambu-za-suekama-anti-racism-and-anti-colonialism"
 tags:
 - bookmark

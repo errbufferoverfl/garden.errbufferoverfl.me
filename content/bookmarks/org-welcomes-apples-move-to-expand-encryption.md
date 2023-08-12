@@ -1,9 +1,9 @@
 ---
 title: "ORG welcomes Apple’s move to expand encryption"
 alias:
-- "ORG welcomes Apple’s move to expand encryption"
+  - "ORG welcomes Apple’s move to expand encryption"
 created: 2023-08-12T21:43:11+10:00
-modified: 2023-08-12T21:43:11+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.openrightsgroup.org/press-releases/org-welcomes-apples-move-to-expand-encryption/"
 tags:
 - bookmark

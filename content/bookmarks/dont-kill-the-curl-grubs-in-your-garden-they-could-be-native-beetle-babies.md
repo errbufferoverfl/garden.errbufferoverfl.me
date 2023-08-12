@@ -1,9 +1,9 @@
 ---
 title: "Don’t kill the curl grubs in your garden – they could be native beetle babies"
 alias:
-- "Don’t kill the curl grubs in your garden – they could be native beetle babies"
+  - "Don’t kill the curl grubs in your garden – they could be native beetle babies"
 created: 2023-08-12T21:43:11+10:00
-modified: 2023-08-12T21:43:11+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://theconversation.com/dont-kill-the-curl-grubs-in-your-garden-they-could-be-native-beetle-babies-191771#Echobox=1674437997"
 tags:
 - bookmark

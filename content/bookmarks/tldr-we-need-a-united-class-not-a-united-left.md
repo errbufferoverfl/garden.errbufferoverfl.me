@@ -1,9 +1,9 @@
 ---
 title: "TLDR: We need a united class not a united left"
 alias:
-- "TLDR: We need a united class not a united left"
+  - "TLDR: We need a united class not a united left"
 created: 2023-08-12T21:43:11+10:00
-modified: 2023-08-12T21:43:11+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://theanarchistlibrary.org/library/rasmus-hastbacka-tldr-we-need-a-united-class-not-a-united-left-1"
 tags:
 - bookmark

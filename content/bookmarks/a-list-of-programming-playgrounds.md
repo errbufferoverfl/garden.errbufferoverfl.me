@@ -3,7 +3,7 @@ title: A list of programming playgrounds
 aliases:
   - A list of programming playgrounds
 created: 2023-08-12T23:12:00+10:00
-modified: 2023-08-12T23:26:41+10:00
+modified: 2023-08-13T00:11:38+10:00
 link: https://jvns.ca/blog/2023/04/17/a-list-of-programming-playgrounds/
 tags:
   - bookmark

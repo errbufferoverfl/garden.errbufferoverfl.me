@@ -1,9 +1,9 @@
 ---
 title: "Why the media aren’t helping to solve the ‘youth crime crisis’ they’re reporting"
 alias:
-- "Why the media aren’t helping to solve the ‘youth crime crisis’ they’re reporting"
+  - "Why the media aren’t helping to solve the ‘youth crime crisis’ they’re reporting"
 created: 2023-08-12T23:12:00+10:00
-modified: 2023-08-12T23:12:00+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://theconversation.com/why-the-media-arent-helping-to-solve-the-youth-crime-crisis-theyre-reporting-208947"
 tags:
 - bookmark

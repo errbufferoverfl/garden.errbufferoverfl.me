@@ -1,9 +1,9 @@
 ---
 title: "Scientists Determine Best Place to Stand In Your House When a Nuke Hits"
 alias:
-- "Scientists Determine Best Place to Stand In Your House When a Nuke Hits"
+  - "Scientists Determine Best Place to Stand In Your House When a Nuke Hits"
 created: 2023-08-12T21:43:11+10:00
-modified: 2023-08-12T21:43:11+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.vice.com/en/article/5d3vjx/scientists-surviving-nuclear-explosion-in-house"
 tags:
 - bookmark

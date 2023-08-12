@@ -1,9 +1,9 @@
 ---
 title: "UN biodiversity conference: what does living in harmony with nature look like?"
 alias:
-- "UN biodiversity conference: what does living in harmony with nature look like?"
+  - "UN biodiversity conference: what does living in harmony with nature look like?"
 created: 2023-08-12T21:43:09+10:00
-modified: 2023-08-12T21:43:09+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://theconversation.com/un-biodiversity-conference-what-does-living-in-harmony-with-nature-look-like-196228"
 tags:
 - bookmark

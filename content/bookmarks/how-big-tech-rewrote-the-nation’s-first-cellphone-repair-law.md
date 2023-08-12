@@ -3,7 +3,7 @@ title: "How Big Tech Rewrote the Nation’s First Cellphone Repair Law – The M
 alias:
   - "How Big Tech Rewrote the Nation’s First Cellphone Repair Law – The Markup"
 created: 2023-08-12T21:43:11+10:00
-modified: 2023-08-12T21:44:40+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://themarkup.org/news/2023/02/08/how-big-tech-rewrote-the-nations-first-cellphone-repair-law"
 tags:
 - bookmark

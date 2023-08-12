@@ -1,9 +1,9 @@
 ---
 title: "How to write a better technical design document"
 alias:
-- "How to write a better technical design document"
+  - "How to write a better technical design document"
 created: 2023-08-12T21:43:09+10:00
-modified: 2023-08-12T21:43:09+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.range.co//blog/better-tech-specs"
 tags:
 - bookmark

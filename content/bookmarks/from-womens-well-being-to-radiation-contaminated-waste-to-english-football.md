@@ -3,7 +3,7 @@ title: "From Women’s Well-Being to Radiation-Contaminated Waste to English Foo
 alias:
   - "From Women’s Well-Being to Radiation-Contaminated Waste to English Football – The Markup"
 created: 2023-08-12T21:43:10+10:00
-modified: 2023-08-12T21:46:06+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://themarkup.org/data-is-plural/2023/02/01/from-womens-well-being-to-radiation-contaminated-waste-to-english-football"
 tags:
 - bookmark

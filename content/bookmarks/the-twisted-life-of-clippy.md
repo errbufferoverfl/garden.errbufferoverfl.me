@@ -1,9 +1,9 @@
 ---
 title: "The Twisted Life of Clippy"
 alias:
-- "The Twisted Life of Clippy"
+  - "The Twisted Life of Clippy"
 created: 2023-08-12T21:43:09+10:00
-modified: 2023-08-12T21:43:09+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.seattlemet.com/news-and-city-life/2022/08/origin-story-of-clippy-the-microsoft-office-assistant"
 tags:
 - bookmark

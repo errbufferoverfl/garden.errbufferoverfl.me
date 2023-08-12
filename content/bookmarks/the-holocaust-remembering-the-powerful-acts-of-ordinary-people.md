@@ -3,7 +3,7 @@ title: "The Holocaust: remembering the powerful acts of ‘ordinary people’"
 alias:
   - "The Holocaust: remembering the powerful acts of ‘ordinary people’"
 created: 2023-08-12T21:43:11+10:00
-modified: 2023-08-12T21:54:22+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://theconversation.com/the-holocaust-remembering-the-powerful-acts-of-ordinary-people-196076"
 tags:
 - bookmark

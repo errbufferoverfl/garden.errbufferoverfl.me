@@ -1,9 +1,9 @@
 ---
 title: "How We Create Custom Graphics at The Markup – The Markup"
 alias:
-- "How We Create Custom Graphics at The Markup – The Markup"
+  - "How We Create Custom Graphics at The Markup – The Markup"
 created: 2023-08-12T23:12:01+10:00
-modified: 2023-08-12T23:12:01+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://themarkup.org/levelup/2023/08/08/how-we-create-custom-graphics-at-the-markup"
 tags:
 - bookmark

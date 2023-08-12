@@ -1,9 +1,9 @@
 ---
 title: "Helping male victims of domestic abuse can benefit society as a whole"
 alias:
-- "Helping male victims of domestic abuse can benefit society as a whole"
+  - "Helping male victims of domestic abuse can benefit society as a whole"
 created: 2023-08-12T21:43:09+10:00
-modified: 2023-08-12T21:43:09+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://theconversation.com/helping-male-victims-of-domestic-abuse-can-benefit-society-as-a-whole-196712"
 tags:
 - bookmark

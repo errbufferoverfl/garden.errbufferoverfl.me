@@ -3,7 +3,7 @@ title: "Google didn’t break your brain : a history of distraction"
 alias:
   - "Google didn’t break your brain : a history of distraction"
 created: 2023-08-12T21:43:11+10:00
-modified: 2023-08-12T21:45:55+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://aeon.co/essays/google-didnt-break-your-brain-a-history-of-distraction"
 tags:
 - bookmark

@@ -3,7 +3,7 @@ title: "CYBER: Iran’s AI-Powered Surveillance State"
 alias:
   - "CYBER: Iran’s AI-Powered Surveillance State"
 created: 2023-08-12T21:43:11+10:00
-modified: 2023-08-12T21:45:50+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.vice.com/en/article/epze9w/cyber-irans-ai-powered-surveillance-state"
 tags:
 - bookmark

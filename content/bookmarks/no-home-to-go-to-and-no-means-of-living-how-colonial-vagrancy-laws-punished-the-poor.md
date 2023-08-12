@@ -1,9 +1,9 @@
 ---
 title: "‘No home to go to, and no means of living’: how colonial vagrancy laws punished the poor"
 alias:
-- "‘No home to go to, and no means of living’: how colonial vagrancy laws punished the poor"
+  - "‘No home to go to, and no means of living’: how colonial vagrancy laws punished the poor"
 created: 2023-08-12T21:43:11+10:00
-modified: 2023-08-12T21:43:11+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://theconversation.com/no-home-to-go-to-and-no-means-of-living-how-colonial-vagrancy-laws-punished-the-poor-197412"
 tags:
 - bookmark

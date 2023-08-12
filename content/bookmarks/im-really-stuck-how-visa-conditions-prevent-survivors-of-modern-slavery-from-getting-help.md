@@ -3,7 +3,7 @@ title: "‘I’m really stuck’: how visa conditions prevent survivors of moder
 alias:
   - "‘I’m really stuck’: how visa conditions prevent survivors of modern slavery from getting help"
 created: 2023-08-12T23:12:00+10:00
-modified: 2023-08-12T23:15:29+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://theconversation.com/im-really-stuck-how-visa-conditions-prevent-survivors-of-modern-slavery-from-getting-help-209139"
 tags:
 - bookmark

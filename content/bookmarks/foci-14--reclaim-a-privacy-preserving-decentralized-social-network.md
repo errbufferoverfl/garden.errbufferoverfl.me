@@ -1,9 +1,9 @@
 ---
 title: "FOCI '14 - ReClaim: a Privacy-Preserving Decentralized Social Network"
 alias:
-- "FOCI '14 - ReClaim: a Privacy-Preserving Decentralized Social Network"
+  - "FOCI '14 - ReClaim: a Privacy-Preserving Decentralized Social Network"
 created: 2023-08-12T23:12:01+10:00
-modified: 2023-08-12T23:12:01+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.youtube.com/watch?v=VO10cKVfLXQ"
 tags:
 - bookmark

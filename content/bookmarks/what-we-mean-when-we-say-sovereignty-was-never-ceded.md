@@ -1,9 +1,9 @@
 ---
 title: "What we mean when we say ‘sovereignty was never ceded’"
 alias:
-- "What we mean when we say ‘sovereignty was never ceded’"
+  - "What we mean when we say ‘sovereignty was never ceded’"
 created: 2023-08-12T21:43:09+10:00
-modified: 2023-08-12T21:43:09+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://theconversation.com/what-we-mean-when-we-say-sovereignty-was-never-ceded-195205"
 tags:
 - bookmark

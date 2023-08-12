@@ -1,9 +1,9 @@
 ---
 title: "Run less software"
 alias:
-- "Run less software"
+  - "Run less software"
 created: 2023-08-12T21:04:22+10:00
-modified: 2023-08-12T21:04:22+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.intercom.com/blog/run-less-software/"
 tags:
 - bookmark

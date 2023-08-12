@@ -1,9 +1,9 @@
 ---
 title: "Building a custom site for zine feedback"
 alias:
-- "Building a custom site for zine feedback"
+  - "Building a custom site for zine feedback"
 created: 2023-08-12T23:12:00+10:00
-modified: 2023-08-12T23:12:00+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://jvns.ca/blog/2023/03/31/zine-feedback-site/"
 tags:
 - bookmark

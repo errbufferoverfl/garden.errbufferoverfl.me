@@ -1,9 +1,9 @@
 ---
 title: "Some tactics for writing in public"
 alias:
-- "Some tactics for writing in public"
+  - "Some tactics for writing in public"
 created: 2023-08-12T23:12:01+10:00
-modified: 2023-08-12T23:12:01+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://jvns.ca/blog/2023/08/07/tactics-for-writing-in-public/"
 tags:
 - bookmark

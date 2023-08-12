@@ -1,9 +1,9 @@
 ---
 title: "Digital Justice Lab"
 alias:
-- "Digital Justice Lab"
+  - "Digital Justice Lab"
 created: 2023-08-12T21:43:08+10:00
-modified: 2023-08-12T21:43:08+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://digitaljusticelab.ca"
 tags:
 - bookmark

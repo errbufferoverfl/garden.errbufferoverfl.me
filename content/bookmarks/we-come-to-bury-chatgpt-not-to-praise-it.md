@@ -3,7 +3,7 @@ title: "We come to bury ChatGPT, not to praise it."
 alias:
   - "We come to bury ChatGPT, not to praise it."
 created: 2023-08-12T21:43:10+10:00
-modified: 2023-08-12T21:45:17+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.danmcquillan.org/chatgpt.html"
 tags:
 - bookmark

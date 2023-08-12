@@ -1,11 +1,14 @@
 ---
 title: bookmarks
+alias:
+  - Bookmarks
 created: 2023-08-06T10:00:22+10:00
-modified: 2023-08-12T23:19:26+10:00
+modified: 2023-08-13T00:12:23+10:00
 tags:
   - personal
   - evergreen
-outputs: HTML
+outputs: 
+- HTML
 ---
 %% Begin Waypoint %%
 - [[5-types-of-threat-how-those-who-want-to-divide-us-use-language-to-stoke-violence]]

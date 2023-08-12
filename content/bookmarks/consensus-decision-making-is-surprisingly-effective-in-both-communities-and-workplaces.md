@@ -1,9 +1,9 @@
 ---
 title: "Consensus decision-making is surprisingly effective in both communities and workplaces"
 alias:
-- "Consensus decision-making is surprisingly effective in both communities and workplaces"
+  - "Consensus decision-making is surprisingly effective in both communities and workplaces"
 created: 2023-08-12T21:43:11+10:00
-modified: 2023-08-12T21:43:11+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://theconversation.com/consensus-decision-making-is-surprisingly-effective-in-both-communities-and-workplaces-194871"
 tags:
 - bookmark

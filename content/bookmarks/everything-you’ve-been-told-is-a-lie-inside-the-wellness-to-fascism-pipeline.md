@@ -1,9 +1,9 @@
 ---
 title: "‘Everything you’ve been told is a lie!’ Inside the wellness-to-fascism pipeline"
 alias:
-- "‘Everything you’ve been told is a lie!’ Inside the wellness-to-fascism pipeline"
+  - "‘Everything you’ve been told is a lie!’ Inside the wellness-to-fascism pipeline"
 created: 2023-08-12T21:43:11+10:00
-modified: 2023-08-12T21:43:11+10:00
+modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.theguardian.com/lifeandstyle/2023/aug/02/everything-youve-been-told-is-a-lie-inside-the-wellness-to-facism-pipeline"
 tags:
 - bookmark
