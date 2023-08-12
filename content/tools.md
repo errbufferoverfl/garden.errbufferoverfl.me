@@ -1,5 +1,7 @@
 ---
 title: tools
+aliases:
+  - the toolbox
 created: 2023-08-09T13:00:12+10:00
 modified: 2023-08-12T12:35:07+10:00
 tags:
