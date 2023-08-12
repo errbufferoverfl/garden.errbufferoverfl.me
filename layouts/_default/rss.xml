@@ -1,52 +1,44 @@
 {{- $pctx := . -}}
-        {{- if .IsHome -}}{{ $pctx = site }}{{- end -}}
+        {{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
         {{- $pages := slice -}}
         {{- if or $.IsHome $.IsSection -}}
         {{- $pages = $pctx.RegularPages -}}
         {{- else -}}
         {{- $pages = $pctx.Pages -}}
         {{- end -}}
-        {{- $limit := site.Config.Services.RSS.Limit -}}
+        {{- $limit := .Site.Config.Services.RSS.Limit -}}
         {{- if ge $limit 1 -}}
         {{- $pages = $pages | first $limit -}}
         {{- end -}}
+        {{- $pages = (where $pages ".Params.unlisted" "!=" "true") -}}
         {{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <?xml-stylesheet href="/rss.xsl" type="text/xsl"?>
-  <channel>
-    <title>{{ if eq .Title $.Site.Data.config.title }}{{ $.Site.Data.config.title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ $.Site.Data.config.title }}{{ end }}</title>
-    <link>{{ .Permalink }}</link>
-    <description>Recent content {{ if ne .Title $.Site.Data.config.title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ $.Site.Data.config.title }}</description>
-    {{- with site.Params.images }}
-    <image>
-      <title>{{ site.Title }}</title>
-      <url>{{ index . 0 | absURL }}</url>
-      <link>{{ index . 0 | absURL }}</link>
-    </image>
-    {{- end }}
-    <generator>Hugo -- gohugo.io</generator>{{ with site.LanguageCode }}
-    <language>{{.}}</language>{{end}}{{ with site.Author.email }}
-    <managingEditor>{{.}}{{ with site.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with site.Author.email }}
-    <webMaster>{{.}}{{ with site.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with site.Copyright }}
-    <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}
-    <lastBuildDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</lastBuildDate>{{ end }}
-    {{- with .OutputFormats.Get "RSS" -}}
-    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
-    {{- end -}}
-    {{ range $pages }}
-    {{- if and (ne .Layout `search`) (ne .Layout `archives`) }}
-    <item>
-      <title>{{ .Title }}</title>
-      <link>{{ .Permalink }}</link>
-      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" | safeHTML }}</pubDate>
-      {{ with $.Site.Data.config.author }}<author>{{.}}{{ with $.Site.Data.config.author }} ({{.}}){{end}}</author>{{end}}
-      <guid>{{ .Permalink }}</guid>
-      <description>{{ with .Description | html }}{{ . }}{{ else }}{{ .Summary | html }}{{ end -}}</description>
-      {{- if site.Params.ShowFullTextinRSS }}
-      <content:encoded>{{ (printf "<![CDATA[%s]]>" .Content) | safeHTML }}</content:encoded>
-      {{- end }}
-    </item>
-    {{- end }}
-    {{ end }}
-  </channel>
-</rss>
+        {{- printf "<?xml-stylesheet href=\"/rss.xsl\" type=\"text/xsl\"?>" | safeHTML }}
+<feed version="2.0" xmlns="http://www.w3.org/2005/Atom">
+  <title>{{ if eq .Title .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{.}} on {{ end }}{{ .Site.Title }}{{ end }}: {{ .Site.Params.Description }}</title>
+  <link rel="alternate" type="text/html" language="{{.Site.Language }}" href="{{ .Permalink }}"/>
+  <link rel="self" type="{{ .MediaType }}" href="/index.xml"/>
+  <subtitle>Recent content {{ if ne .Title .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</subtitle>
+  <author>{{ with .Site.Author.name }}
+    <name>{{.}}</name>{{end}}{{ with .Site.Author.email }}
+    <email>{{.}}</email>{{end}}
+    <uri>{{ .Permalink }}</uri>
+  </author>
+  <id>{{ .Permalink }}</id>
+  <generator>Hugo -- gohugo.io</generator>{{ with .Site.Copyright }}
+  <rights>{{.}}</rights>{{end}}{{ if not .Date.IsZero }}
+  <updated>{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}</updated>{{ end }}
+  {{ with .OutputFormats.Get "RSS" }}{{ end }}{{ range $pages }}
+  <entry>
+    <title>{{ .Title }}</title>
+    <link rel="alternate" type="text/html" href="{{ .Permalink }}"/>
+    <published>{{ .Date.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}</published>
+    <updated>{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" | safeHTML }}</updated>
+    <summary>{{ .Summary | html }}</summary>
+    <id>{{ .Permalink }}</id>{{ with .Site.Author.name }}
+    <author>
+      <name>{{.}}</name>
+    </author>
+    {{end}}
+  </entry>
+  {{ end }}
+</feed>
