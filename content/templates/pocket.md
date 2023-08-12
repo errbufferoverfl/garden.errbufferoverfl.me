@@ -5,8 +5,6 @@ if (!tp.file.title.startsWith("Untitled")){
 } else {
 	title = await tp.system.prompt("Bookmark Name:")
 }
-url = await tp.system.prompt("URL:")
-
 const fileTitle = title.replace(/ /g, "-").toLowerCase();
 await tp.file.rename(`${fileTitle}`)
 -%>
