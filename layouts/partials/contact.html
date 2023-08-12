@@ -9,7 +9,7 @@
         <p>{{ i18n "copyright" (dict "name" $name "year" $year) | safeHTML}}. {{$.Site.Copyright | safeHTML}}</p>
         <ul>
             {{- range $data.links | default $.Site.Data.config.links -}}
-            <li><a href="{{.link}}"><i class="{{.link_name}}"></i></a></li>
+            <li><a title="{{.link_name}}" href="{{.link}}"><i class="{{.link_icon}}"></i></a></li>
             {{- end -}}
         </ul>
         <p></p>
