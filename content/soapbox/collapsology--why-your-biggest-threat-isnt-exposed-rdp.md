@@ -1,7 +1,7 @@
 ---
 title: "Collapsology: Why your biggest threat isn’t exposed RDP"
-created: 2021-09-13
-modified: 2023-05-28
+created: 2021-09-13T00:00:00+10:00
+modified: 2023-08-15T22:12:08+10:00
 tags:
 - conference
 - security-culture
