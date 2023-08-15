@@ -1,11 +1,16 @@
 <%*
 let title;
 if (!tp.file.title.startsWith("Untitled")){
-	title = tp.file.title
+	title = tp.file.title;
 } else {
-	title = await tp.system.prompt('Post Title:')
+	title = await tp.system.prompt('Post Title:');
 }
-await tp.file.rename(`${title}`)
+let fileTitle = title;
+fileTitle = fileTitle.replace(/ /g, "-").toLowerCase();
+fileTitle = fileTitle.replace(/[&'’‘’:,–.;?()“”$]/g, "").toLowerCase();
+fileTitle = fileTitle.replace(/--/g, "-").toLowerCase();
+fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
+await tp.file.rename(`${fileTitle}`);
 -%>
 ---
 title: "<% title %>"
@@ -20,12 +25,3 @@ tags:
 ![](<% title.replace(" ", "-").toLowerCase() %>.png)
 
 *<center>**<% title %>**</center>*
-
-<%*
-let fileTitle = tp.file.title;
-fileTitle = fileTitle.replace(/ /g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/[&'’‘’,–.;?()“”$]/g, "").toLowerCase();
-fileTitle = fileTitle.replace(/--/g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
-await tp.file.rename(`${fileTitle}`)
--%>

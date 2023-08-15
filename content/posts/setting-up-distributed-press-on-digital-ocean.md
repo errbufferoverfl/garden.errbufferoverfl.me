@@ -3,7 +3,7 @@ title: "Setting Up Distributed Press on Digital Ocean"
 alias:
   - "Setting Up Distributed Press on Digital Ocean"
 created: 2023-06-11T00:00:00+10:00
-modified: 2023-08-11T18:38:22+10:00
+modified: 2023-08-13T08:29:16+10:00
 tags:
 - seed
 - dweb
@@ -15,7 +15,7 @@ tags:
 
 ## About Distributed Press
 
-[Distributed Press](https://docs.distributed.press/) is an open source publishing tool for the World Wide Web and Distributed Web. It automates publishing and hosting content to the web that it seeds to decentralized protocols like [hypercore](../notes/hypercore.md) and [ipfs](../notes/ipfs.md).
+[Distributed Press](https://docs.distributed.press/) is an open source publishing tool for the World Wide Web and Distributed Web. It automates publishing and hosting content to the web that it seeds to decentralized protocols like [[../notes/hypercore|Hypercore]] and [[../notes/ipfs|IPFS]].
 
 > [!warning] Prerequisite Knowledge
 > 

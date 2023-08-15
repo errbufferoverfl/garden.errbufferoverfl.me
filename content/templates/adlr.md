@@ -5,7 +5,12 @@ if (!tp.file.title.startsWith("Untitled")){
 } else {
 	title = await tp.system.prompt("ADLR Title:")
 }
-await tp.file.rename(`${title}`)
+let fileTitle = title;
+fileTitle = fileTitle.replace(/ /g, "-").toLowerCase();
+fileTitle = fileTitle.replace(/[&'’‘’:,–.;?()“”$]/g, "").toLowerCase();
+fileTitle = fileTitle.replace(/--/g, "-").toLowerCase();
+fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
+await tp.file.rename(`${fileTitle}`);
 -%>
 ---
 title: "<% title %>"
@@ -31,11 +36,3 @@ tags:
 
 ## Evidence of Recurrence Control Effectiveness
 
-<%*
-let fileTitle = tp.file.title;
-fileTitle = fileTitle.replace(/ /g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/[&'’‘’,–.;?()“”$]/g, "").toLowerCase();
-fileTitle = fileTitle.replace(/--/g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
-await tp.file.rename(`${fileTitle}`)
--%>

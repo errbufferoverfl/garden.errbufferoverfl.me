@@ -5,7 +5,7 @@ alias:
   - "index"
   - "home"
 created: 2023-05-27T00:00:00+10:00
-modified: 2023-08-12T20:46:43+10:00
+modified: 2023-08-13T08:28:15+10:00
 ---
 Welcome to my digital garden. 🌱
 

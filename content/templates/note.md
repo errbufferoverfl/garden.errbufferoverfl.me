@@ -5,7 +5,12 @@ if (!tp.file.title.startsWith("Untitled")){
 } else {
 	title = await tp.system.prompt('Note Title:')
 }
-await tp.file.rename(`${title}`)
+let fileTitle = title;
+fileTitle = fileTitle.replace(/ /g, "-").toLowerCase();
+fileTitle = fileTitle.replace(/[&'’‘’:,–.;?()“”$]/g, "").toLowerCase();
+fileTitle = fileTitle.replace(/--/g, "-").toLowerCase();
+fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
+await tp.file.rename(`${fileTitle}`);
 -%>
 ---
 title: "<% title %>"
@@ -18,13 +23,3 @@ tags:
 ---
 
 
-
-
-<%*
-let fileTitle = tp.file.title;
-fileTitle = fileTitle.replace(/ /g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/[&'’‘’,–.;?()“”$]/g, "").toLowerCase();
-fileTitle = fileTitle.replace(/--/g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
-await tp.file.rename(`${fileTitle}`)
--%>

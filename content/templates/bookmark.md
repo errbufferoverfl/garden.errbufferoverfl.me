@@ -6,7 +6,12 @@ if (!tp.file.title.startsWith("Untitled")){
 	title = await tp.system.prompt("Bookmark Name:")
 }
 url = await tp.system.prompt("URL:")
-await tp.file.rename(`${title}`)
+let fileTitle = title;
+fileTitle = fileTitle.replace(/ /g, "-").toLowerCase();
+fileTitle = fileTitle.replace(/[&'’‘’:,–.;?()“”$]/g, "").toLowerCase();
+fileTitle = fileTitle.replace(/--/g, "-").toLowerCase();
+fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
+await tp.file.rename(`${fileTitle}`);
 -%>
 ---
 title: "<% title %>"
@@ -20,15 +25,6 @@ tags:
 ---
 
 >
->
 
 [Link](<% url %>)
 
-<%*
-let fileTitle = tp.file.title;
-fileTitle = fileTitle.replace(/ /g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/[&'’‘’,–.;?()“”$]/g, "").toLowerCase();
-fileTitle = fileTitle.replace(/--/g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
-await tp.file.rename(`${fileTitle}`)
--%>

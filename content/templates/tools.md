@@ -6,7 +6,12 @@ if (!tp.file.title.startsWith("Untitled")){
 	title = await tp.system.prompt("Tool Name:")
 }
 url = await tp.system.prompt("URL:")
-await tp.file.rename(`${title}`)
+let fileTitle = title;
+fileTitle = fileTitle.replace(/ /g, "-").toLowerCase();
+fileTitle = fileTitle.replace(/[&'’‘’:,–.;?()“”$]/g, "").toLowerCase();
+fileTitle = fileTitle.replace(/--/g, "-").toLowerCase();
+fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
+await tp.file.rename(`${fileTitle}`);
 -%>
 ---
 title: "<% title %>"
@@ -25,11 +30,3 @@ tags:
 **Additional Notes**
 - 
 
-<%*
-let fileTitle = tp.file.title;
-fileTitle = fileTitle.replace(/ /g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/[&'’‘’,–.;?()“”$]/g, "").toLowerCase();
-fileTitle = fileTitle.replace(/--/g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
-await tp.file.rename(`${fileTitle}`)
--%>
