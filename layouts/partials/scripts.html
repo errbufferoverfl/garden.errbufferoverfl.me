@@ -1,0 +1,208 @@
+<!-- Base scripts -->
+{{ $config := cond (eq $.Site.Language.Lang "en") "config" (printf "config.%s" $.Site.Language.Lang) }}
+{{ $data := index $.Site.Data $config }}
+{{ $scripts := (slice "js/darkmode.js" "js/util.js") }}
+{{ range $scripts }}
+{{ $scriptname := . }}
+{{ $s := resources.Get $scriptname | resources.ExecuteAsTemplate $scriptname . | resources.Fingerprint "md5" | resources.Minify }}
+<script defer src="{{ $s.Permalink }}"></script>
+{{ end }}
+
+{{ $fontAwesomeRegular := resources.Get "js/regular.min.js" | resources.Fingerprint "md5"}}
+<script defer src="{{$fontAwesomeRegular.Permalink}}"></script>
+
+{{ $fontAwesomeSolid := resources.Get "js/solid.min.js" | resources.Fingerprint "md5"}}
+<script defer src="{{$fontAwesomeSolid.Permalink}}"></script>
+
+{{ $fontAwesomeBrand := resources.Get "js/brands.min.js" | resources.Fingerprint "md5"}}
+<script defer src="{{$fontAwesomeBrand.Permalink}}"></script>
+
+{{ $fontawesome := resources.Get "js/fontawesome.min.js" | resources.Fingerprint "md5"}}
+<script defer src="{{$fontawesome.Permalink}}"></script>
+
+<!-- Load in Katex -->
+{{ partial "katex.html" . }}
+
+<!-- Load in Mermaid -->
+{{ partial "mermaid.html" . }}
+
+<script defer src="https://cdn.jsdelivr.net/npm/@floating-ui/core@1.2.1"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/@floating-ui/dom@1.2.1"></script>
+
+{{ if $data.enableLinkPreview | default $.Site.Data.config.enableLinkPreview }}
+{{ $popover := resources.Get "js/popover.js" | resources.Fingerprint "md5" | resources.Minify }}
+<script defer src="{{ $popover.Permalink }}"></script>
+{{ end }}
+
+<!-- Optional scripts -->
+{{ if $data.enableCodeBlockTitle | default $.Site.Data.config.enableCodeBlockTitle }}
+{{ $codeTitle := resources.Get "js/code-title.js" | resources.Fingerprint "md5" | resources.Minify }}
+<script defer src="{{ $codeTitle.Permalink }}"></script>
+{{ end }}
+
+{{ if $data.enableCodeBlockCopy | default $.Site.Data.config.enableCodeBlockCopy }}
+{{ $clipboard := resources.Get "js/clipboard.js" | resources.Fingerprint "md5" | resources.Minify }}
+<script defer src="{{ $clipboard.Permalink }}"></script>
+{{ end }}
+
+{{ if $data.enableCallouts | default $.Site.Data.config.enableCallouts }}
+{{ $callouts := resources.Get "js/callouts.js" | resources.Fingerprint "md5" | resources.Minify }}
+<script defer src="{{ $callouts.Permalink }}"></script>
+{{ end }}
+
+<!--  Preload page vars  -->
+{{ $linkIndex := resources.Get "indices/linkIndex.json" | resources.Fingerprint "md5" | resources.Minify | }}
+{{ $contentIndex := resources.Get "indices/contentIndex.json" | resources.Fingerprint "md5" | resources.Minify }}
+<script defer type="application/javascript">
+  const SEARCH_ENABLED = {{ .Site.Data.config.search.enableSemanticSearch }}
+  const LATEX_ENABLED = {{ .Site.Data.config.enableLatex }}
+  const PRODUCTION = {{ hugo.IsProduction }}
+  const BASE_URL = {{ .Site.BaseURL }}
+
+  /**
+   * Fetches data from:
+   * 1. `$linkIndex.Permalink`: retrieves a JSON object with an index and a list of links.
+   * 2. `$contentIndex.Permalink`: retrieves a JSON object with content.
+   *
+   * Once all the data is received, it is combined into a single object.
+   * @returns {Object.<Object, Array, Object>} A single encapsulating Object:
+   * - `Object.index`: an `Object` containing backlinks and links.
+   * - `Object.links`: an `Array` containing `Objects` that are composed of:
+   *    - `links.source` - The path the link originates from.
+   *    - `links.target` - The path the link points to.
+   *    - `links.name` - The title or name of the link.
+   * - `Object.content`: an `Object` containing `Object`s, keyed to the pages' path. Each `Object`
+   *        describe the content of all pages.
+   */
+  const fetchData = Promise.all([
+        fetch("{{ $linkIndex.Permalink }}")
+          .then(data => data.json())
+          .then(data => ({
+            index: data.index,
+            links: data.links,
+          })),
+        fetch("{{ $contentIndex.Permalink }}")
+          .then(data => data.json()),
+      ])
+      .then(([{index, links}, content]) => ({
+        index,
+        links,
+        content,
+      }));
+
+  /**
+   * This function is executed for every page navigation.
+   *
+   * It loads or modifies data on the page, adds event listeners, etc.
+   *
+   * It also adds copy buttons, collapsible callouts and title to code blocks if enabled in
+   * `data/config.yaml`.
+   *
+   * The function draws the graph if the `enableFooter` option is `true` and the graph container
+   * is ready. It also initializes mermaid markdown rendering if the `enableMermaid` option is true.
+   *
+   * Lastly, it adds a click listener to all links to track analytics with Plausible.
+   *
+   * If you are only dealing with basic DOM replacement, use the init function.
+   * @see init
+   */
+  const render = () => {
+    const siteBaseURL = new URL(BASE_URL);
+    const pathBase = siteBaseURL.pathname;
+    const pathWindow = window.location.pathname;
+    const isHome = pathBase === pathWindow;
+
+    {{ if $data.enableCodeBlockCopy | default $.Site.Data.config.enableCodeBlockCopy }}
+    addCopyButtons();
+    {{ end }}
+
+    {{ if $data.enableSPA | default $.Site.Data.config.enableSPA }}
+    addTitleToCodeBlocks();
+    {{ end }}
+
+    {{ if $data.enableCallouts | default $.Site.Data.config.enableCallouts }}
+    addCollapsibleCallouts();
+    {{ end }}
+
+    {{ if $data.enableLinkPreview | default $.Site.Data.config.enableLinkPreview }}
+    initPopover(
+      {{ strings.TrimRight "/" .Site.BaseURL }},
+      {{ $data.enableContextualBacklinks | default $.Site.Data.config.enableContextualBacklinks }}
+    )
+    {{ end }}
+
+    {{ if $data.enableFooter | default $.Site.Data.config.enableFooter }}
+    const footer = document.getElementById("footer");
+    if (footer) {
+      const container = document.getElementById("graph-container");
+      // retry if the graph is not ready
+      if (!container) return requestAnimationFrame(render);
+      // clear the graph in case there is anything within it
+      container.textContent = "";
+
+      const drawGlobal = isHome && {{ $.Site.Data.graphConfig.enableGlobalGraph }};
+      drawGraph(
+          {{ strings.TrimRight "/" .Site.BaseURL }},
+          drawGlobal,
+          {{ $.Site.Data.graphConfig.paths }},
+          drawGlobal ? {{ $.Site.Data.graphConfig.globalGraph }} : {{ $.Site.Data.graphConfig.localGraph }}
+        )
+    }
+    {{ end }}
+
+    {{ if $data.enableMermaid | default $.Site.Data.config.enableMermaid }}
+      let els = document.getElementsByClassName("mermaid");
+      if (els.length > 0) {
+        import('https://unpkg.com/mermaid@9/dist/mermaid.esm.min.mjs').then(
+          (obj) => {
+            // init forces mermaid to render mermaid markdown without waiting for DOMContentLoaded event
+            obj.default.init();
+          }
+        )
+      }
+    {{ end }}
+  }
+  const init = (doc = document) => {
+    // NOTE: everything within this callback will be executed for initial page navigation. This is a good place to put JavaScript that only replaces DOM nodes.
+    {{ if $data.enableCodeBlockCopy | default $.Site.Data.config.enableCodeBlockCopy }}
+    addCopyButtons();
+    {{ end }}
+
+    {{ if $data.enableCodeBlockTitle | default $.Site.Data.config.enableCodeBlockTitle }}
+    addTitleToCodeBlocks();
+    {{ end }}
+  };
+</script>
+
+{{ if $data.enableSPA | default $.Site.Data.config.enableSPA }}
+  {{ $router := resources.Get "js/router.js" | resources.Fingerprint "md5" | resources.Minify }}
+  <script type="module">
+    import { attachSPARouting } from "{{ $router.Permalink }}"
+    attachSPARouting(init, render)
+  </script>
+{{ else }}
+  <script async type="application/javascript">
+    /**
+    * Initializes a `window.Million` object.
+     * Sets the `window.location.href` to `navigate`.
+     *
+     * @param {URL} navigate a URL for navigation
+     * @param {string} prefetch a CSS class descriptor.
+     */
+    window.Million = {
+      navigate: (url) => (window.location.href = url),
+      prefetch: () => {},
+    };
+
+    /**
+     * Adds an event listener to `DOMContentLoaded`.
+     * When this event fires, it calls the init and render functions.
+     * @see init
+     * @see render
+     */
+    window.addEventListener("DOMContentLoaded", () => {
+      init()
+      render()
+    });
+</script>
+{{ end }}

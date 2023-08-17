@@ -1,23 +1,14 @@
-<%*
-const title = "Participation At Scale Can Repair The Public Square";
-let fileTitle = "Participation At Scale Can Repair The Public Square";
-fileTitle = fileTitle.replace(/ /g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/[&'’‘’:,–.;?()“”$]/g, "").toLowerCase();
-fileTitle = fileTitle.replace(/--/g, "-").toLowerCase();
-fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
-await tp.file.rename(`${fileTitle}`)
--%>
 ---
-title: "<%title%>"
+title: "Australia’s modern slavery law is woefully inadequate – this is how we can hold companies accountable"
 alias:
-- "<%title%>"
-created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
-modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
-link:  "https://www.noemamag.com/participation-at-scale-can-repair-the-public-square"
+- "Australia’s modern slavery law is woefully inadequate – this is how we can hold companies accountable"
+created: 2023-08-15T22:05:58+10:00
+modified: 2023-08-15T22:05:58+10:00
+link:  "https://theconversation.com/australias-modern-slavery-law-is-woefully-inadequate-this-is-how-we-can-hold-companies-accountable-206605"
 tags:
 - bookmark
 ---
 
-> The participatory power of social networks has cast out the gatekeepers, leveling the playing field among amateurs, professionals, experts, citizens and elected representatives.
+> A highly anticipated independent review of Australia’s Modern Slavery Act has found it has not brought “meaningful change” to the lives of people living in conditions of modern slavery since its passage more than four years ago.
 
-[Link](https://www.noemamag.com/participation-at-scale-can-repair-the-public-square)
+[Link](https://theconversation.com/australias-modern-slavery-law-is-woefully-inadequate-this-is-how-we-can-hold-companies-accountable-206605)

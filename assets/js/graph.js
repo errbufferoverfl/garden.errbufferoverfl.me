@@ -1,4 +1,5 @@
 async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
+  "use strict"
 
   let {
     depth,
@@ -8,15 +9,17 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
     opacityScale,
     scale,
     repelForce,
-    fontSize } = graphConfig;
+    fontSize,
+  } = graphConfig
 
-  const container = document.getElementById("graph-container")
-  const { index, links, content } = await fetchData
+  const container = document.getElementById("graph-container");
+  const { index, links, content } = await fetchData;
 
   // Use .pathname to remove hashes / searchParams / text fragments
-  const cleanUrl = window.location.origin + window.location.pathname
+  const cleanUrl = window.location.origin + window.location.pathname;
 
-  const curPage = cleanUrl.replace(/\/$/g, "").replace(baseUrl, "")
+  //
+  const currentPage = cleanUrl.replace(/\/$/g, "").replace(baseUrl, "");
 
   const parseIdsFromLinks = (links) => [
     ...new Set(links.flatMap((link) => [link.source, link.target])),
@@ -27,7 +30,8 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
   const copyLinks = JSON.parse(JSON.stringify(links))
 
   const neighbours = new Set()
-  const wl = [curPage || "/", "__SENTINEL"]
+  const wl = [currentPage || "/", "__SENTINEL"]
+
   if (depth >= 0) {
     while (depth >= 0 && wl.length > 0) {
       // compute neighbours
@@ -51,25 +55,36 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
     links: copyLinks.filter((l) => neighbours.has(l.source) && neighbours.has(l.target)),
   }
 
-  const color = (d) => {
-    if (d.id === curPage || (d.id === "/" && curPage === "")) {
-      return "var(--g-node-active)"
+  const color = (node) => {
+    console.debug(node);
+    console.debug(currentPage)
+    /*
+    * node.id = file path
+    * node.index = link index on page
+    * node.x
+    * node.y
+    * node.vy
+    * node.vx
+     */
+    if (node.id === currentPage || (node.id === "/" && currentPage === "")) {
+      return "var(--g-node-active)";
     }
 
     for (const pathColor of pathColors) {
       const path = Object.keys(pathColor)[0]
       const colour = pathColor[path]
-      if (d.id.startsWith(path)) {
+      if (node.id.startsWith(path)) {
         return colour
       }
     }
-
     return "var(--g-node)"
   }
 
   const drag = (simulation) => {
-    function dragstarted(event, d) {
-      if (!event.active) simulation.alphaTarget(1).restart()
+    function dragStarted(event, d) {
+      if (!event.active) {
+        simulation.alphaTarget(1).restart()
+      }
       d.fx = d.x
       d.fy = d.y
     }
@@ -79,18 +94,21 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
       d.fy = event.y
     }
 
-    function dragended(event, d) {
-      if (!event.active) simulation.alphaTarget(0)
+    function dragEnded(event, d) {
+      if (!event.active) {
+        simulation.alphaTarget(0)
+      }
       d.fx = null
       d.fy = null
     }
 
-    const noop = () => { }
+    const noop = () => {
+    }
     return d3
       .drag()
-      .on("start", enableDrag ? dragstarted : noop)
+      .on("start", enableDrag ? dragStarted : noop)
       .on("drag", enableDrag ? dragged : noop)
-      .on("end", enableDrag ? dragended : noop)
+      .on("end", enableDrag ? dragEnded : noop)
   }
 
   const height = Math.max(container.offsetHeight, isHome ? 500 : 250)
@@ -113,7 +131,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
     .append("svg")
     .attr("width", width)
     .attr("height", height)
-    .attr('viewBox', [-width / 2 / scale, -height / 2 / scale, width / scale, height / scale])
+    .attr("viewBox", [-width / 2 / scale, -height / 2 / scale, width / scale, height / scale])
 
   if (enableLegend) {
     const legend = [{ Current: "var(--g-node-active)" }, { Note: "var(--g-node)" }, ...pathColors]
@@ -167,6 +185,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
     .attr("fill", color)
     .style("cursor", "pointer")
     .on("click", (_, d) => {
+
       // SPA navigation
       const targ = `${baseUrl}${decodeURI(d.id).replace(/\s+/g, "-")}/`
       window.Million.navigate(new URL(targ), ".singlePage")
@@ -176,7 +195,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
           broken: false,
           internal: true,
           graph: true,
-        }
+        },
       })
     })
     .on("mouseover", function(_, d) {
@@ -207,10 +226,10 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
         .select("text")
         .transition()
         .duration(200)
-        .attr('opacityOld', d3.select(this.parentNode).select('text').style("opacity"))
-        .style('opacity', 1)
-        .style('font-size', bigFont + 'em')
-        .attr('dy', d => nodeRadius(d) + 20 + 'px') // radius is in px
+        .attr("opacityOld", d3.select(this.parentNode).select("text").style("opacity"))
+        .style("opacity", 1)
+        .style("font-size", bigFont + "em")
+        .attr("dy", d => nodeRadius(d) + 20 + "px") // radius is in px
     })
     .on("mouseleave", function(_, d) {
       d3.selectAll(".node").transition().duration(200).attr("fill", color)
@@ -226,9 +245,9 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
         .select("text")
         .transition()
         .duration(200)
-        .style('opacity', d3.select(this.parentNode).select('text').attr("opacityOld"))
-        .style('font-size', fontSize + 'em')
-        .attr('dy', d => nodeRadius(d) + 8 + 'px') // radius is in px
+        .style("opacity", d3.select(this.parentNode).select("text").attr("opacityOld"))
+        .style("font-size", fontSize + "em")
+        .attr("dy", d => nodeRadius(d) + 8 + "px") // radius is in px
     })
     .call(drag(simulation))
 
@@ -239,9 +258,9 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
     .attr("dy", (d) => nodeRadius(d) + 8 + "px")
     .attr("text-anchor", "middle")
     .text((d) => content[d.id]?.title || (d.id.charAt(1).toUpperCase() + d.id.slice(2)).replace("-", " "))
-    .style('opacity', (opacityScale - 1) / 3.75)
+    .style("opacity", (opacityScale - 1) / 3.75)
     .style("pointer-events", "none")
-    .style('font-size', fontSize + 'em')
+    .style("font-size", fontSize + "em")
     .raise()
     .call(drag(simulation))
 
@@ -259,7 +278,7 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
         .on("zoom", ({ transform }) => {
           link.attr("transform", transform)
           node.attr("transform", transform)
-          const scale = transform.k * opacityScale;
+          const scale = transform.k * opacityScale
           const scaledOpacity = Math.max((scale - 1) / 3.75, 0)
           labels.attr("transform", transform).style("opacity", scaledOpacity)
         }),
