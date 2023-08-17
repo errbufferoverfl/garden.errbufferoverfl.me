@@ -3,7 +3,7 @@ title: Building a Low Tech Website
 aliases:
   - Building a Low Tech Website
 created: 2023-08-12T08:12:50+10:00
-modified: 2023-08-12T11:53:17+10:00
+modified: 2023-08-17T20:48:15+10:00
 enableToc: "true"
 draft: "true"
 tags:
@@ -20,6 +20,7 @@ In many tech fields this looks like augmenting development workflows with Ai to 
 MAUs a user engagement metric that tracks the number of unique visitors that engage with a site, platform, or app within a specified month. It's considered one of the most significant metric for modern technology companies and is used heavily to determine the value of a company, and therefore influence how much a business is worth.
 
 But in turn, more customers means more infrastructure, more infrastructure means more energy used and consumed. And while sustainable software engineering has become a hot-button topic[^4] when it comes to strategic technology trends, the industry still heavily relies on carbon-intensive supply chains.
+
 ## The Tech Industries Carbon Footprint
 
 In 2021, the [International Energy Agency (IEA)](https://www.iea.org/about)  reported that global CO2 emissions rose by 6% to 36.3 billion tonnes, their highest ever level.[^5]
@@ -51,6 +52,7 @@ Their estimates in 2011, were based off of:
 By their calculations the Internet uses 84 to 143 gigawatts of electricity every year, which amounts to between 3.6 and 6.2 percent of all electricity worldwide (in 2011).
 
 But estimates and projections vary, they are also very dependent on the scope of the calculations. For example a 2017 meta-analysis found after reviewing 14 existing studies on this topic, that an accurate estimate for electricity used to transmit data through the internet was 0.06 kWh/GB for 2015,[^10] but this only considered the IP core network and access networks.
+
 ## Low Tech Websites
 
 Low-Tech Magazine proposed that there are two main contributors to the growing size and subsequent energy use of the Internet, these being:

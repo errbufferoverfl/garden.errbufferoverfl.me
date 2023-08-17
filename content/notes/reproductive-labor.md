@@ -2,8 +2,9 @@
 title: reproductive labor
 aliases:
   - reproductive work
+  - reproductive labor
 created: 2023-06-04T00:00:00+10:00
-modified: 2023-08-11T08:36:47+10:00
+modified: 2023-08-17T20:50:07+10:00
 tags:
   - seed
   - political-science

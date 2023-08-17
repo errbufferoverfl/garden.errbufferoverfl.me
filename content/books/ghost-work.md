@@ -4,7 +4,7 @@ aliases:
   - Ghost Work
 cover: /imgs/ghost-work.png
 created: 2023-06-29T23:00:43+10:00
-modified: 2023-08-06T16:40:40+10:00
+modified: 2023-08-17T20:51:28+10:00
 status: In Progress
 tags:
   - book
@@ -45,7 +45,7 @@ In the same way as fruit picking in Australia, it's not that the technology indu
 
 Grey reports that [[FAANG]] companies often use ghost work to remove as much "not safe for work" content from their platform, for me the call out and an important distinction here is that it's not safe for **work**, not, not safe for people, which begs the question why are we investing so much money into sanitising the Internet? (That's a rhetorical question).
 
-Within the first few pages Grey has already set the scene for this book – there is the general understanding that this work is **important** and **valuable** to the usability of the platform but the associated monetary value is low. I mean it is exactly like how we value [reproductive-labor](reproductive-labor.md).
+Within the first few pages Grey has already set the scene for this book – there is the general understanding that this work is **important** and **valuable** to the usability of the platform but the associated monetary value is low. I mean it is exactly like how we value [[../notes/reproductive-labor|reproductive labor]].
 
 On page xiv of the introduction, Grey says:
 > Unlike CPUs, humans have agency: they make their own decisions.
@@ -54,7 +54,7 @@ And while I understand the general sentiment she is getting at, I disagree becau
 
 Companies rely on an assembly line of workers to satisfy customers **who have grown to expect responses to their requests within seconds**. 
 
-Elon Musk, Stephen Hawking and Larry Page are people who have expressed panic about AI or have revealed in a time "before AI" when people "controlled their destiny". But one must ask if humans especially humans who live in states that have dismantled welfare were ever really in control of their destiny or if this notion of destiny is just something reserved for the people who have time and money to pursue "destiny".
+Elon Musk, Stephen Hawking and Larry Page are people who have expressed panic about Ai or have revealed in a time "before Ai" when people "controlled their destiny". But one must ask if humans especially humans who live in states that have dismantled welfare were ever really in control of their destiny or if this notion of destiny is just something reserved for the people who have time and money to pursue "destiny".
 
 Foxconn, who make iPhones apparently replaced 60,000 humans with robots in 2016.[^4]
 
