@@ -1,8 +1,9 @@
-<script crossorigin="anonymous" integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI=" src="https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js"></script><h3>{{ i18n "interactive_graph" }}</h3>
+<h3>{{ i18n "interactive_graph" }}</h3>
 <div id="graph-container">
-    <noscript>
-        <p style="text-align: center;">The interactive graph cannot be displayed because Javascript is turned off.</p>
-    </noscript>
+  <script defer crossorigin="anonymous" integrity="sha256-+7jaYCp29O1JusNWHaYtgUn6EhuP0VaFuswhNV06MyI=" src="https://cdn.jsdelivr.net/npm/d3@6.7.0/dist/d3.min.js"></script>
+  <noscript>
+    <p style="text-align: center;">The interactive graph cannot be displayed because Javascript is turned off.</p>
+  </noscript>
 </div>
 <style>
     :root {
@@ -12,5 +13,6 @@
         --g-link: var(--outlinegray);
         --g-link-active: #5a7282;
     }
-</style>{{ $js := resources.Get "js/graph.js" | resources.Fingerprint "md5" }}
-<script src="{{ $js.RelPermalink }}"></script>
+</style>
+{{ $js := resources.Get "js/graph.js" | resources.Fingerprint "md5" }}
+<script defer src="{{ $js.RelPermalink }}"></script>
