@@ -4,7 +4,7 @@ aliases:
   - Ghost Work
 cover: /imgs/ghost-work.png
 created: 2023-06-29T23:00:43+10:00
-modified: 2023-08-17T20:51:28+10:00
+modified: 2023-08-17T20:56:40+10:00
 status: In Progress
 tags:
   - book
@@ -34,9 +34,9 @@ published on 2019 by Eamon Dolan Books
 
 ## Summary Notes
 
-Grey notes within the first few pages that on-demand isn't inherently good or bad, a sentiment I disagree with, in later pages, she talks about how people working in ghost work often have this sense of urgency to not only accept a job,[^1] but to complete the task accurately or risk losing income. To me this aligns to the [[white supremacy]] cultural habit.[^2] We see that by applying this sense of urgency it perpetuates a power imbalance between employee and employer while disconnecting ghost workers from their need to pause and reflect, which would guarantee a higher success rate and the need for companies to pay them more.
+Grey notes within the first few pages that on-demand work isn't inherently good or bad, a sentiment I disagree with, in later pages, she talks about how people working in ghost work often have this sense of urgency to not only accept a job,[^1] but to complete the task accurately or risk losing income. To me this aligns to the [[white supremacy]] cultural habit.[^2] We see that by applying this sense of urgency it perpetuates a power imbalance between employee and employer while disconnecting ghost workers from their need to pause and reflect, which would guarantee a higher success rate and the need for companies to pay them more.
 
-Ignoring wether Grey thinks this work is good or bad, one thing we know for certain us like we've seen in the Australian fruit and vegetable picking industry, paying by weight picked, or in this case by task is ripe for abuse.
+Ignoring wether Grey thinks this work is good or bad, one thing we know for certain is, like we've seen in the Australian fruit and vegetable picking industry, paying by weight picked, or in this case by task is ripe for abuse.
 
 AWU Nation Secretary Dan Walton on fruit picking:[^3]
 > "The problem is too many farmers have become addicted to underpayment and exploitation as a normal part of doing business. This model isn’t inevitable in Australia, it’s just the one we’ve chosen in Australia,"
@@ -58,17 +58,17 @@ Elon Musk, Stephen Hawking and Larry Page are people who have expressed panic ab
 
 Foxconn, who make iPhones apparently replaced 60,000 humans with robots in 2016.[^4]
 
-In 2016, Amazon's 20 fulfilment centres apparently deployed 45, 00 robots to work alongside 230,000 people. In 2019, Amazon started rolling out machines to automate boxing up customer orders.[^5]
+In 2016, Amazon's 20 fulfilment centres apparently deployed 45, 00 robots to work alongside 230,000 people. In 2019, Amazon started rolling out machines to automate boxing up customer orders[^5].
 
-Robots and automations often allow employers to have what they want when they want the, which allows them to avoid navigating the the problems of negotiating with employees for better, safer working conditions. It also means they no longer need to deal with the classification of types of work, or engaging with the employment laws that are protecting humans.
+Robots and automations often allow employers to have what they want, when they want it, which allows them to avoid navigating the the problems of negotiating with employees for better, safer working conditions. It also means they no longer need to deal with the classification of types of work, or engaging with the employment laws that are protecting humans.
 
-Dismantling employment on the surface sounds positive, but this is occurring along side the dismantling of the welfare state, which encourages this value of rugged individualism.
+Dismantling employment on the surface sounds positive, but this is occurring along side the dismantling of the [[welfare state]], which encourages this value of [[../notes/rugged-individualism]].
 
 We're also seeing years of global reform be undone, from child labor laws,[^6] [^7]to workplace safety guidelines.[^8]
 
 JPMorgan Chase Institute found 4.3% of U.S adults (10.73 million people) had worked an online-platform-economy job at least once between 2015 and 2016. The jobs provide no professional title, no ladder to climb, no bonuses, and no guarantees.
 
-Gray talks about the thing that is common with all the people she interviewed was their hope;
+Gray talks about the thing that is common with all the people she interviewed was their *hope*;
 - Their hope to use on-demand jobs to control when they work, who they work with, and what tasks they take on.
 - The hope to avoid long commutes and hostile work environments.
 - They hope to gain experiences that refreshes their resume or opens the door to new possibilities.
