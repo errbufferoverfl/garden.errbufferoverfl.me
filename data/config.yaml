@@ -6,7 +6,7 @@ author: "errbuffoverfl"
 enableToc: false
 enablePermalink: true
 openToc: false
-enableLinkPreview: true
+enableLinkPreview: false
 enableLatex: false
 enableCodeBlockTitle: true
 enableCodeBlockCopy: true
@@ -14,6 +14,7 @@ enableCallouts: true
 enableSPA: false
 enableFooter: true
 enableComments: false
+enableKofi: false
 
 enableContextualBacklinks: true
 enableRecentNotes: true
@@ -43,7 +44,6 @@ links:
     link_icon: "fa-solid fa-rss"
     link: https://garden.errbufferoverfl.me/index.xml
 
-enableKofi: false
 kofi:
   username: "errbufferoverfl"
   buttonTxt: "Support me!"

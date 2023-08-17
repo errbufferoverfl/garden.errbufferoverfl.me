@@ -24,6 +24,7 @@
 {{- if $.Site.Data.config.enableKofi -}}
     {{- partial "kofi-donation.html" . -}}
 {{- end -}}
-{{- partial "web-integrity-protest.html" . -}}
+{{ partial "web-integrity-protest.html" . }}
+{{ partial "scripts.html" . }}
 </body>
 </html>

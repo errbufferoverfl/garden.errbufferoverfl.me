@@ -8,15 +8,14 @@
     <li>
       <div class="section">
         <div class="desc">
-          {{- $alt := "" -}}
+          {{ $alt := "" -}}
           {{- if .Params.alt -}}
           {{- $alt = .Params.alt }}
           {{- else -}}
           {{- $alt = "This image is missing alt text." }}
           {{- end -}}
-
           {{- $coverPath := .Params.cover | default "imgs/missing.png" -}}
-          {{- $cover := resources.GetMatch $coverPath -}}
+          {{- $cover := resources.GetMatch $coverPath }}
           <div class="article-img">
             <img src="{{ $cover.RelPermalink }}" alt="{{ $alt }}" width="200vw">
           </div>

@@ -20,7 +20,6 @@
     height: 20px;
     top: calc(50% - 10px);
     margin: 0 7px;
-    fill: var(--gray);
     transition: opacity 0.1s ease;
   }
 }
@@ -28,10 +27,12 @@
 .toggle:checked ~ label {
   & > #dayIcon {
     opacity: 0;
+    color: var(--gray);
   }
 
   & > #nightIcon {
     opacity: 1;
+    color: var(--gray);
   }
 }
 

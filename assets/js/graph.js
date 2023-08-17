@@ -1,5 +1,5 @@
 async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
-  "use strict"
+  "use strict";
 
   let {
     depth,
@@ -10,44 +10,58 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
     scale,
     repelForce,
     fontSize,
-  } = graphConfig
+  } = graphConfig;
 
   const container = document.getElementById("graph-container");
   const { index, links, content } = await fetchData;
 
-  // Use .pathname to remove hashes / searchParams / text fragments
+  // host + path for current page
   const cleanUrl = window.location.origin + window.location.pathname;
 
-  //
+  // host + path for current page, with trailing slashes removed
   const currentPage = cleanUrl.replace(/\/$/g, "").replace(baseUrl, "");
 
+  /**
+   * Parses unique links from an array of links.
+   *
+   * By creating a new array containing the combined `link.source` with `link.target`
+   * Remove duplicates from the array
+   *
+   * @param {Object[]} links - An array of link objects.
+   * @param {string} links.source - The path the link originates from.
+   * @param {string} links.target - The path the link points to.
+   * @param {string} links.name - The title or name of the link.
+   * @returns {string[]} An array of unique paths.
+   */
   const parseIdsFromLinks = (links) => [
     ...new Set(links.flatMap((link) => [link.source, link.target])),
-  ]
+  ];
 
-  // Links is mutated by d3. We want to use links later on, so we make a copy and pass that one to d3
-  // Note: shallow cloning does not work because it copies over references from the original array
-  const copyLinks = JSON.parse(JSON.stringify(links))
+  /*
+  * A deep copy of links to use later, so we don't use the version that is mutated by D3.
+  * Note: shallow cloning does not work because it copies over references from the original array
+   */
+  const copyLinks = JSON.parse(JSON.stringify(links));
 
-  const neighbours = new Set()
-  const wl = [currentPage || "/", "__SENTINEL"]
+  const neighbours = new Set();
+  const wl = [currentPage || "/", "__SENTINEL"];
 
   if (depth >= 0) {
     while (depth >= 0 && wl.length > 0) {
       // compute neighbours
-      const cur = wl.shift()
-      if (cur === "__SENTINEL") {
-        depth--
-        wl.push("__SENTINEL")
+      const current = wl.shift();
+      if (current === "__SENTINEL") {
+        depth--;
+        wl.push("__SENTINEL");
       } else {
-        neighbours.add(cur)
-        const outgoing = index.links[cur] || []
-        const incoming = index.backlinks[cur] || []
-        wl.push(...outgoing.map((l) => l.target), ...incoming.map((l) => l.source))
+        neighbours.add(current);
+        const outgoing = index.links[current] || [];
+        const incoming = index.backlinks[current] || [];
+        wl.push(...outgoing.map((l) => l.target), ...incoming.map((l) => l.source));
       }
     }
   } else {
-    parseIdsFromLinks(copyLinks).forEach((id) => neighbours.add(id))
+    parseIdsFromLinks(copyLinks).forEach((id) => neighbours.add(id));
   }
 
   const data = {
@@ -56,8 +70,6 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
   }
 
   const color = (node) => {
-    console.debug(node);
-    console.debug(currentPage)
     /*
     * node.id = file path
     * node.index = link index on page
@@ -189,14 +201,6 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
       // SPA navigation
       const targ = `${baseUrl}${decodeURI(d.id).replace(/\s+/g, "-")}/`
       window.Million.navigate(new URL(targ), ".singlePage")
-      plausible("Link Click", {
-        props: {
-          href: targ,
-          broken: false,
-          internal: true,
-          graph: true,
-        },
-      })
     })
     .on("mouseover", function(_, d) {
       d3.selectAll(".node").transition().duration(100).attr("fill", "var(--g-node-inactive)")
