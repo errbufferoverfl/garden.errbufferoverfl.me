@@ -9,7 +9,7 @@ cover: "/imgs/art/do-what-makes-you-happy.png"
 tags:
 - oeuvre
 - gouache
-- 100 days gouache
+- 100-days-gouache
 ---
 
 ![Do What Makes You Happy](imgs/art/do-what-makes-you-happy.png)

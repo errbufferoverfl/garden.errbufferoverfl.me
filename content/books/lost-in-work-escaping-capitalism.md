@@ -3,12 +3,25 @@ title: "Lost in Work Escaping Capitalism"
 alias:
   - "Lost in Work Escaping Capitalism"
 created: 2023-04-10T00:00:00+10:00
-modified: 2023-06-29T23:04:40+10:00
+modified: 2023-08-19T22:45:17+10:00
 cover: "/imgs/lost-in-work-escaping-capitalism.png"
 status: "Completed"
+author:
+- [[Amelia Horgan]]
+genre:
+- Non-Fiction 
+- Politics  
+- Sociology 
+- Economics 
+- History 
+- Philosophy 
+- Feminism 
+- Labor 
+- Theory 
+- Activism
 tags:
 - book
-- non fiction 
+- non-fiction 
 - politics  
 - sociology 
 - economics 

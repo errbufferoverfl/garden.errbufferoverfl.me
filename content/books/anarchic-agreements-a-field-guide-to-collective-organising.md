@@ -3,9 +3,14 @@ title: "Anarchic Agreements, a Field Guide to Collective Organising"
 alias:
   - "Anarchic Agreements, a Field Guide to Collective Organising"
 created: 2023-05-28T00:00:00+10:00
-modified: 2023-08-19T22:18:31+10:00
+modified: 2023-08-19T23:01:22+10:00
 cover: "/imgs/anarchic-agreements-a-field-guide-to-collective-organising.png"
 status: "Completed"
+author:
+- [[Ruth Kinna]]
+- [[Alex Prichard]]
+- [[Thomas Swann]]
+- [[Seeds for Change]]
 genre:
 - Non-Fiction
 - Political Science
@@ -16,11 +21,11 @@ genre:
 tags:
 - book
 - non-fiction
-- political science
+- political-science
 - anarchy
 - anarchism
 - constitutions
-- history and theory
+- history-and-theory
 ---
 
 *A new world is possible and not just in our hearts. Anarchic Agreements is a quintessential field guide for the revolution, answering the practical questions often left out of works of political theory and philosophy.*

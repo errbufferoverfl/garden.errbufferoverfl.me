@@ -4,14 +4,24 @@ alias:
   - "Revolution at Point Zero"
 cover: "/imgs/revolution-at-point-zero.png"
 created: 2023-01-28T00:00:00+11:00
-modified: 2023-06-29T23:04:58+10:00
+modified: 2023-08-19T22:48:14+10:00
 status: "Completed"
+author:
+- [[Silvia Federici]]
+genre:
+- Non-Fiction
+- Social Science
+- Feminism
+- Politics
+- Philosophy
+- Theory
+- Essays
+- Gender
 tags:
 - book
-- non fiction
+- non-fiction
 - social science
 - feminism
-- nonfiction
 - politics
 - philosophy
 - theory

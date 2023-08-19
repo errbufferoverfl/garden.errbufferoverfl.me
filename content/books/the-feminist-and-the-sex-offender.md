@@ -4,12 +4,25 @@ alias:
   - "The Feminist and the Sex Offender"
 cover: "/imgs/the-feminist-and-the-sex-offender.png"
 created: 2023-06-01T00:00:00+10:00
-modified: 2023-08-06T16:41:16+10:00
+modified: 2023-08-19T22:49:55+10:00
 status: "Completed"
+author:
+- [[Judith Levine]]
+- [[Erica R. Meiners]]
+genre:
+- Non-Fiction
+- Feminism
+- Politics
+- Philosophy
+- Theory
+- Feminist Theory
+- Gender
+- Social Justice
+- Academia
 tags:
 - book
 - non-fiction
-- feminisim
+- feminism
 - politics
 - philosophy
 - theory

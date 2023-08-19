@@ -5,10 +5,23 @@ alias:
 cover: "/imgs/how-to-stand-up-to-a-dictator.png"
 alt: "How to Stand Up to a Dictator Book Cover"
 created: 2023-08-19T15:29:47+10:00
-modified: 2023-08-19T15:47:03+10:00
+modified: 2023-08-19T22:59:48+10:00
 status: "In Progress"
+author:
+- [[Maria Ressa]]
+genre:
+- Non-Fiction
+- Political Science
+- Politics
+- Memoir
+- History
+- Biography
+- Journalism
+- Asia
+- Sociology
 tags:
 - book
+- non-fiction
 - political-science
 - politics
 - memoir

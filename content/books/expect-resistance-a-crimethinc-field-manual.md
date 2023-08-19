@@ -4,20 +4,31 @@ alias:
   - "Expect Resistance: A Crimethink Field Manual"
 cover: "/imgs/expect-resistance-a-crimethinc-field-manual.png"
 created: 2023-06-20T21:30:40+10:00
-modified: 2023-06-29T23:05:31+10:00
+modified: 2023-08-19T23:02:22+10:00
 status: "Incomplete"
+author:
+- [[CrimethInc. Ex-Workers' Collective]]
+genere:
+- Non-Fiction
+- Political Science
+- Politics
+- Anarchism
+- Philosophy
+- Activism
+- Social Justice
+- Feminism
+- Counter Culture
 tags:
 - book
-- non fiction
-- political science
+- non-fiction
+- political-science
 - politics
-- non fiction
 - anarchism
 - philosophy
 - activism
-- social justice
+- social-justice
 - feminism
-- counter culture
+- counter-culture
 ---
 
 _Expect Resistance_ is not one but three books, each of which may be read as a complete work unto itself. The first book, printed in standard black ink, continues the inquiry into modern life and its discontents begun in _[Days of War, Nights of Love](https://crimethinc.com/books/days-of-war-nights-of-love)_. Just as that book included improved versions of texts originally published between 1996 and 1999, this book draws on CrimethInc. material from 2000 to 2004, painstakingly refined and augmented with a great deal of new content. The second book, in red ink, is a composite account, related by three narrators, of the adventures and tribulations that inevitably ensue when people pursuing their dreams enter into conflict with the world as it is.

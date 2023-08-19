@@ -4,11 +4,21 @@ alias:
   - "The Age of Surveillance Capitalism"
 cover: "/imgs/the-age-of-surveillance-capitalism.png"
 created: 2023-06-12T00:00:00+10:00
-modified: 2023-06-18T22:56:23+10:00
+modified: 2023-08-19T22:47:28+10:00
 status: "Incomplete"
+author:
+- [[Shoshana Zuboff]]
+genre:
+- Non-Fiction
+- Politics
+- Economics
+- Technology
+- Business
+- Sociology
+- Computers
 tags:
 - book
-- non fiction
+- non-fiction
 - politics
 - economics
 - technology

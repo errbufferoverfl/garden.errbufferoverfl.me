@@ -12,7 +12,7 @@ tags:
   - oeuvre
   - digital
   - painting
-  - anarchic
+  - anarchy
 ---
 
 ![all-crustaceans-really-are-beautiful](/imgs/art/all-crustaceans-really-are-beautiful.jpeg)
