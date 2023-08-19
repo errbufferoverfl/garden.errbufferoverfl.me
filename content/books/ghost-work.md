@@ -4,8 +4,9 @@ aliases:
   - Ghost Work
 cover: /imgs/ghost-work.png
 created: 2023-06-29T23:00:43+10:00
-modified: 2023-08-17T20:56:40+10:00
-status: In Progress
+modified: 2023-08-19T15:29:06+10:00
+status: "Completed"
+completed: 2023-08-17
 tags:
   - book
   - technology
@@ -30,9 +31,15 @@ They often earn less than legal minimums for traditional work, they have no heal
 
 published on 2019 by Eamon Dolan Books
 
-## High-Level Thoughts
+## Summary
 
-## Summary Notes
+## Themes
+
+## 3 Main Takeaways
+
+## Quotes
+
+## Other Notes
 
 Grey notes within the first few pages that on-demand work isn't inherently good or bad, a sentiment I disagree with, in later pages, she talks about how people working in ghost work often have this sense of urgency to not only accept a job,[^1] but to complete the task accurately or risk losing income. To me this aligns to the [[white supremacy]] cultural habit.[^2] We see that by applying this sense of urgency it perpetuates a power imbalance between employee and employer while disconnecting ghost workers from their need to pause and reflect, which would guarantee a higher success rate and the need for companies to pay them more.
 
@@ -58,7 +65,7 @@ Elon Musk, Stephen Hawking and Larry Page are people who have expressed panic ab
 
 Foxconn, who make iPhones apparently replaced 60,000 humans with robots in 2016.[^4]
 
-In 2016, Amazon's 20 fulfilment centres apparently deployed 45, 00 robots to work alongside 230,000 people. In 2019, Amazon started rolling out machines to automate boxing up customer orders[^5].
+In 2016, Amazon's 20 fulfilment centres apparently deployed 45, 00 robots to work alongside 230,000 people. In 2019, Amazon started rolling out machines to automate boxing up customer orders.[^5]
 
 Robots and automations often allow employers to have what they want, when they want it, which allows them to avoid navigating the the problems of negotiating with employees for better, safer working conditions. It also means they no longer need to deal with the classification of types of work, or engaging with the employment laws that are protecting humans.
 

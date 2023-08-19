@@ -21,7 +21,7 @@ The notes and summaries included in these pages are snippets that remind me, or 
 
 {{<page-books status="Up Next">}}
 
-### Currenta
+### Current
 
 {{<page-books status="In Progress">}}
 

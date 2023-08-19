@@ -1,7 +1,5 @@
 <%*
 const title = "{{title}}"
-const fileTitle = title.replace(/ /g, "-").toLowerCase();
-
 let authors = "{{author}}".split(',');
 let genre = "{{category}}".split(',');
 
@@ -19,10 +17,12 @@ alias:
 cover: "{{coverUrl}}"
 created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
 modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
+started: <% tp.file.creation_date("YYYY-MM-DD") %>
+completed:
 status: "Backlog"
 tags:
 - book
-<% genre.map(line => `${line}\n`.toLowerCase()) -%>
+<% genre.map(line => `- ${line}\n`.toLowerCase()) -%>
 ---
 
 {{description}}
@@ -31,8 +31,20 @@ tags:
 
 published on {{publishDate}} by {{publisher}}
 
-## High-Level Thoughts
+## Summary
 
 
-## Summary Notes
+## Themes
+
+
+## 3 Main Takeaways
+- 
+- 
+- 
+
+## Quotes
+
+
+## Other Notes
+
 
