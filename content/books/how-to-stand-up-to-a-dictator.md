@@ -5,7 +5,7 @@ alias:
 cover: "/imgs/how-to-stand-up-to-a-dictator.png"
 alt: "How to Stand Up to a Dictator Book Cover"
 created: 2023-08-19T15:29:47+10:00
-modified: 2023-08-19T22:59:48+10:00
+modified: 2023-08-19T23:18:26+10:00
 status: "In Progress"
 author:
 - [[Maria Ressa]]
@@ -57,3 +57,6 @@ published on 2022-11-17 by Random House
 
 
 ## Other Notes
+
+### How can we make the choice to learn? (Chapter 1)
+
