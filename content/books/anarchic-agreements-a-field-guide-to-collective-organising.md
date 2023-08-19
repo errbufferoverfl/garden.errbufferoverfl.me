@@ -3,9 +3,16 @@ title: "Anarchic Agreements, a Field Guide to Collective Organising"
 alias:
   - "Anarchic Agreements, a Field Guide to Collective Organising"
 created: 2023-05-28T00:00:00+10:00
-modified: 2023-06-29T23:05:20+10:00
+modified: 2023-08-19T22:18:31+10:00
 cover: "/imgs/anarchic-agreements-a-field-guide-to-collective-organising.png"
 status: "Completed"
+genre:
+- Non-Fiction
+- Political Science
+- Anarchy
+- Anarchism
+- Constitutions
+- History and Theory
 tags:
 - book
 - non-fiction
