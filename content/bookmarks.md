@@ -3,7 +3,7 @@ title: "bookmarks"
 alias:
   - "Bookmarks"
 created: 2023-08-06T10:00:22+10:00
-modified: 2023-08-13T01:44:42+10:00
+modified: 2023-08-25T16:37:53+10:00
 tags:
   - personal
   - evergreen
@@ -122,7 +122,6 @@ tags:
 - [in-ai-we-dont-trust-the-markup](./bookmarks/in-ai-we-dont-trust-the-markup.md)
 - [in-defence-of-woodlice-and-their-complicated-sex-lives](./bookmarks/in-defence-of-woodlice-and-their-complicated-sex-lives.md)
 - [information-on-rfc-9396](./bookmarks/information-on-rfc-9396.md)
-- [information-on-rfc-9457](./bookmarks/information-on-rfc-9457.md)
 - [inside-a-us-neo-nazi-homeschool-network-with-thousands-of-members](./bookmarks/inside-a-us-neo-nazi-homeschool-network-with-thousands-of-members.md)
 - [inside-the-world-of-investigators-who-know-you’ve-faked-your-death](./bookmarks/inside-the-world-of-investigators-who-know-you%E2%80%99ve-faked-your-death.md)
 - [international-conspiracy-of-mad-scientists](./bookmarks/international-conspiracy-of-mad-scientists.md)
