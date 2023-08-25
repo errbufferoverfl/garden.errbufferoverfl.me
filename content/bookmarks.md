@@ -29,7 +29,7 @@ tags:
 - [andrew-tate-research-has-long-shown-how-feminist-progress-is-always-followed-by-a-misogynistic-backlash](./bookmarks/andrew-tate-research-has-long-shown-how-feminist-progress-is-always-followed-by-a-misogynistic-backlash.md)
 - [anti-racism-and-anti-colonialism-an-open-letter-to-my-black-kin](./bookmarks/anti-racism-and-anti-colonialism-an-open-letter-to-my-black-kin.md)
 - [appropriate-technology-permacomputing-post-growth-and-ecomodernism](./bookmarks/appropriate-technology-permacomputing-post-growth-and-ecomodernism.md)
-- [april-king-refresh-vs.-long-lived-access-tokens](./bookmarks/april-king-refresh-vs.-long-lived-access-tokens.md)
+- [april-king-refresh-vs-long-lived-access-tokens](./bookmarks/april-king-refresh-vs-long-lived-access-tokens.md)
 - [architects-anti-patterns-and-organizational-fuckery](./bookmarks/architects-anti-patterns-and-organizational-fuckery.md)
 - [archive-stories](./bookmarks/archive-stories.md)
 - [artificial-intelligence-is-creating-a-new-colonial-world-order](./bookmarks/artificial-intelligence-is-creating-a-new-colonial-world-order.md)
