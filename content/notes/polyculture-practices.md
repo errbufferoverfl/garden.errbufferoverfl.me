@@ -13,14 +13,7 @@ While there are no hard or fast rules to using a [[notes/polyculture|Polyculture
 
 ### Intercropping
 
-A technique where two or more crops are grown in a space where they overlap with each other – for example growing maize, beans and squash together, a combination often referred to as "the three sisters".
-- The maize provides a structure for the beans to grown on;
-- The beans provide nitrogen for all of the plants; and,
-- The squash suppresses weeds on the ground.
-
-Legumes are often intercropped because they fix atmospheric nitrogen into the soil a process known as nitrogen fixation.
-
-[[intercropping-examples|Intercropping Examples]]
+See also [[../intercropping]]
 
 ### Cover Cropping
 

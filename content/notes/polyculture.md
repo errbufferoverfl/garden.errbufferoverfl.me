@@ -1,28 +1,60 @@
 ---
 title: polyculture
-aliases: []
+alias:
+  - Polyculture
 created: 2023-08-06T19:49:02+10:00
-modified: 2023-08-12T17:16:07+10:00
+modified: 2023-08-25T16:02:21+10:00
 tags:
   - seed
   - gardening
 ---
+
 A polyculture is the practice of growing more than one crop or species in the same space at the same time.
 
-The aim of a polyculture is to mimic the diversity of a natural ecosystem, in some cases this can provide pest, weed and disease control.
+A paper written by Larry Geno and Dr Barbara Geno "*[Polyculture Production Principles, Benefits and Risks of Multiple Cropping Land Management Systems for Australia](https://agrifutures.com.au/wp-content/uploads/publications/01-034.pdf)*" notes that:
 
-Polycultures can reduce crop yields because all the different species are competing for light, water and nutrients.
+> the polyculture practices evolved to fit an almost infinite number of geographical and climatic niches and a wide range of human needs.
 
-When growing multiple cultivars a polyculture can complicate care if they have different growth rates, days to maturity and harvest requirements.
+So while many resources will often talk about the aim of a polyculture being "to mimic the diversity of a natural ecosystem" that's not the whole picture because there are various forms of polycultures that don't mimic the diversity of a natural ecosystem and instead resemble complicated companion planting schemes.
 
-The most notable example of a polyculture is the intercropping of maize, beans and squash often referred to as "the three sisters".
+> [!note]
+> 
+> According to a presentation given at Cornell University Cooperative Extension and Department of Horticulture "much of popular literature that discusses companion planting is based upon some very bad science". [[source](http://www.hort.cornell.edu/brewer/polycultures/Polyculture%20Design%20slides.pdf)]
+
+The definition that has most resinated with me though is from these [Polyculture Design slides](http://www.hort.cornell.edu/brewer/polycultures/Polyculture%20Design%20slides.pdf):
+
+> A community of multifunctional plants, animals, and fungi that is designed for functional interconnection.
+
+The reason being is that multifunctional can be described in many ways, some examples from the slide deck include:
+- **Humans Needs**
+	- Food
+	- Fuel
+	- Fodder
+	- Medicine
+	- Aesthetics
+- **Ecosystem Services**
+	- Nitrogen Fixation
+	- Nutrient Accumulations/Fertility
+	- Living Mulch/Ground Cover
+	- Insectary
+	- Nectary/Pollen
+
+One of the things that is interesting to note, is that by "typical" definitions people often reference the fact that polycultures can reduce crop yields because all the different species are competing for light, water and nutrients.
+
+But I'd argue that in a well planned polyculture this isn't actually the case, or it's less often the case — and when it is the case, I wonder if our valuation of polycultures output is tainted by excess accumulation, i.e., I didn't get what *I* thought *I* deserved out of this system.
+
+Another point often discussed that I question is wether growing multiple cultivars in a well planned polyculture does in fact complicate care — given the example:
+
+Yarrow → attracts → Lacewing → protects → Brassicas
+
+Is the care complicated or simplified?
+
+A notable example of a polyculture and perhaps the best demonstration of "true" [[../intercropping|intercropping]] is "the three sisters", which sees maize, beans and squash planted together:
 - The maize provides a structure for the beans to grown on;
 - The beans provide nitrogen for all of the plants; and,
 - The squash suppresses weeds on the ground.
 
-Another example of a polyculture is found in integrated aquaculture where seafood and plants are grown together.
-
-While using a polyculture model requires less human intervention, the development of pesticides, herbicides and fertilisers, monocultures became the primary agriculture model.
+I've found better examples of "good" polycultures when discussing integrated aquaculture where seafood and plants are grown together.
 
 >[!success]
 >
