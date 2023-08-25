@@ -5,7 +5,7 @@ alias:
   - "index"
   - "home"
 created: 2023-05-27T00:00:00+10:00
-modified: 2023-08-13T08:28:15+10:00
+modified: 2023-08-25T16:07:19+10:00
 ---
 Welcome to my digital garden. 🌱
 
@@ -23,7 +23,7 @@ I currently live on the unceded land of the [Wadawurrung and Dja Dja Wurrung Peo
 	- [ ] `gemini://garden.gemini.errbufferoverfl.me`
 	- [ ] `gopher://garden.gopher.errbufferoverfl.me`
 - ✍️ Working on anarchic illustrations and prints and tending to my winter garden.
-- 📚 Reading [Ghost Work](books/ghost-work.md).
+- 📚 Reading [[books/how-to-stand-up-to-a-dictator|How to Stand Up to a Dictator]].
 
 # 🗺️ Explore
 
