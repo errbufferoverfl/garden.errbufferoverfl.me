@@ -1,11 +1,12 @@
 ---
 title: eutrophication
-aliases: []
+alias:
+  - Eutrophication
 created: 2023-08-06T20:20:28+10:00
-modified: 2023-08-11T09:14:27+10:00
+modified: 2023-09-03T09:25:14+10:00
 tags:
   - seed
-  - gardening
+  - pollution
 ---
 The process by which an entire body of water, or parts of it become enriched with minerals and nutrients, particularly nitrogen and phosphorus.
 
