@@ -49,7 +49,7 @@ Yarrow → attracts → Lacewing → protects → Brassicas
 
 Is the care complicated or simplified?
 
-A notable example of a polyculture and perhaps the best demonstration of "true" [[../intercropping|intercropping]] is "the three sisters", which sees maize, beans and squash planted together:
+A notable example of a polyculture and perhaps the best demonstration of "true" [[intercropping|intercropping]] is "the three sisters", which sees maize, beans and squash planted together:
 - The maize provides a structure for the beans to grown on;
 - The beans provide nitrogen for all of the plants; and,
 - The squash suppresses weeds on the ground.

@@ -1,8 +1,9 @@
 ---
-title: Polyculture Practices
-aliases: []
+title: polyculture practices
+aliases:
+- Polyculture Practices
 created: 2023-08-06T20:04:00+10:00
-modified: 2023-08-12T17:15:33+10:00
+modified: 2023-09-03T08:54:53+10:00
 tags:
   - seed
   - gardening
@@ -13,7 +14,7 @@ While there are no hard or fast rules to using a [[notes/polyculture|Polyculture
 
 ### Intercropping
 
-See also [[../intercropping]]
+See also [[intercropping]]
 
 ### Cover Cropping
 

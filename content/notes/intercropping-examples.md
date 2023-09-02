@@ -15,7 +15,7 @@ Ultimately the biggest issue I see with a lot of these examples is they put more
 
 Like sure Yarrow *does* promote insectary but the planting of Yarrow is **primarily** for the purpose of protecting the Brassica.
 
-For more information see [[../intercropping|Intercropping]].
+For more information see [[intercropping|Intercropping]].
 
 |**Crop**|**Intercrop With**|
 |---|---|
