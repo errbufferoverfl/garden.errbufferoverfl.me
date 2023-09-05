@@ -14,9 +14,6 @@
 <div align="center">
   <!-- Stability -->
   <!-- Build Status -->
-<a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/actions/workflows/deploy.yml"><img alt="GitHub Workflow Status for Hugo Build" src="https://img.shields.io/github/actions/workflow/status/errbufferoverfl/garden.errbufferoverfl.me/deploy.yml?label=Hugo%20Build&style=for-the-badge"></a>
-
-<a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/actions/workflows/distributed-press-publish.yml"><img alt="GitHub Workflow Status for Hugo Build" src="https://img.shields.io/github/actions/workflow/status/errbufferoverfl/garden.errbufferoverfl.me/distributed-press-publish.yml?label=Distributed%20Press%20Build&style=for-the-badge"></a>
   <!-- Test Coverage --> 
   <!-- Downloads -->
   <!-- Standard -->
@@ -42,8 +39,7 @@
 
 ## Introduction
 
-garden.errbufferoverfl.me is my second brain and mind garden. It's an alternative to a traditional blog and used to 
-explore a variety of indieweb, distributed publishing techniques and lower-tech online publishing. 
+garden.errbufferoverfl.me is my second brain and mind garden. It's an alternative to a traditional blog and used to explore a variety of indieweb, distributed publishing techniques and lower-tech online publishing. 
 
 ## Table of contents
 
@@ -57,10 +53,11 @@ explore a variety of indieweb, distributed publishing techniques and lower-tech 
 
 Here's a brief high-level overview of the tech stack garden.errbufferoverfl.me uses:
 
-- Hugo is used for static website generation.
-- Quartz for mind-garden theming, and `hugo-obsidian` to scrape Obsidian vault for links for easy consumption by Hugo.
+- [Hugo](https://gohugo.io/) is used for static website generation.
+- [Quartz](https://github.com/jackyzha0/quartz) for mind-garden theming, and `hugo-obsidian` to scrape Obsidian vault for links for easy consumption by Hugo.
 - Content is managed using [Obsidian](https://obsidian.md/).
-- Deployment to Hypercore & IPFS.
+- Deployed to Github Pages, [Hypercore](https://docs.holepunch.to/) & [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System).
+- Images are dithered using [Pillow](https://pillow.readthedocs.io/en/stable/).
 
 ## Getting Started
 
@@ -117,7 +114,7 @@ View the local site at http://localhost:1313/
 
 ### Publishing Content
 
-This site is deployed via Github actions, the workflows are defined in [.github/workflows/deploy.yml]. To update the website,
+This site is deployed via Github actions, the workflows are defined in [.github/workflows/deploy-all.yml](.github/workflows/deploy-all.yml). To update the website,
 `git add` and `git commit` as normal. This will trigger a new build and deployment.
 
 For information on how to setup Github workflows for Quartz, checkout [this guide by Jacky Zhao](https://quartz.jzhao.xyz/notes/hosting/)
