@@ -3,10 +3,10 @@ title: polyculture
 alias:
   - Polyculture
 created: 2023-08-06T19:49:02+10:00
-modified: 2023-08-25T16:02:21+10:00
+modified: 2023-09-07T17:35:34+10:00
 tags:
   - seed
-  - gardening
+  - sustainable-agriculture
 ---
 
 A polyculture is the practice of growing more than one crop or species in the same space at the same time.

@@ -3,10 +3,10 @@ title: "Fat Worm Recipe"
 alias:
   - "Fat Worm Recipe"
 created: 2023-08-13T08:20:04+10:00
-modified: 2023-08-13T08:20:36+10:00
+modified: 2023-09-07T17:36:57+10:00
 tags:
 - seed
-- gardening
+- sustainable-agriculture
 ---
 
 - 50% [Chicken Layer Pellets](https://www.petbarn.com.au/peckish-performance-poultry-layer-pellets-20kg)

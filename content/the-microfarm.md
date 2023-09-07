@@ -3,7 +3,7 @@ title: "the microfarm"
 aliases:
   - "The Microfarm"
 created: 2023-09-03T09:07:46+10:00
-modified: 2023-09-07T11:16:27+10:00
+modified: 2023-09-07T17:38:06+10:00
 tags:
   - evergreen
 ---
@@ -12,6 +12,7 @@ tags:
 
 ### Permaculture
 
+- [[notes/permaculture|Permaculture]]
 - [[notes/polyculture|Polyculture]]
 	- [[notes/polyculture-practices|Polyculture Practices]]
 - [[notes/intercropping|Intercropping]]
@@ -26,6 +27,8 @@ tags:
 ### Rewilding
 
 ### Invasive species management
+
+- [[opportunistic-plants|Opportunistic Plants]]
 
 ### Pollution
 
@@ -53,5 +56,5 @@ tags:
 
 ## Infrastructure
 
-- [[attachements/dealing-in-security.pdf|dealing-in-security|Dealing in Security - Understanding Vital Services and How they Keep you Safe]]
+- [[attachements/dealing-in-security.pdf | Dealing in Security - Understanding Vital Services and How they Keep you Safe]]
 

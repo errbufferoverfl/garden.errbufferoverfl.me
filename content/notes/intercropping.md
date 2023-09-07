@@ -3,10 +3,10 @@ title: "intercropping"
 alias:
   - "Intercropping"
 created: 2023-08-24T20:54:44+10:00
-modified: 2023-08-25T15:46:05+10:00
+modified: 2023-09-07T17:36:43+10:00
 tags:
 - seed
-- gardening
+- sustainable-agriculture
 ---
 
 Because there is some degree of ambiguity about what a [[notes/polyculture|polyculture]] this can have a flow on effect to associated terms such as _intercropping_. 
