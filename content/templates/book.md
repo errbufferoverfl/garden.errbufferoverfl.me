@@ -17,9 +17,13 @@ alias:
 cover: "{{coverUrl}}"
 created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
 modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
-started: <% tp.file.creation_date("YYYY-MM-DD") %>
+started: 
 completed:
 status: "Backlog"
+author:
+<% authors.map(line => `- [[${line}]]\n`) -%>
+genre:
+<% genre.map(line => `- ${line}\n`) -%>
 tags:
 - book
 <% genre.map(line => `- ${line}\n`.toLowerCase()) -%>

@@ -15,6 +15,7 @@ enableSPA: false
 enableFooter: true
 enableComments: false
 enableKofi: false
+enableDither: true
 
 enableContextualBacklinks: true
 enableRecentNotes: true

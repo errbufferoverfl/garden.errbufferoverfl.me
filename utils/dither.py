@@ -63,12 +63,13 @@ parser = argparse.ArgumentParser(
 parser.add_argument('-d', '--directory', help="Set the directory to traverse", default=".")
 parser.add_argument('-o', '--output', help="Set the output directory to save dithered images.", default=".")
 parser.add_argument('-c', '--colorize', help="Colorizes the dithered images", action="store_true")
+parser.add_argument('-r', '--resize', help="Do not dither, only resize images", action="store_true")
 parser.add_argument('-nc', '--nearest', help="Set the number of channels to dedicate to the nearest colour", default=2, type=int)
 parser.add_argument('-v', '--verbose', help="Print out more detailed information about what this script is doing", action="store_true")
 args = parser.parse_args()
 
 content_dir = pathlib.Path(args.directory)
-exclude_dirs = set([args.output])
+exclude_dirs = {args.output}
 image_ext = [".jpg", ".JPG", ".jpeg", ".png", ".gif", ".webp", ".tiff", ".bmp"]
 
 if args.verbose:
@@ -76,10 +77,12 @@ if args.verbose:
 else:
     logging.basicConfig(level=logging.INFO)
 
-logging.info(f"Dithering all images in {content_dir} and sub-folders.")
-logging.debug(f"Excluding directories: {', '.join(exclude_dirs)}")
-
 images = sorted([path for path in filter(lambda path: path.suffix in image_ext, content_dir.rglob('*'))])
+
+if not images:
+    logging.warning(f"No images identified in {content_dir} and sub-folders.")
+else:
+    logging.info(f"Processing {len(images)} images in {content_dir} and sub-folders.")
 
 for image in images:
     img = Image.open(image)
@@ -93,12 +96,28 @@ for image in images:
     new_height = int(height * new_width / width)
     img = img.resize((new_width, new_height), Image.LANCZOS)
 
-    logging.info(f"🖼Dithering '{image.name}'")
-    dim = fs_dither(img, args.nearest)
+    directory = pathlib.Path(image.parent / args.output).resolve()
 
-    logging.info(f"💾Saving dithered image at '{image.parent}/{args.output}/{image.name}'")
-    try:
-        dim.save(f"{image.parent}/{args.output}/{image.name}")
-    except FileNotFoundError:
-        os.mkdir(f"{image.parent}/{args.output}")
-        dim.save(f"{image.parent}/{args.output}/{image.name}")
+    if not args.resize:
+        new_image_name = f"d-{image.name}"
+        path = pathlib.Path(image.parent / args.output / new_image_name).resolve()
+
+        logging.info(f"🖼Dithering '{image.name}'")
+        dim = fs_dither(img, args.nearest)
+
+        logging.info(f"💾Saving dithered image at '{path}'")
+        try:
+            dim.save(path, optimize=True)
+        except FileNotFoundError:
+            os.mkdir(directory)
+            dim.save(path, optimize=True)
+    else:
+        new_image_name = f"r-{image.name}"
+        path = pathlib.Path(image.parent / args.output / new_image_name).resolve()
+
+        logging.info(f"💾Saving resized image at '{path}'")
+        try:
+            img.save(path, optimize=True)
+        except FileNotFoundError:
+            os.mkdir(directory)
+            img.save(path, optimize=True)

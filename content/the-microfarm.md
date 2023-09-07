@@ -3,7 +3,7 @@ title: "the microfarm"
 aliases:
   - "The Microfarm"
 created: 2023-09-03T09:07:46+10:00
-modified: 2023-09-03T09:48:03+10:00
+modified: 2023-09-07T11:16:27+10:00
 tags:
   - evergreen
 ---
@@ -37,9 +37,15 @@ tags:
 
 ### Fermenting
 
+#### Recipes
+
 - [[notes/sauerkraut-recipe|Sauerkraut Recipe]]
 
 ### Dehydrating
+
+#### Recipes
+
+#### Problems
 
 - [[notes/case-hardening|Case Hardening]]
 
