@@ -3,7 +3,7 @@ title: "Fedge"
 alias:
   - "Fedge"
 created: 2023-09-08T09:53:10+10:00
-modified: 2023-09-08T10:16:44+10:00
+modified: 2023-09-08T10:51:23+10:00
 tags:
 - seed
 - sustainable-agriculture
@@ -18,14 +18,10 @@ Fedges should be planted with a variety of different plants to support biodivers
 For example, to provide food a bulk of the hedge can be planted with creeping plants like:
 
 To add nitrogen to the soil: 
-- Australian Natives
-	- Coral Creeper (K. Coccinea); and, 
-	- Native Wisteria Hardenbergia comptoniana.
-- Non-Natives
 	- Clover → Running Postman (*Kennedia prostrata*);
-	- Shrubs;
+	- Shrubs → Native Wisteria (*Hardenbergia comptoniana*) & Coral Creeper (*K. Coccinea*);
 	- Siberian Pea Shrubs → Pigeon pea (*Cajanus cajan*);
-	- Buffalo Berries.
+	- Buffalo Berries → Lilly Pilly (*Syzygium smithii*).
 
 While deep rooted plants like:
 - Chicory;
