@@ -3,7 +3,7 @@ title: "the microfarm"
 aliases:
   - "The Microfarm"
 created: 2023-09-03T09:07:46+10:00
-modified: 2023-09-07T17:38:06+10:00
+modified: 2023-09-08T09:52:45+10:00
 tags:
   - evergreen
 ---
@@ -12,11 +12,17 @@ tags:
 
 ### Permaculture
 
+#### Concepts
+
 - [[notes/permaculture|Permaculture]]
 - [[notes/polyculture|Polyculture]]
 	- [[notes/polyculture-practices|Polyculture Practices]]
 - [[notes/intercropping|Intercropping]]
 	- [[notes/intercropping-examples|Intercropping Examples]]
+
+#### Techniques
+
+- [[notes/fedge|fedge]]
 
 ### Vermicomposting
 
@@ -28,7 +34,7 @@ tags:
 
 ### Invasive species management
 
-- [[opportunistic-plants|Opportunistic Plants]]
+- [[notes/opportunistic-plants|Opportunistic Plants]]
 
 ### Pollution
 
