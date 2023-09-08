@@ -3,6 +3,7 @@ import argparse
 import logging
 import os
 import pathlib
+import sys
 
 import numpy as np
 from PIL import Image
@@ -77,47 +78,55 @@ if args.verbose:
 else:
     logging.basicConfig(level=logging.INFO)
 
+if args.nearest and args.nearest < 2:
+    logging.critical("invalid value: nearest colour must be greater than 1.")
+    sys.exit(-2)
+
 images = sorted([path for path in filter(lambda path: path.suffix in image_ext, content_dir.rglob('*'))])
 
 if not images:
     logging.warning(f"No images identified in {content_dir} and sub-folders.")
+    sys.exit(-2)
 else:
     logging.info(f"Processing {len(images)} images in {content_dir} and sub-folders.")
 
 for image in images:
-    img = Image.open(image)
-    width, height = img.size
-
-    if not args.colorize:
-        img = img.convert('L')
-
-    width, height = img.size
-    new_width = 800
-    new_height = int(height * new_width / width)
-    img = img.resize((new_width, new_height), Image.LANCZOS)
-
-    directory = pathlib.Path(image.parent / args.output).resolve()
-
-    if not args.resize:
-        new_image_name = f"d-{image.name}"
-        path = pathlib.Path(image.parent / args.output / new_image_name).resolve()
-
-        logging.info(f"🖼Dithering '{image.name}'")
-        dim = fs_dither(img, args.nearest)
-
-        logging.info(f"💾Saving dithered image at '{path}'")
-        try:
-            dim.save(path, optimize=True)
-        except FileNotFoundError:
-            os.mkdir(directory)
-            dim.save(path, optimize=True)
+    try:
+        img = Image.open(image)
+    except FileNotFoundError as e:
+        logging.error(e.strerror)
+        pass
     else:
-        new_image_name = f"r-{image.name}"
-        path = pathlib.Path(image.parent / args.output / new_image_name).resolve()
+        width, height = img.size
 
-        logging.info(f"💾Saving resized image at '{path}'")
-        try:
-            img.save(path, optimize=True)
-        except FileNotFoundError:
-            os.mkdir(directory)
-            img.save(path, optimize=True)
+        if not args.colorize:
+            img = img.convert('L')
+
+        width, height = img.size
+        new_width = 800
+        new_height = int(height * new_width / width)
+        img = img.resize((new_width, new_height), Image.LANCZOS)
+
+        directory = pathlib.Path(image.parent / args.output).resolve()
+
+        if not args.resize:
+            path = pathlib.Path(image.parent / args.output / image.name).resolve()
+
+            logging.info(f"🖼Dithering '{image.name}'")
+            dim = fs_dither(img, args.nearest)
+
+            logging.info(f"💾Saving dithered image at '{path}'")
+            try:
+                dim.save(path, optimize=True)
+            except FileNotFoundError:
+                os.mkdir(directory)
+                dim.save(path, optimize=True)
+        else:
+            path = pathlib.Path(image.parent / args.output / image.name).resolve()
+
+            logging.info(f"💾Saving resized image at '{path}'")
+            try:
+                img.save(path, optimize=True)
+            except FileNotFoundError:
+                os.mkdir(directory)
+                img.save(path, optimize=True)
