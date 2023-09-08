@@ -3,7 +3,7 @@ title: "the microfarm"
 aliases:
   - "The Microfarm"
 created: 2023-09-03T09:07:46+10:00
-modified: 2023-09-08T09:52:45+10:00
+modified: 2023-09-08T12:52:27+10:00
 tags:
   - evergreen
 ---
@@ -22,7 +22,7 @@ tags:
 
 #### Techniques
 
-- [[notes/fedge|fedge]]
+- [[notes/fedge|Fedge]]
 
 ### Vermicomposting
 
