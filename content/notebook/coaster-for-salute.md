@@ -1,6 +1,6 @@
 ---
 title: Coaster for Salut
-aliases: []
+alias: []
 created: 2023-06-03T00:00:00+10:00
 modified: 2023-06-18T19:58:33+10:00
 cover: /imgs/Coaster-for-Salut.png

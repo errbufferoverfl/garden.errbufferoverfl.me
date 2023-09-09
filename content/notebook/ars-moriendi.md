@@ -1,6 +1,7 @@
 ---
 title: Ars moriendi
-aliases: []
+alias: 
+  - "Ars moriendi"
 created: 2023-06-03T00:00:00+10:00
 modified: 2023-06-18T19:58:41+10:00
 cover: /imgs/ars-moriendi.png

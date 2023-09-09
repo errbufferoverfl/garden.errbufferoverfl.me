@@ -1,6 +1,6 @@
 ---
 title: Hyperbee
-aliases:
+alias:
   - Hyperbee
 created: 2023-06-11T00:00:00+10:00
 modified: 2023-08-12T17:02:20+10:00

@@ -1,6 +1,6 @@
 ---
 title: The Inner Sanctum
-aliases: []
+alias: []
 created: 2023-06-09T00:00:00+10:00
 modified: 2023-08-11T15:47:01+10:00
 cover: /imgs/The-Inner-Sanctum.png

@@ -1,6 +1,6 @@
 ---
 title: reproductive labor
-aliases:
+alias:
   - reproductive work
   - reproductive labor
 created: 2023-06-04T00:00:00+10:00

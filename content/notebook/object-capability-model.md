@@ -1,6 +1,6 @@
 ---
 title: Object-capability model
-aliases: []
+alias: []
 created: 2023-08-09T12:14:29+10:00
 modified: 2023-08-09T12:42:29+10:00
 tags:

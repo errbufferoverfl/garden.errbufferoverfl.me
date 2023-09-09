@@ -1,6 +1,6 @@
 ---
 title: the state
-aliases:
+alias:
   - who is the state
 created: 2023-06-12T00:00:00+10:00
 modified: 2023-08-11T21:45:15+10:00

@@ -1,6 +1,6 @@
 ---
 title: cash crops
-aliases: []
+alias: []
 created: 2023-06-23T17:31:07+10:00
 modified: 2023-06-23T17:34:41+10:00
 tags:

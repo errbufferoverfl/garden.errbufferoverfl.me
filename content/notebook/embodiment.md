@@ -1,6 +1,6 @@
 ---
 title: Embodiment
-aliases:
+alias:
   - embodiment
 created: 2023-06-12T00:00:00+10:00
 modified: 2023-08-12T17:18:07+10:00

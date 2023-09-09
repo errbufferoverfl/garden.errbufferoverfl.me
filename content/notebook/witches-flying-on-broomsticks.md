@@ -1,6 +1,6 @@
 ---
 title: Witches flying on broomsticks
-aliases: []
+alias: []
 created: 2023-06-03T00:00:00+10:00
 modified: 2023-08-11T08:35:14+10:00
 cover: /imgs/witches-flying-on-broomsticks.png

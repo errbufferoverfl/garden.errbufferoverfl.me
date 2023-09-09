@@ -1,6 +1,6 @@
 ---
 title: Using Pytest with Flask
-aliases: []
+alias: []
 created: 2023-07-14T11:44:22+10:00
 modified: 2023-08-11T08:35:33+10:00
 source:

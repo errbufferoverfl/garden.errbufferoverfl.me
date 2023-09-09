@@ -1,6 +1,6 @@
 ---
 title: neocolonialism
-aliases:
+alias:
   - neocolonist
 created: 2023-06-23T20:20:30+10:00
 modified: 2023-06-23T20:34:38+10:00

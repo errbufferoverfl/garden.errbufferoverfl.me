@@ -1,6 +1,6 @@
 ---
 title: IPFS
-aliases:
+alias:
   - IPFS
   - InterPlanetary File System
 created: 2023-06-11T00:00:00+10:00

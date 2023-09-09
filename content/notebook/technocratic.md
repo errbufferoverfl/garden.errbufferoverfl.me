@@ -1,6 +1,6 @@
 ---
 title: technocratic
-aliases:
+alias:
   - Technocratic
 created: 2023-06-12T00:00:00+10:00
 modified: 2023-06-17T21:41:00+10:00

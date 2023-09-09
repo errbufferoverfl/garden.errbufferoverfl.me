@@ -1,6 +1,6 @@
 ---
 title: Erlaubnis Project Diagrams
-aliases: []
+alias: []
 created: 2023-06-28T21:36:45+10:00
 modified: 2023-07-01T23:34:51+10:00
 tags:

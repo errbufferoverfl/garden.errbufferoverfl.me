@@ -1,6 +1,6 @@
 ---
 title: Languages that implement object capabilities
-aliases: []
+alias: []
 created: 2023-08-09T12:22:00+10:00
 modified: 2023-08-09T12:46:30+10:00
 tags:

@@ -1,6 +1,7 @@
 ---
-title: The history of witches and wizards
-aliases: []
+title: "The history of witches and wizards"
+alias:
+  - "The History of Witches and Wizards"
 created: 2023-06-03T00:00:00+10:00
 modified: 2023-06-18T19:58:48+10:00
 cover: /imgs/a-feast-around-a-table-with-devils-and-witches.png
