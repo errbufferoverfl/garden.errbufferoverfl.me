@@ -9,11 +9,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f51fb250-c078-40c5-a73c-9dd884612e66" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/garden.errbufferoverfl.me.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/garden.errbufferoverfl.me.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/content/the-notebook/hypercore.md" beforeDir="false" afterPath="$PROJECT_DIR$/content/the-notebook/hypercore.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/quartz.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/quartz.config.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quartz/plugins/emitters/contentIndex.ts" beforeDir="false" afterPath="$PROJECT_DIR$/quartz/plugins/emitters/contentIndex.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +193,7 @@
       <workItem from="1694261258416" duration="27000" />
       <workItem from="1694262163860" duration="5000" />
       <workItem from="1694262173529" duration="269000" />
-      <workItem from="1694262464062" duration="368000" />
+      <workItem from="1694262464062" duration="1140000" />
     </task>
     <servers />
   </component>

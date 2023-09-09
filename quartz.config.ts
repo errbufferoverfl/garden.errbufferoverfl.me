@@ -4,7 +4,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "🪴errbufferoverfl's \n Digital Garden",
-    enableSPA: true,
+    enableSPA: false,
     enablePopovers: true,
     baseUrl: "garden.errbufferoverfl.me",
     ignorePatterns: ["private", "templates", ".obsidian"],
