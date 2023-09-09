@@ -9,15 +9,15 @@ modified: 2023-09-09T18:52:56+10:00
 ---
 Welcome to my digital garden. 🌱
 
-I'm **[errbufferoverfl](notebook/errbufferoverfl.md)**, or Buffy for short. I'm a non-binary (**they/sie/ze**) anarchist, gardener, knowledge librarian, and security engineer by trade.
+I'm **[errbufferoverfl](the-notebook/errbufferoverfl.md)**, or Buffy for short. I'm a non-binary (**they/sie/ze**) anarchist, gardener, knowledge librarian, and security engineer by trade.
 
-I currently live on the unceded land of the [Wadawurrung and Dja Dja Wurrung People](notebook/wadawurrung-and-dja-dja-wurrung-people.md).
+I currently live on the unceded land of the [Wadawurrung and Dja Dja Wurrung People](the-notebook/wadawurrung-and-dja-dja-wurrung-people.md).
 
 # 🌈 Now
 
 - 📐 Security Engineer @ Canva.
 - 🧠 Learning how to be a better [[anarchist]], anti-capitalist and revolutionary.
-- 👨‍💻 Currently working on making this site available on a handful of esoteric protocols like [[notebook/ipfs|IPFS]] and [[notebook/hypercore|Hypercore]]:
+- 👨‍💻 Currently working on making this site available on a handful of esoteric protocols like [[the-notebook/ipfs|IPFS]] and [[the-notebook/hypercore|Hypercore]]:
 	- [x] `ipfs://garden.ipfs.errbufferoverfl.me`
 	- [x] `hyper://garden.hyper.errbufferoverfl.me`
 	- [ ] `gemini://garden.gemini.errbufferoverfl.me`

@@ -49,7 +49,7 @@ Constitutions aren't static documents (nor do they need to be written documents!
 
 Supporting the process of constitutionalising doesn't imply that [anarchists](anarchist) need to support or defend the constitution of state and nation. But we should acknowledge that a constitution in a group or coalition can be helpful in defining our understanding of right and wrong, and balancing power.
 
-The difference with constitutions backed by [the state](../notebook/the-state.md) is not only are they remain fixed and difficult to change even when our ideas of equality, equity and material power change. This is compounded by the fact the state often uses coercive controls to keep people from contesting or challenging the existing constitution.
+The difference with constitutions backed by [the state](../the-notebook/the-state.md) is not only are they remain fixed and difficult to change even when our ideas of equality, equity and material power change. This is compounded by the fact the state often uses coercive controls to keep people from contesting or challenging the existing constitution.
 
 Modern constitutions represent the interests of the most powerful individuals and groups in society and changing these constitutions means changing the interests of the most powerful – which is unlikely to happen especially if as part of redefining the constitution their power and privilege is reduced, redistributed or removed.
 
@@ -61,7 +61,7 @@ A constitution, wether written or not should aim to create a shared understandin
 
 **Consensual** doesn't mean being told what to do, to have a proper consensual agreement, everyone should be able to shape the agreement, or at the least have their needs taken into account.
 
-Protracted meetings about policies can lead to a group losing people who are keen to get things done, it's important to find compromise [Consensus and Humming in the IETF](../notebook/consensus-and-humming-in-the-ietf.md) provides a method of creating rough consensus that I think is applicable here.
+Protracted meetings about policies can lead to a group losing people who are keen to get things done, it's important to find compromise [Consensus and Humming in the IETF](../the-notebook/consensus-and-humming-in-the-ietf.md) provides a method of creating rough consensus that I think is applicable here.
 
 Constitutions should be revised regularly, cadence can be decided by the group but it can be tied to key events, like new people joining, established members leaving etc., it could also be regularly updated as established members update their views and/or circumstances change.
 

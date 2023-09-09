@@ -1,13 +1,13 @@
 ---
 title: "Aquarium Algae Scrubber"
-alias: 
-	- "Aquarium Algae Scrubber"
+alias:
+  - "Aquarium Algae Scrubber"
 created: 2023-06-03T00:00:00+10:00
-modified: 2023-06-18T23:08:38+10:00
-source: https://www.youtube.com/watch?v=qGLnBvDkaO0
+modified: 2023-09-09T19:33:59+10:00
+source: "https://www.youtube.com/watch?v=qGLnBvDkaO0"
 tags:
-- seed
-- solarpunk
+  - seed
+  - solarpunk
 ---
 
 An algae scrubber is a water filtering device thats used to grow algae, which in the process, filters undesirable chemicals like nitrate, phosphate, nitrite, ammonia, ammonium from the water.

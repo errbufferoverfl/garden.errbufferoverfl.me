@@ -16,19 +16,19 @@ tags:
 
 #### Concepts
 
-- [[notebook/permaculture|Permaculture]]
-- [[notebook/polyculture|Polyculture]]
-	- [[notebook/polyculture-practices|Polyculture Practices]]
-- [[notebook/intercropping|Intercropping]]
-	- [[notebook/intercropping-examples|Intercropping Examples]]
+- [[the-notebook/permaculture|Permaculture]]
+- [[the-notebook/polyculture|Polyculture]]
+	- [[the-notebook/polyculture-practices|Polyculture Practices]]
+- [[the-notebook/intercropping|Intercropping]]
+	- [[the-notebook/intercropping-examples|Intercropping Examples]]
 
 #### Techniques
 
-- [[notebook/fedge|Fedge]]
+- [[the-notebook/fedge|Fedge]]
 
 ### Vermicomposting
 
-- [[notebook/fat-worm-recipe|Fat Worm Recipe]]
+- [[the-notebook/fat-worm-recipe|Fat Worm Recipe]]
 
 ## Environment
 
@@ -36,11 +36,11 @@ tags:
 
 ### Invasive species management
 
-- [[notebook/opportunistic-plants|Opportunistic Plants]]
+- [[the-notebook/opportunistic-plants|Opportunistic Plants]]
 
 ### Pollution
 
-- [[notebook/eutrophication|Eutrophication]]
+- [[the-notebook/eutrophication|Eutrophication]]
 
 ## Food
 
@@ -50,7 +50,7 @@ tags:
 
 #### Recipes
 
-- [[notebook/sauerkraut-recipe|Sauerkraut Recipe]]
+- [[the-notebook/sauerkraut-recipe|Sauerkraut Recipe]]
 
 ### Dehydrating
 
@@ -58,7 +58,7 @@ tags:
 
 #### Problems
 
-- [[notebook/case-hardening|Case Hardening]]
+- [[the-notebook/case-hardening|Case Hardening]]
 
 ### Foraging
 

@@ -8,7 +8,7 @@ tags:
 - tool
 ---
 
-> An open source publishing tool for the World Wide Web and [[Distributed Web]]. It automates publishing to the world wide web, and seeds to [IPFS](../notebook/ipfs.md) and [Holepunch](../notebook/holepunch.md).
+> An open source publishing tool for the World Wide Web and [[Distributed Web]]. It automates publishing to the world wide web, and seeds to [IPFS](../the-notebook/ipfs.md) and [Holepunch](../the-notebook/holepunch.md).
 
 [Website](https://distributed.press/)  ·  [Github Repo](https://github.com/hyphacoop/api.distributed.press)
 

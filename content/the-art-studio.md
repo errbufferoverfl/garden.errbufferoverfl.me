@@ -41,10 +41,10 @@ If you want to stay connected and show your support, you can follow or supported
 
 ## Mediums
 
-### [Gouache](notebook/gouache.md)
+### [Gouache](the-notebook/gouache.md)
 
 {{<summary link="notebook/gouache">}}
 
-### [Woodblock](notebook/woodblock.md)
+### [Woodblock](the-notebook/woodblock.md)
 
 {{<summary link="notebook/woodblock">}}

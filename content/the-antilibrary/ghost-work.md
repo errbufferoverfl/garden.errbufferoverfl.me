@@ -65,7 +65,7 @@ In the same way as fruit picking in Australia, it's not that the technology indu
 
 Grey reports that [[FAANG]] companies often use ghost work to remove as much "not safe for work" content from their platform, for me the call out and an important distinction here is that it's not safe for **work**, not, not safe for people, which begs the question why are we investing so much money into sanitising the Internet? (That's a rhetorical question).
 
-Within the first few pages Grey has already set the scene for this book – there is the general understanding that this work is **important** and **valuable** to the usability of the platform but the associated monetary value is low. I mean it is exactly like how we value [[../notebook/reproductive-labor|reproductive labor]].
+Within the first few pages Grey has already set the scene for this book – there is the general understanding that this work is **important** and **valuable** to the usability of the platform but the associated monetary value is low. I mean it is exactly like how we value [[../the-notebook/reproductive-labor|reproductive labor]].
 
 On page xiv of the introduction, Grey says:
 > Unlike CPUs, humans have agency: they make their own decisions.
@@ -82,7 +82,7 @@ In 2016, Amazon's 20 fulfilment centres apparently deployed 45, 00 robots to wor
 
 Robots and automations often allow employers to have what they want, when they want it, which allows them to avoid navigating the the problems of negotiating with employees for better, safer working conditions. It also means they no longer need to deal with the classification of types of work, or engaging with the employment laws that are protecting humans.
 
-Dismantling employment on the surface sounds positive, but this is occurring along side the dismantling of the [[welfare state]], which encourages this value of [[../notebook/rugged-individualism]].
+Dismantling employment on the surface sounds positive, but this is occurring along side the dismantling of the [[welfare state]], which encourages this value of [[../the-notebook/rugged-individualism]].
 
 We're also seeing years of global reform be undone, from child labor laws,[^6] [^7]to workplace safety guidelines.[^8]
 

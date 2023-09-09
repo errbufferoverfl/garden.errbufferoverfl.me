@@ -17,7 +17,6 @@ async function drawGraph(baseUrl, isHome, pathColors, graphConfig) {
 
   // host + path for current page
   const cleanUrl = window.location.origin + window.location.pathname;
-  console.log(cleanUrl)
 
   // host + path for current page, with trailing slashes removed
   const currentPage = cleanUrl.replace(/\/$/g, "").replace(baseUrl, "");
