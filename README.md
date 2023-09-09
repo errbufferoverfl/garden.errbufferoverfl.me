@@ -54,7 +54,7 @@ garden.errbufferoverfl.me is my second brain and mind garden. It's an alternativ
 Here's a brief high-level overview of the tech stack garden.errbufferoverfl.me uses:
 
 - [Quartz](https://github.com/jackyzha0/quartz) for mind-garden theming, and static website generation.
-- Content is managed using [Obsidian](https://obsidian.md/).
+- Content is managed using [Obsidian](https://obsidian.md/)
 - Deployed to Github Pages, [Hypercore](https://docs.holepunch.to/) & [IPFS](https://en.wikipedia.org/wiki/InterPlanetary_File_System).
 - Images are dithered using [Pillow](https://pillow.readthedocs.io/en/stable/).
 
