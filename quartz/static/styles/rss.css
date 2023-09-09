@@ -1,0 +1,81 @@
+@font-face {
+    font-family: Marcellus;
+    src: url("/static/font/Marcellus.ttf");
+}
+
+@font-face {
+    font-family: Inconsolata;
+    src: url("/static/font/Inconsolata.ttf");
+}
+
+:root {
+    --callout-summary: #00b0ff;
+    --callout-summary-accent: #ccefff;
+    --font-body: monospace;
+    --font-header: 'Marcellus', serif;
+    --light: #faf8f8;
+}
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+}
+
+body {
+    display: grid;
+    gap: 5vw;
+    max-width: 46rem;
+    width: 95%;
+    margin: auto;
+    background-color: var(--light);
+}
+
+h1, h2, h3, h4, h5, h6, thead {
+    font-family: var(--font-header);
+    color: var(--dark);
+    font-weight: revert;
+}
+
+p, ul, text, a, tr, td, li, ol, ul {
+    font-family: var(--font-body);
+    line-height: 1.6rem;
+    color: var(--gray);
+    fill: var(--gray);
+    font-weight: revert;
+    margin: revert;
+    padding: revert;
+}
+
+tbody, li, p {
+    line-height: 1.5em;
+}
+
+svg {
+    height: 30px;
+    width: 30px;
+    padding-right: 10px;
+}
+
+.callout-info {
+    display: block;
+    margin: 3rem 0;
+    padding: 1rem 1rem;
+    border: 1px solid var(--callout-summary);
+    border-left-width: .5rem;
+    border-radius: .4rem;
+    background-color: var(--callout-summary-accent);
+}
+
+header h1 {
+    display: flex;
+    align-items: flex-start;
+    line-height: 1;
+    margin-bottom: 2rem;
+}
+
+main article {
+    padding-bottom: 1rem;
+}
+
+main article footer {
+    font-style: italic;
+}
