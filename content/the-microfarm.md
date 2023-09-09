@@ -1,11 +1,13 @@
 ---
-title: "the microfarm"
+title: "The Microfarm"
 aliases:
   - "The Microfarm"
+  - "the microfarm"
 created: 2023-09-03T09:07:46+10:00
-modified: 2023-09-08T12:52:27+10:00
+modified: 2023-09-09T17:51:12+10:00
 tags:
   - evergreen
+  - compendium
 ---
 
 ## Agriculture
@@ -14,19 +16,19 @@ tags:
 
 #### Concepts
 
-- [[notes/permaculture|Permaculture]]
-- [[notes/polyculture|Polyculture]]
-	- [[notes/polyculture-practices|Polyculture Practices]]
-- [[notes/intercropping|Intercropping]]
-	- [[notes/intercropping-examples|Intercropping Examples]]
+- [[notebook/permaculture|Permaculture]]
+- [[notebook/polyculture|Polyculture]]
+	- [[notebook/polyculture-practices|Polyculture Practices]]
+- [[notebook/intercropping|Intercropping]]
+	- [[notebook/intercropping-examples|Intercropping Examples]]
 
 #### Techniques
 
-- [[notes/fedge|Fedge]]
+- [[notebook/fedge|Fedge]]
 
 ### Vermicomposting
 
-- [[notes/fat-worm-recipe|Fat Worm Recipe]]
+- [[notebook/fat-worm-recipe|Fat Worm Recipe]]
 
 ## Environment
 
@@ -34,11 +36,11 @@ tags:
 
 ### Invasive species management
 
-- [[notes/opportunistic-plants|Opportunistic Plants]]
+- [[notebook/opportunistic-plants|Opportunistic Plants]]
 
 ### Pollution
 
-- [[notes/eutrophication|Eutrophication]]
+- [[notebook/eutrophication|Eutrophication]]
 
 ## Food
 
@@ -48,7 +50,7 @@ tags:
 
 #### Recipes
 
-- [[notes/sauerkraut-recipe|Sauerkraut Recipe]]
+- [[notebook/sauerkraut-recipe|Sauerkraut Recipe]]
 
 ### Dehydrating
 
@@ -56,7 +58,7 @@ tags:
 
 #### Problems
 
-- [[notes/case-hardening|Case Hardening]]
+- [[notebook/case-hardening|Case Hardening]]
 
 ### Foraging
 

@@ -15,7 +15,7 @@ tags:
 
 ## About Distributed Press
 
-[Distributed Press](https://docs.distributed.press/) is an open source publishing tool for the World Wide Web and Distributed Web. It automates publishing and hosting content to the web that it seeds to decentralized protocols like [[../notes/hypercore|Hypercore]] and [[../notes/ipfs|IPFS]].
+[Distributed Press](https://docs.distributed.press/) is an open source publishing tool for the World Wide Web and Distributed Web. It automates publishing and hosting content to the web that it seeds to decentralized protocols like [[../notebook/hypercore|Hypercore]] and [[../notebook/ipfs|IPFS]].
 
 > [!warning] Prerequisite Knowledge
 > 

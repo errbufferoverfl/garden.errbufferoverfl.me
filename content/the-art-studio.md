@@ -1,12 +1,13 @@
 ---
-title: "the art studio"
+title: "The Art Studio"
 alias:
+  - "The Art Studio"
   - "the art studio"
 created: 2023-05-31T00:00:00+10:00
-modified: 2023-08-17T20:45:41+10:00
+modified: 2023-09-09T18:09:20+10:00
 tags:
-- personal
-- evergreen
+  - evergreen
+  - compendium
 ---
 If you've been enjoying my work and finding it entertaining. Your support means the world to me, and I can't thank you enough for being a part of this journey.
 
@@ -14,28 +15,36 @@ If you want to stay connected and show your support, you can follow or supported
 
 ## Projects
 
-### [anarchic illustrations](art/anarchic-illustrations.md)
+### [Anarchic Illustrations](the-art-studio/anarchic-illustrations.md)
 
-{{<summary link="art/anarchic-illustrations">}}
+{{<summary link="the-art-studio/anarchic-illustrations">}}
 
-### [100 days of gouache](art/one-hundered-days-of-gouache.md)
+### [Digital Paintings](the-art-studio/digital-paintings.md)
 
-{{<summary link="art/one-hundered-days-of-gouache">}}
+{{<summary link="the-art-studio/digital-paintings">}}
 
-### [vegetable portraits](art/vegetable-portraits.md)
+### [100 Days of Gouache](the-art-studio/one-hundered-days-of-gouache.md)
 
-{{<summary link="art/vegetable-portraits">}}
+{{<summary link="the-art-studio/one-hundered-days-of-gouache">}}
 
-### [work in progress](art/work-in-progress.md)
+### [Linoprints](the-art-studio/linoprints.md)
 
-{{<summary link="art/work-in-progress">}}
+{{<summary link="the-art-studio/linoprint.md">}}
+
+### [Sketches](the-art-studio/sketches.md)
+
+{{<summary link="the-art-studio/sketches">}}
+
+### [Work in Progress](the-art-studio/work-in-progress.md)
+
+{{<summary link="the-art-studio/work-in-progress.md">}}
 
 ## Mediums
 
-### [gouache](notes/gouache.md)
+### [Gouache](notebook/gouache.md)
 
-{{<summary link="notes/gouache">}}
+{{<summary link="notebook/gouache">}}
 
-### [woodblock](notes/woodblock.md)
+### [Woodblock](notebook/woodblock.md)
 
-{{<summary link="notes/woodblock">}}
+{{<summary link="notebook/woodblock">}}

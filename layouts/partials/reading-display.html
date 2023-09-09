@@ -2,7 +2,7 @@
   <a href="#currently-reading">
     <h2 id="currently-reading">Currently Reading</h2>
   </a>
-  {{- $notes := where .Site.RegularPages "Section" "books" -}}
+  {{- $notes := where .Site.RegularPages "Section" "the-antilibrary" -}}
   <ul class="delay t-3 stagger">
     {{- range first 1 (where $notes "Params.status" "==" "In Progress" ) -}}
     <li>
