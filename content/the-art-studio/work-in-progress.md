@@ -1,10 +1,7 @@
 ---
 title: "Work in Progress"
-alias:
-  - "Work in Progress"
-  - "work in progress"
 created: 2023-09-09T11:01:56+10:00
-modified: 2023-09-09T20:13:18+10:00
+modified: 2023-09-09T22:34:29+10:00
 tags:
 - project
 ---

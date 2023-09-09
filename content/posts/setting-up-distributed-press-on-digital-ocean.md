@@ -1,9 +1,7 @@
 ---
 title: "Setting Up Distributed Press on Digital Ocean"
-alias:
-- "Setting Up Distributed Press on Digital Ocean"
 created: 2023-06-11T00:00:00+10:00
-modified: 2023-08-13T08:29:16+10:00
+modified: 2023-09-09T22:34:17+10:00
 tags:
 - seed
 - dweb
@@ -121,7 +119,7 @@ systemctl status distributed.press
 
 When I installed my `distributed.press` instance a few things failed to initialize as expected so it's worth manually checking these.
 
-### Ensure `ufw` is active
+### Ensure `ufw` is Active
 
 To make sure the firewall is up, you can run:
 
@@ -161,7 +159,7 @@ If you find that `ufw` is not enabled, you'll want to enable it.
 ufw enable
 ```
 
-### Ensure the private keys are generated
+### Ensure the Private Keys Are Generated
 
 Normally `ansible` will [handle generating a key for the JWT](https://github.com/hyphacoop/api.distributed.press/blob/b23534e6652cab20c2b10a3dcd85529344139462/ansible/roles/distributed_press/tasks/main.yml#L76-L82) however, in my case this didn't work and I had to manually generate a key.
 
@@ -179,7 +177,7 @@ cd api.distributed.press
 npm run keygen
 ```
 
-## Get a `root` admin token
+## Get a `root` Admin Token
 
 Authorisation on the service is handled using JSON Web Tokens (JWTs) that are issued to specific users.
 
@@ -208,7 +206,7 @@ For more information on how to you the API you can find the Swagger docs hosted 
 
 ## Additional Notes
 
-### Creating a new Publisher
+### Creating a New Publisher
 
 To make sure we're always operating in line with the principal of least privilege exchange the root token for a new one with the publisher subset of capabilities:
 
@@ -219,7 +217,7 @@ curl -X POST https://distributed.errbufferoverfl.me/v1/publisher \
 -d '{"name":"garden.errbufferoverfl.me"}'
 ```
 
-### Add a site to a Publisher
+### Add a Site to a Publisher
 
 ```shell {title="terminal"}
 curl -X POST https://distributed.errbufferoverfl.me/v1/sites \
@@ -243,7 +241,7 @@ curl -X POST https://distributed.errbufferoverfl.me/v1/sites \
 > }
 > ```
 
-### Unable to resolve remote host **after** installation
+### Unable to Resolve Remote Host **after** Installation
 
 If you were running on a version of apt-based Linux and had to disable the default DNS server to get node working, when you attempt to run `apt-update` or try to run the Ansible script again it **will** fail.
 

@@ -1,10 +1,7 @@
 ---
 title: "100 Days of Gouache"
-alias:
-  - "100 Days of Gouache"
-  - "100 days of gouache"
 created: 2023-06-02T00:00:00+10:00
-modified: 2023-09-09T20:13:04+10:00
+modified: 2023-09-09T22:34:29+10:00
 tags:
 - oeuvre
 ---

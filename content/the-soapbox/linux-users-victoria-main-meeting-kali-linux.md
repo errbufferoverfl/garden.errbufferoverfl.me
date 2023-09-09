@@ -1,7 +1,7 @@
 ---
 title: "Linux Users Victoria Main Meeting Kali Linux"
 created: 2019-05-07T00:00:00+10:00
-modified: 2023-08-15T22:12:02+10:00
+modified: 2023-09-09T22:34:39+10:00
 tags:
 - meetup
 - hacking

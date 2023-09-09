@@ -1,10 +1,7 @@
 ---
 title: "sauerkraut recipe"
-alias:
-  - sauerkraut-recipe
-  - Sauerkraut Recipe
 created: 2023-07-01T09:38:09+10:00
-modified: 2023-09-09T19:44:59+10:00
+modified: 2023-09-09T22:33:58+10:00
 tags:
 - recipe
 - fermenting

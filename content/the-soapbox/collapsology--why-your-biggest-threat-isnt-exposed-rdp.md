@@ -1,7 +1,7 @@
 ---
 title: "Collapsology: Why your biggest threat isn’t exposed RDP"
 created: 2021-09-13T00:00:00+10:00
-modified: 2023-08-15T22:12:08+10:00
+modified: 2023-09-09T22:34:39+10:00
 tags:
 - conference
 - security-culture
@@ -22,7 +22,7 @@ border-radius: 8px; will-change: transform;">
 
 [[attachements/collapsology-why-your-biggest-threat-isnt-exposed-rdp-errbufferoverfl.pdf|PDF Download (without speakers notes)]]
 
-### Security Culture 
+## Security Culture
 
 The People-Centric Security Toolkit by [Lance Hayden](https://twitter.com/hay_lance) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-sa/4.0/).
 
@@ -34,7 +34,7 @@ The People-Centric Security Toolkit can also be downloaded in it’s original fo
 - [[attachements/security-culture-toolkit/Security_FORCE_Survey.zip|Security FORCE Survey]]
 - [[attachements/security-culture-toolkit/Security_FORCE_Metrics.zip|Security FORCE Metrics]]
 
-### Resources
+## Resources
 
 **Essential Cybersecurity Science**
 
@@ -60,7 +60,7 @@ Aaron Rinehart & Kelly Shortridge · ISBN: 978-1-492-08034-3
 
 [oreilly.com](https://www.oreilly.com/library/view/security-chaos-engineering/9781492080350/)
 
-### References
+## References
 
 - [Apple’s child protection features spark concern within its own ranks](https://reut.rs/3kSVJxG)
 - [Slack rolls back parts of its new DM feature over harassment concerns](https://bit.ly/3BHy1eG)

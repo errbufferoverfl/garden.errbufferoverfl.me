@@ -1,10 +1,7 @@
 ---
 title: "Anarchic Illustrations"
-alias:
-  - "Anarchic Illustrations"
-  - "anarchic illustrations"
 created: 2023-07-14T10:56:15+10:00
-modified: 2023-09-09T20:12:30+10:00
+modified: 2023-09-09T22:34:29+10:00
 tags:
 - project
 ---

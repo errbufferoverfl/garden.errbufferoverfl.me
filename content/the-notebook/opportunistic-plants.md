@@ -1,12 +1,7 @@
 ---
 title: "Opportunistic Plants"
-alias:
-  - opportunistic-plants
-  - "Opportunistic Plants"
-  - "Weeds"
-  - "Invasive Species"
 created: 2023-09-07T17:38:10+10:00
-modified: 2023-09-09T19:44:59+10:00
+modified: 2023-09-09T22:33:58+10:00
 tags:
 - seed
 - sustainable-agriculture

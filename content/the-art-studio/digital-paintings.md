@@ -4,7 +4,7 @@ aliases:
   - "Digital Paintings"
   - "digital paintings"
 created: 2023-06-06T00:00:00+10:00
-modified: 2023-09-09T20:12:39+10:00
+modified: 2023-09-09T22:34:29+10:00
 tags:
 - project
 ---

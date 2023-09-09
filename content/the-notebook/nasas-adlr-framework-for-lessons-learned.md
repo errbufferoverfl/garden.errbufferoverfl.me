@@ -1,8 +1,7 @@
 ---
 title: "NASA's ADLR Framework for Lessons Learned"
-alias: "[nasas-adlr-framework-for-lessons-learned]"
 created: 2023-07-14T11:28:12+10:00
-modified: 2023-09-09T19:44:59+10:00
+modified: 2023-09-09T22:33:58+10:00
 source: https://www.cortexfutura.com/nasa-adlr-lessons-learned-tana/
 tags:
 - seed

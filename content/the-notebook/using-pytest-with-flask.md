@@ -1,8 +1,7 @@
 ---
 title: "Using Pytest with Flask"
-alias: "[using-pytest-with-flask]"
 created: 2023-07-14T11:44:22+10:00
-modified: 2023-09-09T19:44:59+10:00
+modified: 2023-09-09T22:33:58+10:00
 source:
 - https://testdriven.io/blog/flask-pytest/
 - https://miguendes.me/how-to-check-if-an-exception-is-raised-or-not-with-pytest
@@ -11,7 +10,7 @@ tags:
 - technical
 ---
 
-## What to test?
+## What to Test?
 
 Unit tests should focus on testing a small unit of code in isolation:
 - Database models

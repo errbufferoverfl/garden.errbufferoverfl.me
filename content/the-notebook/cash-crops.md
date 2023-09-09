@@ -1,8 +1,7 @@
 ---
 title: "cash crops"
-alias: "[cash-crops]"
 created: 2023-06-23T17:31:07+10:00
-modified: 2023-09-09T19:44:59+10:00
+modified: 2023-09-09T22:33:58+10:00
 tags:
 - seed
 - agriculture

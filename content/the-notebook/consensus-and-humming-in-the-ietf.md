@@ -1,8 +1,7 @@
 ---
 title: "Consensus and Humming in the IETF"
-alias: "[consensus-and-humming-in-the-ietf]"
 created: 2023-06-20T18:37:06+10:00
-modified: 2023-09-09T19:44:59+10:00
+modified: 2023-09-09T22:33:58+10:00
 tags:
 - seed
 - rfc
@@ -23,7 +22,7 @@ Instead the IETF have a tradition of humming – for example, when there is a fa
 
 **But this doesn't answer why humming and not voting.**
 
-## 1. Lack of disagreement is more important than agreement.
+## 1. Lack of Disagreement is More Important than Agreement.
 Consider the following:
 > The chair asks on the mailing list, "Is everyone OK with format A?"  Inevitably, a number of people object to format A for one or another technical reason.  The chair then says, "It sounds like we don't have consensus to use format A.  Is everyone OK with format B?" This time even more people object to format B, on different technical grounds.  The chair, not having agreement on either format A or format B, is left perplexed, thinking the working group has deadlocked.
 
@@ -39,7 +38,7 @@ So really:
 > Consensus is when everyone is sufficiently satisfied with the
    chosen solution.
 
-## 2. Rough consensus is achieved when all issues are addressed, but not necessarily accommodated
+## 2. Rough Consensus is Achieved when All Issues Are Addressed, but not Necessarily Accommodated
 
 In the IETF, a working group will likely encounter an objection where:
 - Everyone understands the issue.
@@ -57,7 +56,7 @@ And while [RFC 2418](https://www.rfc-editor.org/rfc/rfc2418.html) puts some perc
 
 So it's important that a **rough consensus model** addresses (not necessarily fixes) important minority views.
 
-## 3. Humming should be the start of a conversation
+## 3. Humming Should Be the Start of a Conversation
 
 Final decisions are supposed to be taken on the mailing list, but sometimes, the chair will want to determine they are coming to consensus.
 
@@ -75,7 +74,7 @@ A small but loud group of hums for option A and a larger, but more non-committal
 
 You could also be surprised to find that the hums is unanimous and no further discussion is needed.
 
-## 4. Consensus is the path, not the destination
+## 4. Consensus is the Path, not the Destination
 
 The IETF doesn't see consensus as the destination, rather consensus-building is a tool to get the best technical outcome. They found voting can result in important minority views being ignored, and, ultimately worse technical outcomes.
 

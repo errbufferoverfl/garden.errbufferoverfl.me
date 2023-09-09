@@ -1,10 +1,7 @@
 ---
 title: "case hardening"
-alias:
-  - case-hardening
-  - "Case Hardening"
 created: 2023-09-03T09:32:43+10:00
-modified: 2023-09-09T19:44:59+10:00
+modified: 2023-09-09T22:33:58+10:00
 tags:
 - seed
 - dehydrating

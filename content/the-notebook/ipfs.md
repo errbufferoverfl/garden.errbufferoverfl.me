@@ -1,11 +1,7 @@
 ---
 title: "IPFS"
-alias:
-  - ipfs
-  - "IPFS"
-  - "InterPlanetary File System"
 created: 2023-06-11T00:00:00+10:00
-modified: 2023-09-09T19:44:59+10:00
+modified: 2023-09-09T22:33:58+10:00
 tags:
   - seed
   - dweb
@@ -23,7 +19,7 @@ To develop IPFS, in 2017 Protocol Labs launched its own cryptocurrency named Fil
 
 Cloudflare started using IPFS in 2018 and launched its own gateway in 2022.
 
-## How is it being used?
+## How is it Being Used?
 
 - Cryptocurrency
 - Content Delivery

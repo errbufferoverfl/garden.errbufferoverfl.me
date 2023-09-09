@@ -1,10 +1,7 @@
 ---
-alias:
-  - 🗺️ Explore
-  - 🌈 Now
 title: "🛖 Home"
 created: 2023-05-27T00:00:00+10:00
-modified: 2023-09-09T20:20:40+10:00
+modified: 2023-09-09T22:35:21+10:00
 ---
 
 Howdy! 👋🏻

@@ -1,10 +1,7 @@
 ---
 title: "Fat Worm Recipe"
-alias:
-  - fat-worm-recipe
-  - "Fat Worm Recipe"
 created: 2023-08-13T08:20:04+10:00
-modified: 2023-09-09T19:44:59+10:00
+modified: 2023-09-09T22:33:58+10:00
 tags:
 - seed
 - sustainable-agriculture

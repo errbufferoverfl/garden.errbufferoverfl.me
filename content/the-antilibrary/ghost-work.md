@@ -2,7 +2,7 @@
 title: Ghost Work
 cover: /imgs/ghost-work.png
 created: 2023-06-29T23:00:43+10:00
-modified: 2023-09-09T22:09:54+10:00
+modified: 2023-09-09T22:34:24+10:00
 status: "Completed"
 completed: 2023-08-17
 author:

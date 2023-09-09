@@ -1,7 +1,7 @@
 ---
 title: "Agloe: What the Map Makers of the 1930s can Teach us About Protecting our Data in 2018"
 created: 2018-08-24T00:00:00+10:00
-modified: 2023-08-15T22:12:12+10:00
+modified: 2023-09-09T22:34:39+10:00
 tags:
 - conference
 - pycon

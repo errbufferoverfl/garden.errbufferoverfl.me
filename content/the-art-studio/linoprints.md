@@ -1,10 +1,7 @@
 ---
 title: "Linoprints"
-alias:
-  - "Linoprints"
-  - "linoprints"
 created: 2023-09-09T11:10:06+10:00
-modified: 2023-09-09T20:12:49+10:00
+modified: 2023-09-09T22:34:29+10:00
 tags:
 - project
 ---

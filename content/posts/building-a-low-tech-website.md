@@ -3,7 +3,7 @@ title: Building a Low Tech Website
 aliases:
 - Building a Low Tech Website
 created: 2023-08-12T08:12:50+10:00
-modified: 2023-08-17T20:48:15+10:00
+modified: 2023-09-09T22:34:17+10:00
 enableToc: "true"
 draft: "true"
 tags:
@@ -39,7 +39,7 @@ In 2022, a report produced by Greenpeace East Asian and Stand.earth found that w
 
 And while many internet service providers and tech companies have been making the switch to renewable energy, this arguably isn't enough to continue to address the current scale of the Internet, and future needs.
 
-## How much energy does the Internet Use?
+## How much Energy Does the Internet Use?
 
 In 2011, Barath Raghavan and Justin Ma of ICSI and University of California, Berkeley, worked to estimate the amount of electricity the Internet requires. Their estimates take into account the the energy we use to create the Internet itself. That includes all the power needed to build computers, network connections, cell-phone towers and other hardware.[^9]
 
@@ -72,7 +72,7 @@ In researching low-tech solutions, I found there was no one definition of what "
 5. Regenerative: The products and services we provide will support an economy that nourishes people and planet.
 6. Resilient: The products and services we provide will function in the times and places where people need them most.
 
-## Shared Responsibility 
+## Shared Responsibility
 
 I think that fixation of individual responsibility is a distraction from the more important task of compelling government and big technology companies to implement systemic change as well as taking direct action.
 

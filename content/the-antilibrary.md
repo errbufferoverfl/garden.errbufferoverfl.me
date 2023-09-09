@@ -1,10 +1,7 @@
 ---
 title: "The Anti-Library"
-alias:
-  - "The Anti-Library"
-  - "the anti-library"
 created: 2023-05-28T00:00:00+10:00
-modified: 2023-09-09T20:17:53+10:00
+modified: 2023-09-09T22:35:17+10:00
 tags:
 - evergreen
 - compendium

@@ -1,9 +1,7 @@
 ---
 title: "Sketches"
-alias:
-  - "Sketches"
 created: 2023-09-09T11:14:03+10:00
-modified: 2023-09-09T20:13:15+10:00
+modified: 2023-09-09T22:34:29+10:00
 tags:
 - project
 ---
