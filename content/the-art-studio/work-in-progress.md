@@ -1,11 +1,10 @@
 ---
-title: "work in progress"
+title: "Work in Progress"
 alias:
-  - work-in-progress
   - "Work in Progress"
   - "work in progress"
 created: 2023-09-09T11:01:56+10:00
-modified: 2023-09-09T19:59:39+10:00
+modified: 2023-09-09T20:13:18+10:00
 tags:
 - project
 ---

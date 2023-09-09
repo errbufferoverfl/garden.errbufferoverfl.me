@@ -1,5 +1,4 @@
 name: Build & Deploy garden.errbufferoverfl.me
-
 on:
   push:
     branches:
@@ -13,45 +12,17 @@ jobs:
       - uses: actions/checkout@v2
         with:
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
-      - uses: actions/checkout@master
-      - name: Copy the content imgs
-        run: |
-          cp -R ./content/imgs assets/
-      - name: Set up python
-        id: setup-python
-        uses: actions/setup-python@v4
-        with:
-          python-version: '3.11'
-      - name: Install Poetry
-        uses: snok/install-poetry@v1
-        with:
-          virtualenvs-create: true
-          virtualenvs-in-project: true
-          installer-parallel: true
-          
-      - name: Install dependencies
-        run: poetry install --no-interaction --no-root
-        
-      - name: Dither Images
-        run: |
-          PYTHONPATH=utils/ poetry run python -m dither -d assets/imgs
-          
-      - name: Build Link Index
-        uses: jackyzha0/hugo-obsidian@v2.20
-        with:
-          index: true
-          input: content
-          output: assets/indices
-          root: .
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+      - uses: actions/setup-node@v3
         with:
-          hugo-version: '0.96.0'
-          extended: true
+          node-version: 18.14
 
-      - name: Build
-        run: hugo --minify
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Build Quartz
+        run: npx quartz build
+
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.1.2
         with:
@@ -68,6 +39,7 @@ jobs:
         with:
           name: public
           path: ./public
+
       - name: Deploy to www
         uses: peaceiris/actions-gh-pages@v3
         with:
@@ -86,6 +58,7 @@ jobs:
         with:
           name: public
           path: ./public
+
       - name: Publish to IPFS
         uses: hyphacoop/actions-distributed-press@v1.1
         with:
@@ -107,6 +80,7 @@ jobs:
         with:
           name: public
           path: ./public
+
       - name: Publish to Hyper
         uses: hyphacoop/actions-distributed-press@v1.1
         with:

@@ -1,10 +1,10 @@
 ---
 title: "The Anti-Library"
 alias:
-- "The Anti-Library"
-- "the anti-library"
+  - "The Anti-Library"
+  - "the anti-library"
 created: 2023-05-28T00:00:00+10:00
-modified: 2023-09-09T17:53:45+10:00
+modified: 2023-09-09T20:17:53+10:00
 tags:
 - evergreen
 - compendium
@@ -14,22 +14,6 @@ tags:
 > 
 > \- Giovanni da Col, HAU: Journal of Ethnographic Theory
 
-## Before you begin…
+## Before You begin…
 
 The notes and summaries included in these pages are snippets that remind me, or help me relate and explore high-level concepts. They aren't a summary of the chapter or book! If you look through these notes and like the ideas, disagree with them, or you find yourself synthesising new ideas, I recommend you read the whole book!
-
-### Up Next
-
-{{<page-books status="Up Next">}}
-
-### Current
-
-{{<page-books status="In Progress">}}
-
-### Past
-
-{{<page-books status="Completed">}}
-
-### Incomplete
-
-{{<page-books status="Incomplete">}}

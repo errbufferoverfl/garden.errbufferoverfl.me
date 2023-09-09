@@ -1,8 +1,0 @@
-{{- $page := .Get "link" }}
-{{- $page = .Site.GetPage (printf "/%s" $page) }}
-<div class="section">
-  <div class="spacer"></div>
-  <div class="desc">
-    <p>{{$page.Summary}}</p>
-  </div>
-</div>

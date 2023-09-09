@@ -1,11 +1,10 @@
 ---
-title: "digital paintings"
+title: "Digital Paintings"
 aliases:
-  - digital-paintings
   - "Digital Paintings"
   - "digital paintings"
 created: 2023-06-06T00:00:00+10:00
-modified: 2023-09-09T19:59:27+10:00
+modified: 2023-09-09T20:12:39+10:00
 tags:
 - project
 ---
