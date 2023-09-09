@@ -1,9 +1,7 @@
 ---
 title: "Anarchic Agreements, a Field Guide to Collective Organising"
-alias:
-- "Anarchic Agreements, a Field Guide to Collective Organising"
 created: 2023-05-28T00:00:00+10:00
-modified: 2023-08-19T23:01:22+10:00
+modified: 2023-09-09T22:09:54+10:00
 cover: "/imgs/anarchic-agreements-a-field-guide-to-collective-organising.png"
 status: "Completed"
 author:

@@ -1,10 +1,8 @@
 ---
 title: "Revolution at Point Zero"
-alias:
-- "Revolution at Point Zero"
 cover: "/imgs/revolution-at-point-zero.png"
 created: 2023-01-28T00:00:00+11:00
-modified: 2023-08-19T22:48:14+10:00
+modified: 2023-09-09T22:09:54+10:00
 status: "Completed"
 author:
 - [[Silvia Federici]]

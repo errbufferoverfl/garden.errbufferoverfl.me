@@ -1,10 +1,8 @@
 ---
 title: "The 2020 Commission Report on the North Korean Nuclear Attacks Against The United States"
-alias:
-- "The 2020 Commission Report on the North Korean Nuclear Attacks Against The United States"
 cover: "/imgs/the-2020-commission-report-on-the-north-korean-nuclear-attacks-against-the-united-states.png"
 created: 2023-09-07T10:53:10+10:00
-modified: 2023-09-07T11:13:53+10:00
+modified: 2023-09-09T22:09:54+10:00
 started:
 completed:
 status: "Completed"

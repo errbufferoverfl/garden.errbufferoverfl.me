@@ -1,10 +1,8 @@
 ---
 title: "Stasiland"
-alias:
-- "Stasiland"
 cover: "/imgs/stasiland.png"
 created: 2023-09-07T10:54:15+10:00
-modified: 2023-09-07T11:13:55+10:00
+modified: 2023-09-09T22:09:54+10:00
 started: 2022-06-01
 completed: 2022-06-28
 status: "Completed"

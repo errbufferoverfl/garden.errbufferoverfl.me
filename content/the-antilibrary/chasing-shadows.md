@@ -1,10 +1,8 @@
 ---
 title: "Chasing Shadows"
-alias:
-- "Chasing Shadows"
 cover: "/imgs/chasing-shadows.png"
 created: 2023-09-07T10:51:27+10:00
-modified: 2023-09-07T11:13:54+10:00
+modified: 2023-09-09T22:09:54+10:00
 started: 2022-12-09
 completed: 2023-01-22
 status: "Completed"

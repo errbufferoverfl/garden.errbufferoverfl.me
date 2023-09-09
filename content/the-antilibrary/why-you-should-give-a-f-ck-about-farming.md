@@ -1,10 +1,8 @@
 ---
 title: "Why you should give a f*ck about farming"
-alias:
-- "Why you should give a f*ck about farming"
 cover: "/imgs/why-you-should-give-a-f-ck-about-farming.png"
 created: 2023-09-07T10:47:24+10:00
-modified: 2023-09-07T11:13:52+10:00
+modified: 2023-09-09T22:09:54+10:00
 started: 2023-01-22
 completed: 2023-01-28
 status: "Completed"

@@ -1,10 +1,8 @@
 ---
 title: "The Age of Surveillance Capitalism"
-alias:
-- "The Age of Surveillance Capitalism"
 cover: "/imgs/the-age-of-surveillance-capitalism.png"
 created: 2023-06-12T00:00:00+10:00
-modified: 2023-08-19T22:47:28+10:00
+modified: 2023-09-09T22:09:54+10:00
 status: "Incomplete"
 author:
 - [[Shoshana Zuboff]]

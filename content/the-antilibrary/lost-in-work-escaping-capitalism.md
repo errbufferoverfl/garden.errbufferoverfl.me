@@ -1,9 +1,7 @@
 ---
 title: "Lost in Work Escaping Capitalism"
-alias:
-- "Lost in Work Escaping Capitalism"
 created: 2023-04-10T00:00:00+10:00
-modified: 2023-08-19T22:45:17+10:00
+modified: 2023-09-09T22:09:54+10:00
 cover: "/imgs/lost-in-work-escaping-capitalism.png"
 status: "Completed"
 author:

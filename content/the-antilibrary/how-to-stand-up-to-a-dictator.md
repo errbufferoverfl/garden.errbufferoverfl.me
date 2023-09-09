@@ -1,11 +1,9 @@
 ---
 title: "How to Stand Up to a Dictator"
-alias:
-- "How to Stand Up to a Dictator"
 cover: "/imgs/how-to-stand-up-to-a-dictator.png"
 alt: "How to Stand Up to a Dictator Book Cover"
 created: 2023-08-19T15:29:47+10:00
-modified: 2023-09-01T20:59:19+10:00
+modified: 2023-09-09T22:09:54+10:00
 status: "In Progress"
 author:
 - [[Maria Ressa]]
@@ -63,7 +61,7 @@ published on 2022-11-17 by Random House
 
 ## Other Notes
 
-### What is the invisible atom bomb?
+### What is the Invisible Atom Bomb?
 
 - The Philippines' Commission on Human Rights estimated that about 27, 000 people were killed between 2016 and 2018 while Rodrigo Duterte waged his war on drugs.
 - 2021 was the 6th year in a row that Filipinos spent the most time on the Internet and on social media.
@@ -79,7 +77,7 @@ published on 2022-11-17 by Random House
 
 The invisible atom bomb is social media and the power of disinformation networks. When you don't have integrity of facts, you can't have integrity of information.
 
-### How can we make the choice to learn? (Chapter 1)
+### How Can We Make the Choice to Learn? (Chapter 1)
 
 - Rudyard Kipling published an imperialist poem "The White Man's Burden" which encouraged American's to govern the Philippines in 1899.
 - The Philippines constitution, which was fundamentally a re-write on the American constitution had to be approved by the US President Franklin D. Roosevelt.
