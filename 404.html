@@ -1,13 +1,52 @@
-<!doctype html><html lang=en><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=robots content="index, follow"><link rel=me href=https://mastodon.errbufferoverfl.me/@errbufferoverfl><link rel=me href=https://github.com/errbufferoverfl><link rel=me href=https://twitter.com/errbufferoverfl><meta name=keywords content="
-     "><meta name=description content="An open collection of notes, resources, sketches, and explorations I'm cultivating."><meta name=author content><link rel=canonical href=https://garden.errbufferoverfl.me/404.html><meta property="og:title" content="404 Page not found ✧ errbufferoverfl"><meta property="og:description" content="An open collection of notes, resources, sketches, and explorations I'm cultivating."><meta property="og:type" content="website"><meta property="og:url" content="https://garden.errbufferoverfl.me/404.html"><meta property="og:image" content="https://garden.errbufferoverfl.me/imgs/opengraph-base_hu877f21975f6cb80b047c85f2bb9a9d42_7571_6817c648f65c260ad5652523bdde84f3.png"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://garden.errbufferoverfl.me/imgs/opengraph-base_hu877f21975f6cb80b047c85f2bb9a9d42_7571_6817c648f65c260ad5652523bdde84f3.png"><meta name=twitter:title content="404 Page not found ✧ errbufferoverfl"><meta name=twitter:description content="An open collection of notes, resources, sketches, and explorations I'm cultivating."><meta name=twitter:site content="@errbufferoverfl"><meta name=twitter:creator content="@errbufferoverfl"><meta name=generator content="Hugo 0.96.0"><title>404 Page not found ✧ errbufferoverfl</title><link rel="shortcut icon" type=image/png href=/icon.png><link href=https://garden.errbufferoverfl.me/styles/styles.7ed4184d3b5595e7dc138b96a17239de.min.css rel=stylesheet><link href=https://garden.errbufferoverfl.me/styles/_light_syntax.86a48a52faebeaaf42158b72922b1c90.min.css rel=stylesheet id=theme-link></head><body><div class=singlePage><form role=form class=darkmode><fieldset style=border:none><legend class=visually-hidden>Theme toggle</legend>
-<input type=checkbox role=switch class="toggle visually-hidden" id=darkmode-toggle>
-<label for=darkmode-toggle id=toggle-label-light><span class=visually-hidden>Disable light mode</span>
-<i id=dayIcon class="fa-solid fa-sun"></i></label>
-<label for=darkmode-toggle id=toggle-label-dark><span class=visually-hidden>Disable dark mode</span>
-<i id=nightIcon class="fa-solid fa-moon"></i></label></fieldset></form><div class=centered><h1>404.</h1><h3>Hey! You look a little lost. This page doesn't exist (or may be private).</h3><a href=/>↳ Let's get you home.</a></div></div><script type=application/javascript>navigator.getEnvironmentIntegrity!==void 0&&(document.querySelector("body").innerHTML=`<div id="index" class="singlePage">
-      <h1>Your browser contains Google DRM</h1>
-      <p>"Web Environment Integrity" is a Google euphemism for a DRM that is designed to prevent
-      ad-blocking. In support of an open web, this website does not function with this DRM. Please install
-      a browser such as <a href = "https://www.mozilla.org/en-US/firefox/new/">Firefox</a> that
-      respects your freedom and supports ad blockers.</p>
-      </div>`)</script></body></html>
+<!DOCTYPE html>
+<html><head><title>Not Found</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="Not Found"/><meta property="og:description" content="Not Found"/><meta property="og:image" content="https://https://garden.errbufferoverfl.me/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="./static/icon.png"/><meta name="description" content="Not Found"/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="./index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=Inconsolata&amp;family=Marcellus:wght@400;700&amp;family=Inconsolata:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="./prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`./static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="404"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"></div><div class="center"><div class="page-header"><div class="popover-hint"></div></div><article class="popover-hint"><h1>404</h1><p>Either this page is private or doesn't exist.</p></article></div><div class="right sidebar"></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.10</a>, © 2023</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="./postscript.js" type="module"></script></html>

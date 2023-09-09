@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html><head><title>Setting Up Distributed Press on Digital Ocean</title><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><meta property="og:title" content="Setting Up Distributed Press on Digital Ocean"/><meta property="og:description" content="Environment Metadata Ubuntu 22.10 x64 Distributed Press v1.2.1 About Distributed Press § Distributed Press is an open source publishing tool for the World Wide Web and Distributed Web."/><meta property="og:image" content="https://https://garden.errbufferoverfl.me/static/og-image.png"/><meta property="og:width" content="1200"/><meta property="og:height" content="675"/><link rel="icon" href="../static/icon.png"/><meta name="description" content="Environment Metadata Ubuntu 22.10 x64 Distributed Press v1.2.1 About Distributed Press § Distributed Press is an open source publishing tool for the World Wide Web and Distributed Web."/><meta name="generator" content="Quartz"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com"/><link href="../index.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://cdn.jsdelivr.net/npm/katex@0.16.0/dist/katex.min.css" rel="stylesheet" type="text/css" spa-preserve/><link href="https://fonts.googleapis.com/css2?family=Inconsolata&amp;family=Marcellus:wght@400;700&amp;family=Inconsolata:ital,wght@0,400;0,600;1,400;1,600&amp;display=swap" rel="stylesheet" type="text/css" spa-preserve/><script src="../prescript.js" type="application/javascript" spa-preserve></script><script type="application/javascript" spa-preserve>const fetchData = fetch(`../static/contentIndex.json`).then(data => data.json())</script></head><body data-slug="posts/setting-up-distributed-press-on-digital-ocean"><div id="quartz-root" class="page"><div id="quartz-body"><div class="left sidebar"><h1 class="page-title"><a href="..">🪴errbufferoverfl's 
+ Digital Garden</a></h1><div class="spacer mobile-only"></div><div class="search"><div id="search-icon"><p>Search</p><div></div><svg tabIndex="0" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 19.9 19.7"><title id="title">Search</title><desc id="desc">Search</desc><g class="search-path" fill="none"><path stroke-linecap="square" d="M18.5 18.3l-5.4-5.4"></path><circle cx="8" cy="8" r="7"></circle></g></svg></div><div id="search-container"><div id="search-space"><input autocomplete="off" id="search-bar" name="search" type="text" aria-label="Search for something" placeholder="Search for something"/><div id="results-container"></div></div></div></div><div class="darkmode"><input class="toggle" id="darkmode-toggle" type="checkbox" tabIndex="-1"/><label id="toggle-label-light" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="dayIcon" x="0px" y="0px" viewBox="0 0 35 35" style="enable-background:new 0 0 35 35;" xmlSpace="preserve"><title>Light mode</title><path d="M6,17.5C6,16.672,5.328,16,4.5,16h-3C0.672,16,0,16.672,0,17.5    S0.672,19,1.5,19h3C5.328,19,6,18.328,6,17.5z M7.5,26c-0.414,0-0.789,0.168-1.061,0.439l-2,2C4.168,28.711,4,29.086,4,29.5    C4,30.328,4.671,31,5.5,31c0.414,0,0.789-0.168,1.06-0.44l2-2C8.832,28.289,9,27.914,9,27.5C9,26.672,8.329,26,7.5,26z M17.5,6    C18.329,6,19,5.328,19,4.5v-3C19,0.672,18.329,0,17.5,0S16,0.672,16,1.5v3C16,5.328,16.671,6,17.5,6z M27.5,9    c0.414,0,0.789-0.168,1.06-0.439l2-2C30.832,6.289,31,5.914,31,5.5C31,4.672,30.329,4,29.5,4c-0.414,0-0.789,0.168-1.061,0.44    l-2,2C26.168,6.711,26,7.086,26,7.5C26,8.328,26.671,9,27.5,9z M6.439,8.561C6.711,8.832,7.086,9,7.5,9C8.328,9,9,8.328,9,7.5    c0-0.414-0.168-0.789-0.439-1.061l-2-2C6.289,4.168,5.914,4,5.5,4C4.672,4,4,4.672,4,5.5c0,0.414,0.168,0.789,0.439,1.06    L6.439,8.561z M33.5,16h-3c-0.828,0-1.5,0.672-1.5,1.5s0.672,1.5,1.5,1.5h3c0.828,0,1.5-0.672,1.5-1.5S34.328,16,33.5,16z     M28.561,26.439C28.289,26.168,27.914,26,27.5,26c-0.828,0-1.5,0.672-1.5,1.5c0,0.414,0.168,0.789,0.439,1.06l2,2    C28.711,30.832,29.086,31,29.5,31c0.828,0,1.5-0.672,1.5-1.5c0-0.414-0.168-0.789-0.439-1.061L28.561,26.439z M17.5,29    c-0.829,0-1.5,0.672-1.5,1.5v3c0,0.828,0.671,1.5,1.5,1.5s1.5-0.672,1.5-1.5v-3C19,29.672,18.329,29,17.5,29z M17.5,7    C11.71,7,7,11.71,7,17.5S11.71,28,17.5,28S28,23.29,28,17.5S23.29,7,17.5,7z M17.5,25c-4.136,0-7.5-3.364-7.5-7.5    c0-4.136,3.364-7.5,7.5-7.5c4.136,0,7.5,3.364,7.5,7.5C25,21.636,21.636,25,17.5,25z"></path></svg></label><label id="toggle-label-dark" for="darkmode-toggle" tabIndex="-1"><svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" id="nightIcon" x="0px" y="0px" viewBox="0 0 100 100" style="enable-background='new 0 0 100 100'" xmlSpace="preserve"><title>Dark mode</title><path d="M96.76,66.458c-0.853-0.852-2.15-1.064-3.23-0.534c-6.063,2.991-12.858,4.571-19.655,4.571  C62.022,70.495,50.88,65.88,42.5,57.5C29.043,44.043,25.658,23.536,34.076,6.47c0.532-1.08,0.318-2.379-0.534-3.23  c-0.851-0.852-2.15-1.064-3.23-0.534c-4.918,2.427-9.375,5.619-13.246,9.491c-9.447,9.447-14.65,22.008-14.65,35.369  c0,13.36,5.203,25.921,14.65,35.368s22.008,14.65,35.368,14.65c13.361,0,25.921-5.203,35.369-14.65  c3.872-3.871,7.064-8.328,9.491-13.246C97.826,68.608,97.611,67.309,96.76,66.458z"></path></svg></label></div><div class="toc desktop-only"><button type="button" id="toc"><h3>Table of Contents</h3><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="fold"><polyline points="6 9 12 15 18 9"></polyline></svg></button><div id="toc-content"><ul class="overflow"><li class="depth-0"><a href="#about-distributed-press" data-for="about-distributed-press">About Distributed Press</a></li><li class="depth-0"><a href="#method" data-for="method">Method</a></li><li class="depth-0"><a href="#running-a-sense-check" data-for="running-a-sense-check">Running a Sense Check</a></li><li class="depth-1"><a href="#ensure-ufw-is-active" data-for="ensure-ufw-is-active">Ensure ufw is active</a></li><li class="depth-1"><a href="#ensure-the-private-keys-are-generated" data-for="ensure-the-private-keys-are-generated">Ensure the private keys are generated</a></li><li class="depth-0"><a href="#get-a-root-admin-token" data-for="get-a-root-admin-token">Get a root admin token</a></li><li class="depth-0"><a href="#additional-notes" data-for="additional-notes">Additional Notes</a></li><li class="depth-1"><a href="#creating-a-new-publisher" data-for="creating-a-new-publisher">Creating a new Publisher</a></li><li class="depth-1"><a href="#add-a-site-to-a-publisher" data-for="add-a-site-to-a-publisher">Add a site to a Publisher</a></li><li class="depth-0"><a href="#errors" data-for="errors">Errors</a></li><li class="depth-1"><a href="#unable-to-resolve-remote-host-after-installation" data-for="unable-to-resolve-remote-host-after-installation">Unable to resolve remote host after installation</a></li><li class="depth-0"><a href="#additional-resources" data-for="additional-resources">Additional Resources</a></li></ul></div></div></div><div class="center"><div class="page-header"><div class="popover-hint"><h1 class="article-title">Setting Up Distributed Press on Digital Ocean</h1><p class="content-meta">Sep 09, 2023, 6 min read</p><ul class="tags"><li><a href="../tags/seed" class="internal tag-link">#seed</a></li><li><a href="../tags/dweb" class="internal tag-link">#dweb</a></li></ul></div></div><article class="popover-hint"><blockquote class="callout" data-callout="info">
+<div class="callout-title">
+                  <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg></div>
+                  <div class="callout-title-inner"><p>Environment Metadata </p></div>
+                  
+                </div>
+<ul>
+<li>Ubuntu 22.10 x64</li>
+<li><a href="https://github.com/hyphacoop/api.distributed.press/releases/tag/v1.2.1" class="external">Distributed Press v1.2.1</a></li>
+</ul>
+</blockquote>
+<h2 id="about-distributed-press">About Distributed Press<a aria-hidden="true" tabindex="-1" href="#about-distributed-press" class="internal"> §</a></h2>
+<p><a href="https://docs.distributed.press/" class="external">Distributed Press</a> is an open source publishing tool for the World Wide Web and Distributed Web. It automates publishing and hosting content to the web that it seeds to decentralized protocols like <a href=".././the-notebook/hypercore" class="internal">Hypercore</a> and <a href=".././the-notebook/ipfs" class="internal">IPFS</a>.</p>
+<blockquote class="callout" data-callout="warning">
+<div class="callout-title">
+                  <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg></div>
+                  <div class="callout-title-inner"><p>Prerequisite Knowledge </p></div>
+                  
+                </div>
+<p>This doc assumes you’re familiar with apt-based Linux, the basics of Linux system administration and how to configure DNS.</p>
+</blockquote>
+<h2 id="method">Method<a aria-hidden="true" tabindex="-1" href="#method" class="internal"> §</a></h2>
+<ul>
+<li>Create a new virtual private server (VPS) with your provider of choice, when using Digital Ocean I used a droplet with the following specifications:
+<ul>
+<li><strong>Image:</strong> Ubuntu 22.10 x64</li>
+<li><strong>CPU:</strong> 4 vCPUs</li>
+<li><strong>Memory:</strong> 8GB<sup><a href="#user-content-fn-1" id="user-content-fnref-1" data-footnote-ref aria-describedby="footnote-label" class="internal">1</a></sup></li>
+<li><strong>Disk:</strong> 10GB Disk</li>
+<li><strong>Droplet Cost:</strong> $AUD 48/mo</li>
+</ul>
+</li>
+</ul>
+<p>If you’re using Digital Ocean and unfamiliar with configuring your own logging and monitoring I’d advise against enabling the improved metrics monitoring because it will consume <code>journalctl</code> making it harder to debug.</p>
+<blockquote class="callout" data-callout="warning">
+<div class="callout-title">
+                  <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg></div>
+                  <div class="callout-title-inner"><p>System Specifications </p></div>
+                  
+                </div>
+<p>The most important part of the system specifications is the memory, you want at a minimum 8GB to ensure that service works as expected.<sup><a href="#user-content-fn-1" id="user-content-fnref-1-2" data-footnote-ref aria-describedby="footnote-label" class="internal">1</a></sup></p>
+</blockquote>
+<ul>
+<li>Install <code>ansible</code> on your desktop, cry a little because this is the only thing that needs it.</li>
+</ul>
+<div data-rehype-pretty-code-fragment><div data-rehype-pretty-code-title data-language="shell" data-theme="default">terminal</div><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="shell" data-theme="default"><code data-language="shell" data-theme="default"><span data-line><span style="color:var(--shiki-token-function);">brew</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">install</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">ansible</span></span></code></pre></div>
+<blockquote class="callout" data-callout="tip">
+<div class="callout-title">
+                  <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg></div>
+                  <div class="callout-title-inner"><p>Note </p></div>
+                  
+                </div>
+<p>Make sure you install <code>ansible</code> and not <code>ansible-core</code> which doesn’t ship with <code>ansible-galaxy</code>.</p>
+</blockquote>
+<p><img src="../imgs/setting-up-distributed-press-on-digital-ocean.png" alt="Image that says &quot;2000 Years Later&quot;"/></p>
+<ul>
+<li>Git clone the <code>api.distributed.press</code>  repository onto your computer:</li>
+</ul>
+<div data-rehype-pretty-code-fragment><div data-rehype-pretty-code-title data-language="shell" data-theme="default">terminal</div><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="shell" data-theme="default"><code data-language="shell" data-theme="default"><span data-line><span style="color:var(--shiki-token-function);">git</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">clone</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">https://github.com/hyphacoop/api.distributed.press.git</span></span></code></pre></div>
+<ul>
+<li>Using the terminal, navigate to the <code>ansible</code> directory:</li>
+</ul>
+<div data-rehype-pretty-code-fragment><div data-rehype-pretty-code-title data-language="shell" data-theme="default">terminal</div><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="shell" data-theme="default"><code data-language="shell" data-theme="default"><span data-line><span style="color:var(--shiki-token-function);">cd</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">api.distributed.press/ansible</span></span></code></pre></div>
+<blockquote class="callout" data-callout="warning">
+<div class="callout-title">
+                  <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg></div>
+                  <div class="callout-title-inner"><p>Check the pinned version of Distribution Press </p></div>
+                  
+                </div>
+<p>Before starting I recommend doing a quick sense check that the <code>distributed_press_git_branch</code> located in <code>api.distributed.press/ansible/roles/distributed_press/defaults/main.yml</code> matches the <a href="https://github.com/hyphacoop/api.distributed.press/tags" class="external">latest tagged version</a>, otherwise you can run into esoteric issues that are difficult to debug.</p>
+</blockquote>
+<ul>
+<li>Edit the <code>inventory.yml</code> file to specify your own domain to run the scripts on as well as any variables you want to set.
+<ul>
+<li>You <strong>must</strong> specify the <code>distributed_press_domain</code> to be your server, and your <code>distributed_press_letsencrypt_email</code> for registering the HTTPS certificate.</li>
+</ul>
+</li>
+</ul>
+<div data-rehype-pretty-code-fragment><div data-rehype-pretty-code-title data-language="yaml" data-theme="default">inventory.yml</div><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="yaml" data-theme="default"><code data-language="yaml" data-theme="default"><span data-line><span style="color:var(--shiki-token-keyword);">all</span><span style="color:var(--shiki-token-keyword);">:</span></span>
+<span data-line><span style="color:var(--shiki-color-text);">  </span><span style="color:var(--shiki-token-keyword);">vars</span><span style="color:var(--shiki-token-keyword);">:</span></span>
+<span data-line><span style="color:var(--shiki-color-text);">    </span><span style="color:var(--shiki-token-keyword);">distributed_press_domain</span><span style="color:var(--shiki-token-keyword);">:</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string-expression);">&quot;distributed.errbufferoverfl.me&quot;</span></span>
+<span data-line><span style="color:var(--shiki-color-text);">    </span><span style="color:var(--shiki-token-keyword);">distributed_press_letsencrypt_email</span><span style="color:var(--shiki-token-keyword);">:</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string-expression);">&quot;rebecca@example.com&quot;</span></span>
+<span data-line><span style="color:var(--shiki-color-text);">    </span><span style="color:var(--shiki-token-keyword);">distributed_press_served_sites</span><span style="color:var(--shiki-token-keyword);">:</span><span style="color:var(--shiki-color-text);"> []</span></span>
+<span data-line><span style="color:var(--shiki-color-text);">  </span><span style="color:var(--shiki-token-keyword);">children</span><span style="color:var(--shiki-token-keyword);">:</span></span>
+<span data-line><span style="color:var(--shiki-color-text);">    </span><span style="color:var(--shiki-token-keyword);">distributed_press</span><span style="color:var(--shiki-token-keyword);">:</span></span>
+<span data-line><span style="color:var(--shiki-color-text);">      </span><span style="color:var(--shiki-token-keyword);">hosts</span><span style="color:var(--shiki-token-keyword);">:</span></span>
+<span data-line><span style="color:var(--shiki-color-text);">        </span><span style="color:var(--shiki-token-keyword);">distributed.errbufferoverfl.me</span><span style="color:var(--shiki-token-keyword);">:</span></span>
+<span data-line><span style="color:var(--shiki-color-text);">          </span><span style="color:var(--shiki-token-keyword);">ansible_user</span><span style="color:var(--shiki-token-keyword);">:</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string-expression);">root</span></span></code></pre></div>
+<ul>
+<li>Install the dependencies on your local machine.</li>
+</ul>
+<div data-rehype-pretty-code-fragment><div data-rehype-pretty-code-title data-language="shell" data-theme="default">terminal</div><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="shell" data-theme="default"><code data-language="shell" data-theme="default"><span data-line><span style="color:var(--shiki-token-function);">ansible-galaxy</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">install</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">-r</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">./requirements.yml</span></span></code></pre></div>
+<ul>
+<li>Add the VPS’s IP address and the <code>distributed_press_domain</code> to your <code>/etc/hosts</code> file so you don’t experience an <code>UNREACHABLE</code> error when you run the playbook. e.g.,</li>
+</ul>
+<div data-rehype-pretty-code-fragment><div data-rehype-pretty-code-title data-language="text" data-theme="default">/etc/hostsAs </div><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="text" data-theme="default"><code data-language="text" data-theme="default"><span data-line><span style="color:var(--shiki-color-text);">127.0.0.1	localhost</span></span>
+<span data-line><span style="color:var(--shiki-color-text);">255.255.255.255	broadcasthost</span></span>
+<span data-line><span style="color:var(--shiki-color-text);">::1             localhost%</span></span>
+<span data-line><span style="color:var(--shiki-color-text);"></span></span>
+<span data-line><span style="color:var(--shiki-color-text);">{{VPS IP ADDRESS}} example.com</span></span></code></pre></div>
+<ul>
+<li>Execute the playbook.</li>
+</ul>
+<div data-rehype-pretty-code-fragment><div data-rehype-pretty-code-title data-language="shell" data-theme="default">terminal</div><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="shell" data-theme="default"><code data-language="shell" data-theme="default"><span data-line><span style="color:var(--shiki-token-function);">ansible-playbook</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">distributed_press.yml</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">-i</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">inventory.yml</span></span></code></pre></div>
+<ul>
+<li>
+<p>Once the playbook has finished, login to your DNS provider and add in an new A record pointing your VPS to the new domain.</p>
+<ul>
+<li><strong>Type:</strong> A</li>
+<li><strong>Name:</strong> <code>subdomain</code></li>
+<li><strong>Content:</strong> VPS static IP address</li>
+<li><strong>TTL:</strong> Auto</li>
+</ul>
+</li>
+<li>
+<p>Add an <code>NS</code> record linking <code>_dnslink</code> to your site:</p>
+<ul>
+<li><strong>Type:</strong> NS</li>
+<li><strong>Name:</strong> <code>_dnslink</code></li>
+<li><strong>Content:</strong> the <code>distributed_press_domain</code></li>
+<li><strong>TTL:</strong> Auto</li>
+</ul>
+</li>
+<li>
+<p>Login to the VPS and check the status of the service.</p>
+</li>
+</ul>
+<div data-rehype-pretty-code-fragment><div data-rehype-pretty-code-title data-language="shell" data-theme="default">terminal</div><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="shell" data-theme="default"><code data-language="shell" data-theme="default"><span data-line><span style="color:var(--shiki-token-function);">systemctl</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">status</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">distributed.press</span></span></code></pre></div>
+<blockquote class="callout" data-callout="warning">
+<div class="callout-title">
+                  <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg></div>
+                  <div class="callout-title-inner"><p>Ubuntu default DNS server </p></div>
+                  
+                </div>
+<p>Also double check the logs using <code>journalctl -fu distributed.press</code>, if you see a <code>bind EADDRINUSE 0.0.0.0:53</code> error you will need to disable an installed utility called <code>dnsmasq</code>.<sup><a href="#user-content-fn-2" id="user-content-fnref-2" data-footnote-ref aria-describedby="footnote-label" class="internal">2</a></sup></p>
+</blockquote>
+<h2 id="running-a-sense-check">Running a Sense Check<a aria-hidden="true" tabindex="-1" href="#running-a-sense-check" class="internal"> §</a></h2>
+<p>When I installed my <code>distributed.press</code> instance a few things failed to initialize as expected so it’s worth manually checking these.</p>
+<h3 id="ensure-ufw-is-active">Ensure <code>ufw</code> is active<a aria-hidden="true" tabindex="-1" href="#ensure-ufw-is-active" class="internal"> §</a></h3>
+<p>To make sure the firewall is up, you can run:</p>
+<div data-rehype-pretty-code-fragment><div data-rehype-pretty-code-title data-language="shell" data-theme="default">terminal</div><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="shell" data-theme="default"><code data-language="shell" data-theme="default"><span data-line><span style="color:var(--shiki-token-function);">ufw</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">status</span></span></code></pre></div>
+<p>Which, if enabled should return something like this:</p>
+<div data-rehype-pretty-code-fragment><div data-rehype-pretty-code-title data-language="shell" data-theme="default">terminal</div><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="shell" data-theme="default"><code data-language="shell" data-theme="default"><span data-line><span style="color:var(--shiki-token-function);">Status:</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">active</span></span>
+<span data-line> </span>
+<span data-line><span style="color:var(--shiki-token-function);">To</span><span style="color:var(--shiki-color-text);">                         </span><span style="color:var(--shiki-token-string);">Action</span><span style="color:var(--shiki-color-text);">      </span><span style="color:var(--shiki-token-string);">From</span></span>
+<span data-line><span style="color:var(--shiki-token-function);">--</span><span style="color:var(--shiki-color-text);">                         </span><span style="color:var(--shiki-token-string);">------</span><span style="color:var(--shiki-color-text);">      </span><span style="color:var(--shiki-token-string);">----</span></span>
+<span data-line><span style="color:var(--shiki-token-function);">53/udp</span><span style="color:var(--shiki-color-text);">                     </span><span style="color:var(--shiki-token-string);">ALLOW</span><span style="color:var(--shiki-color-text);">       </span><span style="color:var(--shiki-token-string);">Anywhere</span></span>
+<span data-line><span style="color:var(--shiki-token-function);">7976/udp</span><span style="color:var(--shiki-color-text);">                   </span><span style="color:var(--shiki-token-string);">ALLOW</span><span style="color:var(--shiki-color-text);">       </span><span style="color:var(--shiki-token-string);">Anywhere</span></span>
+<span data-line><span style="color:var(--shiki-token-function);">7976/tcp</span><span style="color:var(--shiki-color-text);">                   </span><span style="color:var(--shiki-token-string);">ALLOW</span><span style="color:var(--shiki-color-text);">       </span><span style="color:var(--shiki-token-string);">Anywhere</span></span>
+<span data-line><span style="color:var(--shiki-token-function);">Nginx</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">Full</span><span style="color:var(--shiki-color-text);">                 </span><span style="color:var(--shiki-token-string);">ALLOW</span><span style="color:var(--shiki-color-text);">       </span><span style="color:var(--shiki-token-string);">Anywhere</span></span>
+<span data-line><span style="color:var(--shiki-token-function);">22/tcp</span><span style="color:var(--shiki-color-text);">                     </span><span style="color:var(--shiki-token-string);">ALLOW</span><span style="color:var(--shiki-color-text);">       </span><span style="color:var(--shiki-token-string);">Anywhere</span></span>
+<span data-line><span style="color:var(--shiki-token-function);">53/udp</span><span style="color:var(--shiki-color-text);"> (v6)                ALLOW       Anywhere (</span><span style="color:var(--shiki-token-function);">v6</span><span style="color:var(--shiki-color-text);">)</span></span>
+<span data-line><span style="color:var(--shiki-token-function);">7976/udp</span><span style="color:var(--shiki-color-text);"> (v6)              ALLOW       Anywhere (</span><span style="color:var(--shiki-token-function);">v6</span><span style="color:var(--shiki-color-text);">)</span></span>
+<span data-line><span style="color:var(--shiki-token-function);">7976/tcp</span><span style="color:var(--shiki-color-text);"> (v6)              ALLOW       Anywhere (</span><span style="color:var(--shiki-token-function);">v6</span><span style="color:var(--shiki-color-text);">)</span></span>
+<span data-line><span style="color:var(--shiki-token-function);">Nginx</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">Full</span><span style="color:var(--shiki-color-text);"> (v6)            ALLOW       Anywhere (</span><span style="color:var(--shiki-token-function);">v6</span><span style="color:var(--shiki-color-text);">)</span></span>
+<span data-line><span style="color:var(--shiki-token-function);">22/tcp</span><span style="color:var(--shiki-color-text);"> (v6)                ALLOW       Anywhere (</span><span style="color:var(--shiki-token-function);">v6</span><span style="color:var(--shiki-color-text);">)</span></span></code></pre></div>
+<blockquote class="callout" data-callout="warning">
+<div class="callout-title">
+                  <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg></div>
+                  <div class="callout-title-inner"><p>Before enabling <code>ufw</code></p></div>
+                  
+                </div>
+<p>Ensure you have added in a firewall rule for which ever management protocol you’re using (e.g. ssh). To do this run:</p>
+<div data-rehype-pretty-code-fragment><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="shell" data-theme="default"><code data-language="shell" data-theme="default"><span data-line><span style="color:var(--shiki-token-function);">ufw</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">allow</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-constant);">22</span></span></code></pre></div>
+</blockquote>
+<p>If you find that <code>ufw</code> is not enabled, you’ll want to enable it.</p>
+<div data-rehype-pretty-code-fragment><div data-rehype-pretty-code-title data-language="shell" data-theme="default">terminal</div><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="shell" data-theme="default"><code data-language="shell" data-theme="default"><span data-line><span style="color:var(--shiki-token-function);">ufw</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">enable</span></span></code></pre></div>
+<h3 id="ensure-the-private-keys-are-generated">Ensure the private keys are generated<a aria-hidden="true" tabindex="-1" href="#ensure-the-private-keys-are-generated" class="internal"> §</a></h3>
+<p>Normally <code>ansible</code> will <a href="https://github.com/hyphacoop/api.distributed.press/blob/b23534e6652cab20c2b10a3dcd85529344139462/ansible/roles/distributed_press/tasks/main.yml#L76-L82" class="external">handle generating a key for the JWT</a> however, in my case this didn’t work and I had to manually generate a key.</p>
+<p>I was able to identify this problem because I recieved the following error when trying to <a href="#Get%20a%20%60root%60%20admin%20token" class="internal">Get a <code>root</code> admin token</a>:</p>
+<div data-rehype-pretty-code-fragment><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="{title=&quot;terminal&quot;}" data-theme="default"><code data-language="{title=&quot;terminal&quot;}" data-theme="default"><span data-line><span style="color:var(--shiki-color-text);">Error: ENOENT: no such file or directory, open '/root/.local/share/distributed-press-nodejs/keys/private.key'</span></span></code></pre></div>
+<p>To resolve this issue I replicated what <code>ansible</code> would do, and ran <code>keygen</code> again:</p>
+<div data-rehype-pretty-code-fragment><div data-rehype-pretty-code-title data-language="shell" data-theme="default">terminal</div><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="shell" data-theme="default"><code data-language="shell" data-theme="default"><span data-line><span style="color:var(--shiki-token-function);">sudo</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">su</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">press</span></span>
+<span data-line><span style="color:var(--shiki-token-function);">cd</span></span>
+<span data-line><span style="color:var(--shiki-token-function);">cd</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">api.distributed.press</span></span>
+<span data-line><span style="color:var(--shiki-token-function);">npm</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">run</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">keygen</span></span></code></pre></div>
+<h2 id="get-a-root-admin-token">Get a <code>root</code> admin token<a aria-hidden="true" tabindex="-1" href="#get-a-root-admin-token" class="internal"> §</a></h2>
+<p>Authorisation on the service is handled using JSON Web Tokens (JWTs) that are issued to specific users.</p>
+<blockquote class="callout" data-callout="warning">
+<div class="callout-title">
+                  <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3Z"></path><line x1="12" y1="9" x2="12" y2="13"></line><line x1="12" y1="17" x2="12.01" y2="17"></line></svg></div>
+                  <div class="callout-title-inner"><p>Warning </p></div>
+                  
+                </div>
+<p>By default, tokens expire after a week.</p>
+</blockquote>
+<p>To generate the auth token necessary to make the very first admin user, you must use the ‘root’ admin token.</p>
+<ul>
+<li><code>ssh</code> into the VPS that is hosting your <code>distributed.press</code> instance and navigate to the the root directory of <code>api.distributed.press</code></li>
+</ul>
+<div data-rehype-pretty-code-fragment><div data-rehype-pretty-code-title data-language="shell" data-theme="default">terminal</div><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="shell" data-theme="default"><code data-language="shell" data-theme="default"><span data-line><span style="color:var(--shiki-token-function);">sudo</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">su</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">press</span></span>
+<span data-line><span style="color:var(--shiki-token-function);">cd</span></span>
+<span data-line><span style="color:var(--shiki-token-function);">cd</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">api.distributed.press</span></span></code></pre></div>
+<ul>
+<li>Run <code>npm run make-admin</code> which will print out the token to stdout.</li>
+</ul>
+<blockquote class="callout" data-callout="tip">
+<div class="callout-title">
+                  <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"></path></svg></div>
+                  <div class="callout-title-inner"><p>Save the Token </p></div>
+                  
+                </div>
+<p>Be sure to save the token somewhere secure as it will be important for making any administrative calls to the API.</p>
+</blockquote>
+<p>Now that you have the root admin token, and the firewall is enabled, you can go ahead and start tinkering with your new <code>distributed.press</code> service.</p>
+<p>For more information on how to you the API you can find the Swagger docs hosted on your instance at <code>/v1/docs</code>.</p>
+<h2 id="additional-notes">Additional Notes<a aria-hidden="true" tabindex="-1" href="#additional-notes" class="internal"> §</a></h2>
+<h3 id="creating-a-new-publisher">Creating a new Publisher<a aria-hidden="true" tabindex="-1" href="#creating-a-new-publisher" class="internal"> §</a></h3>
+<p>To make sure we’re always operating in line with the principal of least privilege exchange the root token for a new one with the publisher subset of capabilities:</p>
+<div data-rehype-pretty-code-fragment><div data-rehype-pretty-code-title data-language="shell" data-theme="default">terminal</div><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="shell" data-theme="default"><code data-language="shell" data-theme="default"><span data-line><span style="color:var(--shiki-token-function);">curl</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">-X</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">POST</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">https://distributed.errbufferoverfl.me/v1/publisher</span><span style="color:var(--shiki-color-text);"> \</span></span>
+<span data-line><span style="color:var(--shiki-color-text);">-H </span><span style="color:var(--shiki-token-string-expression);">&quot;Content-Type: application/json&quot;</span><span style="color:var(--shiki-color-text);"> \</span></span>
+<span data-line><span style="color:var(--shiki-color-text);">-H </span><span style="color:var(--shiki-token-string-expression);">&quot;Authorization: Bearer JWT&quot;</span><span style="color:var(--shiki-color-text);"> \</span></span>
+<span data-line><span style="color:var(--shiki-color-text);">-d </span><span style="color:var(--shiki-token-string-expression);">'{&quot;name&quot;:&quot;garden.errbufferoverfl.me&quot;}'</span></span></code></pre></div>
+<h3 id="add-a-site-to-a-publisher">Add a site to a Publisher<a aria-hidden="true" tabindex="-1" href="#add-a-site-to-a-publisher" class="internal"> §</a></h3>
+<div data-rehype-pretty-code-fragment><div data-rehype-pretty-code-title data-language="shell" data-theme="default">terminal</div><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="shell" data-theme="default"><code data-language="shell" data-theme="default"><span data-line><span style="color:var(--shiki-token-function);">curl</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">-X</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">POST</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string);">https://distributed.errbufferoverfl.me/v1/sites</span><span style="color:var(--shiki-color-text);"> \</span></span>
+<span data-line><span style="color:var(--shiki-color-text);">-H </span><span style="color:var(--shiki-token-string-expression);">&quot;Content-Type: application/json&quot;</span><span style="color:var(--shiki-color-text);"> \</span></span>
+<span data-line><span style="color:var(--shiki-color-text);">-H </span><span style="color:var(--shiki-token-string-expression);">&quot;Authorization: Bearer JWT&quot;</span><span style="color:var(--shiki-color-text);"> \</span></span>
+<span data-line><span style="color:var(--shiki-color-text);">-d </span><span style="color:var(--shiki-token-string-expression);">'{&quot;domain&quot;:&quot;garden.errbufferoverfl.me&quot;, &quot;public&quot;: true, &quot;protocols&quot;:{&quot;http&quot;: false, &quot;hyper&quot;: true, &quot;ipfs&quot;: true} }'</span></span></code></pre></div>
+<h2 id="errors">Errors<a aria-hidden="true" tabindex="-1" href="#errors" class="internal"> §</a></h2>
+<blockquote class="callout" data-callout="bug">
+<div class="callout-title">
+                  <div class="callout-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="8" height="14" x="8" y="6" rx="4"></rect><path d="m19 7-3 2"></path><path d="m5 7 3 2"></path><path d="m19 19-3-2"></path><path d="m5 19 3-2"></path><path d="M20 13h-4"></path><path d="M4 13h4"></path><path d="m10 4 1 2"></path><path d="m14 4-1 2"></path></svg></div>
+                  <div class="callout-title-inner"><p>Bug </p></div>
+                  
+                </div>
+<p>Experience the following error because you didn’t add the remote host to your <code>/etc/host</code>.</p>
+<p><em>Scream into the void.</em></p>
+<div data-rehype-pretty-code-fragment><pre style="background-color:var(--shiki-color-background);" tabindex="0" data-language="shell" data-theme="default"><code data-language="shell" data-theme="default"><span data-line><span style="color:var(--shiki-token-function);">fatal:</span><span style="color:var(--shiki-color-text);"> [distributed.errbufferoverfl.me]: UNREACHABLE</span><span style="color:var(--shiki-token-keyword);">!</span><span style="color:var(--shiki-color-text);"> => </span><span style="color:var(--shiki-token-string);">{</span></span>
+<span data-line><span style="color:var(--shiki-color-text);">	</span><span style="color:var(--shiki-token-function);">&quot;changed&quot;</span><span style="color:var(--shiki-token-function);">:</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-constant);">false</span><span style="color:var(--shiki-token-string);">,</span><span style="color:var(--shiki-color-text);"> </span></span>
+<span data-line><span style="color:var(--shiki-color-text);">	</span><span style="color:var(--shiki-token-function);">&quot;msg&quot;</span><span style="color:var(--shiki-token-function);">:</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-string-expression);">&quot;Failed to connect to the host via ssh: ssh: Could not resolve</span></span>
+<span data-line><span style="color:var(--shiki-token-string-expression);">	 hostname distributed.errbufferoverfl.me: Name or service not known&quot;</span><span style="color:var(--shiki-token-string);">,</span><span style="color:var(--shiki-color-text);"> </span></span>
+<span data-line><span style="color:var(--shiki-color-text);">	</span><span style="color:var(--shiki-token-function);">&quot;unreachable&quot;</span><span style="color:var(--shiki-token-function);">:</span><span style="color:var(--shiki-color-text);"> </span><span style="color:var(--shiki-token-constant);">true</span></span>
+<span data-line><span style="color:var(--shiki-color-text);">}</span></span></code></pre></div>
+</blockquote>
+<h3 id="unable-to-resolve-remote-host-after-installation">Unable to resolve remote host <strong>after</strong> installation<a aria-hidden="true" tabindex="-1" href="#unable-to-resolve-remote-host-after-installation" class="internal"> §</a></h3>
+<p>If you were running on a version of apt-based Linux and had to disable the default DNS server to get node working, when you attempt to run <code>apt-update</code> or try to run the Ansible script again it <strong>will</strong> fail.</p>
+<p><img src="../imgs/setting-up-distributed-press-on-digital-ocean.png" alt="A Mastodon post written by me that says &quot;Why won't apt repositories resolve! WHAT IS GOING ON?!  Me two hours earlier: systemctl disable systemd-resolved&quot;"/></p>
+<p>To fix this, you’ll want to <code>ssh</code> onto the remote host, stop the <code>distributed.press</code> service and restart <code>systemd-resolved</code>.</p>
+<h2 id="additional-resources">Additional Resources<a aria-hidden="true" tabindex="-1" href="#additional-resources" class="internal"> §</a></h2>
+<ul>
+<li><strong><a href="https://github.com/hyphacoop/actions-distributed-press" class="external">hyphacoop/actions-distributed-press</a></strong> - Easily deploy a site to Distributed Press using GitHub Actions</li>
+</ul>
+<section data-footnotes class="footnotes"><h2 class="sr-only" id="footnote-label">Footnotes<a aria-hidden="true" tabindex="-1" href="#footnote-label" class="internal"> §</a></h2>
+<ol>
+<li id="user-content-fn-1">
+<p><a href="https://github.com/hyphacoop/actions-distributed-press/issues/2#issue-1751678540" class="external">https://github.com/hyphacoop/actions-distributed-press/issues/2#issue-1751678540</a> <a href="#user-content-fnref-1" data-footnote-backref class="data-footnote-backref internal" aria-label="Back to content">↩</a> <a href="#user-content-fnref-1-2" data-footnote-backref class="data-footnote-backref internal" aria-label="Back to content">↩<sup>2</sup></a></p>
+</li>
+<li id="user-content-fn-2">
+<p><a href="https://github.com/MASQ-Project/Node/blob/master/node/docs/PORT_53.md#linux" class="external">Port 53 Problems?</a> <a href="#user-content-fnref-2" data-footnote-backref class="data-footnote-backref internal" aria-label="Back to content">↩</a></p>
+</li>
+</ol>
+</section></article></div><div class="right sidebar"><div class="graph"><h3>Graph View</h3><div class="graph-outer"><div id="graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:1,&quot;scale&quot;:1.1,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div><svg version="1.1" id="global-graph-icon" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 55 55" fill="currentColor" xmlSpace="preserve"><path d="M49,0c-3.309,0-6,2.691-6,6c0,1.035,0.263,2.009,0.726,2.86l-9.829,9.829C32.542,17.634,30.846,17,29,17
+	s-3.542,0.634-4.898,1.688l-7.669-7.669C16.785,10.424,17,9.74,17,9c0-2.206-1.794-4-4-4S9,6.794,9,9s1.794,4,4,4
+	c0.74,0,1.424-0.215,2.019-0.567l7.669,7.669C21.634,21.458,21,23.154,21,25s0.634,3.542,1.688,4.897L10.024,42.562
+	C8.958,41.595,7.549,41,6,41c-3.309,0-6,2.691-6,6s2.691,6,6,6s6-2.691,6-6c0-1.035-0.263-2.009-0.726-2.86l12.829-12.829
+	c1.106,0.86,2.44,1.436,3.898,1.619v10.16c-2.833,0.478-5,2.942-5,5.91c0,3.309,2.691,6,6,6s6-2.691,6-6c0-2.967-2.167-5.431-5-5.91
+	v-10.16c1.458-0.183,2.792-0.759,3.898-1.619l7.669,7.669C41.215,39.576,41,40.26,41,41c0,2.206,1.794,4,4,4s4-1.794,4-4
+	s-1.794-4-4-4c-0.74,0-1.424,0.215-2.019,0.567l-7.669-7.669C36.366,28.542,37,26.846,37,25s-0.634-3.542-1.688-4.897l9.665-9.665
+	C46.042,11.405,47.451,12,49,12c3.309,0,6-2.691,6-6S52.309,0,49,0z M11,9c0-1.103,0.897-2,2-2s2,0.897,2,2s-0.897,2-2,2
+	S11,10.103,11,9z M6,51c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S8.206,51,6,51z M33,49c0,2.206-1.794,4-4,4s-4-1.794-4-4
+	s1.794-4,4-4S33,46.794,33,49z M29,31c-3.309,0-6-2.691-6-6s2.691-6,6-6s6,2.691,6,6S32.309,31,29,31z M47,41c0,1.103-0.897,2-2,2
+	s-2-0.897-2-2s0.897-2,2-2S47,39.897,47,41z M49,10c-2.206,0-4-1.794-4-4s1.794-4,4-4s4,1.794,4,4S51.206,10,49,10z"></path></svg></div><div id="global-graph-outer"><div id="global-graph-container" data-cfg="{&quot;drag&quot;:true,&quot;zoom&quot;:true,&quot;depth&quot;:-1,&quot;scale&quot;:0.9,&quot;repelForce&quot;:0.5,&quot;centerForce&quot;:0.3,&quot;linkDistance&quot;:30,&quot;fontSize&quot;:0.6,&quot;opacityScale&quot;:1}"></div></div></div><div class="backlinks"><h3>Backlinks</h3><ul class="overflow"><li><a href="../the-toolbox/distributed-press" class="internal">Distributed Press</a></li></ul></div></div></div><footer><hr/><p>Created with <a href="https://quartz.jzhao.xyz/">Quartz v4.0.10</a>, © 2023</p><ul><li><a href="https://github.com/jackyzha0/quartz">GitHub</a></li><li><a href="https://discord.gg/cRFFHYye7t">Discord Community</a></li></ul></footer></div></body><script type="application/javascript">// quartz/components/scripts/quartz/components/scripts/callout.inline.ts
+function toggleCallout() {
+  const outerBlock = this.parentElement;
+  outerBlock.classList.toggle(`is-collapsed`);
+  const collapsed = outerBlock.classList.contains(`is-collapsed`);
+  const height = collapsed ? this.scrollHeight : outerBlock.scrollHeight;
+  outerBlock.style.maxHeight = height + `px`;
+  let current = outerBlock;
+  let parent = outerBlock.parentElement;
+  while (parent) {
+    if (!parent.classList.contains(`callout`)) {
+      return;
+    }
+    const collapsed2 = parent.classList.contains(`is-collapsed`);
+    const height2 = collapsed2 ? parent.scrollHeight : parent.scrollHeight + current.scrollHeight;
+    parent.style.maxHeight = height2 + `px`;
+    current = parent;
+    parent = parent.parentElement;
+  }
+}
+function setupCallout() {
+  const collapsible = document.getElementsByClassName(
+    `callout is-collapsible`
+  );
+  for (const div of collapsible) {
+    const title = div.firstElementChild;
+    if (title) {
+      title.removeEventListener(`click`, toggleCallout);
+      title.addEventListener(`click`, toggleCallout);
+      const collapsed = div.classList.contains(`is-collapsed`);
+      const height = collapsed ? title.scrollHeight : div.scrollHeight;
+      div.style.maxHeight = height + `px`;
+    }
+  }
+}
+document.addEventListener(`nav`, setupCallout);
+window.addEventListener(`resize`, setupCallout);
+</script><script type="module">
+          import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs';
+          const darkMode = document.documentElement.getAttribute('saved-theme') === 'dark'
+          mermaid.initialize({
+            startOnLoad: false,
+            securityLevel: 'loose',
+            theme: darkMode ? 'dark' : 'default'
+          });
+          document.addEventListener('nav', async () => {
+            await mermaid.run({
+              querySelector: '.mermaid'
+            })
+          });
+          </script><script src="https://cdn.jsdelivr.net/npm/katex@0.16.7/dist/contrib/copy-tex.min.js" type="application/javascript"></script><script src="../postscript.js" type="module"></script></html>
