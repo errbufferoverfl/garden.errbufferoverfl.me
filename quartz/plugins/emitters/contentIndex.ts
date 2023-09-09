@@ -41,7 +41,7 @@ function generateSiteMap(cfg: GlobalConfiguration, idx: ContentIndex): string {
 
 function generateRSSFeed(cfg: GlobalConfiguration, idx: ContentIndex): string {
   const base = cfg.baseUrl ?? ""
-  const root = `${base}`
+  const root = `https://${base}`
 
   const createURLEntry = (slug: SimpleSlug, content: ContentDetails): string => `
 <entry>

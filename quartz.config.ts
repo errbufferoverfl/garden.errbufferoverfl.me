@@ -6,7 +6,7 @@ const config: QuartzConfig = {
     pageTitle: "🪴errbufferoverfl's \n Digital Garden",
     enableSPA: true,
     enablePopovers: true,
-    baseUrl: "https://garden.errbufferoverfl.me",
+    baseUrl: "garden.errbufferoverfl.me",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
