@@ -2,7 +2,7 @@
   <a href="#recent-notes">
     <h2 id="recent-notes">Recent Notes</h2>
   </a>
-    {{ $notes := where .Site.RegularPages "Section" "notes" }}
+    {{ $notes := where .Site.RegularPages "Section" "notebook" }}
     <ul class="delay t-3 stagger">
         {{- range first 2 (sort $notes ".Date" "desc") -}}
         <li>

@@ -4,11 +4,12 @@ aliases:
   - "The Notebook"
   - "the notebook"
 created: 2023-09-09T17:57:13+10:00
-modified: 2023-09-09T17:57:47+10:00
+modified: 2023-09-09T18:37:00+10:00
 tags:
   - evergreen
   - compendium
 ---
+
 %% Begin Waypoint %%
 - [a-feast-around-a-table-with-devils-and-witches](notebook/a-feast-around-a-table-with-devils-and-witches.md)
 - [aquarium-algae-scrubber](notebook/aquarium-algae-scrubber.md)

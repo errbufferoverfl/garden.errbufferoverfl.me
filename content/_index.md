@@ -5,7 +5,7 @@ alias:
   - "index"
   - "home"
 created: 2023-05-27T00:00:00+10:00
-modified: 2023-09-09T18:05:01+10:00
+modified: 2023-09-09T18:52:56+10:00
 ---
 Welcome to my digital garden. 🌱
 
@@ -29,14 +29,14 @@ I currently live on the unceded land of the [Wadawurrung and Dja Dja Wurrung Peo
 
 Here are some places you might explore:
 
-- 📖 [[the-notebook|The Notebook]]: a collection of musings and evolving ideas.
-- 🎨 [The Art Studio](/the-art-studio.md): art & illustrative projects, notes and musings.
-- 📚 [[the-antilibrary|The Anti-Library]]: books that are in some state of read, being read, or to be read.
+- 📖 [The Notebook](/the-notebook): a collection of musings and evolving ideas.
+- 🎨 [The Art Studio](/the-art-studio): art & illustrative projects, notes and musings.
+- 📚 [The Anti-Library](/the-antilibrary): books that are in some state of read, being read, or to be read.
 - 🌾 [[the-microfarm|The Microfarm]]: a collection of notes about gardening and urban-gardening.
-- 🎙️ [[the-soapbox|The Soapbox]]: meetup, conference and training that I've previously delivered.
-- 🔧 [[the-engineering-anthology|The Engineering Anthology]]: a collection of notable projects that I’ve finished and or currently maintaining.
+- 🎙️ [The Soapbox](the-soapbox): meetup, conference and training that I've previously delivered.
+- 🔧 [The Engineering Anthology](the-engineering-anthology): a collection of notable projects that I’ve finished and or currently maintaining.
 
 # 📚 Collections
 
-- 🧰 [[the-toolbox|The Toolbox]]: interesting tools that may or may not be useful one day.
-- 🔖 [[bookmarks|Bookmarks]]: blog posts, articles or documentation that are varying states of being read.
+- 🧰 [The Toolbox](/the-toolbox): interesting tools that may or may not be useful one day.
+- 🔖 [Bookmarks](/bookmarks): blog posts, articles or documentation that are varying states of being read.
