@@ -1,0 +1,9 @@
+User-agent: ChatGPT-User
+User-agent: Googlebot-Image
+User-agent: AdsBot-Google
+Disallow: /
+
+User-agent: Googlebot
+Disallow: /bookmarks
+
+Sitemap: https://garden.errbufferoverfl.me/sitemap.xml
