@@ -1,7 +1,7 @@
 ---
 title: "People with disabilities in group homes are suffering shocking abuse. New housing models could prevent harm"
 alias:
-  - "People with disabilities in group homes are suffering shocking abuse. New housing models could prevent harm"
+- "People with disabilities in group homes are suffering shocking abuse. New housing models could prevent harm"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://theconversation.com/people-with-disabilities-in-group-homes-are-suffering-shocking-abuse-new-housing-models-could-prevent-harm-197989"

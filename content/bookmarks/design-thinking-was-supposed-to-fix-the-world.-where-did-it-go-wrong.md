@@ -1,7 +1,7 @@
 ---
 title: "Design thinking was supposed to fix the world. Where did it go wrong?"
 alias:
-  - "Design thinking was supposed to fix the world. Where did it go wrong?"
+- "Design thinking was supposed to fix the world. Where did it go wrong?"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-12T23:35:32+10:00
 link:  "https://www.technologyreview.com/2023/02/09/1067821/design-thinking-retrospective-what-went-wrong/"

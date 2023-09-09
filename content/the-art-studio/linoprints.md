@@ -1,8 +1,8 @@
 ---
 title: "Linoprints"
 alias:
-  - "Linoprints"
-  - "linoprints"
+- "Linoprints"
+- "linoprints"
 created: 2023-09-09T11:10:06+10:00
 modified: 2023-09-09T17:49:34+10:00
 tags:

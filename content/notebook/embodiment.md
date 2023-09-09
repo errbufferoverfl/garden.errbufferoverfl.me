@@ -1,12 +1,12 @@
 ---
 title: Embodiment
 alias:
-  - embodiment
+- embodiment
 created: 2023-06-12T00:00:00+10:00
 modified: 2023-08-12T17:18:07+10:00
 tags:
-  - seed
-  - feminism
+- seed
+- feminism
 ---
 
 The principles of **embodiment** look at diverse experiences and relationships as human beings embodying multiple identities and realities in “disembodied” online spaces.

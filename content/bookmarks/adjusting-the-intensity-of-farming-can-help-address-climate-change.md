@@ -1,7 +1,7 @@
 ---
 title: "Adjusting the intensity of farming can help address climate change"
 alias:
-  - "Adjusting the intensity of farming can help address climate change"
+- "Adjusting the intensity of farming can help address climate change"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://theconversation.com/adjusting-the-intensity-of-farming-can-help-address-climate-change-191293"

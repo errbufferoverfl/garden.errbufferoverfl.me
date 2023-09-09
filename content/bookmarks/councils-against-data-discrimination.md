@@ -1,7 +1,7 @@
 ---
 title: "Councils against data discrimination"
 alias:
-  - "Councils against data discrimination"
+- "Councils against data discrimination"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.openrightsgroup.org/campaign/councils-against-data-discrimination/"

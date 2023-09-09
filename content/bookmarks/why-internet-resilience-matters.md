@@ -1,7 +1,7 @@
 ---
 title: "Why Internet Resilience Matters"
 alias:
-  - "Why Internet Resilience Matters"
+- "Why Internet Resilience Matters"
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.internetsociety.org/blog/2023/08/why-internet-resilience-matters/"

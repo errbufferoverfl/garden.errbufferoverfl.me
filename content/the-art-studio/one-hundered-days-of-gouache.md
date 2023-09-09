@@ -1,8 +1,8 @@
 ---
 title: "100 days of gouache"
 alias:
-  - "100 Days of Gouache"
-  - "100 days of gouache"
+- "100 Days of Gouache"
+- "100 days of gouache"
 created: 2023-06-02T00:00:00+10:00
 modified: 2023-09-09T11:24:40+10:00
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "How does methadone work as a heroin-replacement therapy? And what about the longer-acting buprenorphine?"
 alias:
-  - "How does methadone work as a heroin-replacement therapy? And what about the longer-acting buprenorphine?"
+- "How does methadone work as a heroin-replacement therapy? And what about the longer-acting buprenorphine?"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://theconversation.com/how-does-methadone-work-as-a-heroin-replacement-therapy-and-what-about-the-longer-acting-buprenorphine-189692"

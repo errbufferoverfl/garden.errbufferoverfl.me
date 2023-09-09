@@ -1,7 +1,7 @@
 ---
 title: "Liberal philosophy has clipped the wings of the egalitarian ideal. We should return to the bolder ideals of Iris Murdoch"
 alias:
-  - "Liberal philosophy has clipped the wings of the egalitarian ideal. We should return to the bolder ideals of Iris Murdoch"
+- "Liberal philosophy has clipped the wings of the egalitarian ideal. We should return to the bolder ideals of Iris Murdoch"
 created: 2023-08-15T22:05:58+10:00
 modified: 2023-08-15T22:09:31+10:00
 link:  "https://aeon.co/essays/we-should-return-to-the-bold-egalitarianism-of-iris-murdoch"

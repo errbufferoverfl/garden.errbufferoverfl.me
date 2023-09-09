@@ -1,13 +1,13 @@
 ---
 title: "Bookmarks"
 alias:
-  - "Bookmarks"
-  - "bookmarks"
+- "Bookmarks"
+- "bookmarks"
 created: 2023-08-06T10:00:22+10:00
 modified: 2023-09-09T17:56:52+10:00
 tags:
-  - evergreen
-  - compendium
+- evergreen
+- compendium
 ---
 
 %% Begin Waypoint %%

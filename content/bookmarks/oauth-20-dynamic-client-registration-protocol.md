@@ -1,7 +1,7 @@
 ---
 title: "OAuth 2.0 Dynamic Client Registration Protocol"
 alias:
-  - "OAuth 2.0 Dynamic Client Registration Protocol"
+- "OAuth 2.0 Dynamic Client Registration Protocol"
 created: 2023-08-06T22:15:06+10:00
 modified: 2023-08-06T22:15:48+10:00
 link:  "https://datatracker.ietf.org/doc/rfc7591/"

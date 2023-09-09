@@ -1,7 +1,7 @@
 ---
 title: "Four possible consequences of El Niño returning in 2023"
 alias:
-  - "Four possible consequences of El Niño returning in 2023"
+- "Four possible consequences of El Niño returning in 2023"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://theconversation.com/four-possible-consequences-of-el-nino-returning-in-2023-198105"

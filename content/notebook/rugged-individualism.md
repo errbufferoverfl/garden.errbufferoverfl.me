@@ -1,7 +1,7 @@
 ---
 title: "rugged individualism"
 alias:
-  - "rugged individualism"
+- "rugged individualism"
 created: 2023-08-17T21:00:50+10:00
 modified: 2023-08-17T21:28:27+10:00
 tags:

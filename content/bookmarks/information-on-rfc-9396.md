@@ -1,7 +1,7 @@
 ---
 title: "Information on RFC 9396"
 alias:
-  - "Information on RFC 9396"
+- "Information on RFC 9396"
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.rfc-editor.org/info/rfc9396"

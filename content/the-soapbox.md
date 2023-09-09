@@ -1,13 +1,13 @@
 ---
 title: "The Soapbox"
 aliases:
-  - "The Soapbox"
-  - "the soapbox"
+- "The Soapbox"
+- "the soapbox"
 created: 2023-09-09T17:55:29+10:00
 modified: 2023-09-09T17:56:23+10:00
 tags:
-  - evergreen
-  - compendium
+- evergreen
+- compendium
 ---
 
 %% Begin Waypoint %%

@@ -1,9 +1,9 @@
 ---
 title: "home"
 alias:
-  - 🌈 Now
-  - "index"
-  - "home"
+- 🌈 Now
+- "index"
+- "home"
 created: 2023-05-27T00:00:00+10:00
 modified: 2023-09-09T18:52:56+10:00
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Expect Resistance: A Crimethink Field Manual"
 alias:
-  - "Expect Resistance: A Crimethink Field Manual"
+- "Expect Resistance: A Crimethink Field Manual"
 cover: "/imgs/expect-resistance-a-crimethinc-field-manual.png"
 created: 2023-06-20T21:30:40+10:00
 modified: 2023-08-19T23:02:22+10:00

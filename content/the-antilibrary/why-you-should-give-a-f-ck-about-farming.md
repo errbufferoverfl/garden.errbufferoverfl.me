@@ -1,7 +1,7 @@
 ---
 title: "Why you should give a f*ck about farming"
 alias:
-  - "Why you should give a f*ck about farming"
+- "Why you should give a f*ck about farming"
 cover: "/imgs/why-you-should-give-a-f-ck-about-farming.png"
 created: 2023-09-07T10:47:24+10:00
 modified: 2023-09-07T11:13:52+10:00

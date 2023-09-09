@@ -1,7 +1,7 @@
 ---
 title: "Turing kicked us out of Heaven"
 alias:
-  - "Turing kicked us out of Heaven"
+- "Turing kicked us out of Heaven"
 created: 2023-08-15T22:05:58+10:00
 modified: 2023-08-15T22:07:01+10:00
 link:  "https://buttondown.email/hillelwayne/archive/turing-kicked-us-out-of-heaven/"

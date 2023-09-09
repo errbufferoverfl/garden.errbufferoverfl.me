@@ -4,8 +4,8 @@ alias: []
 created: 2023-06-12T00:00:00+10:00
 modified: 2023-06-17T21:33:06+10:00
 tags:
-  - sapling
-  - policy
+- sapling
+- policy
 ---
 
 [Post on Twitter](https://twitter.com/errbufferoverfl/status/1646427897727688704?s=20)

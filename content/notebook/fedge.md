@@ -1,7 +1,7 @@
 ---
 title: "Fedge"
 alias:
-  - "Fedge"
+- "Fedge"
 created: 2023-09-08T09:53:10+10:00
 modified: 2023-09-08T10:51:23+10:00
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "The World’s Farms Are Hooked on Phosphorus. It’s a Problem"
 alias:
-  - "The World’s Farms Are Hooked on Phosphorus. It’s a Problem"
+- "The World’s Farms Are Hooked on Phosphorus. It’s a Problem"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.wired.com/story/the-worlds-farms-are-hooked-on-phosphorus-its-a-problem/"

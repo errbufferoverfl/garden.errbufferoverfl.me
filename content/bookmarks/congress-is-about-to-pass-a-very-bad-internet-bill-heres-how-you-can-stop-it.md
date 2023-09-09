@@ -1,7 +1,7 @@
 ---
 title: "Congress is About to Pass a Very Bad Internet Bill. Here's How You Can Stop It."
 alias:
-  - "Congress is About to Pass a Very Bad Internet Bill. Here's How You Can Stop It."
+- "Congress is About to Pass a Very Bad Internet Bill. Here's How You Can Stop It."
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.readtpa.com/p/congress-is-about-to-pass-a-very"

@@ -1,7 +1,7 @@
 ---
 title: "The real reason why there’s a global rise in trans youth"
 alias:
-  - "The real reason why there’s a global rise in trans youth"
+- "The real reason why there’s a global rise in trans youth"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://aeon.co/essays/the-real-reason-why-theres-a-global-rise-in-trans-youth"

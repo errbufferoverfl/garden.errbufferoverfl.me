@@ -1,7 +1,7 @@
 ---
 title: "The Great (Fake) Child-Sex-Trafficking Epidemic"
 alias:
-  - "The Great (Fake) Child-Sex-Trafficking Epidemic"
+- "The Great (Fake) Child-Sex-Trafficking Epidemic"
 created: 2023-08-12T21:43:09+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.theatlantic.com/magazine/archive/2022/01/children-sex-trafficking-conspiracy-epidemic/620845/"

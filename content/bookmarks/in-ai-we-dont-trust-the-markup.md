@@ -1,7 +1,7 @@
 ---
 title: "In AI We (Don’t) Trust – The Markup"
 alias:
-  - "In AI We (Don’t) Trust – The Markup"
+- "In AI We (Don’t) Trust – The Markup"
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://themarkup.org/hello-world/2023/04/29/in-ai-we-dont-trust"

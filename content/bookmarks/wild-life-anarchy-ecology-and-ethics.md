@@ -1,7 +1,7 @@
 ---
 title: "Wild-life: anarchy, ecology, and ethics"
 alias:
-  - "Wild-life: anarchy, ecology, and ethics"
+- "Wild-life: anarchy, ecology, and ethics"
 created: 2023-08-12T21:43:09+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://theanarchistlibrary.org/library/mick-smith-wild-life-anarchy-ecology-and-ethics?v=1672201947"

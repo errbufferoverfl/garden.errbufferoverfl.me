@@ -1,7 +1,7 @@
 ---
 title: "A dangerous pesticide isn’t being monitored in key bird of prey populations - we’re shedding light on that gap"
 alias:
-  - "A dangerous pesticide isn’t being monitored in key bird of prey populations - we’re shedding light on that gap"
+- "A dangerous pesticide isn’t being monitored in key bird of prey populations - we’re shedding light on that gap"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-13T00:11:36+10:00
 link:  "https://theconversation.com/a-dangerous-pesticide-isnt-being-monitored-in-key-bird-of-prey-populations-were-shedding-light-on-that-gap-194175"

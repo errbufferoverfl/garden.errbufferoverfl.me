@@ -1,7 +1,7 @@
 ---
 title: "The Reluctant Prophet of Effective Altruism"
 alias:
-  - "The Reluctant Prophet of Effective Altruism"
+- "The Reluctant Prophet of Effective Altruism"
 created: 2023-08-12T21:43:09+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.newyorker.com/magazine/2022/08/15/the-reluctant-prophet-of-effective-altruism"

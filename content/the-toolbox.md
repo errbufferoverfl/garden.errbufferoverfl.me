@@ -1,15 +1,15 @@
 ---
 title: "The Toolbox"
 aliases:
-  - "The Toolbox"
-  - "the toolbox"
+- "The Toolbox"
+- "the toolbox"
 created: 2023-08-09T13:00:12+10:00
 modified: 2023-09-09T18:51:29+10:00
 type: "Tools"
 taxonomy: "Tools"
 tags:
-  - evergreen
-  - compendium
+- evergreen
+- compendium
 ---
 
 %% Begin Waypoint %%

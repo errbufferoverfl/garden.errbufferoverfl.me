@@ -1,7 +1,7 @@
 ---
 title: "Work restrictions around student visas put young girls at risk"
 alias:
-  - "Work restrictions around student visas put young girls at risk"
+- "Work restrictions around student visas put young girls at risk"
 created: 2023-08-12T23:12:01+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.missingperspectives.com/posts/work-restrictions-of-student-visas-put-young-girls-at-risk/"

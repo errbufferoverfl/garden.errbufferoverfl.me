@@ -1,7 +1,7 @@
 ---
 title: "Setting Up Distributed Press on Digital Ocean"
 alias:
-  - "Setting Up Distributed Press on Digital Ocean"
+- "Setting Up Distributed Press on Digital Ocean"
 created: 2023-06-11T00:00:00+10:00
 modified: 2023-08-13T08:29:16+10:00
 tags:
@@ -225,7 +225,7 @@ curl -X POST https://distributed.errbufferoverfl.me/v1/publisher \
 curl -X POST https://distributed.errbufferoverfl.me/v1/sites \
 -H "Content-Type: application/json" \
 -H "Authorization: Bearer JWT" \
-  -d '{"domain":"garden.errbufferoverfl.me", "public": true, "protocols":{"http": false, "hyper": true, "ipfs": true} }'
+-d '{"domain":"garden.errbufferoverfl.me", "public": true, "protocols":{"http": false, "hyper": true, "ipfs": true} }'
 ```
 
 ## Errors

@@ -1,7 +1,7 @@
 ---
 title: "17 Forbidden Places You Can't Visit"
 alias:
-  - "17 Forbidden Places You Can't Visit"
+- "17 Forbidden Places You Can't Visit"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-13T00:11:35+10:00
 link:  "https://getpocket.com/explore/item/17-forbidden-places-you-can-t-visit"

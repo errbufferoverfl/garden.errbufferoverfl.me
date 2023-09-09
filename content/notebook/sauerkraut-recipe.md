@@ -1,12 +1,12 @@
 ---
 title: sauerkraut recipe
 alias:
-  - Sauerkraut Recipe
+- Sauerkraut Recipe
 created: 2023-07-01T09:38:09+10:00
 modified: 2023-09-03T08:55:51+10:00
 tags:
-  - recipe
-  - fermenting
+- recipe
+- fermenting
 ---
 
 Sauerkraut recipe for Week 26, 2023. 

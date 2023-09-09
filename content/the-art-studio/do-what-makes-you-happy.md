@@ -1,8 +1,8 @@
 ---
 title: "Do What Makes you Happy"
 alias:
-  - "Do What Makes You Happy"
-  - "do what makes you happy"
+- "Do What Makes You Happy"
+- "do what makes you happy"
 created: 2023-05-25T09:40:20+10:00
 modified: 2023-09-09T11:25:57+10:00
 kofi: "https://ko-fi.com/i/IS6S1LLRRW"

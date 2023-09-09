@@ -1,8 +1,8 @@
 ---
 title: "Sketches"
 alias:
-  - "Sketches"
-  - "sketches"
+- "Sketches"
+- "sketches"
 created: 2023-09-09T11:14:03+10:00
 modified: 2023-09-09T11:19:19+10:00
 tags:

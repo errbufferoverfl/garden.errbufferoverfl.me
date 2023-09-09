@@ -5,8 +5,8 @@ alias:
 created: 2023-08-06T20:04:00+10:00
 modified: 2023-09-03T08:54:53+10:00
 tags:
-  - seed
-  - sustainable-agriculture
+- seed
+- sustainable-agriculture
 ---
 While there are no hard or fast rules to using a [[polyculture|Polyculture]] there are common practices that can be implemented depending on the plants, spatial distribution and time spent cohabiting.
 

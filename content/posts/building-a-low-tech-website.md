@@ -1,13 +1,13 @@
 ---
 title: Building a Low Tech Website
 aliases:
-  - Building a Low Tech Website
+- Building a Low Tech Website
 created: 2023-08-12T08:12:50+10:00
 modified: 2023-08-17T20:48:15+10:00
 enableToc: "true"
 draft: "true"
 tags:
-  - seed
+- seed
 ---
 As discourse around the impacts of Artificial intelligence (Ai) swirls in the background, one of the things I've been thinking about a lot is this idea we have that someday Ai will automate the boring things so everyone can focus on endeavours that are more fulfilling.
 

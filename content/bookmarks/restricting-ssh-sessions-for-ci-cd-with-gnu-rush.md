@@ -1,7 +1,7 @@
 ---
 title: "Restricting SSH Sessions for CI CD with GNU Rush"
 alias:
-  - "Restricting SSH Sessions for CI CD with GNU Rush"
+- "Restricting SSH Sessions for CI CD with GNU Rush"
 created: 2023-08-12T16:36:37+10:00
 modified: 2023-08-12T16:41:24+10:00
 link:  "https://ec0.io/post/restricting-ssh-sessions-for-ci-with-gnu-rush/"

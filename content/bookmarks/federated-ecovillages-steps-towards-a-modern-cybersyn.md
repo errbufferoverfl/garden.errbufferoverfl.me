@@ -1,7 +1,7 @@
 ---
 title: "Federated Ecovillages & Steps Towards a Modern Cybersyn"
 alias:
-  - "Federated Ecovillages & Steps Towards a Modern Cybersyn"
+- "Federated Ecovillages & Steps Towards a Modern Cybersyn"
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://anarchosolarpunk.substack.com/p/ecovillages"

@@ -5,8 +5,8 @@ alias:
 created: 2023-08-06T20:52:57+10:00
 modified: 2023-08-25T16:05:37+10:00
 tags:
-  - seed
-  - sustainable-agriculture
+- seed
+- sustainable-agriculture
 ---
 
 The following examples were collated from online searches of intercropping online, and many were rightly or wrongly compiled on the foundation of companion planting.

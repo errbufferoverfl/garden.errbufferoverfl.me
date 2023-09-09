@@ -1,7 +1,7 @@
 ---
 title: "Proton’s Raffle: Helping RDR Keep Big Tech Accountable Globally in 2023"
 alias:
-  - "Proton’s Raffle: Helping RDR Keep Big Tech Accountable Globally in 2023"
+- "Proton’s Raffle: Helping RDR Keep Big Tech Accountable Globally in 2023"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://rankingdigitalrights.org/2023/02/02/protons-raffle-helping-rdr-keep-big-tech-accountable-globally-in-2023/"

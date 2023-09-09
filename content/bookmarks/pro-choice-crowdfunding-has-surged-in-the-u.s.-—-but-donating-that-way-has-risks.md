@@ -1,7 +1,7 @@
 ---
 title: "Pro-choice crowdfunding has surged in the U.S. — but donating that way has risks"
 alias:
-  - "Pro-choice crowdfunding has surged in the U.S. — but donating that way has risks"
+- "Pro-choice crowdfunding has surged in the U.S. — but donating that way has risks"
 created: 2023-08-12T21:43:09+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://theconversation.com/pro-choice-crowdfunding-has-surged-in-the-u-s-but-donating-that-way-has-risks-195279"

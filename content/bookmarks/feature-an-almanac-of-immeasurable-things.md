@@ -1,7 +1,7 @@
 ---
 title: "Feature | An almanac of immeasurable things"
 alias:
-  - "Feature | An almanac of immeasurable things"
+- "Feature | An almanac of immeasurable things"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://overland.org.au/previous-issues/editorial-team/feature-an-almanac-of-immeasurable-things/"

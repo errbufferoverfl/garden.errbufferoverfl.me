@@ -1,7 +1,7 @@
 ---
 title: Ghost Work
 aliases:
-  - Ghost Work
+- Ghost Work
 cover: /imgs/ghost-work.png
 created: 2023-06-29T23:00:43+10:00
 modified: 2023-08-19T22:42:38+10:00
@@ -21,17 +21,17 @@ genre:
 - Sociology
 - Intelligence
 tags:
-  - book
-  - technology
-  - economics
-  - business
-  - labor
-  - anthropology
-  - politics
-  - sociology
-  - artificial
-  - intelligence
-  - non-fiction
+- book
+- technology
+- economics
+- business
+- labor
+- anthropology
+- politics
+- sociology
+- artificial
+- intelligence
+- non-fiction
 ---
 
 *"A startling exposé of the invisible human workforce that powers the web--and how to bring it out of the shadows. Hidden beneath the surface of the internet, a new, stark reality is looming--one that cuts to the very heart of our endless debates about the impact of AI.* 

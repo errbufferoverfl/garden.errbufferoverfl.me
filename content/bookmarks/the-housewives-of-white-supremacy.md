@@ -1,7 +1,7 @@
 ---
 title: "The Housewives of White Supremacy"
 alias:
-  - "The Housewives of White Supremacy"
+- "The Housewives of White Supremacy"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.nytimes.com/2018/06/01/opinion/sunday/tradwives-women-alt-right.html"

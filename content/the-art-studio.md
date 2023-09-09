@@ -1,13 +1,13 @@
 ---
 title: "The Art Studio"
 alias:
-  - "The Art Studio"
-  - "the art studio"
+- "The Art Studio"
+- "the art studio"
 created: 2023-05-31T00:00:00+10:00
 modified: 2023-09-09T18:09:20+10:00
 tags:
-  - evergreen
-  - compendium
+- evergreen
+- compendium
 ---
 If you've been enjoying my work and finding it entertaining. Your support means the world to me, and I can't thank you enough for being a part of this journey.
 

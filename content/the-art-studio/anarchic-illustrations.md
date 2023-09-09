@@ -1,8 +1,8 @@
 ---
 title: "anarchic illustrations"
 alias:
-  - "Anarchic Illustrations"
-  - "anarchic illustrations"
+- "Anarchic Illustrations"
+- "anarchic illustrations"
 created: 2023-07-14T10:56:15+10:00
 modified: 2023-09-09T11:23:23+10:00
 tags:

@@ -1,7 +1,7 @@
 ---
 title: "OpenAI Used Kenyan Workers Making $2 an Hour to Filter Traumatic Content from ChatGPT"
 alias:
-  - "OpenAI Used Kenyan Workers Making $2 an Hour to Filter Traumatic Content from ChatGPT"
+- "OpenAI Used Kenyan Workers Making $2 an Hour to Filter Traumatic Content from ChatGPT"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.vice.com/en/article/wxn3kw/openai-used-kenyan-workers-making-dollar2-an-hour-to-filter-traumatic-content-from-chatgpt"

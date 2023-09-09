@@ -1,7 +1,7 @@
 ---
 title: "Stasiland"
 alias:
-  - "Stasiland"
+- "Stasiland"
 cover: "/imgs/stasiland.png"
 created: 2023-09-07T10:54:15+10:00
 modified: 2023-09-07T11:13:55+10:00

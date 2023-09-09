@@ -1,7 +1,7 @@
 ---
 title: "Climate change trauma has real impacts on cognition and the brain, wildfire survivors study shows"
 alias:
-  - "Climate change trauma has real impacts on cognition and the brain, wildfire survivors study shows"
+- "Climate change trauma has real impacts on cognition and the brain, wildfire survivors study shows"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://theconversation.com/climate-change-trauma-has-real-impacts-on-cognition-and-the-brain-wildfire-survivors-study-shows-197870"

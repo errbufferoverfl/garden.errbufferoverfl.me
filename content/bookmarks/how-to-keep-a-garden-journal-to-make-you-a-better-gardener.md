@@ -1,7 +1,7 @@
 ---
 title: "How to Keep a Garden Journal to Make You a Better Gardener"
 alias:
-  - "How to Keep a Garden Journal to Make You a Better Gardener"
+- "How to Keep a Garden Journal to Make You a Better Gardener"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://morningchores.com/keeping-a-garden-journal/"

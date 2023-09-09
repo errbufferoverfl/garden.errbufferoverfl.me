@@ -1,7 +1,7 @@
 ---
 title: "Gold Mafia - Episode 1 - The Laundry Service"
 alias:
-  - "Gold Mafia - Episode 1 - The Laundry Service"
+- "Gold Mafia - Episode 1 - The Laundry Service"
 created: 2023-08-06T22:17:45+10:00
 modified: 2023-08-06T22:18:18+10:00
 link:  "https://www.youtube.com/watch?v=evWEuVR1XIs&t=4s"

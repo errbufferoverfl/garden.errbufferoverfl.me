@@ -1,7 +1,7 @@
 ---
 title: "Found, or self-found poetry, in an age of instant trash"
 alias:
-  - "Found, or self-found poetry, in an age of instant trash"
+- "Found, or self-found poetry, in an age of instant trash"
 created: 2023-08-12T23:12:01+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://overland.org.au/2023/07/found-or-self-found-poetry-in-an-age-of-instant-trash/"

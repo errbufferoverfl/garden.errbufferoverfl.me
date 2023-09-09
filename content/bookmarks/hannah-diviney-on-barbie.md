@@ -1,7 +1,7 @@
 ---
 title: "Hannah Diviney on Barbie"
 alias:
-  - "Hannah Diviney on Barbie"
+- "Hannah Diviney on Barbie"
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.missingperspectives.com/posts/hannah-diviney-on-barbie-movie/"

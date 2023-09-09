@@ -1,7 +1,7 @@
 ---
 title: "Chasing Shadows"
 alias:
-  - "Chasing Shadows"
+- "Chasing Shadows"
 cover: "/imgs/chasing-shadows.png"
 created: 2023-09-07T10:51:27+10:00
 modified: 2023-09-07T11:13:54+10:00

@@ -1,7 +1,7 @@
 ---
 title: "Inside a US Neo-Nazi Homeschool Network With Thousands of Members"
 alias:
-  - "Inside a US Neo-Nazi Homeschool Network With Thousands of Members"
+- "Inside a US Neo-Nazi Homeschool Network With Thousands of Members"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.vice.com/en/article/z34ane/neo-nazi-homeschool-ohio"

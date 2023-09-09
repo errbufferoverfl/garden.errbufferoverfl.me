@@ -1,7 +1,7 @@
 ---
 title: "How to Stand Up to a Dictator"
 alias:
-  - "How to Stand Up to a Dictator"
+- "How to Stand Up to a Dictator"
 cover: "/imgs/how-to-stand-up-to-a-dictator.png"
 alt: "How to Stand Up to a Dictator Book Cover"
 created: 2023-08-19T15:29:47+10:00

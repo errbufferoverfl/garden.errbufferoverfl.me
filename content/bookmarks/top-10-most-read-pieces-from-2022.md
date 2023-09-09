@@ -1,7 +1,7 @@
 ---
 title: "Top 10 Most Read Pieces from 2022"
 alias:
-  - "Top 10 Most Read Pieces from 2022"
+- "Top 10 Most Read Pieces from 2022"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://publicdomainreview.org/blog/2022/12/top-10-most-read-pieces-from-2022/"

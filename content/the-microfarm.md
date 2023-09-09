@@ -1,13 +1,13 @@
 ---
 title: "The Microfarm"
 aliases:
-  - "The Microfarm"
-  - "the microfarm"
+- "The Microfarm"
+- "the microfarm"
 created: 2023-09-03T09:07:46+10:00
 modified: 2023-09-09T17:51:12+10:00
 tags:
-  - evergreen
-  - compendium
+- evergreen
+- compendium
 ---
 
 ## Agriculture

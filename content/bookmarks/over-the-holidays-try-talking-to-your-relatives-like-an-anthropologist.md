@@ -1,7 +1,7 @@
 ---
 title: "Over the holidays, try talking to your relatives like an anthropologist"
 alias:
-  - "Over the holidays, try talking to your relatives like an anthropologist"
+- "Over the holidays, try talking to your relatives like an anthropologist"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://theconversation.com/over-the-holidays-try-talking-to-your-relatives-like-an-anthropologist-195637"

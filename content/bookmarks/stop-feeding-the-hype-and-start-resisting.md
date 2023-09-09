@@ -1,7 +1,7 @@
 ---
 title: "Stop feeding the hype and start resisting"
 alias:
-  - "Stop feeding the hype and start resisting"
+- "Stop feeding the hype and start resisting"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://irisvanrooijcogsci.com/2023/01/14/stop-feeding-the-hype-and-start-resisting/"

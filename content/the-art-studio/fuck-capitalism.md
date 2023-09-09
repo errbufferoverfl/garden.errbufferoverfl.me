@@ -1,8 +1,8 @@
 ---
 title: "Fuck Capitalism"
 alias:
-  - "Fuck Capitalism"
-  - "fuck capitalism"
+- "Fuck Capitalism"
+- "fuck capitalism"
 created: 2023-05-24T09:39:09+10:00
 modified: 2023-09-09T11:26:03+10:00
 kofi: "https://ko-fi.com/i/IU6U4LKUKJ"

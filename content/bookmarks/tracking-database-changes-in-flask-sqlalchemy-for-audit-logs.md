@@ -1,7 +1,7 @@
 ---
 title: "Tracking database changes in Flask Sqlalchemy for audit logs"
 alias:
-  - "Tracking database changes in Flask Sqlalchemy for audit logs"
+- "Tracking database changes in Flask Sqlalchemy for audit logs"
 created: 2023-08-06T22:15:54+10:00
 modified: 2023-08-06T22:16:19+10:00
 link:  "https://sagarkaurav.hashnode.dev/tracking-database-changes-in-flask-sqlalchemy-for-audit-logs"

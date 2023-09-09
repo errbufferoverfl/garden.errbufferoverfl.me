@@ -1,13 +1,13 @@
 ---
 title: "The Anti-Library"
 alias:
-  - "The Anti-Library"
-  - "the anti-library"
+- "The Anti-Library"
+- "the anti-library"
 created: 2023-05-28T00:00:00+10:00
 modified: 2023-09-09T17:53:45+10:00
 tags:
-  - evergreen
-  - compendium
+- evergreen
+- compendium
 ---
 
 > a scholar conscious of the power of [their] antilibrary is not concerned with treating knowledge as a property to possess or consume; rather [...] how much you don’t know—and how to find out that information when you need it.

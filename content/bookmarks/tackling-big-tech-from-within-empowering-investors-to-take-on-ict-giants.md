@@ -1,7 +1,7 @@
 ---
 title: "Tackling Big Tech From Within: Empowering Investors to Take on ICT Giants"
 alias:
-  - "Tackling Big Tech From Within: Empowering Investors to Take on ICT Giants"
+- "Tackling Big Tech From Within: Empowering Investors to Take on ICT Giants"
 created: 2023-08-12T23:12:01+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://rankingdigitalrights.org/2023/07/28/tackling-big-tech-from-within-empowering-investors-to-take-on-ict-giants/"

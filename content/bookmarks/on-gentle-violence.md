@@ -1,7 +1,7 @@
 ---
 title: "On Gentle Violence"
 alias:
-  - "On Gentle Violence"
+- "On Gentle Violence"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://theanarchistlibrary.org/library/maurits-fennis-on-gentle-violence"

@@ -1,7 +1,7 @@
 ---
 title: "A story of legends, families and capitalism: a candid history of the Christmas tree"
 alias:
-  - "A story of legends, families and capitalism: a candid history of the Christmas tree"
+- "A story of legends, families and capitalism: a candid history of the Christmas tree"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-13T00:11:44+10:00
 link:  "https://theconversation.com/a-story-of-legends-families-and-capitalism-a-candid-history-of-the-christmas-tree-196278"

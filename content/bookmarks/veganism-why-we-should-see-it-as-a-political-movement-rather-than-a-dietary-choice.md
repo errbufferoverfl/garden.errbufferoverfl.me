@@ -1,7 +1,7 @@
 ---
 title: "Veganism: why we should see it as a political movement rather than a dietary choice"
 alias:
-  - "Veganism: why we should see it as a political movement rather than a dietary choice"
+- "Veganism: why we should see it as a political movement rather than a dietary choice"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://theconversation.com/veganism-why-we-should-see-it-as-a-political-movement-rather-than-a-dietary-choice-197318"

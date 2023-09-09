@@ -1,7 +1,7 @@
 ---
 title: "What’s wrong with ULEZ? It’s not what you think"
 alias:
-  - "What’s wrong with ULEZ? It’s not what you think"
+- "What’s wrong with ULEZ? It’s not what you think"
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://www.openrightsgroup.org/blog/whats-wrong-with-ulez-its-not-what-you-think/"

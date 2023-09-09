@@ -1,13 +1,13 @@
 ---
 title: reproductive labor
 alias:
-  - reproductive work
-  - reproductive labor
+- reproductive work
+- reproductive labor
 created: 2023-06-04T00:00:00+10:00
 modified: 2023-08-17T20:50:07+10:00
 tags:
-  - seed
-  - political-science
+- seed
+- political-science
 ---
 
 Reproductive labor was first brought into the discourse during the *wages for housework* campaign during the 1970s (discussed in [Revolution at Point Zero](../the-antilibrary/revolution-at-point-zero.md)). Referring to it this was is important because it emphasises that reproductive activities are also labor that are enforced by the gender hierarchy and not a goodwill gesture of women.

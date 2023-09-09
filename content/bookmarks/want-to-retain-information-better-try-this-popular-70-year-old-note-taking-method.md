@@ -1,7 +1,7 @@
 ---
 title: "Want to Retain Information Better? Try This Popular, 70-Year-Old Note-Taking Method"
 alias:
-  - "Want to Retain Information Better? Try This Popular, 70-Year-Old Note-Taking Method"
+- "Want to Retain Information Better? Try This Popular, 70-Year-Old Note-Taking Method"
 created: 2023-08-12T21:43:09+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://getpocket.com/explore/item/want-to-retain-information-better-try-this-popular-70-year-old-note-taking-method"

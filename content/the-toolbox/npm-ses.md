@@ -4,10 +4,10 @@ aliases: []
 created: 2023-08-09T12:58:00+10:00
 modified: 2023-08-09T12:59:48+10:00
 tags:
-  - javascript
-  - npm
-  - library
-  - tool
+- javascript
+- npm
+- library
+- tool
 ---
 
 > SES is hardened JavaScript. SES stands for fearless cooperation. This package is a SES shim for JavaScript features proposed to ECMA TC39. Hardened JavaScript is highly compatible with ordinary JavaScript. Most existing JavaScript libraries can run on hardened JavaScript.

@@ -1,7 +1,7 @@
 ---
 title: "Underpaid at home, vulnerable abroad: how seasonal job schemes are draining Pacific nations of vital workers"
 alias:
-  - "Underpaid at home, vulnerable abroad: how seasonal job schemes are draining Pacific nations of vital workers"
+- "Underpaid at home, vulnerable abroad: how seasonal job schemes are draining Pacific nations of vital workers"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://theconversation.com/underpaid-at-home-vulnerable-abroad-how-seasonal-job-schemes-are-draining-pacific-nations-of-vital-workers-194810"

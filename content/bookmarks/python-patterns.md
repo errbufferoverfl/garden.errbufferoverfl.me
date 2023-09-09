@@ -1,15 +1,15 @@
 ---
 title: Python Patterns
 aliases:
-  - Python Patterns
+- Python Patterns
 created: 2023-08-09T22:07:14+10:00
 modified: 2023-08-13T00:11:49+10:00
 tags:
-  - software-development
-  - python
-  - reference
-  - design-patterns
-  - bookmark
+- software-development
+- python
+- reference
+- design-patterns
+- bookmark
 ---
 
 [Website](https://python-patterns.guide/)

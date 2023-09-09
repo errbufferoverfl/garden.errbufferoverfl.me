@@ -1,7 +1,7 @@
 ---
 title: "Food shortages: five ways to fix ‘unfair’ supply chains"
 alias:
-  - "Food shortages: five ways to fix ‘unfair’ supply chains"
+- "Food shortages: five ways to fix ‘unfair’ supply chains"
 created: 2023-08-12T21:43:10+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://theconversation.com/food-shortages-five-ways-to-fix-unfair-supply-chains-197974"

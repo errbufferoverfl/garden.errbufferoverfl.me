@@ -1,7 +1,7 @@
 ---
 title: "Power Hungry"
 alias:
-  - "Power Hungry"
+- "Power Hungry"
 cover: "/imgs/power-hungry.png"
 created: 2023-09-07T10:55:41+10:00
 modified: 2023-09-07T11:13:56+10:00

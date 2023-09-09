@@ -1,7 +1,7 @@
 ---
 title: "DRW calls for regulation of RentTech amongst housing crisis"
 alias:
-  - "DRW calls for regulation of RentTech amongst housing crisis"
+- "DRW calls for regulation of RentTech amongst housing crisis"
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://digitalrightswatch.org.au/2023/08/07/renttech/"

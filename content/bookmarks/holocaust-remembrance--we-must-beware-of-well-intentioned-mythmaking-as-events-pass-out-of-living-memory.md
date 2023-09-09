@@ -1,7 +1,7 @@
 ---
 title: "Holocaust remembrance: we must beware of well-intentioned mythmaking as events pass out of living memory"
 alias:
-  - "Holocaust remembrance: we must beware of well-intentioned mythmaking as events pass out of living memory"
+- "Holocaust remembrance: we must beware of well-intentioned mythmaking as events pass out of living memory"
 created: 2023-08-12T21:43:11+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://theconversation.com/holocaust-remembrance-we-must-beware-of-well-intentioned-mythmaking-as-events-pass-out-of-living-memory-198548"

@@ -1,12 +1,12 @@
 ---
 title: A list of programming playgrounds
 aliases:
-  - A list of programming playgrounds
+- A list of programming playgrounds
 created: 2023-08-12T23:12:00+10:00
 modified: 2023-08-13T00:11:38+10:00
 link: https://jvns.ca/blog/2023/04/17/a-list-of-programming-playgrounds/
 tags:
-  - bookmark
+- bookmark
 ---
 
 > I really like using (and making!) programming playgrounds, and I got thinking the other day about how I didn’t have a great list of playgrounds to refer to. So I asked on Mastodon for links to cool playgrounds. Here’s what I came up with. I’d love to know what I missed.

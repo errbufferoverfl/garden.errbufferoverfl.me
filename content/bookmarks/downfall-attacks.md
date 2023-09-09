@@ -1,7 +1,7 @@
 ---
 title: "Downfall Attacks"
 alias:
-  - "Downfall Attacks"
+- "Downfall Attacks"
 created: 2023-08-12T23:12:01+10:00
 modified: 2023-08-13T00:11:49+10:00
 link:  "https://downfall.page/"
