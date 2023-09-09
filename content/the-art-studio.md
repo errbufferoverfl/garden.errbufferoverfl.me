@@ -1,11 +1,10 @@
 ---
 title: "The Art Studio"
 alias:
-  - the-art-studio
   - "The Art Studio"
   - "the art studio"
 created: 2023-05-31T00:00:00+10:00
-modified: 2023-09-09T21:00:37+10:00
+modified: 2023-09-09T21:02:14+10:00
 tags:
 - evergreen
 - compendium
