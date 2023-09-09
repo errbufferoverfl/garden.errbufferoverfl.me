@@ -1,8 +1,8 @@
 ---
-title: gouache
-alias: []
+title: "gouache"
+alias: "[gouache]"
 created: 2023-06-02T00:00:00+10:00
-modified: 2023-06-18T22:39:27+10:00
+modified: 2023-09-09T19:44:59+10:00
 tags:
 - medium
 - painting

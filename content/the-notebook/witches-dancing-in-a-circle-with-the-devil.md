@@ -1,8 +1,9 @@
 ---
-title: Witches dancing in a circle with the devil
-alias: []
+title: "Witches dancing in a circle with the devil"
+alias:
+  - witches-dancing-in-a-circle-with-the-devil
 created: 2023-06-03T00:00:00+10:00
-modified: 2023-08-11T08:35:06+10:00
+modified: 2023-09-09T19:45:59+10:00
 cover: /imgs/witches-dancing-in-a-circle-with-the-devil.png
 tags:
 - reference

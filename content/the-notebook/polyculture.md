@@ -1,9 +1,10 @@
 ---
-title: polyculture
+title: "polyculture"
 alias:
-- Polyculture
+  - polyculture
+  - Polyculture
 created: 2023-08-06T19:49:02+10:00
-modified: 2023-09-07T17:35:34+10:00
+modified: 2023-09-09T19:44:59+10:00
 tags:
 - seed
 - sustainable-agriculture

@@ -1,9 +1,10 @@
 ---
-title: neocolonialism
+title: "neocolonialism"
 alias:
-- neocolonist
+  - neocolonialism
+  - neocolonist
 created: 2023-06-23T20:20:30+10:00
-modified: 2023-06-23T20:34:38+10:00
+modified: 2023-09-09T19:44:59+10:00
 tags:
 - seed
 - political-science

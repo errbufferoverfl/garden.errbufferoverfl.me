@@ -1,8 +1,9 @@
 ---
-title: Object-capability model
-alias: []
+title: "Object-capability model"
+alias:
+  - object-capability-model
 created: 2023-08-09T12:14:29+10:00
-modified: 2023-08-09T12:42:29+10:00
+modified: 2023-09-09T19:45:49+10:00
 tags:
 - seed
 - technical

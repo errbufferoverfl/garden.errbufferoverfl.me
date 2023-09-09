@@ -1,10 +1,11 @@
 ---
-title: DID
+title: "DID"
 alias:
-- Decentralized identifier
-- DID
+  - did
+  - Decentralized identifier
+  - DID
 created: 2023-06-11T00:00:00+10:00
-modified: 2023-08-12T16:57:16+10:00
+modified: 2023-09-09T19:44:59+10:00
 tags:
 - seed
 - dweb

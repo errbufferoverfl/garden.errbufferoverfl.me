@@ -1,8 +1,8 @@
 ---
-title: Theatrum Chemicum Britannicum
-alias: []
+title: "Theatrum Chemicum Britannicum"
+alias: "[theatrum-chemicum-britannicum]"
 created: 2023-06-03T00:00:00+10:00
-modified: 2023-08-11T08:37:07+10:00
+modified: 2023-09-09T19:44:59+10:00
 cover: /imgs/theatrum-chemicum-britannicum.png
 tags:
 - reference

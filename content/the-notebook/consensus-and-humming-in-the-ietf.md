@@ -1,8 +1,8 @@
 ---
-title: Consensus and Humming in the IETF
-alias: []
+title: "Consensus and Humming in the IETF"
+alias: "[consensus-and-humming-in-the-ietf]"
 created: 2023-06-20T18:37:06+10:00
-modified: 2023-06-20T21:26:54+10:00
+modified: 2023-09-09T19:44:59+10:00
 tags:
 - seed
 - rfc

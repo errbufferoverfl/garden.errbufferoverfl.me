@@ -1,9 +1,10 @@
 ---
-title: the state
+title: "the state"
 alias:
-- who is the state
+  - the-state
+  - who is the state
 created: 2023-06-12T00:00:00+10:00
-modified: 2023-08-11T21:45:15+10:00
+modified: 2023-09-09T19:44:59+10:00
 tags:
 - seed
 - political-science

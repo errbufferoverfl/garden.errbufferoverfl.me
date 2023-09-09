@@ -1,9 +1,10 @@
 ---
-title: Intercropping Examples
+title: "Intercropping Examples"
 alias:
-- Intercropping Examples
+  - intercropping-examples
+  - Intercropping Examples
 created: 2023-08-06T20:52:57+10:00
-modified: 2023-08-25T16:05:37+10:00
+modified: 2023-09-09T19:44:59+10:00
 tags:
 - seed
 - sustainable-agriculture

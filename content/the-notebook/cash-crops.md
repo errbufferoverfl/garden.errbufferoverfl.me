@@ -1,8 +1,8 @@
 ---
-title: cash crops
-alias: []
+title: "cash crops"
+alias: "[cash-crops]"
 created: 2023-06-23T17:31:07+10:00
-modified: 2023-06-23T17:34:41+10:00
+modified: 2023-09-09T19:44:59+10:00
 tags:
 - seed
 - agriculture

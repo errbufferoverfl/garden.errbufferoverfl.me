@@ -1,10 +1,11 @@
 ---
-title: reproductive labor
+title: "reproductive labor"
 alias:
-- reproductive work
-- reproductive labor
+  - reproductive-labor
+  - reproductive work
+  - reproductive labor
 created: 2023-06-04T00:00:00+10:00
-modified: 2023-08-17T20:50:07+10:00
+modified: 2023-09-09T19:44:59+10:00
 tags:
 - seed
 - political-science

@@ -1,9 +1,10 @@
 ---
-title: Hypercore
+title: "Hypercore"
 alias:
-- Hypercore
+  - hypercore
+  - Hypercore
 created: 2023-06-11T00:00:00+10:00
-modified: 2023-08-12T17:22:36+10:00
+modified: 2023-09-09T19:44:49+10:00
 tags:
 - seed
 - dweb

@@ -1,9 +1,10 @@
 ---
 title: "Permaculture"
 alias:
-- "Permaculture"
+  - permaculture
+  - "Permaculture"
 created: 2023-09-07T13:16:49+10:00
-modified: 2023-09-07T17:35:14+10:00
+modified: 2023-09-09T19:44:59+10:00
 tags:
 - seed
 - sustainable-agriculture

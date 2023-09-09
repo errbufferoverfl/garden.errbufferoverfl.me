@@ -1,9 +1,10 @@
 ---
-title: polyculture practices
+title: "polyculture practices"
 alias:
-- Polyculture Practices
+  - polyculture-practices
+  - Polyculture Practices
 created: 2023-08-06T20:04:00+10:00
-modified: 2023-09-03T08:54:53+10:00
+modified: 2023-09-09T19:44:59+10:00
 tags:
 - seed
 - sustainable-agriculture

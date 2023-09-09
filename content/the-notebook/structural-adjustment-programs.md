@@ -1,8 +1,8 @@
 ---
-title: structural adjustment programs
-alias: []
+title: "structural adjustment programs"
+alias: "[structural-adjustment-programs]"
 created: 2023-06-23T20:05:07+10:00
-modified: 2023-08-11T09:15:16+10:00
+modified: 2023-09-09T19:44:59+10:00
 tags:
 - seed
 - political-science

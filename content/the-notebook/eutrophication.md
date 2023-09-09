@@ -1,9 +1,10 @@
 ---
-title: eutrophication
+title: "eutrophication"
 alias:
-- Eutrophication
+  - eutrophication
+  - Eutrophication
 created: 2023-08-06T20:20:28+10:00
-modified: 2023-09-03T09:25:14+10:00
+modified: 2023-09-09T19:44:59+10:00
 tags:
 - seed
 - pollution

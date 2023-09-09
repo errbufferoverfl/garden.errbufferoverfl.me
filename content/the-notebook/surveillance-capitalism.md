@@ -1,8 +1,8 @@
 ---
-title: surveillance capitalism
-alias: []
+title: "surveillance capitalism"
+alias: "[surveillance-capitalism]"
 created: 2023-06-12T00:00:00+10:00
-modified: 2023-08-12T17:17:10+10:00
+modified: 2023-09-09T19:44:59+10:00
 tags:
 - seed
 - political-science

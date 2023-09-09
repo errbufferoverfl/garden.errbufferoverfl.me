@@ -1,9 +1,10 @@
 ---
 title: "Aquarium Algae Scrubber"
 alias:
+  - aquarium-algae-scrubber
   - "Aquarium Algae Scrubber"
 created: 2023-06-03T00:00:00+10:00
-modified: 2023-09-09T19:33:59+10:00
+modified: 2023-09-09T19:44:59+10:00
 source: "https://www.youtube.com/watch?v=qGLnBvDkaO0"
 tags:
   - seed

@@ -1,9 +1,10 @@
 ---
-title: Holepunch
+title: "Holepunch"
 alias:
-- Holepunch
+  - holepunch
+  - Holepunch
 created: 2023-06-11T00:00:00+10:00
-modified: 2023-08-12T17:09:59+10:00
+modified: 2023-09-09T19:44:52+10:00
 tags:
 - seed
 - dweb

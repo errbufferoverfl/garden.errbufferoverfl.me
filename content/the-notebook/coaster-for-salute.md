@@ -1,8 +1,8 @@
 ---
-title: Coaster for Salut
-alias: []
+title: "Coaster for Salut"
+alias: "[coaster-for-salute]"
 created: 2023-06-03T00:00:00+10:00
-modified: 2023-06-18T19:58:33+10:00
+modified: 2023-09-09T19:44:59+10:00
 cover: /imgs/Coaster-for-Salut.png
 tags:
 - gouache

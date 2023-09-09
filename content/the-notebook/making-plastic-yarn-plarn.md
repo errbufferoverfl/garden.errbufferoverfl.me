@@ -1,9 +1,10 @@
 ---
 title: "Making Plastic Yarn (Plarn)"
 alias:
-- "Making Plastic Yarn (Plarn)"
+  - making-plastic-yarn-plarn
+  - "Making Plastic Yarn (Plarn)"
 created: 2023-08-14T22:15:41+10:00
-modified: 2023-08-14T22:22:05+10:00
+modified: 2023-09-09T19:44:59+10:00
 link: https://www.thesprucecrafts.com/how-to-make-plarn-2117354
 tags:
 - seed

@@ -1,8 +1,8 @@
 ---
-title: Wadawurrung and Dja Dja Wurrung People
-alias: []
+title: "Wadawurrung and Dja Dja Wurrung People"
+alias: "[wadawurrung-and-dja-dja-wurrung-people]"
 created: 2023-05-27T00:00:00+10:00
-modified: 2023-06-18T22:57:49+10:00
+modified: 2023-09-09T19:44:59+10:00
 ---
 
 ## Wadawurrung Country

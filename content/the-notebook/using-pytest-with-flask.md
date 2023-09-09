@@ -1,8 +1,8 @@
 ---
-title: Using Pytest with Flask
-alias: []
+title: "Using Pytest with Flask"
+alias: "[using-pytest-with-flask]"
 created: 2023-07-14T11:44:22+10:00
-modified: 2023-08-11T08:35:33+10:00
+modified: 2023-09-09T19:44:59+10:00
 source:
 - https://testdriven.io/blog/flask-pytest/
 - https://miguendes.me/how-to-check-if-an-exception-is-raised-or-not-with-pytest
