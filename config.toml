@@ -20,7 +20,7 @@ relativeURLs = false
 languageCode = "en-AU"
 
 # Do not convert the url/path to lowercase.
-disablePathToLower = true
+disablePathToLower = false
 
 # To exclude specific files from the content, data, and i18n directories when rendering your site.
 ignoreFiles = [
