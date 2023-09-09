@@ -1,7 +1,7 @@
 ---
 title: "The Art Studio"
 created: 2023-05-31T00:00:00+10:00
-modified: 2023-09-09T22:35:19+10:00
+modified: 2023-09-09T22:49:49+10:00
 tags:
 - evergreen
 - compendium
