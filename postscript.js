@@ -5924,315 +5924,154 @@ document.addEventListener("nav", () => {
   }
 });
 })();
-(function () {// node_modules/micromorph/dist/index.js
-var T = (e) => (t, r) => t[`node${e}`] === r[`node${e}`];
-var b = T("Name");
-var C = T("Type");
-var g = T("Value");
-function M(e, t) {
-  if (e.attributes.length === 0 && t.attributes.length === 0)
-    return [];
-  let r = [], n = /* @__PURE__ */ new Map(), o = /* @__PURE__ */ new Map();
-  for (let s of e.attributes)
-    n.set(s.name, s.value);
-  for (let s of t.attributes) {
-    let a = n.get(s.name);
-    s.value === a ? n.delete(s.name) : (typeof a < "u" && n.delete(s.name), o.set(s.name, s.value));
+(function () {// node_modules/plausible-tracker/build/module/lib/request.js
+function sendEvent(eventName, data, options) {
+  const isLocalhost = /^localhost$|^127(?:\.[0-9]+){0,2}\.[0-9]+$|^(?:0*:)*?:?0*1$/.test(location.hostname) || location.protocol === "file:";
+  if (!data.trackLocalhost && isLocalhost) {
+    return console.warn("[Plausible] Ignoring event because website is running locally");
   }
-  for (let s of n.keys())
-    r.push({ type: 5, name: s });
-  for (let [s, a] of o.entries())
-    r.push({ type: 4, name: s, value: a });
-  return r;
-}
-function N(e, t = true) {
-  let r = `${e.localName}`;
-  for (let { name: n, value: o } of e.attributes)
-    t && n.startsWith("data-") || (r += `[${n}=${o}]`);
-  return r += e.innerHTML, r;
-}
-function h(e) {
-  switch (e.tagName) {
-    case "BASE":
-    case "TITLE":
-      return e.localName;
-    case "META": {
-      if (e.hasAttribute("name"))
-        return `meta[name="${e.getAttribute("name")}"]`;
-      if (e.hasAttribute("property"))
-        return `meta[name="${e.getAttribute("property")}"]`;
-      break;
-    }
-    case "LINK": {
-      if (e.hasAttribute("rel") && e.hasAttribute("href"))
-        return `link[rel="${e.getAttribute("rel")}"][href="${e.getAttribute("href")}"]`;
-      if (e.hasAttribute("href"))
-        return `link[href="${e.getAttribute("href")}"]`;
-      break;
-    }
-  }
-  return N(e);
-}
-function x(e) {
-  let [t, r = ""] = e.split("?");
-  return `${t}?t=${Date.now()}&${r.replace(/t=\d+/g, "")}`;
-}
-function c(e) {
-  if (e.nodeType === 1 && e.hasAttribute("data-persist"))
-    return e;
-  if (e.nodeType === 1 && e.localName === "script") {
-    let t = document.createElement("script");
-    for (let { name: r, value: n } of e.attributes)
-      r === "src" && (n = x(n)), t.setAttribute(r, n);
-    return t.innerHTML = e.innerHTML, t;
-  }
-  return e.cloneNode(true);
-}
-function R(e, t) {
-  if (e.children.length === 0 && t.children.length === 0)
-    return [];
-  let r = [], n = /* @__PURE__ */ new Map(), o = /* @__PURE__ */ new Map(), s = /* @__PURE__ */ new Map();
-  for (let a of e.children)
-    n.set(h(a), a);
-  for (let a of t.children) {
-    let i = h(a), u = n.get(i);
-    u ? N(a, false) !== N(u, false) && o.set(i, c(a)) : s.set(i, c(a)), n.delete(i);
-  }
-  for (let a of e.childNodes) {
-    if (a.nodeType === 1) {
-      let i = h(a);
-      if (n.has(i)) {
-        r.push({ type: 1 });
-        continue;
-      } else if (o.has(i)) {
-        let u = o.get(i);
-        r.push({ type: 3, attributes: M(a, u), children: I(a, u) });
-        continue;
-      }
-    }
-    r.push(void 0);
-  }
-  for (let a of s.values())
-    r.push({ type: 0, node: c(a) });
-  return r;
-}
-function I(e, t) {
-  let r = [], n = Math.max(e.childNodes.length, t.childNodes.length);
-  for (let o = 0; o < n; o++) {
-    let s = e.childNodes.item(o), a = t.childNodes.item(o);
-    r[o] = p(s, a);
-  }
-  return r;
-}
-function p(e, t) {
-  if (!e)
-    return { type: 0, node: c(t) };
-  if (!t)
-    return { type: 1 };
-  if (C(e, t)) {
-    if (e.nodeType === 3) {
-      let r = e.nodeValue, n = t.nodeValue;
-      if (r.trim().length === 0 && n.trim().length === 0)
-        return;
-    }
-    if (e.nodeType === 1) {
-      if (b(e, t)) {
-        let r = e.tagName === "HEAD" ? R : I;
-        return { type: 3, attributes: M(e, t), children: r(e, t) };
-      }
-      return { type: 2, node: c(t) };
-    } else
-      return e.nodeType === 9 ? p(e.documentElement, t.documentElement) : g(e, t) ? void 0 : { type: 2, value: t.nodeValue };
-  }
-  return { type: 2, node: c(t) };
-}
-function $(e, t) {
-  if (t.length !== 0)
-    for (let { type: r, name: n, value: o } of t)
-      r === 5 ? e.removeAttribute(n) : r === 4 && e.setAttribute(n, o);
-}
-async function O(e, t, r) {
-  if (!t)
-    return;
-  let n;
-  switch (e.nodeType === 9 ? (e = e.documentElement, n = e) : r ? n = r : n = e, t.type) {
-    case 0: {
-      let { node: o } = t;
-      e.appendChild(o);
-      return;
-    }
-    case 1: {
-      if (!n)
-        return;
-      e.removeChild(n);
-      return;
-    }
-    case 2: {
-      if (!n)
-        return;
-      let { node: o, value: s } = t;
-      if (typeof s == "string") {
-        n.nodeValue = s;
-        return;
-      }
-      n.replaceWith(o);
-      return;
-    }
-    case 3: {
-      if (!n)
-        return;
-      let { attributes: o, children: s } = t;
-      $(n, o);
-      let a = Array.from(n.childNodes);
-      await Promise.all(s.map((i, u) => O(n, i, a[u])));
-      return;
-    }
-  }
-}
-function P(e, t) {
-  let r = p(e, t);
-  return O(e, r);
-}
-
-// node_modules/github-slugger/index.js
-var own = Object.hasOwnProperty;
-
-// quartz/util/path.ts
-function getFullSlug(window2) {
-  const res = window2.document.body.dataset.slug;
-  return res;
-}
-
-// quartz/components/scripts/quartz/components/scripts/spa.inline.ts
-var NODE_TYPE_ELEMENT = 1;
-var announcer = document.createElement("route-announcer");
-var isElement = (target) => target?.nodeType === NODE_TYPE_ELEMENT;
-var isLocalUrl = (href) => {
   try {
-    const url = new URL(href);
-    if (window.location.origin === url.origin) {
-      return true;
+    if (window.localStorage.plausible_ignore === "true") {
+      return console.warn('[Plausible] Ignoring event because "plausible_ignore" is set to "true" in localStorage');
     }
   } catch (e) {
+    null;
   }
-  return false;
-};
-var getOpts = ({ target }) => {
-  if (!isElement(target))
-    return;
-  const a = target.closest("a");
-  if (!a)
-    return;
-  if ("routerIgnore" in a.dataset)
-    return;
-  const { href } = a;
-  if (!isLocalUrl(href))
-    return;
-  return { url: new URL(href), scroll: "routerNoscroll" in a.dataset ? false : void 0 };
-};
-function notifyNav(url) {
-  const event = new CustomEvent("nav", { detail: { url } });
-  document.dispatchEvent(event);
-}
-var p2;
-async function navigate(url, isBack = false) {
-  p2 = p2 || new DOMParser();
-  const contents = await fetch(`${url}`).then((res) => res.text()).catch(() => {
-    window.location.assign(url);
-  });
-  if (!contents)
-    return;
-  const html = p2.parseFromString(contents, "text/html");
-  let title = html.querySelector("title")?.textContent;
-  if (title) {
-    document.title = title;
-  } else {
-    const h1 = document.querySelector("h1");
-    title = h1?.innerText ?? h1?.textContent ?? url.pathname;
-  }
-  if (announcer.textContent !== title) {
-    announcer.textContent = title;
-  }
-  announcer.dataset.persist = "";
-  html.body.appendChild(announcer);
-  P(document.body, html.body);
-  if (!isBack) {
-    if (url.hash) {
-      const el = document.getElementById(decodeURIComponent(url.hash.substring(1)));
-      el?.scrollIntoView();
-    } else {
-      window.scrollTo({ top: 0 });
-    }
-  }
-  const elementsToRemove = document.head.querySelectorAll(":not([spa-preserve])");
-  elementsToRemove.forEach((el) => el.remove());
-  const elementsToAdd = html.head.querySelectorAll(":not([spa-preserve])");
-  elementsToAdd.forEach((el) => document.head.appendChild(el));
-  if (!isBack) {
-    history.pushState({}, "", url);
-  }
-  notifyNav(getFullSlug(window));
-  delete announcer.dataset.persist;
-}
-window.spaNavigate = navigate;
-function createRouter() {
-  if (typeof window !== "undefined") {
-    window.addEventListener("click", async (event) => {
-      const { url } = getOpts(event) ?? {};
-      if (!url)
-        return;
-      event.preventDefault();
-      try {
-        navigate(url, false);
-      } catch (e) {
-        window.location.assign(url);
-      }
-    });
-    window.addEventListener("popstate", (event) => {
-      const { url } = getOpts(event) ?? {};
-      if (window.location.hash && window.location.pathname === url?.pathname)
-        return;
-      try {
-        navigate(new URL(window.location.toString()), true);
-      } catch (e) {
-        window.location.reload();
-      }
-      return;
-    });
-  }
-  return new class Router {
-    go(pathname) {
-      const url = new URL(pathname, window.location.toString());
-      return navigate(url, false);
-    }
-    back() {
-      return window.history.back();
-    }
-    forward() {
-      return window.history.forward();
-    }
-  }();
-}
-createRouter();
-notifyNav(getFullSlug(window));
-if (!customElements.get("route-announcer")) {
-  const attrs = {
-    "aria-live": "assertive",
-    "aria-atomic": "true",
-    style: "position: absolute; left: 0; top: 0; clip: rect(0 0 0 0); clip-path: inset(50%); overflow: hidden; white-space: nowrap; width: 1px; height: 1px"
+  const payload = {
+    n: eventName,
+    u: data.url,
+    d: data.domain,
+    r: data.referrer,
+    w: data.deviceWidth,
+    h: data.hashMode ? 1 : 0,
+    p: options && options.props ? JSON.stringify(options.props) : void 0
   };
-  customElements.define(
-    "route-announcer",
-    class RouteAnnouncer extends HTMLElement {
-      constructor() {
-        super();
+  const req = new XMLHttpRequest();
+  req.open("POST", `${data.apiHost}/api/event`, true);
+  req.setRequestHeader("Content-Type", "text/plain");
+  req.send(JSON.stringify(payload));
+  req.onreadystatechange = () => {
+    if (req.readyState !== 4)
+      return;
+    if (options && options.callback) {
+      options.callback();
+    }
+  };
+}
+
+// node_modules/plausible-tracker/build/module/lib/tracker.js
+function Plausible(defaults) {
+  const getConfig = () => ({
+    hashMode: false,
+    trackLocalhost: false,
+    url: location.href,
+    domain: location.hostname,
+    referrer: document.referrer || null,
+    deviceWidth: window.innerWidth,
+    apiHost: "https://plausible.io",
+    ...defaults
+  });
+  const trackEvent = (eventName, options, eventData) => {
+    sendEvent(eventName, { ...getConfig(), ...eventData }, options);
+  };
+  const trackPageview2 = (eventData, options) => {
+    trackEvent("pageview", options, eventData);
+  };
+  const enableAutoPageviews = () => {
+    const page = () => trackPageview2();
+    const originalPushState = history.pushState;
+    if (originalPushState) {
+      history.pushState = function(data, title, url) {
+        originalPushState.apply(this, [data, title, url]);
+        page();
+      };
+      addEventListener("popstate", page);
+    }
+    if (defaults && defaults.hashMode) {
+      addEventListener("hashchange", page);
+    }
+    trackPageview2();
+    return function cleanup() {
+      if (originalPushState) {
+        history.pushState = originalPushState;
+        removeEventListener("popstate", page);
       }
-      connectedCallback() {
-        for (const [key, value] of Object.entries(attrs)) {
-          this.setAttribute(key, value);
+      if (defaults && defaults.hashMode) {
+        removeEventListener("hashchange", page);
+      }
+    };
+  };
+  const enableAutoOutboundTracking = (targetNode = document, observerInit = {
+    subtree: true,
+    childList: true,
+    attributes: true,
+    attributeFilter: ["href"]
+  }) => {
+    function trackClick(event) {
+      trackEvent("Outbound Link: Click", { props: { url: this.href } });
+      if (!(typeof process !== "undefined" && process && false)) {
+        setTimeout(() => {
+          location.href = this.href;
+        }, 150);
+      }
+      event.preventDefault();
+    }
+    const tracked = /* @__PURE__ */ new Set();
+    function addNode(node) {
+      if (node instanceof HTMLAnchorElement) {
+        if (node.host !== location.host) {
+          node.addEventListener("click", trackClick);
+          tracked.add(node);
         }
+      } else if ("querySelectorAll" in node) {
+        node.querySelectorAll("a").forEach(addNode);
       }
     }
-  );
+    function removeNode(node) {
+      if (node instanceof HTMLAnchorElement) {
+        node.removeEventListener("click", trackClick);
+        tracked.delete(node);
+      } else if ("querySelectorAll" in node) {
+        node.querySelectorAll("a").forEach(removeNode);
+      }
+    }
+    const observer = new MutationObserver((mutations) => {
+      mutations.forEach((mutation) => {
+        if (mutation.type === "attributes") {
+          removeNode(mutation.target);
+          addNode(mutation.target);
+        } else if (mutation.type === "childList") {
+          mutation.addedNodes.forEach(addNode);
+          mutation.removedNodes.forEach(removeNode);
+        }
+      });
+    });
+    targetNode.querySelectorAll("a").forEach(addNode);
+    observer.observe(targetNode, observerInit);
+    return function cleanup() {
+      tracked.forEach((a) => {
+        a.removeEventListener("click", trackClick);
+      });
+      tracked.clear();
+      observer.disconnect();
+    };
+  };
+  return {
+    trackEvent,
+    trackPageview: trackPageview2,
+    enableAutoPageviews,
+    enableAutoOutboundTracking
+  };
 }
+
+// node_modules/plausible-tracker/build/module/index.js
+var module_default = Plausible;
+
+// quartz/components/scripts/quartz/components/scripts/plausible.inline.ts
+var { trackPageview } = module_default();
+document.addEventListener("nav", () => trackPageview());
 })();
+(function () {
+        window.spaNavigate = (url, _) => window.location.assign(url)
+        const event = new CustomEvent("nav", { detail: { url: document.body.dataset.slug } })
+        document.dispatchEvent(event)})();
