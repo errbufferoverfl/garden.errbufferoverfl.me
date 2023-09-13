@@ -10,6 +10,15 @@ export default (() => {
     const baseDir = pathToRoot(fileData.slug!)
     const iconPath = joinSegments(baseDir, "static/icon.png")
     const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
+    let canonicalURL = ""
+
+    if (fileData.slug === "index/"){
+      canonicalURL = `https://${cfg.baseUrl}/${fileData.slug}/`
+    } else if (fileData.slug?.includes("index")) {
+      canonicalURL = `https://${cfg.baseUrl}/${fileData.slug?.replace("index", "")}`
+    } else {
+      canonicalURL = `https://${cfg.baseUrl}/${fileData.slug}/`
+    }
 
     return (
       <head>
@@ -26,6 +35,7 @@ export default (() => {
         <meta name="generator" content="Quartz" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="canonical" href={canonicalURL} />
         {css.map((href) => (
           <link key={href} href={href} rel="stylesheet" type="text/css" spa-preserve />
         ))}

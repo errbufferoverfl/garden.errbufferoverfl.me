@@ -9,6 +9,9 @@ const config: QuartzConfig = {
     baseUrl: "garden.errbufferoverfl.me",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
+    analytics : {
+      provider: "plausible",
+    },
     theme: {
       typography: {
         header: "Marcellus",
