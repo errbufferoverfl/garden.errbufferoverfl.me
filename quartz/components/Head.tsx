@@ -12,12 +12,12 @@ export default (() => {
     const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
     let canonicalURL = ""
 
-    if (fileData.slug === "index/"){
-      canonicalURL = `https://${cfg.baseUrl}/${fileData.slug}/`
-    } else if (fileData.slug?.includes("index")) {
-      canonicalURL = `https://${cfg.baseUrl}/${fileData.slug?.replace("index", "")}`
+    if (fileData.slug === "index"){
+      canonicalURL = `https://${cfg.baseUrl}`
+    } else if (fileData.slug?.endsWith("index")){
+      canonicalURL = `https://${cfg.baseUrl}/${fileData.slug?.replace("/index", "")}`
     } else {
-      canonicalURL = `https://${cfg.baseUrl}/${fileData.slug}/`
+      canonicalURL = `https://${cfg.baseUrl}/${fileData.slug}`
     }
 
     return (
