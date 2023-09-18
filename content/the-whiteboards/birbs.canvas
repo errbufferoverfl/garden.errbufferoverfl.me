@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"0fdffad1b1dd5680","type":"text","text":"# Pigeons","x":-240,"y":-1440,"width":740,"height":50,"color":"2"},
+		{"id":"a3df0743f233ff9d","type":"file","file":"imgs/cartoon-pigeon.jpg","x":-240,"y":-1300,"width":240,"height":320,"color":"2"},
+		{"id":"93fabee7d77be91c","type":"file","file":"imgs/catoon-pigeon-stickers.jpg","x":20,"y":-1300,"width":400,"height":320,"color":"2"},
+		{"id":"c02cc7725c059e2f","type":"file","file":"imgs/pigeons-arent-real-sticker.png","x":-240,"y":-960,"width":400,"height":317,"color":"2"},
+		{"id":"0f9bfb8394610283","type":"text","text":"## Illustrated","x":-240,"y":-1380,"width":660,"height":50,"color":"2"},
+		{"id":"0124c8d8d60d26db","type":"text","text":"# Cape Barren Goose","x":840,"y":-1250,"width":740,"height":50,"color":"3"},
+		{"id":"3fbe78393024c031","type":"text","text":"## Illustrated","x":840,"y":-643,"width":660,"height":50,"color":"3"},
+		{"id":"e24de610d5d99d7e","type":"text","text":"## Photos\n","x":840,"y":-1190,"width":660,"height":50,"color":"3"}
+	],
+	"edges":[]
+}
