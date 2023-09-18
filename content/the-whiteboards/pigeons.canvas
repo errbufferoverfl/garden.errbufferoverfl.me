@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"0fdffad1b1dd5680","type":"text","text":"# Illustrated","x":640,"y":-760,"width":250,"height":60,"color":"2"},
+		{"id":"a3df0743f233ff9d","type":"file","file":"imgs/cartoon-pigeon.jpg","x":640,"y":-660,"width":300,"height":400,"color":"2"},
+		{"id":"93fabee7d77be91c","type":"file","file":"imgs/catoon-pigeon-stickers.jpg","x":980,"y":-660,"width":400,"height":320,"color":"2"},
+		{"id":"c02cc7725c059e2f","type":"file","file":"imgs/pigeons-arent-real-sticker.png","x":980,"y":-300,"width":400,"height":317,"color":"2"}
+	],
+	"edges":[]
+}
