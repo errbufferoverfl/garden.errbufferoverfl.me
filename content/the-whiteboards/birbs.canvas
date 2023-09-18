@@ -1,6 +1,6 @@
 {
 	"nodes":[
-		{"id":"9f392ba52f5886dc","type":"group","x":-530,"y":-880,"width":860,"height":1417,"color":"2","label":"Photo - Pigeon"},
+		{"id":"9f392ba52f5886dc","type":"group","x":-530,"y":-880,"width":890,"height":1417,"color":"2","label":"Photo - Pigeon"},
 		{"id":"5063ec5d0a1fd6a9","type":"group","x":1680,"y":-1880,"width":885,"height":800,"label":"Photo - Cape Barren Goose"},
 		{"id":"af3a4b6727e319e3","type":"group","x":-530,"y":-1920,"width":700,"height":777,"color":"2","label":"Illustration - Pigeon"},
 		{"id":"a3df0743f233ff9d","type":"file","file":"imgs/cartoon-pigeon.jpg","x":-510,"y":-1820,"width":240,"height":320,"color":"2"},
