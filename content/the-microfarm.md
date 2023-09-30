@@ -23,6 +23,10 @@ tags:
 
 - [[the-notebook/fedge|Fedge]]
 
+### Composting
+
+- **Bokashi**
+	- 
 ### Vermicomposting
 
 - [[the-notebook/fat-worm-recipe|Fat Worm Recipe]]
