@@ -1,7 +1,7 @@
 ---
 title: "The Microfarm"
 created: 2023-09-03T09:07:46+10:00
-modified: 2023-09-09T22:35:24+10:00
+modified: 2023-09-30T16:53:49+10:00
 tags:
 - evergreen
 - compendium
@@ -26,7 +26,7 @@ tags:
 ### Composting
 
 - **Bokashi**
-	-[[the-notebook/diy-bokashi-bran]]
+	- [[the-notebook/diy-bokashi-bran]]
 
 ### Vermicomposting
 
