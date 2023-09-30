@@ -26,7 +26,8 @@ tags:
 ### Composting
 
 - **Bokashi**
-	- 
+	-[[the-notebook/diy-bokashi-bran]]
+
 ### Vermicomposting
 
 - [[the-notebook/fat-worm-recipe|Fat Worm Recipe]]
