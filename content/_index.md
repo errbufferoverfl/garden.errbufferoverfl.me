@@ -1,7 +1,7 @@
 ---
 title: "🛖 Home"
 created: 2023-05-27T00:00:00+10:00
-modified: 2023-09-09T22:35:21+10:00
+modified: 2023-10-07T21:36:45+11:00
 ---
 
 Howdy! 👋🏻
@@ -34,10 +34,5 @@ Here are some places you might explore:
 
 - 📐 Security Engineer @ Canva.
 - 🧠 Learning how to be a better anarchist, anti-capitalist and revolutionary.
-- 👨‍💻 Currently working on making this site available on a handful of esoteric protocols like [[the-notebook/ipfs|IPFS]] and [[the-notebook/hypercore|Hypercore]]:
-  - [x] `ipfs://garden.ipfs.errbufferoverfl.me`
-  - [x] `hyper://garden.hyper.errbufferoverfl.me`
-  - [ ] `gemini://garden.gemini.errbufferoverfl.me`
-  - [ ] `gopher://garden.gopher.errbufferoverfl.me`
-- ✍🏻 Working on anarchic illustrations and prints and tending to my winter garden.
+- ✍🏻 Working on anarchic illustrations and prints and tending to my spring/summer garden.
 - 📚 Reading [[the-antilibrary/how-to-stand-up-to-a-dictator|How to Stand Up to a Dictator]].

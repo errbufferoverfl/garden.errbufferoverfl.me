@@ -1,7 +1,7 @@
 ---
 title: "The Microfarm"
 created: 2023-09-03T09:07:46+10:00
-modified: 2023-10-07T21:18:18+11:00
+modified: 2023-10-07T21:36:06+11:00
 tags:
 - evergreen
 - compendium
