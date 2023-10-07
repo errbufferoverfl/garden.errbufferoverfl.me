@@ -8,9 +8,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f51fb250-c078-40c5-a73c-9dd884612e66" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/deploy-all.yml" beforeDir="false" />
-    </list>
+    <list default="true" id="f51fb250-c078-40c5-a73c-9dd884612e66" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -199,7 +197,7 @@
       <workItem from="1694474460867" duration="235000" />
       <workItem from="1694639317900" duration="1009000" />
       <workItem from="1695192058615" duration="7000" />
-      <workItem from="1696674697951" duration="527000" />
+      <workItem from="1696674697951" duration="1130000" />
     </task>
     <servers />
   </component>
