@@ -13,11 +13,11 @@
 		{"id":"f1b0d380bd35a493","type":"file","file":"imgs/Wasp 00011.png","x":1700,"y":-1012,"width":278,"height":601},
 		{"id":"97e695d45bc746a3","type":"file","file":"imgs/Pigeon 00001.jpg","x":-510,"y":-860,"width":400,"height":225},
 		{"id":"1fdc8b75744f5c07","type":"file","file":"imgs/Pigeon 00007.jpg","x":-150,"y":80,"width":400,"height":277},
-		{"id":"a4281dc68301df40","type":"file","file":"imgs/Pigeon 00002.webp","x":-70,"y":-860,"width":400,"height":266},
+		{"id":"a4281dc68301df40","type":"file","file":"imgs/_index.webp","x":-70,"y":-860,"width":400,"height":266},
 		{"id":"6afb9aeb39d0aa36","type":"file","file":"imgs/Pigeon 00003.jpg","x":-510,"y":-554,"width":400,"height":299},
 		{"id":"836a1492c3190602","type":"file","file":"imgs/Pigeon 00004.jpg","x":-70,"y":-554,"width":399,"height":276},
 		{"id":"12775f19d31ad01b","type":"file","file":"imgs/Pigeon 00006.jpg","x":-143,"y":-215,"width":400,"height":266},
-		{"id":"3151f8aa0b20f8f3","type":"file","file":"imgs/Pigeon 00005.png","x":-510,"y":-215,"width":327,"height":707}
+		{"id":"3151f8aa0b20f8f3","type":"file","file":"imgs/_index.png","x":-510,"y":-215,"width":327,"height":707}
 	],
 	"edges":[
 		{"id":"64db3e5fe923ea91","fromNode":"af3a4b6727e319e3","fromSide":"bottom","toNode":"9f392ba52f5886dc","toSide":"top"}

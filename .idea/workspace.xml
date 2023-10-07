@@ -8,7 +8,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f51fb250-c078-40c5-a73c-9dd884612e66" name="Changes" comment="" />
+    <list default="true" id="f51fb250-c078-40c5-a73c-9dd884612e66" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/content/imgs/Drawing Clouds.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/imgs/Pigeon 00002.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/imgs/Pigeon 00005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/imgs/Wasp 00004.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/imgs/Wasp 00005.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/the-whiteboards/animals.canvas" beforeDir="false" afterPath="$PROJECT_DIR$/content/the-whiteboards/animals.canvas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/the-whiteboards/birbs.canvas" beforeDir="false" afterPath="$PROJECT_DIR$/content/the-whiteboards/birbs.canvas" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content/the-whiteboards/drawing-references.canvas" beforeDir="false" afterPath="$PROJECT_DIR$/content/the-whiteboards/drawing-references.canvas" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
