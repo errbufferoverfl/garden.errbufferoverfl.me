@@ -10,7 +10,7 @@ status: In Progress
 author:
 - Amanda Montell
 categories:
-- Non Fiction
+- Non-Fiction
 - Psychology
 - History
 - Sociology

@@ -11,7 +11,7 @@ author:
 - Mortimer J. Adler
 - Charles Van Doren
 categories:
-- Nonfiction
+- Non-Fiction
 - Self Help
 - Education
 - Books About Books
