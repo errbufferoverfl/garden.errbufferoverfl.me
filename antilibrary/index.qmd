@@ -1,0 +1,67 @@
+---
+title: "The Anti-Library"
+subtitle: "Books that are in some state of read, being read, or to be read."
+listing:
+  - id: backlog
+    contents: .
+    fields: [image, title, categories, description]
+    sort: "date desc"
+    type: grid
+    categories: numbered
+    sort-ui: true
+    filter-ui: true
+    include:
+      status: "Backlog"
+  - id: in-progress
+    contents: .
+    fields: [image, title, categories, description]
+    sort: "date desc"
+    type: grid
+    categories: numbered
+    sort-ui: true
+    filter-ui: true
+    include:
+      status: "In Progress"
+  - id: completed
+    contents: .
+    fields: [image, title, categories, description]
+    sort: "completed desc"
+    type: grid
+    categories: numbered
+    sort-ui: true
+    filter-ui: true
+    include:
+      status: "Completed"
+page-layout: full
+title-block-banner: true
+citation: false
+toc: false
+comments: false
+---
+
+> a scholar conscious of the power of [their] antilibrary is not concerned with treating knowledge as a property to possess or consume; rather [...] how much you don’t know—and how to find out that information when you need it.
+>
+> -- Giovanni da Col, HAU: Journal of Ethnographic Theory
+
+::: {.callout-warning} 
+
+**Before you Begin**
+
+The notes and summaries included in these pages are snippets that remind me, or help me relate and explore high-level concepts. They aren't a summary of the chapter or book!
+
+:::
+
+## In Progress
+
+::: {#in-progress}
+:::
+
+## Completed
+
+::: {#completed}
+:::
+
+## Backlog
+
+::: {#backlog}
+:::

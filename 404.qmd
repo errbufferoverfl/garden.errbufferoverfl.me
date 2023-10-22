@@ -1,0 +1,23 @@
+---
+title: Page Not Found
+---
+
+::: columns
+::: {.column width="40%"}
+# 404
+
+Whoops! This isn't what you were looking for.
+
+The page you are looking for has been removed or is temporarily unavailable.
+
+Return to [the notebook](notebook/index.html).
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="50%"}
+![](/imgs/pexels-faizal-ortho-5036051.jpg){fig-alt="A photo of an abandoned and derelict house in the middle of a field."}
+:::
+:::

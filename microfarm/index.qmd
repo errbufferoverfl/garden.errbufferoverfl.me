@@ -1,0 +1,18 @@
+---
+title: "The Microfarm"
+subtitle: "A collection of notes about agriculture and urban-gardening."
+listing:
+  contents: .
+  fields: [image, date, title, categories, reading-time, description, file-modified]
+  sort: "date desc"
+  type: grid
+  categories: numbered
+  sort-ui: true
+  filter-ui: true
+  image-placeholder: placeholder.jpg
+page-layout: full
+title-block-banner: true
+citation: false
+toc: false
+comments: false
+---

@@ -1,0 +1,62 @@
+editor: visual
+callout-appearance: simple
+
+project:
+    type: website
+
+website:
+  title: "digital garden"
+  favicon: ""
+  site-url: https://garden.errbufferoverfl.me
+  description: "A garden of evolving ideas about society, microfarming, and sometimes security engineering."
+  twitter-card: true
+  open-graph: true
+
+  navbar:
+    logo: "/imgs/logo.png"
+    logo-alt: "Illustration of a snail looking up."
+    logo-href: "/notebook/"
+    title: false
+    back-to-top-navigation: true
+    repo-url: https://github.com/errbufferoverfl/garden.errbufferoverfl.me
+    repo-actions: [edit, issue]
+    right:
+      - text: The Notebook
+        href: /notebook/
+      - text: The Microfarm
+        href: /microfarm/
+      - text: The Art Studio
+        href: /art-studio/
+      - text: The Anti-Library
+        href: /antilibrary/
+      - text: The Engineering Anthology
+        href: /engineering/
+      - text: More
+        menu:
+          - text: About Me
+            url: index.qmd
+          - text: The Soapbox
+            url: /soapbox/
+          - text: The Toolbox
+            url: /toolbox/
+      - text: Errata
+        menu:
+          - text: Source Code
+            url:  https://github.com/errbufferoverfl//garden.errbufferoverfl.me
+          - text: Report a Bug
+            url:  https://github.com/errbufferoverfl//garden.errbufferoverfl.me/issues
+
+  page-footer:
+    border: false
+    left: "Published with [Quarto](https://quarto.org/) v<?quarto.version?> | Hosted by [{{< iconify simple-icons netlify >}}](https://www.netlify.com)"
+    center: "[Ko-Fi](https://ko-fi.com/errbufferoverfl) | [Mastodon](https://genericsocialmediapage.com/@errbufferoverfl) | [Art Mastodon](https://mastodon.art/@errbufferoverfl) | [Github](https://github.com/errbufferoverfl) | [Twitter](https://twitter.com/errbufferoverfl)"
+    right: "© 2023 errbufferoverfl | [MIT License](https://www.quantumjitter.com/license)"
+  
+format:
+  html:
+    theme: litera
+    css: styles.css
+    code-link: true
+    link-external-newwindow: true
+    smooth-scroll: true
+    highlight-style: gruvbox
