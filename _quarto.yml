@@ -11,13 +11,13 @@ website:
   description: "A garden of evolving ideas about society, microfarming, and sometimes security engineering."
   twitter-card: true
   open-graph: true
+  back-to-top-navigation: true
 
   navbar:
     logo: "/imgs/logo.png"
     logo-alt: "Illustration of a snail looking up."
     logo-href: "/notebook/"
     title: false
-    back-to-top-navigation: true
     repo-url: https://github.com/errbufferoverfl/garden.errbufferoverfl.me
     repo-actions: [edit, issue]
     right:
@@ -46,7 +46,7 @@ website:
           - text: Report a Bug
             url:  https://github.com/errbufferoverfl/garden.errbufferoverfl.me/issues
       - icon: rss
-        href: index.xml
+        href: /index.xml
 
   page-footer:
     border: false
