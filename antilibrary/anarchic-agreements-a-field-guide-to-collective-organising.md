@@ -4,9 +4,10 @@ date: 2023-05-28T00:00:00+10:00
 date-modified: 2023-09-09T22:09:54+10:00
 image: /imgs/anarchic-agreements-a-field-guide-to-collective-organising.png
 cover: /imgs/anarchic-agreements-a-field-guide-to-collective-organising
-started: 
-completed: 
+started: 2023-05-21
+completed: 2023-06-05
 status: Completed
+rating: ★★★★★
 publisher: PM Press
 author:
   - Ruth Kinna

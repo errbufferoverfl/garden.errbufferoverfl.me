@@ -4,8 +4,7 @@ date: 2023-09-07T10:53:10+10:00
 date-modified: 2023-09-09T22:09:54+10:00
 image: /imgs/the-2020-commission-report-on-the-north-korean-nuclear-attacks-against-the-united-states.png
 cover: /imgs/the-2020-commission-report-on-the-north-korean-nuclear-attacks-against-the-united-states
-started:
-completed:
+rating: ★★★★☆
 status: Completed
 publisher: Random House
 author:

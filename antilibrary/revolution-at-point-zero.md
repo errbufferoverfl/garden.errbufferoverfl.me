@@ -7,6 +7,7 @@ cover: /imgs/revolution-at-point-zero
 started: 
 completed: 
 status: Completed
+rating: ★★★★★
 publisher: PM Press
 author:
   - Silvia Federici

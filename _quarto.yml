@@ -5,7 +5,7 @@ project:
     type: website
 
 website:
-  title: "digital garden"
+  title: "errbufferoverfl, anarchist, illustrator, reluctant security engineer"
   favicon: ""
   site-url: https://garden.errbufferoverfl.me
   description: "A garden of evolving ideas about society, microfarming, and sometimes security engineering."
@@ -33,18 +33,20 @@ website:
         href: /engineering/
       - text: More
         menu:
-          - text: About Me
-            url: index.qmd
-          - text: The Soapbox
-            url: /soapbox/
           - text: The Toolbox
             url: /toolbox/
+          - text: The Soapbox
+            url: /soapbox/
+          - text: About Me
+            url: index.qmd
       - text: Errata
         menu:
           - text: Source Code
-            url:  https://github.com/errbufferoverfl//garden.errbufferoverfl.me
+            url:  https://github.com/errbufferoverfl/garden.errbufferoverfl.me
           - text: Report a Bug
-            url:  https://github.com/errbufferoverfl//garden.errbufferoverfl.me/issues
+            url:  https://github.com/errbufferoverfl/garden.errbufferoverfl.me/issues
+      - icon: rss
+        href: index.xml
 
   page-footer:
     border: false

@@ -6,6 +6,7 @@ image: "/imgs/lost-in-work-escaping-capitalism.png"
 started: 
 completed: 
 status: "Completed"
+rating: ★★★☆☆
 publisher: Pluto Press
 author:
   - Amelia Horgan

@@ -7,6 +7,7 @@ cover: /imgs/stasiland
 started: 2022-06-01
 completed: 2022-06-28
 status: Completed
+rating: ★★★★☆
 publisher: Odyssey Editions
 author:
   - Anna Funder

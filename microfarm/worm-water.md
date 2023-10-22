@@ -2,7 +2,7 @@
 title: "Worm Water"
 author: "errbufferoverfl"
 date: 2023-10-09T09:14:55+11:00
-image: "/imgs/christian-wiediger-v3lA7GROOHg-unsplash.jpg"
+image: "/imgs/jonathan-kemper-YD5TvbPgmQc-unsplash.jpg"
 categories:
 - Seed
 - Vermicomposting

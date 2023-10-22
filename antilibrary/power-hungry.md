@@ -7,6 +7,7 @@ cover: "/imgs/power-hungry"
 started: 2023-01-30
 completed: 2023-02-22
 status: Completed
+rating: ★★★☆☆
 publisher: Chicago Review Press
 author:
   - Suzanne Cope

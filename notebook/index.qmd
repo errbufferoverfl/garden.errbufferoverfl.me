@@ -9,6 +9,7 @@ listing:
     categories: numbered
     sort-ui: true
     filter-ui: true
+    feed: true
     image-placeholder: "placeholder.png"
 page-layout: full
 title-block-banner: true

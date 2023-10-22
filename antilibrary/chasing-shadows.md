@@ -7,6 +7,7 @@ cover: /imgs/chasing-shadows
 started: 2022-12-09
 completed: 2023-01-22
 status: Completed
+rating: ★★★★☆
 publisher: "Allen & Unwin"
 author:
   - Kristy Campion

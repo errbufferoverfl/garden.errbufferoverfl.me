@@ -7,6 +7,7 @@ cover: /imgs/the-feminist-and-the-sex-offender
 started: 
 completed: 
 status: Completed
+rating: ★★★★☆
 publisher: Verso Books
 author:
   - Judith Levine

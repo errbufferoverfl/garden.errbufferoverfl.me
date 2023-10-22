@@ -24,7 +24,7 @@ listing:
       status: "In Progress"
   - id: completed
     contents: .
-    fields: [image, title, categories, description]
+    fields: [image, title, categories, rating, description]
     sort: "completed desc"
     type: grid
     categories: numbered
@@ -32,6 +32,16 @@ listing:
     filter-ui: true
     include:
       status: "Completed"
+  - id: incomplete
+    contents: .
+    fields: [image, title, categories, description]
+    sort: "completed desc"
+    type: grid
+    categories: numbered
+    sort-ui: true
+    filter-ui: true
+    include:
+      status: "Incomplete"
 page-layout: full
 title-block-banner: true
 citation: false
@@ -39,16 +49,14 @@ toc: false
 comments: false
 ---
 
-> a scholar conscious of the power of [their] antilibrary is not concerned with treating knowledge as a property to possess or consume; rather [...] how much you don’t know—and how to find out that information when you need it.
+> a scholar conscious of the power of \[their\] antilibrary is not concerned with treating knowledge as a property to possess or consume; rather \[...\] how much you don't know---and how to find out that information when you need it.
 >
 > -- Giovanni da Col, HAU: Journal of Ethnographic Theory
 
-::: {.callout-warning} 
-
+::: callout-warning
 **Before you Begin**
 
 The notes and summaries included in these pages are snippets that remind me, or help me relate and explore high-level concepts. They aren't a summary of the chapter or book!
-
 :::
 
 ## In Progress
@@ -59,6 +67,11 @@ The notes and summaries included in these pages are snippets that remind me, or 
 ## Completed
 
 ::: {#completed}
+:::
+
+## Incomplete
+
+::: {#incomplete}
 :::
 
 ## Backlog

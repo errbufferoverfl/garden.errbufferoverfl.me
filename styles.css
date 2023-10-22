@@ -12,6 +12,10 @@ div.quarto-about-broadside .about-main .about-entity {
     font-family: Georgia,Cambria,"Times New Roman",Times,serif;
 }
 
+.card-other-values tr > td:first-of-type {
+  display: none;
+}
+
 ul {
   font-family: Georgia,Cambria,"Times New Roman",Times,serif;
 }

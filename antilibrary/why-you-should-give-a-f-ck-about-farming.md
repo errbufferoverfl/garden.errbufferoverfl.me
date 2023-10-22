@@ -7,6 +7,7 @@ cover: /imgs/why-you-should-give-a-f-ck-about-farming
 started: 2023-01-22
 completed: 2023-01-28
 status: Completed
+rating: ★★★★☆
 publisher: Random House Australia
 author:
   - Gabrielle Chan

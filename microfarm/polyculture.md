@@ -26,18 +26,18 @@ The definition that has most resinated with me though is from these [Polyculture
 
 The reason being is that multifunctional can be described in many ways, some examples from the slide deck include:
 
-- **Humans Needs**
-  - Food
-  - Fuel
-  - Fodder
-  - Medicine
-  - Aesthetics
-- **Ecosystem Services**
-  - Nitrogen Fixation
-  - Nutrient Accumulations/Fertility
-  - Living Mulch/Ground Cover
-  - Insectary
-  - Nectary/Pollen
+-   **Humans Needs**
+    -   Food
+    -   Fuel
+    -   Fodder
+    -   Medicine
+    -   Aesthetics
+-   **Ecosystem Services**
+    -   Nitrogen Fixation
+    -   Nutrient Accumulations/Fertility
+    -   Living Mulch/Ground Cover
+    -   Insectary
+    -   Nectary/Pollen
 
 One of the things that is interesting to note, is that by "typical" definitions people often reference the fact that polycultures can reduce crop yields because all the different species are competing for light, water and nutrients.
 
@@ -51,9 +51,9 @@ Is the care complicated or simplified?
 
 A notable example of a polyculture and perhaps the best demonstration of "true" [intercropping](intercropping.md) is "the three sisters", which sees maize, beans and squash planted together:
 
-- The maize provides a structure for the beans to grown on;
-- The beans provide nitrogen for all of the plants; and,
-- The squash suppresses weeds on the ground.
+-   The maize provides a structure for the beans to grown on;
+-   The beans provide nitrogen for all of the plants; and,
+-   The squash suppresses weeds on the ground.
 
 I've found better examples of "good" polycultures when discussing integrated aquaculture where seafood and plants are grown together.
 

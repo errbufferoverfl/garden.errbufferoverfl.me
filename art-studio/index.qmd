@@ -10,6 +10,7 @@ listing:
     categories: numbered
     sort-ui: true
     filter-ui: true
+    feed: true
     image-placeholder: placeholder.jpg
     include:
       status: "Illustration"
