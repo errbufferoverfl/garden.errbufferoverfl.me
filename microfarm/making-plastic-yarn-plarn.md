@@ -2,6 +2,7 @@
 title: "Making Plastic Yarn (Plarn)"
 author: "errbufferoverfl"
 date: 2023-08-14T22:15:41+10:00
+images: /imgs/christopher-vega-nnlRR2NF2ko-unsplash.jpg
 categories:
 - Craft
 - Plastic

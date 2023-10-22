@@ -48,9 +48,9 @@ website:
 
   page-footer:
     border: false
-    left: "Published with [Quarto](https://quarto.org/) v<?quarto.version?> | Hosted by [{{< iconify simple-icons netlify >}}](https://www.netlify.com)"
+    left: "Published with [Quarto](https://quarto.org/) v<?quarto.version?> | Hosted by [{{< iconify simple-icons github >}}](https://pages.github.com/)"
     center: "[Ko-Fi](https://ko-fi.com/errbufferoverfl) | [Mastodon](https://genericsocialmediapage.com/@errbufferoverfl) | [Art Mastodon](https://mastodon.art/@errbufferoverfl) | [Github](https://github.com/errbufferoverfl) | [Twitter](https://twitter.com/errbufferoverfl)"
-    right: "© 2023 errbufferoverfl | [MIT License](https://www.quantumjitter.com/license)"
+    right: "© 2023 errbufferoverfl | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en)"
   
 format:
   html:
@@ -60,3 +60,6 @@ format:
     link-external-newwindow: true
     smooth-scroll: true
     highlight-style: gruvbox
+    
+filters:
+  - quarto-version.lua

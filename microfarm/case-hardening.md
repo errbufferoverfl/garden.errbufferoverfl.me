@@ -2,6 +2,7 @@
 title: "Case Hardening"
 author: "errbufferoverfl"
 date: 2023-09-03T09:32:43+10:00
+images: /imgs/priscilla-du-preez-9wNOMieg0fs-unsplash.jpg
 categories:
 - Food Preservation
 - Dehydrating

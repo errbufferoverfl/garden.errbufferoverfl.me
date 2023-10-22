@@ -2,8 +2,12 @@
 title: "Intercropping"
 author: "errbufferoverfl"
 date: 2023-08-24T20:54:44+10:00
+images: /imgs/stella-de-smit-L-cj8xXUSHo-unsplash.jpg
 categories:
 - Permaculture
+- Agroecology
+- Urban agriculture
+- Agroforestry
 - Sustainable Agriculture
 ---
 

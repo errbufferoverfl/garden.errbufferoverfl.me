@@ -1,12 +1,14 @@
 ---
-title: "polyculture practices"
+title: "Polyculture Practices"
 author: "errbufferoverfl"
 date: 2023-08-06T20:04:00+10:00
+images: /imgs/www-zanda-photography-RBdE3jv5y68-unsplash.jpg
 categories:
 - Permaculture
 - Sustainable Agriculture
 ---
-While there are no hard or fast rules to using a [[polyculture|Polyculture]] there are common practices that can be implemented depending on the plants, spatial distribution and time spent cohabiting.
+
+While there are no hard or fast rules to using a [polyculture](polyculture.md) there are common practices that can be implemented depending on the plants, spatial distribution and time spent cohabiting.
 
 ## Annual Polycultures
 
@@ -20,7 +22,7 @@ When a crop alongside another plant that is not being used as a crop, this is kn
 
 ### Strip Cropping
 
-Resembles [[companion planting]] where different plants are grown in alternative rows. For example, strip cropping carrots and onions; the onion smell puts off carrot root fly, while the smell of carrots puts off onion fly.
+Resembles companion planting where different plants are grown in alternative rows. For example, strip cropping carrots and onions; the onion smell puts off carrot root fly, while the smell of carrots puts off onion fly.
 
 They don't always need to be companions, but they can provide other benefits like preventing soil erosion and aiding with nutrient cycling.
 
