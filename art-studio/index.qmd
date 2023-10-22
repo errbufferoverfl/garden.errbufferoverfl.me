@@ -1,0 +1,46 @@
+---
+title: "The Art Studio"
+subtitle: "Art & illustrative projects, notes and musings."
+listing:
+  - id: illustrations
+    contents: .
+    fields: [image, date, title, categories]
+    sort: "date desc"
+    type: grid
+    categories: numbered
+    sort-ui: true
+    filter-ui: true
+    image-placeholder: placeholder.jpg
+    include:
+      status: "Illustration"
+  - id: notes
+    contents: .
+    fields: [date, title, description]
+    sort: "date desc"
+    type: table
+    categories: numbered
+    sort-ui: true
+    filter-ui: true
+    image-placeholder: placeholder.jpg
+    include:
+      categories: "Art Note"
+page-layout: full
+title-block-banner: true
+citation: false
+toc: false
+comments: false
+---
+
+If you've been enjoying my work and finding it entertaining. Your support means the world to me, and I can't thank you enough for being a part of this journey.
+
+If you want to stay connected and show your support, you can follow or supported me on [Ko-Fi](https://ko-fi.com/errbufferoverfl). It's a fantastic way to help me create more amazing content and keep the creative juices flowing.
+
+## Recent Illustrations
+
+::: {#illustrations}
+:::
+
+## Art Notes
+
+::: {#notes}
+:::

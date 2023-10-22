@@ -1,0 +1,34 @@
+---
+title: "errbufferoverfl"
+image: /imgs/profile.png
+about:
+  template: broadside
+  links:
+    - icon: cup
+      text: Ko-Fi
+      href: https://ko-fi.com/errbufferoverfl
+    - icon: mastodon
+      text: Mastodon
+      href: https://genericsocialmediapage.com/@errbufferoverfl
+    - icon: mastodon
+      text: Art Mastodon
+      href: https://mastodon.art/@errbufferoverfl
+    - icon: github
+      text: Github
+      href: https://github.com/errbufferoverfl
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/errbufferoverfl
+---
+
+## anarchist, illustrator, reluctant security engineer
+
+I'm an anarchist, gardener, knowledge librarian & artist at heart, but security engineer by trade. I currently live on the unceded land of the [Wadawurrung and Dja Dja Wurrung People](/notebook/wadawurrung-and-dja-dja-wurrung-people.md).
+
+I'm passionate about social-anarchy, anti-capitalism & revolution; my main focuses are subsistence-farming, sustainable living, subverting surveillance capitalism, peer to peer technologies and a host of other things.
+
+My favourite RFC is [RFC 7282](/engineering/consensus-and-humming-in-the-ietf.md) 🐝.
+
+This is my digital garden a space at the intersection of a notebook and a blog where I cultivate my thoughts in public. Inside, you'll find very few polished articles, but lots of free form, work in progress notes.
+
+A garden stands before you. Take a deep breath [and enter](/notebook/index.qmd).
