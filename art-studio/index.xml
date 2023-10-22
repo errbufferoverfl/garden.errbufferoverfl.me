@@ -65,7 +65,7 @@
 
 </section>
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Medium</category>
   <category>Relief Printing</category>
   <category>Textile Arts</category>
@@ -101,7 +101,7 @@
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="quarto-figure quarto-figure-center" style="flex-basis: 47.6%;justify-content: center;">
 <figure class="figure">
-<p><a href="../imgs/coaster-for-salut.png" class="lightbox" title="Coaster for Salute, gouache painting by @rowan_sugar, Coaster 3/6 for the Salut!, 2023" data-gallery="gouache"><img src="https://garden.errbufferoverfl.me/imgs/coaster-for-salut.png" class="img-fluid figure-img"></a></p>
+<p><a href="../imgs/coaster-for-salut.png" class="lightbox" data-gallery="gouache" title="Coaster for Salute, gouache painting by @rowan_sugar, Coaster 3/6 for the Salut!, 2023"><img src="https://garden.errbufferoverfl.me/imgs/coaster-for-salut.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><strong>Coaster for Salute</strong>, <a href="../art-studio/gouache.html">gouache</a> painting by <a href="https://rowansugar.carrd.co">@rowan_sugar</a>, <a href="https://www.instagram.com/p/Cst6vuNP8Tj/">Coaster 3/6 for the Salut!</a>, 2023</figcaption>
 </figure>
 </div>
@@ -110,7 +110,7 @@
 </div>
 <div class="quarto-figure quarto-figure-center" style="flex-basis: 47.6%;justify-content: center;">
 <figure class="figure">
-<p><a href="../imgs/the-inner-sanctum.png" class="lightbox" title="The Inner Sanctum, gouache, watercolor, and ink on paper, 100 x 70 centimeters, Colossal, 2022" data-gallery="gouache"><img src="https://garden.errbufferoverfl.me/imgs/the-inner-sanctum.png" class="img-fluid figure-img"></a></p>
+<p><a href="../imgs/the-inner-sanctum.png" class="lightbox" data-gallery="gouache" title="The Inner Sanctum, gouache, watercolor, and ink on paper, 100 x 70 centimeters, Colossal, 2022"><img src="https://garden.errbufferoverfl.me/imgs/the-inner-sanctum.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><strong>The Inner Sanctum</strong>, <a href="../art-studio/gouache.html">gouache</a>, watercolor, and ink on paper, 100 x 70 centimeters, <a href="https://www.thisiscolossal.com/2022/11/rithika-merchant-mixed-media-works/">Colossal</a>, 2022</figcaption>
 </figure>
 </div>
@@ -118,7 +118,7 @@
 <div class="quarto-layout-row quarto-layout-valign-top">
 <div class="quarto-figure quarto-figure-center" style="flex-basis: 47.6%;justify-content: center;">
 <figure class="figure">
-<p><a href="../imgs/the-offering.png" class="lightbox" title="The Offering, gouache painting by Bill Mayer, Bill Mayer’s Personal Website" data-gallery="gouache"><img src="https://garden.errbufferoverfl.me/imgs/the-offering.png" class="img-fluid figure-img"></a></p>
+<p><a href="../imgs/the-offering.png" class="lightbox" data-gallery="gouache" title="The Offering, gouache painting by Bill Mayer, Bill Mayer’s Personal Website"><img src="https://garden.errbufferoverfl.me/imgs/the-offering.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><strong>The Offering</strong>, <a href="../art-studio/gouache.html">gouache</a> painting by Bill Mayer, <a href="https://www.thebillmayer.com/">Bill Mayer’s Personal Website</a></figcaption>
 </figure>
 </div>
@@ -127,7 +127,7 @@
 </div>
 <div class="quarto-figure quarto-figure-center" style="flex-basis: 47.6%;justify-content: center;">
 <figure class="figure">
-<p><a href="../imgs/lago-daverno.png" class="lightbox" title="Lago d’Averno, gouache painting by Jacob Philipp Hackert, 1794." data-gallery="gouache"><img src="https://garden.errbufferoverfl.me/imgs/lago-daverno.png" class="img-fluid figure-img"></a></p>
+<p><a href="../imgs/lago-daverno.png" class="lightbox" data-gallery="gouache" title="Lago d’Averno, gouache painting by Jacob Philipp Hackert, 1794."><img src="https://garden.errbufferoverfl.me/imgs/lago-daverno.png" class="img-fluid figure-img"></a></p>
 <figcaption class="figure-caption"><a href="https://en.wikipedia.org/wiki/Lago_d%27Averno" title="Lago d'Averno"><strong>Lago d’Averno</strong></a>, <a href="../art-studio/gouache.html">gouache</a> painting by <a href="https://en.wikipedia.org/wiki/Jacob_Philipp_Hackert" title="Jacob Philipp Hackert">Jacob Philipp Hackert</a>, 1794.</figcaption>
 </figure>
 </div>
@@ -137,7 +137,7 @@
 
 </section>
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Medium</category>
   <category>Painting</category>
   <category>Art Note</category>

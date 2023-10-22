@@ -28,7 +28,7 @@
 
 </section>
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Trust &amp; Saftey</category>
   <category>Open Standard</category>
   <category>Beta</category>
@@ -48,7 +48,7 @@
 
 
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Javascript</category>
   <category>npm</category>
   <guid>https://garden.errbufferoverfl.me/toolbox/cytoscapejs.html</guid>
@@ -67,7 +67,7 @@
 
 
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Design</category>
   <category>Colour Theory</category>
   <category>Graphic Design</category>
@@ -93,7 +93,7 @@
 
 </section>
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Distributed Computing</category>
   <guid>https://garden.errbufferoverfl.me/toolbox/distributed-press.html</guid>
   <pubDate>Sun, 15 Oct 2023 05:48:28 GMT</pubDate>
@@ -111,7 +111,7 @@
 
 
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Microservices</category>
   <guid>https://garden.errbufferoverfl.me/toolbox/temporal.html</guid>
   <pubDate>Sun, 15 Oct 2023 05:47:29 GMT</pubDate>
@@ -135,7 +135,7 @@
 
 
 
- ]]></description>
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Javascript</category>
   <category>npm</category>
   <guid>https://garden.errbufferoverfl.me/toolbox/ses.html</guid>
