@@ -1,0 +1,17 @@
+/* css styles */
+div.quarto-about-broadside .about-main .about-entity {
+  background-size: contain;
+}
+
+.navbar-brand > img {
+  max-height: 40px 
+}
+
+.card-file-modified:before {
+    content: "Updated: ";
+    font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+}
+
+ul {
+  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+}
