@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="errbufferoverfl">
+<meta name="dcterms.date" content="2023-08-06">
+
+<title>digital garden - Intercropping Examples</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="digital garden - Intercropping Examples">
+<meta property="og:description" content="">
+<meta property="og:site-name" content="digital garden">
+<meta name="twitter:title" content="digital garden - Intercropping Examples">
+<meta name="twitter:description" content="">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../notebook/" class="navbar-brand navbar-brand-logo">
+    <img src="../imgs/logo.png" alt="Illustration of a snail looking up." class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../notebook/" rel="" target="">
+ <span class="menu-text">The Notebook</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../microfarm/" rel="" target="">
+ <span class="menu-text">The Microfarm</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../art-studio/" rel="" target="">
+ <span class="menu-text">The Art Studio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../antilibrary/" rel="" target="">
+ <span class="menu-text">The Anti-Library</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../engineering/" rel="" target="">
+ <span class="menu-text">The Engineering Anthology</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-more" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">More</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-more">    
+        <li>
+    <a class="dropdown-item" href="../index.html" rel="" target="">
+ <span class="dropdown-text">About Me</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../soapbox/" rel="" target="">
+ <span class="dropdown-text">The Soapbox</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../toolbox/" rel="" target="">
+ <span class="dropdown-text">The Toolbox</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-errata" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Errata</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-errata">    
+        <li>
+    <a class="dropdown-item" href="https://github.com/errbufferoverfl//garden.errbufferoverfl.me" rel="" target="">
+ <span class="dropdown-text">Source Code</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://github.com/errbufferoverfl//garden.errbufferoverfl.me/issues" rel="" target="">
+ <span class="dropdown-text">Report a Bug</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Intercropping Examples</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Permaculture</div>
+                <div class="quarto-category">Sustainable Agriculture</div>
+                <div class="quarto-category">Intercropping</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>errbufferoverfl </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 6, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#more-intercropping-examples" id="toc-more-intercropping-examples" class="nav-link active" data-scroll-target="#more-intercropping-examples">More Intercropping Examples</a>
+  <ul class="collapse">
+  <li><a href="#combo-1" id="toc-combo-1" class="nav-link" data-scroll-target="#combo-1">Combo 1</a></li>
+  <li><a href="#combo-2" id="toc-combo-2" class="nav-link" data-scroll-target="#combo-2">Combo 2</a></li>
+  <li><a href="#combo-3" id="toc-combo-3" class="nav-link" data-scroll-target="#combo-3">Combo 3</a></li>
+  <li><a href="#combo-4" id="toc-combo-4" class="nav-link" data-scroll-target="#combo-4">Combo 4</a></li>
+  <li><a href="#combo-5" id="toc-combo-5" class="nav-link" data-scroll-target="#combo-5">Combo 5</a></li>
+  <li><a href="#combo-6" id="toc-combo-6" class="nav-link" data-scroll-target="#combo-6">Combo 6</a></li>
+  <li><a href="#combo-7" id="toc-combo-7" class="nav-link" data-scroll-target="#combo-7">Combo 7</a></li>
+  <li><a href="#combo-8" id="toc-combo-8" class="nav-link" data-scroll-target="#combo-8">Combo 8</a></li>
+  <li><a href="#combo-9" id="toc-combo-9" class="nav-link" data-scroll-target="#combo-9">Combo 9</a></li>
+  <li><a href="#combo-10" id="toc-combo-10" class="nav-link" data-scroll-target="#combo-10">Combo 10</a></li>
+  <li><a href="#combo-11" id="toc-combo-11" class="nav-link" data-scroll-target="#combo-11">Combo 11</a></li>
+  <li><a href="#combo-12" id="toc-combo-12" class="nav-link" data-scroll-target="#combo-12">Combo 12</a></li>
+  <li><a href="#combo-13" id="toc-combo-13" class="nav-link" data-scroll-target="#combo-13">Combo 13</a></li>
+  <li><a href="#combo-14" id="toc-combo-14" class="nav-link" data-scroll-target="#combo-14">Combo 14</a></li>
+  <li><a href="#combo-15" id="toc-combo-15" class="nav-link" data-scroll-target="#combo-15">Combo 15</a></li>
+  <li><a href="#combo-16" id="toc-combo-16" class="nav-link" data-scroll-target="#combo-16">Combo 16</a></li>
+  <li><a href="#combo-17" id="toc-combo-17" class="nav-link" data-scroll-target="#combo-17">Combo 17</a></li>
+  <li><a href="#combo-18" id="toc-combo-18" class="nav-link" data-scroll-target="#combo-18">Combo 18</a></li>
+  <li><a href="#combo-19" id="toc-combo-19" class="nav-link" data-scroll-target="#combo-19">Combo 19</a></li>
+  <li><a href="#combo-20" id="toc-combo-20" class="nav-link" data-scroll-target="#combo-20">Combo 20</a></li>
+  <li><a href="#combo-21" id="toc-combo-21" class="nav-link" data-scroll-target="#combo-21">Combo 21</a></li>
+  <li><a href="#combo-22" id="toc-combo-22" class="nav-link" data-scroll-target="#combo-22">Combo 22</a></li>
+  <li><a href="#combo-23" id="toc-combo-23" class="nav-link" data-scroll-target="#combo-23">Combo 23</a></li>
+  <li><a href="#combo-24" id="toc-combo-24" class="nav-link" data-scroll-target="#combo-24">Combo 24</a></li>
+  <li><a href="#combo-25" id="toc-combo-25" class="nav-link" data-scroll-target="#combo-25">Combo 25</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+<p>The following examples were collated from online searches of intercropping online, and many were rightly or wrongly compiled on the foundation of companion planting.</p>
+<p>Ultimately the biggest issue I see with a lot of these examples is they put more focus on human needs rather than system needs.</p>
+<p>Like sure Yarrow <em>does</em> promote insectary but the planting of Yarrow is <strong>primarily</strong> for the purpose of protecting the Brassica.</p>
+<p>For more information see <a href="../microfarm/intercropping.html">intercropping</a>.</p>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Crop</strong></th>
+<th><strong>Intercrop With</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Asparagus</td>
+<td>Tomato, Parsley, Basil</td>
+</tr>
+<tr class="even">
+<td>Bush Beans</td>
+<td>Potato, Cucumber, Corn, Strawberry, Celery, Summer Savory</td>
+</tr>
+<tr class="odd">
+<td>Pole Beans</td>
+<td>Corn, Summer Savory, Radish</td>
+</tr>
+<tr class="even">
+<td>Cabbage Family</td>
+<td>Aromatic Herbs, Celery, Beets, Onion Family, Chamomile, Spinach, Chard</td>
+</tr>
+<tr class="odd">
+<td>Carrots</td>
+<td>Radishes, Lettuce, Rosemary, Onion Family, Sage, Tomato</td>
+</tr>
+<tr class="even">
+<td>Celery</td>
+<td>Onion, Cabbage Families, Tomato, Bush Beans, Nasturtium</td>
+</tr>
+<tr class="odd">
+<td>Corn</td>
+<td>Potato, Beans, Pumpkins, Cucumber, Squash</td>
+</tr>
+<tr class="even">
+<td>Eggplant</td>
+<td>Beans, Marigold</td>
+</tr>
+<tr class="odd">
+<td>Lettuce</td>
+<td>Carrots, Radish, Strawberry, Cucumber</td>
+</tr>
+<tr class="even">
+<td>Onion Family</td>
+<td>Beets, Carrots, Lettuce, Cabbage Family, Summer Savory</td>
+</tr>
+<tr class="odd">
+<td>Parsley</td>
+<td>Tomato, Asparagus</td>
+</tr>
+<tr class="even">
+<td>Potato</td>
+<td>Beans, Corn, Cabbage Family, Marigolds, Horseradish</td>
+</tr>
+<tr class="odd">
+<td>Pumpkins</td>
+<td>Beans, Corn, Marigold</td>
+</tr>
+<tr class="even">
+<td>Radish</td>
+<td>Carrots, Nasturtium, Lettuce, Cucumber</td>
+</tr>
+<tr class="odd">
+<td>Spinach</td>
+<td>Strawberry, Beans</td>
+</tr>
+<tr class="even">
+<td>Squash</td>
+<td>Nasturtium, Corn, Marigold</td>
+</tr>
+<tr class="odd">
+<td>Tomato</td>
+<td>Onion Family, Nasturtium, Marigold, Asparagus, Carrots, Parsley, Cucumber</td>
+</tr>
+<tr class="even">
+<td>Turnip</td>
+<td>Aromatic Herbs, Celery, Beets, Onion Family, Chamomile, Spinach, Chard</td>
+</tr>
+</tbody>
+</table>
+<section id="more-intercropping-examples" class="level2">
+<h2 class="anchored" data-anchor-id="more-intercropping-examples">More Intercropping Examples</h2>
+<section id="combo-1" class="level3">
+<h3 class="anchored" data-anchor-id="combo-1">Combo 1</h3>
+<p>Tomatoes Okra Peppers Sunflowers Borage</p>
+</section>
+<section id="combo-2" class="level3">
+<h3 class="anchored" data-anchor-id="combo-2">Combo 2</h3>
+<p>Tomatoes Cauliflower Marigolds Spinach/orach/lamb’s quarters Onion Yarrow → attracts Lacewing</p>
+</section>
+<section id="combo-3" class="level3">
+<h3 class="anchored" data-anchor-id="combo-3">Combo 3</h3>
+<p>Tomatoes Beets Radish Brussel sprouts Marigolds</p>
+</section>
+<section id="combo-4" class="level3">
+<h3 class="anchored" data-anchor-id="combo-4">Combo 4</h3>
+<p>Okra Eggplant Peppers Sunflowers</p>
+</section>
+<section id="combo-5" class="level3">
+<h3 class="anchored" data-anchor-id="combo-5">Combo 5</h3>
+<p>Melons Corn Eggplants or okra Sunflowers</p>
+</section>
+<section id="combo-6" class="level3">
+<h3 class="anchored" data-anchor-id="combo-6">Combo 6</h3>
+<p>Peppers Eggplant Carrots Onion Basil</p>
+</section>
+<section id="combo-7" class="level3">
+<h3 class="anchored" data-anchor-id="combo-7">Combo 7</h3>
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>This combination raises eyebrows because Kale + Marigolds sounds like a snail/slug disaster waiting to happen.</p>
+</div>
+</div>
+</div>
+<p>Kale Celery Onion Scallions Nasturtiums Marigolds</p>
+</section>
+<section id="combo-8" class="level3">
+<h3 class="anchored" data-anchor-id="combo-8">Combo 8</h3>
+<p>Squash/pumpkins Radish Lettuce Borage Nasturtium</p>
+</section>
+<section id="combo-9" class="level3">
+<h3 class="anchored" data-anchor-id="combo-9">Combo 9</h3>
+<p>Cucumber Corn Radish Sunflowers Yarrow → attracts Lacewing</p>
+</section>
+<section id="combo-10" class="level3">
+<h3 class="anchored" data-anchor-id="combo-10">Combo 10</h3>
+<p>Bush Beans Beets <del>Marigolds</del> Yarrow → attracts Lacewing → Lacewings control caterpillars &amp; moths Cabbage Carrots Rosemary</p>
+</section>
+<section id="combo-11" class="level3">
+<h3 class="anchored" data-anchor-id="combo-11">Combo 11</h3>
+<p>Bush Beans Cauliflower Marigold Radish Peas</p>
+</section>
+<section id="combo-12" class="level3">
+<h3 class="anchored" data-anchor-id="combo-12">Combo 12</h3>
+<p>Tomatillos Marigolds Nasturtiums Brussels Carrots Basil</p>
+</section>
+<section id="combo-13" class="level3">
+<h3 class="anchored" data-anchor-id="combo-13">Combo 13</h3>
+<p>Cucumber Lettuce Carrots Radish Peas</p>
+</section>
+<section id="combo-14" class="level3">
+<h3 class="anchored" data-anchor-id="combo-14">Combo 14</h3>
+<p>Peas Corn Cucumber Turnips</p>
+</section>
+<section id="combo-15" class="level3">
+<h3 class="anchored" data-anchor-id="combo-15">Combo 15</h3>
+<p>Cauliflower Celery Spinach Tomatoes</p>
+</section>
+<section id="combo-16" class="level3">
+<h3 class="anchored" data-anchor-id="combo-16">Combo 16</h3>
+<p>Pole Beans Corn Carrots Radish Chamomile</p>
+</section>
+<section id="combo-17" class="level3">
+<h3 class="anchored" data-anchor-id="combo-17">Combo 17</h3>
+<p>Cucumber Corn Pole Beans Summer Savory Radish</p>
+</section>
+<section id="combo-18" class="level3">
+<h3 class="anchored" data-anchor-id="combo-18">Combo 18</h3>
+<p>Squash/pumpkin Onion Garlic Peas Nasturtium</p>
+</section>
+<section id="combo-19" class="level3">
+<h3 class="anchored" data-anchor-id="combo-19">Combo 19</h3>
+<p>Cabbage Cucumber Lettuce Dill</p>
+</section>
+<section id="combo-20" class="level3">
+<h3 class="anchored" data-anchor-id="combo-20">Combo 20</h3>
+<p>Strawberry Borage Bush Beans Lettuce Spinach</p>
+</section>
+<section id="combo-21" class="level3">
+<h3 class="anchored" data-anchor-id="combo-21">Combo 21</h3>
+<p>Squash Borage Beans Corn</p>
+</section>
+<section id="combo-22" class="level3">
+<h3 class="anchored" data-anchor-id="combo-22">Combo 22</h3>
+<p>Amaranth Sweet Peppers Okra Basil Parsley</p>
+</section>
+<section id="combo-23" class="level3">
+<h3 class="anchored" data-anchor-id="combo-23">Combo 23</h3>
+<p>Squash/pumpkin Carrots Beans Nasturtium Radish</p>
+</section>
+<section id="combo-24" class="level3">
+<h3 class="anchored" data-anchor-id="combo-24">Combo 24</h3>
+<p>Cucumber Cabbage Peas Marigolds Rosemary</p>
+</section>
+<section id="combo-25" class="level3">
+<h3 class="anchored" data-anchor-id="combo-25">Combo 25</h3>
+<p>Potatoes Pole Beans Marigold Basil</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/garden\.errbufferoverfl\.me");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Published with <a href="https://quarto.org/">Quarto</a> v<!--?quarto.version?--> | Hosted by <a href="https://www.netlify.com"></a></div>   
+    <div class="nav-footer-center"><a href="https://ko-fi.com/errbufferoverfl">Ko-Fi</a> | <a href="https://genericsocialmediapage.com/@errbufferoverfl">Mastodon</a> | <a href="https://mastodon.art/@errbufferoverfl">Art Mastodon</a> | <a href="https://github.com/errbufferoverfl">Github</a> | <a href="https://twitter.com/errbufferoverfl">Twitter</a></div>
+    <div class="nav-footer-right">© 2023 errbufferoverfl | <a href="https://www.quantumjitter.com/license">MIT License</a></div>
+  </div>
+</footer>
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

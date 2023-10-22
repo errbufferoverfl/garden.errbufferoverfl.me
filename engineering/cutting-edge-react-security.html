@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="errbufferoverfl">
+<meta name="dcterms.date" content="2023-10-18">
+
+<title>digital garden - Cutting Edge React Security</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="digital garden - Cutting Edge React Security">
+<meta property="og:description" content="Session 1, Part 1">
+<meta property="og:image" content="https://garden.errbufferoverfl.me/imgs/cutting-edge-react-security.png">
+<meta property="og:site-name" content="digital garden">
+<meta property="og:image:height" content="203">
+<meta property="og:image:width" content="500">
+<meta name="twitter:title" content="digital garden - Cutting Edge React Security">
+<meta name="twitter:description" content="Session 1, Part 1">
+<meta name="twitter:image" content="https://garden.errbufferoverfl.me/imgs/cutting-edge-react-security.png">
+<meta name="twitter:image-height" content="203">
+<meta name="twitter:image-width" content="500">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../notebook/" class="navbar-brand navbar-brand-logo">
+    <img src="../imgs/logo.png" alt="Illustration of a snail looking up." class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../notebook/" rel="" target="">
+ <span class="menu-text">The Notebook</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../microfarm/" rel="" target="">
+ <span class="menu-text">The Microfarm</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../art-studio/" rel="" target="">
+ <span class="menu-text">The Art Studio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../antilibrary/" rel="" target="">
+ <span class="menu-text">The Anti-Library</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../engineering/" rel="" target="">
+ <span class="menu-text">The Engineering Anthology</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-more" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">More</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-more">    
+        <li>
+    <a class="dropdown-item" href="../index.html" rel="" target="">
+ <span class="dropdown-text">About Me</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../soapbox/" rel="" target="">
+ <span class="dropdown-text">The Soapbox</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../toolbox/" rel="" target="">
+ <span class="dropdown-text">The Toolbox</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-errata" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Errata</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-errata">    
+        <li>
+    <a class="dropdown-item" href="https://github.com/errbufferoverfl//garden.errbufferoverfl.me" rel="" target="">
+ <span class="dropdown-text">Source Code</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://github.com/errbufferoverfl//garden.errbufferoverfl.me/issues" rel="" target="">
+ <span class="dropdown-text">Report a Bug</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Cutting Edge React Security</h1>
+            <p class="subtitle lead">Session 1, Part 1</p>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Seed</div>
+                <div class="quarto-category">Pragmatic Web Security</div>
+                <div class="quarto-category">React Security</div>
+                <div class="quarto-category">JavaScript</div>
+                <div class="quarto-category">Web Security</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>errbufferoverfl </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 18, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#security-model-of-the-web" id="toc-security-model-of-the-web" class="nav-link active" data-scroll-target="#security-model-of-the-web">Security Model of the Web</a>
+  <ul class="collapse">
+  <li><a href="#origins" id="toc-origins" class="nav-link" data-scroll-target="#origins">Origins</a></li>
+  <li><a href="#remote-code-inclusion" id="toc-remote-code-inclusion" class="nav-link" data-scroll-target="#remote-code-inclusion">Remote Code Inclusion</a></li>
+  <li><a href="#web-app-compartmentalization" id="toc-web-app-compartmentalization" class="nav-link" data-scroll-target="#web-app-compartmentalization">Web App Compartmentalization</a></li>
+  </ul></li>
+  <li><a href="#cross-site-scripting-in-react" id="toc-cross-site-scripting-in-react" class="nav-link" data-scroll-target="#cross-site-scripting-in-react">Cross-Site Scripting in React</a></li>
+  <li><a href="#introduction-to-cross-site-scripting" id="toc-introduction-to-cross-site-scripting" class="nav-link" data-scroll-target="#introduction-to-cross-site-scripting">Introduction to Cross-Site Scripting</a>
+  <ul class="collapse">
+  <li><a href="#xss-mitigation" id="toc-xss-mitigation" class="nav-link" data-scroll-target="#xss-mitigation">XSS Mitigation</a></li>
+  </ul></li>
+  <li><a href="#advanced-cross-site-scripting" id="toc-advanced-cross-site-scripting" class="nav-link" data-scroll-target="#advanced-cross-site-scripting">Advanced Cross-Site Scripting</a></li>
+  <li><a href="#content-security-policy" id="toc-content-security-policy" class="nav-link" data-scroll-target="#content-security-policy">Content Security Policy</a></li>
+  <li><a href="#trusted-types" id="toc-trusted-types" class="nav-link" data-scroll-target="#trusted-types">Trusted Types</a></li>
+  <li><a href="#server-side-rendering" id="toc-server-side-rendering" class="nav-link" data-scroll-target="#server-side-rendering">Server-Side Rendering</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
+
+
+
+<section id="security-model-of-the-web" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="security-model-of-the-web">Security Model of the Web</h2>
+<section id="origins" class="level3">
+<h3 class="anchored" data-anchor-id="origins">Origins</h3>
+<p><code>{scheme}://{host}:{port}</code></p>
+<p><strong>Same Origin Policy</strong> - content on the same origin can be interacted with, without restriction. Content on a different origin cannot.</p>
+<ul>
+<li>Applies to the DOM and all it’s contents</li>
+<li>Applies to WebPermissions</li>
+<li>Applies to WebStorage</li>
+<li>Applies to JS-base XHR requests, including the ability to load resource and inspect their content</li>
+</ul>
+<div class="{callout-warning}">
+<p>eTLD (i.e., effective top-level domain) changes this model because there is no way to arithmetically determine if a domain name suffix is publicly registrable or not.</p>
+<p>Therefore, the eTLD+1 of these domains is regarded as part of the same organisation.</p>
+</div>
+<p>Once a threat actor can run code within your origin, it’s difficult to provide any security.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="../imgs/cutting-edge-react-security.png" class="img-fluid figure-img" alt="Still photo from the 2006 edition of &quot;When a Stranger Calls&quot;, Jill Johnson is holding a phone away from her ear with a look of fear on her face. The subtitles read &quot;We traced the call. It's coming from inside the house.&quot;"></p>
+<figcaption class="figure-caption">Do you want cross-site scripting? Because this is what happens when you get cross-site scripting.</figcaption>
+</figure>
+</div>
+<p>JavaScript vulnerabilities also apply to contexts such as Electron apps and WebViews and are fundamentally governed the same way as browsers.</p>
+</section>
+<section id="remote-code-inclusion" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="remote-code-inclusion">Remote Code Inclusion</h3>
+<ul>
+<li>Loading remote code at run-time can present a significant risk if not managed, or improperly managed. Remote code inclusions means that when the remote code changes, every user who loads the resource will receive the modified version.</li>
+<li>Remote code inclusions relies on having the full trust of the remote server, all it’s components, and in many circumstances the remote resources <strong>it</strong> connects to.</li>
+<li>Remote code inclusions isn’t an easy risk to mitigate, when it’s being leveraged as a feature.</li>
+</ul>
+<section id="rci-mitigation" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="rci-mitigation">RCI Mitigation</h4>
+<blockquote class="blockquote">
+<p>If Google Analytics gets compromised then 99% of the Internet is screwed.</p>
+<p>— Dr.&nbsp;Philippe De Ryck, Security model of the web / XSS in React</p>
+</blockquote>
+<ul>
+<li>Self-hosting the remote code being included.</li>
+<li>Using sub-resource integrity or code isolation techniques<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></li>
+<li>Using a Content Security Policy can provide more control over what code can be loaded<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a></li>
+</ul>
+<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;What are these?</p></li><li id="fn2"><p><sup>2</sup>&nbsp;<a href="https://research.google/pubs/pub45542/">CSP Is Dead, Long Live CSP! On the Insecurity of Whitelists and the Future of Content Security Policy</a></p></li></div></section>
+</section>
+<section id="web-app-compartmentalization" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="web-app-compartmentalization">Web App Compartmentalization</h3>
+<p>Further Reading:</p>
+<blockquote class="blockquote page-columns page-full">
+<div class="page-columns page-full"><p>40% of packages rely on known vulnerable code<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p><div class="no-row-height column-margin column-container"><li id="fn3"><p><sup>3</sup>&nbsp;<a href="https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman">Small World with High Risks: A Study of Security Threats in the npm Ecosystem</a></p></li></div></div>
+<p>— Dr.&nbsp;Philippe De Ryck, Security model of the web / XSS in React</p>
+</blockquote>
+<ul>
+<li><a href="https://link.springer.com/chapter/10.1007/978-3-642-41717-7_4">Towards a Theory of Application Compartmentalisation</a></li>
+<li><a href="https://www.researchgate.net/publication/260346153_Exploring_Compartmentalisation_Hypotheses_with_SOAAP">Exploring Compartmentalisation Hypotheses with SOAAP</a></li>
+<li><a href="https://kclpure.kcl.ac.uk/portal/en/projects/chrompartments-hybrid-compartmentalisation-for-web-browsers">Chrompartments: Hybrid Compartmentalisation for Web Browsers</a></li>
+</ul>
+</section>
+</section>
+<section id="cross-site-scripting-in-react" class="level2">
+<h2 class="anchored" data-anchor-id="cross-site-scripting-in-react">Cross-Site Scripting in React</h2>
+</section>
+<section id="introduction-to-cross-site-scripting" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-to-cross-site-scripting">Introduction to Cross-Site Scripting</h2>
+<section id="xss-mitigation" class="level3">
+<h3 class="anchored" data-anchor-id="xss-mitigation">XSS Mitigation</h3>
+<ul>
+<li>Encoding dangerous characters prevents XSS, important to note is that encoding can avoid browser confusion, but doesn’t provide context information.</li>
+<li>Sinks aren’t always obvious and depending on the context in which you’re operating, data can end up in HTML attributes, populating URLs, in CSS or in JavaScript.
+<ul>
+<li>All of these contexts can change the security requirements and how data should be encoded.</li>
+</ul></li>
+<li>The only way to achieve this, is to ensure you use context-sensitive output encoding which ensures that given an operating-context the data encoded is exist in that context.
+<ul>
+<li>Even then there is the risk that data is being passed through different contexts within the same operation?</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="advanced-cross-site-scripting" class="level2">
+<h2 class="anchored" data-anchor-id="advanced-cross-site-scripting">Advanced Cross-Site Scripting</h2>
+</section>
+<section id="content-security-policy" class="level2">
+<h2 class="anchored" data-anchor-id="content-security-policy">Content Security Policy</h2>
+</section>
+<section id="trusted-types" class="level2">
+<h2 class="anchored" data-anchor-id="trusted-types">Trusted Types</h2>
+</section>
+<section id="server-side-rendering" class="level2">
+<h2 class="anchored" data-anchor-id="server-side-rendering">Server-Side Rendering</h2>
+
+
+</section>
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/garden\.errbufferoverfl\.me");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Published with <a href="https://quarto.org/">Quarto</a> v<!--?quarto.version?--> | Hosted by <a href="https://www.netlify.com"></a></div>   
+    <div class="nav-footer-center"><a href="https://ko-fi.com/errbufferoverfl">Ko-Fi</a> | <a href="https://genericsocialmediapage.com/@errbufferoverfl">Mastodon</a> | <a href="https://mastodon.art/@errbufferoverfl">Art Mastodon</a> | <a href="https://github.com/errbufferoverfl">Github</a> | <a href="https://twitter.com/errbufferoverfl">Twitter</a></div>
+    <div class="nav-footer-right">© 2023 errbufferoverfl | <a href="https://www.quantumjitter.com/license">MIT License</a></div>
+  </div>
+</footer>
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

@@ -1,0 +1,113 @@
+[
+  {
+    "listing": "/art-studio/index.html",
+    "items": [
+      "/art-studio/woodblock.html",
+      "/art-studio/gouache.html"
+    ]
+  },
+  {
+    "listing": "/engineering/index.html",
+    "items": [
+      "/engineering/hack-the-box-attacking-common-applications.html",
+      "/engineering/hack-the-box-way-of-learning.html",
+      "/engineering/cutting-edge-react-security.html",
+      "/engineering/setting-up-distributed-press-on-digital-ocean.html",
+      "/engineering/owasp-clasp.html",
+      "/engineering/languages-that-implement-object-capabilities.html",
+      "/engineering/object-capability-model.html",
+      "/engineering/using-pytest-with-flask.html",
+      "/engineering/nasas-adlr-framework-for-lessons-learned.html",
+      "/engineering/erlaubnis-project-diagrams.html",
+      "/engineering/consensus-and-humming-in-the-ietf.html",
+      "/engineering/e2e-fear-campaign-accce-and-police.html",
+      "/engineering/autobase.html",
+      "/engineering/hyperswarm.html",
+      "/engineering/ipfs.html",
+      "/engineering/hyperdht.html",
+      "/engineering/hyperbee.html",
+      "/engineering/dht.html",
+      "/engineering/b-tree.html",
+      "/engineering/hypercore.html",
+      "/engineering/did.html",
+      "/engineering/hyperdrive.html",
+      "/engineering/holepunch.html"
+    ]
+  },
+  {
+    "listing": "/notebook/index.html",
+    "items": [
+      "/notebook/technocratic.html",
+      "/notebook/seeds-trees-fruit-digital-gardening-with-intent.html",
+      "/notebook/rugged-individualism.html",
+      "/notebook/neocolonialism.html",
+      "/notebook/structural-adjustment-programs.html",
+      "/notebook/cash-crops.html",
+      "/notebook/ars-moriendi.html",
+      "/notebook/the-state.html",
+      "/notebook/surveillance-capitalism.html",
+      "/notebook/feminist-principles-of-the-internet.html",
+      "/notebook/embodiment.html",
+      "/notebook/reproductive-labor.html",
+      "/notebook/wadawurrung-and-dja-dja-wurrung-people.html",
+      "/notebook/errbufferoverfl.html"
+    ]
+  },
+  {
+    "listing": "/toolbox/index.html",
+    "items": [
+      "/toolbox/cytoscapejs.html",
+      "/toolbox/dopeely.html",
+      "/toolbox/distributed-press.html",
+      "/toolbox/temporal.html",
+      "/toolbox/ses.html"
+    ]
+  },
+  {
+    "listing": "/soapbox/index.html",
+    "items": []
+  },
+  {
+    "listing": "/antilibrary/index.html",
+    "items": [
+      "/antilibrary/cultish.html",
+      "/antilibrary/how-to-read-a-book.html",
+      "/antilibrary/how-to-stand-up-to-a-dictator.html",
+      "/antilibrary/the-2020-commission-report-on-the-north-korean-nuclear-attacks-against-the-united-states.html",
+      "/antilibrary/the-feminist-and-the-sex-offender.html",
+      "/antilibrary/anarchic-agreements-a-field-guide-to-collective-organising.html",
+      "/antilibrary/revolution-at-point-zero.html",
+      "/antilibrary/lost-in-work-escaping-capitalism.html",
+      "/antilibrary/ghost-work.html",
+      "/antilibrary/power-hungry.html",
+      "/antilibrary/why-you-should-give-a-f-ck-about-farming.html",
+      "/antilibrary/chasing-shadows.html",
+      "/antilibrary/stasiland.html"
+    ]
+  },
+  {
+    "listing": "/microfarm/index.html",
+    "items": [
+      "/microfarm/preserving-carrots.html",
+      "/microfarm/preserving-cucumbers.html",
+      "/microfarm/preserving-avacados.html",
+      "/microfarm/leachate.html",
+      "/microfarm/preserving-apples.html",
+      "/microfarm/worm-water.html",
+      "/microfarm/diy-bokashi-bran.html",
+      "/microfarm/fedge.html",
+      "/microfarm/opportunistic-plants.html",
+      "/microfarm/permaculture.html",
+      "/microfarm/case-hardening.html",
+      "/microfarm/intercropping.html",
+      "/microfarm/making-plastic-yarn-plarn.html",
+      "/microfarm/fat-worm-recipe.html",
+      "/microfarm/intercropping-examples.html",
+      "/microfarm/eutrophication.html",
+      "/microfarm/polyculture-practices.html",
+      "/microfarm/polyculture.html",
+      "/microfarm/sauerkraut-recipe.html",
+      "/microfarm/aquarium-algae-scrubber.html"
+    ]
+  }
+]

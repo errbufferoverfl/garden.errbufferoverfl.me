@@ -1,0 +1,1572 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>digital garden - The Engineering Anthology</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-categories','listing-reading-time','listing-description','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 18,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="digital garden - The Engineering Anthology">
+<meta property="og:description" content="A collection of musings and evolving ideas about security engineering and development practices.">
+<meta property="og:image" content="https://garden.errbufferoverfl.me/engineering/placeholder.png">
+<meta property="og:site-name" content="digital garden">
+<meta name="twitter:title" content="digital garden - The Engineering Anthology">
+<meta name="twitter:description" content="A collection of musings and evolving ideas about security engineering and development practices.">
+<meta name="twitter:image" content="https://garden.errbufferoverfl.me/engineering/placeholder.png">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../notebook/" class="navbar-brand navbar-brand-logo">
+    <img src="../imgs/logo.png" alt="Illustration of a snail looking up." class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../notebook/" rel="" target="">
+ <span class="menu-text">The Notebook</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../microfarm/" rel="" target="">
+ <span class="menu-text">The Microfarm</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../art-studio/" rel="" target="">
+ <span class="menu-text">The Art Studio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../antilibrary/" rel="" target="">
+ <span class="menu-text">The Anti-Library</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../engineering/" rel="" target="">
+ <span class="menu-text">The Engineering Anthology</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-more" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">More</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-more">    
+        <li>
+    <a class="dropdown-item" href="../index.html" rel="" target="">
+ <span class="dropdown-text">About Me</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../soapbox/" rel="" target="">
+ <span class="dropdown-text">The Soapbox</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../toolbox/" rel="" target="">
+ <span class="dropdown-text">The Toolbox</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-errata" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Errata</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-errata">    
+        <li>
+    <a class="dropdown-item" href="https://github.com/errbufferoverfl//garden.errbufferoverfl.me" rel="" target="">
+ <span class="dropdown-text">Source Code</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://github.com/errbufferoverfl//garden.errbufferoverfl.me/issues" rel="" target="">
+ <span class="dropdown-text">Report a Bug</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">The Engineering Anthology</h1>
+            <p class="subtitle lead">A collection of musings and evolving ideas about security engineering and development practices.</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(23)</span></div><div class="category" data-category="ACCCE">ACCCE <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Concencus Building">Concencus Building <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Definition">Definition <span class="quarto-category-count">(11)</span></div><div class="category" data-category="Diagram">Diagram <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Digital Ocean">Digital Ocean <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Distributed Computing">Distributed Computing <span class="quarto-category-count">(11)</span></div><div class="category" data-category="Distributed Web">Distributed Web <span class="quarto-category-count">(12)</span></div><div class="category" data-category="End to End Encryption">End to End Encryption <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Erlaubnis">Erlaubnis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Flask">Flask <span class="quarto-category-count">(1)</span></div><div class="category" data-category="General">General <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Government">Government <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Hack the Box">Hack the Box <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Hack the Box Academy">Hack the Box Academy <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Hypercore Protocol">Hypercore Protocol <span class="quarto-category-count">(10)</span></div><div class="category" data-category="IETF">IETF <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Internet Governance">Internet Governance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="JavaScript">JavaScript <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Learning">Learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Lessons Learned">Lessons Learned <span class="quarto-category-count">(1)</span></div><div class="category" data-category="NASA">NASA <span class="quarto-category-count">(1)</span></div><div class="category" data-category="OWASP">OWASP <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Offensive">Offensive <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Policy">Policy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Pragmatic Web Security">Pragmatic Web Security <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Privacy">Privacy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Programming Languages">Programming Languages <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Project">Project <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Protocol">Protocol <span class="quarto-category-count">(2)</span></div><div class="category" data-category="PyTest">PyTest <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Python">Python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RFC">RFC <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RFC-7282">RFC-7282 <span class="quarto-category-count">(1)</span></div><div class="category" data-category="React Security">React Security <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Retrospective">Retrospective <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Sapling">Sapling <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Security">Security <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Security Model">Security Model <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Seed">Seed <span class="quarto-category-count">(17)</span></div><div class="category" data-category="Tree">Tree <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Unit Testing">Unit Testing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Web Security">Web Security <span class="quarto-category-count">(1)</span></div></div></div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-file-modified-sort" data-direction="asc">
+          Modified - Oldest
+        </option>
+         <option value="listing-file-modified-sort" data-direction="desc">
+          Modified - Newest
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Learning,Hack the Box,Hack the Box Academy,Offensive" data-listing-date-sort="1697876584000" data-listing-file-modified-sort="1697925989609" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../engineering/hack-the-box-attacking-common-applications.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="placeholder.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Hack the Box
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Learning'); return false;">
+Learning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Hack the Box'); return false;">
+Hack the Box
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Hack the Box Academy'); return false;">
+Hack the Box Academy
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Offensive'); return false;">
+Offensive
+</div>
+</div>
+<div class="card-text listing-description">
+Not all hosts in the scope list are accessible when spawning the target below.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 21, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/22/23, 9:06:29 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Learning,Hack the Box,Hack the Box Academy,General" data-listing-date-sort="1697870183000" data-listing-file-modified-sort="1697925987582" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<a href="../engineering/hack-the-box-way-of-learning.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="placeholder.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Hack the Box
+</h5>
+<div class="listing-reading-time card-text text-muted">
+5 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Learning'); return false;">
+Learning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Hack the Box'); return false;">
+Hack the Box
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Hack the Box Academy'); return false;">
+Hack the Box Academy
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('General'); return false;">
+General
+</div>
+</div>
+<div class="card-text listing-description">
+Progress is noticeable when the question that tortured us has lost its meaning.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 21, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/22/23, 9:06:27 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Seed,Pragmatic Web Security,React Security,JavaScript,Web Security" data-listing-date-sort="1697596100000" data-listing-file-modified-sort="1697926053558" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="../engineering/cutting-edge-react-security.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="placeholder.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Cutting Edge React Security
+</h5>
+<div class="listing-reading-time card-text text-muted">
+3 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Seed'); return false;">
+Seed
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Pragmatic Web Security'); return false;">
+Pragmatic Web Security
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('React Security'); return false;">
+React Security
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('JavaScript'); return false;">
+JavaScript
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Web Security'); return false;">
+Web Security
+</div>
+</div>
+<div class="card-text listing-description">
+<code>{scheme}://{host}:{port}</code>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 18, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/22/23, 9:07:33 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="Tree,Distributed Web,Digital Ocean,Project" data-listing-date-sort="1697349759000" data-listing-file-modified-sort="1697925893366" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7">
+<a href="../engineering/setting-up-distributed-press-on-digital-ocean.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../imgs/ian-schneider-WymR2nYtj5M-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Setting Up Distributed Press on Digital Ocean
+</h5>
+<div class="listing-reading-time card-text text-muted">
+7 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Tree'); return false;">
+Tree
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Web'); return false;">
+Distributed Web
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Digital Ocean'); return false;">
+Digital Ocean
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Project'); return false;">
+Project
+</div>
+</div>
+<div class="card-text listing-description">
+A guide on setting up Distributed Press on Digital Ocean. It covers creating a virtual private server (VPS), installing dependencies, configuring DNS, executing the…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 15, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/22/23, 9:04:53 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="Seed,Definition,Security,OWASP" data-listing-date-sort="1696975588000" data-listing-file-modified-sort="1697536983049" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../engineering/owasp-clasp.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../imgs/owasp-clasp.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+OWASP CLASP
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Seed'); return false;">
+Seed
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Definition'); return false;">
+Definition
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Security'); return false;">
+Security
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('OWASP'); return false;">
+OWASP
+</div>
+</div>
+<div class="card-text listing-description">
+Introduces OWASP CLASP, a ‘comprehensive’ and ‘lightweight’ application security process that aims to integrate security into software development programs in a structured…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 11, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/17/23, 9:03:03 PM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="Seed,Security,Security Model,Programming Languages" data-listing-date-sort="1691547720000" data-listing-file-modified-sort="1697363965272" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../engineering/languages-that-implement-object-capabilities.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../imgs/jonny-gios-Vc-QDuMIzlQ-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Languages that implement object capabilities
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Seed'); return false;">
+Seed
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Security'); return false;">
+Security
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Security Model'); return false;">
+Security Model
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Programming Languages'); return false;">
+Programming Languages
+</div>
+</div>
+<div class="card-text listing-description">
+The following programming languages implement an Object Capability Model:
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Aug 9, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/15/23, 8:59:25 PM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="Seed,Security,Security Model" data-listing-date-sort="1691547269000" data-listing-file-modified-sort="1697925893400" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="../engineering/object-capability-model.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../imgs/ashkan-forouzani-v31lgBn5114-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Object-capability model
+</h5>
+<div class="listing-reading-time card-text text-muted">
+2 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Seed'); return false;">
+Seed
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Security'); return false;">
+Security
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Security Model'); return false;">
+Security Model
+</div>
+</div>
+<div class="card-text listing-description">
+The object-capability model (also seen written as “ocap”) is a object-capability security concept that describes a computer security model. In ocap a…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Aug 9, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/22/23, 9:04:53 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="Seed,PyTest,Python,Flask,Unit Testing" data-listing-date-sort="1689299062000" data-listing-file-modified-sort="1697363994749" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="../engineering/using-pytest-with-flask.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../imgs/vincent-ghilione-MTPGo7m1PhI-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Using Pytest with Flask
+</h5>
+<div class="listing-reading-time card-text text-muted">
+3 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Seed'); return false;">
+Seed
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('PyTest'); return false;">
+PyTest
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Python'); return false;">
+Python
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Flask'); return false;">
+Flask
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Unit Testing'); return false;">
+Unit Testing
+</div>
+</div>
+<div class="card-text listing-description">
+Unit tests should focus on testing a small unit of code in isolation:
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jul 14, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/15/23, 8:59:54 PM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="Seed,NASA,Retrospective,Lessons Learned" data-listing-date-sort="1689298092000" data-listing-file-modified-sort="1697363973189" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../engineering/nasas-adlr-framework-for-lessons-learned.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../imgs/nasa-dCgbRAQmTQA-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+NASA’s ADLR Framework for Lessons Learned
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Seed'); return false;">
+Seed
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('NASA'); return false;">
+NASA
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Retrospective'); return false;">
+Retrospective
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Lessons Learned'); return false;">
+Lessons Learned
+</div>
+</div>
+<div class="card-text listing-description">
+Example: NASA Lesson Number 5756
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jul 14, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/15/23, 8:59:33 PM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="Erlaubnis,Project,Diagram" data-listing-date-sort="1687952205000" data-listing-file-modified-sort="1697757533277" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="../engineering/erlaubnis-project-diagrams.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../imgs/brandi-redd-aJTiW00qqtI-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Erlaubnis Project Diagrams
+</h5>
+<div class="listing-reading-time card-text text-muted">
+3 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Erlaubnis'); return false;">
+Erlaubnis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Project'); return false;">
+Project
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Diagram'); return false;">
+Diagram
+</div>
+</div>
+<div class="card-text listing-description">
+<em>These diagrams can also be found on Github.</em>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 28, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/20/23, 10:18:53 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="Sapling,RFC,RFC-7282,Concencus Building,Internet Governance,IETF" data-listing-date-sort="1687250226000" data-listing-file-modified-sort="1697925893345" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5">
+<a href="../engineering/consensus-and-humming-in-the-ietf.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../imgs/shelby-cohron-UQwbKtu-2Ek-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Consensus and Humming in the IETF
+</h5>
+<div class="listing-reading-time card-text text-muted">
+5 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Sapling'); return false;">
+Sapling
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RFC'); return false;">
+RFC
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RFC-7282'); return false;">
+RFC-7282
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Concencus Building'); return false;">
+Concencus Building
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Internet Governance'); return false;">
+Internet Governance
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('IETF'); return false;">
+IETF
+</div>
+</div>
+<div class="card-text listing-description">
+This post summarises the key points of RFC 7282 an informational RFC (Request for Comment) published in 2014. This post is? will…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 20, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/22/23, 9:04:53 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="11" data-categories="Seed,Policy,Government,Privacy,End to End Encryption,ACCCE" data-listing-date-sort="1686492000000" data-listing-file-modified-sort="1697363920606" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="../engineering/e2e-fear-campaign-accce-and-police.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../imgs/markus-winkler-djDQKdjdYss-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The ACCCE &amp; Police’s attack on End-to-End Encryption Tweet Storm
+</h5>
+<div class="listing-reading-time card-text text-muted">
+3 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Seed'); return false;">
+Seed
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Policy'); return false;">
+Policy
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Government'); return false;">
+Government
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Privacy'); return false;">
+Privacy
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('End to End Encryption'); return false;">
+End to End Encryption
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('ACCCE'); return false;">
+ACCCE
+</div>
+</div>
+<div class="card-text listing-description">
+Post on Twitter Post on Mastodon
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 12, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/15/23, 8:58:40 PM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="12" data-categories="Seed,Distributed Computing,Distributed Web,Hypercore Protocol,Definition" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1697363897276" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../engineering/autobase.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../imgs/kenny-eliason-2PMH43yG9eU-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Autobase
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Seed'); return false;">
+Seed
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Computing'); return false;">
+Distributed Computing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Web'); return false;">
+Distributed Web
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Hypercore Protocol'); return false;">
+Hypercore Protocol
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Definition'); return false;">
+Definition
+</div>
+</div>
+<div class="card-text listing-description">
+An experimental module that’s used to rebase (follow?) multiple casually linked Hypercore into a single, linearized Hypercore for multi-user collaboration.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 11, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/15/23, 8:58:17 PM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="13" data-categories="Seed,Distributed Computing,Distributed Web,Hypercore Protocol,Definition" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1697363941535" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../engineering/hyperswarm.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../imgs/jeremy-cai-B8UTPKlHNyw-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Hyperswarm
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Seed'); return false;">
+Seed
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Computing'); return false;">
+Distributed Computing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Web'); return false;">
+Distributed Web
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Hypercore Protocol'); return false;">
+Hypercore Protocol
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Definition'); return false;">
+Definition
+</div>
+</div>
+<div class="card-text listing-description">
+A high-level API for finding and connecting to peers who are interested in a “topic”.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 11, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/15/23, 8:59:01 PM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="14" data-categories="Seed,Protocol,Distributed Computing,Distributed Web" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1697924833439" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="../engineering/ipfs.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../imgs/pawel-czerwinski-OALPS7O3jXs-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+IPFS
+</h5>
+<div class="listing-reading-time card-text text-muted">
+2 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Seed'); return false;">
+Seed
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Protocol'); return false;">
+Protocol
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Computing'); return false;">
+Distributed Computing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Web'); return false;">
+Distributed Web
+</div>
+</div>
+<div class="card-text listing-description">
+InterPlanetary File System (IPFS) is a protocol, hypermedia and file sharing peer-to-peer network for storing and sharing data to a distributed file system.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 11, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/22/23, 8:47:13 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="15" data-categories="Seed,Distributed Computing,Distributed Web,Hypercore Protocol,Definition" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1697363936336" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../engineering/hyperdht.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../imgs/samantha-lam-zFy6fOPZEu0-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+HyperDHT
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Seed'); return false;">
+Seed
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Computing'); return false;">
+Distributed Computing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Web'); return false;">
+Distributed Web
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Hypercore Protocol'); return false;">
+Hypercore Protocol
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Definition'); return false;">
+Definition
+</div>
+</div>
+<div class="card-text listing-description">
+A DHT powering Hyperswarm, each server is bound to a unique key pair, where the client connects to the server using the servers public key.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 11, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/15/23, 8:58:56 PM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="16" data-categories="Seed,Distributed Computing,Distributed Web,Hypercore Protocol,Definition" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1697363930856" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../engineering/hyperbee.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../imgs/kai-wenzel-dyGWrmJ_i4E-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Hyperbee
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Seed'); return false;">
+Seed
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Computing'); return false;">
+Distributed Computing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Web'); return false;">
+Distributed Web
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Hypercore Protocol'); return false;">
+Hypercore Protocol
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Definition'); return false;">
+Definition
+</div>
+</div>
+<div class="card-text listing-description">
+An append-only B-Tree running on Hypercore. It provides a key-value store API with mechanisms that can be used for:
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 11, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/15/23, 8:58:50 PM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="17" data-categories="Seed,Distributed Computing,Distributed Web,Hypercore Protocol,Definition" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1697363913687" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../engineering/dht.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../imgs/ruchindra-gunasekara-GK8x_XCcDZg-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+DHT
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Seed'); return false;">
+Seed
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Computing'); return false;">
+Distributed Computing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Web'); return false;">
+Distributed Web
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Hypercore Protocol'); return false;">
+Hypercore Protocol
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Definition'); return false;">
+Definition
+</div>
+</div>
+<div class="card-text listing-description">
+A decentralized data structure that is used to store and retrieve data over a network. The HyperDHT is…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 11, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/15/23, 8:58:33 PM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="18" data-categories="Distributed Computing,Distributed Web,Hypercore Protocol,Definition" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1697362073686" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../engineering/b-tree.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../imgs/stefan-cosma-df3QkLo5K94-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+BTree
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Computing'); return false;">
+Distributed Computing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Web'); return false;">
+Distributed Web
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Hypercore Protocol'); return false;">
+Hypercore Protocol
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Definition'); return false;">
+Definition
+</div>
+</div>
+<div class="card-text listing-description">
+A self-balancing tree data structure that is used to store data in a sorted and searchable manner.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 11, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/15/23, 8:27:53 PM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="19" data-categories="Seed,Distributed Computing,Distributed Web,Hypercore Protocol,Definition" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1697363933827" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../engineering/hypercore.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../imgs/kurt-cotoaga-zvkBC8OrUJ0-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Hypercore
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Seed'); return false;">
+Seed
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Computing'); return false;">
+Distributed Computing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Web'); return false;">
+Distributed Web
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Hypercore Protocol'); return false;">
+Hypercore Protocol
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Definition'); return false;">
+Definition
+</div>
+</div>
+<div class="card-text listing-description">
+A distributed, peer to peer, append-only log that can be used to create fast scalable applications without a backend.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 11, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/15/23, 8:58:53 PM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="20" data-categories="Seed,Distributed Computing,Distributed Web,Hypercore Protocol,Definition" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1697363918098" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../engineering/did.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../imgs/carson-arias-7Z03R1wOdmI-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+DID
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Seed'); return false;">
+Seed
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Computing'); return false;">
+Distributed Computing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Web'); return false;">
+Distributed Web
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Hypercore Protocol'); return false;">
+Hypercore Protocol
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Definition'); return false;">
+Definition
+</div>
+</div>
+<div class="card-text listing-description">
+Decentrali…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 11, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/15/23, 8:58:38 PM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="21" data-categories="Seed,Distributed Computing,Distributed Web,Hypercore Protocol,Definition" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1697363938831" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../engineering/hyperdrive.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../imgs/shubham-s-web3-km9umcj61Ow-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Hyperdrive
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Seed'); return false;">
+Seed
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Computing'); return false;">
+Distributed Computing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Web'); return false;">
+Distributed Web
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Hypercore Protocol'); return false;">
+Hypercore Protocol
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Definition'); return false;">
+Definition
+</div>
+</div>
+<div class="card-text listing-description">
+A real-time distributed file system.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 11, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/15/23, 8:58:58 PM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="22" data-categories="Seed,Distributed Computing,Distributed Web,Hypercore Protocol,Definition,Protocol" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1697363954340" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../engineering/holepunch.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img data-src="../imgs/crissy-jarvis-HE4P-TEBd0o-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Holepunch
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Seed'); return false;">
+Seed
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Computing'); return false;">
+Distributed Computing
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Distributed Web'); return false;">
+Distributed Web
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Hypercore Protocol'); return false;">
+Hypercore Protocol
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Definition'); return false;">
+Definition
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Protocol'); return false;">
+Protocol
+</div>
+</div>
+<div class="card-text listing-description">
+Holepunch is a company and suite of tools that “equips developers with a powerful suite of independent components to effortlessly construct peer-to-peer applications.”
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 11, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/15/23, 8:59:14 PM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/garden\.errbufferoverfl\.me");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Published with <a href="https://quarto.org/">Quarto</a> v<!--?quarto.version?--> | Hosted by <a href="https://www.netlify.com"></a></div>   
+    <div class="nav-footer-center"><a href="https://ko-fi.com/errbufferoverfl">Ko-Fi</a> | <a href="https://genericsocialmediapage.com/@errbufferoverfl">Mastodon</a> | <a href="https://mastodon.art/@errbufferoverfl">Art Mastodon</a> | <a href="https://github.com/errbufferoverfl">Github</a> | <a href="https://twitter.com/errbufferoverfl">Twitter</a></div>
+    <div class="nav-footer-right">© 2023 errbufferoverfl | <a href="https://www.quantumjitter.com/license">MIT License</a></div>
+  </div>
+</footer>
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

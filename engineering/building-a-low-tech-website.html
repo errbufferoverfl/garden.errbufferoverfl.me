@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="errbufferoverfl">
+<meta name="dcterms.date" content="2023-10-15">
+
+<title>digital garden - Building a Low Tech Website</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="digital garden - Building a Low Tech Website">
+<meta property="og:description" content="">
+<meta property="og:image" content="">
+<meta property="og:site-name" content="digital garden">
+<meta name="twitter:title" content="digital garden - Building a Low Tech Website">
+<meta name="twitter:description" content="">
+<meta name="twitter:image" content="">
+<meta name="twitter:card" content="summary">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../notebook/" class="navbar-brand navbar-brand-logo">
+    <img src="../imgs/logo.png" alt="Illustration of a snail looking up." class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../notebook/" rel="" target="">
+ <span class="menu-text">The Notebook</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../microfarm/" rel="" target="">
+ <span class="menu-text">The Microfarm</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../art-studio/" rel="" target="">
+ <span class="menu-text">The Art Studio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../antilibrary/" rel="" target="">
+ <span class="menu-text">The Anti-Library</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../engineering/" rel="" target="">
+ <span class="menu-text">The Engineering Anthology</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-more" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">More</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-more">    
+        <li>
+    <a class="dropdown-item" href="../index.html" rel="" target="">
+ <span class="dropdown-text">About Me</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../soapbox/" rel="" target="">
+ <span class="dropdown-text">The Soapbox</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../toolbox/" rel="" target="">
+ <span class="dropdown-text">The Toolbox</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-errata" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Errata</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-errata">    
+        <li>
+    <a class="dropdown-item" href="https://github.com/errbufferoverfl//garden.errbufferoverfl.me" rel="" target="">
+ <span class="dropdown-text">Source Code</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://github.com/errbufferoverfl//garden.errbufferoverfl.me/issues" rel="" target="">
+ <span class="dropdown-text">Report a Bug</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Building a Low Tech Website</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Seed</div>
+                <div class="quarto-category">Low Tech</div>
+                <div class="quarto-category">Project</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>errbufferoverfl </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 15, 2023</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#the-tech-industries-carbon-footprint" id="toc-the-tech-industries-carbon-footprint" class="nav-link active" data-scroll-target="#the-tech-industries-carbon-footprint">The Tech Industries Carbon Footprint</a></li>
+  <li><a href="#how-much-energy-does-the-internet-use" id="toc-how-much-energy-does-the-internet-use" class="nav-link" data-scroll-target="#how-much-energy-does-the-internet-use">How much Energy Does the Internet Use?</a></li>
+  <li><a href="#low-tech-websites" id="toc-low-tech-websites" class="nav-link" data-scroll-target="#low-tech-websites">Low Tech Websites</a></li>
+  <li><a href="#shared-responsibility" id="toc-shared-responsibility" class="nav-link" data-scroll-target="#shared-responsibility">Shared Responsibility</a></li>
+  <li><a href="#building-a-low-tech-website" id="toc-building-a-low-tech-website" class="nav-link" data-scroll-target="#building-a-low-tech-website">Building a Low Tech Website</a></li>
+  <li><a href="#carbon-emissions" id="toc-carbon-emissions" class="nav-link" data-scroll-target="#carbon-emissions">Carbon Emissions</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
+
+
+
+
+<p>As discourse around the impacts of Artificial intelligence (Ai) swirls in the background, one of the things I’ve been thinking about a lot is this idea we have that someday Ai will automate the boring things so everyone can focus on endeavours that are more fulfilling.</p>
+<p>It reads like an anti-work dream!</p>
+<div class="page-columns page-full"><p>But the reality that I’ve been seeing is that businesses are using Ai to undercut human employees in various ways.<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a><a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a></p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;<a href="https://fortune.com/2023/07/24/sag-aftra-writers-strike-explained-artificial-intelligence/">Writers strike: Why A.I. is such a hot-button issue in Hollywood’s labor battle with SAG-AFTRA</a></p></li><li id="fn2"><p><sup>2</sup>&nbsp;<a href="https://www.abc.net.au/news/science/2022-10-14/artificial-intelligence-ai-appen-data-labelling-ghost-workers/101531084">Science Behind ‘miracle’ AI is an army of ‘ghost workers’ — and they’re speaking out about Appen</a></p></li><li id="fn3"><p><sup>3</sup>&nbsp;<a href="https://www.ghostwork.org/">Ghost Work</a></p></li></div></div>
+<p>In many tech fields this looks like augmenting development workflows with Ai to speed up the development and deployment of new features to bring in more monthly active users (MAUs).</p>
+<p>MAUs a user engagement metric that tracks the number of unique visitors that engage with a site, platform, or app within a specified month. It’s considered one of the most significant metric for modern technology companies and is used heavily to determine the value of a company, and therefore influence how much a business is worth.</p>
+<div class="page-columns page-full"><p>But in turn, more customers means more infrastructure, more infrastructure means more energy used and consumed. And while sustainable software engineering has become a hot-button topic<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> when it comes to strategic technology trends, the industry still heavily relies on carbon-intensive supply chains.</p><div class="no-row-height column-margin column-container"><li id="fn4"><p><sup>4</sup>&nbsp;<a href="https://www.gartner.com/en/articles/gartner-top-10-strategic-technology-trends-for-2023">What are the Gartner Top 10 Strategic Technology Trends for 2023?</a></p></li></div></div>
+<section id="the-tech-industries-carbon-footprint" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="the-tech-industries-carbon-footprint">The Tech Industries Carbon Footprint</h2>
+<div class="page-columns page-full"><p>In 2021, the <a href="https://www.iea.org/about">International Energy Agency (IEA)</a> reported that global CO2 emissions rose by 6% to 36.3 billion tonnes, their highest ever level.<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a></p><div class="no-row-height column-margin column-container"><li id="fn5"><p><sup>5</sup>&nbsp;<a href="https://www.iea.org/news/global-co2-emissions-rebounded-to-their-highest-level-in-history-in-2021">Global CO2 emissions rebounded to their highest level in history in 2021</a></p></li></div></div>
+<p>During the same period it’s estimated that the global technology industry produced 2 to 3% of the world’s carbon emissions.</p>
+<div class="page-columns page-full"><p>To add to the problem of the tech industries carbon footprint, in 2020, Greenpeace highlighted that while cloud companies committing to address climate change within their own operations, companies like Microsoft, Google, and Amazon all had partnerships with oil companies, many using Ai to unlock oil and gas deposits around the world.<a href="#fn6" class="footnote-ref" id="fnref6" role="doc-noteref"><sup>6</sup></a></p><div class="no-row-height column-margin column-container"><li id="fn6"><p><sup>6</sup>&nbsp;<a href="https://www.greenpeace.org/static/planet4-eastasia-stateless/2022/10/89382b33-supplychange.pdf">Supply Change: Climate commitments and renewable energy progress by consumer electronics brands and their top suppliers</a></p></li></div></div>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>In May 2020, Will Grannis, Google Cloud managing director stated that Google will not “develop custom AI/ML solutions to facilitate upstream extraction”<a href="#fn7" class="footnote-ref" id="fnref7" role="doc-noteref"><sup>7</sup></a> for the oil and gas industry and instead focus on solutions for the renewables sector.</p>
+</div>
+</div>
+</div>
+<div class="no-row-height column-margin column-container"><li id="fn7"><p><sup>7</sup>&nbsp;<a href="https://www.greenpeace.org/usa/reports/oil-in-the-cloud/">Oil in the Cloud: How Tech Companies are Helping Big Oil Profit from Climate Destruction</a></p></li></div><p>And of course when we talk about “the tech industry” we can’t overlook consumer electronics.</p>
+<div class="page-columns page-full"><p>In 2022, a report produced by Greenpeace East Asian and Stand.earth found that while large consumer electronics brands, like Amazon, Microsoft, Google and Sony pledged to achieve 100% renewable energy across their own operations by 2030; many that set climate targets that include their supply chain are no where closer to achieving their targets.<a href="#fn8" class="footnote-ref" id="fnref8" role="doc-noteref"><sup>8</sup></a></p><div class="no-row-height column-margin column-container"><li id="fn8"><p><sup>8</sup>&nbsp;<a href="https://www.theplanetarypress.com/2020/05/google-pledges-to-no-longer-build-custom-ai-for-oil-and-gas-extraction/">Google Pledges to No Longer Build Custom AI for Oil and Gas Extraction</a></p></li></div></div>
+<p>And while many internet service providers and tech companies have been making the switch to renewable energy, this arguably isn’t enough to continue to address the current scale of the Internet, and future needs.</p>
+</section>
+<section id="how-much-energy-does-the-internet-use" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="how-much-energy-does-the-internet-use">How much Energy Does the Internet Use?</h2>
+<div class="page-columns page-full"><p>In 2011, Barath Raghavan and Justin Ma of ICSI and University of California, Berkeley, worked to estimate the amount of electricity the Internet requires. Their estimates take into account the the energy we use to create the Internet itself. That includes all the power needed to build computers, network connections, cell-phone towers and other hardware.<a href="#fn9" class="footnote-ref" id="fnref9" role="doc-noteref"><sup>9</sup></a></p><div class="no-row-height column-margin column-container"><li id="fn9"><p><sup>9</sup>&nbsp;<a href="https://citeseerx.ist.psu.edu/viewdoc/download;jsessionid=952E6799CAF2004AA85250FB0531953D?doi=10.1.1.232.1826&amp;rep=rep1&amp;type=pdf">The Energy and Emergy of the Internet</a></p></li></div></div>
+<p>Their estimates in 2011, were based off of:</p>
+<ul>
+<li>750 million desktop computers</li>
+<li>750 million laptop computers</li>
+<li>1 billion smartphones</li>
+<li>100 million servers</li>
+</ul>
+<p>By their calculations the Internet uses 84 to 143 gigawatts of electricity every year, which amounts to between 3.6 and 6.2 percent of all electricity worldwide (in 2011).</p>
+<div class="page-columns page-full"><p>But estimates and projections vary, they are also very dependent on the scope of the calculations. For example a 2017 meta-analysis found after reviewing 14 existing studies on this topic, that an accurate estimate for electricity used to transmit data through the internet was 0.06 kWh/GB for 2015,<a href="#fn10" class="footnote-ref" id="fnref10" role="doc-noteref"><sup>10</sup></a> but this only considered the IP core network and access networks.</p><div class="no-row-height column-margin column-container"><li id="fn10"><p><sup>10</sup>&nbsp;<a href="https://onlinelibrary.wiley.com/doi/epdf/10.1111/jiec.12630">Electricity Intensity of Internet Data Transmission</a></p></li></div></div>
+</section>
+<section id="low-tech-websites" class="level2">
+<h2 class="anchored" data-anchor-id="low-tech-websites">Low Tech Websites</h2>
+<p>Low-Tech Magazine proposed that there are two main contributors to the growing size and subsequent energy use of the Internet, these being:</p>
+<ul>
+<li>Content is becoming increasingly resource-intensive because of the growing importance of interactive media, and;</li>
+<li>The amount of time we spend online is growing, wether it be because of work, school or personal entertainment we are always online, in some cases using more than one device at a time.</li>
+</ul>
+<p>While I don’t disagree with these contributors I think that we need to take it one step further to call out the real root cause of the problem – which is, as discussed in the opening is wealth accumulation for shareholders.</p>
+<p><strong>So, what makes a low-tech website?</strong></p>
+<p>In researching low-tech solutions, I found there was no one definition of what “low-tech” is. But the <a href="https://www.sustainablewebmanifesto.com/">Sustainable Web Manifesto</a> provides a good set of qualities one can adopt in an effort to build a low-tech website, and subsequently design for sustainability:</p>
+<ol type="1">
+<li>Clean: The services we provide and services we use will be powered by renewable energy.</li>
+<li>Efficient: The products and services we provide will use the least amount of energy and material resources possible.</li>
+<li>Open: The products and services we provide will be accessible, allow for the open exchange of information, and allow users to control their data.</li>
+<li>Honest: The products and services we provide will not mislead or exploit users in their design or content.</li>
+<li>Regenerative: The products and services we provide will support an economy that nourishes people and planet.</li>
+<li>Resilient: The products and services we provide will function in the times and places where people need them most.</li>
+</ol>
+</section>
+<section id="shared-responsibility" class="level2">
+<h2 class="anchored" data-anchor-id="shared-responsibility">Shared Responsibility</h2>
+<p>I think that fixation of individual responsibility is a distraction from the more important task of compelling government and big technology companies to implement systemic change as well as taking direct action.</p>
+<p>But the Internet is not an sentient being. Its growth and increasing use of energy is a consequence of decisions being made throughout the product-development lifecycle.</p>
+<p>And as individuals and a collective of netizens we have the power to make alternative choices about how we build, host and consume content, and help reshape cultural norms.</p>
+<p>But, in a world where not only is social inequality growing, but digital inequality – people with the ability to design, develop and use more sustainable alternatives to technology shouldn’t occupy the moral high ground, criticising those who don’t hold the same skills, or ability to commit to a low-tech way of life.</p>
+</section>
+<section id="building-a-low-tech-website" class="level2">
+<h2 class="anchored" data-anchor-id="building-a-low-tech-website">Building a Low Tech Website</h2>
+</section>
+<section id="carbon-emissions" class="level2">
+<h2 class="anchored" data-anchor-id="carbon-emissions">Carbon Emissions</h2>
+<p>Wholegrain Digital have developed a carbon calculator that can be used to calculate the energy and emission of a web page.</p>
+<p>To <a href="https://sustainablewebdesign.org/calculating-digital-emissions/">calculate the energy and emission of a web page</a> Wholegrain Digital use the following data points:</p>
+<ol type="1">
+<li>Data transfer over the wire</li>
+<li>Energy intensity of web data</li>
+<li>Energy source used by the data centre</li>
+<li>Carbon intensity of electricity</li>
+<li>Website traffic</li>
+</ol>
+<p>Using <a href="https://www.websitecarbon.com/website/garden-errbufferoverfl-me/">Website Carbon Calculator</a> it originally calculated the CO2 produced by</p>
+
+
+</section>
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/garden\.errbufferoverfl\.me");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Published with <a href="https://quarto.org/">Quarto</a> v<!--?quarto.version?--> | Hosted by <a href="https://www.netlify.com"></a></div>   
+    <div class="nav-footer-center"><a href="https://ko-fi.com/errbufferoverfl">Ko-Fi</a> | <a href="https://genericsocialmediapage.com/@errbufferoverfl">Mastodon</a> | <a href="https://mastodon.art/@errbufferoverfl">Art Mastodon</a> | <a href="https://github.com/errbufferoverfl">Github</a> | <a href="https://twitter.com/errbufferoverfl">Twitter</a></div>
+    <div class="nav-footer-right">© 2023 errbufferoverfl | <a href="https://www.quantumjitter.com/license">MIT License</a></div>
+  </div>
+</footer>
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

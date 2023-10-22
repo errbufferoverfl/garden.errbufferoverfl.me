@@ -1,0 +1,1081 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.450">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>digital garden - The Notebook</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-title','listing-categories','listing-reading-time','listing-description','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<style>html{ scroll-behavior: smooth; }</style>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="../styles.css">
+<meta property="og:title" content="digital garden - The Notebook">
+<meta property="og:description" content="A collection of musings and evolving ideas.">
+<meta property="og:image" content="https://garden.errbufferoverfl.me/notebook/placeholder.png">
+<meta property="og:site-name" content="digital garden">
+<meta property="og:image:height" content="4032">
+<meta property="og:image:width" content="3024">
+<meta name="twitter:title" content="digital garden - The Notebook">
+<meta name="twitter:description" content="A collection of musings and evolving ideas.">
+<meta name="twitter:image" content="https://garden.errbufferoverfl.me/notebook/placeholder.png">
+<meta name="twitter:image-height" content="4032">
+<meta name="twitter:image-width" content="3024">
+<meta name="twitter:card" content="summary_large_image">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../notebook/" class="navbar-brand navbar-brand-logo">
+    <img src="../imgs/logo.png" alt="Illustration of a snail looking up." class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../notebook/" rel="" target="">
+ <span class="menu-text">The Notebook</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../microfarm/" rel="" target="">
+ <span class="menu-text">The Microfarm</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../art-studio/" rel="" target="">
+ <span class="menu-text">The Art Studio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../antilibrary/" rel="" target="">
+ <span class="menu-text">The Anti-Library</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../engineering/" rel="" target="">
+ <span class="menu-text">The Engineering Anthology</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-more" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">More</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-more">    
+        <li>
+    <a class="dropdown-item" href="../index.html" rel="" target="">
+ <span class="dropdown-text">About Me</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../soapbox/" rel="" target="">
+ <span class="dropdown-text">The Soapbox</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../toolbox/" rel="" target="">
+ <span class="dropdown-text">The Toolbox</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-errata" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">Errata</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-errata">    
+        <li>
+    <a class="dropdown-item" href="https://github.com/errbufferoverfl//garden.errbufferoverfl.me" rel="" target="">
+ <span class="dropdown-text">Source Code</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="https://github.com/errbufferoverfl//garden.errbufferoverfl.me/issues" rel="" target="">
+ <span class="dropdown-text">Report a Bug</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+            <div class="quarto-navbar-tools">
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">The Notebook</h1>
+            <p class="subtitle lead">A collection of musings and evolving ideas.</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(14)</span></div><div class="category" data-category="15th Century">15th Century <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Agriculture">Agriculture <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Anarchism">Anarchism <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Art">Art <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Culture">Culture <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Debt">Debt <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Definition">Definition <span class="quarto-category-count">(10)</span></div><div class="category" data-category="Feminism">Feminism <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Fruit">Fruit <span class="quarto-category-count">(1)</span></div><div class="category" data-category="History">History <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Internet">Internet <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Mediaeval">Mediaeval <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Meta">Meta <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Neocolonialism">Neocolonialism <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Neoliberalism">Neoliberalism <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Peoples">Peoples <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Political Science">Political Science <span class="quarto-category-count">(10)</span></div><div class="category" data-category="Seed">Seed <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tree">Tree <span class="quarto-category-count">(1)</span></div></div></div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+       <option value="" disabled="" selected="" hidden="">Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option value="listing-title" data-direction="asc">
+          Title
+        </option>
+         <option value="listing-date-sort" data-direction="asc">
+          Date - Oldest
+        </option>
+         <option value="listing-date-sort" data-direction="desc">
+          Date - Newest
+        </option>
+         <option value="listing-file-modified-sort" data-direction="asc">
+          Modified - Oldest
+        </option>
+         <option value="listing-file-modified-sort" data-direction="desc">
+          Modified - Newest
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Political Science,Definition" data-listing-date-sort="1697352589000" data-listing-file-modified-sort="1697925123709" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../notebook/technocratic.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="placeholder.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Technocratic
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Political Science'); return false;">
+Political Science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Definition'); return false;">
+Definition
+</div>
+</div>
+<div class="card-text listing-description">
+Technocracy is a form…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 15, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/22/23, 8:52:03 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="Meta,Fruit" data-listing-date-sort="1697202000000" data-listing-file-modified-sort="1697925143400" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="../notebook/seeds-trees-fruit-digital-gardening-with-intent.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../imgs/semyon-borisov-OlD42_xCbho-unsplash.jpg" class="thumbnail-image card-img" style="height: 150px;" alt="A bushel of red apples hanging on a tree.">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Seeds? Trees? Fruit?
+</h5>
+<div class="listing-reading-time card-text text-muted">
+2 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Meta'); return false;">
+Meta
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Fruit'); return false;">
+Fruit
+</div>
+</div>
+<div class="card-text listing-description">
+This post explores the concept of digital gardening, emphasizing the importance of reclaiming time, iterative learning, and embracing complexity. It introduces the metaphor…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Oct 14, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/22/23, 8:52:23 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Political Science,Definition,Neoliberalism" data-listing-date-sort="1692270050000" data-listing-file-modified-sort="1697925179653" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="../notebook/rugged-individualism.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="placeholder.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Rugged Individualism
+</h5>
+<div class="listing-reading-time card-text text-muted">
+2 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Political Science'); return false;">
+Political Science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Definition'); return false;">
+Definition
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Neoliberalism'); return false;">
+Neoliberalism
+</div>
+</div>
+<div class="card-text listing-description">
+A term coined by US-Republican president Herbert Hoover, it’s a term that indicates that an individual is self-reliant and independent from outside, usually state assistance.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Aug 17, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/22/23, 8:52:59 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="Political Science,Definition" data-listing-date-sort="1687515630000" data-listing-file-modified-sort="1697925173040" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../notebook/neocolonialism.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="placeholder.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Neocolonialism
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Political Science'); return false;">
+Political Science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Definition'); return false;">
+Definition
+</div>
+</div>
+<div class="card-text listing-description">
+Intrusion of foreign economic domination, it can include military and economic intervention in the form of structural adjustment programs. Neocolonialism is seem in states that have already…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 23, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/22/23, 8:52:53 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="4" data-categories="Political Science,Debt,Definition,Neocolonialism" data-listing-date-sort="1687514707000" data-listing-file-modified-sort="1697925150782" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../notebook/structural-adjustment-programs.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="placeholder.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Structural Adjustment Programs
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Political Science'); return false;">
+Political Science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Debt'); return false;">
+Debt
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Definition'); return false;">
+Definition
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Neocolonialism'); return false;">
+Neocolonialism
+</div>
+</div>
+<div class="card-text listing-description">
+Structural adjustment programs are a neocolonist] tool that sets out…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 23, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/22/23, 8:52:30 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="5" data-categories="Agriculture,Definition,Political Science" data-listing-date-sort="1687505467000" data-listing-file-modified-sort="1697925209011" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../notebook/cash-crops.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="placeholder.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Cash Crops
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Agriculture'); return false;">
+Agriculture
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Definition'); return false;">
+Definition
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Political Science'); return false;">
+Political Science
+</div>
+</div>
+<div class="card-text listing-description">
+…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 23, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/22/23, 8:53:29 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="6" data-categories="Art,Culture,Mediaeval,15th Century" data-listing-date-sort="1687505467000" data-listing-file-modified-sort="1697925893385" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../notebook/ars-moriendi.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="placeholder.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Ars Moriendi
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Art'); return false;">
+Art
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Culture'); return false;">
+Culture
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Mediaeval'); return false;">
+Mediaeval
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('15th Century'); return false;">
+15th Century
+</div>
+</div>
+<div class="card-text listing-description">
+The Ars Moriendi (The Art of…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 23, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/22/23, 9:04:53 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="7" data-categories="Seed,Political Science,Definition,Anarchism" data-listing-date-sort="1686492000000" data-listing-file-modified-sort="1697925746654" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../notebook/the-state.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="placeholder.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+The State
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Seed'); return false;">
+Seed
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Political Science'); return false;">
+Political Science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Definition'); return false;">
+Definition
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Anarchism'); return false;">
+Anarchism
+</div>
+</div>
+<div class="card-text listing-description">
+The “state” is a centralised political organisation that imposes and enforces rules over a population within a territory.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 12, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/22/23, 9:02:26 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="8" data-categories="Political Science,Definition" data-listing-date-sort="1686492000000" data-listing-file-modified-sort="1697925154440" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../notebook/surveillance-capitalism.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="placeholder.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Surveillance Capitalism
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Political Science'); return false;">
+Political Science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Definition'); return false;">
+Definition
+</div>
+</div>
+<div class="card-text listing-description">
+Surveillance capitalism is a type of capitalism market form, and a technocratic-oriented phenomenon that centres on the commodification of personal data by corporations.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 12, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/22/23, 8:52:34 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="9" data-categories="Political Science,Feminism,Internet,Definition" data-listing-date-sort="1686492000000" data-listing-file-modified-sort="1697925185704" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../notebook/feminist-principles-of-the-internet.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="placeholder.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Feminist Principles of the Internet
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Political Science'); return false;">
+Political Science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Feminism'); return false;">
+Feminism
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Internet'); return false;">
+Internet
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Definition'); return false;">
+Definition
+</div>
+</div>
+<div class="card-text listing-description">
+The Feminist Principles of the Internet are a series of statements that offer a gender and sexual rights lens on critical Internet-related rights.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 12, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/22/23, 8:53:05 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="10" data-categories="Political Science,Feminism,Internet,Definition" data-listing-date-sort="1686492000000" data-listing-file-modified-sort="1697925201717" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<a href="../notebook/embodiment.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="placeholder.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Embodiment
+</h5>
+<div class="listing-reading-time card-text text-muted">
+2 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Political Science'); return false;">
+Political Science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Feminism'); return false;">
+Feminism
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Internet'); return false;">
+Internet
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Definition'); return false;">
+Definition
+</div>
+</div>
+<div class="card-text listing-description">
+The principles of <strong>embodiment</strong> look at diverse experiences and relationships as human beings embodying multiple identities and realities in “disembodied” online spaces.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 12, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/22/23, 8:53:21 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="11" data-categories="Political Science,Definition,Tree" data-listing-date-sort="1685800800000" data-listing-file-modified-sort="1697925163634" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<a href="../notebook/reproductive-labor.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="placeholder.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Reproductive Labor
+</h5>
+<div class="listing-reading-time card-text text-muted">
+3 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Political Science'); return false;">
+Political Science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Definition'); return false;">
+Definition
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Tree'); return false;">
+Tree
+</div>
+</div>
+<div class="card-text listing-description">
+Reproductive labor was first brought into the discourse during the <em>wages for housework</em> campaign during the 1970s (discussed in Revolution at Point Zero). Referring to it this was is important because it emphasises that reproductive activities are also labor that are enforced by the gender hierarchy and not a…
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+Jun 4, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/22/23, 8:52:43 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="12" data-categories="Peoples,History" data-listing-date-sort="1685109600000" data-listing-file-modified-sort="1697925132912" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../notebook/wadawurrung-and-dja-dja-wurrung-people.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="../imgs/wadawurrung-country.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Wadawurrung and Dja Dja Wurrung People
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Peoples'); return false;">
+Peoples
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('History'); return false;">
+History
+</div>
+</div>
+<div class="card-text listing-description">
+Wadawurrung country encompasses the area from the Great Dividing Range of…<sup></sup>
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+May 27, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/22/23, 8:52:12 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="13" data-listing-date-sort="1685109600000" data-listing-file-modified-sort="1697925194505" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<a href="../notebook/errbufferoverfl.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="placeholder.png" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+errbufferoverfl
+</h5>
+<div class="listing-reading-time card-text text-muted">
+1 min
+</div>
+<div class="card-text listing-description">
+The easiest way to pronounce it is “error buffer overflow”… like the security vulnerability.
+</div>
+<div class="card-attribution card-text-small end">
+<div class="listing-date">
+May 27, 2023
+</div>
+</div>
+</div>
+<div class="card-footer">
+<div class="card-file-modified listing-file-modified">
+<p>10/22/23, 8:53:14 AM</p>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/garden\.errbufferoverfl\.me");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Published with <a href="https://quarto.org/">Quarto</a> v<!--?quarto.version?--> | Hosted by <a href="https://www.netlify.com"></a></div>   
+    <div class="nav-footer-center"><a href="https://ko-fi.com/errbufferoverfl">Ko-Fi</a> | <a href="https://genericsocialmediapage.com/@errbufferoverfl">Mastodon</a> | <a href="https://mastodon.art/@errbufferoverfl">Art Mastodon</a> | <a href="https://github.com/errbufferoverfl">Github</a> | <a href="https://twitter.com/errbufferoverfl">Twitter</a></div>
+    <div class="nav-footer-right">© 2023 errbufferoverfl | <a href="https://www.quantumjitter.com/license">MIT License</a></div>
+  </div>
+</footer>
+
+
+
+<script src="../site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>
