@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>errbufferoverfl, anarchist, illustrator, reluctant security engineer</title>
+<link>https://garden.errbufferoverfl.me/art-studio/index.html</link>
+<atom:link href="https://garden.errbufferoverfl.me/art-studio/index.xml" rel="self" type="application/rss+xml"/>
+<description>A garden of evolving ideas about society, microfarming, and sometimes security engineering.</description>
+<generator>quarto-1.3.450</generator>
+<lastBuildDate>Fri, 02 Jun 2023 14:00:00 GMT</lastBuildDate>
+<item>
+  <title>Woodblock</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/art-studio/woodblock.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A technique originally developed in China as a way of printing on textiles and later on paper, the oldest surviving fragments to survive date back to the Han dynasty (before 220).</p>
+<p>Woodcut is a type of relief printing where an artist carves an image into the surface of a block of wood. When printing, areas that are cut away carry no ink while characters or images at surface level carry the ink to produce the print.</p>
+<p>Linocut is a variation of woodcutting where Linoleum is used instead of wood, making the art style more accessible to a professional and non-professional artists.</p>
+<section id="woodblock" class="level2">
+<h2 class="anchored" data-anchor-id="woodblock">Woodblock</h2>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-figure quarto-figure-center" style="flex-basis: 47.6%;justify-content: center;">
+<figure class="figure">
+<p><a href="../imgs/a-feast-around-a-table-with-devils-and-witches.png" class="lightbox" title="The history of witches and wizards: giving a true account of all their tryals in England, Scotland, Swedeland, France, and New England; with their confession and condemnation, circa 1720, Collected from Bishop Hall, Bishop Morton, Sir Matthew Hale, etc., Wellcome Collection" data-gallery="quarto-lightbox-gallery-1"><img src="https://garden.errbufferoverfl.me/imgs/a-feast-around-a-table-with-devils-and-witches.png" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption"><strong>The history of witches and wizards: giving a true account of all their tryals in England, Scotland, Swedeland, France, and New England; with their confession and condemnation</strong>, circa 1720, Collected from Bishop Hall, Bishop Morton, Sir Matthew Hale, etc., <a href="https://wellcomecollection.org/works/abkab8tq/images?id=a3nuy2zq">Wellcome Collection</a></figcaption>
+</figure>
+</div>
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 4.8%;justify-content: center;">
+<p>&nbsp;</p>
+</div>
+<div class="quarto-figure quarto-figure-center" style="flex-basis: 47.6%;justify-content: center;">
+<figure class="figure">
+<p><a href="../imgs/ars-moriendi.png" class="lightbox" title="Ars moriendi, woodblock 7 of 11, Circa 1460, illustrator unknown, en wikipedia. Source" data-gallery="quarto-lightbox-gallery-2"><img src="https://garden.errbufferoverfl.me/imgs/ars-moriendi.png" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption"><strong><a href="../notebook/ars-moriendi.html">Ars moriendi</a>, <a href="../art-studio/woodblock.html">woodblock</a> 7 of 11</strong>, Circa 1460, illustrator unknown, en wikipedia. <a href="http://userpage.fu-berlin.de/~aeimhof/seelefr.htm">Source</a></figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-figure quarto-figure-center" style="flex-basis: 47.6%;justify-content: center;">
+<figure class="figure">
+<p><a href="../imgs/witches-dancing-in-a-circle-with-the-devil.png" class="lightbox" title="The history of witches and wizards: giving a true account of all their tryals in England, Scotland, Swedeland, France, and New England; with their confession and condemnation, circa 1720, Collected from Bishop Hall, Bishop Morton, Sir Matthew Hale, etc., Wellcome Collection" data-gallery="quarto-lightbox-gallery-3"><img src="https://garden.errbufferoverfl.me/imgs/witches-dancing-in-a-circle-with-the-devil.png" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption"><strong>The history of witches and wizards: giving a true account of all their tryals in England, Scotland, Swedeland, France, and New England; with their confession and condemnation</strong>, circa 1720, Collected from Bishop Hall, Bishop Morton, Sir Matthew Hale, etc., <a href="https://wellcomecollection.org/works/abkab8tq/images?id=a3nuy2zq">Wellcome Collection</a></figcaption>
+</figure>
+</div>
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 4.8%;justify-content: center;">
+<p>&nbsp;</p>
+</div>
+<div class="quarto-figure quarto-figure-center" style="flex-basis: 47.6%;justify-content: center;">
+<figure class="figure">
+<p><a href="../imgs/theatrum-chemicum-britannicum.png" class="lightbox" title="Theatrum Chemicum Britannicum, woodblock, circa 1652, Elias Ashmole, The Public Domain Review. Alchemical image taken from the British alchemical theater of ripley, depicts the two-headed serpent of arabia: azoth and kibrit" data-gallery="quarto-lightbox-gallery-4"><img src="https://garden.errbufferoverfl.me/imgs/theatrum-chemicum-britannicum.png" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption"><strong>Theatrum Chemicum Britannicum</strong>, <a href="woodblock">woodblock</a>, circa 1652, Elias Ashmole, <a href="https://publicdomainreview.org/collection/theatrum-chemicum">The Public Domain Review</a>. Alchemical image taken from the British alchemical theater of ripley, depicts the two-headed serpent of arabia: azoth and kibrit</figcaption>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Medium</category>
+  <category>Relief Printing</category>
+  <category>Textile Arts</category>
+  <category>Art Note</category>
+  <category>Seed</category>
+  <guid>https://garden.errbufferoverfl.me/art-studio/woodblock.html</guid>
+  <pubDate>Fri, 02 Jun 2023 14:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Gouache</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/art-studio/gouache.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Gouache is a water based medium made of pigment, water and a binding agent, normally gum arabic or dextrin.</p>
+<p>Gouache is similar to watercolour in that it can be re-hydrated and it infuses with the paper. While it also possesses qualities similar to that of acrylic and oil paint in that it’s used for opaque painting styles.</p>
+<div class="callout callout-style-simple callout-caution">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Wet and dry gouache will have different values with lighter tones drying darker, and darker tones drying lighter, however, this is not a universal rule and it’s important to swatch your colours before painting.</p>
+</div>
+</div>
+</div>
+<section id="gouache-paintings" class="level2">
+<h2 class="anchored" data-anchor-id="gouache-paintings">Gouache Paintings</h2>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-figure quarto-figure-center" style="flex-basis: 47.6%;justify-content: center;">
+<figure class="figure">
+<p><a href="../imgs/coaster-for-salut.png" class="lightbox" title="Coaster for Salute, gouache painting by @rowan_sugar, Coaster 3/6 for the Salut!, 2023" data-gallery="gouache"><img src="https://garden.errbufferoverfl.me/imgs/coaster-for-salut.png" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption"><strong>Coaster for Salute</strong>, <a href="../art-studio/gouache.html">gouache</a> painting by <a href="https://rowansugar.carrd.co">@rowan_sugar</a>, <a href="https://www.instagram.com/p/Cst6vuNP8Tj/">Coaster 3/6 for the Salut!</a>, 2023</figcaption>
+</figure>
+</div>
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 4.8%;justify-content: center;">
+<p>&nbsp;</p>
+</div>
+<div class="quarto-figure quarto-figure-center" style="flex-basis: 47.6%;justify-content: center;">
+<figure class="figure">
+<p><a href="../imgs/the-inner-sanctum.png" class="lightbox" title="The Inner Sanctum, gouache, watercolor, and ink on paper, 100 x 70 centimeters, Colossal, 2022" data-gallery="gouache"><img src="https://garden.errbufferoverfl.me/imgs/the-inner-sanctum.png" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption"><strong>The Inner Sanctum</strong>, <a href="../art-studio/gouache.html">gouache</a>, watercolor, and ink on paper, 100 x 70 centimeters, <a href="https://www.thisiscolossal.com/2022/11/rithika-merchant-mixed-media-works/">Colossal</a>, 2022</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-figure quarto-figure-center" style="flex-basis: 47.6%;justify-content: center;">
+<figure class="figure">
+<p><a href="../imgs/the-offering.png" class="lightbox" title="The Offering, gouache painting by Bill Mayer, Bill Mayer’s Personal Website" data-gallery="gouache"><img src="https://garden.errbufferoverfl.me/imgs/the-offering.png" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption"><strong>The Offering</strong>, <a href="../art-studio/gouache.html">gouache</a> painting by Bill Mayer, <a href="https://www.thebillmayer.com/">Bill Mayer’s Personal Website</a></figcaption>
+</figure>
+</div>
+<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 4.8%;justify-content: center;">
+<p>&nbsp;</p>
+</div>
+<div class="quarto-figure quarto-figure-center" style="flex-basis: 47.6%;justify-content: center;">
+<figure class="figure">
+<p><a href="../imgs/lago-daverno.png" class="lightbox" title="Lago d’Averno, gouache painting by Jacob Philipp Hackert, 1794." data-gallery="gouache"><img src="https://garden.errbufferoverfl.me/imgs/lago-daverno.png" class="img-fluid figure-img"></a></p>
+<figcaption class="figure-caption"><a href="https://en.wikipedia.org/wiki/Lago_d%27Averno" title="Lago d'Averno"><strong>Lago d’Averno</strong></a>, <a href="../art-studio/gouache.html">gouache</a> painting by <a href="https://en.wikipedia.org/wiki/Jacob_Philipp_Hackert" title="Jacob Philipp Hackert">Jacob Philipp Hackert</a>, 1794.</figcaption>
+</figure>
+</div>
+</div>
+</div>
+
+
+</section>
+
+ ]]></description>
+  <category>Medium</category>
+  <category>Painting</category>
+  <category>Art Note</category>
+  <category>Seed</category>
+  <guid>https://garden.errbufferoverfl.me/art-studio/gouache.html</guid>
+  <pubDate>Thu, 01 Jun 2023 14:00:00 GMT</pubDate>
+</item>
+</channel>
+</rss>

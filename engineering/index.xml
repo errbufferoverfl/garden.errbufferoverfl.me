@@ -1,0 +1,1592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>errbufferoverfl, anarchist, illustrator, reluctant security engineer</title>
+<link>https://garden.errbufferoverfl.me/engineering/index.html</link>
+<atom:link href="https://garden.errbufferoverfl.me/engineering/index.xml" rel="self" type="application/rss+xml"/>
+<description>A garden of evolving ideas about society, microfarming, and sometimes security engineering.</description>
+<generator>quarto-1.3.450</generator>
+<lastBuildDate>Sat, 21 Oct 2023 08:23:04 GMT</lastBuildDate>
+<item>
+  <title>Hack the Box</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/hack-the-box-attacking-common-applications.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="scope" class="level2">
+<h2 class="anchored" data-anchor-id="scope">Scope</h2>
+<div class="{{callout-note}}">
+<p>Not all hosts in the scope list are accessible when spawning the target below.</p>
+</div>
+<ul>
+<li>app.inlanefreight.local</li>
+<li>dev.inlanefreight.local</li>
+<li>drupal-dev.inlanefreight.local</li>
+<li>drupal-qa.inlanefreight.local</li>
+<li>drupal-acc.inlanefreight.local</li>
+<li>drupal.inlanefreight.local</li>
+<li>blog-dev.inlanefreight.local</li>
+<li>blog.inlanefreight.local</li>
+<li>app-dev.inlanefreight.local</li>
+<li>jenkins-dev.inlanefreight.local</li>
+<li>jenkins.inlanefreight.local</li>
+<li>web01.inlanefreight.local</li>
+<li>gitlab-dev.inlanefreight.local</li>
+<li>gitlab.inlanefreight.local</li>
+<li>support-dev.inlanefreight.local</li>
+<li>support.inlanefreight.local</li>
+<li>inlanefreight.local</li>
+<li>10.129.201.50</li>
+</ul>
+</section>
+<section id="discoveryenumeration" class="level2">
+<h2 class="anchored" data-anchor-id="discoveryenumeration">Discovery/Enumeration</h2>
+<section id="scans" class="level3">
+<h3 class="anchored" data-anchor-id="scans">Scans</h3>
+</section>
+<section id="live-hosts" class="level3">
+<h3 class="anchored" data-anchor-id="live-hosts">Live Hosts</h3>
+</section>
+</section>
+<section id="application-discovery" class="level2">
+<h2 class="anchored" data-anchor-id="application-discovery">Application Discovery</h2>
+<section id="scans-1" class="level3">
+<h3 class="anchored" data-anchor-id="scans-1">Scans</h3>
+</section>
+<section id="interestingnotable-hosts" class="level3">
+<h3 class="anchored" data-anchor-id="interestingnotable-hosts">Interesting/Notable Hosts</h3>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<div>
+<p><strong>Remember</strong></p>
+<p>Hosts with <code>dev</code> as part of the FQDN are worth noting down as they may be running untested features or have things like debug mode enabled.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</section>
+<section id="exploitation" class="level2">
+<h2 class="anchored" data-anchor-id="exploitation">Exploitation</h2>
+</section>
+<section id="post-exploitation" class="level2">
+<h2 class="anchored" data-anchor-id="post-exploitation">Post-Exploitation</h2>
+</section>
+<section id="tools" class="level2">
+<h2 class="anchored" data-anchor-id="tools">Tools</h2>
+<section id="nmap" class="level3">
+<h3 class="anchored" data-anchor-id="nmap"><code>nmap</code></h3>
+<pre class="shell-session"><code>nmap -p 80,443,8000,8080,8180,8888,1000 --open -oA web_discovery -iL scope_list</code></pre>
+</section>
+<section id="eyewitness" class="level3">
+<h3 class="anchored" data-anchor-id="eyewitness">Eyewitness</h3>
+</section>
+<section id="aquatone" class="level3">
+<h3 class="anchored" data-anchor-id="aquatone">Aquatone</h3>
+
+
+</section>
+</section>
+
+ ]]></description>
+  <category>Learning</category>
+  <category>Hack the Box</category>
+  <category>Hack the Box Academy</category>
+  <category>Offensive</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/hack-the-box-attacking-common-applications.html</guid>
+  <pubDate>Sat, 21 Oct 2023 08:23:04 GMT</pubDate>
+</item>
+<item>
+  <title>Hack the Box</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/hack-the-box-way-of-learning.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<blockquote class="blockquote">
+<p>Progress is noticeable when the question that tortured us has lost its meaning.</p>
+</blockquote>
+<section id="learning-efficiency" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="learning-efficiency">Learning Efficiency</h2>
+<p>Learning efficiently in information security is difficult because there is so much to learn, so many topics and it’s all very technical.</p>
+<p>This isn’t a bad thing, it means there is a lot available to cut your teeth on. What is difficult is combining what we already know, what we are learning about, and how to adapt all of that into a new set of skills and knowledge.</p>
+<p>Even when presented with adequate information, if we do not know how to use it, it becomes noise.</p>
+<p>We also need to fail. Failure is an unavoidable, and essential part to learning. It can also be one of the most painful parts of learning.</p>
+<section id="being-good-at-something" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="being-good-at-something">Being “good” at Something</h3>
+<p>To feel confident in being “good” at something, we need: - To know what we are doing - Have experience with the topic - Have vast or comprehensive of not just the theoretical, but also the practical</p>
+<p>So how does one get “good” at something?</p>
+<p>Josh Kaufman proposed that we can learn something new in 20 hours. Even if we work on it for just 45 minutes a day.</p>
+<p>A popular learning model often used is the Learning Pyramid which outlines how various learning techniques relate to each other and can help with retention.</p>
+<div class="{{callout-warning}} page-columns page-full">
+<div class="page-columns page-full"><p>The original study that informed the pyramid of learning has been lost and is considered untrustworthy.<sup>1</sup></p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;<a href="https://www.researchgate.net/publication/285798853_A_rebuttal_of_NTL_Institute%27s_learning_pyramid">Learning Pyramid Criticisms</a></p></li></div></div>
+</div>
+<p>To summarise the learning pyramid, one will retain:</p>
+<ul>
+<li>5% of information by listening to a lecture</li>
+<li>10% of information by reading<sup>2</sup></li>
+<li>20% of information by watching an audiovisual</li>
+<li>30% of information by watching a demonstration</li>
+<li>50% of information by engaging in a group discussion</li>
+<li>75% of information by practicing what was learnt</li>
+<li>90% of information by teaching someone else, or applying it immediately</li>
+</ul>
+<div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;Because the original research was lost, I wonder what the reading level of participants was? If they never achieved a reading level above <a href="../antilibrary/how-to-read-a-book.html">elementary reading</a> it would make sense they didn’t retain much information.</p></li></div></section>
+</section>
+<section id="learning-types" class="level2">
+<h2 class="anchored" data-anchor-id="learning-types">Learning Types</h2>
+<p>If we ignore the learning pyramid is probably meaningless. We can divide it into two learning styles:</p>
+<ul>
+<li>Passive learning: listening, reading (arguable), watching.</li>
+<li>Active learning: discussion, practice, teaching</li>
+</ul>
+<p>Active learning sees a better retention rate. But going into a discussion, or practice without understanding <em>some</em> of the theory can make the learning process more difficult.</p>
+<p>We should use a mix of these learning types. Ideally techniques that we enjoy. For example:</p>
+<ul>
+<li>Read some information about the vulnerability</li>
+<li>Watch an Youtube video explaining the vulnerability</li>
+<li>Discuss questions or comments with a group</li>
+<li>Practice using the vulnerability</li>
+<li>Reflect and discuss your experience with the practical with a group</li>
+<li>Teach someone else what you learnt</li>
+</ul>
+<p>Taking an approach that includes passive and active learning styles, you’re more likely to retain the information. Ongoing discussion gives you people to share issues and collaborate with. Which can spark creativity and out of the box thinking.</p>
+</section>
+<section id="documentation" class="level2">
+<h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
+<p>No matter who documentation is for, here are some guidelines:</p>
+<ol type="1">
+<li>It is beneficial to put ourselves in the position of our readers. This will make it much easier for us to design the documentation.</li>
+<li>Avoid repetition and ambiguity.</li>
+<li>Make documentation as easy to read as possible. No one wants to read the documentation that is difficult to understand or follow.</li>
+</ol>
+</section>
+<section id="comfort" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="comfort">Comfort</h2>
+<div class="page-columns page-full"><p>The Yerkes-Dodson law is an observed relationship between pressure and performance. The law states that performance increases with physiological or mental arousal, but only up to a point.<sup>3</sup></p><div class="no-row-height column-margin column-container"><li id="fn3"><p><sup>3</sup>&nbsp;<a href="https://en.wikipedia.org/wiki/Yerkes%E2%80%93Dodson_law">Yerkes-Dodson law</a></p></li></div></div>
+<p><img src="https://garden.errbufferoverfl.me/imgs/hack-the-box-way-of-learning.png" class="img-fluid"></p>
+</section>
+<section id="obstacles" class="level2">
+<h2 class="anchored" data-anchor-id="obstacles">Obstacles</h2>
+<p>On obstacles:</p>
+<blockquote class="blockquote">
+<p>Only the person who has taken the exact same journey as you can evaluate you and your decisions. <strong>Everything else is only assumptions.</strong></p>
+</blockquote>
+<p><img src="https://garden.errbufferoverfl.me/imgs/hack-the-box-way-of-learning-3.png" class="img-fluid"></p>
+</section>
+<section id="questioning" class="level2">
+<h2 class="anchored" data-anchor-id="questioning">Questioning</h2>
+<blockquote class="blockquote">
+<p>The most important and most difficult thing in any situation is not the search for the right answer but the search for the right question.</p>
+</blockquote>
+<p>There are no good or bad questions. Questions have no morality.</p>
+<p>But people use the states “good” and “bad” to describe the profit or loss they expect from the question.</p>
+<ul>
+<li>A “good” question might result in an answer that benefits the asker.</li>
+<li>A “bad” question might result in loss, or not help the asker.</li>
+</ul>
+<p>The state we give to a question does not change the answers. The state attributed to the question belongs to the answer or the result.</p>
+<p>There are rough questions or precise questions though.</p>
+<ul>
+<li>A rough question might be: “How can I hack X?” — it’s vague and difficult to answer.</li>
+<li>A precise question might be: “How can I use the server’s SMB service to identify its existing user accounts?” — there is a clear outcome that the answerer can work to answer.</li>
+</ul>
+<p>The goal of a question is one of the most important aspects that determine our approach and the question we ask. Often we are looking:</p>
+<ul>
+<li>To understand the reason for an event (<code>past</code>)</li>
+<li>To experience something completely new and to understand the way something works (<code>present</code>)</li>
+<li>To predict the effect of an event (<code>future</code>)</li>
+</ul>
+<section id="relationship-oriented-questioning-model" class="level3">
+<h3 class="anchored" data-anchor-id="relationship-oriented-questioning-model">Relationship-Oriented-Questioning Model</h3>
+<p><img src="https://garden.errbufferoverfl.me/imgs/hack-the-box-way-of-learning-1.png" class="img-fluid"></p>
+<p>This model represents five components:</p>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Component</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>Your Position</code></td>
+<td>This describes the position we are in and our view.</td>
+</tr>
+<tr class="even">
+<td><code>The Object</code></td>
+<td>The object is the core element of the question. The main component of our sentence takes the meaning out of the question.</td>
+</tr>
+<tr class="odd">
+<td><code>Known</code></td>
+<td>This information is known to us.</td>
+</tr>
+<tr class="even">
+<td><code>Unknown</code></td>
+<td>This information is not known to us.</td>
+</tr>
+<tr class="odd">
+<td><code>Other Position(s)</code></td>
+<td>This component describes the position of other persons.</td>
+</tr>
+</tbody>
+</table>
+<p>So even for questions that do not directly concern us or about situations we are not involved in, we still have a position and view on the object.</p>
+</section>
+<section id="summary" class="level3">
+<h3 class="anchored" data-anchor-id="summary">Summary</h3>
+<p>A right question is a precise question that allows us to establish the relationships between the components, to understand them, and to take us one step further to the required answer.</p>
+</section>
+</section>
+<section id="learning-progress" class="level2">
+<h2 class="anchored" data-anchor-id="learning-progress">Learning Progress</h2>
+<p>In order to see progress, two specific states are compared, including a specific time window between the learning process.</p>
+<p>If we cannot give ourselves the confirmation, we look for it from others. However, no one else can give us confirmation without taking the path together with us.</p>
+
+
+</section>
+
+
+ ]]></description>
+  <category>Learning</category>
+  <category>Hack the Box</category>
+  <category>Hack the Box Academy</category>
+  <category>General</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/hack-the-box-way-of-learning.html</guid>
+  <pubDate>Sat, 21 Oct 2023 06:36:23 GMT</pubDate>
+</item>
+<item>
+  <title>Cutting Edge React Security</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/cutting-edge-react-security.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="security-model-of-the-web" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="security-model-of-the-web">Security Model of the Web</h2>
+<section id="origins" class="level3">
+<h3 class="anchored" data-anchor-id="origins">Origins</h3>
+<p><code>{scheme}://{host}:{port}</code></p>
+<p><strong>Same Origin Policy</strong> - content on the same origin can be interacted with, without restriction. Content on a different origin cannot.</p>
+<ul>
+<li>Applies to the DOM and all it’s contents</li>
+<li>Applies to WebPermissions</li>
+<li>Applies to WebStorage</li>
+<li>Applies to JS-base XHR requests, including the ability to load resource and inspect their content</li>
+</ul>
+<div class="{callout-warning}">
+<p>eTLD (i.e., effective top-level domain) changes this model because there is no way to arithmetically determine if a domain name suffix is publicly registrable or not.</p>
+<p>Therefore, the eTLD+1 of these domains is regarded as part of the same organisation.</p>
+</div>
+<p>Once a threat actor can run code within your origin, it’s difficult to provide any security.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://garden.errbufferoverfl.me/imgs/cutting-edge-react-security.png" class="img-fluid figure-img" alt="Still photo from the 2006 edition of &quot;When a Stranger Calls&quot;, Jill Johnson is holding a phone away from her ear with a look of fear on her face. The subtitles read &quot;We traced the call. It's coming from inside the house.&quot;"></p>
+<figcaption class="figure-caption">Do you want cross-site scripting? Because this is what happens when you get cross-site scripting.</figcaption>
+</figure>
+</div>
+<p>JavaScript vulnerabilities also apply to contexts such as Electron apps and WebViews and are fundamentally governed the same way as browsers.</p>
+</section>
+<section id="remote-code-inclusion" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="remote-code-inclusion">Remote Code Inclusion</h3>
+<ul>
+<li>Loading remote code at run-time can present a significant risk if not managed, or improperly managed. Remote code inclusions means that when the remote code changes, every user who loads the resource will receive the modified version.</li>
+<li>Remote code inclusions relies on having the full trust of the remote server, all it’s components, and in many circumstances the remote resources <strong>it</strong> connects to.</li>
+<li>Remote code inclusions isn’t an easy risk to mitigate, when it’s being leveraged as a feature.</li>
+</ul>
+<section id="rci-mitigation" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="rci-mitigation">RCI Mitigation</h4>
+<blockquote class="blockquote">
+<p>If Google Analytics gets compromised then 99% of the Internet is screwed.</p>
+<p>— Dr.&nbsp;Philippe De Ryck, Security model of the web / XSS in React</p>
+</blockquote>
+<ul>
+<li>Self-hosting the remote code being included.</li>
+<li>Using sub-resource integrity or code isolation techniques<sup>1</sup></li>
+<li>Using a Content Security Policy can provide more control over what code can be loaded<sup>2</sup></li>
+</ul>
+<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;What are these?</p></li><li id="fn2"><p><sup>2</sup>&nbsp;<a href="https://research.google/pubs/pub45542/">CSP Is Dead, Long Live CSP! On the Insecurity of Whitelists and the Future of Content Security Policy</a></p></li></div></section>
+</section>
+<section id="web-app-compartmentalization" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="web-app-compartmentalization">Web App Compartmentalization</h3>
+<p>Further Reading:</p>
+<blockquote class="blockquote page-columns page-full">
+<div class="page-columns page-full"><p>40% of packages rely on known vulnerable code<sup>3</sup></p><div class="no-row-height column-margin column-container"><li id="fn3"><p><sup>3</sup>&nbsp;<a href="https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman">Small World with High Risks: A Study of Security Threats in the npm Ecosystem</a></p></li></div></div>
+<p>— Dr.&nbsp;Philippe De Ryck, Security model of the web / XSS in React</p>
+</blockquote>
+<ul>
+<li><a href="https://link.springer.com/chapter/10.1007/978-3-642-41717-7_4">Towards a Theory of Application Compartmentalisation</a></li>
+<li><a href="https://www.researchgate.net/publication/260346153_Exploring_Compartmentalisation_Hypotheses_with_SOAAP">Exploring Compartmentalisation Hypotheses with SOAAP</a></li>
+<li><a href="https://kclpure.kcl.ac.uk/portal/en/projects/chrompartments-hybrid-compartmentalisation-for-web-browsers">Chrompartments: Hybrid Compartmentalisation for Web Browsers</a></li>
+</ul>
+</section>
+</section>
+<section id="cross-site-scripting-in-react" class="level2">
+<h2 class="anchored" data-anchor-id="cross-site-scripting-in-react">Cross-Site Scripting in React</h2>
+</section>
+<section id="introduction-to-cross-site-scripting" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-to-cross-site-scripting">Introduction to Cross-Site Scripting</h2>
+<section id="xss-mitigation" class="level3">
+<h3 class="anchored" data-anchor-id="xss-mitigation">XSS Mitigation</h3>
+<ul>
+<li>Encoding dangerous characters prevents XSS, important to note is that encoding can avoid browser confusion, but doesn’t provide context information.</li>
+<li>Sinks aren’t always obvious and depending on the context in which you’re operating, data can end up in HTML attributes, populating URLs, in CSS or in JavaScript.
+<ul>
+<li>All of these contexts can change the security requirements and how data should be encoded.</li>
+</ul></li>
+<li>The only way to achieve this, is to ensure you use context-sensitive output encoding which ensures that given an operating-context the data encoded is exist in that context.
+<ul>
+<li>Even then there is the risk that data is being passed through different contexts within the same operation?</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="advanced-cross-site-scripting" class="level2">
+<h2 class="anchored" data-anchor-id="advanced-cross-site-scripting">Advanced Cross-Site Scripting</h2>
+</section>
+<section id="content-security-policy" class="level2">
+<h2 class="anchored" data-anchor-id="content-security-policy">Content Security Policy</h2>
+</section>
+<section id="trusted-types" class="level2">
+<h2 class="anchored" data-anchor-id="trusted-types">Trusted Types</h2>
+</section>
+<section id="server-side-rendering" class="level2">
+<h2 class="anchored" data-anchor-id="server-side-rendering">Server-Side Rendering</h2>
+
+
+</section>
+
+
+ ]]></description>
+  <category>Seed</category>
+  <category>Pragmatic Web Security</category>
+  <category>React Security</category>
+  <category>JavaScript</category>
+  <category>Web Security</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/cutting-edge-react-security.html</guid>
+  <pubDate>Wed, 18 Oct 2023 02:28:20 GMT</pubDate>
+</item>
+<item>
+  <title>Setting Up Distributed Press on Digital Ocean</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/setting-up-distributed-press-on-digital-ocean.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Environment Metadata</strong></p>
+<p>Ubuntu 22.10 x64 <a href="https://github.com/hyphacoop/api.distributed.press/releases/tag/v1.2.1">Distributed Press v1.2.1</a></p>
+</div>
+</div>
+</div>
+<section id="about-distributed-press" class="level2">
+<h2 class="anchored" data-anchor-id="about-distributed-press">About Distributed Press</h2>
+<p><a href="https://docs.distributed.press/">Distributed Press</a> is an open source publishing tool for the World Wide Web and Distributed Web. It automates publishing and hosting content to the web that it seeds to decentralised protocols like <a href="../engineering/hypercore.html">Hypercore</a> and <a href="../engineering/ipfs.html">IPFS</a>.</p>
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Prerequisite Knowledge</strong></p>
+<p>This doc assumes you’re familiar with apt-based Linux, the basics of Linux system administration and how to configure DNS.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="method" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="method">Method</h2>
+<p>Create a new virtual private server (VPS) with your provider of choice, when using Digital Ocean I used a droplet with the following specifications:</p>
+<ul>
+<li><strong>Image:</strong> Ubuntu 22.10 x64</li>
+<li><strong>CPU:</strong> 4 vCPUs</li>
+<li><strong>Memory:</strong> 8GB<sup>1</sup></li>
+<li><strong>Disk:</strong> 10GB Disk</li>
+<li><strong>Droplet Cost:</strong> $AUD 48/mo</li>
+</ul>
+<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;<a href="https://github.com/hyphacoop/actions-distributed-press/issues/2#issue-1751678540">[Question] Adding actions-distributed-press to Quartz Github Action</a></p></li></div><p>If you’re using Digital Ocean and unfamiliar with configuring your own logging and monitoring I’d advise against enabling the improved metrics monitoring because it will consume <code>journalctl</code> making it harder to debug.</p>
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>System Specifications</strong></p>
+<p>The most important part of the system specifications is the memory, you want at a minimum 8GB to ensure that service works as expected.<sup>2</sup></p>
+</div>
+</div>
+</div>
+<div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;<a href="https://github.com/hyphacoop/actions-distributed-press/issues/2#issue-1751678540">Distributed Press Minimum Requirements</a></p></li></div><p>Install <code>ansible</code> on your desktop, cry a little because this is the only thing that needs it.</p>
+<pre class="shell" title="terminal"><code>brew install ansible</code></pre>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Make sure you install <code>ansible</code> and not <code>ansible-core</code> which doesn’t ship with <code>ansible-galaxy</code>.</p>
+</div>
+</div>
+</div>
+<p><img src="https://garden.errbufferoverfl.me/imgs/setting-up-distributed-press-on-digital-ocean.png" class="img-fluid" alt="2000 Years Later"></p>
+<p>Git clone the <code>api.distributed.press</code> repository onto your computer:</p>
+<pre class="shell" title="terminal"><code>git clone https://github.com/hyphacoop/api.distributed.press.git</code></pre>
+<p>Using the terminal, navigate to the <code>ansible</code> directory:</p>
+<pre class="shell" title="terminal"><code>cd api.distributed.press/ansible</code></pre>
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Check the pinned version of Distribution Press</strong></p>
+<p>Before starting I recommend doing a quick sense check that the <code>distributed_press_git_branch</code> located in <code>api.distributed.press/ansible/roles/distributed_press/defaults/main.yml</code> matches the <a href="https://github.com/hyphacoop/api.distributed.press/tags">latest tagged version</a>, otherwise you can run into esoteric issues that are difficult to debug.</p>
+</div>
+</div>
+</div>
+<p>Edit the <code>inventory.yml</code> file to specify your own domain to run the scripts on as well as any variables you want to set.</p>
+<p>You <strong>must</strong> specify the <code>distributed_press_domain</code> to be your server, and your <code>distributed_press_letsencrypt_email</code> for registering the HTTPS certificate:</p>
+<div class="sourceCode" id="cb4" title="inventory.yml" style="background: #f1f3f5;"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">all</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb4-2"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">vars</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb4-3"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">distributed_press_domain</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"distributed.errbufferoverfl.me"</span></span>
+<span id="cb4-4"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">distributed_press_letsencrypt_email</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"rebecca@example.com"</span></span>
+<span id="cb4-5"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">distributed_press_served_sites</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">[]</span></span>
+<span id="cb4-6"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">children</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb4-7"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">distributed_press</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb4-8"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">      </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">hosts</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb4-9"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">        </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">distributed.errbufferoverfl.me</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb4-10"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">          </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ansible_user</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> root</span></span></code></pre></div>
+<p>Install the dependencies on your local machine:</p>
+<pre class="shell"><code>ansible-galaxy install -r ./requirements.yml</code></pre>
+<p>Add the VPS’s IP address and the <code>distributed_press_domain</code> to your <code>/etc/hosts</code> file so you don’t experience an <code>UNREACHABLE</code> error when you run the playbook. e.g.,</p>
+<pre class="text" title="/etc/hosts"><code>127.0.0.1   localhost
+255.255.255.255 broadcasthost
+::1             localhost%
+
+{{VPS IP ADDRESS}} example.com</code></pre>
+<p>Execute the playbook:</p>
+<pre class="shell" title="terminal"><code>ansible-playbook distributed_press.yml -i inventory.yml</code></pre>
+<p>Once the playbook has finished, login to your DNS provider and add in an new A record pointing your VPS to the new domain:</p>
+<ul>
+<li><strong>Type:</strong> A</li>
+<li><strong>Name:</strong> <code>subdomain</code></li>
+<li><strong>Content:</strong> VPS static IP address</li>
+<li><strong>TTL:</strong> Auto</li>
+</ul>
+<p>Add an <code>NS</code> record linking <code>_dnslink</code> to your site:</p>
+<ul>
+<li><strong>Type:</strong> NS</li>
+<li><strong>Name:</strong> <code>_dnslink</code></li>
+<li><strong>Content:</strong> the <code>distributed_press_domain</code></li>
+<li><strong>TTL:</strong> Auto</li>
+</ul>
+<p>Login to the VPS and check the status of the service.</p>
+<pre class="shell" title="terminal"><code>systemctl status distributed.press</code></pre>
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Ubuntu default DNS server</strong></p>
+<p>Also double check the logs using <code>journalctl -fu distributed.press</code>, if you see a <code>bind EADDRINUSE 0.0.0.0:53</code> error you will need to disable an installed utility called <code>dnsmasq</code>.<sup>3</sup></p>
+</div>
+</div>
+</div>
+<div class="no-row-height column-margin column-container"><li id="fn3"><p><sup>3</sup>&nbsp;<a href="https://github.com/MASQ-Project/Node/blob/master/node/docs/PORT_53.md#linux">Port 53 Problems?</a></p></li></div></section>
+<section id="running-a-sense-check" class="level2">
+<h2 class="anchored" data-anchor-id="running-a-sense-check">Running a Sense Check</h2>
+<p>When I installed my <code>distributed.press</code> instance a few things failed to initialize as expected so it’s worth manually checking these.</p>
+<section id="ensure-ufw-is-active" class="level3">
+<h3 class="anchored" data-anchor-id="ensure-ufw-is-active">Ensure <code>ufw</code> is Active</h3>
+<p>To make sure the firewall is up, you can run:</p>
+<pre class="shell" title="terminal"><code>ufw status</code></pre>
+<p>Which, if enabled should return something like this:</p>
+<pre class="shell" title="terminal"><code>Status: active
+
+To                         Action      From
+--                         ------      ----
+53/udp                     ALLOW       Anywhere
+7976/udp                   ALLOW       Anywhere
+7976/tcp                   ALLOW       Anywhere
+Nginx Full                 ALLOW       Anywhere
+22/tcp                     ALLOW       Anywhere
+53/udp (v6)                ALLOW       Anywhere (v6)
+7976/udp (v6)              ALLOW       Anywhere (v6)
+7976/tcp (v6)              ALLOW       Anywhere (v6)
+Nginx Full (v6)            ALLOW       Anywhere (v6)
+22/tcp (v6)                ALLOW       Anywhere (v6)</code></pre>
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Before enabling <code>ufw</code></strong></p>
+<p>Ensure you have added in a firewall rule for which ever management protocol you’re using (e.g.&nbsp;ssh). To do this run:</p>
+<pre class="shell"><code>ufw allow 22</code></pre>
+</div>
+</div>
+</div>
+<p>If you find that <code>ufw</code> is not enabled, you’ll want to enable it.</p>
+<pre class="shell" title="terminal"><code>ufw enable</code></pre>
+</section>
+<section id="ensure-the-private-keys-are-generated" class="level3">
+<h3 class="anchored" data-anchor-id="ensure-the-private-keys-are-generated">Ensure the Private Keys Are Generated</h3>
+<p>Normally <code>ansible</code> will <a href="https://github.com/hyphacoop/api.distributed.press/blob/b23534e6652cab20c2b10a3dcd85529344139462/ansible/roles/distributed_press/tasks/main.yml#L76-L82">handle generating a key for the JWT</a> however, in my case this didn’t work and I had to manually generate a key.</p>
+<p>I was able to identify this problem because I recieved the following error when trying to Get a <code>root</code> admin token:</p>
+<pre title="terminal"><code>Error: ENOENT: no such file or directory, open '/root/.local/share/distributed-press-nodejs/keys/private.key'</code></pre>
+<p>To resolve this issue I replicated what <code>ansible</code> would do, and ran <code>keygen</code> again:</p>
+<pre class="shell" title="terminal"><code>sudo su press
+cd
+cd api.distributed.press
+npm run keygen</code></pre>
+</section>
+</section>
+<section id="get-a-root-admin-token" class="level2">
+<h2 class="anchored" data-anchor-id="get-a-root-admin-token">Get a <code>root</code> Admin Token</h2>
+<p>Authorisation on the service is handled using JSON Web Tokens (JWTs) that are issued to specific users.</p>
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>By default, tokens expire after a week.</p>
+</div>
+</div>
+</div>
+<p>To generate the auth token necessary to make the very first admin user, you must use the ‘root’ admin token.</p>
+<p><code>ssh</code> into the VPS that is hosting your <code>distributed.press</code> instance and navigate to the the root directory of <code>api.distributed.press</code></p>
+<pre class="shell" title="terminal"><code>sudo su press
+cd
+cd api.distributed.press</code></pre>
+<p>Run <code>npm run make-admin</code> which will print out the token to stdout.</p>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Save the Token</strong></p>
+<p>Be sure to save the token somewhere secure as it will be important for making any administrative calls to the API.</p>
+</div>
+</div>
+</div>
+<p>Now that you have the root admin token, and the firewall is enabled, you can go ahead and start tinkering with your new <code>distributed.press</code> service.</p>
+<p>For more information on how to you the API you can find the Swagger docs hosted on your instance at <code>/v1/docs</code>.</p>
+</section>
+<section id="additional-notes" class="level2">
+<h2 class="anchored" data-anchor-id="additional-notes">Additional Notes</h2>
+<section id="creating-a-new-publisher" class="level3">
+<h3 class="anchored" data-anchor-id="creating-a-new-publisher">Creating a New Publisher</h3>
+<p>To make sure we’re always operating in line with the principal of least privilege exchange the root token for a new one with the publisher subset of capabilities:</p>
+<pre class="shell" title="terminal"><code>curl -X POST https://distributed.errbufferoverfl.me/v1/publisher \
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer JWT" \
+-d '{"name":"garden.errbufferoverfl.me"}'</code></pre>
+</section>
+<section id="add-a-site-to-a-publisher" class="level3">
+<h3 class="anchored" data-anchor-id="add-a-site-to-a-publisher">Add a Site to a Publisher</h3>
+<pre class="shell" title="terminal"><code>curl -X POST https://distributed.errbufferoverfl.me/v1/sites \
+-H "Content-Type: application/json" \
+-H "Authorization: Bearer JWT" \
+-d '{"domain":"garden.errbufferoverfl.me", "public": true, "protocols":{"http": false, "hyper": true, "ipfs": true} }'</code></pre>
+</section>
+</section>
+<section id="errors" class="level2">
+<h2 class="anchored" data-anchor-id="errors">Errors</h2>
+<section id="distributed-press-host-unreachable" class="level3">
+<h3 class="anchored" data-anchor-id="distributed-press-host-unreachable">Distributed Press Host Unreachable</h3>
+<p>Experience the following error because you didn’t add the remote host to your <code>/etc/host</code>.</p>
+<p><em>Scream into the void.</em></p>
+<pre class="shell"><code>fatal: [distributed.errbufferoverfl.me]: UNREACHABLE! =&gt; {
+    "changed": false, 
+    "msg": "Failed to connect to the host via ssh: ssh: Could not resolve
+     hostname distributed.errbufferoverfl.me: Name or service not known", 
+    "unreachable": true
+}</code></pre>
+</section>
+<section id="unable-to-resolve-remote-host-after-installation" class="level3">
+<h3 class="anchored" data-anchor-id="unable-to-resolve-remote-host-after-installation">Unable to Resolve Remote Host <strong>after</strong> Installation</h3>
+<p>If you were running on a version of apt-based Linux and had to disable the default DNS server to get node working, when you attempt to run <code>apt-update</code> or try to run the Ansible script again it <strong>will</strong> fail.</p>
+<p><img src="https://garden.errbufferoverfl.me/imgs/setting-up-distributed-press-on-digital-ocean-1.png" class="img-fluid" alt="A Mastodon post written by me that says &quot;Why won't apt repositories resolve! WHAT IS GOING ON?! Me two hours earlier: 'systemctl disable systemd-resolved'"></p>
+<p>To fix this, you’ll want to <code>ssh</code> onto the remote host, stop the <code>distributed.press</code> service and restart <code>systemd-resolved</code>.</p>
+</section>
+</section>
+<section id="additional-resources" class="level2">
+<h2 class="anchored" data-anchor-id="additional-resources">Additional Resources</h2>
+<ul>
+<li><a href="https://github.com/hyphacoop/actions-distributed-press"><strong>hyphacoop/actions-distributed-press</strong></a> - Easily deploy a site to Distributed Press using GitHub Actions</li>
+</ul>
+
+
+</section>
+
+
+ ]]></description>
+  <category>Tree</category>
+  <category>Distributed Web</category>
+  <category>Digital Ocean</category>
+  <category>Project</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/setting-up-distributed-press-on-digital-ocean.html</guid>
+  <pubDate>Sun, 15 Oct 2023 06:02:39 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/ian-schneider-WymR2nYtj5M-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>OWASP CLASP</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/owasp-clasp.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>OWASP (Comprehensive, Lightweight Application Security Process) CLASP is an activity-driven, role-based set of processes which look to build security into an existing or new software development program in a structured, repeatable and, measurable way.</p>
+<p><img src="https://garden.errbufferoverfl.me/imgs/owasp-clasp.png" class="img-fluid"></p>
+<p>There are 5 CLASP views:</p>
+<ul>
+<li>Concepts View</li>
+<li>Role-Based View</li>
+<li>Activity-Assessment View</li>
+<li>Activity-Implementation View</li>
+<li>Vulnerability View</li>
+</ul>
+<p>The CLASP Vulnerability use cases show conditions where security services can become vulnerable in software.</p>
+<div class="{callout-warning}">
+<p>The vulnerability use cases are based on common component architectures such as: monolithic UNIX, monolithic mainframe and distributed (HTTPS &amp; TCP/IP) architectures so there <em>might</em> be gaps when used with modern software architecture.</p>
+</div>
+<section id="the-clasp-taxonomy" class="level2">
+<h2 class="anchored" data-anchor-id="the-clasp-taxonomy">The CLASP Taxonomy</h2>
+<ul>
+<li><strong>Problem types</strong> underlying security-related vulnerabilities.</li>
+<li><strong>Categories</strong> into which the problem types are divided for diagnostic and resolution purposes.</li>
+<li><strong>Exposure periods</strong> (i.e., SDLC phases) in which vulnerabilities can be inadvertently introduced into application source code.</li>
+<li><strong>Consequences</strong> of exploited vulnerabilities for basic security services.</li>
+<li><strong>Platforms</strong> and programming languages which may be affected by a vulnerability.</li>
+<li><strong>Resources</strong> required for attack against vulnerabilities.</li>
+<li><strong>Risk assessment</strong> of exploitable/exploited vulnerabilities.</li>
+<li><strong>Avoidance and mitigation periods</strong> (i.e., SDLC phases) in which preventative measures and countermeasures can be applied.</li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Seed</category>
+  <category>Definition</category>
+  <category>Security</category>
+  <category>OWASP</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/owasp-clasp.html</guid>
+  <pubDate>Tue, 10 Oct 2023 22:06:28 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/owasp-clasp.png" medium="image" type="image/png" height="149" width="144"/>
+</item>
+<item>
+  <title>Languages that implement object capabilities</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/languages-that-implement-object-capabilities.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The following programming languages implement an <a href="../engineering/object-capability-model.html">Object Capability Model</a>:</p>
+<ul>
+<li>Act 1 (1981)</li>
+<li>Eden (1985)</li>
+<li>Emerald (1987)</li>
+<li>Trusty Scheme (1992)</li>
+<li>W7 (1995)</li>
+<li>Joule (1996)</li>
+<li>Original-E (1997)</li>
+<li>Oz-E (2005)</li>
+<li>Joe-E (2005)</li>
+<li>CaPerl (2006)</li>
+<li>Emily (2006)</li>
+<li>Caja (2007–2021)</li>
+<li>Monte (2008–present)</li>
+<li>Pony (2014–present)</li>
+<li>Wyvern (2012–present)</li>
+<li>Newspeak (2007–present)</li>
+<li>Hacklang (2021-present)</li>
+<li>Rholang (2018-present)</li>
+</ul>
+
+
+
+ ]]></description>
+  <category>Seed</category>
+  <category>Security</category>
+  <category>Security Model</category>
+  <category>Programming Languages</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/languages-that-implement-object-capabilities.html</guid>
+  <pubDate>Wed, 09 Aug 2023 02:22:00 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/jonny-gios-Vc-QDuMIzlQ-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Object-capability model</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/object-capability-model.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>The object-capability model (also seen written as “ocap”) is a <a href="object-capability security">object-capability security</a> concept that describes a computer security model. In ocap a capability describes a transferable right to perform one or more operations on a given object.</p>
+<p>To implement a object-capability model you need:</p>
+<ul>
+<li><p>An unforgeable reference that can be sent in messages;</p></li>
+<li><p>A message that specifies the operation to be performed.</p></li>
+</ul>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>This security model relies on not being able to forge references.</p>
+</div>
+</div>
+</div>
+<p>Many of the benefits of object-oriented programming (OOP), like encapsulation, modularity and separation of concerns correspond to a security goal in capability-based programming.</p>
+<p>Because ocap seems to use OOP as an underlying programming paradigm it favours modularity in code design and reliable encapsulation. As a consequence it can be easier to analyse security properties, for example: information flow properties.</p>
+<p>This means that its easier to establish and maintain the security properties when adding new objects that contain unknown and possibly malicious code.</p>
+<p>These assertions are enforceable because of two structural properties enforced when using ocap:</p>
+<ol type="1">
+<li>An object <em>A</em> can send a message to <em>B</em> only if object <em>A</em> holds a reference to <em>B</em>.</li>
+<li>An object <em>A</em> can obtain a reference to <em>C</em> only if object <em>A</em> receives a message containing a reference to <em>C</em>.</li>
+</ol>
+<p>An analogy used by E. Dean Tribble to describe the ocap model was it’s like giving a valet the key to your car, without handing over the right to car ownership.</p>
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>I don’t know how much I like that analogy (and perhaps some contextual resolution has been lost over time) because in the real world “only connectivity begets connectivity” doesn’t hold up outside of pre-established social contracts?</p>
+</div>
+</div>
+</div>
+<section id="open-questions" class="level2">
+<h2 class="anchored" data-anchor-id="open-questions">❓Open Questions</h2>
+<p><strong>How does a system provide an unforgeable reference to an object?</strong></p>
+<p>There is part of me that gets the sense that the whole system needs to be built with object-capability security in mind, from the hardware, to the kernel and operating system, etc.</p>
+
+
+</section>
+
+ ]]></description>
+  <category>Seed</category>
+  <category>Security</category>
+  <category>Security Model</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/object-capability-model.html</guid>
+  <pubDate>Wed, 09 Aug 2023 02:14:29 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/ashkan-forouzani-v31lgBn5114-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Using Pytest with Flask</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/using-pytest-with-flask.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="what-to-test" class="level2">
+<h2 class="anchored" data-anchor-id="what-to-test">What to Test?</h2>
+<p>Unit tests should focus on testing a small unit of code in isolation:</p>
+<ul>
+<li>Database models</li>
+<li>Utility functions</li>
+</ul>
+<p>Functional tests should focus on how the view functions operate:</p>
+<ul>
+<li>Nominal conditions (GET, POST, etc.) for a view function</li>
+<li>Invalid HTTP methods are handled properly for a view function</li>
+<li>Invalid data is passed to a view function</li>
+</ul>
+</section>
+<section id="documenting-tests" class="level2">
+<h2 class="anchored" data-anchor-id="documenting-tests">Documenting Tests</h2>
+<p>Martin Fowler provides a really idiomatic way of describing tests in his blog post on <a href="https://martinfowler.com/bliki/GivenWhenThen.html">GivenWhenThen</a>:</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">"""</span></span>
+<span id="cb1-2"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">GIVEN a User model</span></span>
+<span id="cb1-3"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">WHEN a new User is created</span></span>
+<span id="cb1-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">THEN check the email, hashed_password, and role fields are defined correctly</span></span>
+<span id="cb1-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">"""</span></span></code></pre></div>
+<ul>
+<li>GIVEN - what are the initial conditions for the test?</li>
+<li>WHEN - what is occurring that needs to be tested?</li>
+<li>THEN - what is the expected response?</li>
+</ul>
+</section>
+<section id="testing-for-exceptions" class="level2">
+<h2 class="anchored" data-anchor-id="testing-for-exceptions">Testing for Exceptions</h2>
+<p>Asserting an exception <strong>is</strong> raised:</p>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> pytest</span>
+<span id="cb2-2"></span>
+<span id="cb2-3"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">def</span> test_raises_exception():</span>
+<span id="cb2-4">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">with</span> pytest.raises(<span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">ZeroDivisionError</span>):</span>
+<span id="cb2-5">        <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">1</span> <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">0</span></span></code></pre></div>
+<p>Asserting an exception <strong>is not</strong> raised:</p>
+<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">def</span> my_division_function(a, b):</span>
+<span id="cb3-2">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">return</span> a <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">/</span> b</span>
+<span id="cb3-3"></span>
+<span id="cb3-4"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">def</span> test_code_raises_no_exception():</span>
+<span id="cb3-5">    <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">"""</span></span>
+<span id="cb3-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    Assert your python code raises no exception.    </span></span>
+<span id="cb3-7"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    """</span></span>
+<span id="cb3-8">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">try</span>:</span>
+<span id="cb3-9">        my_division_function(<span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">10</span>, <span class="dv" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">5</span>)</span>
+<span id="cb3-10">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">except</span> <span class="pp" style="color: #AD0000;
+background-color: null;
+font-style: inherit;">ZeroDivisionError</span> <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">as</span> exc:</span>
+<span id="cb3-11">        <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">assert</span> <span class="va" style="color: #111111;
+background-color: null;
+font-style: inherit;">False</span>, <span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">f"'10 / 5' raised an exception </span><span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">{</span>exc<span class="sc" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">}</span><span class="ss" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"</span></span></code></pre></div>
+</section>
+<section id="pytest-fixtures" class="level2">
+<h2 class="anchored" data-anchor-id="pytest-fixtures">Pytest Fixtures</h2>
+<p>Fixtures initialise tests to a known state to run tests in a predictable and repeatable manner, these should be created in your <code>conftest.py</code> file.</p>
+<p>In Pytest, fixtures can be run with different scopes:</p>
+<ul>
+<li><code>function</code> - run once per test function (default scope)</li>
+<li><code>class</code> - run once per test class</li>
+<li><code>module</code> - run once per module (e.g., a test file)</li>
+<li><code>session</code> - run once per session</li>
+</ul>
+<p>For example, to create a User as a fixture:</p>
+<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">from</span> project.models <span class="im" style="color: #00769E;
+background-color: null;
+font-style: inherit;">import</span> User</span>
+<span id="cb4-2"></span>
+<span id="cb4-3"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">@pytest.fixture</span>(scope<span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'module'</span>)</span>
+<span id="cb4-4"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">def</span> new_user():</span>
+<span id="cb4-5">    user <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">=</span> User(<span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'username@example.com'</span>, <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Password1!'</span>)</span>
+<span id="cb4-6">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">return</span> user</span></code></pre></div>
+<p><code>@pytest.fixture(scope='module')</code></p>
+<p>This decorator specifies that a function is a fixture with a module-level scope. So this fixture will be called once per test module.</p>
+<p><code>def new_user()</code></p>
+<p>Is the function that creates an instance of a User using valid arguments.</p>
+<p>To use this fixture, in other tests you pass it in as the first argument to a subsequent test, e.g.,</p>
+<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">def</span> test_new_user_with_fixture(new_user):</span>
+<span id="cb5-2">    <span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">"""</span></span>
+<span id="cb5-3"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    GIVEN a User model</span></span>
+<span id="cb5-4"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    WHEN a new User is created</span></span>
+<span id="cb5-5"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    THEN check the email, hashed_password, and role fields are defined correctly</span></span>
+<span id="cb5-6"><span class="co" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">    """</span></span>
+<span id="cb5-7">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">assert</span> new_user.email <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'username@example.com'</span></span>
+<span id="cb5-8">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">assert</span> new_user.hashed_password <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">!=</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'Password1!'</span></span>
+<span id="cb5-9">    <span class="cf" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">assert</span> new_user.role <span class="op" style="color: #5E5E5E;
+background-color: null;
+font-style: inherit;">==</span> <span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">'user'</span></span></code></pre></div>
+
+
+</section>
+
+ ]]></description>
+  <category>Seed</category>
+  <category>PyTest</category>
+  <category>Python</category>
+  <category>Flask</category>
+  <category>Unit Testing</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/using-pytest-with-flask.html</guid>
+  <pubDate>Fri, 14 Jul 2023 01:44:22 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/vincent-ghilione-MTPGo7m1PhI-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>NASA’s ADLR Framework for Lessons Learned</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/nasas-adlr-framework-for-lessons-learned.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Example: <a href="https://llis.nasa.gov/lesson/5756">NASA Lesson Number 5756</a></p>
+<p>The ADLR framework is broken up into four parts:</p>
+<ul>
+<li><p><strong>Abstract:</strong> a two or three sentence summary of what happened.</p></li>
+<li><p><strong>Driving Event:</strong> a more detailed breakdown providing context on the events or circumstances surrounding the driving event occurred. Can include references, evidence, etc. but should remain blameless, stating objectively what happened.</p></li>
+<li><p><strong>Lesson(s) Learned:</strong> focuses on what was learned as a consequence of the driving event.</p></li>
+<li><p><strong>Recommendation(s):</strong> what changes can and should be made going forward to prevent the same event from occurring.</p></li>
+</ul>
+<p>NASA also include a section on <strong>evidence of recurrence control effectiveness</strong>, which shows where the lesson has been referenced as part of other decisions or in the development of other practices.</p>
+<p>While most people in an every day context won’t be regularly writing up decisions or practices, including this section as a point of reflection is important.</p>
+<p>Very often we make decisions about how to move forward after learning a lesson and forget to reflect on wether the recommendations actually serve us, or if they just made us feel like we improved something.</p>
+
+
+
+ ]]></description>
+  <category>Seed</category>
+  <category>NASA</category>
+  <category>Retrospective</category>
+  <category>Lessons Learned</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/nasas-adlr-framework-for-lessons-learned.html</guid>
+  <pubDate>Fri, 14 Jul 2023 01:28:12 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/nasa-dCgbRAQmTQA-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Erlaubnis Project Diagrams</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/erlaubnis-project-diagrams.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><em>These diagrams can also be found on <a href="https://github.com/errbufferoverfl/erlaubnis">Github</a>.</em></p>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">stateDiagram-v2
+    [*] --&gt; Request
+    Request --&gt; Verifing: Exchange Client Params
+    Verifing --&gt; Waiting_Approval: Grant Valid
+    Verifing --&gt; Unauthorised: Grant Invalid
+    Waiting_Approval --&gt; Authorised: Grant Approved
+    Waiting_Approval --&gt; Unauthorised: Grant Denied
+    Waiting_Approval --&gt; Timed_Out: Grant Unserviced
+    Authorised --&gt; Revoked: Grant Revoked
+    Revoked --&gt; [*]
+    Timed_Out --&gt; [*]
+    Unauthorised --&gt; [*]
+    Authorised --&gt; [*]
+</pre>
+</div>
+</div>
+</div>
+</div>
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<div>
+<pre class="mermaid mermaid-js">erDiagram
+    USER {
+        string id
+        string username
+        string password
+        datetime created_at 
+        datetime updated_at
+    }
+    
+    ROLE {
+        integer id
+        string name
+        string description
+    }
+    
+    CLIENT {
+        string id
+        string client_name
+        string token_endpoint_auth_method
+        array grant_types
+    }
+    
+    METADATA {
+        string logo_uri
+        array contacts
+        string policy_uri
+        string tos_uri
+        string client_uri
+    }
+    
+    CONFIGURATION {
+        integer version
+        string jwks
+        string jwks_uri
+        string scope
+    }
+    
+    REGISTRATION_RECORD {
+        int id
+        foreign_key user_id
+        foreign_key client_id
+        datetime installation_time
+    }
+    
+    INSTALLATION_RECORD {
+        int id
+        foreign_key user_id
+        foreign_key client_id
+        foreign_key configuration
+        datetime installation_time
+    }
+    
+    STATE_RECORD {
+        foreign_key user_id
+        foreign_key client
+        string state
+    }
+    
+    USER ||--o{ ROLE : has
+    USER ||--o{ CLIENT : registers
+    REGISTRATION_RECORD ||--o{ CLIENT : generates
+    INSTALLATION_RECORD ||--o{ CLIENT : generates
+    STATE_RECORD ||--o{ CLIENT : generates
+    USER ||--o{ CLIENT : installs
+    CLIENT ||--o{ CONFIGURATION : contains
+    CLIENT ||--||METADATA : contains
+</pre>
+</div>
+</div>
+</div>
+</div>
+
+
+
+ ]]></description>
+  <category>Erlaubnis</category>
+  <category>Project</category>
+  <category>Diagram</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/erlaubnis-project-diagrams.html</guid>
+  <pubDate>Wed, 28 Jun 2023 11:36:45 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/brandi-redd-aJTiW00qqtI-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Consensus and Humming in the IETF</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/consensus-and-humming-in-the-ietf.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>This post summarises the key points of <a href="https://datatracker.ietf.org/doc/html/rfc7282">RFC 7282</a> an informational RFC (Request for Comment) published in 2014. This post is? will be? part of an ongoing collection on decision making and consensus building that looks to explore how groups make decisions and why.</p>
+<blockquote class="blockquote">
+<p>We reject: kinds, presidents and voting. We believe in: rough consensus and running code.</p>
+<p>– Dave Clark, 1992 plenary presentation on decision making in the IETF.</p>
+</blockquote>
+<p>The IETF (Internet Engineering Task Force) does a lot of their technical work through a consensus process, taking into account different views amongst participants and aims to come to a rough consensus using a majority rule philosophy.</p>
+<p>But this is often mistaken as voting which it isn’t. Requiring full consensus, while nice, allows a single inflexible person who keeps saying no to stop the process cold.</p>
+<p>Instead the IETF have a tradition of humming – for example, when there is a face to face meeting and the chair wants to get a sense of the room they will request people hum on a particular question either for or against.</p>
+<p><strong>But this doesn’t answer why humming and not voting.</strong></p>
+<section id="lack-of-disagreement-is-more-important-than-agreement" class="level2">
+<h2 class="anchored" data-anchor-id="lack-of-disagreement-is-more-important-than-agreement">1. Lack of Disagreement is More Important than Agreement</h2>
+<p>Consider the following: &gt; The chair asks on the mailing list, “Is everyone OK with format A?” Inevitably, a number of people object to format A for one or another technical reason. The chair then says, “It sounds like we don’t have consensus to use format A. Is everyone OK with format B?” This time even more people object to format B, on different technical grounds. The chair, not having agreement on either format A or format B, is left perplexed, thinking the working group has deadlocked.</p>
+<p>The problem experienced is the chair conflated <strong>determining</strong> consensus, with <strong>coming to</strong> a consensus, with <strong>having</strong> consensus.</p>
+<p>While it might be subtle, it comes down to understanding tradeoffs, which engineering in all forms is about. There will always be appealing and unappealing options. So what’s the difference?</p>
+<ul>
+<li><strong>Determining consensus:</strong> is about separating the choices that are unappealing from those that are problematic. Acceptable vs.&nbsp;complete.</li>
+<li><strong>Coming to consensus:</strong> is when everyone comes to the conclusion that either the objections are valid, and therefore make a change to address the objection, or that the objection was not really a matter of importance, but merely a matter of taste.</li>
+</ul>
+<p>So really:</p>
+<blockquote class="blockquote">
+<p>Consensus is when everyone is sufficiently satisfied with the chosen solution.</p>
+</blockquote>
+</section>
+<section id="rough-consensus-is-achieved-when-all-issues-are-addressed-but-not-necessarily-accommodated" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="rough-consensus-is-achieved-when-all-issues-are-addressed-but-not-necessarily-accommodated">2. Rough Consensus is Achieved when All Issues Are Addressed, but not Necessarily Accommodated</h2>
+<p>In the IETF, a working group will likely encounter an objection where:</p>
+<ul>
+<li>Everyone understands the issue.</li>
+<li>Acknowledges that it’s a real shortcoming in the proposal.</li>
+<li>Agree that accommodating the objection is not worth the tradeoff of fixing the problem.</li>
+</ul>
+<p>In some cases, the person(s) raising the objection may not agree with this.</p>
+<p>In these cases, if the chair finds that the issue has been well considered, and that the vast majority of the working group has come to the conclusion that a tradeoff is worth making, even in the face of continued objection, the chair can declare the group has come to a rough consensus.</p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>RFC 1603 vs RFC 7282</p>
+<p>This is a change from how rough consensus has been characterised in the IETF where is has been described as “the dominant view” of the group .<sup>1</sup></p>
+</div>
+</div>
+</div>
+<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;<a href="https://datatracker.ietf.org/doc/html/rfc1603" class="uri">https://datatracker.ietf.org/doc/html/rfc1603</a></p></li></div><p>And while <a href="https://www.rfc-editor.org/rfc/rfc2418.html">RFC 2418</a> puts some percentages on what “rough consensus” looks like, RFC 7282 warns that being able to count and quantify how many people agree or disagree risks overlooking important minority views.</p>
+<p>So it’s important that a <strong>rough consensus model</strong> addresses (not necessarily fixes) important minority views.</p>
+</section>
+<section id="humming-should-be-the-start-of-a-conversation" class="level2">
+<h2 class="anchored" data-anchor-id="humming-should-be-the-start-of-a-conversation">3. Humming Should Be the Start of a Conversation</h2>
+<p>Final decisions are supposed to be taken on the mailing list, but sometimes, the chair will want to determine they are coming to consensus.</p>
+<p>Introduce <em>humming</em>.</p>
+<p>While some will conflate this with an anonymous vote, hums are not votes. Sometimes the hum can tell a chair that the room isn’t all that contentious, it’s only a few being particularly vocal.</p>
+<p>Sometimes the hum will make it clear that one choice has more support than another and it’s a good place to start the discussion, for example:</p>
+<blockquote class="blockquote">
+<p>Let’s have the people that think ‘foo’ is a bad idea come up and tell us why it is problematic.</p>
+</blockquote>
+<p>So the hum is a starting point. It’s a temperature.</p>
+<p>A small but loud group of hums for option A and a larger, but more non-committal hum for option B might tell us that some people have some concerns with option B, but it’s overall more popular.</p>
+<p>You could also be surprised to find that the hums is unanimous and no further discussion is needed.</p>
+</section>
+<section id="consensus-is-the-path-not-the-destination" class="level2">
+<h2 class="anchored" data-anchor-id="consensus-is-the-path-not-the-destination">4. Consensus is the Path, not the Destination</h2>
+<p>The IETF doesn’t see consensus as the destination, rather consensus-building is a tool to get the best technical outcome. They found voting can result in important minority views being ignored, and, ultimately worse technical outcomes.</p>
+<hr>
+<p>The author <a href="https://www.episteme.net/Work/">Pete Resnick</a> goes into more detail and provides more examples in the RFC so I recommend reading it in full to learn more about it.</p>
+
+
+</section>
+
+
+ ]]></description>
+  <category>Sapling</category>
+  <category>RFC</category>
+  <category>RFC-7282</category>
+  <category>Concencus Building</category>
+  <category>Internet Governance</category>
+  <category>IETF</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/consensus-and-humming-in-the-ietf.html</guid>
+  <pubDate>Tue, 20 Jun 2023 08:37:06 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/shelby-cohron-UQwbKtu-2Ek-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>The ACCCE &amp; Police’s attack on End-to-End Encryption Tweet Storm</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/e2e-fear-campaign-accce-and-police.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p><a href="https://twitter.com/errbufferoverfl/status/1646427897727688704?s=20">Post on Twitter</a> <a href="https://mastodon.errbufferoverfl.me/@errbufferoverfl/110190569356553694">Post on Mastodon</a></p>
+<p>1/14 The ACCCE &amp; police are currently running a fear campaign about end to end encryption centring their arguments this time on concerns about sextortion of teenagers. 🗞️<a href="https://www.abc.net.au/news/2023-04-13/police-warn-of-sextortion-of-teens/102216558">https://www.abc.net.au/news/2023-04-13/police-warn-of-sextortion-of-teens/102216558</a></p>
+<p>2/14 But it’s clear this is the latest iteration of the crypto wars &amp; the real goal is to subversively push an EARN IT-style act in Australia. The EARN IT Act it’s a guide of “best practices” that providers need to implement in order to “earn” immunity for hosting CSAM.</p>
+<p>3/14 These “best practices” include refraining from using end-to-end encryption. The Internet Society &amp; a host of others continue to work spreading awareness about the harms perpetuated by laws like this ✉️ <a href="https://www.internetsociety.org/resources/2022/internet-impact-brief-how-the-us-earn-it-act-threatens-security-confidentiality-&amp;-safety-online/" class="uri">https://www.internetsociety.org/resources/2022/internet-impact-brief-how-the-us-earn-it-act-threatens-security-confidentiality-&amp;-safety-online/</a></p>
+<p>4/14 But back to the OP – the platform the ACCCE &amp; police are lobbying on looks to weaken end to end encryption “for the children” which is problematic for a few reason:</p>
+<p>5/14 1️⃣ It weakens controls used by other vulnerable groups, like DV survivors who use end to end encryption as a confidential lifeline to get themselves &amp; their families to safety.</p>
+<p>6/14 2️⃣ Journalists rely on encryption when working on sensitive stories, especially in authoritarian countries.</p>
+<p>7/14 3️⃣ Data confidentiality is crucial for businesses, &amp; by weakening end to end encryption we inherently make it easier for threat actors to get access to our personal information.</p>
+<p>8/14 In Australia the Telecommunications &amp; Other Legislation Amendment (Assistance &amp; Access) Act (TOLA), expanded the government’s powers to bypass digital data protections, which have been found to have negatively impact businesses &amp; the economy. 📎 <a href="https://www.internetsociety.org/blog/2021/06/how-do-surveillance-laws-impact-the-economy/" class="uri">https://www.internetsociety.org/blog/2021/06/how-do-surveillance-laws-impact-the-economy/</a></p>
+<p>9/14 The reality is keeping children safe online is more complicated than making the digital platforms they use responsible for the content they share, and we’re already seeing similar legislative changes happen overseas with harmful effects: 🐦<a href="https://twitter.com/gustavoturnerx/status/1646304338074308608">https://twitter.com/gustavoturnerx/status/1646304338074308608</a></p>
+<p>10/14 We know from research done in 2001, that most children targeted for sextortion are “at risk,” with prior maltreatment or emotional/social difficulties. Most of these “at risk” children are at risk because they have had their trust, privacy &amp; security abused by people in positions of authority. 📎 <a href="https://www.aic.gov.au/sites/default/files/2021-03/ti623_criminal_justice_responses_to_csam_offending.pdf" class="uri">https://www.aic.gov.au/sites/default/files/2021-03/ti623_criminal_justice_responses_to_csam_offending.pdf</a>](<a href="https://www.aic.gov.au/sites/default/files/2021-03/ti623_criminal_justice_responses_to_csam_offending.pdf" class="uri">https://www.aic.gov.au/sites/default/files/2021-03/ti623_criminal_justice_responses_to_csam_offending.pdf</a>)</p>
+<p>11/14 What ACCCE &amp; the Police are asking for is not the safety of children – they are looking for an increased ability to surveil the Australian public.</p>
+<p>12/14 Even the Australian Institute of Criminology found in their 2021 trends &amp; issues report that there wasn’t enough evidence for policymakers &amp; practitioners to make a reliable decision about criminal justice responses to CSAM offending</p>
+<p>13/14 &amp; without that, there is likely to be more harm done. 📎 <a href="https://www.aic.gov.au/sites/default/files/2021-03/ti623_criminal_justice_responses_to_csam_offending.pdf" class="uri">https://www.aic.gov.au/sites/default/files/2021-03/ti623_criminal_justice_responses_to_csam_offending.pdf</a></p>
+<p>14/14 Ultimately if this was actually a matter of children’s safety, we would be focusing our attention on children’s liberation &amp; giving them more self-determination, &amp; better avenues to protect themselves from family &amp; domestic violence.</p>
+
+
+
+ ]]></description>
+  <category>Seed</category>
+  <category>Policy</category>
+  <category>Government</category>
+  <category>Privacy</category>
+  <category>End to End Encryption</category>
+  <category>ACCCE</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/e2e-fear-campaign-accce-and-police.html</guid>
+  <pubDate>Sun, 11 Jun 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/markus-winkler-djDQKdjdYss-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Autobase</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/autobase.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>An experimental module that’s used to rebase (follow?) multiple casually linked <a href="../engineering/hypercore.html">Hypercore</a> into a single, linearized Hypercore for multi-user collaboration.</p>
+
+
+
+ ]]></description>
+  <category>Seed</category>
+  <category>Distributed Computing</category>
+  <category>Distributed Web</category>
+  <category>Hypercore Protocol</category>
+  <category>Definition</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/autobase.html</guid>
+  <pubDate>Sat, 10 Jun 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/kenny-eliason-2PMH43yG9eU-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Hyperswarm</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/hyperswarm.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A high-level API for finding and connecting to peers who are interested in a “topic”.</p>
+
+
+
+ ]]></description>
+  <category>Seed</category>
+  <category>Distributed Computing</category>
+  <category>Distributed Web</category>
+  <category>Hypercore Protocol</category>
+  <category>Definition</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/hyperswarm.html</guid>
+  <pubDate>Sat, 10 Jun 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/jeremy-cai-B8UTPKlHNyw-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>IPFS</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/ipfs.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>InterPlanetary File System (IPFS) is a protocol, hypermedia and file sharing peer-to-peer network for storing and sharing data to a distributed file system.</p>
+<p>It is an alternative location-based hyper media server protocol that could replace HTTP/HTTPS. It allows users to host and receive content is a similar way to BitTorrent.</p>
+<p>Any user in the network can serve a file by it’s content address, and many other peers in the network can find and request content from any node who has it using a <a href="../engineering/dht.html">DHT</a>.</p>
+<p>IPFS seems to be strongly aligned to Web3, and is often mentioned in the same breath as cryptocurrency protocols. 🚨</p>
+<p>To develop IPFS, in 2017 Protocol Labs launched its own cryptocurrency named Filecoin.</p>
+<p>Cloudflare started using IPFS in 2018 and launched its own gateway in 2022.</p>
+<section id="how-is-it-being-used" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="how-is-it-being-used">How is it Being Used?</h2>
+<ul>
+<li>Cryptocurrency</li>
+<li>Content Delivery</li>
+<li>Microsoft has built their <a href="../engineering/did.html">DID</a> on IPFS</li>
+<li>Discussion systems</li>
+<li>To prevent and/or circumvent censorship
+<ul>
+<li><a href="https://firstmonday.org/ojs/index.php/fm/article/view/9402/7692">Distributed, privacy-enhancing technologies in the 2017 Catalan referendum on independence: New tactics and models of participatory democracy</a></li>
+</ul></li>
+<li>Phishing
+<ul>
+<li>The phishing email is stored on Cloudflare’s IPFS which displays the content as secure.</li>
+</ul></li>
+<li>Command and Control
+<ul>
+<li>The IPStore botnet uses IPFS to hide C2 traffic amongst the flow of legitimate data on the IPFS network.<sup>1</sup> <sup>2</sup></li>
+</ul></li>
+</ul>
+
+
+<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;AQUINO, Bruno Macabeus M. de; LIMA, Marcus Vinicius L. de; OLIVEIRA, João Paolo Cavalcante M. de; SOUZA, Cidcley Teixeira de. <a href="https://sol.sbc.org.br/index.php/wscdc/article/view/2400">Protocolos IPFS e IPNS como meio para o controle de botnet: prova de conceito</a>. <em>In</em>: CONNECTED DEVICES CYBERSECURITY WORKSHOP (WSCDC), 1. , 2018, São José dos Campos. <strong>Anais</strong> […]. Porto Alegre: Sociedade Brasileira de Computação, 2018.</p></li><li id="fn2"><p><sup>2</sup>&nbsp;“IPFS and IPNS protocols as a means of botnet control: proof of concept” English Translation - [[../attachements/IPFS-and-IPNS-protocols-as-a-means-of-botnet-control-proof-of-concept.pdf|IPFS-and-IPNS-protocols-as-a-means-of-botnet-control-proof-of-concept]]</p></li></div></section>
+
+
+ ]]></description>
+  <category>Seed</category>
+  <category>Protocol</category>
+  <category>Distributed Computing</category>
+  <category>Distributed Web</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/ipfs.html</guid>
+  <pubDate>Sat, 10 Jun 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/pawel-czerwinski-OALPS7O3jXs-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>HyperDHT</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/hyperdht.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A <a href="../engineering/dht.html">DHT</a> powering <a href="../engineering/hyperswarm.html">Hyperswarm</a>, each server is bound to a unique key pair, where the client connects to the server using the servers public key.</p>
+
+
+
+ ]]></description>
+  <category>Seed</category>
+  <category>Distributed Computing</category>
+  <category>Distributed Web</category>
+  <category>Hypercore Protocol</category>
+  <category>Definition</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/hyperdht.html</guid>
+  <pubDate>Sat, 10 Jun 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/samantha-lam-zFy6fOPZEu0-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Hyperbee</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/hyperbee.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>An append-only <a href="../engineering/b-tree.html">B-Tree</a> running on Hypercore. It provides a key-value store API with mechanisms that can be used for:</p>
+<ul>
+<li>Inserting and retrieving key-value pairs;</li>
+<li>Atomic batch insertion;</li>
+<li>Creation of sorted iterators.</li>
+</ul>
+
+
+
+ ]]></description>
+  <category>Seed</category>
+  <category>Distributed Computing</category>
+  <category>Distributed Web</category>
+  <category>Hypercore Protocol</category>
+  <category>Definition</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/hyperbee.html</guid>
+  <pubDate>Sat, 10 Jun 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/kai-wenzel-dyGWrmJ_i4E-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>DHT</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/dht.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A decentralized data structure that is used to store and retrieve data over a network. The <a href="../engineering/hyperdht.html">HyperDHT</a> is used to facilitate the discovery of peers and to enable connections between them.</p>
+
+
+
+ ]]></description>
+  <category>Seed</category>
+  <category>Distributed Computing</category>
+  <category>Distributed Web</category>
+  <category>Hypercore Protocol</category>
+  <category>Definition</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/dht.html</guid>
+  <pubDate>Sat, 10 Jun 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/ruchindra-gunasekara-GK8x_XCcDZg-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>BTree</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/b-tree.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A self-balancing tree data structure that is used to store data in a sorted and searchable manner.</p>
+
+
+
+ ]]></description>
+  <category>Distributed Computing</category>
+  <category>Distributed Web</category>
+  <category>Hypercore Protocol</category>
+  <category>Definition</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/b-tree.html</guid>
+  <pubDate>Sat, 10 Jun 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/stefan-cosma-df3QkLo5K94-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Hypercore</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/hypercore.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A distributed, peer to peer, append-only log that can be used to create fast scalable applications without a backend.</p>
+
+
+
+ ]]></description>
+  <category>Seed</category>
+  <category>Distributed Computing</category>
+  <category>Distributed Web</category>
+  <category>Hypercore Protocol</category>
+  <category>Definition</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/hypercore.html</guid>
+  <pubDate>Sat, 10 Jun 2023 14:00:00 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/kurt-cotoaga-zvkBC8OrUJ0-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>

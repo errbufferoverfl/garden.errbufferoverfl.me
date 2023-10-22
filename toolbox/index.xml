@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>errbufferoverfl, anarchist, illustrator, reluctant security engineer</title>
+<link>https://garden.errbufferoverfl.me/toolbox/index.html</link>
+<atom:link href="https://garden.errbufferoverfl.me/toolbox/index.xml" rel="self" type="application/rss+xml"/>
+<description>A garden of evolving ideas about society, microfarming, and sometimes security engineering.</description>
+<generator>quarto-1.3.450</generator>
+<lastBuildDate>Sun, 22 Oct 2023 09:01:12 GMT</lastBuildDate>
+<item>
+  <title>Content Credentials</title>
+  <link>https://garden.errbufferoverfl.me/toolbox/content-credentials.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Content Credentials make the origin and history of content available for everyone to access, anytime. With this information at your fingertips, you have the ability to decide if you trust the content you see—understanding what it is and how much editing or manipulation it went through.</p>
+<p>Content Credentials are based on an open technical specification developed and maintained by the <a href="https://c2pa.org/">C2PA</a>, a cross-industry standards development organisation. You can review the specification anytime.</p>
+<p><a href="https://contentcredentials.org/">Website</a></p>
+<section id="additional-notes" class="level2">
+<h2 class="anchored" data-anchor-id="additional-notes"><strong>Additional Notes</strong></h2>
+
+
+</section>
+
+ ]]></description>
+  <category>Trust &amp; Saftey</category>
+  <category>Open Standard</category>
+  <category>Beta</category>
+  <guid>https://garden.errbufferoverfl.me/toolbox/content-credentials.html</guid>
+  <pubDate>Sun, 22 Oct 2023 09:01:12 GMT</pubDate>
+</item>
+<item>
+  <title>Cytoscape.js</title>
+  <link>https://garden.errbufferoverfl.me/toolbox/cytoscapejs.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Graph theory (network) library for visualisation and analysis.</p>
+<p><a href="https://js.cytoscape.org/">Website</a></p>
+
+
+
+ ]]></description>
+  <category>Javascript</category>
+  <category>npm</category>
+  <guid>https://garden.errbufferoverfl.me/toolbox/cytoscapejs.html</guid>
+  <pubDate>Sun, 15 Oct 2023 05:50:04 GMT</pubDate>
+</item>
+<item>
+  <title>dopeely</title>
+  <link>https://garden.errbufferoverfl.me/toolbox/dopeely.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A bunch of helpful colour tools like pallet, tone, tint and shade generators. Also has digital colour tools for checking contrast and colour blindcheckers.</p>
+<p><a href="https://colors.dopely.top/">Website</a></p>
+
+
+
+ ]]></description>
+  <category>Design</category>
+  <category>Colour Theory</category>
+  <category>Graphic Design</category>
+  <guid>https://garden.errbufferoverfl.me/toolbox/dopeely.html</guid>
+  <pubDate>Sun, 15 Oct 2023 05:49:30 GMT</pubDate>
+</item>
+<item>
+  <title>Distributed Press</title>
+  <link>https://garden.errbufferoverfl.me/toolbox/distributed-press.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>An open source publishing tool for the World Wide Web and [[Distributed Web]]. It automates publishing to the world wide web, and seeds to <a href="../engineering/ipfs.html">IPFS</a> and <a href="../engineering/holepunch.html">Holepunch</a>.</p>
+<p><a href="https://distributed.press/">Website</a> · <a href="https://github.com/hyphacoop/api.distributed.press">Github Repo</a></p>
+<section id="additional-notes" class="level2">
+<h2 class="anchored" data-anchor-id="additional-notes">Additional Notes</h2>
+<ul>
+<li><a href="../engineering/setting-up-distributed-press-on-digital-ocean.html">Setting Up Distributed Press on Digital Ocean</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Distributed Computing</category>
+  <guid>https://garden.errbufferoverfl.me/toolbox/distributed-press.html</guid>
+  <pubDate>Sun, 15 Oct 2023 05:48:28 GMT</pubDate>
+</item>
+<item>
+  <title>temporal</title>
+  <link>https://garden.errbufferoverfl.me/toolbox/temporal.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>An open source programming model that can be used to provide in depth tracing using the concept of “business logic as code”.</p>
+<p><a href="https://temporal.io/">Website</a> · <a href="https://github.com/temporalio/temporal">Github Repo</a></p>
+
+
+
+ ]]></description>
+  <category>Microservices</category>
+  <guid>https://garden.errbufferoverfl.me/toolbox/temporal.html</guid>
+  <pubDate>Sun, 15 Oct 2023 05:47:29 GMT</pubDate>
+</item>
+<item>
+  <title>SES Hardened JavaScript for Fearless Cooperation</title>
+  <link>https://garden.errbufferoverfl.me/toolbox/ses.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>SES is hardened JavaScript. SES stands for fearless cooperation. This package is a SES shim for JavaScript features proposed to ECMA TC39. Hardened JavaScript is highly compatible with ordinary JavaScript. Most existing JavaScript libraries can run on hardened JavaScript.</p>
+<ul>
+<li><p><strong>Compartments</strong> Compartments are separate execution contexts: each one has its own global object and global lexical scope.</p></li>
+<li><p><strong>Frozen realm</strong> Compartments share their intrinsics to avoid identity discontinuity. By freezing the intrinsics, SES protects programs from each other. By sharing the intrinsics, programs from separate compartments can recognize each other’s arrays, data objects, and so on.</p></li>
+<li><p><strong>Strict mode</strong> SES enforces JavaScript strict mode that enhances security, for example by changing some silent failures into thrown errors.</p></li>
+<li><p><strong>POLA</strong> (Principle of Least Authority) By default, Compartments receive no ambient authority. They are created without host-provided APIs, (for example no <code>fetch</code>). Compartments can be selectively endowed with powerful arguments, globals, or modules.</p></li>
+</ul>
+<p><a href="https://www.npmjs.com/package/ses">Website</a></p>
+
+
+
+ ]]></description>
+  <category>Javascript</category>
+  <category>npm</category>
+  <guid>https://garden.errbufferoverfl.me/toolbox/ses.html</guid>
+  <pubDate>Sun, 15 Oct 2023 05:45:24 GMT</pubDate>
+</item>
+</channel>
+</rss>
