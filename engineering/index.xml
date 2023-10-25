@@ -10,7 +10,107 @@
 <atom:link href="https://garden.errbufferoverfl.me/engineering/index.xml" rel="self" type="application/rss+xml"/>
 <description>A garden of evolving ideas about society, microfarming, and sometimes security engineering.</description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Sat, 21 Oct 2023 08:23:04 GMT</lastBuildDate>
+<lastBuildDate>Tue, 24 Oct 2023 08:59:51 GMT</lastBuildDate>
+<item>
+  <title>WordPress</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/wordpress.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="basic-information" class="level2">
+<h2 class="anchored" data-anchor-id="basic-information">Basic Information</h2>
+<ul>
+<li>Flexible Content Management System (CMS)
+<ul>
+<li>Offers 50,000+ plugins</li>
+<li>A study showed that roughly 8% of WordPress hacks happen due to weak passwords, while 60% were due to an outdated WordPress version</li>
+<li>According to WPScan, out of nearly 4,000 known vulnerabilities, 54% are from plugins, 31.5% are from WordPress core, and 14.5% are from WordPress themes.</li>
+</ul></li>
+</ul>
+</section>
+<section id="discovery-footprinting" class="level2">
+<h2 class="anchored" data-anchor-id="discovery-footprinting">Discovery &amp; Footprinting</h2>
+<ul>
+<li><code>wp-activate.php</code> is used for the email activation process when setting up a new WordPress site.</li>
+<li>Login folders (may be renamed to hide it):
+<ul>
+<li><code>/wp-admin/login.php</code></li>
+<li><code>/wp-admin/wp-login.php</code></li>
+<li><code>/login.php</code></li>
+<li><code>/wp-login.php</code></li>
+</ul></li>
+<li><code>xmlrpc.php</code> is a file that enables WordPress to transmit XML data via HTTP with HTTP. This type of communication has been replaced by the WordPress.</li>
+<li>The <code>wp-content</code> folder is the main directory where plugins and themes are stored.
+<ul>
+<li>Plugins are stored in <code>wp-content/plugins</code></li>
+<li>Themes are stored in <code>wp-content/themes</code></li>
+</ul></li>
+<li><code>wp-content/uploads/</code> Is the directory where any files uploaded to the platform are stored.</li>
+<li><code>wp-includes/</code> This is the directory where core files are stored, such as certificates, fonts, JavaScript files, and widgets.</li>
+<li>The <code>wp-config.php</code> file contains information required by WordPress to connect to the database such as the database name, database host, username and password, authentication keys and salts, and the database table prefix. This configuration file can also be used to activate DEBUG mode, which can useful in troubleshooting.</li>
+</ul>
+<section id="robots.txt" class="level3">
+<h3 class="anchored" data-anchor-id="robots.txt"><code>robots.txt</code></h3>
+<p>A standard WordPress <code>robots.txt</code> file looks something like:</p>
+<pre><code>User-agent: *
+Disallow: /wp-admin/
+Allow: /wp-admin/admin-ajax.php
+Disallow: /wp-content/uploads/wpforms/
+
+Sitemap: https://example.com/wp-sitemap.xml</code></pre>
+<ul>
+<li><code>wp-admin</code> and <code>wp-content</code> are default WordPress directories.</li>
+<li>Attempting to navigate to <code>/wp-admin</code> will redirect you to <code>/wp-login.php</code></li>
+</ul>
+</section>
+<section id="meta-generator" class="level3">
+<h3 class="anchored" data-anchor-id="meta-generator"><code>meta generator</code></h3>
+<p>Viewing the raw HTML can reveal WordPress either in the <code>meta generator</code> or in other places.</p>
+<pre class="shell"><code>curl -s http://blog.inlanefreight.local | grep WordPress
+
+...
+
+&lt;meta name="generator" content="WordPress 5.8" /</code></pre>
+</section>
+</section>
+<section id="authorisation" class="level2">
+<h2 class="anchored" data-anchor-id="authorisation">Authorisation</h2>
+<p>There are five types of users on a standard WordPress installation.</p>
+<ol type="1">
+<li>Administrator: This user has access to administrative features within the website. This includes adding and deleting users and posts, as well as editing source code.</li>
+<li>Editor: An editor can publish and manage posts, including the posts of other users.</li>
+<li>Author: They can publish and manage their own posts.</li>
+<li>Contributor: These users can write and manage their own posts but cannot publish them.</li>
+<li>Subscriber: These are standard users who can browse posts and edit their profiles.</li>
+</ol>
+<p>Getting access to an administrator is sufficient to obtain code execution on the server. Editors and authors may have access to vulnerable plugins, which normal users don’t.</p>
+</section>
+<section id="tools" class="level2">
+<h2 class="anchored" data-anchor-id="tools">Tools</h2>
+<ul>
+<li><a href="https://github.com/wpscanteam/wpscan">WPScan</a></li>
+</ul>
+</section>
+<section id="further-reading" class="level2">
+<h2 class="anchored" data-anchor-id="further-reading">Further Reading</h2>
+<ul>
+<li><a href="https://academy.hackthebox.com/course/preview/hacking-wordpress">Hacking WordPress</a></li>
+</ul>
+
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Seed</category>
+  <category>WordPress</category>
+  <category>Fundamentals</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/wordpress.html</guid>
+  <pubDate>Tue, 24 Oct 2023 08:59:51 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/engineering" medium="image"/>
+</item>
 <item>
   <title>Hack the Box</title>
   <dc:creator>errbufferoverfl </dc:creator>
@@ -48,33 +148,139 @@
 </section>
 <section id="discoveryenumeration" class="level2">
 <h2 class="anchored" data-anchor-id="discoveryenumeration">Discovery/Enumeration</h2>
-<section id="scans" class="level3">
-<h3 class="anchored" data-anchor-id="scans">Scans</h3>
-</section>
-<section id="live-hosts" class="level3">
-<h3 class="anchored" data-anchor-id="live-hosts">Live Hosts</h3>
-</section>
 </section>
 <section id="application-discovery" class="level2">
 <h2 class="anchored" data-anchor-id="application-discovery">Application Discovery</h2>
-<section id="scans-1" class="level3">
-<h3 class="anchored" data-anchor-id="scans-1">Scans</h3>
-</section>
-<section id="interestingnotable-hosts" class="level3">
-<h3 class="anchored" data-anchor-id="interestingnotable-hosts">Interesting/Notable Hosts</h3>
-<div class="callout callout-style-simple callout-note">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-body-container">
-<div>
-<p><strong>Remember</strong></p>
-<p>Hosts with <code>dev</code> as part of the FQDN are worth noting down as they may be running untested features or have things like debug mode enabled.</p>
-</div>
-</div>
-</div>
-</div>
+<section id="blog.inlanefreight.local" class="level3">
+<h3 class="anchored" data-anchor-id="blog.inlanefreight.local"><code>blog.inlanefreight.local</code></h3>
+<pre><code>Starting Nmap 7.93 ( https://nmap.org ) at 2023-10-24 20:35 AEDT
+Nmap scan report for blog.inlanefreight.local (10.129.42.195)
+Host is up (1.5s latency).
+Not shown: 998 closed tcp ports (reset)
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 8.32 seconds</code></pre>
+<pre><code>pscan --url blog.inlanefreight.local
+_______________________________________________________________
+         __          _______   _____
+         \ \        / /  __ \ / ____|
+          \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
+           \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \
+            \  /\  /  | |     ____) | (__| (_| | | | |
+             \/  \/   |_|    |_____/ \___|\__,_|_| |_|
+
+         WordPress Security Scanner by the WPScan Team
+                         Version 3.8.22
+       Sponsored by Automattic - https://automattic.com/
+       @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart
+_______________________________________________________________
+
+[+] URL: http://blog.inlanefreight.local/ [10.129.239.31]
+[+] Started: Tue Oct 24 10:49:56 2023
+
+Interesting Finding(s):
+
+[+] Headers
+ | Interesting Entry: Server: Apache/2.4.41 (Ubuntu)
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[+] XML-RPC seems to be enabled: http://blog.inlanefreight.local/xmlrpc.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
+
+[+] WordPress readme found: http://blog.inlanefreight.local/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[+] Upload directory has listing enabled: http://blog.inlanefreight.local/wp-content/uploads/
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[+] The external WP-Cron seems to be enabled: http://blog.inlanefreight.local/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[+] WordPress version 5.8 identified (Insecure, released on 2021-07-20).
+ | Found By: Rss Generator (Passive Detection)
+ |  - http://blog.inlanefreight.local/?feed=rss2, &lt;generator&gt;https://wordpress.org/?v=5.8&lt;/generator&gt;
+ |  - http://blog.inlanefreight.local/?feed=comments-rss2, &lt;generator&gt;https://wordpress.org/?v=5.8&lt;/generator&gt;
+
+[+] WordPress theme in use: transport-gravity
+ | Location: http://blog.inlanefreight.local/wp-content/themes/transport-gravity/
+ | Latest Version: 1.0.1 (up to date)
+ | Last Updated: 2020-08-02T00:00:00.000Z
+ | Readme: http://blog.inlanefreight.local/wp-content/themes/transport-gravity/readme.txt
+ | [!] Directory listing is enabled
+ | Style URL: http://blog.inlanefreight.local/wp-content/themes/transport-gravity/style.css
+ | Style Name: Transport Gravity
+ | Style URI: https://keonthemes.com/downloads/transport-gravity/
+ | Description: Transport Gravity is an enhanced child theme of Business Gravity. Transport Gravity is made for tran...
+ | Author: Keon Themes
+ | Author URI: https://keonthemes.com/
+ |
+ | Found By: Css Style In Homepage (Passive Detection)
+ | Confirmed By: Urls In Homepage (Passive Detection)
+ |
+ | Version: 1.0.1 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - http://blog.inlanefreight.local/wp-content/themes/transport-gravity/style.css, Match: 'Version: 1.0.1'
+
+[+] Enumerating All Plugins (via Passive Methods)
+[+] Checking Plugin Versions (via Passive and Aggressive Methods)
+
+[i] Plugin(s) Identified:
+
+[+] contact-form-7
+ | Location: http://blog.inlanefreight.local/wp-content/plugins/contact-form-7/
+ | Last Updated: 2023-09-28T08:58:00.000Z
+ | [!] The version is out of date, the latest version is 5.8.1
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ |
+ | Version: 5.4.2 (90% confidence)
+ | Found By: Query Parameter (Passive Detection)
+ |  - http://blog.inlanefreight.local/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4.2
+ | Confirmed By: Readme - Stable Tag (Aggressive Detection)
+ |  - http://blog.inlanefreight.local/wp-content/plugins/contact-form-7/readme.txt
+
+[+] mail-masta
+ | Location: http://blog.inlanefreight.local/wp-content/plugins/mail-masta/
+ | Latest Version: 1.0 (up to date)
+ | Last Updated: 2014-09-19T07:52:00.000Z
+ |
+ | Found By: Urls In Homepage (Passive Detection)
+ |
+ | Version: 1.0 (80% confidence)
+ | Found By: Readme - Stable Tag (Aggressive Detection)
+ |  - http://blog.inlanefreight.local/wp-content/plugins/mail-masta/readme.txt
+
+[+] Enumerating Config Backups (via Passive and Aggressive Methods)
+ Checking Config Backups - Time: 00:00:01 &lt;=&gt; (137 / 137) 100.00% Time: 00:00:01
+
+[i] No Config Backups Found.
+
+[!] No WPScan API Token given, as a result vulnerability data has not been output.
+[!] You can get a free API token with 25 daily requests by registering at https://wpscan.com/register
+
+[+] Finished: Tue Oct 24 10:50:01 2023
+[+] Requests Done: 174
+[+] Cached Requests: 6
+[+] Data Sent: 47.007 KB
+[+] Data Received: 539.386 KB
+[+] Memory used: 258.449 MB
+[+] Elapsed time: 00:00:04</code></pre>
 </section>
 </section>
 <section id="exploitation" class="level2">
@@ -1564,29 +1770,6 @@ font-style: inherit;">'user'</span></span></code></pre></div>
   <guid>https://garden.errbufferoverfl.me/engineering/b-tree.html</guid>
   <pubDate>Sat, 10 Jun 2023 14:00:00 GMT</pubDate>
   <media:content url="https://garden.errbufferoverfl.me/imgs/stefan-cosma-df3QkLo5K94-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>Hypercore</title>
-  <dc:creator>errbufferoverfl </dc:creator>
-  <link>https://garden.errbufferoverfl.me/engineering/hypercore.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>A distributed, peer to peer, append-only log that can be used to create fast scalable applications without a backend.</p>
-
-
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>Seed</category>
-  <category>Distributed Computing</category>
-  <category>Distributed Web</category>
-  <category>Hypercore Protocol</category>
-  <category>Definition</category>
-  <guid>https://garden.errbufferoverfl.me/engineering/hypercore.html</guid>
-  <pubDate>Sat, 10 Jun 2023 14:00:00 GMT</pubDate>
-  <media:content url="https://garden.errbufferoverfl.me/imgs/kurt-cotoaga-zvkBC8OrUJ0-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>
