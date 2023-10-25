@@ -4,24 +4,30 @@ date: 2023-10-21T21:04:27+11:00
 image: /imgs/cultish.png
 cover: /imgs/cultish
 started: 2023-10-21
-completed:
+completed: 
 publisher: Harper Collins
-page: 48
+page: 76
 pages: 309
 status: In Progress
 author:
-- Amanda Montell
+  - Amanda Montell
 categories:
-- Non-Fiction
-- Psychology
-- History
-- Sociology
-- Cults
-- Religion
-- Language
-- True Crime
-- Lunguistics
+  - Non-Fiction
+  - Psychology
+  - History
+  - Sociology
+  - Cults
+  - Religion
+  - Language
+  - True Crime
+  - Lunguistics
 ---
+
+::: {.content-hidden when-format="html"}
+
+`button-updateReadingStatus`  · `button-updateCurrentPage`
+
+:::
 
 ::: {callout-warning}
 

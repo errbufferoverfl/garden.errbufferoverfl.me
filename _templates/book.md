@@ -3,6 +3,9 @@ const title = "{{title}}"
 let authors = "{{author}}".split(',');
 let genre = "{{category}}".split(',');
 
+const statuses = ["Wishlist", "Backlog", "Up Next", "In Progress", "On Hold", "Incomplete", "Complete"];
+const status = await tp.system.suggester(statuses, statuses, "Reading status:");
+
 let fileTitle = title;
 fileTitle = fileTitle.replace(/ /g, "-").toLowerCase();
 fileTitle = fileTitle.replace(/[&'’‘’:,–.;?()“”$]/g, "").toLowerCase();
@@ -14,16 +17,24 @@ await tp.file.rename(`${fileTitle}`);
 title: {{title}}
 date: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
 image: {{coverUrl}}
-cover:
+cover: 
 started: 
-completed:
+completed: 
+page: 0
+pages: {{totalPage}}
 publisher: {{publisher}}
-status: Backlog
-author:
-<% authors.map(line => `- ${line}\n`) -%>
+status: "<% status %>"
+author: 
+<% authors.map(line => `- ${line.trim()}\n`) -%>
 categories:
-<% genre.map(line => `- ${line}\n`) -%>
+<% genre.map(line => `- ${line.trim()}\n`) -%>
 ---
+
+::: {.content-hidden when-format="html"}
+
+`button-updateReadingStatus`  · `button-updateCurrentPage`
+
+:::
 
 :::: {.columns}
 
@@ -32,6 +43,8 @@ categories:
 ![]({{< meta cover >}})
 
 published on {{publishDate}} by {{< meta publisher >}}
+
+{{< progress >}}
 
 :::
 
