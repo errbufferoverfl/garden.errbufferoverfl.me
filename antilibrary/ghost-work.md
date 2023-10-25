@@ -28,7 +28,8 @@ categories:
 
 ::: columns
 ::: {.column width="40%"}
-![](%7B%7B%3C%20meta%20cover%20%3E%7D%7D)
+
+![]({{< meta cover >}})
 
 published on 2019 by {{< meta publisher >}}
 
