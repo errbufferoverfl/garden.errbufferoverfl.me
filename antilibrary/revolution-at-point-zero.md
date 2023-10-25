@@ -6,7 +6,7 @@ image: /imgs/revolution-at-point-zero.png
 cover: /imgs/revolution-at-point-zero
 started: 2022-04-30
 completed: 2023-01-28
-status: Completed
+status: "Completed"
 page: 256
 pages: 256
 rating: ★★★★★

@@ -6,6 +6,8 @@ image: /imgs/expect-resistance-a-crimethinc-field-manual.png
 cover: /imgs/expect-resistance-a-crimethinc-field-manual
 started: 
 completed: 
+page:
+pages:
 status: Incomplete
 publisher: CrimethInc. Collective
 author:

@@ -8,7 +8,7 @@ started: 2023-05-21
 completed: 2023-06-05
 page: 113
 pages: 113
-status: Completed
+status: "Completed"
 rating: ★★★★★
 publisher: PM Press
 author:

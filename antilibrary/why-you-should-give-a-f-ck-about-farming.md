@@ -7,8 +7,8 @@ cover: /imgs/why-you-should-give-a-f-ck-about-farming
 started: 2023-01-22
 completed: 2023-01-28
 page: 295
-total: 322
-status: Completed
+pages: 322
+status: "Completed"
 rating: ★★★★☆
 publisher: Random House Australia
 author:

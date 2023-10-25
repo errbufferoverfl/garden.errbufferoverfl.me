@@ -8,7 +8,7 @@ started: 2022-06-01
 completed: 2022-06-28
 page: 286
 pages: 286
-status: Completed
+status: "Completed"
 rating: ★★★★☆
 publisher: Odyssey Editions
 author:

@@ -5,6 +5,8 @@ image: /imgs/how-to-read-a-book.png
 cover: /imgs/how-to-read-a-book
 started: 2023-10-17
 completed:
+page:
+pages:
 status: In Progress
 publisher: Simon & Schuster, Inc
 author:

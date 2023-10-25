@@ -8,7 +8,7 @@ started: 2023-01-30
 completed: 2023-02-22
 page: 269
 pages: 269
-status: Completed
+status: "Completed"
 rating: ★★★☆☆
 publisher: Chicago Review Press
 author:

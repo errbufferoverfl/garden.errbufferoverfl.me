@@ -7,7 +7,7 @@ cover: /imgs/the-2020-commission-report-on-the-north-korean-nuclear-attacks-agai
 rating: ★★★★☆
 page: 304
 pages: 304
-status: Completed
+status: "Completed"
 publisher: Random House
 author:
   - Dr Jeffrey Lewis

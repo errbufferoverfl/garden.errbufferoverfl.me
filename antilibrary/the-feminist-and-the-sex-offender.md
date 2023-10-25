@@ -8,7 +8,7 @@ started: 2022-10-12
 completed: 2022-12-08
 page: 225
 pages: 225
-status: Completed
+status: "Completed"
 rating: ★★★★☆
 publisher: Verso Books
 author:
