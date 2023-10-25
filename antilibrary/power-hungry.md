@@ -6,6 +6,8 @@ image: "/imgs/power-hungry.png"
 cover: "/imgs/power-hungry"
 started: 2023-01-30
 completed: 2023-02-22
+page: 269
+pages: 269
 status: Completed
 rating: ★★★☆☆
 publisher: Chicago Review Press
@@ -28,6 +30,8 @@ categories:
 ![]({{< meta cover >}})
 
 published on November 09, 2021 by {{< meta publisher >}}
+
+{{< progress >}}
 
 :::
 

@@ -7,6 +7,8 @@ cover: /imgs/how-to-stand-up-to-a-dictator
 alt: "How to Stand Up to a Dictator Book Cover"
 started: 
 completed: 
+page:
+pages: 269
 status: In Progress
 rating: ★★★☆☆
 publisher: Random House
@@ -31,6 +33,8 @@ categories:
 ![]({{< meta cover >}})
 
 published on November 17, 2022 by {{< meta publisher >}}
+
+{{< progress >}}
 
 :::
 

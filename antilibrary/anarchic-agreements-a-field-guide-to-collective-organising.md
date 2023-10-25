@@ -6,6 +6,8 @@ image: /imgs/anarchic-agreements-a-field-guide-to-collective-organising.png
 cover: /imgs/anarchic-agreements-a-field-guide-to-collective-organising
 started: 2023-05-21
 completed: 2023-06-05
+page: 113
+pages: 113
 status: Completed
 rating: ★★★★★
 publisher: PM Press
@@ -28,6 +30,8 @@ categories:
 ![]({{< meta cover >}})
 
 published on November 22, 2022 by {{< meta publisher >}}
+
+{{< progress >}}
 :::
 
 ::: {.column width="10%"}

@@ -32,6 +32,8 @@ categories:
 
 published in 2008 by {{< meta publisher >}}
 
+{{< progress >}}
+
 :::
 
 ::: {.column width="10%"}

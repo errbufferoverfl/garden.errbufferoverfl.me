@@ -4,9 +4,11 @@ date: 2023-01-28T00:00:00+11:00
 date-modified: 2023-09-09T22:09:54+10:00
 image: /imgs/revolution-at-point-zero.png
 cover: /imgs/revolution-at-point-zero
-started: 
-completed: 
+started: 2022-04-30
+completed: 2023-01-28
 status: Completed
+page: 256
+pages: 256
 rating: ★★★★★
 publisher: PM Press
 author:
@@ -29,6 +31,8 @@ categories:
 ![]({{< meta cover >}})
 
 published on August 01, 2020 by {{< meta publisher >}}
+
+{{< progress >}}
 
 :::
 

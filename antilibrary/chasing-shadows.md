@@ -6,6 +6,8 @@ image: /imgs/chasing-shadows.png
 cover: /imgs/chasing-shadows
 started: 2022-12-09
 completed: 2023-01-22
+page: 251
+total:392
 status: Completed
 rating: ★★★★☆
 publisher: "Allen & Unwin"
@@ -22,6 +24,8 @@ categories:
 ![]({{< meta cover >}})
 
 published on Feburary 01, 2022 by {{< meta publisher >}}
+
+{{< progress >}}
 :::
 
 ::: {.column width="10%"}

@@ -6,6 +6,8 @@ cover: /imgs/cultish
 started: 2023-10-21
 completed:
 publisher: Harper Collins
+page: 48
+pages: 309
 status: In Progress
 author:
 - Amanda Montell
@@ -21,6 +23,12 @@ categories:
 - Lunguistics
 ---
 
+::: {callout-warning}
+
+The following book discuss sexual abuse, coercive control, suicide and murder.
+
+:::
+
 :::: {.columns}
 
 ::: {.column width="40%"}
@@ -28,6 +36,8 @@ categories:
 ![]({{< meta cover >}})
 
 published on 2021-06-15 by {{< meta publisher >}}
+
+{{< progress >}}
 
 :::
 
@@ -70,7 +80,7 @@ Amanda Montell is a language scholar who has worked on similar books before so I
 
 From the book summary I'm expecting the book explores the "suburban mom gone QAnon" pipeline in more detail, rather than glossing over _how_ people are radicalised. 
 
-I'm also pleased to see that Montell's research won't just focus on what we see or understand as religious or political cults, but will also explore how cult language is used by start-ups, fitness brands and social media.
+I'm also pleased to see that Montell's research won't just focus on what we see or understand as religious or political cults, but will also explore how cultish language is used by start-ups, fitness brands and social media.
 
 After watching a few series and documentaries about cults you can see the same patterns in emerge but at the same time it's very easy to second guess wether you're reading too much into it.
 
@@ -83,3 +93,34 @@ Based on the table of contents I suspect the structure will be very similar to t
 - **Part 6 Follow for Follow** feels like it'll be more social media and perhaps Instagram? focused, given I don't really use the platform I'm not too sure what cultish dark-patterns are used on the site.
 
 There are a fair few references and notes! There look to be some really interesting references to Jim Jones and Scientology that I feel like will be worth digging into as part of reading this book.
+
+## Chapter 1: Repeat After Me
+
+**What is a cult?**
+
+It depends.
+
+Originally cults meant nothing more that "homage paid to divinity"[^1] in the modern day the term cult is considered pejorative.
+
+It wasn't until the Fourth Great Awakening that cult began to take on a more sinister meaning due to the Manson family, which was followed not long after by Johnstown.
+
+These two events also helped drive the "satanic panic" in the 1980s that saw over 12,000 unsubstantiated cases of Satanic ritual abuse. While it has it's roots in the US, it spread throughout many parts of the world by the late 1990s, and still persists today.
+
+**So, *how* do we define a cult?**
+
+**What's the difference between a cult and religion**
+
+Very little and it's a question as old as religion itself. Burton likes to focus on what religion does rather than what they are. Religions provide: meaning, purpose, a sense of community and ritual.
+
+See how there isn't much difference between the two?
+
+**Why do people join cults?**
+
+People may find themself being drawn into cultish endeavours due to the "epidemic of loneliness". Cultish endeavours wether they are based in religion, fitness, a product, or something else entirely can give us a sense of belonging. They can soften the burden of having to make so many independent choices associated with crafting your own "personal brand".
+
+Our first interviewee is a first-generation Russian American who struggled to fit in during childhood. As a young adult she found solace in a local Yoga studio that advocated from abstaining from meat and alcohol.[^2]
+
+3HO's leader Yogi Bhajan was post-humerously investigated for sexual abuse charges
+
+[^1]: [cult (n.)](https://www.etymonline.com/word/cult)
+[^2]: The Healthy, Happy Holy Organisation (3HO), a Sikh-derived group formed in the 1970s. Their guru Yogi Bhajan claims to speak for all western-Sikhs. They host regular Kundalini yoga classes. Sikh Dharma International and its associated corporate entities and directors created and control the [Yogi Tea](https://en.wikipedia.org/wiki/Yogi_Tea "Yogi Tea") and [Akal Security](https://en.wikipedia.org/wiki/Akal_Security "Akal Security").

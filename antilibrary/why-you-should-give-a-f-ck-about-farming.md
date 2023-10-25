@@ -6,6 +6,8 @@ image: /imgs/why-you-should-give-a-f-ck-about-farming.png
 cover: /imgs/why-you-should-give-a-f-ck-about-farming
 started: 2023-01-22
 completed: 2023-01-28
+page: 295
+total: 322
 status: Completed
 rating: ★★★★☆
 publisher: Random House Australia
@@ -30,6 +32,8 @@ categories:
 ![]({{< meta cover >}})
 
 published on August 31, 2021 by {{< meta publisher >}}
+
+{{< progress >}}
 
 :::
 

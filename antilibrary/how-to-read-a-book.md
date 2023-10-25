@@ -27,6 +27,9 @@ categories:
 ![]({{< meta cover >}})
 
 published on 2014-09-30 by {{< meta publisher >}}
+
+{{< progress >}}
+
 :::
 
 ::: {.column width="10%"}

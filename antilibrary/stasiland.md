@@ -6,6 +6,8 @@ image: /imgs/stasiland.png
 cover: /imgs/stasiland
 started: 2022-06-01
 completed: 2022-06-28
+page: 286
+pages: 286
 status: Completed
 rating: ★★★★☆
 publisher: Odyssey Editions
@@ -28,6 +30,8 @@ categories:
 ![]({{< meta cover >}})
 
 published on October 29, 2015 by {{< meta publisher >}}
+
+{{< progress >}}
 
 :::
 

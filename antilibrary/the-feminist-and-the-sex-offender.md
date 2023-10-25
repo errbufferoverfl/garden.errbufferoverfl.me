@@ -4,8 +4,10 @@ date: 2023-06-01T00:00:00+10:00
 date-modified: 2023-09-09T22:09:54+10:00
 image: /imgs/the-feminist-and-the-sex-offender.png
 cover: /imgs/the-feminist-and-the-sex-offender
-started: 
-completed: 
+started: 2022-10-12
+completed: 2022-12-08
+page: 225
+pages: 225
 status: Completed
 rating: ★★★★☆
 publisher: Verso Books
@@ -31,6 +33,8 @@ categories:
 ![]({{< meta cover >}})
 
 published on 23 April, 2020 by {{< meta publisher >}}
+
+{{< progress >}}
 
 :::
 

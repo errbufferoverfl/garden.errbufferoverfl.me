@@ -19,3 +19,7 @@ div.quarto-about-broadside .about-main .about-entity {
 ul {
   font-family: Georgia,Cambria,"Times New Roman",Times,serif;
 }
+
+progress {
+  width: 100%;
+}

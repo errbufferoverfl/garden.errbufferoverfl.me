@@ -17,3 +17,5 @@ node_modules
 private/
 prof
 public
+
+/.luarc.json
