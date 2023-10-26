@@ -6,7 +6,7 @@ cover: /imgs/cultish
 started: 2023-10-21
 completed: 
 publisher: Harper Collins
-page: 76
+page: "104"
 pages: 309
 status: In Progress
 author:
@@ -21,6 +21,7 @@ categories:
   - Language
   - True Crime
   - Lunguistics
+
 ---
 
 ::: {.content-hidden when-format="html"}
@@ -29,9 +30,9 @@ categories:
 
 :::
 
-::: {callout-warning}
+::: {.callout-warning}
 
-The following book discuss sexual abuse, coercive control, suicide and murder.
+The following notes discuss sexual abuse, coercive control, suicide and murder. 
 
 :::
 
@@ -77,28 +78,20 @@ _In both positive ways and shadowy ones, cultish language is something we hear�
 
 ## Quotes
 
+> Roses are red
+> Money is green
+> The American Dream
+> Is a pyramid scheme
 
 ## Other Notes
 
 ### Initial Thoughts
 
-Amanda Montell is a language scholar who has worked on similar books before so I'm expecting the book to be very linguistic oriented.
+Amanda Montell is a language scholar who has worked on similar books before so I'm expecting the book to be very linguistic oriented. From the book summary I'm expecting the book explores the "suburban mom gone QAnon" pipeline in more detail, rather than glossing over _how_ people are radicalised. 
 
-From the book summary I'm expecting the book explores the "suburban mom gone QAnon" pipeline in more detail, rather than glossing over _how_ people are radicalised. 
+I'm also pleased to see that Montell's research won't just focus on what we see or understand as religious or political "cults", but will also explore how cultish language is used by start-ups, fitness brands and social media.
 
-I'm also pleased to see that Montell's research won't just focus on what we see or understand as religious or political cults, but will also explore how cultish language is used by start-ups, fitness brands and social media.
-
-After watching a few series and documentaries about cults you can see the same patterns in emerge but at the same time it's very easy to second guess wether you're reading too much into it.
-
-Based on the table of contents I suspect the structure will be very similar to the Netflix series *How to Become a Cult Leader*. 
-
-- **Chapter 2 Congratulations — You Have Been Chosen to Joint the Next Evolutionary Level Above Human** has big Heavens Gate themes.
-- **Chapter 3 Even YOU Can Learn to Speak in Tongues** gives me the impression we might touch on Jim Jones and his use of code switching to get people involved in the Jonestown cult.
-- **Part 4 Do You Wanna Be a # BossBabe** sounds like we'll be exploring the "cult" of at the intersection of grind culture, leaning in and feminist ideology — multi-level marketing!
-- **Part 5 This Hour is Going to Change Your Life… and Make You LOOK AWESOME** looks like it'll be covering the fitness industry and how they tap into our psyche the way cults do.
-- **Part 6 Follow for Follow** feels like it'll be more social media and perhaps Instagram? focused, given I don't really use the platform I'm not too sure what cultish dark-patterns are used on the site.
-
-There are a fair few references and notes! There look to be some really interesting references to Jim Jones and Scientology that I feel like will be worth digging into as part of reading this book.
+Based on the table of contents I suspect the structure will be very similar to the Netflix series *How to Become a Cult Leader*.
 
 ## Chapter 1: Repeat After Me
 
@@ -108,25 +101,67 @@ It depends.
 
 Originally cults meant nothing more that "homage paid to divinity"[^1] in the modern day the term cult is considered pejorative.
 
-It wasn't until the Fourth Great Awakening that cult began to take on a more sinister meaning due to the Manson family, which was followed not long after by Johnstown.
+It wasn't until the Fourth Great Awakening[^2] that cult began to take on a more sinister meaning due to the Manson family, which was followed not long after by Johnstown and consequently Heavens Gate.
 
-These two events also helped drive the "satanic panic" in the 1980s that saw over 12,000 unsubstantiated cases of Satanic ritual abuse. While it has it's roots in the US, it spread throughout many parts of the world by the late 1990s, and still persists today.
+These events helped drive the "satanic panic" in the 1980s. The Satanic Panic also saw over 12,000 unsubstantiated cases of Satanic ritual abuse. While it has it's roots in the US, it spread throughout many parts of the world by the late 1990s, and still persists today.
 
 **So, *how* do we define a cult?**
 
-**What's the difference between a cult and religion**
+**What's the difference between a cult and religion?**
 
 Very little and it's a question as old as religion itself. Burton likes to focus on what religion does rather than what they are. Religions provide: meaning, purpose, a sense of community and ritual.
 
 See how there isn't much difference between the two?
 
-**Why do people join cults?**
+**Why do we enjoy consuming tales about cultish groups?**
+
+Your amygdala,[^3] the part of the brain that controls emotions, memory, and survival tactics basically gets aroused by disaster.  It enables the part of our brain that controls problem-solving and basically tries to work out if you are in direct danger… this in turn puts you into flight, flight and fawn mode and you're just like watching Netflix, or reading a book.
+
+**Why do people join these groups?**
 
 People may find themself being drawn into cultish endeavours due to the "epidemic of loneliness". Cultish endeavours wether they are based in religion, fitness, a product, or something else entirely can give us a sense of belonging. They can soften the burden of having to make so many independent choices associated with crafting your own "personal brand".
 
-Our first interviewee is a first-generation Russian American who struggled to fit in during childhood. As a young adult she found solace in a local Yoga studio that advocated from abstaining from meat and alcohol.[^2]
+Our first interviewee is a first-generation Russian American who struggled to fit in during childhood. As a young adult she found solace in a local Yoga studio that advocated from abstaining from meat and alcohol.[^4]
 
-3HO's leader Yogi Bhajan was post-humerously investigated for sexual abuse charges
+3HO's leader Yogi Bhajan was post-humorously investigated for sexual abuse charges.
+
+**Is everyone susceptible to cultish influence?**
+
+Yes, and I feel like a part of it is because of the overconfidence effect[^5] 
+
+## Part 2: Congratulations — You Have Been Chosen to Joint the Next Evolutionary Level Above Human
+
+**What makes people join groups like Jonestown and Heavens Gate? And more importantly, what makes them stay?**
+
+**What makes people in cultish-groups do things they may not do normally? e.g., Heaven's Gate members sterilised themselves.**
+
+**How did Jim Jones convince the people of Jonestown to commit mass suicide?**
+
+**Who were their primary targets for indoctrination? What were the similarities/differences?**
+
+**What can we learn from Jonestown and Heaven't Gate to protect ourselves from cultish groups?**
+
+**What is the demographic distribution amongst leaders of cultish groups?**
+
+**How do their target demographics differ?**
+
+**What differences can we see in leaders of cultish groups that are women?**
+
+**What is the Sapir-Worf hypothesis?**
+
+Also known as linguistic relativity it's a principle that suggests that the structure of language influences its speakers worldview and thus it their perceptions of the world.
+
+## Further Reading
+
+- *The Meaning of Meaning*, a book written by two language scholars who attempted to only capture the "necessary" parts of language.
+- *The Cult of Trump* written by Steven Hassan a mental health counsellor and one of the US's leading cult experts.
+- *Dangerous Words* by Gary Eberle
+- *White Nights, Black Paradise* by Sikivu Hutchinson
+- *Thought Reform and the Psychology of Totalism* by psychiatrist Robert Jay Lifton
+- *The Witches are Coming* by Lindy West
 
 [^1]: [cult (n.)](https://www.etymonline.com/word/cult)
-[^2]: The Healthy, Happy Holy Organisation (3HO), a Sikh-derived group formed in the 1970s. Their guru Yogi Bhajan claims to speak for all western-Sikhs. They host regular Kundalini yoga classes. Sikh Dharma International and its associated corporate entities and directors created and control the [Yogi Tea](https://en.wikipedia.org/wiki/Yogi_Tea "Yogi Tea") and [Akal Security](https://en.wikipedia.org/wiki/Akal_Security "Akal Security").
+[^2]: The Fourth Great Awakening was a Christian awakening that some scholars say took place in the United States either in the late 1960s and early 1970s or the era after World War II. The terminology is controversial as some historians argue that the "awakening" was vastly different to the prior three.
+[^3]: ![](cultish.png)
+[^4]: The Healthy, Happy Holy Organisation (3HO), a Sikh-derived group formed in the 1970s. Their guru Yogi Bhajan claims to speak for all western-Sikhs. They host regular Kundalini yoga classes. Sikh Dharma International and its associated corporate entities and directors created and control the [Yogi Tea](https://en.wikipedia.org/wiki/Yogi_Tea "Yogi Tea") and [Akal Security](https://en.wikipedia.org/wiki/Akal_Security "Akal Security").
+[^5]: The overconfidence effect is a well-established bias in which a person's subjective _confidence_ in their judgments is reliably greater than the objective _accuracy_ of those judgments, especially when confidence is relatively high.
