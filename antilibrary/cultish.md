@@ -151,6 +151,8 @@ Yes, and I feel like a part of it is because of the overconfidence effect[^5]
 
 Also known as linguistic relativity it's a principle that suggests that the structure of language influences its speakers worldview and thus it their perceptions of the world.
 
+![Source: [Linguistic Relativity by Govind Gnanakumar](https://blog.govindgnana.com/2020/01/05/linguistic-relativity/)](cultish-1.png)
+
 ## Further Reading
 
 - *The Meaning of Meaning*, a book written by two language scholars who attempted to only capture the "necessary" parts of language.

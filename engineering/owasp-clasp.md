@@ -27,7 +27,7 @@ There are 5 CLASP views:
 
 The CLASP Vulnerability use cases show conditions where security services can become vulnerable in software.
 
-::: {callout-warning}
+::: {.callout-warning}
 
 The vulnerability use cases are based on common component architectures such as: monolithic UNIX, monolithic mainframe and distributed (HTTPS & TCP/IP) architectures so there _might_ be gaps when used with modern software architecture.
 
