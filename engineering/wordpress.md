@@ -19,7 +19,7 @@ categories:
 	- A study showed that roughly 8% of WordPress hacks happen due to weak passwords, while 60% were due to an outdated WordPress version
 	- According to WPScan, out of nearly 4,000 known vulnerabilities, 54% are from plugins, 31.5% are from WordPress core, and 14.5% are from WordPress themes.
 
-## Discovery & Footprinting
+### Discovery & Footprinting
 
 - `wp-activate.php` is used for the email activation process when setting up a new WordPress site.
 - Login folders (may be renamed to hide it):
@@ -35,7 +35,7 @@ categories:
 - `wp-includes/` This is the directory where core files are stored, such as certificates, fonts, JavaScript files, and widgets.
 - The `wp-config.php` file contains information required by WordPress to connect to the database such as the database name, database host, username and password, authentication keys and salts, and the database table prefix. This configuration file can also be used to activate DEBUG mode, which can useful in troubleshooting.
 
-### `robots.txt`
+#### `robots.txt`
 
 A standard WordPress `robots.txt` file looks something like:
 
@@ -51,7 +51,7 @@ Sitemap: https://example.com/wp-sitemap.xml
 - `wp-admin` and `wp-content` are default WordPress directories.
 - Attempting to navigate to `/wp-admin` will redirect you to `/wp-login.php`
 
-### `meta generator`
+#### `meta generator`
 
 Viewing the raw HTML can reveal WordPress either in the `meta generator` or in other places.
 
@@ -63,7 +63,7 @@ curl -s http://blog.inlanefreight.local | grep WordPress
 <meta name="generator" content="WordPress 5.8" /
 ```
 
-## Authorisation
+### Authorisation
 
 There are five types of users on a standard WordPress installation.
 
@@ -74,6 +74,14 @@ There are five types of users on a standard WordPress installation.
 5. Subscriber: These are standard users who can browse posts and edit their profiles.
 
 Getting access to an administrator is sufficient to obtain code execution on the server. Editors and authors may have access to vulnerable plugins, which normal users don’t.
+
+## Attacking Wordpress
+
+### Login Bruteforce
+
+### Code Execution
+
+### Vulnerable Plugins
 
 ## Tools
 
