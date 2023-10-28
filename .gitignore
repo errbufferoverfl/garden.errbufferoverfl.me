@@ -11,10 +11,11 @@
 /.quarto/
 /_*.local
 _quarto.yml.local
-_site/
 _site/*
+_meta/*
 node_modules
 private/
+_private
 prof
 public
 
