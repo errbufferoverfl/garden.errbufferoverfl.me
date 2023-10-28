@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="errbufferoverfl">
-<meta name="dcterms.date" content="2023-06-03">
+<meta name="dcterms.date" content="2018-02-01">
 
-<title>errbufferoverfl, anarchist, illustrator, reluctant security engineer - Woodblock</title>
+<title>errbufferoverfl, anarchist, illustrator, reluctant security engineer - Building your own offline file-sharing and communication system for the inevitable downfall of the Internet</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -75,9 +75,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
-<script src="../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
-<link href="../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script src="../site_libs/quarto-contrib/iconify-1.0.7/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -103,18 +100,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 <link rel="stylesheet" href="../styles.css">
-<meta property="og:title" content="errbufferoverfl, anarchist, illustrator, reluctant security engineer - Woodblock">
-<meta property="og:description" content="">
-<meta property="og:image" content="https://garden.errbufferoverfl.me/imgs/a-feast-around-a-table-with-devils-and-witches.png">
+<meta property="og:title" content="errbufferoverfl, anarchist, illustrator, reluctant security engineer - Building your own offline file-sharing and communication system for the inevitable downfall of the Internet">
+<meta property="og:description" content="This workshop will go through the steps of setting up your very own PirateBox, using OpenWRT we will build an offline Internet with an inbuilt chat, file sharing capabilities and image board. Which can then be battery powered and carried around with you! The PirateBox is a beginner friendly privacy and anonymity positive piece of hardware, it introduces students to the basic concepts of hardware hacking, flashing devices, setting up config files etc. More importantly it has a larger cultural impact as it is an easy way for people to anonymously communicate and exchange files in a time where this is becoming difficult. It has previously been used by people to locally share digital media (such as ebooks) and to securely share cryptographic keys by people running CryptoParty workshops.">
 <meta property="og:site-name" content="errbufferoverfl, anarchist, illustrator, reluctant security engineer">
-<meta property="og:image:height" content="1806">
-<meta property="og:image:width" content="2048">
-<meta name="twitter:title" content="errbufferoverfl, anarchist, illustrator, reluctant security engineer - Woodblock">
-<meta name="twitter:description" content="">
-<meta name="twitter:image" content="https://garden.errbufferoverfl.me/imgs/a-feast-around-a-table-with-devils-and-witches.png">
-<meta name="twitter:image-height" content="1806">
-<meta name="twitter:image-width" content="2048">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="errbufferoverfl, anarchist, illustrator, reluctant security engineer - Building your own offline file-sharing and communication system for the inevitable downfall of the Internet">
+<meta name="twitter:description" content="This workshop will go through the steps of setting up your very own PirateBox, using OpenWRT we will build an offline Internet with an inbuilt chat, file sharing capabilities and image board. Which can then be battery powered and carried around with you! The PirateBox is a beginner friendly privacy and anonymity positive piece of hardware, it introduces students to the basic concepts of hardware hacking, flashing devices, setting up config files etc. More importantly it has a larger cultural impact as it is an easy way for people to anonymously communicate and exchange files in a time where this is becoming difficult. It has previously been used by people to locally share digital media (such as ebooks) and to securely share cryptographic keys by people running CryptoParty workshops.">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed">
@@ -204,13 +195,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <div class="quarto-title-block"><div><h1 class="title">Woodblock</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+      <div class="quarto-title-block"><div><h1 class="title">Building your own offline file-sharing and communication system for the inevitable downfall of the Internet</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
                                 <div class="quarto-categories">
-                <div class="quarto-category">Medium</div>
-                <div class="quarto-category">Relief Printing</div>
-                <div class="quarto-category">Textile Arts</div>
-                <div class="quarto-category">Art Note</div>
-                <div class="quarto-category">Seed</div>
+                <div class="quarto-category">Workshop</div>
+                <div class="quarto-category">Low-Tech</div>
+                <div class="quarto-category">PirateBox</div>
               </div>
                   </div>
   </div>
@@ -228,13 +217,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">June 3, 2023</p>
+        <p class="date">February 1, 2018</p>
       </div>
     </div>
     
       
     </div>
     
+  <div>
+    <div class="abstract">
+      <div class="abstract-title">Abstract</div>
+      This workshop will go through the steps of setting up your very own PirateBox, using OpenWRT we will build an offline Internet with an inbuilt chat, file sharing capabilities and image board. Which can then be battery powered and carried around with you! The PirateBox is a beginner friendly privacy and anonymity positive piece of hardware, it introduces students to the basic concepts of hardware hacking, flashing devices, setting up config files etc. More importantly it has a larger cultural impact as it is an easy way for people to anonymously communicate and exchange files in a time where this is becoming difficult. It has previously been used by people to locally share digital media (such as ebooks) and to securely share cryptographic keys by people running CryptoParty workshops.
+    </div>
+  </div>
   
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
@@ -244,7 +239,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#woodblock" id="toc-woodblock" class="nav-link active" data-scroll-target="#woodblock">Woodblock</a></li>
+  <li><a href="#student-prerequisites" id="toc-student-prerequisites" class="nav-link active" data-scroll-target="#student-prerequisites">Student Prerequisites</a></li>
   </ul>
 </nav>
     </div>
@@ -254,47 +249,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<p>A technique originally developed in China as a way of printing on textiles and later on paper, the oldest surviving fragments to survive date back to the Han dynasty (before 220).</p>
-<p>Woodcut is a type of relief printing where an artist carves an image into the surface of a block of wood. When printing, areas that are cut away carry no ink while characters or images at surface level carry the ink to produce the print.</p>
-<p>Linocut is a variation of woodcutting where Linoleum is used instead of wood, making the art style more accessible to a professional and non-professional artists.</p>
-<section id="woodblock" class="level2">
-<h2 class="anchored" data-anchor-id="woodblock">Woodblock</h2>
-<div class="quarto-layout-panel">
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-figure quarto-figure-center" style="flex-basis: 47.6%;justify-content: center;">
-<figure class="figure">
-<p><a href="../imgs/a-feast-around-a-table-with-devils-and-witches.png" class="lightbox" title="The history of witches and wizards: giving a true account of all their tryals in England, Scotland, Swedeland, France, and New England; with their confession and condemnation, circa 1720, Collected from Bishop Hall, Bishop Morton, Sir Matthew Hale, etc., Wellcome Collection" data-gallery="quarto-lightbox-gallery-1"><img src="../imgs/a-feast-around-a-table-with-devils-and-witches.png" class="img-fluid figure-img"></a></p>
-<figcaption class="figure-caption"><strong>The history of witches and wizards: giving a true account of all their tryals in England, Scotland, Swedeland, France, and New England; with their confession and condemnation</strong>, circa 1720, Collected from Bishop Hall, Bishop Morton, Sir Matthew Hale, etc., <a href="https://wellcomecollection.org/works/abkab8tq/images?id=a3nuy2zq">Wellcome Collection</a></figcaption>
-</figure>
-</div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 4.8%;justify-content: center;">
-<p>&nbsp;</p>
-</div>
-<div class="quarto-figure quarto-figure-center" style="flex-basis: 47.6%;justify-content: center;">
-<figure class="figure">
-<p><a href="../imgs/ars-moriendi.png" class="lightbox" title="Ars moriendi, woodblock 7 of 11, Circa 1460, illustrator unknown, en wikipedia. Source" data-gallery="quarto-lightbox-gallery-2"><img src="../imgs/ars-moriendi.png" class="img-fluid figure-img"></a></p>
-<figcaption class="figure-caption"><strong><a href="../notebook/ars-moriendi.html">Ars moriendi</a>, <a href="../art-studio/woodblock.html">woodblock</a> 7 of 11</strong>, Circa 1460, illustrator unknown, en wikipedia. <a href="http://userpage.fu-berlin.de/~aeimhof/seelefr.htm">Source</a></figcaption>
-</figure>
-</div>
-</div>
-<div class="quarto-layout-row quarto-layout-valign-top">
-<div class="quarto-figure quarto-figure-center" style="flex-basis: 47.6%;justify-content: center;">
-<figure class="figure">
-<p><a href="../imgs/witches-dancing-in-a-circle-with-the-devil.png" class="lightbox" title="The history of witches and wizards: giving a true account of all their tryals in England, Scotland, Swedeland, France, and New England; with their confession and condemnation, circa 1720, Collected from Bishop Hall, Bishop Morton, Sir Matthew Hale, etc., Wellcome Collection" data-gallery="quarto-lightbox-gallery-3"><img src="../imgs/witches-dancing-in-a-circle-with-the-devil.png" class="img-fluid figure-img"></a></p>
-<figcaption class="figure-caption"><strong>The history of witches and wizards: giving a true account of all their tryals in England, Scotland, Swedeland, France, and New England; with their confession and condemnation</strong>, circa 1720, Collected from Bishop Hall, Bishop Morton, Sir Matthew Hale, etc., <a href="https://wellcomecollection.org/works/abkab8tq/images?id=a3nuy2zq">Wellcome Collection</a></figcaption>
-</figure>
-</div>
-<div class="quarto-figure-spacer quarto-layout-cell" style="flex-basis: 4.8%;justify-content: center;">
-<p>&nbsp;</p>
-</div>
-<div class="quarto-figure quarto-figure-center" style="flex-basis: 47.6%;justify-content: center;">
-<figure class="figure">
-<p><a href="../imgs/theatrum-chemicum-britannicum.png" class="lightbox" title="Theatrum Chemicum Britannicum, woodblock, circa 1652, Elias Ashmole, The Public Domain Review. Alchemical image taken from the British alchemical theater of ripley, depicts the two-headed serpent of arabia: azoth and kibrit" data-gallery="quarto-lightbox-gallery-4"><img src="../imgs/theatrum-chemicum-britannicum.png" class="img-fluid figure-img"></a></p>
-<figcaption class="figure-caption"><strong>Theatrum Chemicum Britannicum</strong>, <a href="woodblock">woodblock</a>, circa 1652, Elias Ashmole, <a href="https://publicdomainreview.org/collection/theatrum-chemicum">The Public Domain Review</a>. Alchemical image taken from the British alchemical theater of ripley, depicts the two-headed serpent of arabia: azoth and kibrit</figcaption>
-</figure>
-</div>
-</div>
-</div>
+<p>Have you ever considered a world where the Internet in all it’s grandeur and tyre-fire-ness has finally imploded. Well after living for 8 months without the Internet I did and it looked a little like this. The PirateBox is a DIY anonymous offline file-sharing and communication system built with free software and inexpensive off-the-shelf hardware.</p>
+<p>This workshop will go through the steps of setting up your very own PirateBox, using OpenWRT we will build an offline Internet with an inbuilt chat, file sharing capabilities and image board. Which can then be battery powered and carried around with you! The PirateBox is a beginner friendly privacy and anonymity positive piece of hardware, it introduces students to the basic concepts of hardware hacking, flashing devices, setting up config files etc. More importantly it has a larger cultural impact as it is an easy way for people to anonymously communicate and exchange files in a time where this is becoming difficult. It has previously been used by people to locally share digital media (such as ebooks) and to securely share cryptographic keys by people running CryptoParty workshops.</p>
+<section id="student-prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="student-prerequisites">Student Prerequisites</h2>
+<p>This is a beginner friendly course, little to no prior knowledge of OpenWRT is needed, but users should have basic understanding of the command line.</p>
+<p>Download the PDF (Coming Soon)</p>
 
 
 <!-- -->
@@ -601,41 +561,25 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
 <div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="an">title:</span><span class="co"> "Woodblock"</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="an">title:</span><span class="co"> "Building your own offline file-sharing and communication system for the inevitable downfall of the Internet"</span></span>
 <span id="cb1-3"><a href="#cb1-3"></a><span class="an">author:</span><span class="co"> "errbufferoverfl"</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="an">date:</span><span class="co"> 2023-06-03T00:00:00+10:00</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a><span class="an">filters:</span></span>
-<span id="cb1-6"><a href="#cb1-6"></a><span class="co">   - lightbox</span></span>
-<span id="cb1-7"><a href="#cb1-7"></a><span class="an">lightbox:</span><span class="co"> auto</span></span>
-<span id="cb1-8"><a href="#cb1-8"></a><span class="an">categories:</span></span>
-<span id="cb1-9"><a href="#cb1-9"></a><span class="co">- Medium</span></span>
-<span id="cb1-10"><a href="#cb1-10"></a><span class="co">- Relief Printing</span></span>
-<span id="cb1-11"><a href="#cb1-11"></a><span class="co">- Textile Arts</span></span>
-<span id="cb1-12"><a href="#cb1-12"></a><span class="co">- Art Note</span></span>
-<span id="cb1-13"><a href="#cb1-13"></a><span class="co">- Seed</span></span>
-<span id="cb1-14"><a href="#cb1-14"></a><span class="co">---</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="an">date:</span><span class="co"> 2018-02-01T23:28:02+11:00</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="an">abstract:</span><span class="co"> This workshop will go through the steps of setting up your very own PirateBox, using OpenWRT we will build an offline Internet with an inbuilt chat, file sharing capabilities and image board. Which can then be battery powered and carried around with you! The PirateBox is a beginner friendly privacy and anonymity positive piece of hardware, it introduces students to the basic concepts of hardware hacking, flashing devices, setting up config files etc. More importantly it has a larger cultural impact as it is an easy way for people to anonymously communicate and exchange files in a time where this is becoming difficult. It has previously been used by people to locally share digital media (such as ebooks) and to securely share cryptographic keys by people running CryptoParty workshops.</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a><span class="an">categories:</span></span>
+<span id="cb1-7"><a href="#cb1-7"></a><span class="co">- Workshop</span></span>
+<span id="cb1-8"><a href="#cb1-8"></a><span class="co">- Low-Tech</span></span>
+<span id="cb1-9"><a href="#cb1-9"></a><span class="co">- PirateBox</span></span>
+<span id="cb1-10"><a href="#cb1-10"></a><span class="co">---</span></span>
+<span id="cb1-11"><a href="#cb1-11"></a></span>
+<span id="cb1-12"><a href="#cb1-12"></a>Have you ever considered a world where the Internet in all it’s grandeur and tyre-fire-ness has finally imploded. Well after living for 8 months without the Internet I did and it looked a little like this. The PirateBox is a DIY anonymous offline file-sharing and communication system built with free software and inexpensive off-the-shelf hardware.</span>
+<span id="cb1-13"><a href="#cb1-13"></a></span>
+<span id="cb1-14"><a href="#cb1-14"></a>This workshop will go through the steps of setting up your very own PirateBox, using OpenWRT we will build an offline Internet with an inbuilt chat, file sharing capabilities and image board. Which can then be battery powered and carried around with you! The PirateBox is a beginner friendly privacy and anonymity positive piece of hardware, it introduces students to the basic concepts of hardware hacking, flashing devices, setting up config files etc. More importantly it has a larger cultural impact as it is an easy way for people to anonymously communicate and exchange files in a time where this is becoming difficult. It has previously been used by people to locally share digital media (such as ebooks) and to securely share cryptographic keys by people running CryptoParty workshops.</span>
 <span id="cb1-15"><a href="#cb1-15"></a></span>
-<span id="cb1-16"><a href="#cb1-16"></a>A technique originally developed in China as a way of printing on textiles and later on paper, the oldest surviving fragments to survive date back to the Han dynasty (before 220).</span>
+<span id="cb1-16"><a href="#cb1-16"></a><span class="fu">## Student Prerequisites</span></span>
 <span id="cb1-17"><a href="#cb1-17"></a></span>
-<span id="cb1-18"><a href="#cb1-18"></a>Woodcut is a type of relief printing where an artist carves an image into the surface of a block of wood. When printing, areas that are cut away carry no ink while characters or images at surface level carry the ink to produce the print.</span>
+<span id="cb1-18"><a href="#cb1-18"></a>This is a beginner friendly course, little to no prior knowledge of OpenWRT is needed, but users should have basic understanding of the command line.</span>
 <span id="cb1-19"><a href="#cb1-19"></a></span>
-<span id="cb1-20"><a href="#cb1-20"></a>Linocut is a variation of woodcutting where Linoleum is used instead of wood, making the art style more accessible to a professional and non-professional artists.</span>
-<span id="cb1-21"><a href="#cb1-21"></a></span>
-<span id="cb1-22"><a href="#cb1-22"></a><span class="fu">## Woodblock</span></span>
-<span id="cb1-23"><a href="#cb1-23"></a></span>
-<span id="cb1-24"><a href="#cb1-24"></a>::: {layout="[<span class="co">[</span><span class="ot">50,-5,50</span><span class="co">]</span>]"}</span>
-<span id="cb1-25"><a href="#cb1-25"></a></span>
-<span id="cb1-26"><a href="#cb1-26"></a>!<span class="co">[</span><span class="ot">**The history of witches and wizards: giving a true account of all their tryals in England, Scotland, Swedeland, France, and New England; with their confession and condemnation**, circa 1720, Collected from Bishop Hall, Bishop Morton, Sir Matthew Hale, etc., [Wellcome Collection](https://wellcomecollection.org/works/abkab8tq/images?id=a3nuy2zq)</span><span class="co">](/imgs/a-feast-around-a-table-with-devils-and-witches.png)</span></span>
-<span id="cb1-27"><a href="#cb1-27"></a></span>
-<span id="cb1-28"><a href="#cb1-28"></a>!<span class="co">[</span><span class="ot">**[Ars moriendi](/notebook/ars-moriendi.md), [woodblock](woodblock.md) 7 of 11**, Circa 1460, illustrator unknown, en wikipedia. [Source](http://userpage.fu-berlin.de/~aeimhof/seelefr.htm)</span><span class="co">](/imgs/ars-moriendi.png)</span></span>
-<span id="cb1-29"><a href="#cb1-29"></a></span>
-<span id="cb1-30"><a href="#cb1-30"></a>!<span class="co">[</span><span class="ot">**The history of witches and wizards: giving a true account of all their tryals in England, Scotland, Swedeland, France, and New England; with their confession and condemnation**, circa 1720, Collected from Bishop Hall, Bishop Morton, Sir Matthew Hale, etc., [Wellcome Collection](https://wellcomecollection.org/works/abkab8tq/images?id=a3nuy2zq)</span><span class="co">](/imgs/witches-dancing-in-a-circle-with-the-devil.png)</span></span>
-<span id="cb1-31"><a href="#cb1-31"></a></span>
-<span id="cb1-32"><a href="#cb1-32"></a>!<span class="co">[</span><span class="ot">**Theatrum Chemicum Britannicum**, [woodblock](woodblock), circa 1652, Elias Ashmole, [The Public Domain Review](https://publicdomainreview.org/collection/theatrum-chemicum). Alchemical image taken from the British alchemical theater of ripley, depicts the two-headed serpent of arabia: azoth and kibrit</span><span class="co">](/imgs/theatrum-chemicum-britannicum.png)</span></span>
-<span id="cb1-33"><a href="#cb1-33"></a></span>
-<span id="cb1-34"><a href="#cb1-34"></a>!<span class="co">[</span><span class="ot">**The history of witches and wizards: giving a true account of all their tryals in England, Scotland, Swedeland, France, and New England; with their confession and condemnation**, circa 1720, Collected from Bishop Hall, Bishop Morton, Sir Matthew Hale, etc., [Wellcome Collection](https://wellcomecollection.org/works/abkab8tq/images?id=a3nuy2zq), Witches flying on broomsticks</span><span class="co">](/imgs/witches-flying-on-broomsticks.png)</span></span>
-<span id="cb1-35"><a href="#cb1-35"></a></span>
-<span id="cb1-36"><a href="#cb1-36"></a>:::</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-20"><a href="#cb1-20"></a>Download the PDF (Coming Soon)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
@@ -645,7 +589,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">© 2023 errbufferoverfl | <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.en">CC BY-SA 4.0</a></div>
   </div>
 </footer>
-<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","selector":".lightbox","loop":true,"openEffect":"zoom","descPosition":"bottom"});</script>
 
 
 

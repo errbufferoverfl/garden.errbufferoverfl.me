@@ -106,9 +106,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     }
 
     const options = {
-      valueNames: ['listing-image','listing-date','listing-title','listing-categories','listing-reading-time','listing-description','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-categories"],
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -225,7 +225,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
+    <div class="quarto-title column-page">
       <div class="quarto-title-block"><div><h1 class="title">The Soapbox</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
             <p class="subtitle lead">Meetup, conference and training that I’ve previously delivered.</p>
                       </div>
@@ -243,10 +243,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
@@ -257,7 +256,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- -->
 
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="listing-actions-group">
    <div class="input-group input-group-sm quarto-listing-sort">
      <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
@@ -273,21 +272,164 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
          <option value="listing-date-sort" data-direction="desc">
           Date - Newest
         </option>
-         <option value="listing-file-modified-sort" data-direction="asc">
-          Modified - Oldest
-        </option>
-         <option value="listing-file-modified-sort" data-direction="desc">
-          Modified - Newest
-        </option>
      </select>
   </div>
-    <div class="input-group input-group-sm quarto-listing-filter">
-      <span class="input-group-text"><i class="bi bi-search"></i></span>
-      <input type="text" class="search form-control" placeholder="Filter">
-    </div>
 </div>
-<div class="list grid quarto-listing-cols-3">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="PyCon,Security,Culture" data-listing-date-sort="1630501200000" data-listing-file-modified-sort="1698497136622" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="body">
+<a href="../soapbox/collapsology-why-your-biggest-threat-isnt-exposed-rdp.html">
+<h3 class="no-anchor listing-title">
+Collapsology: Why your biggest threat isn’t exposed RDP
+</h3>
+<div class="listing-subtitle">
 
+</div>
+<div class="listing-description">
+<p>For decades, anthropologists, quantitative historians, and sociologists have discussed and proposed various explanations for the collapse of civilizations, from unsustainable complexity, decay of social cohesion, rising inequality and general misfortune. Using our time-travelling phone booth, we’ll investigate historical collapses and conduct a root cause analysis to investigate why these collapses happened, and how we can observe similar issues in modern business environments.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../soapbox/collapsology-why-your-biggest-threat-isnt-exposed-rdp.html">
+<div class="listing-date">
+September, 2021
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Security,Debate,Cloud Security" data-listing-date-sort="1572610771000" data-listing-file-modified-sort="1698497183401" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="body">
+<a href="../soapbox/the-big-cloud-security-debate-hackers-vs-security-engineers.html">
+<h3 class="no-anchor listing-title">
+The Big Cloud Security Debate: Hackers vs Security Engineers
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>A debate organised by ANZ, Contino and Meetup Madness where 4 hackers vs 4 security experts engaging in a fiery debate to determine all the ways they can hack and defend cloud environments. errbufferoverfl participated as part of the “hackers”/”red team”.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../soapbox/the-big-cloud-security-debate-hackers-vs-security-engineers.html">
+<div class="listing-date">
+November, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="Locksport,Lock Picking,History" data-listing-date-sort="1569932446000" data-listing-file-modified-sort="1698497050144" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="body">
+<a href="../soapbox/a-brief-history-of-tamper-evident-locks.html">
+<h3 class="no-anchor listing-title">
+A Brief History of Tamper Evident Locks
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>A talk that discussed common “canary locks” or locks with tamper evident mechanisms through the ages, Buffy trawled through 11,335,427 patents to identify several high and low profile locks and their known, or speculated bypass techniques.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../soapbox/a-brief-history-of-tamper-evident-locks.html">
+<div class="listing-date">
+October, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="Security,Kali Linux,Hacking" data-listing-date-sort="1556713384000" data-listing-file-modified-sort="1698497153944" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="body">
+<a href="../soapbox/luv-may-2019-main-meeting-kali-linux.html">
+<h3 class="no-anchor listing-title">
+LUV May 2019 Main Meeting: Kali Linux
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Come together in ritual to learn about KALI LINUX! A Debian based Penetration Testing and Ethical Hacking distribution, with over 600 pre-installed packages. In this talk errbufferoverfl will cover as many things as she can fit into an hour, from port scanning, to web application hacking to exploit pewpewpewing. We’ll be looking at some of the more popular tools available within the distribution including nmap, Burp Suite Community Edition, John the Ripper and many others. She will also discuss the phases we go through when conducting a security assessment from recon to exploitation and where these tools can be leveraged. Tonight, for one night only no server, or web application is sacred.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../soapbox/luv-may-2019-main-meeting-kali-linux.html">
+<div class="listing-date">
+May, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="Security,Programming,Exploit Development" data-listing-date-sort="1554121459000" data-listing-file-modified-sort="1698497169832" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="body">
+<a href="../soapbox/snake-charming-for-beginners.html">
+<h3 class="no-anchor listing-title">
+Snake Charming for Beginners
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>Snake-charming is an age-old practice of hypnotizing snakes by playing and waving a murli - in the modern day this practice looks much different, equipped with an Integrated Development Environment (IDE), a clackity keyboard and a trusty guide we’ll be taking you through how you can effectively charm Python 3.6. On the first day of our trek through the dense jungles of Pythonia we will be looking at how to build a simple sub-domain enumeration tool and how to get started building simple exploits - for those who have trekked these paths before - extra challenges will await you.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../soapbox/snake-charming-for-beginners.html">
+<div class="listing-date">
+April, 2019
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="Security,PyCon,Paper Towns,Canary Tokens" data-listing-date-sort="1541075194000" data-listing-file-modified-sort="1698497062569" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="body">
+<a href="../soapbox/agloe-what-the-map-makers-of-the-1930s-can-teach-us-about-protecting-our-data-in-2018.html">
+<h3 class="no-anchor listing-title">
+Agloe - What the Map Makers of the 1930s can Teach us About Protecting our Data in 2018
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>In this talk we are going to do the time warp back to the 1930’s and see what the General Drafting Company can teach us about securing data and breach notification and how to apply these concepts in the modern day. Using free and open-source solutions I’ll show you that information security isn’t all about expensive third-party products and Security Operations Centers’ (SOC), rather, by using some defensive thinking and a bit of creativity, with your existing infrastructure and services you too can easily identify data breaches, and catch the bad guys in the act with the tools you already use in your own environment. Come along for a lesson on the anatomy of the canary.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../soapbox/agloe-what-the-map-makers-of-the-1930s-can-teach-us-about-protecting-our-data-in-2018.html">
+<div class="listing-date">
+November, 2018
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="Workshop,Low-Tech,PirateBox" data-listing-date-sort="1517488082000" data-listing-file-modified-sort="1698497263805" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="body">
+<a href="../soapbox/building-your-own-offline-file-sharing-and-communication-system-for-the-inevitable-downfall-of-the-internet.html">
+<h3 class="no-anchor listing-title">
+Building your own offline file-sharing and communication system for the inevitable downfall of the Internet
+</h3>
+<div class="listing-subtitle">
+
+</div>
+<div class="listing-description">
+<p>This workshop will go through the steps of setting up your very own PirateBox, using OpenWRT we will build an offline Internet with an inbuilt chat, file sharing capabilities and image board. Which can then be battery powered and carried around with you! The PirateBox is a beginner friendly privacy and anonymity positive piece of hardware, it introduces students to the basic concepts of hardware hacking, flashing devices, setting up config files etc. More importantly it has a larger cultural impact as it is an easy way for people to anonymously communicate and exchange files in a time where this is becoming difficult. It has previously been used by people to locally share digital media (such as ebooks) and to securely share cryptographic keys by people running CryptoParty workshops.</p>
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../soapbox/building-your-own-offline-file-sharing-and-communication-system-for-the-inevitable-downfall-of-the-internet.html">
+<div class="listing-date">
+February, 2018
+</div>
+</a>
+</div>
+</div>
 </div>
 <div class="listing-no-matching d-none">
 No matching items
@@ -596,19 +738,18 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <span id="cb1-3"><a href="#cb1-3"></a><span class="an">subtitle:</span><span class="co"> "Meetup, conference and training that I’ve previously delivered."</span></span>
 <span id="cb1-4"><a href="#cb1-4"></a><span class="an">listing:</span></span>
 <span id="cb1-5"><a href="#cb1-5"></a><span class="co">  contents: .</span></span>
-<span id="cb1-6"><a href="#cb1-6"></a><span class="co">  fields: [image, date, title, categories, reading-time, description, file-modified]</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a><span class="co">  fields: [date, title, description]</span></span>
 <span id="cb1-7"><a href="#cb1-7"></a><span class="co">  sort: "date desc"</span></span>
-<span id="cb1-8"><a href="#cb1-8"></a><span class="co">  type: grid</span></span>
-<span id="cb1-9"><a href="#cb1-9"></a><span class="co">  categories: numbered</span></span>
-<span id="cb1-10"><a href="#cb1-10"></a><span class="co">  sort-ui: true</span></span>
-<span id="cb1-11"><a href="#cb1-11"></a><span class="co">  filter-ui: true</span></span>
-<span id="cb1-12"><a href="#cb1-12"></a><span class="co">  image-placeholder: /imgs/placeholder.jpg</span></span>
-<span id="cb1-13"><a href="#cb1-13"></a><span class="an">page-layout:</span><span class="co"> full</span></span>
-<span id="cb1-14"><a href="#cb1-14"></a><span class="an">title-block-banner:</span><span class="co"> true</span></span>
-<span id="cb1-15"><a href="#cb1-15"></a><span class="an">citation:</span><span class="co"> false</span></span>
-<span id="cb1-16"><a href="#cb1-16"></a><span class="an">toc:</span><span class="co"> false</span></span>
-<span id="cb1-17"><a href="#cb1-17"></a><span class="an">comments:</span><span class="co"> false</span></span>
-<span id="cb1-18"><a href="#cb1-18"></a><span class="co">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb1-8"><a href="#cb1-8"></a><span class="co">  type: default</span></span>
+<span id="cb1-9"><a href="#cb1-9"></a><span class="co">  sort-ui: true</span></span>
+<span id="cb1-10"><a href="#cb1-10"></a><span class="an">date-format:</span><span class="co"> "MMMM, YYYY"</span></span>
+<span id="cb1-11"><a href="#cb1-11"></a><span class="an">max-description-length:</span><span class="co"> 500</span></span>
+<span id="cb1-12"><a href="#cb1-12"></a><span class="an">page-layout:</span><span class="co"> full</span></span>
+<span id="cb1-13"><a href="#cb1-13"></a><span class="an">title-block-banner:</span><span class="co"> true</span></span>
+<span id="cb1-14"><a href="#cb1-14"></a><span class="an">citation:</span><span class="co"> false</span></span>
+<span id="cb1-15"><a href="#cb1-15"></a><span class="an">toc:</span><span class="co"> false</span></span>
+<span id="cb1-16"><a href="#cb1-16"></a><span class="an">comments:</span><span class="co"> false</span></span>
+<span id="cb1-17"><a href="#cb1-17"></a><span class="co">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">

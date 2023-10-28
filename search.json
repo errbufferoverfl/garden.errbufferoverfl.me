@@ -693,11 +693,32 @@
     "text": "2023-09-14\n\nAdded\n\nThis CHANGELOG.\nCanonical href to head.tsx to prevent “Duplicate without user-selected canonical” indexing errors."
   },
   {
-    "objectID": "soapbox/index.html",
-    "href": "soapbox/index.html",
-    "title": "The Soapbox",
+    "objectID": "soapbox/luv-may-2019-main-meeting-kali-linux.html",
+    "href": "soapbox/luv-may-2019-main-meeting-kali-linux.html",
+    "title": "LUV May 2019 Main Meeting: Kali Linux",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Modified - Oldest\n        \n         \n          Modified - Newest\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nNo matching items\n\n Back to top"
+    "text": "Come together in ritual to learn about KALI LINUX! A Debian based Penetration Testing and Ethical Hacking distribution, with over 600 pre-installed packages. In this talk errbufferoverfl will cover as many things as she can fit into an hour, from port scanning, to web application hacking to exploit pewpewpewing. We’ll be looking at some of the more popular tools available within the distribution including nmap, Burp Suite Community Edition, John the Ripper and many others. She will also discuss the phases we go through when conducting a security assessment from recon to exploitation and where these tools can be leveraged. Tonight, for one night only no server, or web application is sacred.\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "soapbox/agloe-what-the-map-makers-of-the-1930s-can-teach-us-about-protecting-our-data-in-2018.html",
+    "href": "soapbox/agloe-what-the-map-makers-of-the-1930s-can-teach-us-about-protecting-our-data-in-2018.html",
+    "title": "Agloe - What the Map Makers of the 1930s can Teach us About Protecting our Data in 2018",
+    "section": "",
+    "text": "What does the little town of Agloe, Colchester, NY have in common with modern day data protection? Why when I look for directions to Agloe, Colchester, NY do I only get a partial match? And what do yellow small birds have to do with anything?\nIn this talk we are going to do the time warp back to the 1930’s and see what the General Drafting Company can teach us about securing data and breach notification and how to apply these concepts in the modern day. Using free and open-source solutions I’ll show you that information security isn’t all about expensive third-party products and Security Operations Centers’ (SOC), rather, by using some defensive thinking and a bit of creativity, with your existing infrastructure and services you too can easily identify data breaches, and catch the bad guys in the act with the tools you already use in your own environment. Come along for a lesson on the anatomy of the canary.\nPyCon 2018 Security & Privacy Track • OWASP AppSec Day • PurpleCon (PDF)\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "soapbox/snake-charming-for-beginners.html",
+    "href": "soapbox/snake-charming-for-beginners.html",
+    "title": "Snake Charming for Beginners",
+    "section": "",
+    "text": "Snake-charming is an age-old practice of hypnotizing snakes by playing and waving a murli - in the modern day this practice looks much different, equipped with an Integrated Development Environment (IDE), a clackity keyboard and a trusty guide we’ll be taking you through how you can effectively charm Python 3.6.\nOn the first day of our trek through the dense jungles of Pythonia we will be looking at how to build a simple sub-domain enumeration tool and how to get started building simple exploits - for those who have trekked these paths before - extra challenges will await you.\nDay two we will move further into the dark jungles of Pythonia delving into forbidden user-land territory and how you can use Python to gather useful system-level information, and contact the UNIX daemons of old.\nWhile writing this training description, errbufferoverfl wrote two Python fan fictions, the next cyber-themed Hollywood blockbuster and Shakespearian a play about the training.\n0xCC • Download the iPython (Coming Soon) • GitHub\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "soapbox/a-brief-history-of-tamper-evident-locks.html",
+    "href": "soapbox/a-brief-history-of-tamper-evident-locks.html",
+    "title": "A Brief History of Tamper Evident Locks",
+    "section": "",
+    "text": "A talk that discussed common “canary locks” or locks with tamper evident mechanisms through the ages, Buffy trawled through 11,335,427 patents to identify several high and low profile locks and their known, or speculated bypass techniques.\nLockCon • View the slides\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "CODE_OF_CONDUCT.html",
@@ -782,6 +803,41 @@
     "title": "",
     "section": "11. License and attribution",
     "text": "11. License and attribution\nThe Citizen Code of Conduct is distributed by Stumptown Syndicate under a Creative Commons Attribution-ShareAlike license.\nPortions of text derived from the Django Code of Conduct and the Geek Feminism Anti-Harassment Policy.\nRevision 2.3. Posted 6 March 2017.\nRevision 2.2. Posted 4 February 2016.\nRevision 2.1. Posted 23 June 2014.\nRevision 2.0, adopted by the Stumptown Syndicate board on 10 January 2013. Posted 17 March 2013."
+  },
+  {
+    "objectID": "soapbox/collapsology-why-your-biggest-threat-isnt-exposed-rdp.html",
+    "href": "soapbox/collapsology-why-your-biggest-threat-isnt-exposed-rdp.html",
+    "title": "Collapsology: Why your biggest threat isn’t exposed RDP",
+    "section": "",
+    "text": "For decades, anthropologists, quantitative historians, and sociologists have discussed and proposed various explanations for the collapse of civilizations, from unsustainable complexity, decay of social cohesion, rising inequality and general misfortune.\nUsing our time-travelling phone booth, we’ll investigate historical collapses and conduct a root cause analysis to investigate why these collapses happened, and how we can observe similar issues in modern business environments.\nThis talk provides an overview of how to identify cultural threats in a rapidly evolving business landscape, and how we can use modern-day tools to identify these threats before they result in security culture collapse.\nPyConline 2021 Snake Oil Academy Recording • Additional Resources\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "soapbox/building-your-own-offline-file-sharing-and-communication-system-for-the-inevitable-downfall-of-the-internet.html",
+    "href": "soapbox/building-your-own-offline-file-sharing-and-communication-system-for-the-inevitable-downfall-of-the-internet.html",
+    "title": "Building your own offline file-sharing and communication system for the inevitable downfall of the Internet",
+    "section": "",
+    "text": "Have you ever considered a world where the Internet in all it’s grandeur and tyre-fire-ness has finally imploded. Well after living for 8 months without the Internet I did and it looked a little like this. The PirateBox is a DIY anonymous offline file-sharing and communication system built with free software and inexpensive off-the-shelf hardware.\nThis workshop will go through the steps of setting up your very own PirateBox, using OpenWRT we will build an offline Internet with an inbuilt chat, file sharing capabilities and image board. Which can then be battery powered and carried around with you! The PirateBox is a beginner friendly privacy and anonymity positive piece of hardware, it introduces students to the basic concepts of hardware hacking, flashing devices, setting up config files etc. More importantly it has a larger cultural impact as it is an easy way for people to anonymously communicate and exchange files in a time where this is becoming difficult. It has previously been used by people to locally share digital media (such as ebooks) and to securely share cryptographic keys by people running CryptoParty workshops."
+  },
+  {
+    "objectID": "soapbox/building-your-own-offline-file-sharing-and-communication-system-for-the-inevitable-downfall-of-the-internet.html#student-prerequisites",
+    "href": "soapbox/building-your-own-offline-file-sharing-and-communication-system-for-the-inevitable-downfall-of-the-internet.html#student-prerequisites",
+    "title": "Building your own offline file-sharing and communication system for the inevitable downfall of the Internet",
+    "section": "Student Prerequisites",
+    "text": "Student Prerequisites\nThis is a beginner friendly course, little to no prior knowledge of OpenWRT is needed, but users should have basic understanding of the command line.\nDownload the PDF (Coming Soon)"
+  },
+  {
+    "objectID": "soapbox/index.html",
+    "href": "soapbox/index.html",
+    "title": "The Soapbox",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n     \n  \n\n\n\n\n\n\nCollapsology: Why your biggest threat isn’t exposed RDP\n\n\n\n\n\nFor decades, anthropologists, quantitative historians, and sociologists have discussed and proposed various explanations for the collapse of civilizations, from unsustainable complexity, decay of social cohesion, rising inequality and general misfortune. Using our time-travelling phone booth, we’ll investigate historical collapses and conduct a root cause analysis to investigate why these collapses happened, and how we can observe similar issues in modern business environments.\n\n\n\n\n\n\nSeptember, 2021\n\n\n\n\n\n\n\n\nThe Big Cloud Security Debate: Hackers vs Security Engineers\n\n\n\n\n\nA debate organised by ANZ, Contino and Meetup Madness where 4 hackers vs 4 security experts engaging in a fiery debate to determine all the ways they can hack and defend cloud environments. errbufferoverfl participated as part of the “hackers”/”red team”.\n\n\n\n\n\n\nNovember, 2019\n\n\n\n\n\n\n\n\nA Brief History of Tamper Evident Locks\n\n\n\n\n\nA talk that discussed common “canary locks” or locks with tamper evident mechanisms through the ages, Buffy trawled through 11,335,427 patents to identify several high and low profile locks and their known, or speculated bypass techniques.\n\n\n\n\n\n\nOctober, 2019\n\n\n\n\n\n\n\n\nLUV May 2019 Main Meeting: Kali Linux\n\n\n\n\n\nCome together in ritual to learn about KALI LINUX! A Debian based Penetration Testing and Ethical Hacking distribution, with over 600 pre-installed packages. In this talk errbufferoverfl will cover as many things as she can fit into an hour, from port scanning, to web application hacking to exploit pewpewpewing. We’ll be looking at some of the more popular tools available within the distribution including nmap, Burp Suite Community Edition, John the Ripper and many others. She will also discuss the phases we go through when conducting a security assessment from recon to exploitation and where these tools can be leveraged. Tonight, for one night only no server, or web application is sacred.\n\n\n\n\n\n\nMay, 2019\n\n\n\n\n\n\n\n\nSnake Charming for Beginners\n\n\n\n\n\nSnake-charming is an age-old practice of hypnotizing snakes by playing and waving a murli - in the modern day this practice looks much different, equipped with an Integrated Development Environment (IDE), a clackity keyboard and a trusty guide we’ll be taking you through how you can effectively charm Python 3.6. On the first day of our trek through the dense jungles of Pythonia we will be looking at how to build a simple sub-domain enumeration tool and how to get started building simple exploits - for those who have trekked these paths before - extra challenges will await you.\n\n\n\n\n\n\nApril, 2019\n\n\n\n\n\n\n\n\nAgloe - What the Map Makers of the 1930s can Teach us About Protecting our Data in 2018\n\n\n\n\n\nIn this talk we are going to do the time warp back to the 1930’s and see what the General Drafting Company can teach us about securing data and breach notification and how to apply these concepts in the modern day. Using free and open-source solutions I’ll show you that information security isn’t all about expensive third-party products and Security Operations Centers’ (SOC), rather, by using some defensive thinking and a bit of creativity, with your existing infrastructure and services you too can easily identify data breaches, and catch the bad guys in the act with the tools you already use in your own environment. Come along for a lesson on the anatomy of the canary.\n\n\n\n\n\n\nNovember, 2018\n\n\n\n\n\n\n\n\nBuilding your own offline file-sharing and communication system for the inevitable downfall of the Internet\n\n\n\n\n\nThis workshop will go through the steps of setting up your very own PirateBox, using OpenWRT we will build an offline Internet with an inbuilt chat, file sharing capabilities and image board. Which can then be battery powered and carried around with you! The PirateBox is a beginner friendly privacy and anonymity positive piece of hardware, it introduces students to the basic concepts of hardware hacking, flashing devices, setting up config files etc. More importantly it has a larger cultural impact as it is an easy way for people to anonymously communicate and exchange files in a time where this is becoming difficult. It has previously been used by people to locally share digital media (such as ebooks) and to securely share cryptographic keys by people running CryptoParty workshops.\n\n\n\n\n\n\nFebruary, 2018\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "soapbox/the-big-cloud-security-debate-hackers-vs-security-engineers.html",
+    "href": "soapbox/the-big-cloud-security-debate-hackers-vs-security-engineers.html",
+    "title": "The Big Cloud Security Debate: Hackers vs Security Engineers",
+    "section": "",
+    "text": "A debate organised by ANZ, Contino and Meetup Madness where 4 hackers vs 4 security experts engaging in a fiery debate to determine all the ways they can hack and defend cloud environments. errbufferoverfl participated as part of the “hackers”/”red team”.\nDebate Recording\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "Progress/example.html",
