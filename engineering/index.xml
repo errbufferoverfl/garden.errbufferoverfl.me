@@ -10,7 +10,234 @@
 <atom:link href="https://garden.errbufferoverfl.me/engineering/index.xml" rel="self" type="application/rss+xml"/>
 <description>A garden of evolving ideas about society, microfarming, and sometimes security engineering.</description>
 <generator>quarto-1.3.450</generator>
-<lastBuildDate>Tue, 24 Oct 2023 08:59:51 GMT</lastBuildDate>
+<lastBuildDate>Sat, 28 Oct 2023 10:42:30 GMT</lastBuildDate>
+<item>
+  <title>Security Vulnerabilities in Single-Sign On</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/security-vulnerabilities-in-single-sign-on.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="page-columns page-full"><p>In 2014, automated testing of the top twenty thousand top-ranked websites using the Facebook SDK, found over 20% were suffering from at least one of five security vulnerabilities.<sup>1</sup></p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;Zhou and Evans, “SSOScan: Automated Testing of Web Applications for Single Sign-On Vulnerabilities.”</p></li></div></div>
+<p>The study focused on five unique vulnerabilities:</p>
+<ul>
+<li><strong>Access Token misuse</strong> - a vulnerability where the access token is used to authenticate users rather than authorising users.</li>
+<li><strong>Signed Request misuse</strong> - a vulnerability where the developer does not verify the signature of a signed request, however, trusts the data contained within the request.</li>
+<li><strong>App Secret leaks</strong> - a vulnerability where the code and app_secret exchange occurs client side rather than server side.</li>
+<li><strong>User OAuth credentials leak</strong> - two vulnerabilities, one where OAuth credentials are leaked via the referer header. The other, where untrusted or unverified third-party content is contained within the same frame that authentication occurs in.</li>
+</ul>
+<p>Regarding vulnerabilities identified:</p>
+<ul>
+<li>Total sample size of 1660 sites that incorporate Facebook SSO buttons</li>
+<li>39 sites display Facebook SOO buttons but have buggy implementations
+<ul>
+<li>Most frequently setting the application to ‘sandbox’, or</li>
+<li>Providing an incorrect application ID</li>
+</ul></li>
+<li>202 sites misuse credentials
+<ul>
+<li>126 sites are misusing both the <code>access_token</code> and <code>signed_request</code></li>
+</ul></li>
+<li>146 sites leak Facebook SSO credentials
+<ul>
+<li>72 sites are leaking through both referrer headers and the DOM</li>
+</ul></li>
+<li>345 sites suffered from at least one vulnerability
+<ul>
+<li>3 sites suffered from both credential misuse and leakage problems</li>
+</ul></li>
+</ul>
+<p>Regarding the profile of affected sites:</p>
+<ul>
+<li>More popular sites are more like to misuse credentials</li>
+<li>Less popular sites are mote likely to leak credentials</li>
+<li>Of the top-1000 ranked sites:
+<ul>
+<li>60 out of 270 support Facebook SSO and suffer at least one vulnerability</li>
+</ul></li>
+<li>The vulnerability rate is similar for the top 10,000 and the bottom 10,000. This suggests that development practices at larger companies are no more secure than smaller companies</li>
+<li>Websites using preconfigured widgets are more likely to misuse credentials, likely because they expose raw access tokens and signed requests.
+<ul>
+<li>Convenience factor may lead to more neglectful development practices.</li>
+</ul></li>
+<li>Websites using the SDK and widgets are better at hiding credentials.</li>
+</ul>
+<p>Regarding remediation:</p>
+<ul>
+<li>Out of 20 notifications, only 8 responses were received
+<ul>
+<li>3 sites set an automated response
+<ul>
+<li>4 months later, 1 site removed the integration citing “content deemed inappropriate”<sup>2</sup></li>
+</ul></li>
+<li>1 engineer responded, but never followed up after additional information was provided</li>
+<li>1 company remediated the issue after follow up via personal channels
+<ul>
+<li>Their initial attempt at remediation was unsuccessful</li>
+</ul></li>
+</ul></li>
+<li>Nine months later they retesting the 345 affected sites, including the 20 contacted
+<ul>
+<li>48 sites had successfully remediated the identified vulnerabilities, including 1 company that was contacted directly
+<ul>
+<li>22 were identified as leaking credentials</li>
+<li>27 were misusing credentials
+<ul>
+<li>1 site affected by both vulnerabilities, fixed both</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>An unspecified number of sites that were misusing credentials had migrated from token or signed request flows, to code flow.</li>
+</ul>
+<div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;<strong><em>What does this even mean?!</em></strong> 😂</p></li></div><div class="page-columns page-full"><p>Regarding Facebook:<sup>3</sup> <sup>and</sup> <sup>4</sup></p><div class="no-row-height column-margin column-container"><li id="fn3"><p><sup>3</sup>&nbsp;At the time personal data belonging to millions of Facebook users was collected without their consent by British consulting firm Cambridge Analytica.</p></li><li id="fn4"><p><sup>4</sup>&nbsp;One year prior to this paper being published in June 2013, there was news that a bug in the contact information archive that allowed personal data of approximately 6 million Facebook users to be leaked online. It is believed that the original issue was introduced in 2012.</p></li></div></div>
+<ul>
+<li>Facebook engineers stated concern with the access token leakage through referer headers</li>
+<li>Facebook requested a list of vulnerable clients and contacted 95 sites
+<ul>
+<li>They said they would “take enforcement action as necessary” against 10 sites leaking access tokens in the referer header</li>
+</ul></li>
+<li>One month later, only an additional 4 of the 95 reported sites had been remediated
+<ul>
+<li>2 of 10 sites leaking access tokens had been remediated</li>
+</ul></li>
+</ul>
+
+
+<!-- -->
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Seed</category>
+  <category>SSO</category>
+  <category>OAuth</category>
+  <category>Vulnerabilities</category>
+  <category>OAuth Vulnerabilities</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/security-vulnerabilities-in-single-sign-on.html</guid>
+  <pubDate>Sat, 28 Oct 2023 10:42:30 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/julia-joppien-XFUqd0u5U7w-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Joomla</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/joomla.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="basic-information" class="level2">
+<h2 class="anchored" data-anchor-id="basic-information">Basic Information</h2>
+<ul>
+<li>Flexible Content Management System (CMS)</li>
+<li>PHP based</li>
+</ul>
+<section id="discovery-footprinting" class="level3">
+<h3 class="anchored" data-anchor-id="discovery-footprinting">Discovery &amp; Footprinting</h3>
+<section id="robots.txt" class="level4">
+<h4 class="anchored" data-anchor-id="robots.txt"><code>robots.txt</code></h4>
+<p>A standard Joomla <code>robots.txt</code> file looks something like:</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell-session number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"># If the Joomla site is installed within a folder</span>
+<span id="cb1-2"># eg www.example.com/joomla/ then the robots.txt file</span>
+<span id="cb1-3"># MUST be moved to the site root</span>
+<span id="cb1-4"># eg www.example.com/robots.txt</span>
+<span id="cb1-5"># AND the joomla folder name MUST be prefixed to all of the</span>
+<span id="cb1-6"># paths.</span>
+<span id="cb1-7"># eg the Disallow rule for the /administrator/ folder MUST</span>
+<span id="cb1-8"># be changed to read</span>
+<span id="cb1-9"># Disallow: /joomla/administrator/</span>
+<span id="cb1-10">#</span>
+<span id="cb1-11"># For more information about the robots.txt standard, see:</span>
+<span id="cb1-12"># https://www.robotstxt.org/orig.html</span>
+<span id="cb1-13"></span>
+<span id="cb1-14">User-agent: *</span>
+<span id="cb1-15">Disallow: /administrator/</span>
+<span id="cb1-16">Disallow: /bin/</span>
+<span id="cb1-17">Disallow: /cache/</span>
+<span id="cb1-18">Disallow: /cli/</span>
+<span id="cb1-19">Disallow: /components/</span>
+<span id="cb1-20">Disallow: /includes/</span>
+<span id="cb1-21">Disallow: /installation/</span>
+<span id="cb1-22">Disallow: /language/</span>
+<span id="cb1-23">Disallow: /layouts/</span>
+<span id="cb1-24">Disallow: /libraries/</span>
+<span id="cb1-25">Disallow: /logs/</span>
+<span id="cb1-26">Disallow: /modules/</span>
+<span id="cb1-27">Disallow: /plugins/</span>
+<span id="cb1-28">Disallow: /tmp/</span></code></pre></div>
+</section>
+<section id="meta-generator" class="level4">
+<h4 class="anchored" data-anchor-id="meta-generator"><code>meta generator</code></h4>
+<p>Viewing the raw HTML can reveal WordPress either in the <code>meta generator</code> or in other places.</p>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell-session number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1">curl -s http://dev.inlanefreight.local/ | grep Joomla</span>
+<span id="cb2-2"></span>
+<span id="cb2-3">    &lt;meta name="generator" content="Joomla! - Open Source Content Management" /&gt;</span></code></pre></div>
+</section>
+<section id="readme.txt" class="level4">
+<h4 class="anchored" data-anchor-id="readme.txt"><code>README.txt</code></h4>
+<p>If the target has poor operational hygiene, we can fingerprint the Joomla version if the README.txt file is present:</p>
+<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell-session number-lines code-with-copy"><code class="sourceCode"><span id="cb3-1">curl -s http://dev.inlanefreight.local/README.txt | head -n 5</span>
+<span id="cb3-2"></span>
+<span id="cb3-3">1- What is this?</span>
+<span id="cb3-4">    * This is a Joomla! installation/upgrade package to version 3.x</span>
+<span id="cb3-5">    * Joomla! Official site: https://www.joomla.org</span>
+<span id="cb3-6">    * Joomla! 3.9 version history - https://docs.joomla.org/Special:MyLanguage/Joomla_3.9_version_history</span>
+<span id="cb3-7">    * Detailed changes in the Changelog: https://github.com/joomla/joomla-cms/commits/staging</span></code></pre></div>
+<p>The <code>cache.xml</code> file can help to give us the approximate version. It is located at <code>plugins/system/cache/cache.xml</code>.</p>
+</section>
+<section id="included-javascript-files" class="level4">
+<h4 class="anchored" data-anchor-id="included-javascript-files">Included JavaScript Files</h4>
+<p>In certain Joomla installs, we may be able to fingerprint the version from JavaScript files in the <code>media/system/js/</code> directory or by browsing to <code>administrator/manifests/files/joomla.xml</code>.</p>
+<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell-session number-lines code-with-copy"><code class="sourceCode"><span id="cb4-1">curl -s http://dev.inlanefreight.local/administrator/manifests/files/joomla.xml | xmllint --format -</span>
+<span id="cb4-2"></span>
+<span id="cb4-3">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
+<span id="cb4-4">&lt;extension version="3.6" type="file" method="upgrade"&gt;</span>
+<span id="cb4-5">  &lt;name&gt;files_joomla&lt;/name&gt;</span>
+<span id="cb4-6">  &lt;author&gt;Joomla! Project&lt;/author&gt;</span>
+<span id="cb4-7">  &lt;authorEmail&gt;admin@joomla.org&lt;/authorEmail&gt;</span>
+<span id="cb4-8">  &lt;authorUrl&gt;www.joomla.org&lt;/authorUrl&gt;</span>
+<span id="cb4-9">  &lt;copyright&gt;(C) 2005 - 2019 Open Source Matters. All rights reserved&lt;/copyright&gt;</span>
+<span id="cb4-10">  &lt;license&gt;GNU General Public License version 2 or later; see LICENSE.txt&lt;/license&gt;</span>
+<span id="cb4-11">  &lt;version&gt;3.9.4&lt;/version&gt;</span>
+<span id="cb4-12">  &lt;creationDate&gt;March 2019&lt;/creationDate&gt;</span></code></pre></div>
+</section>
+</section>
+</section>
+<section id="remote-code-execution" class="level2">
+<h2 class="anchored" data-anchor-id="remote-code-execution">Remote Code Execution</h2>
+<ul>
+<li>If you can get admin credentials you can get remote code execution by adding a snippet of PHP code to a template.</li>
+</ul>
+</section>
+<section id="tools" class="level2">
+<h2 class="anchored" data-anchor-id="tools">Tools</h2>
+<ul>
+<li><a href="https://github.com/droope/droopescan">droopescan</a> - a plugin-based scanner that works for SilverStripe, WordPress, and Drupal with limited functionality for Joomla and Moodle.</li>
+<li><a href="https://github.com/drego85/JoomlaScan">JoomlaScan</a></li>
+<li><a href="https://github.com/OWASP/joomscan">joomscan</a> - deprecated</li>
+<li><a href="https://github.com/ajnik/joomla-bruteforce">joomla-brute.py</a></li>
+</ul>
+</section>
+<section id="further-reading" class="level2">
+<h2 class="anchored" data-anchor-id="further-reading">Further Reading</h2>
+<ul>
+<li><a href="https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/joomla">Joomla</a></li>
+</ul>
+
+
+<!-- -->
+
+</section>
+
+<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
+  <category>Seed</category>
+  <category>Joomla</category>
+  <category>Fundamentals</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/joomla.html</guid>
+  <pubDate>Sat, 28 Oct 2023 01:25:27 GMT</pubDate>
+</item>
 <item>
   <title>WordPress</title>
   <dc:creator>errbufferoverfl </dc:creator>
@@ -30,9 +257,8 @@
 <li>According to WPScan, out of nearly 4,000 known vulnerabilities, 54% are from plugins, 31.5% are from WordPress core, and 14.5% are from WordPress themes.</li>
 </ul></li>
 </ul>
-</section>
-<section id="discovery-footprinting" class="level2">
-<h2 class="anchored" data-anchor-id="discovery-footprinting">Discovery &amp; Footprinting</h2>
+<section id="discovery-footprinting" class="level3">
+<h3 class="anchored" data-anchor-id="discovery-footprinting">Discovery &amp; Footprinting</h3>
 <ul>
 <li><code>wp-activate.php</code> is used for the email activation process when setting up a new WordPress site.</li>
 <li>Login folders (may be renamed to hide it):
@@ -52,8 +278,8 @@
 <li><code>wp-includes/</code> This is the directory where core files are stored, such as certificates, fonts, JavaScript files, and widgets.</li>
 <li>The <code>wp-config.php</code> file contains information required by WordPress to connect to the database such as the database name, database host, username and password, authentication keys and salts, and the database table prefix. This configuration file can also be used to activate DEBUG mode, which can useful in troubleshooting.</li>
 </ul>
-<section id="robots.txt" class="level3">
-<h3 class="anchored" data-anchor-id="robots.txt"><code>robots.txt</code></h3>
+<section id="robots.txt" class="level4">
+<h4 class="anchored" data-anchor-id="robots.txt"><code>robots.txt</code></h4>
 <p>A standard WordPress <code>robots.txt</code> file looks something like:</p>
 <pre><code>User-agent: *
 Disallow: /wp-admin/
@@ -66,18 +292,18 @@ Sitemap: https://example.com/wp-sitemap.xml</code></pre>
 <li>Attempting to navigate to <code>/wp-admin</code> will redirect you to <code>/wp-login.php</code></li>
 </ul>
 </section>
-<section id="meta-generator" class="level3">
-<h3 class="anchored" data-anchor-id="meta-generator"><code>meta generator</code></h3>
+<section id="meta-generator" class="level4">
+<h4 class="anchored" data-anchor-id="meta-generator"><code>meta generator</code></h4>
 <p>Viewing the raw HTML can reveal WordPress either in the <code>meta generator</code> or in other places.</p>
-<pre class="shell"><code>curl -s http://blog.inlanefreight.local | grep WordPress
-
-...
-
-&lt;meta name="generator" content="WordPress 5.8" /</code></pre>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1">curl -s http://blog.inlanefreight.local | grep WordPress</span>
+<span id="cb2-2"></span>
+<span id="cb2-3">...</span>
+<span id="cb2-4"></span>
+<span id="cb2-5">&lt;meta name="generator" content="WordPress 5.8" /</span></code></pre></div>
 </section>
 </section>
-<section id="authorisation" class="level2">
-<h2 class="anchored" data-anchor-id="authorisation">Authorisation</h2>
+<section id="authorisation" class="level3">
+<h3 class="anchored" data-anchor-id="authorisation">Authorisation</h3>
 <p>There are five types of users on a standard WordPress installation.</p>
 <ol type="1">
 <li>Administrator: This user has access to administrative features within the website. This includes adding and deleting users and posts, as well as editing source code.</li>
@@ -87,6 +313,7 @@ Sitemap: https://example.com/wp-sitemap.xml</code></pre>
 <li>Subscriber: These are standard users who can browse posts and edit their profiles.</li>
 </ol>
 <p>Getting access to an administrator is sufficient to obtain code execution on the server. Editors and authors may have access to vulnerable plugins, which normal users don’t.</p>
+</section>
 </section>
 <section id="tools" class="level2">
 <h2 class="anchored" data-anchor-id="tools">Tools</h2>
@@ -101,6 +328,8 @@ Sitemap: https://example.com/wp-sitemap.xml</code></pre>
 </ul>
 
 
+<!-- -->
+
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
@@ -109,209 +338,6 @@ Sitemap: https://example.com/wp-sitemap.xml</code></pre>
   <category>Fundamentals</category>
   <guid>https://garden.errbufferoverfl.me/engineering/wordpress.html</guid>
   <pubDate>Tue, 24 Oct 2023 08:59:51 GMT</pubDate>
-  <media:content url="https://garden.errbufferoverfl.me/engineering" medium="image"/>
-</item>
-<item>
-  <title>Hack the Box</title>
-  <dc:creator>errbufferoverfl </dc:creator>
-  <link>https://garden.errbufferoverfl.me/engineering/hack-the-box-attacking-common-applications.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<section id="scope" class="level2">
-<h2 class="anchored" data-anchor-id="scope">Scope</h2>
-<div class="{{callout-note}}">
-<p>Not all hosts in the scope list are accessible when spawning the target below.</p>
-</div>
-<ul>
-<li>app.inlanefreight.local</li>
-<li>dev.inlanefreight.local</li>
-<li>drupal-dev.inlanefreight.local</li>
-<li>drupal-qa.inlanefreight.local</li>
-<li>drupal-acc.inlanefreight.local</li>
-<li>drupal.inlanefreight.local</li>
-<li>blog-dev.inlanefreight.local</li>
-<li>blog.inlanefreight.local</li>
-<li>app-dev.inlanefreight.local</li>
-<li>jenkins-dev.inlanefreight.local</li>
-<li>jenkins.inlanefreight.local</li>
-<li>web01.inlanefreight.local</li>
-<li>gitlab-dev.inlanefreight.local</li>
-<li>gitlab.inlanefreight.local</li>
-<li>support-dev.inlanefreight.local</li>
-<li>support.inlanefreight.local</li>
-<li>inlanefreight.local</li>
-<li>10.129.201.50</li>
-</ul>
-</section>
-<section id="discoveryenumeration" class="level2">
-<h2 class="anchored" data-anchor-id="discoveryenumeration">Discovery/Enumeration</h2>
-</section>
-<section id="application-discovery" class="level2">
-<h2 class="anchored" data-anchor-id="application-discovery">Application Discovery</h2>
-<section id="blog.inlanefreight.local" class="level3">
-<h3 class="anchored" data-anchor-id="blog.inlanefreight.local"><code>blog.inlanefreight.local</code></h3>
-<pre><code>Starting Nmap 7.93 ( https://nmap.org ) at 2023-10-24 20:35 AEDT
-Nmap scan report for blog.inlanefreight.local (10.129.42.195)
-Host is up (1.5s latency).
-Not shown: 998 closed tcp ports (reset)
-PORT   STATE SERVICE
-22/tcp open  ssh
-80/tcp open  http
-
-Nmap done: 1 IP address (1 host up) scanned in 8.32 seconds</code></pre>
-<pre><code>pscan --url blog.inlanefreight.local
-_______________________________________________________________
-         __          _______   _____
-         \ \        / /  __ \ / ____|
-          \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
-           \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \
-            \  /\  /  | |     ____) | (__| (_| | | | |
-             \/  \/   |_|    |_____/ \___|\__,_|_| |_|
-
-         WordPress Security Scanner by the WPScan Team
-                         Version 3.8.22
-       Sponsored by Automattic - https://automattic.com/
-       @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart
-_______________________________________________________________
-
-[+] URL: http://blog.inlanefreight.local/ [10.129.239.31]
-[+] Started: Tue Oct 24 10:49:56 2023
-
-Interesting Finding(s):
-
-[+] Headers
- | Interesting Entry: Server: Apache/2.4.41 (Ubuntu)
- | Found By: Headers (Passive Detection)
- | Confidence: 100%
-
-[+] XML-RPC seems to be enabled: http://blog.inlanefreight.local/xmlrpc.php
- | Found By: Direct Access (Aggressive Detection)
- | Confidence: 100%
- | References:
- |  - http://codex.wordpress.org/XML-RPC_Pingback_API
- |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
- |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
- |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
- |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
-
-[+] WordPress readme found: http://blog.inlanefreight.local/readme.html
- | Found By: Direct Access (Aggressive Detection)
- | Confidence: 100%
-
-[+] Upload directory has listing enabled: http://blog.inlanefreight.local/wp-content/uploads/
- | Found By: Direct Access (Aggressive Detection)
- | Confidence: 100%
-
-[+] The external WP-Cron seems to be enabled: http://blog.inlanefreight.local/wp-cron.php
- | Found By: Direct Access (Aggressive Detection)
- | Confidence: 60%
- | References:
- |  - https://www.iplocation.net/defend-wordpress-from-ddos
- |  - https://github.com/wpscanteam/wpscan/issues/1299
-
-[+] WordPress version 5.8 identified (Insecure, released on 2021-07-20).
- | Found By: Rss Generator (Passive Detection)
- |  - http://blog.inlanefreight.local/?feed=rss2, &lt;generator&gt;https://wordpress.org/?v=5.8&lt;/generator&gt;
- |  - http://blog.inlanefreight.local/?feed=comments-rss2, &lt;generator&gt;https://wordpress.org/?v=5.8&lt;/generator&gt;
-
-[+] WordPress theme in use: transport-gravity
- | Location: http://blog.inlanefreight.local/wp-content/themes/transport-gravity/
- | Latest Version: 1.0.1 (up to date)
- | Last Updated: 2020-08-02T00:00:00.000Z
- | Readme: http://blog.inlanefreight.local/wp-content/themes/transport-gravity/readme.txt
- | [!] Directory listing is enabled
- | Style URL: http://blog.inlanefreight.local/wp-content/themes/transport-gravity/style.css
- | Style Name: Transport Gravity
- | Style URI: https://keonthemes.com/downloads/transport-gravity/
- | Description: Transport Gravity is an enhanced child theme of Business Gravity. Transport Gravity is made for tran...
- | Author: Keon Themes
- | Author URI: https://keonthemes.com/
- |
- | Found By: Css Style In Homepage (Passive Detection)
- | Confirmed By: Urls In Homepage (Passive Detection)
- |
- | Version: 1.0.1 (80% confidence)
- | Found By: Style (Passive Detection)
- |  - http://blog.inlanefreight.local/wp-content/themes/transport-gravity/style.css, Match: 'Version: 1.0.1'
-
-[+] Enumerating All Plugins (via Passive Methods)
-[+] Checking Plugin Versions (via Passive and Aggressive Methods)
-
-[i] Plugin(s) Identified:
-
-[+] contact-form-7
- | Location: http://blog.inlanefreight.local/wp-content/plugins/contact-form-7/
- | Last Updated: 2023-09-28T08:58:00.000Z
- | [!] The version is out of date, the latest version is 5.8.1
- |
- | Found By: Urls In Homepage (Passive Detection)
- |
- | Version: 5.4.2 (90% confidence)
- | Found By: Query Parameter (Passive Detection)
- |  - http://blog.inlanefreight.local/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4.2
- | Confirmed By: Readme - Stable Tag (Aggressive Detection)
- |  - http://blog.inlanefreight.local/wp-content/plugins/contact-form-7/readme.txt
-
-[+] mail-masta
- | Location: http://blog.inlanefreight.local/wp-content/plugins/mail-masta/
- | Latest Version: 1.0 (up to date)
- | Last Updated: 2014-09-19T07:52:00.000Z
- |
- | Found By: Urls In Homepage (Passive Detection)
- |
- | Version: 1.0 (80% confidence)
- | Found By: Readme - Stable Tag (Aggressive Detection)
- |  - http://blog.inlanefreight.local/wp-content/plugins/mail-masta/readme.txt
-
-[+] Enumerating Config Backups (via Passive and Aggressive Methods)
- Checking Config Backups - Time: 00:00:01 &lt;=&gt; (137 / 137) 100.00% Time: 00:00:01
-
-[i] No Config Backups Found.
-
-[!] No WPScan API Token given, as a result vulnerability data has not been output.
-[!] You can get a free API token with 25 daily requests by registering at https://wpscan.com/register
-
-[+] Finished: Tue Oct 24 10:50:01 2023
-[+] Requests Done: 174
-[+] Cached Requests: 6
-[+] Data Sent: 47.007 KB
-[+] Data Received: 539.386 KB
-[+] Memory used: 258.449 MB
-[+] Elapsed time: 00:00:04</code></pre>
-</section>
-</section>
-<section id="exploitation" class="level2">
-<h2 class="anchored" data-anchor-id="exploitation">Exploitation</h2>
-</section>
-<section id="post-exploitation" class="level2">
-<h2 class="anchored" data-anchor-id="post-exploitation">Post-Exploitation</h2>
-</section>
-<section id="tools" class="level2">
-<h2 class="anchored" data-anchor-id="tools">Tools</h2>
-<section id="nmap" class="level3">
-<h3 class="anchored" data-anchor-id="nmap"><code>nmap</code></h3>
-<pre class="shell-session"><code>nmap -p 80,443,8000,8080,8180,8888,1000 --open -oA web_discovery -iL scope_list</code></pre>
-</section>
-<section id="eyewitness" class="level3">
-<h3 class="anchored" data-anchor-id="eyewitness">Eyewitness</h3>
-</section>
-<section id="aquatone" class="level3">
-<h3 class="anchored" data-anchor-id="aquatone">Aquatone</h3>
-
-
-</section>
-</section>
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>Learning</category>
-  <category>Hack the Box</category>
-  <category>Hack the Box Academy</category>
-  <category>Offensive</category>
-  <guid>https://garden.errbufferoverfl.me/engineering/hack-the-box-attacking-common-applications.html</guid>
-  <pubDate>Sat, 21 Oct 2023 08:23:04 GMT</pubDate>
 </item>
 <item>
   <title>Hack the Box</title>
@@ -467,6 +493,8 @@ Interesting Finding(s):
 <p>If we cannot give ourselves the confirmation, we look for it from others. However, no one else can give us confirmation without taking the path together with us.</p>
 
 
+<!-- -->
+
 </section>
 
 
@@ -579,6 +607,8 @@ Interesting Finding(s):
 <h2 class="anchored" data-anchor-id="server-side-rendering">Server-Side Rendering</h2>
 
 
+<!-- -->
+
 </section>
 
 
@@ -649,7 +679,7 @@ Interesting Finding(s):
 </div>
 </div>
 <div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;<a href="https://github.com/hyphacoop/actions-distributed-press/issues/2#issue-1751678540">Distributed Press Minimum Requirements</a></p></li></div><p>Install <code>ansible</code> on your desktop, cry a little because this is the only thing that needs it.</p>
-<pre class="shell" title="terminal"><code>brew install ansible</code></pre>
+<div class="sourceCode" id="cb1" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1">brew install ansible</span></code></pre></div>
 <div class="callout callout-style-simple callout-tip">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -662,9 +692,9 @@ Interesting Finding(s):
 </div>
 <p><img src="https://garden.errbufferoverfl.me/imgs/setting-up-distributed-press-on-digital-ocean.png" class="img-fluid" alt="2000 Years Later"></p>
 <p>Git clone the <code>api.distributed.press</code> repository onto your computer:</p>
-<pre class="shell" title="terminal"><code>git clone https://github.com/hyphacoop/api.distributed.press.git</code></pre>
+<div class="sourceCode" id="cb2" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1">git clone https://github.com/hyphacoop/api.distributed.press.git</span></code></pre></div>
 <p>Using the terminal, navigate to the <code>ansible</code> directory:</p>
-<pre class="shell" title="terminal"><code>cd api.distributed.press/ansible</code></pre>
+<div class="sourceCode" id="cb3" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb3-1">cd api.distributed.press/ansible</span></code></pre></div>
 <div class="callout callout-style-simple callout-warning">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -678,7 +708,7 @@ Interesting Finding(s):
 </div>
 <p>Edit the <code>inventory.yml</code> file to specify your own domain to run the scripts on as well as any variables you want to set.</p>
 <p>You <strong>must</strong> specify the <code>distributed_press_domain</code> to be your server, and your <code>distributed_press_letsencrypt_email</code> for registering the HTTPS certificate:</p>
-<div class="sourceCode" id="cb4" title="inventory.yml" style="background: #f1f3f5;"><pre class="sourceCode yaml code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><span class="fu" style="color: #4758AB;
+<div class="sourceCode" id="cb4" title="inventory.yml" style="background: #f1f3f5;"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">all</span><span class="kw" style="color: #003B4F;
 background-color: null;
@@ -761,15 +791,15 @@ font-style: inherit;">:</span><span class="at" style="color: #657422;
 background-color: null;
 font-style: inherit;"> root</span></span></code></pre></div>
 <p>Install the dependencies on your local machine:</p>
-<pre class="shell"><code>ansible-galaxy install -r ./requirements.yml</code></pre>
+<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb5-1">ansible-galaxy install -r ./requirements.yml</span></code></pre></div>
 <p>Add the VPS’s IP address and the <code>distributed_press_domain</code> to your <code>/etc/hosts</code> file so you don’t experience an <code>UNREACHABLE</code> error when you run the playbook. e.g.,</p>
-<pre class="text" title="/etc/hosts"><code>127.0.0.1   localhost
-255.255.255.255 broadcasthost
-::1             localhost%
-
-{{VPS IP ADDRESS}} example.com</code></pre>
+<div class="sourceCode" id="cb6" title="/etc/hosts" style="background: #f1f3f5;"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb6-1">127.0.0.1   localhost</span>
+<span id="cb6-2">255.255.255.255 broadcasthost</span>
+<span id="cb6-3">::1             localhost%</span>
+<span id="cb6-4"></span>
+<span id="cb6-5">{{VPS IP ADDRESS}} example.com</span></code></pre></div>
 <p>Execute the playbook:</p>
-<pre class="shell" title="terminal"><code>ansible-playbook distributed_press.yml -i inventory.yml</code></pre>
+<div class="sourceCode" id="cb7" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb7-1">ansible-playbook distributed_press.yml -i inventory.yml</span></code></pre></div>
 <p>Once the playbook has finished, login to your DNS provider and add in an new A record pointing your VPS to the new domain:</p>
 <ul>
 <li><strong>Type:</strong> A</li>
@@ -785,7 +815,7 @@ font-style: inherit;"> root</span></span></code></pre></div>
 <li><strong>TTL:</strong> Auto</li>
 </ul>
 <p>Login to the VPS and check the status of the service.</p>
-<pre class="shell" title="terminal"><code>systemctl status distributed.press</code></pre>
+<div class="sourceCode" id="cb8" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb8-1">systemctl status distributed.press</span></code></pre></div>
 <div class="callout callout-style-simple callout-warning">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -804,22 +834,22 @@ font-style: inherit;"> root</span></span></code></pre></div>
 <section id="ensure-ufw-is-active" class="level3">
 <h3 class="anchored" data-anchor-id="ensure-ufw-is-active">Ensure <code>ufw</code> is Active</h3>
 <p>To make sure the firewall is up, you can run:</p>
-<pre class="shell" title="terminal"><code>ufw status</code></pre>
+<div class="sourceCode" id="cb9" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb9-1">ufw status</span></code></pre></div>
 <p>Which, if enabled should return something like this:</p>
-<pre class="shell" title="terminal"><code>Status: active
-
-To                         Action      From
---                         ------      ----
-53/udp                     ALLOW       Anywhere
-7976/udp                   ALLOW       Anywhere
-7976/tcp                   ALLOW       Anywhere
-Nginx Full                 ALLOW       Anywhere
-22/tcp                     ALLOW       Anywhere
-53/udp (v6)                ALLOW       Anywhere (v6)
-7976/udp (v6)              ALLOW       Anywhere (v6)
-7976/tcp (v6)              ALLOW       Anywhere (v6)
-Nginx Full (v6)            ALLOW       Anywhere (v6)
-22/tcp (v6)                ALLOW       Anywhere (v6)</code></pre>
+<div class="sourceCode" id="cb10" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb10-1">Status: active</span>
+<span id="cb10-2"></span>
+<span id="cb10-3">To                         Action      From</span>
+<span id="cb10-4">--                         ------      ----</span>
+<span id="cb10-5">53/udp                     ALLOW       Anywhere</span>
+<span id="cb10-6">7976/udp                   ALLOW       Anywhere</span>
+<span id="cb10-7">7976/tcp                   ALLOW       Anywhere</span>
+<span id="cb10-8">Nginx Full                 ALLOW       Anywhere</span>
+<span id="cb10-9">22/tcp                     ALLOW       Anywhere</span>
+<span id="cb10-10">53/udp (v6)                ALLOW       Anywhere (v6)</span>
+<span id="cb10-11">7976/udp (v6)              ALLOW       Anywhere (v6)</span>
+<span id="cb10-12">7976/tcp (v6)              ALLOW       Anywhere (v6)</span>
+<span id="cb10-13">Nginx Full (v6)            ALLOW       Anywhere (v6)</span>
+<span id="cb10-14">22/tcp (v6)                ALLOW       Anywhere (v6)</span></code></pre></div>
 <div class="callout callout-style-simple callout-warning">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -828,12 +858,12 @@ Nginx Full (v6)            ALLOW       Anywhere (v6)
 <div class="callout-body-container">
 <p><strong>Before enabling <code>ufw</code></strong></p>
 <p>Ensure you have added in a firewall rule for which ever management protocol you’re using (e.g.&nbsp;ssh). To do this run:</p>
-<pre class="shell"><code>ufw allow 22</code></pre>
+<div class="sourceCode" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb11-1">ufw allow 22</span></code></pre></div>
 </div>
 </div>
 </div>
 <p>If you find that <code>ufw</code> is not enabled, you’ll want to enable it.</p>
-<pre class="shell" title="terminal"><code>ufw enable</code></pre>
+<div class="sourceCode" id="cb12" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb12-1">ufw enable</span></code></pre></div>
 </section>
 <section id="ensure-the-private-keys-are-generated" class="level3">
 <h3 class="anchored" data-anchor-id="ensure-the-private-keys-are-generated">Ensure the Private Keys Are Generated</h3>
@@ -841,10 +871,10 @@ Nginx Full (v6)            ALLOW       Anywhere (v6)
 <p>I was able to identify this problem because I recieved the following error when trying to Get a <code>root</code> admin token:</p>
 <pre title="terminal"><code>Error: ENOENT: no such file or directory, open '/root/.local/share/distributed-press-nodejs/keys/private.key'</code></pre>
 <p>To resolve this issue I replicated what <code>ansible</code> would do, and ran <code>keygen</code> again:</p>
-<pre class="shell" title="terminal"><code>sudo su press
-cd
-cd api.distributed.press
-npm run keygen</code></pre>
+<div class="sourceCode" id="cb14" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb14-1">sudo su press</span>
+<span id="cb14-2">cd</span>
+<span id="cb14-3">cd api.distributed.press</span>
+<span id="cb14-4">npm run keygen</span></code></pre></div>
 </section>
 </section>
 <section id="get-a-root-admin-token" class="level2">
@@ -862,9 +892,9 @@ npm run keygen</code></pre>
 </div>
 <p>To generate the auth token necessary to make the very first admin user, you must use the ‘root’ admin token.</p>
 <p><code>ssh</code> into the VPS that is hosting your <code>distributed.press</code> instance and navigate to the the root directory of <code>api.distributed.press</code></p>
-<pre class="shell" title="terminal"><code>sudo su press
-cd
-cd api.distributed.press</code></pre>
+<div class="sourceCode" id="cb15" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb15-1">sudo su press</span>
+<span id="cb15-2">cd</span>
+<span id="cb15-3">cd api.distributed.press</span></code></pre></div>
 <p>Run <code>npm run make-admin</code> which will print out the token to stdout.</p>
 <div class="callout callout-style-simple callout-tip">
 <div class="callout-body d-flex">
@@ -885,17 +915,17 @@ cd api.distributed.press</code></pre>
 <section id="creating-a-new-publisher" class="level3">
 <h3 class="anchored" data-anchor-id="creating-a-new-publisher">Creating a New Publisher</h3>
 <p>To make sure we’re always operating in line with the principal of least privilege exchange the root token for a new one with the publisher subset of capabilities:</p>
-<pre class="shell" title="terminal"><code>curl -X POST https://distributed.errbufferoverfl.me/v1/publisher \
--H "Content-Type: application/json" \
--H "Authorization: Bearer JWT" \
--d '{"name":"garden.errbufferoverfl.me"}'</code></pre>
+<div class="sourceCode" id="cb16" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb16-1">curl -X POST https://distributed.errbufferoverfl.me/v1/publisher \</span>
+<span id="cb16-2">-H "Content-Type: application/json" \</span>
+<span id="cb16-3">-H "Authorization: Bearer JWT" \</span>
+<span id="cb16-4">-d '{"name":"garden.errbufferoverfl.me"}'</span></code></pre></div>
 </section>
 <section id="add-a-site-to-a-publisher" class="level3">
 <h3 class="anchored" data-anchor-id="add-a-site-to-a-publisher">Add a Site to a Publisher</h3>
-<pre class="shell" title="terminal"><code>curl -X POST https://distributed.errbufferoverfl.me/v1/sites \
--H "Content-Type: application/json" \
--H "Authorization: Bearer JWT" \
--d '{"domain":"garden.errbufferoverfl.me", "public": true, "protocols":{"http": false, "hyper": true, "ipfs": true} }'</code></pre>
+<div class="sourceCode" id="cb17" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb17-1">curl -X POST https://distributed.errbufferoverfl.me/v1/sites \</span>
+<span id="cb17-2">-H "Content-Type: application/json" \</span>
+<span id="cb17-3">-H "Authorization: Bearer JWT" \</span>
+<span id="cb17-4">-d '{"domain":"garden.errbufferoverfl.me", "public": true, "protocols":{"http": false, "hyper": true, "ipfs": true} }'</span></code></pre></div>
 </section>
 </section>
 <section id="errors" class="level2">
@@ -904,12 +934,12 @@ cd api.distributed.press</code></pre>
 <h3 class="anchored" data-anchor-id="distributed-press-host-unreachable">Distributed Press Host Unreachable</h3>
 <p>Experience the following error because you didn’t add the remote host to your <code>/etc/host</code>.</p>
 <p><em>Scream into the void.</em></p>
-<pre class="shell"><code>fatal: [distributed.errbufferoverfl.me]: UNREACHABLE! =&gt; {
-    "changed": false, 
-    "msg": "Failed to connect to the host via ssh: ssh: Could not resolve
-     hostname distributed.errbufferoverfl.me: Name or service not known", 
-    "unreachable": true
-}</code></pre>
+<div class="sourceCode" id="cb18" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb18-1">fatal: [distributed.errbufferoverfl.me]: UNREACHABLE! =&gt; {</span>
+<span id="cb18-2">    "changed": false, </span>
+<span id="cb18-3">    "msg": "Failed to connect to the host via ssh: ssh: Could not resolve</span>
+<span id="cb18-4">     hostname distributed.errbufferoverfl.me: Name or service not known", </span>
+<span id="cb18-5">    "unreachable": true</span>
+<span id="cb18-6">}</span></code></pre></div>
 </section>
 <section id="unable-to-resolve-remote-host-after-installation" class="level3">
 <h3 class="anchored" data-anchor-id="unable-to-resolve-remote-host-after-installation">Unable to Resolve Remote Host <strong>after</strong> Installation</h3>
@@ -924,6 +954,8 @@ cd api.distributed.press</code></pre>
 <li><a href="https://github.com/hyphacoop/actions-distributed-press"><strong>hyphacoop/actions-distributed-press</strong></a> - Easily deploy a site to Distributed Press using GitHub Actions</li>
 </ul>
 
+
+<!-- -->
 
 </section>
 
@@ -957,8 +989,15 @@ cd api.distributed.press</code></pre>
 <li>Vulnerability View</li>
 </ul>
 <p>The CLASP Vulnerability use cases show conditions where security services can become vulnerable in software.</p>
-<div class="{callout-warning}">
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
 <p>The vulnerability use cases are based on common component architectures such as: monolithic UNIX, monolithic mainframe and distributed (HTTPS &amp; TCP/IP) architectures so there <em>might</em> be gaps when used with modern software architecture.</p>
+</div>
+</div>
 </div>
 <section id="the-clasp-taxonomy" class="level2">
 <h2 class="anchored" data-anchor-id="the-clasp-taxonomy">The CLASP Taxonomy</h2>
@@ -973,6 +1012,8 @@ cd api.distributed.press</code></pre>
 <li><strong>Avoidance and mitigation periods</strong> (i.e., SDLC phases) in which preventative measures and countermeasures can be applied.</li>
 </ul>
 
+
+<!-- -->
 
 </section>
 
@@ -1016,6 +1057,8 @@ cd api.distributed.press</code></pre>
 <li>Rholang (2018-present)</li>
 </ul>
 
+
+<!-- -->
 
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
@@ -1077,6 +1120,8 @@ cd api.distributed.press</code></pre>
 <p>There is part of me that gets the sense that the whole system needs to be built with object-capability security in mind, from the hardware, to the kernel and operating system, etc.</p>
 
 
+<!-- -->
+
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
@@ -1113,7 +1158,7 @@ cd api.distributed.press</code></pre>
 <section id="documenting-tests" class="level2">
 <h2 class="anchored" data-anchor-id="documenting-tests">Documenting Tests</h2>
 <p>Martin Fowler provides a really idiomatic way of describing tests in his blog post on <a href="https://martinfowler.com/bliki/GivenWhenThen.html">GivenWhenThen</a>:</p>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="co" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">"""</span></span>
 <span id="cb1-2"><span class="co" style="color: #5E5E5E;
@@ -1137,7 +1182,7 @@ font-style: inherit;">"""</span></span></code></pre></div>
 <section id="testing-for-exceptions" class="level2">
 <h2 class="anchored" data-anchor-id="testing-for-exceptions">Testing for Exceptions</h2>
 <p>Asserting an exception <strong>is</strong> raised:</p>
-<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="im" style="color: #00769E;
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">import</span> pytest</span>
 <span id="cb2-2"></span>
@@ -1157,7 +1202,7 @@ font-style: inherit;">/</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0</span></span></code></pre></div>
 <p>Asserting an exception <strong>is not</strong> raised:</p>
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="kw" style="color: #003B4F;
+<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">def</span> my_division_function(a, b):</span>
 <span id="cb3-2">    <span class="cf" style="color: #003B4F;
@@ -1218,7 +1263,7 @@ font-style: inherit;">"</span></span></code></pre></div>
 <li><code>session</code> - run once per session</li>
 </ul>
 <p>For example, to create a User as a fixture:</p>
-<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><span class="im" style="color: #00769E;
+<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb4-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">from</span> project.models <span class="im" style="color: #00769E;
 background-color: null;
@@ -1249,7 +1294,7 @@ font-style: inherit;">return</span> user</span></code></pre></div>
 <p><code>def new_user()</code></p>
 <p>Is the function that creates an instance of a User using valid arguments.</p>
 <p>To use this fixture, in other tests you pass it in as the first argument to a subsequent test, e.g.,</p>
-<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><span class="kw" style="color: #003B4F;
+<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb5-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-style: inherit;">def</span> test_new_user_with_fixture(new_user):</span>
 <span id="cb5-2">    <span class="co" style="color: #5E5E5E;
@@ -1290,6 +1335,8 @@ background-color: null;
 font-style: inherit;">'user'</span></span></code></pre></div>
 
 
+<!-- -->
+
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
@@ -1323,6 +1370,8 @@ font-style: inherit;">'user'</span></span></code></pre></div>
 <p>While most people in an every day context won’t be regularly writing up decisions or practices, including this section as a point of reflection is important.</p>
 <p>Very often we make decisions about how to move forward after learning a lesson and forget to reflect on wether the recommendations actually serve us, or if they just made us feel like we improved something.</p>
 
+
+<!-- -->
 
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
@@ -1443,6 +1492,8 @@ font-style: inherit;">'user'</span></span></code></pre></div>
 </div>
 
 
+<!-- -->
+
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Erlaubnis</category>
@@ -1528,6 +1579,8 @@ font-style: inherit;">'user'</span></span></code></pre></div>
 <p>The author <a href="https://www.episteme.net/Work/">Pete Resnick</a> goes into more detail and provides more examples in the RFC so I recommend reading it in full to learn more about it.</p>
 
 
+<!-- -->
+
 </section>
 
 
@@ -1568,6 +1621,8 @@ font-style: inherit;">'user'</span></span></code></pre></div>
 <p>14/14 Ultimately if this was actually a matter of children’s safety, we would be focusing our attention on children’s liberation &amp; giving them more self-determination, &amp; better avenues to protect themselves from family &amp; domestic violence.</p>
 
 
+<!-- -->
+
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Seed</category>
@@ -1592,6 +1647,8 @@ font-style: inherit;">'user'</span></span></code></pre></div>
 <p>An experimental module that’s used to rebase (follow?) multiple casually linked <a href="../engineering/hypercore.html">Hypercore</a> into a single, linearized Hypercore for multi-user collaboration.</p>
 
 
+<!-- -->
+
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Seed</category>
@@ -1614,6 +1671,8 @@ font-style: inherit;">'user'</span></span></code></pre></div>
 
 <p>A high-level API for finding and connecting to peers who are interested in a “topic”.</p>
 
+
+<!-- -->
 
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
@@ -1663,6 +1722,8 @@ font-style: inherit;">'user'</span></span></code></pre></div>
 </ul>
 
 
+<!-- -->
+
 <div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;AQUINO, Bruno Macabeus M. de; LIMA, Marcus Vinicius L. de; OLIVEIRA, João Paolo Cavalcante M. de; SOUZA, Cidcley Teixeira de. <a href="https://sol.sbc.org.br/index.php/wscdc/article/view/2400">Protocolos IPFS e IPNS como meio para o controle de botnet: prova de conceito</a>. <em>In</em>: CONNECTED DEVICES CYBERSECURITY WORKSHOP (WSCDC), 1. , 2018, São José dos Campos. <strong>Anais</strong> […]. Porto Alegre: Sociedade Brasileira de Computação, 2018.</p></li><li id="fn2"><p><sup>2</sup>&nbsp;“IPFS and IPNS protocols as a means of botnet control: proof of concept” English Translation - [[../attachements/IPFS-and-IPNS-protocols-as-a-means-of-botnet-control-proof-of-concept.pdf|IPFS-and-IPNS-protocols-as-a-means-of-botnet-control-proof-of-concept]]</p></li></div></section>
 
 
@@ -1686,6 +1747,8 @@ font-style: inherit;">'user'</span></span></code></pre></div>
 
 <p>A <a href="../engineering/dht.html">DHT</a> powering <a href="../engineering/hyperswarm.html">Hyperswarm</a>, each server is bound to a unique key pair, where the client connects to the server using the servers public key.</p>
 
+
+<!-- -->
 
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
@@ -1715,6 +1778,8 @@ font-style: inherit;">'user'</span></span></code></pre></div>
 </ul>
 
 
+<!-- -->
+
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Seed</category>
@@ -1738,6 +1803,8 @@ font-style: inherit;">'user'</span></span></code></pre></div>
 <p>A decentralized data structure that is used to store and retrieve data over a network. The <a href="../engineering/hyperdht.html">HyperDHT</a> is used to facilitate the discovery of peers and to enable connections between them.</p>
 
 
+<!-- -->
+
 
 <a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
   <category>Seed</category>
@@ -1748,28 +1815,6 @@ font-style: inherit;">'user'</span></span></code></pre></div>
   <guid>https://garden.errbufferoverfl.me/engineering/dht.html</guid>
   <pubDate>Sat, 10 Jun 2023 14:00:00 GMT</pubDate>
   <media:content url="https://garden.errbufferoverfl.me/imgs/ruchindra-gunasekara-GK8x_XCcDZg-unsplash.jpg" medium="image" type="image/jpeg"/>
-</item>
-<item>
-  <title>BTree</title>
-  <dc:creator>errbufferoverfl </dc:creator>
-  <link>https://garden.errbufferoverfl.me/engineering/b-tree.html</link>
-  <description><![CDATA[ 
-
-
-
-
-<p>A self-balancing tree data structure that is used to store data in a sorted and searchable manner.</p>
-
-
-
-<a onclick="window.scrollTo(0, 0); return false;" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a> ]]></description>
-  <category>Distributed Computing</category>
-  <category>Distributed Web</category>
-  <category>Hypercore Protocol</category>
-  <category>Definition</category>
-  <guid>https://garden.errbufferoverfl.me/engineering/b-tree.html</guid>
-  <pubDate>Sat, 10 Jun 2023 14:00:00 GMT</pubDate>
-  <media:content url="https://garden.errbufferoverfl.me/imgs/stefan-cosma-df3QkLo5K94-unsplash.jpg" medium="image" type="image/jpeg"/>
 </item>
 </channel>
 </rss>

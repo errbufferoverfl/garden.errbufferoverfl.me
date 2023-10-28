@@ -22,6 +22,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -166,7 +200,7 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Erlaubnis Project Diagrams</h1>
+      <div class="quarto-title-block"><div><h1 class="title">Erlaubnis Project Diagrams</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
                                 <div class="quarto-categories">
                 <div class="quarto-category">Erlaubnis</div>
                 <div class="quarto-category">Project</div>
@@ -308,6 +342,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 
+<!-- -->
+
 
 <a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -389,6 +425,57 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+  const viewSource = window.document.getElementById('quarto-view-source') ||
+                     window.document.getElementById('quarto-code-tools-source');
+  if (viewSource) {
+    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
+    viewSource.addEventListener("click", function(e) {
+      if (sourceUrl) {
+        // rstudio viewer pane
+        if (/\bcapabilities=\b/.test(window.location)) {
+          window.open(sourceUrl);
+        } else {
+          window.location.href = sourceUrl;
+        }
+      } else {
+        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
+        modal.show();
+      }
+      return false;
+    });
+  }
+  function toggleCodeHandler(show) {
+    return function(e) {
+      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
+      for (let i=0; i<detailsSrc.length; i++) {
+        const details = detailsSrc[i].parentElement;
+        if (show) {
+          details.open = true;
+        } else {
+          details.removeAttribute("open");
+        }
+      }
+      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
+      const fromCls = show ? "hidden" : "unhidden";
+      const toCls = show ? "unhidden" : "hidden";
+      for (let i=0; i<cellCodeDivs.length; i++) {
+        const codeDiv = cellCodeDivs[i];
+        if (codeDiv.classList.contains(fromCls)) {
+          codeDiv.classList.remove(fromCls);
+          codeDiv.classList.add(toCls);
+        } 
+      }
+      return false;
+    }
+  }
+  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
+  if (hideAllCode) {
+    hideAllCode.addEventListener("click", toggleCodeHandler(false));
+  }
+  const showAllCode = window.document.getElementById("quarto-show-all-code");
+  if (showAllCode) {
+    showAllCode.addEventListener("click", toggleCodeHandler(true));
+  }
   function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
@@ -556,7 +643,109 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
 });
-</script>
+</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
+<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1"></a><span class="co">---</span></span>
+<span id="cb1-2"><a href="#cb1-2"></a><span class="an">title:</span><span class="co"> "Erlaubnis Project Diagrams"</span></span>
+<span id="cb1-3"><a href="#cb1-3"></a><span class="an">subtitle:</span><span class="co"> ""</span></span>
+<span id="cb1-4"><a href="#cb1-4"></a><span class="an">author:</span><span class="co"> "errbufferoverfl"</span></span>
+<span id="cb1-5"><a href="#cb1-5"></a><span class="an">date:</span><span class="co"> 2023-06-28T21:36:45+10:00</span></span>
+<span id="cb1-6"><a href="#cb1-6"></a><span class="an">description:</span><span class="co"> ""</span></span>
+<span id="cb1-7"><a href="#cb1-7"></a><span class="an">image:</span><span class="co"> "/imgs/brandi-redd-aJTiW00qqtI-unsplash.jpg"</span></span>
+<span id="cb1-8"><a href="#cb1-8"></a><span class="an">image-alt:</span><span class="co"> ""</span></span>
+<span id="cb1-9"><a href="#cb1-9"></a><span class="an">categories:</span></span>
+<span id="cb1-10"><a href="#cb1-10"></a><span class="co">- Erlaubnis</span></span>
+<span id="cb1-11"><a href="#cb1-11"></a><span class="co">- Project</span></span>
+<span id="cb1-12"><a href="#cb1-12"></a><span class="co">- Diagram</span></span>
+<span id="cb1-13"><a href="#cb1-13"></a><span class="co">---</span></span>
+<span id="cb1-14"><a href="#cb1-14"></a></span>
+<span id="cb1-15"><a href="#cb1-15"></a>*These diagrams can also be found on [Github](https://github.com/errbufferoverfl/erlaubnis).*</span>
+<span id="cb1-16"><a href="#cb1-16"></a></span>
+<span id="cb1-19"><a href="#cb1-19"></a><span class="in">```{mermaid}</span></span>
+<span id="cb1-20"><a href="#cb1-20"></a>stateDiagram-v2</span>
+<span id="cb1-21"><a href="#cb1-21"></a>    [<span class="ot">*</span>] --&gt; Request</span>
+<span id="cb1-22"><a href="#cb1-22"></a>    Request --&gt; Verifing: Exchange Client Params</span>
+<span id="cb1-23"><a href="#cb1-23"></a>    Verifing --&gt; Waiting_Approval: Grant Valid</span>
+<span id="cb1-24"><a href="#cb1-24"></a>    Verifing --&gt; Unauthorised: Grant Invalid</span>
+<span id="cb1-25"><a href="#cb1-25"></a>    Waiting_Approval --&gt; Authorised: Grant Approved</span>
+<span id="cb1-26"><a href="#cb1-26"></a>    Waiting_Approval --&gt; Unauthorised: Grant Denied</span>
+<span id="cb1-27"><a href="#cb1-27"></a>    Waiting_Approval --&gt; Timed_Out: Grant Unserviced</span>
+<span id="cb1-28"><a href="#cb1-28"></a>    Authorised --&gt; Revoked: Grant Revoked</span>
+<span id="cb1-29"><a href="#cb1-29"></a>    Revoked --&gt; [<span class="ot">*</span>]</span>
+<span id="cb1-30"><a href="#cb1-30"></a>    Timed_Out --&gt; [<span class="ot">*</span>]</span>
+<span id="cb1-31"><a href="#cb1-31"></a>    Unauthorised --&gt; [<span class="ot">*</span>]</span>
+<span id="cb1-32"><a href="#cb1-32"></a>    Authorised --&gt; [<span class="ot">*</span>]</span>
+<span id="cb1-33"><a href="#cb1-33"></a><span class="in">```</span></span>
+<span id="cb1-34"><a href="#cb1-34"></a></span>
+<span id="cb1-37"><a href="#cb1-37"></a><span class="in">```{mermaid}</span></span>
+<span id="cb1-38"><a href="#cb1-38"></a>erDiagram</span>
+<span id="cb1-39"><a href="#cb1-39"></a>    USER {</span>
+<span id="cb1-40"><a href="#cb1-40"></a>        string id</span>
+<span id="cb1-41"><a href="#cb1-41"></a>        string username</span>
+<span id="cb1-42"><a href="#cb1-42"></a>        string password</span>
+<span id="cb1-43"><a href="#cb1-43"></a>        datetime created_at </span>
+<span id="cb1-44"><a href="#cb1-44"></a>        datetime updated_at</span>
+<span id="cb1-45"><a href="#cb1-45"></a>    }</span>
+<span id="cb1-46"><a href="#cb1-46"></a>    </span>
+<span id="cb1-47"><a href="#cb1-47"></a>    ROLE {</span>
+<span id="cb1-48"><a href="#cb1-48"></a>        <span class="kw">integer</span> id</span>
+<span id="cb1-49"><a href="#cb1-49"></a>        string name</span>
+<span id="cb1-50"><a href="#cb1-50"></a>        string description</span>
+<span id="cb1-51"><a href="#cb1-51"></a>    }</span>
+<span id="cb1-52"><a href="#cb1-52"></a>    </span>
+<span id="cb1-53"><a href="#cb1-53"></a>    CLIENT {</span>
+<span id="cb1-54"><a href="#cb1-54"></a>        string id</span>
+<span id="cb1-55"><a href="#cb1-55"></a>        string client_name</span>
+<span id="cb1-56"><a href="#cb1-56"></a>        string token_endpoint_auth_method</span>
+<span id="cb1-57"><a href="#cb1-57"></a>        array grant_types</span>
+<span id="cb1-58"><a href="#cb1-58"></a>    }</span>
+<span id="cb1-59"><a href="#cb1-59"></a>    </span>
+<span id="cb1-60"><a href="#cb1-60"></a>    METADATA {</span>
+<span id="cb1-61"><a href="#cb1-61"></a>        string logo_uri</span>
+<span id="cb1-62"><a href="#cb1-62"></a>        array contacts</span>
+<span id="cb1-63"><a href="#cb1-63"></a>        string policy_uri</span>
+<span id="cb1-64"><a href="#cb1-64"></a>        string tos_uri</span>
+<span id="cb1-65"><a href="#cb1-65"></a>        string client_uri</span>
+<span id="cb1-66"><a href="#cb1-66"></a>    }</span>
+<span id="cb1-67"><a href="#cb1-67"></a>    </span>
+<span id="cb1-68"><a href="#cb1-68"></a>    CONFIGURATION {</span>
+<span id="cb1-69"><a href="#cb1-69"></a>        <span class="kw">integer</span> version</span>
+<span id="cb1-70"><a href="#cb1-70"></a>        string jwks</span>
+<span id="cb1-71"><a href="#cb1-71"></a>        string jwks_uri</span>
+<span id="cb1-72"><a href="#cb1-72"></a>        string scope</span>
+<span id="cb1-73"><a href="#cb1-73"></a>    }</span>
+<span id="cb1-74"><a href="#cb1-74"></a>    </span>
+<span id="cb1-75"><a href="#cb1-75"></a>    REGISTRATION_RECORD {</span>
+<span id="cb1-76"><a href="#cb1-76"></a>        <span class="fu">int</span> id</span>
+<span id="cb1-77"><a href="#cb1-77"></a>        foreign_key user_id</span>
+<span id="cb1-78"><a href="#cb1-78"></a>        foreign_key client_id</span>
+<span id="cb1-79"><a href="#cb1-79"></a>        datetime installation_time</span>
+<span id="cb1-80"><a href="#cb1-80"></a>    }</span>
+<span id="cb1-81"><a href="#cb1-81"></a>    </span>
+<span id="cb1-82"><a href="#cb1-82"></a>    INSTALLATION_RECORD {</span>
+<span id="cb1-83"><a href="#cb1-83"></a>        <span class="fu">int</span> id</span>
+<span id="cb1-84"><a href="#cb1-84"></a>        foreign_key user_id</span>
+<span id="cb1-85"><a href="#cb1-85"></a>        foreign_key client_id</span>
+<span id="cb1-86"><a href="#cb1-86"></a>        foreign_key configuration</span>
+<span id="cb1-87"><a href="#cb1-87"></a>        datetime installation_time</span>
+<span id="cb1-88"><a href="#cb1-88"></a>    }</span>
+<span id="cb1-89"><a href="#cb1-89"></a>    </span>
+<span id="cb1-90"><a href="#cb1-90"></a>    STATE_RECORD {</span>
+<span id="cb1-91"><a href="#cb1-91"></a>        foreign_key user_id</span>
+<span id="cb1-92"><a href="#cb1-92"></a>        foreign_key client</span>
+<span id="cb1-93"><a href="#cb1-93"></a>        string <span class="kw">state</span></span>
+<span id="cb1-94"><a href="#cb1-94"></a>    }</span>
+<span id="cb1-95"><a href="#cb1-95"></a>    </span>
+<span id="cb1-96"><a href="#cb1-96"></a>    USER ||-<span class="ot">-o</span>{ ROLE : has</span>
+<span id="cb1-97"><a href="#cb1-97"></a>    USER ||-<span class="ot">-o</span>{ CLIENT : registers</span>
+<span id="cb1-98"><a href="#cb1-98"></a>    REGISTRATION_RECORD ||-<span class="ot">-o</span>{ CLIENT : generates</span>
+<span id="cb1-99"><a href="#cb1-99"></a>    INSTALLATION_RECORD ||-<span class="ot">-o</span>{ CLIENT : generates</span>
+<span id="cb1-100"><a href="#cb1-100"></a>    STATE_RECORD ||-<span class="ot">-o</span>{ CLIENT : generates</span>
+<span id="cb1-101"><a href="#cb1-101"></a>    USER ||-<span class="ot">-o</span>{ CLIENT : installs</span>
+<span id="cb1-102"><a href="#cb1-102"></a>    CLIENT ||-<span class="ot">-o</span>{ CONFIGURATION : contains</span>
+<span id="cb1-103"><a href="#cb1-103"></a>    CLIENT ||--||METADATA : contains</span>
+<span id="cb1-104"><a href="#cb1-104"></a><span class="in">```</span></span>
+</code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div></div></div></div></div>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
