@@ -3,9 +3,6 @@ title: "WordPress"
 subtitle: ""
 author: "errbufferoverfl"
 date: 2023-10-24T19:59:51+11:00
-description: ""
-image: ""
-image-alt: ""
 categories:
 - Seed
 - WordPress
@@ -74,14 +71,6 @@ There are five types of users on a standard WordPress installation.
 5. Subscriber: These are standard users who can browse posts and edit their profiles.
 
 Getting access to an administrator is sufficient to obtain code execution on the server. Editors and authors may have access to vulnerable plugins, which normal users don’t.
-
-## Attacking Wordpress
-
-### Login Bruteforce
-
-### Code Execution
-
-### Vulnerable Plugins
 
 ## Tools
 

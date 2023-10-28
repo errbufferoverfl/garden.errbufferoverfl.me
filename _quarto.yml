@@ -59,12 +59,17 @@ website:
 
 format:
   html:
-    theme: litera
+    theme: Litera
     css: styles.css
-    code-link: true
     link-external-newwindow: true
+    code-link: true
+    code-fold: true
+    code-tools: true
     smooth-scroll: true
-    highlight-style: gruvbox
+    highlight-style: dracula
+    code-copy: hover
+    code-line-numbers: true
+    anchor-sections: true
     
 filters:
   - quarto-version.lua

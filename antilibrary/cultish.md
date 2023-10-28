@@ -21,7 +21,6 @@ categories:
   - Language
   - True Crime
   - Lunguistics
-
 ---
 
 ::: {.content-hidden when-format="html"}

@@ -1,12 +1,13 @@
-#### Finding Name
+*Problem summary.*
 
-**CWE:**
-**CVSS 3.1 Score:**
-**Root Cause Analysis:**
-**Security Impact:**
-**Affected Hosts:**
-**Remediation:**
+- **CWE:** CWE-
+- **CVSS 3.1 Score:** 
+- **CVSS 3.1 Temporal Score:** 
+- **Vector String:** 
+- **Security Impact:** 
+- **Affected Hosts:**
 
-#### Evidence
+#### Reproduction
 
-#### External References
+
+#### Remediation
