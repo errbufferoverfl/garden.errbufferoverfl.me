@@ -24,13 +24,11 @@ categories:
 
 :::: {.columns}
 
-::: {.column width="40%"}
+::: {.column width="50%"}
 
-![]({{< meta cover >}})
+_'A book with a ferocious pace and more black humour than one could imagine'– Evening Standard **As heard on BBC Radio 4 The World Tonight** America lost 1.4 million citizens in the North Korean attacks of 2020. This is the final, authorised report of the US government commission investigating the catastrophe._
 
-published on August 07, 2018 by {{< meta publisher >}}
-
-{{< progress >}}
+_‘The skies over the Korean Peninsula on March 21, 2020, were clear and blue . . .’ So begins this investigation by nuclear expert Dr Jeffrey Lewis into the horrific events of the three days that followed. While imageing the fatal milestones — from North Korea’s accidental shootdown of a South Korean airliner to the tweet that triggered carnage — the report asks difficult questions about the conduct of world leaders along the path to war. Did President Trump and his advisers realise the dangers of provoking Kim Jong Un with social media posts? Was conflict inevitable, or could the peace talks of 2018 have been successful?_
 
 :::
 
@@ -38,11 +36,13 @@ published on August 07, 2018 by {{< meta publisher >}}
 <!-- empty column to create gap -->
 :::
 
-::: {.column width="50%"}
+::: {.column width="40%"}
 
-_'A book with a ferocious pace and more black humour than one could imagine'– Evening Standard **As heard on BBC Radio 4 The World Tonight** America lost 1.4 million citizens in the North Korean attacks of 2020. This is the final, authorised report of the US government commission investigating the catastrophe._
+![]({{< meta cover >}})
 
-_‘The skies over the Korean Peninsula on March 21, 2020, were clear and blue . . .’ So begins this investigation by nuclear expert Dr Jeffrey Lewis into the horrific events of the three days that followed. While imageing the fatal milestones — from North Korea’s accidental shootdown of a South Korean airliner to the tweet that triggered carnage — the report asks difficult questions about the conduct of world leaders along the path to war. Did President Trump and his advisers realise the dangers of provoking Kim Jong Un with social media posts? Was conflict inevitable, or could the peace talks of 2018 have been successful?_
+published on August 07, 2018 by {{< meta publisher >}}
+
+{{< progress >}}
 
 :::
 

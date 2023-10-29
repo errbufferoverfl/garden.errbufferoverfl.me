@@ -1,5 +1,5 @@
 ---
-title: "The Index"
+title: "The Back of the Book"
 subtitle: "The official back of the book for this digital garden."
 listing:
     categories: numbered

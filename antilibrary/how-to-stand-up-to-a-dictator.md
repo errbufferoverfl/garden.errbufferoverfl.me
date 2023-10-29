@@ -28,20 +28,6 @@ categories:
 
 :::: {.columns}
 
-::: {.column width="40%"}
-
-![]({{< meta cover >}})
-
-published on November 17, 2022 by {{< meta publisher >}}
-
-{{< progress >}}
-
-:::
-
-::: {.column width="10%"}
-<!-- empty column to create gap -->
-:::
-
 ::: {.column width="50%"}
 
 _What will you sacrifice for the truth? Maria Ressa has spent decades speaking truth to power. But her work tracking disinformation networks seeded by her own government, spreading lies to its own citizens laced with anger and hate, has landed her in trouble with the most powerful man in the country: President Duterte._
@@ -52,17 +38,22 @@ _How to Stand Up to a Dictator is the story of how democracy dies by a thousand 
 
 :::
 
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="40%"}
+
+![]({{< meta cover >}})
+
+published on November 17, 2022 by {{< meta publisher >}}
+
+{{< progress >}}
+
+:::
+
 ::::
 
-## Summary
-
-## Themes
-
-## 3 Main Takeaways
-
--
--
--
 
 ## Quotes
 

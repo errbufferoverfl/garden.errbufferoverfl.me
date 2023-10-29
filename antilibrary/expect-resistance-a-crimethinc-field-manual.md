@@ -26,15 +26,11 @@ categories:
 
 :::: {.columns}
 
-::: {.column width="40%"}
+::: {.column width="50%"}
 
-![]({{< meta cover >}})
+_Expect Resistance is not one but three books, each of which may be read as a complete work unto itself. The first book, printed in standard black ink, continues the inquiry into modern life and its discontents begun in [Days of War, Nights of Love](https://crimethinc.com/books/days-of-war-nights-of-love). Just as that book included improved versions of texts originally published between 1996 and 1999, this book draws on CrimethInc. material from 2000 to 2004, painstakingly refined and augmented with a great deal of new content. The second book, in red ink, is a composite account, related by three narrators, of the adventures and tribulations that inevitably ensue when people pursuing their dreams enter into conflict with the world as it is._
 
-**authored by** CrimethInc. Ex-Workers' Collective
-
-published in 2008 by {{< meta publisher >}}
-
-{{< progress >}}
+_Together these comprise a third book, an exploration of the complex relationship between ideals and reality. Expect Resistance is a field manual for a field on which all manuals are useless, a meditation on individual transformation and collective resistance in disastrous times, and a masterpiece that raises the bar for radical publishing._
 
 :::
 
@@ -42,11 +38,13 @@ published in 2008 by {{< meta publisher >}}
 <!-- empty column to create gap -->
 :::
 
-::: {.column width="50%"}
+::: {.column width="40%"}
 
-_Expect Resistance is not one but three books, each of which may be read as a complete work unto itself. The first book, printed in standard black ink, continues the inquiry into modern life and its discontents begun in _[Days of War, Nights of Love](https://crimethinc.com/books/days-of-war-nights-of-love)_. Just as that book included improved versions of texts originally published between 1996 and 1999, this book draws on CrimethInc. material from 2000 to 2004, painstakingly refined and augmented with a great deal of new content. The second book, in red ink, is a composite account, related by three narrators, of the adventures and tribulations that inevitably ensue when people pursuing their dreams enter into conflict with the world as it is._
+![]({{< meta cover >}})
 
-_Together these comprise a third book, an exploration of the complex relationship between ideals and reality. _Expect Resistance_ is a field manual for a field on which all manuals are useless, a meditation on individual transformation and collective resistance in disastrous times, and a masterpiece that raises the bar for radical publishing._
+published in 2008 by {{< meta publisher >}}
+
+{{< progress >}}
 
 :::
 
@@ -56,7 +54,7 @@ _Together these comprise a third book, an exploration of the complex relationshi
 
 ::: {.callout-note}
 
-**2023-06-29**
+2023-06-29
 
 In the past few days I've found myself at a bit of a crossroads with this book. While I know it's brimming with tales of anarchy and camaraderie, the message within these pages requires a receptive mind and I'm just not _there_ yet.
 

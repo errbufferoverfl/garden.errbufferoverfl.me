@@ -27,20 +27,6 @@ categories:
 
 :::: {.columns}
 
-::: {.column width="40%"}
-
-![]({{< meta cover >}})
-
-published on August 31, 2021 by {{< meta publisher >}}
-
-{{< progress >}}
-
-:::
-
-::: {.column width="10%"}
-<!-- empty column to create gap -->
-:::
-
 ::: {.column width="50%"}
 
 _There is no farmers and others. If you eat or wear clothes, the decisions you make influence farming. ‘Eaters will be the ultimate arbiter of where and how food is grown and how the land is cared for ... We all have a stake in the future of food and farming. I am going to show you why.’_
@@ -50,6 +36,20 @@ _Farming sits at the intersection of the world’s biggest challenges around cli
 _People with means can shop at farmers’ markets and order brunch, by the provenance of their eggs, bacon, butter, tomatoes and greens. But do they really understand the trade-offs required to grow it? In this book Gabrielle Chan examines the past, present and future of farming with her characteristically forensic eye._
 
 _She lays out how our nation, its leaders, farmers and eaters can usher in new ways for us to work and live on our unique and precious land. We must forge a new social contract if we are to grow healthy food on a thriving landscape, while mitigating climate and biodiversity loss. This important book will change your thinking about food, farming and how you eat._
+
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="40%"}
+
+![]({{< meta cover >}})
+
+published on August 31, 2021 by {{< meta publisher >}}
+
+{{< progress >}}
 
 :::
 

@@ -27,6 +27,19 @@ categories:
 ---
 
 ::: columns
+
+::: {.column width="50%"}
+*"A startling exposé of the invisible human workforce that powers the web--and how to bring it out of the shadows. Hidden beneath the surface of the internet, a new, stark reality is looming--one that cuts to the very heart of our endless debates about the impact of AI.*
+
+*Anthropologist Mary L. Gray and computer scientist Siddharth Suri unveil how the services we use from companies like Amazon, Google, Microsoft, and Uber can only function smoothly thanks to the judgment and experience of a vast human labor force that is kept deliberately concealed. The people who do 'ghost work' make the internet seem smart. They perform high-tech, on-demand piecework: flagging X-rated content, proofreading, transcribing audio, confirming identities, captioning video, and much more. The shameful truth is that no labor laws protect them or even acknowledge their existence.*
+
+*They often earn less than legal minimums for traditional work, they have no health benefits, and they can be fired at any time for any reason, or for no reason at all. An estimated 8 percent of Americans have worked in this 'ghost economy,' and that number is growing every day. In this unprecedented investigation, Gray and Suri make the case that robots will never completely eliminate 'ghost work' and the unchecked quest for artificial intelligence could spark catastrophic work conditions if not stopped in its tracks. Ultimately, they show how this essential type of work can create opportunity--rather than misery--for those who do it."*
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
 ::: {.column width="40%"}
 
 ![]({{< meta cover >}})
@@ -37,26 +50,7 @@ published on 2019 by {{< meta publisher >}}
 
 :::
 
-::: {.column width="10%"}
-<!-- empty column to create gap -->
 :::
-
-::: {.column width="50%"}
-*"A startling exposé of the invisible human workforce that powers the web--and how to bring it out of the shadows. Hidden beneath the surface of the internet, a new, stark reality is looming--one that cuts to the very heart of our endless debates about the impact of AI.*
-
-*Anthropologist Mary L. Gray and computer scientist Siddharth Suri unveil how the services we use from companies like Amazon, Google, Microsoft, and Uber can only function smoothly thanks to the judgment and experience of a vast human labor force that is kept deliberately concealed. The people who do 'ghost work' make the internet seem smart. They perform high-tech, on-demand piecework: flagging X-rated content, proofreading, transcribing audio, confirming identities, captioning video, and much more. The shameful truth is that no labor laws protect them or even acknowledge their existence.*
-
-*They often earn less than legal minimums for traditional work, they have no health benefits, and they can be fired at any time for any reason, or for no reason at all. An estimated 8 percent of Americans have worked in this 'ghost economy,' and that number is growing every day. In this unprecedented investigation, Gray and Suri make the case that robots will never completely eliminate 'ghost work' and the unchecked quest for artificial intelligence could spark catastrophic work conditions if not stopped in its tracks. Ultimately, they show how this essential type of work can create opportunity--rather than misery--for those who do it."*
-:::
-:::
-
-## Summary
-
-## Themes
-
-## 3 Main Takeaways
-
-## Quotes
 
 ## Other Notes
 
@@ -94,17 +88,17 @@ JPMorgan Chase Institute found 4.3% of U.S adults (10.73 million people) had wor
 
 Gray talks about the thing that is common with all the people she interviewed was their *hope*;
 
--   Their hope to use on-demand jobs to control when they work, who they work with, and what tasks they take on.
--   The hope to avoid long commutes and hostile work environments.
--   They hope to gain experiences that refreshes their resume or opens the door to new possibilities.
+- Their hope to use on-demand jobs to control when they work, who they work with, and what tasks they take on.
+- The hope to avoid long commutes and hostile work environments.
+- They hope to gain experiences that refreshes their resume or opens the door to new possibilities.
 
 Gray interviewed a bunch of people some looking to starve off boredom, or pay for weddings, younger siblings degrees, and in line with previous observations, disabled and retired folks looking for alternative routes to employment or making extra money to pad their social security checks.
 
-**Platforms**
+### Platforms Referenced
 
--   Mechanical Turk (MTurk): The Amazon on-demand work platform.
--   Universal Human Relevance System (UHRS): The Microsoft on-demand work platform, can only be used by Microsoft staff and authorised third-parties.
--   CrowdFlower (Figure Eight Inc.)
+- Mechanical Turk (MTurk): The Amazon on-demand work platform.
+- Universal Human Relevance System (UHRS): The Microsoft on-demand work platform, can only be used by Microsoft staff and authorised third-parties.
+- CrowdFlower (Figure Eight Inc.)
 
 [^1]: Ghost Work, Mary L. Gray, Siddharth Suri, Introduction, page. xiii
 [^2]: [Sense of Urgency](https://www.whitesupremacyculture.info/urgency.html)

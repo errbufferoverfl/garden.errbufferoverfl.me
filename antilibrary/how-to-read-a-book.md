@@ -25,18 +25,6 @@ categories:
 ---
 
 ::: columns
-::: {.column width="40%"}
-![]({{< meta cover >}})
-
-published on 2014-09-30 by {{< meta publisher >}}
-
-{{< progress >}}
-
-:::
-
-::: {.column width="10%"}
-<!-- empty column to create gap -->
-:::
 
 ::: {.column width="50%"}
 *How to Read a Book, originally published in 1940, has become a rare phenomenon, a living classic. It is the best and most successful guide to reading comprehension for the general reader. And now it has been completely rewritten and updated.*
@@ -47,6 +35,20 @@ published on 2014-09-30 by {{< meta publisher >}}
 
 *Finally, the authors offer a recommended reading list and supply reading tests whereby you can measure your own progress in reading skills, comprehension and speed.*
 :::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="40%"}
+![]({{< meta cover >}})
+
+published on 2014-09-30 by {{< meta publisher >}}
+
+{{< progress >}}
+
+:::
+
 :::
 
 ## Summary
@@ -55,11 +57,11 @@ published on 2014-09-30 by {{< meta publisher >}}
 
 ## 3 Main Takeaways
 
--   
+-
 
--   
+-
 
--   
+-
 
 ## Quotes
 
@@ -89,11 +91,11 @@ However, most primary schools, high schools and universities do not teach how to
 ::: {.callout-important}
 In Australia:
 
--   about 44% of adults read at literacy level 1 to 2 (a low level)
+- about 44% of adults read at literacy level 1 to 2 (a low level)
 
--   38% of adults read at level 3
+- 38% of adults read at level 3
 
--   about 15% read at level 4 to 5 (the highest level).
+- about 15% read at level 4 to 5 (the highest level).
 
 People at a reading level 1 read at a primary school equivalent level. They can understand short sentences.
 :::
@@ -106,31 +108,30 @@ Inspectional reading is where one starts to develop as a reader. Inspectional re
 
 **Outcome:** Discover if a book requires more careful reading.
 
--   Look at the title page and if the book has one the preface
+- Look at the title page and if the book has one the preface
 
-    -   Read quickly
+  - Read quickly
 
-    -   What do the titles and subtitles tell you the book covers?
+  - What do the titles and subtitles tell you the book covers?
 
-    -   What is the scope, aim or opinion the author brings to the conversation?
+  - What is the scope, aim or opinion the author brings to the conversation?
 
-    -   What other books in your collection does this book vibe with?
+  - What other books in your collection does this book vibe with?
 
--   Study the table of contents
+- Study the table of contents
 
-    -   How is the book structured?
+  - How is the book structured?
 
-    -   What does your journey look like?
+  - What does your journey look like?
 
--   Study the index (if the book has one)
+- Study the index (if the book has one)
 
-    -   What topics are covered in the book and at what frequency?
+  - What topics are covered in the book and at what frequency?
 
-    -   What crucial terms can you find? Sample a few pages, what does the book have to say on these topics?
+  - What crucial terms can you find? Sample a few pages, what does the book have to say on these topics?
 
--   Read the publishers blurb
+- Read the publishers blurb
 
-    -   
 
 #### Superficial Reading
 

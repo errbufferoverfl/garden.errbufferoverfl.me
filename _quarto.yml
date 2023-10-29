@@ -52,8 +52,8 @@ website:
             url: /toolbox/
           - text: The Soapbox
             url: /soapbox/
-          - text: The Digest
-            url: digest.qmd
+          - text: The Back of the Book
+            url: bob.qmd
           - text: About Me
             url: index.qmd
       - icon: rss
