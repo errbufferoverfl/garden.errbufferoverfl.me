@@ -1,11 +1,9 @@
 ---
 title: "Setting Up Distributed Press on Digital Ocean"
-subtitle: ""
 author: "errbufferoverfl"
 date: 2023-10-15T17:02:39+11:00
 description: "A guide on setting up Distributed Press on Digital Ocean. It covers creating a virtual private server (VPS), installing dependencies, configuring DNS, executing the playbook, and checking the status of the service. It also includes additional notes on creating a new publisher, adding a site to a publisher, and troubleshooting errors."
 image: "/imgs/ian-schneider-WymR2nYtj5M-unsplash.jpg"
-image-alt: ""
 categories:
 - Tree
 - Distributed Web
@@ -31,7 +29,7 @@ This doc assumes you're familiar with apt-based Linux, the basics of Linux syste
 
 ## Method
 
-Create a new virtual private server (VPS) with your provider of choice, when using Digital Ocean I used a droplet with the following specifications: 
+Create a new virtual private server (VPS) with your provider of choice, when using Digital Ocean I used a droplet with the following specifications:
 
 - **Image:** Ubuntu 22.10 x64
 - **CPU:** 4 vCPUs

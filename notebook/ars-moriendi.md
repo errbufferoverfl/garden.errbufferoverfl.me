@@ -22,4 +22,4 @@ Mr. Bungle's California has a track called [*Ars Moriendi*](https://www.youtube.
 
 ## Further Reading
 
--   [The Ars Moriendi: An examination, translation, and collation of the manuscripts of the shorter Latin version](https://www.medievalists.net/2012/02/the-ars-moriendi-an-examination-translation-and-collation-of-the-manuscripts-of-the-shorter-latin-version/)
+- [The Ars Moriendi: An examination, translation, and collation of the manuscripts of the shorter Latin version](https://www.medievalists.net/2012/02/the-ars-moriendi-an-examination-translation-and-collation-of-the-manuscripts-of-the-shorter-latin-version/)

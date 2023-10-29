@@ -3,7 +3,7 @@ title: "Gouache"
 author: "errbufferoverfl"
 date: 2023-06-02T00:00:00+10:00
 filters:
-   - lightbox
+- lightbox
 lightbox: auto
 categories:
 - Medium

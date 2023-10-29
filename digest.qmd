@@ -1,0 +1,34 @@
+---
+title: "The Index"
+subtitle: "The official back of the book for this digital garden."
+listing:
+    categories: numbered
+    type: table
+    sort: title
+    feed: true
+    fields: [date, title, description, file-modified]
+    sort-ui: [title, date, file-modified, categories]
+    filter-ui: [title, description]
+    contents:
+        - antilibrary
+        - art-studio
+        - engineering
+        - microfarm
+        - notebook
+        - soapbx
+        - toolbox
+    exclude:
+        files:
+          - antilibrary/index.qmd
+          - art-studio/index.qmd
+          - engineering/index.qmd
+          - microfarm/index.qmd
+          - notebook/index.qmd
+          - soapbx/index.qmd
+          - toolbox/index.qmd
+page-layout: full
+title-block-banner: true
+citation: false
+toc: false
+comments: false
+---

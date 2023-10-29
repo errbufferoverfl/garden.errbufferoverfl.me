@@ -19,10 +19,10 @@ categories:
 
 **Same Origin Policy** - content on the same origin can be interacted with, without restriction. Content on a different origin cannot.
 
--   Applies to the DOM and all it's contents
--   Applies to WebPermissions
--   Applies to WebStorage
--   Applies to JS-base XHR requests, including the ability to load resource and inspect their content
+- Applies to the DOM and all it's contents
+- Applies to WebPermissions
+- Applies to WebStorage
+- Applies to JS-base XHR requests, including the ability to load resource and inspect their content
 
 ::: {callout-warning}
 eTLD (i.e., effective top-level domain) changes this model because there is no way to arithmetically determine if a domain name suffix is publicly registrable or not.
@@ -38,9 +38,9 @@ JavaScript vulnerabilities also apply to contexts such as Electron apps and WebV
 
 ### Remote Code Inclusion
 
--   Loading remote code at run-time can present a significant risk if not managed, or improperly managed. Remote code inclusions means that when the remote code changes, every user who loads the resource will receive the modified version.
--   Remote code inclusions relies on having the full trust of the remote server, all it's components, and in many circumstances the remote resources **it** connects to.
--   Remote code inclusions isn't an easy risk to mitigate, when it's being leveraged as a feature.
+- Loading remote code at run-time can present a significant risk if not managed, or improperly managed. Remote code inclusions means that when the remote code changes, every user who loads the resource will receive the modified version.
+- Remote code inclusions relies on having the full trust of the remote server, all it's components, and in many circumstances the remote resources **it** connects to.
+- Remote code inclusions isn't an easy risk to mitigate, when it's being leveraged as a feature.
 
 #### RCI Mitigation
 
@@ -48,9 +48,9 @@ JavaScript vulnerabilities also apply to contexts such as Electron apps and WebV
 >
 > --- Dr. Philippe De Ryck, Security model of the web / XSS in React
 
--   Self-hosting the remote code being included.
--   Using sub-resource integrity or code isolation techniques[^1]
--   Using a Content Security Policy can provide more control over what code can be loaded[^2]
+- Self-hosting the remote code being included.
+- Using sub-resource integrity or code isolation techniques[^1]
+- Using a Content Security Policy can provide more control over what code can be loaded[^2]
 
 [^1]: What are these?
 
@@ -66,9 +66,9 @@ Further Reading:
 
 [^3]: [Small World with High Risks: A Study of Security Threats in the npm Ecosystem](https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman)
 
--   [Towards a Theory of Application Compartmentalisation](https://link.springer.com/chapter/10.1007/978-3-642-41717-7_4)
--   [Exploring Compartmentalisation Hypotheses with SOAAP](https://www.researchgate.net/publication/260346153_Exploring_Compartmentalisation_Hypotheses_with_SOAAP)
--   [Chrompartments: Hybrid Compartmentalisation for Web Browsers](https://kclpure.kcl.ac.uk/portal/en/projects/chrompartments-hybrid-compartmentalisation-for-web-browsers)
+- [Towards a Theory of Application Compartmentalisation](https://link.springer.com/chapter/10.1007/978-3-642-41717-7_4)
+- [Exploring Compartmentalisation Hypotheses with SOAAP](https://www.researchgate.net/publication/260346153_Exploring_Compartmentalisation_Hypotheses_with_SOAAP)
+- [Chrompartments: Hybrid Compartmentalisation for Web Browsers](https://kclpure.kcl.ac.uk/portal/en/projects/chrompartments-hybrid-compartmentalisation-for-web-browsers)
 
 ## Cross-Site Scripting in React
 
@@ -76,11 +76,11 @@ Further Reading:
 
 ### XSS Mitigation
 
--   Encoding dangerous characters prevents XSS, important to note is that encoding can avoid browser confusion, but doesn't provide context information.
--   Sinks aren't always obvious and depending on the context in which you're operating, data can end up in HTML attributes, populating URLs, in CSS or in JavaScript.
-    -   All of these contexts can change the security requirements and how data should be encoded.
--   The only way to achieve this, is to ensure you use context-sensitive output encoding which ensures that given an operating-context the data encoded is exist in that context.
-    -   Even then there is the risk that data is being passed through different contexts within the same operation?
+- Encoding dangerous characters prevents XSS, important to note is that encoding can avoid browser confusion, but doesn't provide context information.
+- Sinks aren't always obvious and depending on the context in which you're operating, data can end up in HTML attributes, populating URLs, in CSS or in JavaScript.
+  - All of these contexts can change the security requirements and how data should be encoded.
+- The only way to achieve this, is to ensure you use context-sensitive output encoding which ensures that given an operating-context the data encoded is exist in that context.
+  - Even then there is the risk that data is being passed through different contexts within the same operation?
 
 ## Advanced Cross-Site Scripting
 

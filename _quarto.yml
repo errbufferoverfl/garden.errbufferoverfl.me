@@ -1,28 +1,40 @@
 project:
-    type: website
+  type: website
+  output-dir: _site
+
+  preview:
+      port: 8086
+      browser: true
 
 execute:
   freeze: auto
+  warning: false
+  message: false
 
 editor: visual
-callout-appearance: simple
 
 website:
   title: "errbufferoverfl, anarchist, illustrator, reluctant security engineer"
   favicon: ""
   site-url: https://garden.errbufferoverfl.me
   description: "A garden of evolving ideas about society, microfarming, and sometimes security engineering."
-  twitter-card: true
+  twitter-card:
+    creator: "@errbufferoverfl"
+    site: "@errbufferoverfl"
   open-graph: true
-  back-to-top-navigation: true
+  repo-url: https://github.com/errbufferoverfl/garden.errbufferoverfl.me
+  issue-url: https://github.com/errbufferoverfl/garden.errbufferoverfl.me/issues
+  repo-branch: hugo
+  repo-actions:
+    - edit
+    - source
+    - issue
 
   navbar:
     logo: "/imgs/logo.png"
     logo-alt: "Illustration of a snail looking up."
     logo-href: "/notebook/"
     title: false
-    repo-url: https://github.com/errbufferoverfl/garden.errbufferoverfl.me
-    repo-actions: [edit, issue]
     right:
       - text: The Notebook
         href: /notebook/
@@ -40,36 +52,50 @@ website:
             url: /toolbox/
           - text: The Soapbox
             url: /soapbox/
+          - text: The Digest
+            url: digest.qmd
           - text: About Me
             url: index.qmd
-      - text: Errata
-        menu:
-          - text: Source Code
-            url:  https://github.com/errbufferoverfl/garden.errbufferoverfl.me
-          - text: Report a Bug
-            url:  https://github.com/errbufferoverfl/garden.errbufferoverfl.me/issues
       - icon: rss
-        href: /index.xml
+        href: index.xml
 
   page-footer:
     border: false
     left: "Published with [Quarto](https://quarto.org/) v<?quarto.version?> | Hosted by [{{< iconify simple-icons github >}}](https://pages.github.com/)"
-    center: "[Ko-Fi](https://ko-fi.com/errbufferoverfl) | [Mastodon](https://genericsocialmediapage.com/@errbufferoverfl) | [Art Mastodon](https://mastodon.art/@errbufferoverfl) | [Github](https://github.com/errbufferoverfl) | [Twitter](https://twitter.com/errbufferoverfl)"
-    right: "© 2023 errbufferoverfl | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en)"
+    right: "© 2023 errbufferoverfl, Some Rights Reserved | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en)<br>[Ko-Fi](https://ko-fi.com/errbufferoverfl) | [Mastodon](https://genericsocialmediapage.com/@errbufferoverfl) | [Art Mastodon](https://mastodon.art/@errbufferoverfl) | [Github](https://github.com/errbufferoverfl) | [Twitter](https://twitter.com/errbufferoverfl)"
 
 format:
   html:
-    theme: Litera
-    css: styles.css
-    link-external-newwindow: true
-    code-link: true
-    code-fold: true
-    code-tools: true
-    smooth-scroll: true
+    lang: en
+    author-meta: errbufferoverfl
+    theme: 
+      light: flatly
+      dark: darkly
+    css: 
+      - styles.css
+    include-in-header: "csp.html"
     highlight-style: dracula
-    code-copy: hover
+
+    toc: true
+    toc-title: Table of contents
+    toc-location: right
+
+    link-external-newwindow: true
+
     code-line-numbers: true
+    code-fold: true
+    code-annotations: true
+    code-overflow: wrap
+    code-copy: hover
+
+    smooth-scroll: true
+
+    fig-align: center
+    fig-responsive: true
+
     anchor-sections: true
+    callout-appearance: simple
+    email-obfuscation: javascript
     
 filters:
   - quarto-version.lua

@@ -4,15 +4,10 @@ subtitle: "Interesting tools that may or may not be useful one day."
 listing:
   contents: .
   fields: [title, date, categories, description]
-  sort: "date desc"
+  sort: title
   type: grid
   categories: numbered
   sort-ui: true
   filter-ui: true
-  feed: true
-page-layout: full
-title-block-banner: true
-citation: false
 toc: false
-comments: false
 ---

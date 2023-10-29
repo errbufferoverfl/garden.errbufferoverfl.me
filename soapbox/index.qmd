@@ -9,9 +9,5 @@ listing:
   sort-ui: true
 date-format: "MMMM, YYYY"
 max-description-length: 500
-page-layout: full
-title-block-banner: true
-citation: false
 toc: false
-comments: false
 ---

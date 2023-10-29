@@ -14,7 +14,7 @@ categories:
 
 ## Learning Efficiency
 
-Learning efficiently in information security is difficult because there is so much to learn, so many topics and it's all very technical. 
+Learning efficiently in information security is difficult because there is so much to learn, so many topics and it's all very technical.
 
 This isn't a bad thing, it means there is a lot available to cut your teeth on. What is difficult is combining what we already know, what we are learning about, and how to adapt all of that into a new set of skills and knowledge.
 
@@ -25,6 +25,7 @@ We also need to fail. Failure is an unavoidable, and essential part to learning.
 ### Being "good" at Something
 
 To feel confident in being "good" at something, we need:
+
 - To know what we are doing
 - Have experience with the topic
 - Have vast or comprehensive of not just the theoretical, but also the practical
@@ -104,7 +105,7 @@ But people use the states "good" and "bad" to describe the profit or loss they e
 - A "good" question might result in an answer that benefits the asker.
 - A "bad" question might result in loss, or not help the asker.
 
-The state we give to a question does not change the answers. The state attributed to the question belongs to the answer or the result. 
+The state we give to a question does not change the answers. The state attributed to the question belongs to the answer or the result.
 
 There are rough questions or precise questions though.
 

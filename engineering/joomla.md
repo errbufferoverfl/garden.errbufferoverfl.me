@@ -58,7 +58,7 @@ Viewing the raw HTML can reveal WordPress either in the `meta generator` or in o
 ```shell-session
 curl -s http://dev.inlanefreight.local/ | grep Joomla
 
-	<meta name="generator" content="Joomla! - Open Source Content Management" />
+ <meta name="generator" content="Joomla! - Open Source Content Management" />
 ```
 
 #### `README.txt`
@@ -69,10 +69,10 @@ If the target has poor operational hygiene, we can fingerprint the Joomla versio
 curl -s http://dev.inlanefreight.local/README.txt | head -n 5
 
 1- What is this?
-	* This is a Joomla! installation/upgrade package to version 3.x
-	* Joomla! Official site: https://www.joomla.org
-	* Joomla! 3.9 version history - https://docs.joomla.org/Special:MyLanguage/Joomla_3.9_version_history
-	* Detailed changes in the Changelog: https://github.com/joomla/joomla-cms/commits/staging
+ * This is a Joomla! installation/upgrade package to version 3.x
+ * Joomla! Official site: https://www.joomla.org
+ * Joomla! 3.9 version history - https://docs.joomla.org/Special:MyLanguage/Joomla_3.9_version_history
+ * Detailed changes in the Changelog: https://github.com/joomla/joomla-cms/commits/staging
 ```
 
 The `cache.xml` file can help to give us the approximate version. It is located at `plugins/system/cache/cache.xml`.

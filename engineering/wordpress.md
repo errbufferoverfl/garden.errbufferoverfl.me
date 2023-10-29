@@ -12,22 +12,22 @@ categories:
 ## Basic Information
 
 - Flexible Content Management System (CMS)
-	- Offers 50,000+ plugins
-	- A study showed that roughly 8% of WordPress hacks happen due to weak passwords, while 60% were due to an outdated WordPress version
-	- According to WPScan, out of nearly 4,000 known vulnerabilities, 54% are from plugins, 31.5% are from WordPress core, and 14.5% are from WordPress themes.
+  - Offers 50,000+ plugins
+  - A study showed that roughly 8% of WordPress hacks happen due to weak passwords, while 60% were due to an outdated WordPress version
+  - According to WPScan, out of nearly 4,000 known vulnerabilities, 54% are from plugins, 31.5% are from WordPress core, and 14.5% are from WordPress themes.
 
 ### Discovery & Footprinting
 
 - `wp-activate.php` is used for the email activation process when setting up a new WordPress site.
 - Login folders (may be renamed to hide it):
-	- `/wp-admin/login.php`
-	- `/wp-admin/wp-login.php`
-	- `/login.php`
-	- `/wp-login.php`
+  - `/wp-admin/login.php`
+  - `/wp-admin/wp-login.php`
+  - `/login.php`
+  - `/wp-login.php`
 - `xmlrpc.php` is a file that enables WordPress to transmit XML data via HTTP with HTTP. This type of communication has been replaced by the WordPress.
 - The `wp-content` folder is the main directory where plugins and themes are stored.
-	- Plugins are stored in `wp-content/plugins`
-	- Themes are stored in `wp-content/themes`
+  - Plugins are stored in `wp-content/plugins`
+  - Themes are stored in `wp-content/themes`
 - `wp-content/uploads/` Is the directory where any files uploaded to the platform are stored.
 - `wp-includes/` This is the directory where core files are stored, such as certificates, fonts, JavaScript files, and widgets.
 - The `wp-config.php` file contains information required by WordPress to connect to the database such as the database name, database host, username and password, authentication keys and salts, and the database table prefix. This configuration file can also be used to activate DEBUG mode, which can useful in troubleshooting.
@@ -36,7 +36,7 @@ categories:
 
 A standard WordPress `robots.txt` file looks something like:
 
-```
+```shell
 User-agent: *
 Disallow: /wp-admin/
 Allow: /wp-admin/admin-ajax.php

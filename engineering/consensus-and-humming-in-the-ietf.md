@@ -3,9 +3,7 @@ title: "Consensus and Humming in the IETF"
 subtitle: ""
 author: "errbufferoverfl"
 date: 2023-06-20T18:37:06+10:00
-description: ""
 image: "/imgs/shelby-cohron-UQwbKtu-2Ek-unsplash.jpg"
-image-alt: ""
 categories:
 - Sapling
 - RFC

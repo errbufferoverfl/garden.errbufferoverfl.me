@@ -19,6 +19,7 @@ about:
     - icon: twitter
       text: Twitter
       href: https://twitter.com/errbufferoverfl
+toc: false
 ---
 
 ## anarchist, illustrator, reluctant security engineer
@@ -32,4 +33,3 @@ My favourite RFC is [RFC 7282](/engineering/consensus-and-humming-in-the-ietf.md
 This is my digital garden a space at the intersection of a notebook and a blog where I cultivate my thoughts in public. Inside, you'll find very few polished articles, but lots of free form, work in progress notes.
 
 A garden stands before you. Take a deep breath [and enter](/notebook/index.qmd).
-π

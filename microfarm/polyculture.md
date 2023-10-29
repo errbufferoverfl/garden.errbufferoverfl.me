@@ -17,7 +17,9 @@ A paper written by Larry Geno and Dr Barbara Geno "[*Polyculture Production Prin
 So while many resources will often talk about the aim of a polyculture being "to mimic the diversity of a natural ecosystem" that's not the whole picture because there are various forms of polycultures that don't mimic the diversity of a natural ecosystem and instead resemble complicated companion planting schemes.
 
 ::: callout-note
+
 According to a presentation given at Cornell University Cooperative Extension and Department of Horticulture "much of popular literature that discusses companion planting is based upon some very bad science". \[[source](http://www.hort.cornell.edu/brewer/polycultures/Polyculture%20Design%20slides.pdf)\]
+
 :::
 
 The definition that has most resinated with me though is from these [Polyculture Design slides](http://www.hort.cornell.edu/brewer/polycultures/Polyculture%20Design%20slides.pdf):
@@ -26,18 +28,19 @@ The definition that has most resinated with me though is from these [Polyculture
 
 The reason being is that multifunctional can be described in many ways, some examples from the slide deck include:
 
--   **Humans Needs**
-    -   Food
-    -   Fuel
-    -   Fodder
-    -   Medicine
-    -   Aesthetics
--   **Ecosystem Services**
-    -   Nitrogen Fixation
-    -   Nutrient Accumulations/Fertility
-    -   Living Mulch/Ground Cover
-    -   Insectary
-    -   Nectary/Pollen
+- **Humans Needs**
+  - Food
+  - Fuel
+  - Fodder
+  - Medicine
+  - Aesthetics
+
+- **Ecosystem Services**
+  - Nitrogen Fixation
+  - Nutrient Accumulations/Fertility
+  - Living Mulch/Ground Cover
+  - Insectary
+  - Nectary/Pollen
 
 One of the things that is interesting to note, is that by "typical" definitions people often reference the fact that polycultures can reduce crop yields because all the different species are competing for light, water and nutrients.
 
@@ -51,9 +54,9 @@ Is the care complicated or simplified?
 
 A notable example of a polyculture and perhaps the best demonstration of "true" [intercropping](intercropping.md) is "the three sisters", which sees maize, beans and squash planted together:
 
--   The maize provides a structure for the beans to grown on;
--   The beans provide nitrogen for all of the plants; and,
--   The squash suppresses weeds on the ground.
+- The maize provides a structure for the beans to grown on;
+- The beans provide nitrogen for all of the plants; and,
+- The squash suppresses weeds on the ground.
 
 I've found better examples of "good" polycultures when discussing integrated aquaculture where seafood and plants are grown together.
 

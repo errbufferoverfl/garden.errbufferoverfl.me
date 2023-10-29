@@ -19,23 +19,23 @@ For example, to provide food a bulk of the hedge can be planted with creeping pl
 
 To add nitrogen to the soil:
 
--   Clover → Running Postman (*Kennedia prostrata*);
--   Shrubs → Native Wisteria (*Hardenbergia comptoniana*) & Coral Creeper (*K. Coccinea*);
--   Siberian Pea Shrubs → Pigeon pea (*Cajanus cajan*);
--   Buffalo Berries → Lilly Pilly (*Syzygium smithii*).
+- Clover → Running Postman (*Kennedia prostrata*);
+- Shrubs → Native Wisteria (*Hardenbergia comptoniana*) & Coral Creeper (*K. Coccinea*);
+- Siberian Pea Shrubs → Pigeon pea (*Cajanus cajan*);
+- Buffalo Berries → Lilly Pilly (*Syzygium smithii*).
 
 While deep rooted plants like:
 
--   Chicory;
--   Yarrow; or,
--   Daikon.
+- Chicory;
+- Yarrow; or,
+- Daikon.
 
 Will pull nutrients from the subsoil and deposit them as leaf litter.
 
 Finally, mulch producing species like:
 
--   Comfrey;
--   Cardoon; and,
--   Thick-leaved artichoke.
+- Comfrey;
+- Cardoon; and,
+- Thick-leaved artichoke.
 
 Can be used to create a mulch layer retaining water.
