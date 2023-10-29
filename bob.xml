@@ -1,0 +1,1742 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>errbufferoverfl, anarchist, illustrator, reluctant security engineer</title>
+<link>https://garden.errbufferoverfl.me/bob.html</link>
+<atom:link href="https://garden.errbufferoverfl.me/bob.xml" rel="self" type="application/rss+xml"/>
+<description>A garden of evolving ideas about society, microfarming, and sometimes security engineering.</description>
+<generator>quarto-1.3.450</generator>
+<lastBuildDate>Sat, 28 Oct 2023 10:42:30 GMT</lastBuildDate>
+<item>
+  <title>Security Vulnerabilities in Single-Sign On</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/security-vulnerabilities-in-single-sign-on.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="page-columns page-full"><p>In 2014, automated testing of the top twenty thousand top-ranked websites using the Facebook SDK, found over 20% were suffering from at least one of five security vulnerabilities.<sup>1</sup></p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;Zhou and Evans, “SSOScan: Automated Testing of Web Applications for Single Sign-On Vulnerabilities.”</p></li></div></div>
+<p>The study focused on five unique vulnerabilities:</p>
+<ul>
+<li><strong>Access Token misuse</strong> - a vulnerability where the access token is used to authenticate users rather than authorising users.</li>
+<li><strong>Signed Request misuse</strong> - a vulnerability where the developer does not verify the signature of a signed request, however, trusts the data contained within the request.</li>
+<li><strong>App Secret leaks</strong> - a vulnerability where the code and app_secret exchange occurs client side rather than server side.</li>
+<li><strong>User OAuth credentials leak</strong> - two vulnerabilities, one where OAuth credentials are leaked via the referer header. The other, where untrusted or unverified third-party content is contained within the same frame that authentication occurs in.</li>
+</ul>
+<p>Regarding vulnerabilities identified:</p>
+<ul>
+<li>Total sample size of 1660 sites that incorporate Facebook SSO buttons</li>
+<li>39 sites display Facebook SOO buttons but have buggy implementations
+<ul>
+<li>Most frequently setting the application to ‘sandbox’, or</li>
+<li>Providing an incorrect application ID</li>
+</ul></li>
+<li>202 sites misuse credentials
+<ul>
+<li>126 sites are misusing both the <code>access_token</code> and <code>signed_request</code></li>
+</ul></li>
+<li>146 sites leak Facebook SSO credentials
+<ul>
+<li>72 sites are leaking through both referrer headers and the DOM</li>
+</ul></li>
+<li>345 sites suffered from at least one vulnerability
+<ul>
+<li>3 sites suffered from both credential misuse and leakage problems</li>
+</ul></li>
+</ul>
+<p>Regarding the profile of affected sites:</p>
+<ul>
+<li>More popular sites are more like to misuse credentials</li>
+<li>Less popular sites are mote likely to leak credentials</li>
+<li>Of the top-1000 ranked sites:
+<ul>
+<li>60 out of 270 support Facebook SSO and suffer at least one vulnerability</li>
+</ul></li>
+<li>The vulnerability rate is similar for the top 10,000 and the bottom 10,000. This suggests that development practices at larger companies are no more secure than smaller companies</li>
+<li>Websites using preconfigured widgets are more likely to misuse credentials, likely because they expose raw access tokens and signed requests.
+<ul>
+<li>Convenience factor may lead to more neglectful development practices.</li>
+</ul></li>
+<li>Websites using the SDK and widgets are better at hiding credentials.</li>
+</ul>
+<p>Regarding remediation:</p>
+<ul>
+<li>Out of 20 notifications, only 8 responses were received
+<ul>
+<li>3 sites set an automated response
+<ul>
+<li>4 months later, 1 site removed the integration citing “content deemed inappropriate”<sup>2</sup></li>
+</ul></li>
+<li>1 engineer responded, but never followed up after additional information was provided</li>
+<li>1 company remediated the issue after follow up via personal channels
+<ul>
+<li>Their initial attempt at remediation was unsuccessful</li>
+</ul></li>
+</ul></li>
+<li>Nine months later they retesting the 345 affected sites, including the 20 contacted
+<ul>
+<li>48 sites had successfully remediated the identified vulnerabilities, including 1 company that was contacted directly
+<ul>
+<li>22 were identified as leaking credentials</li>
+<li>27 were misusing credentials
+<ul>
+<li>1 site affected by both vulnerabilities, fixed both</li>
+</ul></li>
+</ul></li>
+</ul></li>
+<li>An unspecified number of sites that were misusing credentials had migrated from token or signed request flows, to code flow.</li>
+</ul>
+<div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;<strong><em>What does this even mean?!</em></strong> 😂</p></li></div><div class="page-columns page-full"><p>Regarding Facebook:<sup>3</sup> <sup>and</sup> <sup>4</sup></p><div class="no-row-height column-margin column-container"><li id="fn3"><p><sup>3</sup>&nbsp;At the time personal data belonging to millions of Facebook users was collected without their consent by British consulting firm Cambridge Analytica.</p></li><li id="fn4"><p><sup>4</sup>&nbsp;One year prior to this paper being published in June 2013, there was news that a bug in the contact information archive that allowed personal data of approximately 6 million Facebook users to be leaked online. It is believed that the original issue was introduced in 2012.</p></li></div></div>
+<ul>
+<li>Facebook engineers stated concern with the access token leakage through referer headers</li>
+<li>Facebook requested a list of vulnerable clients and contacted 95 sites
+<ul>
+<li>They said they would “take enforcement action as necessary” against 10 sites leaking access tokens in the referer header</li>
+</ul></li>
+<li>One month later, only an additional 4 of the 95 reported sites had been remediated
+<ul>
+<li>2 of 10 sites leaking access tokens had been remediated</li>
+</ul></li>
+</ul>
+
+
+
+
+ ]]></description>
+  <category>Seed</category>
+  <category>SSO</category>
+  <category>OAuth</category>
+  <category>Vulnerabilities</category>
+  <category>OAuth Vulnerabilities</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/security-vulnerabilities-in-single-sign-on.html</guid>
+  <pubDate>Sat, 28 Oct 2023 10:42:30 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/julia-joppien-XFUqd0u5U7w-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Joomla</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/joomla.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="basic-information" class="level2">
+<h2 class="anchored" data-anchor-id="basic-information">Basic Information</h2>
+<ul>
+<li>Flexible Content Management System (CMS)</li>
+<li>PHP based</li>
+</ul>
+<section id="discovery-footprinting" class="level3">
+<h3 class="anchored" data-anchor-id="discovery-footprinting">Discovery &amp; Footprinting</h3>
+<section id="robots.txt" class="level4">
+<h4 class="anchored" data-anchor-id="robots.txt"><code>robots.txt</code></h4>
+<p>A standard Joomla <code>robots.txt</code> file looks something like:</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell-session number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"># If the Joomla site is installed within a folder</span>
+<span id="cb1-2"># eg www.example.com/joomla/ then the robots.txt file</span>
+<span id="cb1-3"># MUST be moved to the site root</span>
+<span id="cb1-4"># eg www.example.com/robots.txt</span>
+<span id="cb1-5"># AND the joomla folder name MUST be prefixed to all of the</span>
+<span id="cb1-6"># paths.</span>
+<span id="cb1-7"># eg the Disallow rule for the /administrator/ folder MUST</span>
+<span id="cb1-8"># be changed to read</span>
+<span id="cb1-9"># Disallow: /joomla/administrator/</span>
+<span id="cb1-10">#</span>
+<span id="cb1-11"># For more information about the robots.txt standard, see:</span>
+<span id="cb1-12"># https://www.robotstxt.org/orig.html</span>
+<span id="cb1-13"></span>
+<span id="cb1-14">User-agent: *</span>
+<span id="cb1-15">Disallow: /administrator/</span>
+<span id="cb1-16">Disallow: /bin/</span>
+<span id="cb1-17">Disallow: /cache/</span>
+<span id="cb1-18">Disallow: /cli/</span>
+<span id="cb1-19">Disallow: /components/</span>
+<span id="cb1-20">Disallow: /includes/</span>
+<span id="cb1-21">Disallow: /installation/</span>
+<span id="cb1-22">Disallow: /language/</span>
+<span id="cb1-23">Disallow: /layouts/</span>
+<span id="cb1-24">Disallow: /libraries/</span>
+<span id="cb1-25">Disallow: /logs/</span>
+<span id="cb1-26">Disallow: /modules/</span>
+<span id="cb1-27">Disallow: /plugins/</span>
+<span id="cb1-28">Disallow: /tmp/</span></code></pre></div>
+</section>
+<section id="meta-generator" class="level4">
+<h4 class="anchored" data-anchor-id="meta-generator"><code>meta generator</code></h4>
+<p>Viewing the raw HTML can reveal WordPress either in the <code>meta generator</code> or in other places.</p>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell-session number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1">curl -s http://dev.inlanefreight.local/ | grep Joomla</span>
+<span id="cb2-2"></span>
+<span id="cb2-3"> &lt;meta name="generator" content="Joomla! - Open Source Content Management" /&gt;</span></code></pre></div>
+</section>
+<section id="readme.txt" class="level4">
+<h4 class="anchored" data-anchor-id="readme.txt"><code>README.txt</code></h4>
+<p>If the target has poor operational hygiene, we can fingerprint the Joomla version if the README.txt file is present:</p>
+<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell-session number-lines code-with-copy"><code class="sourceCode"><span id="cb3-1">curl -s http://dev.inlanefreight.local/README.txt | head -n 5</span>
+<span id="cb3-2"></span>
+<span id="cb3-3">1- What is this?</span>
+<span id="cb3-4"> * This is a Joomla! installation/upgrade package to version 3.x</span>
+<span id="cb3-5"> * Joomla! Official site: https://www.joomla.org</span>
+<span id="cb3-6"> * Joomla! 3.9 version history - https://docs.joomla.org/Special:MyLanguage/Joomla_3.9_version_history</span>
+<span id="cb3-7"> * Detailed changes in the Changelog: https://github.com/joomla/joomla-cms/commits/staging</span></code></pre></div>
+<p>The <code>cache.xml</code> file can help to give us the approximate version. It is located at <code>plugins/system/cache/cache.xml</code>.</p>
+</section>
+<section id="included-javascript-files" class="level4">
+<h4 class="anchored" data-anchor-id="included-javascript-files">Included JavaScript Files</h4>
+<p>In certain Joomla installs, we may be able to fingerprint the version from JavaScript files in the <code>media/system/js/</code> directory or by browsing to <code>administrator/manifests/files/joomla.xml</code>.</p>
+<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell-session number-lines code-with-copy"><code class="sourceCode"><span id="cb4-1">curl -s http://dev.inlanefreight.local/administrator/manifests/files/joomla.xml | xmllint --format -</span>
+<span id="cb4-2"></span>
+<span id="cb4-3">&lt;?xml version="1.0" encoding="UTF-8"?&gt;</span>
+<span id="cb4-4">&lt;extension version="3.6" type="file" method="upgrade"&gt;</span>
+<span id="cb4-5">  &lt;name&gt;files_joomla&lt;/name&gt;</span>
+<span id="cb4-6">  &lt;author&gt;Joomla! Project&lt;/author&gt;</span>
+<span id="cb4-7">  &lt;authorEmail&gt;admin@joomla.org&lt;/authorEmail&gt;</span>
+<span id="cb4-8">  &lt;authorUrl&gt;www.joomla.org&lt;/authorUrl&gt;</span>
+<span id="cb4-9">  &lt;copyright&gt;(C) 2005 - 2019 Open Source Matters. All rights reserved&lt;/copyright&gt;</span>
+<span id="cb4-10">  &lt;license&gt;GNU General Public License version 2 or later; see LICENSE.txt&lt;/license&gt;</span>
+<span id="cb4-11">  &lt;version&gt;3.9.4&lt;/version&gt;</span>
+<span id="cb4-12">  &lt;creationDate&gt;March 2019&lt;/creationDate&gt;</span></code></pre></div>
+</section>
+</section>
+</section>
+<section id="remote-code-execution" class="level2">
+<h2 class="anchored" data-anchor-id="remote-code-execution">Remote Code Execution</h2>
+<ul>
+<li>If you can get admin credentials you can get remote code execution by adding a snippet of PHP code to a template.</li>
+</ul>
+</section>
+<section id="tools" class="level2">
+<h2 class="anchored" data-anchor-id="tools">Tools</h2>
+<ul>
+<li><a href="https://github.com/droope/droopescan">droopescan</a> - a plugin-based scanner that works for SilverStripe, WordPress, and Drupal with limited functionality for Joomla and Moodle.</li>
+<li><a href="https://github.com/drego85/JoomlaScan">JoomlaScan</a></li>
+<li><a href="https://github.com/OWASP/joomscan">joomscan</a> - deprecated</li>
+<li><a href="https://github.com/ajnik/joomla-bruteforce">joomla-brute.py</a></li>
+</ul>
+</section>
+<section id="further-reading" class="level2">
+<h2 class="anchored" data-anchor-id="further-reading">Further Reading</h2>
+<ul>
+<li><a href="https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/joomla">Joomla</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Seed</category>
+  <category>Joomla</category>
+  <category>Fundamentals</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/joomla.html</guid>
+  <pubDate>Sat, 28 Oct 2023 01:25:27 GMT</pubDate>
+</item>
+<item>
+  <title>WordPress</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/wordpress.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="basic-information" class="level2">
+<h2 class="anchored" data-anchor-id="basic-information">Basic Information</h2>
+<ul>
+<li>Flexible Content Management System (CMS)
+<ul>
+<li>Offers 50,000+ plugins</li>
+<li>A study showed that roughly 8% of WordPress hacks happen due to weak passwords, while 60% were due to an outdated WordPress version</li>
+<li>According to WPScan, out of nearly 4,000 known vulnerabilities, 54% are from plugins, 31.5% are from WordPress core, and 14.5% are from WordPress themes.</li>
+</ul></li>
+</ul>
+<section id="discovery-footprinting" class="level3">
+<h3 class="anchored" data-anchor-id="discovery-footprinting">Discovery &amp; Footprinting</h3>
+<ul>
+<li><code>wp-activate.php</code> is used for the email activation process when setting up a new WordPress site.</li>
+<li>Login folders (may be renamed to hide it):
+<ul>
+<li><code>/wp-admin/login.php</code></li>
+<li><code>/wp-admin/wp-login.php</code></li>
+<li><code>/login.php</code></li>
+<li><code>/wp-login.php</code></li>
+</ul></li>
+<li><code>xmlrpc.php</code> is a file that enables WordPress to transmit XML data via HTTP with HTTP. This type of communication has been replaced by the WordPress.</li>
+<li>The <code>wp-content</code> folder is the main directory where plugins and themes are stored.
+<ul>
+<li>Plugins are stored in <code>wp-content/plugins</code></li>
+<li>Themes are stored in <code>wp-content/themes</code></li>
+</ul></li>
+<li><code>wp-content/uploads/</code> Is the directory where any files uploaded to the platform are stored.</li>
+<li><code>wp-includes/</code> This is the directory where core files are stored, such as certificates, fonts, JavaScript files, and widgets.</li>
+<li>The <code>wp-config.php</code> file contains information required by WordPress to connect to the database such as the database name, database host, username and password, authentication keys and salts, and the database table prefix. This configuration file can also be used to activate DEBUG mode, which can useful in troubleshooting.</li>
+</ul>
+<section id="robots.txt" class="level4">
+<h4 class="anchored" data-anchor-id="robots.txt"><code>robots.txt</code></h4>
+<p>A standard WordPress <code>robots.txt</code> file looks something like:</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1">User-agent: *</span>
+<span id="cb1-2">Disallow: /wp-admin/</span>
+<span id="cb1-3">Allow: /wp-admin/admin-ajax.php</span>
+<span id="cb1-4">Disallow: /wp-content/uploads/wpforms/</span>
+<span id="cb1-5"></span>
+<span id="cb1-6">Sitemap: https://example.com/wp-sitemap.xml</span></code></pre></div>
+<ul>
+<li><code>wp-admin</code> and <code>wp-content</code> are default WordPress directories.</li>
+<li>Attempting to navigate to <code>/wp-admin</code> will redirect you to <code>/wp-login.php</code></li>
+</ul>
+</section>
+<section id="meta-generator" class="level4">
+<h4 class="anchored" data-anchor-id="meta-generator"><code>meta generator</code></h4>
+<p>Viewing the raw HTML can reveal WordPress either in the <code>meta generator</code> or in other places.</p>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1">curl -s http://blog.inlanefreight.local | grep WordPress</span>
+<span id="cb2-2"></span>
+<span id="cb2-3">...</span>
+<span id="cb2-4"></span>
+<span id="cb2-5">&lt;meta name="generator" content="WordPress 5.8" /</span></code></pre></div>
+</section>
+</section>
+<section id="authorisation" class="level3">
+<h3 class="anchored" data-anchor-id="authorisation">Authorisation</h3>
+<p>There are five types of users on a standard WordPress installation.</p>
+<ol type="1">
+<li>Administrator: This user has access to administrative features within the website. This includes adding and deleting users and posts, as well as editing source code.</li>
+<li>Editor: An editor can publish and manage posts, including the posts of other users.</li>
+<li>Author: They can publish and manage their own posts.</li>
+<li>Contributor: These users can write and manage their own posts but cannot publish them.</li>
+<li>Subscriber: These are standard users who can browse posts and edit their profiles.</li>
+</ol>
+<p>Getting access to an administrator is sufficient to obtain code execution on the server. Editors and authors may have access to vulnerable plugins, which normal users don’t.</p>
+</section>
+</section>
+<section id="tools" class="level2">
+<h2 class="anchored" data-anchor-id="tools">Tools</h2>
+<ul>
+<li><a href="https://github.com/wpscanteam/wpscan">WPScan</a></li>
+</ul>
+</section>
+<section id="further-reading" class="level2">
+<h2 class="anchored" data-anchor-id="further-reading">Further Reading</h2>
+<ul>
+<li><a href="https://academy.hackthebox.com/course/preview/hacking-wordpress">Hacking WordPress</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Seed</category>
+  <category>WordPress</category>
+  <category>Fundamentals</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/wordpress.html</guid>
+  <pubDate>Tue, 24 Oct 2023 08:59:51 GMT</pubDate>
+</item>
+<item>
+  <title>Content Credentials</title>
+  <link>https://garden.errbufferoverfl.me/toolbox/content-credentials.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Content Credentials make the origin and history of content available for everyone to access, anytime. With this information at your fingertips, you have the ability to decide if you trust the content you see—understanding what it is and how much editing or manipulation it went through.</p>
+<p>Content Credentials are based on an open technical specification developed and maintained by the <a href="https://c2pa.org/">C2PA</a>, a cross-industry standards development organisation. You can review the specification anytime.</p>
+<p><a href="https://contentcredentials.org/">Website</a></p>
+<section id="additional-notes" class="level2">
+<h2 class="anchored" data-anchor-id="additional-notes"><strong>Additional Notes</strong></h2>
+
+
+</section>
+
+ ]]></description>
+  <category>Trust &amp; Saftey</category>
+  <category>Open Standard</category>
+  <category>Beta</category>
+  <guid>https://garden.errbufferoverfl.me/toolbox/content-credentials.html</guid>
+  <pubDate>Sun, 22 Oct 2023 09:01:12 GMT</pubDate>
+</item>
+<item>
+  <title>Preserving Carrots</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/microfarm/preserving-carrots.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="canning" class="level2">
+<h2 class="anchored" data-anchor-id="canning">Canning</h2>
+<section id="plain-pickled-carrots" class="level3">
+<h3 class="anchored" data-anchor-id="plain-pickled-carrots">Plain Pickled Carrots</h3>
+<section id="ingredients" class="level4">
+<h4 class="anchored" data-anchor-id="ingredients">Ingredients</h4>
+<ul>
+<li>1.24 kgs peeled carrots (about 1.5 kgs as purchased)</li>
+<li>5½ cups white distilled vinegar (5%)</li>
+<li>1 cup water</li>
+<li>2 cups sugar</li>
+<li>2 teaspoons canning salt</li>
+<li>8 teaspoons mustard seed</li>
+<li>4 teaspoons celery seed</li>
+</ul>
+<p><strong>Yield:</strong> About 4 pint jars</p>
+</section>
+<section id="method" class="level4">
+<h4 class="anchored" data-anchor-id="method">Method</h4>
+<ul>
+<li>Wash and rinse canning jars; keep hot until ready to use. Prepare lids and bands according to manufacturer’s directions.</li>
+<li>Wash and peel carrots well. Wash again after peeling and cut into rounds that are approximately ½-inch thick.</li>
+<li>Combine vinegar, water, sugar and canning salt in an 8 litre Dutch oven or stockpot. Bring to a boil and boil gently 3 minutes. Add carrots and bring back to a boil. Then reduce heat to a simmer and heat until the carrots are half-cooked (about 10 minutes).</li>
+<li>Meanwhile, place 2 teaspoons mustard seed and 1 teaspoon celery seed in the bottom of each clean, hot pint jar.</li>
+<li>Fill hot jars with the hot carrots, leaving 1-inch head-space. Cover with hot pickling liquid, leaving ½-inch head-space. Remove air bubbles and adjust head-space if needed. Wipe rims of jars with a dampened, clean paper towel; adjust two-piece metal canning lids.</li>
+<li>Process in a boiling water canner, as recommended in Table 1. Let cool, undisturbed, 12 to 24 hours and check for seals.</li>
+</ul>
+<p>Allow carrots to sit in processed jars for 3 to 5 days before consuming for best flavour development.</p>
+<table class="table">
+<caption>Table 1. Recommended process time for <strong>Pickled Carrots</strong> in a boiling-water canner.</caption>
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Style of Pack</strong></th>
+<th><strong>Jar Size</strong></th>
+<th><strong>0 - 1,000 ft</strong></th>
+<th><strong>1,001 - 6,000 ft</strong></th>
+<th><strong>Above 6,000 ft</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Hot</td>
+<td>Pints</td>
+<td><strong>15 min</strong></td>
+<td>20</td>
+<td>25</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+<section id="additional-resources" class="level2">
+<h2 class="anchored" data-anchor-id="additional-resources">Additional Resources</h2>
+<ul>
+<li><a href="https://nchfp.uga.edu/publications/uga/using_bw_canners.html#gsc.tab=0">Using Boiling Water Canners</a></li>
+<li><a href="https://nchfp.uga.edu/publications/usda/GUIDE01_HomeCan_rev0715.pdf">Principles of Home Canning</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Boiling-Water Canning</category>
+  <category>Food Preservation</category>
+  <category>Seed</category>
+  <guid>https://garden.errbufferoverfl.me/microfarm/preserving-carrots.html</guid>
+  <pubDate>Sun, 22 Oct 2023 02:21:48 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/jacqueline-brandwayn-y1-rEwCZkPg-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Preserving Cucumbers</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/microfarm/preserving-cucumbers.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="canning" class="level2">
+<h2 class="anchored" data-anchor-id="canning">Canning</h2>
+<section id="bread-and-butter-pickles" class="level3">
+<h3 class="anchored" data-anchor-id="bread-and-butter-pickles">Bread and Butter Pickles</h3>
+<section id="ingredients" class="level4">
+<h4 class="anchored" data-anchor-id="ingredients">Ingredients</h4>
+<ul>
+<li>2.7 kgs medium-sized cucumbers, scrubbed and sliced 1/8 inch thick</li>
+<li>1 1/2 cups white onions, sliced and peeled</li>
+<li>2 cloves garlic</li>
+<li>1/3 cup salt</li>
+<li>Ice cubes</li>
+<li>4 1/2 cups sugar</li>
+<li>1 1/2 tsp ground turmeric</li>
+<li>1 1/2 tsp celery seeds</li>
+<li>2 tablespoons yellow mustard seeds</li>
+<li>3 cups white distilled vinegar</li>
+</ul>
+<p><strong>Yield:</strong> About 7 pint jars</p>
+</section>
+<section id="method" class="level4">
+<h4 class="anchored" data-anchor-id="method">Method</h4>
+<ul>
+<li>In a large mixing bowl combine cucumbers, onions and garlic. Add salt and mix well. Cover with ice cubes and let stand for 3 hours.</li>
+<li>Rinse well, drain excess water and remove the garlic cloves.</li>
+<li>Combine sugar, turmeric, celery and mustard seeds, and vinegar and heat to boiling in an 8 litre Dutch oven or stockpot. Add drained cucumber mixture and heat 5 minutes.</li>
+<li>Pour in sterilised jars, leaving 1/2 inch head-space. Cap and seal.</li>
+<li>Process in a boiling water canner, as recommended in Table 1. Let cool, undisturbed, 12 to 24 hours and check for seals.</li>
+</ul>
+<table class="table">
+<caption>Table 1. Recommended process time for <strong>Bread and Butter Pickles</strong> in a boiling-water canner.</caption>
+<colgroup>
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+<col style="width: 20%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Style of Pack</strong></th>
+<th><strong>Jar Size</strong></th>
+<th><strong>0 - 1,000 ft</strong></th>
+<th><strong>1,001 - 6,000 ft</strong></th>
+<th><strong>Above 6,000 ft</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Hot</td>
+<td>Pints</td>
+<td><strong>5 min</strong></td>
+<td>10</td>
+<td>15</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+<section id="additional-resources" class="level2">
+<h2 class="anchored" data-anchor-id="additional-resources">Additional Resources</h2>
+<ul>
+<li><a href="https://nchfp.uga.edu/publications/uga/using_bw_canners.html#gsc.tab=0">Using Boiling Water Canners</a></li>
+<li><a href="https://nchfp.uga.edu/publications/usda/GUIDE01_HomeCan_rev0715.pdf">Principles of Home Canning</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Boiling-Water Canning</category>
+  <category>Food Preservation</category>
+  <category>Seed</category>
+  <guid>https://garden.errbufferoverfl.me/microfarm/preserving-cucumbers.html</guid>
+  <pubDate>Sat, 21 Oct 2023 21:33:03 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/reka-biro-horvath-cAVv_E77q1Q-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Cultish</title>
+  <dc:creator>Amanda Montell</dc:creator>
+  <link>https://garden.errbufferoverfl.me/antilibrary/cultish.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>The following notes discuss sexual abuse, coercive control, suicide and murder.</p>
+</div>
+</div>
+</div>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><em>The author of the widely praised Wordslut analyzes the social science of cult influence: how cultish groups from Jonestown and Scientology to SoulCycle and social media gurus use language as the ultimate form of power. What makes “cults” so intriguing and frightening? What makes them powerful? The reason why so many of us binge Manson documentaries by the dozen and fall down rabbit holes researching suburban moms gone QAnon is because we’re looking for a satisfying explanation for what causes people to join—and more importantly, stay in—extreme groups.</em></p>
+<p><em>We secretly want to know: could it happen to me? Amanda Montell’s argument is that, on some level, it already has . . . Our culture tends to provide pretty flimsy answers to questions of cult influence, mostly having to do with vague talk of “brainwashing.” But the true answer has nothing to do with freaky mind-control wizardry or Kool-Aid. In Cultish, Montell argues that the key to manufacturing intense ideology, community, and us/them attitudes all comes down to language.</em></p>
+<p><em>In both positive ways and shadowy ones, cultish language is something we hear—and are influenced by—every single day. Through juicy storytelling and cutting original research, Montell exposes the verbal elements that make a wide spectrum of communities “cultish,” revealing how they affect followers of groups as notorious as Heaven’s Gate, but also how they pervade our modern start-ups, Peloton leaderboards, and Instagram feeds. Incisive and darkly funny, this enrapturing take on the curious social science of power and belief will make you hear the fanatical language of “cultish” everywhere.</em></p>
+</div><div class="column" style="width:10%;">
+<!-- empty column to create gap -->
+</div><div class="column" style="width:40%;">
+<p><img src="https://garden.errbufferoverfl.me/imgs/cultish.png" class="img-fluid"></p>
+<p>published on 2021-06-15 by Harper Collins</p>
+<p></p>
+</div>
+</div>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+</section>
+<section id="themes" class="level2">
+<h2 class="anchored" data-anchor-id="themes">Themes</h2>
+</section>
+<section id="main-takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="main-takeaways">3 Main Takeaways</h2>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</section>
+<section id="quotes" class="level2">
+<h2 class="anchored" data-anchor-id="quotes">Quotes</h2>
+<blockquote class="blockquote">
+<p>Roses are red Money is green The American Dream Is a pyramid scheme</p>
+</blockquote>
+</section>
+<section id="other-notes" class="level2">
+<h2 class="anchored" data-anchor-id="other-notes">Other Notes</h2>
+<section id="initial-thoughts" class="level3">
+<h3 class="anchored" data-anchor-id="initial-thoughts">Initial Thoughts</h3>
+<p>Amanda Montell is a language scholar who has worked on similar books before so I’m expecting the book to be very linguistic oriented. From the book summary I’m expecting the book explores the “suburban mom gone QAnon” pipeline in more detail, rather than glossing over <em>how</em> people are radicalised.</p>
+<p>I’m also pleased to see that Montell’s research won’t just focus on what we see or understand as religious or political “cults”, but will also explore how cultish language is used by start-ups, fitness brands and social media.</p>
+<p>Based on the table of contents I suspect the structure will be very similar to the Netflix series <em>How to Become a Cult Leader</em>.</p>
+</section>
+</section>
+<section id="chapter-1-repeat-after-me" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="chapter-1-repeat-after-me">Chapter 1: Repeat After Me</h2>
+<p><strong>What is a cult?</strong></p>
+<p>It depends.</p>
+<div class="page-columns page-full"><p>Originally cults meant nothing more that “homage paid to divinity”<sup>1</sup> in the modern day the term cult is considered pejorative.</p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;<a href="https://www.etymonline.com/word/cult">cult (n.)</a></p></li></div></div>
+<div class="page-columns page-full"><p>It wasn’t until the Fourth Great Awakening<sup>2</sup> that cult began to take on a more sinister meaning due to the Manson family, which was followed not long after by Johnstown and consequently Heavens Gate.</p><div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;The Fourth Great Awakening was a Christian awakening that some scholars say took place in the United States either in the late 1960s and early 1970s or the era after World War II. The terminology is controversial as some historians argue that the “awakening” was vastly different to the prior three.</p></li></div></div>
+<p>These events helped drive the “satanic panic” in the 1980s. The Satanic Panic also saw over 12,000 unsubstantiated cases of Satanic ritual abuse. While it has it’s roots in the US, it spread throughout many parts of the world by the late 1990s, and still persists today.</p>
+<p><strong>So, <em>how</em> do we define a cult?</strong></p>
+<p><strong>What’s the difference between a cult and religion?</strong></p>
+<p>Very little and it’s a question as old as religion itself. Burton likes to focus on what religion does rather than what they are. Religions provide: meaning, purpose, a sense of community and ritual.</p>
+<p>See how there isn’t much difference between the two?</p>
+<p><strong>Why do we enjoy consuming tales about cultish groups?</strong></p>
+<div class="page-columns page-full"><p>Your amygdala,<sup>3</sup> the part of the brain that controls emotions, memory, and survival tactics basically gets aroused by disaster. It enables the part of our brain that controls problem-solving and basically tries to work out if you are in direct danger… this in turn puts you into flight, flight and fawn mode and you’re just like watching Netflix, or reading a book.</p><div class="no-row-height column-margin column-container"><li id="fn3"><p><sup>3</sup>&nbsp;<img src="https://garden.errbufferoverfl.me/antilibrary/cultish.png" class="img-fluid"></p></li></div></div>
+<p><strong>Why do people join these groups?</strong></p>
+<p>People may find themself being drawn into cultish endeavours due to the “epidemic of loneliness”. Cultish endeavours wether they are based in religion, fitness, a product, or something else entirely can give us a sense of belonging. They can soften the burden of having to make so many independent choices associated with crafting your own “personal brand”.</p>
+<div class="page-columns page-full"><p>Our first interviewee is a first-generation Russian American who struggled to fit in during childhood. As a young adult she found solace in a local Yoga studio that advocated from abstaining from meat and alcohol.<sup>4</sup></p><div class="no-row-height column-margin column-container"><li id="fn4"><p><sup>4</sup>&nbsp;The Healthy, Happy Holy Organisation (3HO), a Sikh-derived group formed in the 1970s. Their guru Yogi Bhajan claims to speak for all western-Sikhs. They host regular Kundalini yoga classes. Sikh Dharma International and its associated corporate entities and directors created and control the <a href="https://en.wikipedia.org/wiki/Yogi_Tea" title="Yogi Tea">Yogi Tea</a> and <a href="https://en.wikipedia.org/wiki/Akal_Security" title="Akal Security">Akal Security</a>.</p></li></div></div>
+<p>3HO’s leader Yogi Bhajan was post-humorously investigated for sexual abuse charges.</p>
+<p><strong>Is everyone susceptible to cultish influence?</strong></p>
+<div class="page-columns page-full"><p>Yes, and I feel like a part of it is because of the overconfidence effect<sup>5</sup></p><div class="no-row-height column-margin column-container"><li id="fn5"><p><sup>5</sup>&nbsp;The overconfidence effect is a well-established bias in which a person’s subjective <em>confidence</em> in their judgments is reliably greater than the objective <em>accuracy</em> of those judgments, especially when confidence is relatively high.</p></li></div></div>
+</section>
+<section id="part-2-congratulations-you-have-been-chosen-to-joint-the-next-evolutionary-level-above-human" class="level2">
+<h2 class="anchored" data-anchor-id="part-2-congratulations-you-have-been-chosen-to-joint-the-next-evolutionary-level-above-human">Part 2: Congratulations — You Have Been Chosen to Joint the Next Evolutionary Level Above Human</h2>
+<p><strong>What makes people join groups like Jonestown and Heavens Gate? And more importantly, what makes them stay?</strong></p>
+<p><strong>What makes people in cultish-groups do things they may not do normally? e.g., Heaven’s Gate members sterilised themselves.</strong></p>
+<p><strong>How did Jim Jones convince the people of Jonestown to commit mass suicide?</strong></p>
+<p><strong>Who were their primary targets for indoctrination? What were the similarities/differences?</strong></p>
+<p><strong>What can we learn from Jonestown and Heaven’t Gate to protect ourselves from cultish groups?</strong></p>
+<p><strong>What is the demographic distribution amongst leaders of cultish groups?</strong></p>
+<p><strong>How do their target demographics differ?</strong></p>
+<p><strong>What differences can we see in leaders of cultish groups that are women?</strong></p>
+<p><strong>What is the Sapir-Worf hypothesis?</strong></p>
+<p>Also known as linguistic relativity it’s a principle that suggests that the structure of language influences its speakers worldview and thus it their perceptions of the world.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://garden.errbufferoverfl.me/antilibrary/cultish-1.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Source: <a href="https://blog.govindgnana.com/2020/01/05/linguistic-relativity/">Linguistic Relativity by Govind Gnanakumar</a></figcaption>
+</figure>
+</div>
+</section>
+<section id="further-reading" class="level2">
+<h2 class="anchored" data-anchor-id="further-reading">Further Reading</h2>
+<ul>
+<li><em>The Meaning of Meaning</em>, a book written by two language scholars who attempted to only capture the “necessary” parts of language.</li>
+<li><em>The Cult of Trump</em> written by Steven Hassan a mental health counsellor and one of the US’s leading cult experts.</li>
+<li><em>Dangerous Words</em> by Gary Eberle</li>
+<li><em>White Nights, Black Paradise</em> by Sikivu Hutchinson</li>
+<li><em>Thought Reform and the Psychology of Totalism</em> by psychiatrist Robert Jay Lifton</li>
+<li><em>The Witches are Coming</em> by Lindy West</li>
+</ul>
+
+
+</section>
+
+
+ ]]></description>
+  <category>Non-Fiction</category>
+  <category>Psychology</category>
+  <category>History</category>
+  <category>Sociology</category>
+  <category>Cults</category>
+  <category>Religion</category>
+  <category>Language</category>
+  <category>True Crime</category>
+  <category>Lunguistics</category>
+  <guid>https://garden.errbufferoverfl.me/antilibrary/cultish.html</guid>
+  <pubDate>Sat, 21 Oct 2023 10:04:27 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/cultish.png" medium="image" type="image/png" height="216" width="144"/>
+</item>
+<item>
+  <title>Hack the Box</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/hack-the-box-way-of-learning.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<blockquote class="blockquote">
+<p>Progress is noticeable when the question that tortured us has lost its meaning.</p>
+</blockquote>
+<section id="learning-efficiency" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="learning-efficiency">Learning Efficiency</h2>
+<p>Learning efficiently in information security is difficult because there is so much to learn, so many topics and it’s all very technical.</p>
+<p>This isn’t a bad thing, it means there is a lot available to cut your teeth on. What is difficult is combining what we already know, what we are learning about, and how to adapt all of that into a new set of skills and knowledge.</p>
+<p>Even when presented with adequate information, if we do not know how to use it, it becomes noise.</p>
+<p>We also need to fail. Failure is an unavoidable, and essential part to learning. It can also be one of the most painful parts of learning.</p>
+<section id="being-good-at-something" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="being-good-at-something">Being “good” at Something</h3>
+<p>To feel confident in being “good” at something, we need:</p>
+<ul>
+<li>To know what we are doing</li>
+<li>Have experience with the topic</li>
+<li>Have vast or comprehensive of not just the theoretical, but also the practical</li>
+</ul>
+<p>So how does one get “good” at something?</p>
+<p>Josh Kaufman proposed that we can learn something new in 20 hours. Even if we work on it for just 45 minutes a day.</p>
+<p>A popular learning model often used is the Learning Pyramid which outlines how various learning techniques relate to each other and can help with retention.</p>
+<div class="{{callout-warning}} page-columns page-full">
+<div class="page-columns page-full"><p>The original study that informed the pyramid of learning has been lost and is considered untrustworthy.<sup>1</sup></p><div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;<a href="https://www.researchgate.net/publication/285798853_A_rebuttal_of_NTL_Institute%27s_learning_pyramid">Learning Pyramid Criticisms</a></p></li></div></div>
+</div>
+<p>To summarise the learning pyramid, one will retain:</p>
+<ul>
+<li>5% of information by listening to a lecture</li>
+<li>10% of information by reading<sup>2</sup></li>
+<li>20% of information by watching an audiovisual</li>
+<li>30% of information by watching a demonstration</li>
+<li>50% of information by engaging in a group discussion</li>
+<li>75% of information by practicing what was learnt</li>
+<li>90% of information by teaching someone else, or applying it immediately</li>
+</ul>
+<div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;Because the original research was lost, I wonder what the reading level of participants was? If they never achieved a reading level above <a href="../antilibrary/how-to-read-a-book.html">elementary reading</a> it would make sense they didn’t retain much information.</p></li></div></section>
+</section>
+<section id="learning-types" class="level2">
+<h2 class="anchored" data-anchor-id="learning-types">Learning Types</h2>
+<p>If we ignore the learning pyramid is probably meaningless. We can divide it into two learning styles:</p>
+<ul>
+<li>Passive learning: listening, reading (arguable), watching.</li>
+<li>Active learning: discussion, practice, teaching</li>
+</ul>
+<p>Active learning sees a better retention rate. But going into a discussion, or practice without understanding <em>some</em> of the theory can make the learning process more difficult.</p>
+<p>We should use a mix of these learning types. Ideally techniques that we enjoy. For example:</p>
+<ul>
+<li>Read some information about the vulnerability</li>
+<li>Watch an Youtube video explaining the vulnerability</li>
+<li>Discuss questions or comments with a group</li>
+<li>Practice using the vulnerability</li>
+<li>Reflect and discuss your experience with the practical with a group</li>
+<li>Teach someone else what you learnt</li>
+</ul>
+<p>Taking an approach that includes passive and active learning styles, you’re more likely to retain the information. Ongoing discussion gives you people to share issues and collaborate with. Which can spark creativity and out of the box thinking.</p>
+</section>
+<section id="documentation" class="level2">
+<h2 class="anchored" data-anchor-id="documentation">Documentation</h2>
+<p>No matter who documentation is for, here are some guidelines:</p>
+<ol type="1">
+<li>It is beneficial to put ourselves in the position of our readers. This will make it much easier for us to design the documentation.</li>
+<li>Avoid repetition and ambiguity.</li>
+<li>Make documentation as easy to read as possible. No one wants to read the documentation that is difficult to understand or follow.</li>
+</ol>
+</section>
+<section id="comfort" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="comfort">Comfort</h2>
+<div class="page-columns page-full"><p>The Yerkes-Dodson law is an observed relationship between pressure and performance. The law states that performance increases with physiological or mental arousal, but only up to a point.<sup>3</sup></p><div class="no-row-height column-margin column-container"><li id="fn3"><p><sup>3</sup>&nbsp;<a href="https://en.wikipedia.org/wiki/Yerkes%E2%80%93Dodson_law">Yerkes-Dodson law</a></p></li></div></div>
+<p><img src="https://garden.errbufferoverfl.me/imgs/hack-the-box-way-of-learning.png" class="img-fluid"></p>
+</section>
+<section id="obstacles" class="level2">
+<h2 class="anchored" data-anchor-id="obstacles">Obstacles</h2>
+<p>On obstacles:</p>
+<blockquote class="blockquote">
+<p>Only the person who has taken the exact same journey as you can evaluate you and your decisions. <strong>Everything else is only assumptions.</strong></p>
+</blockquote>
+<p><img src="https://garden.errbufferoverfl.me/imgs/hack-the-box-way-of-learning-3.png" class="img-fluid"></p>
+</section>
+<section id="questioning" class="level2">
+<h2 class="anchored" data-anchor-id="questioning">Questioning</h2>
+<blockquote class="blockquote">
+<p>The most important and most difficult thing in any situation is not the search for the right answer but the search for the right question.</p>
+</blockquote>
+<p>There are no good or bad questions. Questions have no morality.</p>
+<p>But people use the states “good” and “bad” to describe the profit or loss they expect from the question.</p>
+<ul>
+<li>A “good” question might result in an answer that benefits the asker.</li>
+<li>A “bad” question might result in loss, or not help the asker.</li>
+</ul>
+<p>The state we give to a question does not change the answers. The state attributed to the question belongs to the answer or the result.</p>
+<p>There are rough questions or precise questions though.</p>
+<ul>
+<li>A rough question might be: “How can I hack X?” — it’s vague and difficult to answer.</li>
+<li>A precise question might be: “How can I use the server’s SMB service to identify its existing user accounts?” — there is a clear outcome that the answerer can work to answer.</li>
+</ul>
+<p>The goal of a question is one of the most important aspects that determine our approach and the question we ask. Often we are looking:</p>
+<ul>
+<li>To understand the reason for an event (<code>past</code>)</li>
+<li>To experience something completely new and to understand the way something works (<code>present</code>)</li>
+<li>To predict the effect of an event (<code>future</code>)</li>
+</ul>
+<section id="relationship-oriented-questioning-model" class="level3">
+<h3 class="anchored" data-anchor-id="relationship-oriented-questioning-model">Relationship-Oriented-Questioning Model</h3>
+<p><img src="https://garden.errbufferoverfl.me/imgs/hack-the-box-way-of-learning-1.png" class="img-fluid"></p>
+<p>This model represents five components:</p>
+<table class="table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Component</strong></th>
+<th><strong>Description</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><code>Your Position</code></td>
+<td>This describes the position we are in and our view.</td>
+</tr>
+<tr class="even">
+<td><code>The Object</code></td>
+<td>The object is the core element of the question. The main component of our sentence takes the meaning out of the question.</td>
+</tr>
+<tr class="odd">
+<td><code>Known</code></td>
+<td>This information is known to us.</td>
+</tr>
+<tr class="even">
+<td><code>Unknown</code></td>
+<td>This information is not known to us.</td>
+</tr>
+<tr class="odd">
+<td><code>Other Position(s)</code></td>
+<td>This component describes the position of other persons.</td>
+</tr>
+</tbody>
+</table>
+<p>So even for questions that do not directly concern us or about situations we are not involved in, we still have a position and view on the object.</p>
+</section>
+<section id="summary" class="level3">
+<h3 class="anchored" data-anchor-id="summary">Summary</h3>
+<p>A right question is a precise question that allows us to establish the relationships between the components, to understand them, and to take us one step further to the required answer.</p>
+</section>
+</section>
+<section id="learning-progress" class="level2">
+<h2 class="anchored" data-anchor-id="learning-progress">Learning Progress</h2>
+<p>In order to see progress, two specific states are compared, including a specific time window between the learning process.</p>
+<p>If we cannot give ourselves the confirmation, we look for it from others. However, no one else can give us confirmation without taking the path together with us.</p>
+
+
+</section>
+
+
+ ]]></description>
+  <category>Learning</category>
+  <category>Hack the Box</category>
+  <category>Hack the Box Academy</category>
+  <category>General</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/hack-the-box-way-of-learning.html</guid>
+  <pubDate>Sat, 21 Oct 2023 06:36:23 GMT</pubDate>
+</item>
+<item>
+  <title>How to Read a Book</title>
+  <dc:creator>Mortimer J. Adler</dc:creator>
+  <dc:creator>Charles Van Doren</dc:creator>
+  <link>https://garden.errbufferoverfl.me/antilibrary/how-to-read-a-book.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><em>How to Read a Book, originally published in 1940, has become a rare phenomenon, a living classic. It is the best and most successful guide to reading comprehension for the general reader. And now it has been completely rewritten and updated.</em></p>
+<p><em>You are told about the various levels of reading and how to achieve them – from elementary reading, through systematic skimming and inspectional reading, to speed reading, you learn how to pigeon-hole a book, X-ray it, extract the author’s message, criticize.</em></p>
+<p><em>You are taught the different reading techniques for reading practical books, imaginative literature, plays, poetry, history, science and mathematics, philosophy and social science.</em></p>
+<p><em>Finally, the authors offer a recommended reading list and supply reading tests whereby you can measure your own progress in reading skills, comprehension and speed.</em></p>
+</div><div class="column" style="width:10%;">
+<!-- empty column to create gap -->
+</div><div class="column" style="width:40%;">
+<p><img src="https://garden.errbufferoverfl.me/imgs/how-to-read-a-book.png" class="img-fluid"></p>
+<p>published on 2014-09-30 by Simon &amp; Schuster, Inc</p>
+<p></p>
+</div>
+</div>
+<section id="summary" class="level2">
+<h2 class="anchored" data-anchor-id="summary">Summary</h2>
+</section>
+<section id="themes" class="level2">
+<h2 class="anchored" data-anchor-id="themes">Themes</h2>
+</section>
+<section id="main-takeaways" class="level2">
+<h2 class="anchored" data-anchor-id="main-takeaways">3 Main Takeaways</h2>
+<ul>
+<li></li>
+<li></li>
+<li></li>
+</ul>
+</section>
+<section id="quotes" class="level2">
+<h2 class="anchored" data-anchor-id="quotes">Quotes</h2>
+<blockquote class="blockquote">
+<p>We do not have to know everything about something in order to understand it.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>To be informed is to know simply that something is the case. To be enlightened is to know, in addition, what its connections are with other facts, is what respects is the same, in what respects it is different and so forth.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>The Greeks had a name for such a mixture of learning and folly which might be applied to the bookish but poorly read of all ages. They are all <em>sophomores</em>.</p>
+</blockquote>
+<blockquote class="blockquote">
+<p>Some books are to be tasted, others to be swallowed, and some few to be chewed and digested.<br>
+– Francis Bacon</p>
+</blockquote>
+</section>
+<section id="other-notes" class="level2">
+<h2 class="anchored" data-anchor-id="other-notes">Other Notes</h2>
+<p>Thinking is only one part of the activity of learning. To <em>really</em> learn you need to engage your other senses and your imagination. You need to observe, remember, decompose and build new ideas when they cannot be observed.</p>
+<p>There are four levels of reading, each level is dependent on acquiring the skills of the lower level first.</p>
+<p>To become a synoptical reader, you must have the skills of an analytical reader. To have the skills of an analytical reader you must have the skills of the inspectional reader, and all of these skills rely on one having elementary reading skills.</p>
+<section id="elementary-reading" class="level3">
+<h3 class="anchored" data-anchor-id="elementary-reading">Elementary Reading</h3>
+<p>Elementary reading is the foundational level of reading. Many people achieve this level by being exposed to reading material in their youth.</p>
+<p>However, most primary schools, high schools and universities do not teach how to read beyond the elementary reading level as part of normal coursework. Some universities may have courses focuses on teaching how to read analytically, but a typical person should not be expected to go through 13 years of education and then another 3 to 4 just to learn how to read effectively.</p>
+<div class="callout callout-style-simple callout-important">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>In Australia:</p>
+<ul>
+<li><p>about 44% of adults read at literacy level 1 to 2 (a low level)</p></li>
+<li><p>38% of adults read at level 3</p></li>
+<li><p>about 15% read at level 4 to 5 (the highest level).</p></li>
+</ul>
+<p>People at a reading level 1 read at a primary school equivalent level. They can understand short sentences.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="inspectional-reading" class="level3">
+<h3 class="anchored" data-anchor-id="inspectional-reading">Inspectional Reading</h3>
+<p>Inspectional reading is where one starts to develop as a reader. Inspectional reading contains two levels that must be practices before becoming proficient.</p>
+<section id="systematic-skimming-or-pre-reading" class="level4">
+<h4 class="anchored" data-anchor-id="systematic-skimming-or-pre-reading">Systematic Skimming or Pre-reading</h4>
+<p><strong>Outcome:</strong> Discover if a book requires more careful reading.</p>
+<ul>
+<li><p>Look at the title page and if the book has one the preface</p>
+<ul>
+<li><p>Read quickly</p></li>
+<li><p>What do the titles and subtitles tell you the book covers?</p></li>
+<li><p>What is the scope, aim or opinion the author brings to the conversation?</p></li>
+<li><p>What other books in your collection does this book vibe with?</p></li>
+</ul></li>
+<li><p>Study the table of contents</p>
+<ul>
+<li><p>How is the book structured?</p></li>
+<li><p>What does your journey look like?</p></li>
+</ul></li>
+<li><p>Study the index (if the book has one)</p>
+<ul>
+<li><p>What topics are covered in the book and at what frequency?</p></li>
+<li><p>What crucial terms can you find? Sample a few pages, what does the book have to say on these topics?</p></li>
+</ul></li>
+<li><p>Read the publishers blurb</p></li>
+</ul>
+</section>
+<section id="superficial-reading" class="level4">
+<h4 class="anchored" data-anchor-id="superficial-reading">Superficial Reading</h4>
+<p>While these levels make up the same skill, it is not until someone becomes a skilled inspectional reader that they learn how to perform both activities at the same time.</p>
+
+
+</section>
+</section>
+</section>
+
+ ]]></description>
+  <category>Non-Fiction</category>
+  <category>Self Help</category>
+  <category>Education</category>
+  <category>Books About Books</category>
+  <category>Writing</category>
+  <category>Reference</category>
+  <category>Personal Development</category>
+  <category>Productivity</category>
+  <category>Philosophy</category>
+  <guid>https://garden.errbufferoverfl.me/antilibrary/how-to-read-a-book.html</guid>
+  <pubDate>Fri, 20 Oct 2023 10:31:41 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/how-to-read-a-book.png" medium="image" type="image/png" height="224" width="144"/>
+</item>
+<item>
+  <title>Cutting Edge React Security</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/cutting-edge-react-security.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="security-model-of-the-web" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="security-model-of-the-web">Security Model of the Web</h2>
+<section id="origins" class="level3">
+<h3 class="anchored" data-anchor-id="origins">Origins</h3>
+<p><code>{scheme}://{host}:{port}</code></p>
+<p><strong>Same Origin Policy</strong> - content on the same origin can be interacted with, without restriction. Content on a different origin cannot.</p>
+<ul>
+<li>Applies to the DOM and all it’s contents</li>
+<li>Applies to WebPermissions</li>
+<li>Applies to WebStorage</li>
+<li>Applies to JS-base XHR requests, including the ability to load resource and inspect their content</li>
+</ul>
+<div class="{callout-warning}">
+<p>eTLD (i.e., effective top-level domain) changes this model because there is no way to arithmetically determine if a domain name suffix is publicly registrable or not.</p>
+<p>Therefore, the eTLD+1 of these domains is regarded as part of the same organisation.</p>
+</div>
+<p>Once a threat actor can run code within your origin, it’s difficult to provide any security.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://garden.errbufferoverfl.me/imgs/cutting-edge-react-security.png" class="img-fluid figure-img" alt="Still photo from the 2006 edition of &quot;When a Stranger Calls&quot;, Jill Johnson is holding a phone away from her ear with a look of fear on her face. The subtitles read &quot;We traced the call. It's coming from inside the house.&quot;"></p>
+<figcaption class="figure-caption">Do you want cross-site scripting? Because this is what happens when you get cross-site scripting.</figcaption>
+</figure>
+</div>
+<p>JavaScript vulnerabilities also apply to contexts such as Electron apps and WebViews and are fundamentally governed the same way as browsers.</p>
+</section>
+<section id="remote-code-inclusion" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="remote-code-inclusion">Remote Code Inclusion</h3>
+<ul>
+<li>Loading remote code at run-time can present a significant risk if not managed, or improperly managed. Remote code inclusions means that when the remote code changes, every user who loads the resource will receive the modified version.</li>
+<li>Remote code inclusions relies on having the full trust of the remote server, all it’s components, and in many circumstances the remote resources <strong>it</strong> connects to.</li>
+<li>Remote code inclusions isn’t an easy risk to mitigate, when it’s being leveraged as a feature.</li>
+</ul>
+<section id="rci-mitigation" class="level4 page-columns page-full">
+<h4 class="anchored" data-anchor-id="rci-mitigation">RCI Mitigation</h4>
+<blockquote class="blockquote">
+<p>If Google Analytics gets compromised then 99% of the Internet is screwed.</p>
+<p>— Dr.&nbsp;Philippe De Ryck, Security model of the web / XSS in React</p>
+</blockquote>
+<ul>
+<li>Self-hosting the remote code being included.</li>
+<li>Using sub-resource integrity or code isolation techniques<sup>1</sup></li>
+<li>Using a Content Security Policy can provide more control over what code can be loaded<sup>2</sup></li>
+</ul>
+<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;What are these?</p></li><li id="fn2"><p><sup>2</sup>&nbsp;<a href="https://research.google/pubs/pub45542/">CSP Is Dead, Long Live CSP! On the Insecurity of Whitelists and the Future of Content Security Policy</a></p></li></div></section>
+</section>
+<section id="web-app-compartmentalization" class="level3 page-columns page-full">
+<h3 class="anchored" data-anchor-id="web-app-compartmentalization">Web App Compartmentalization</h3>
+<p>Further Reading:</p>
+<blockquote class="blockquote page-columns page-full">
+<div class="page-columns page-full"><p>40% of packages rely on known vulnerable code<sup>3</sup></p><div class="no-row-height column-margin column-container"><li id="fn3"><p><sup>3</sup>&nbsp;<a href="https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman">Small World with High Risks: A Study of Security Threats in the npm Ecosystem</a></p></li></div></div>
+<p>— Dr.&nbsp;Philippe De Ryck, Security model of the web / XSS in React</p>
+</blockquote>
+<ul>
+<li><a href="https://link.springer.com/chapter/10.1007/978-3-642-41717-7_4">Towards a Theory of Application Compartmentalisation</a></li>
+<li><a href="https://www.researchgate.net/publication/260346153_Exploring_Compartmentalisation_Hypotheses_with_SOAAP">Exploring Compartmentalisation Hypotheses with SOAAP</a></li>
+<li><a href="https://kclpure.kcl.ac.uk/portal/en/projects/chrompartments-hybrid-compartmentalisation-for-web-browsers">Chrompartments: Hybrid Compartmentalisation for Web Browsers</a></li>
+</ul>
+</section>
+</section>
+<section id="cross-site-scripting-in-react" class="level2">
+<h2 class="anchored" data-anchor-id="cross-site-scripting-in-react">Cross-Site Scripting in React</h2>
+</section>
+<section id="introduction-to-cross-site-scripting" class="level2">
+<h2 class="anchored" data-anchor-id="introduction-to-cross-site-scripting">Introduction to Cross-Site Scripting</h2>
+<section id="xss-mitigation" class="level3">
+<h3 class="anchored" data-anchor-id="xss-mitigation">XSS Mitigation</h3>
+<ul>
+<li>Encoding dangerous characters prevents XSS, important to note is that encoding can avoid browser confusion, but doesn’t provide context information.</li>
+<li>Sinks aren’t always obvious and depending on the context in which you’re operating, data can end up in HTML attributes, populating URLs, in CSS or in JavaScript.
+<ul>
+<li>All of these contexts can change the security requirements and how data should be encoded.</li>
+</ul></li>
+<li>The only way to achieve this, is to ensure you use context-sensitive output encoding which ensures that given an operating-context the data encoded is exist in that context.
+<ul>
+<li>Even then there is the risk that data is being passed through different contexts within the same operation?</li>
+</ul></li>
+</ul>
+</section>
+</section>
+<section id="advanced-cross-site-scripting" class="level2">
+<h2 class="anchored" data-anchor-id="advanced-cross-site-scripting">Advanced Cross-Site Scripting</h2>
+</section>
+<section id="content-security-policy" class="level2">
+<h2 class="anchored" data-anchor-id="content-security-policy">Content Security Policy</h2>
+</section>
+<section id="trusted-types" class="level2">
+<h2 class="anchored" data-anchor-id="trusted-types">Trusted Types</h2>
+</section>
+<section id="server-side-rendering" class="level2">
+<h2 class="anchored" data-anchor-id="server-side-rendering">Server-Side Rendering</h2>
+
+
+</section>
+
+
+ ]]></description>
+  <category>Seed</category>
+  <category>Pragmatic Web Security</category>
+  <category>React Security</category>
+  <category>JavaScript</category>
+  <category>Web Security</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/cutting-edge-react-security.html</guid>
+  <pubDate>Wed, 18 Oct 2023 02:28:20 GMT</pubDate>
+</item>
+<item>
+  <title>Preserving Avacados</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/microfarm/preserving-avacados.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="freezing" class="level2">
+<h2 class="anchored" data-anchor-id="freezing">Freezing</h2>
+<section id="unsweetened-frozen-avocado" class="level3">
+<h3 class="anchored" data-anchor-id="unsweetened-frozen-avocado">Unsweetened Frozen Avocado</h3>
+<section id="ingredients" class="level4">
+<h4 class="anchored" data-anchor-id="ingredients">Ingredients</h4>
+<ul>
+<li>Avocados (duh)</li>
+<li>[Optional] 750mg ascorbic acid, per 1kg of purée.</li>
+<li>[Optional] 1 tbsp lemon juice for each 2 avocados.</li>
+</ul>
+</section>
+<section id="method" class="level4">
+<h4 class="anchored" data-anchor-id="method">Method</h4>
+<ul>
+<li>Peel fruit, cut in half and remove pit.</li>
+<li>Add 1/4 (750 mg) teaspoon ascorbic acid to each kilo of purée, alternatively add 1 tablespoon lemon juice for each 2 avocados.</li>
+</ul>
+
+
+</section>
+</section>
+</section>
+
+ ]]></description>
+  <category>Seed</category>
+  <category>Freezing</category>
+  <category>Food Preservation</category>
+  <guid>https://garden.errbufferoverfl.me/microfarm/preserving-avacados.html</guid>
+  <pubDate>Mon, 16 Oct 2023 01:26:33 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/louis-hansel-_t-KIMvlNrc-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Leachate</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/microfarm/leachate.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Leachate is any liquid that has collected a large number of soluble or suspended solids while passing through a solid, while a broad term, leachate is typically used to describe a harmful substance, normally because it contains an elevated concentration of undesirable material.</p>
+<p>Leachate can contribute to <a href="../microfarm/eutrophication.html">eutrophication</a>.</p>
+
+
+
+ ]]></description>
+  <category>Seed</category>
+  <category>Pollution</category>
+  <category>Wastewater</category>
+  <guid>https://garden.errbufferoverfl.me/microfarm/leachate.html</guid>
+  <pubDate>Mon, 16 Oct 2023 01:24:39 GMT</pubDate>
+</item>
+<item>
+  <title>Technocratic</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/notebook/technocratic.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Technocracy is a form of government in which the decision-makers are selected based on their expertise in a given area of responsibility, particularly with regard to scientific or technical knowledge.</p>
+
+
+
+ ]]></description>
+  <category>Political Science</category>
+  <category>Definition</category>
+  <guid>https://garden.errbufferoverfl.me/notebook/technocratic.html</guid>
+  <pubDate>Sun, 15 Oct 2023 06:49:49 GMT</pubDate>
+</item>
+<item>
+  <title>Setting Up Distributed Press on Digital Ocean</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/engineering/setting-up-distributed-press-on-digital-ocean.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Environment Metadata</strong></p>
+<p>Ubuntu 22.10 x64 <a href="https://github.com/hyphacoop/api.distributed.press/releases/tag/v1.2.1">Distributed Press v1.2.1</a></p>
+</div>
+</div>
+</div>
+<section id="about-distributed-press" class="level2">
+<h2 class="anchored" data-anchor-id="about-distributed-press">About Distributed Press</h2>
+<p><a href="https://docs.distributed.press/">Distributed Press</a> is an open source publishing tool for the World Wide Web and Distributed Web. It automates publishing and hosting content to the web that it seeds to decentralised protocols like <a href="../engineering/hypercore.html">Hypercore</a> and <a href="../engineering/ipfs.html">IPFS</a>.</p>
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Prerequisite Knowledge</strong></p>
+<p>This doc assumes you’re familiar with apt-based Linux, the basics of Linux system administration and how to configure DNS.</p>
+</div>
+</div>
+</div>
+</section>
+<section id="method" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="method">Method</h2>
+<p>Create a new virtual private server (VPS) with your provider of choice, when using Digital Ocean I used a droplet with the following specifications:</p>
+<ul>
+<li><strong>Image:</strong> Ubuntu 22.10 x64</li>
+<li><strong>CPU:</strong> 4 vCPUs</li>
+<li><strong>Memory:</strong> 8GB<sup>1</sup></li>
+<li><strong>Disk:</strong> 10GB Disk</li>
+<li><strong>Droplet Cost:</strong> $AUD 48/mo</li>
+</ul>
+<div class="no-row-height column-margin column-container"><li id="fn1"><p><sup>1</sup>&nbsp;<a href="https://github.com/hyphacoop/actions-distributed-press/issues/2#issue-1751678540">[Question] Adding actions-distributed-press to Quartz Github Action</a></p></li></div><p>If you’re using Digital Ocean and unfamiliar with configuring your own logging and monitoring I’d advise against enabling the improved metrics monitoring because it will consume <code>journalctl</code> making it harder to debug.</p>
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>System Specifications</strong></p>
+<p>The most important part of the system specifications is the memory, you want at a minimum 8GB to ensure that service works as expected.<sup>2</sup></p>
+</div>
+</div>
+</div>
+<div class="no-row-height column-margin column-container"><li id="fn2"><p><sup>2</sup>&nbsp;<a href="https://github.com/hyphacoop/actions-distributed-press/issues/2#issue-1751678540">Distributed Press Minimum Requirements</a></p></li></div><p>Install <code>ansible</code> on your desktop, cry a little because this is the only thing that needs it.</p>
+<div class="sourceCode" id="cb1" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1">brew install ansible</span></code></pre></div>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Make sure you install <code>ansible</code> and not <code>ansible-core</code> which doesn’t ship with <code>ansible-galaxy</code>.</p>
+</div>
+</div>
+</div>
+<p><img src="https://garden.errbufferoverfl.me/imgs/setting-up-distributed-press-on-digital-ocean.png" class="img-fluid" alt="2000 Years Later"></p>
+<p>Git clone the <code>api.distributed.press</code> repository onto your computer:</p>
+<div class="sourceCode" id="cb2" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1">git clone https://github.com/hyphacoop/api.distributed.press.git</span></code></pre></div>
+<p>Using the terminal, navigate to the <code>ansible</code> directory:</p>
+<div class="sourceCode" id="cb3" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb3-1">cd api.distributed.press/ansible</span></code></pre></div>
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Check the pinned version of Distribution Press</strong></p>
+<p>Before starting I recommend doing a quick sense check that the <code>distributed_press_git_branch</code> located in <code>api.distributed.press/ansible/roles/distributed_press/defaults/main.yml</code> matches the <a href="https://github.com/hyphacoop/api.distributed.press/tags">latest tagged version</a>, otherwise you can run into esoteric issues that are difficult to debug.</p>
+</div>
+</div>
+</div>
+<p>Edit the <code>inventory.yml</code> file to specify your own domain to run the scripts on as well as any variables you want to set.</p>
+<p>You <strong>must</strong> specify the <code>distributed_press_domain</code> to be your server, and your <code>distributed_press_letsencrypt_email</code> for registering the HTTPS certificate:</p>
+<div class="sourceCode" id="cb4" title="inventory.yml" style="background: #f1f3f5;"><pre class="sourceCode numberSource yaml number-lines code-with-copy"><code class="sourceCode yaml"><span id="cb4-1"><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">all</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb4-2"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">vars</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb4-3"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">distributed_press_domain</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"distributed.errbufferoverfl.me"</span></span>
+<span id="cb4-4"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">distributed_press_letsencrypt_email</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="st" style="color: #20794D;
+background-color: null;
+font-style: inherit;">"rebecca@example.com"</span></span>
+<span id="cb4-5"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">distributed_press_served_sites</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> </span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">[]</span></span>
+<span id="cb4-6"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">  </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">children</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb4-7"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">    </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">distributed_press</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb4-8"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">      </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">hosts</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb4-9"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">        </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">distributed.errbufferoverfl.me</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span></span>
+<span id="cb4-10"><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;">          </span><span class="fu" style="color: #4758AB;
+background-color: null;
+font-style: inherit;">ansible_user</span><span class="kw" style="color: #003B4F;
+background-color: null;
+font-style: inherit;">:</span><span class="at" style="color: #657422;
+background-color: null;
+font-style: inherit;"> root</span></span></code></pre></div>
+<p>Install the dependencies on your local machine:</p>
+<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb5-1">ansible-galaxy install -r ./requirements.yml</span></code></pre></div>
+<p>Add the VPS’s IP address and the <code>distributed_press_domain</code> to your <code>/etc/hosts</code> file so you don’t experience an <code>UNREACHABLE</code> error when you run the playbook. e.g.,</p>
+<div class="sourceCode" id="cb6" title="/etc/hosts" style="background: #f1f3f5;"><pre class="sourceCode numberSource text number-lines code-with-copy"><code class="sourceCode"><span id="cb6-1">127.0.0.1   localhost</span>
+<span id="cb6-2">255.255.255.255 broadcasthost</span>
+<span id="cb6-3">::1             localhost%</span>
+<span id="cb6-4"></span>
+<span id="cb6-5">{{VPS IP ADDRESS}} example.com</span></code></pre></div>
+<p>Execute the playbook:</p>
+<div class="sourceCode" id="cb7" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb7-1">ansible-playbook distributed_press.yml -i inventory.yml</span></code></pre></div>
+<p>Once the playbook has finished, login to your DNS provider and add in an new A record pointing your VPS to the new domain:</p>
+<ul>
+<li><strong>Type:</strong> A</li>
+<li><strong>Name:</strong> <code>subdomain</code></li>
+<li><strong>Content:</strong> VPS static IP address</li>
+<li><strong>TTL:</strong> Auto</li>
+</ul>
+<p>Add an <code>NS</code> record linking <code>_dnslink</code> to your site:</p>
+<ul>
+<li><strong>Type:</strong> NS</li>
+<li><strong>Name:</strong> <code>_dnslink</code></li>
+<li><strong>Content:</strong> the <code>distributed_press_domain</code></li>
+<li><strong>TTL:</strong> Auto</li>
+</ul>
+<p>Login to the VPS and check the status of the service.</p>
+<div class="sourceCode" id="cb8" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb8-1">systemctl status distributed.press</span></code></pre></div>
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Ubuntu default DNS server</strong></p>
+<p>Also double check the logs using <code>journalctl -fu distributed.press</code>, if you see a <code>bind EADDRINUSE 0.0.0.0:53</code> error you will need to disable an installed utility called <code>dnsmasq</code>.<sup>3</sup></p>
+</div>
+</div>
+</div>
+<div class="no-row-height column-margin column-container"><li id="fn3"><p><sup>3</sup>&nbsp;<a href="https://github.com/MASQ-Project/Node/blob/master/node/docs/PORT_53.md#linux">Port 53 Problems?</a></p></li></div></section>
+<section id="running-a-sense-check" class="level2">
+<h2 class="anchored" data-anchor-id="running-a-sense-check">Running a Sense Check</h2>
+<p>When I installed my <code>distributed.press</code> instance a few things failed to initialize as expected so it’s worth manually checking these.</p>
+<section id="ensure-ufw-is-active" class="level3">
+<h3 class="anchored" data-anchor-id="ensure-ufw-is-active">Ensure <code>ufw</code> is Active</h3>
+<p>To make sure the firewall is up, you can run:</p>
+<div class="sourceCode" id="cb9" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb9-1">ufw status</span></code></pre></div>
+<p>Which, if enabled should return something like this:</p>
+<div class="sourceCode" id="cb10" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb10-1">Status: active</span>
+<span id="cb10-2"></span>
+<span id="cb10-3">To                         Action      From</span>
+<span id="cb10-4">--                         ------      ----</span>
+<span id="cb10-5">53/udp                     ALLOW       Anywhere</span>
+<span id="cb10-6">7976/udp                   ALLOW       Anywhere</span>
+<span id="cb10-7">7976/tcp                   ALLOW       Anywhere</span>
+<span id="cb10-8">Nginx Full                 ALLOW       Anywhere</span>
+<span id="cb10-9">22/tcp                     ALLOW       Anywhere</span>
+<span id="cb10-10">53/udp (v6)                ALLOW       Anywhere (v6)</span>
+<span id="cb10-11">7976/udp (v6)              ALLOW       Anywhere (v6)</span>
+<span id="cb10-12">7976/tcp (v6)              ALLOW       Anywhere (v6)</span>
+<span id="cb10-13">Nginx Full (v6)            ALLOW       Anywhere (v6)</span>
+<span id="cb10-14">22/tcp (v6)                ALLOW       Anywhere (v6)</span></code></pre></div>
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Before enabling <code>ufw</code></strong></p>
+<p>Ensure you have added in a firewall rule for which ever management protocol you’re using (e.g.&nbsp;ssh). To do this run:</p>
+<div class="sourceCode" id="cb11" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb11-1">ufw allow 22</span></code></pre></div>
+</div>
+</div>
+</div>
+<p>If you find that <code>ufw</code> is not enabled, you’ll want to enable it.</p>
+<div class="sourceCode" id="cb12" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb12-1">ufw enable</span></code></pre></div>
+</section>
+<section id="ensure-the-private-keys-are-generated" class="level3">
+<h3 class="anchored" data-anchor-id="ensure-the-private-keys-are-generated">Ensure the Private Keys Are Generated</h3>
+<p>Normally <code>ansible</code> will <a href="https://github.com/hyphacoop/api.distributed.press/blob/b23534e6652cab20c2b10a3dcd85529344139462/ansible/roles/distributed_press/tasks/main.yml#L76-L82">handle generating a key for the JWT</a> however, in my case this didn’t work and I had to manually generate a key.</p>
+<p>I was able to identify this problem because I recieved the following error when trying to Get a <code>root</code> admin token:</p>
+<pre title="terminal"><code>Error: ENOENT: no such file or directory, open '/root/.local/share/distributed-press-nodejs/keys/private.key'</code></pre>
+<p>To resolve this issue I replicated what <code>ansible</code> would do, and ran <code>keygen</code> again:</p>
+<div class="sourceCode" id="cb14" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb14-1">sudo su press</span>
+<span id="cb14-2">cd</span>
+<span id="cb14-3">cd api.distributed.press</span>
+<span id="cb14-4">npm run keygen</span></code></pre></div>
+</section>
+</section>
+<section id="get-a-root-admin-token" class="level2">
+<h2 class="anchored" data-anchor-id="get-a-root-admin-token">Get a <code>root</code> Admin Token</h2>
+<p>Authorisation on the service is handled using JSON Web Tokens (JWTs) that are issued to specific users.</p>
+<div class="callout callout-style-simple callout-warning">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>By default, tokens expire after a week.</p>
+</div>
+</div>
+</div>
+<p>To generate the auth token necessary to make the very first admin user, you must use the ‘root’ admin token.</p>
+<p><code>ssh</code> into the VPS that is hosting your <code>distributed.press</code> instance and navigate to the the root directory of <code>api.distributed.press</code></p>
+<div class="sourceCode" id="cb15" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb15-1">sudo su press</span>
+<span id="cb15-2">cd</span>
+<span id="cb15-3">cd api.distributed.press</span></code></pre></div>
+<p>Run <code>npm run make-admin</code> which will print out the token to stdout.</p>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p><strong>Save the Token</strong></p>
+<p>Be sure to save the token somewhere secure as it will be important for making any administrative calls to the API.</p>
+</div>
+</div>
+</div>
+<p>Now that you have the root admin token, and the firewall is enabled, you can go ahead and start tinkering with your new <code>distributed.press</code> service.</p>
+<p>For more information on how to you the API you can find the Swagger docs hosted on your instance at <code>/v1/docs</code>.</p>
+</section>
+<section id="additional-notes" class="level2">
+<h2 class="anchored" data-anchor-id="additional-notes">Additional Notes</h2>
+<section id="creating-a-new-publisher" class="level3">
+<h3 class="anchored" data-anchor-id="creating-a-new-publisher">Creating a New Publisher</h3>
+<p>To make sure we’re always operating in line with the principal of least privilege exchange the root token for a new one with the publisher subset of capabilities:</p>
+<div class="sourceCode" id="cb16" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb16-1">curl -X POST https://distributed.errbufferoverfl.me/v1/publisher \</span>
+<span id="cb16-2">-H "Content-Type: application/json" \</span>
+<span id="cb16-3">-H "Authorization: Bearer JWT" \</span>
+<span id="cb16-4">-d '{"name":"garden.errbufferoverfl.me"}'</span></code></pre></div>
+</section>
+<section id="add-a-site-to-a-publisher" class="level3">
+<h3 class="anchored" data-anchor-id="add-a-site-to-a-publisher">Add a Site to a Publisher</h3>
+<div class="sourceCode" id="cb17" title="terminal" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb17-1">curl -X POST https://distributed.errbufferoverfl.me/v1/sites \</span>
+<span id="cb17-2">-H "Content-Type: application/json" \</span>
+<span id="cb17-3">-H "Authorization: Bearer JWT" \</span>
+<span id="cb17-4">-d '{"domain":"garden.errbufferoverfl.me", "public": true, "protocols":{"http": false, "hyper": true, "ipfs": true} }'</span></code></pre></div>
+</section>
+</section>
+<section id="errors" class="level2">
+<h2 class="anchored" data-anchor-id="errors">Errors</h2>
+<section id="distributed-press-host-unreachable" class="level3">
+<h3 class="anchored" data-anchor-id="distributed-press-host-unreachable">Distributed Press Host Unreachable</h3>
+<p>Experience the following error because you didn’t add the remote host to your <code>/etc/host</code>.</p>
+<p><em>Scream into the void.</em></p>
+<div class="sourceCode" id="cb18" style="background: #f1f3f5;"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb18-1">fatal: [distributed.errbufferoverfl.me]: UNREACHABLE! =&gt; {</span>
+<span id="cb18-2">    "changed": false, </span>
+<span id="cb18-3">    "msg": "Failed to connect to the host via ssh: ssh: Could not resolve</span>
+<span id="cb18-4">     hostname distributed.errbufferoverfl.me: Name or service not known", </span>
+<span id="cb18-5">    "unreachable": true</span>
+<span id="cb18-6">}</span></code></pre></div>
+</section>
+<section id="unable-to-resolve-remote-host-after-installation" class="level3">
+<h3 class="anchored" data-anchor-id="unable-to-resolve-remote-host-after-installation">Unable to Resolve Remote Host <strong>after</strong> Installation</h3>
+<p>If you were running on a version of apt-based Linux and had to disable the default DNS server to get node working, when you attempt to run <code>apt-update</code> or try to run the Ansible script again it <strong>will</strong> fail.</p>
+<p><img src="https://garden.errbufferoverfl.me/imgs/setting-up-distributed-press-on-digital-ocean-1.png" class="img-fluid" alt="A Mastodon post written by me that says &quot;Why won't apt repositories resolve! WHAT IS GOING ON?! Me two hours earlier: 'systemctl disable systemd-resolved'"></p>
+<p>To fix this, you’ll want to <code>ssh</code> onto the remote host, stop the <code>distributed.press</code> service and restart <code>systemd-resolved</code>.</p>
+</section>
+</section>
+<section id="additional-resources" class="level2">
+<h2 class="anchored" data-anchor-id="additional-resources">Additional Resources</h2>
+<ul>
+<li><a href="https://github.com/hyphacoop/actions-distributed-press"><strong>hyphacoop/actions-distributed-press</strong></a> - Easily deploy a site to Distributed Press using GitHub Actions</li>
+</ul>
+
+
+</section>
+
+
+ ]]></description>
+  <category>Tree</category>
+  <category>Distributed Web</category>
+  <category>Digital Ocean</category>
+  <category>Project</category>
+  <guid>https://garden.errbufferoverfl.me/engineering/setting-up-distributed-press-on-digital-ocean.html</guid>
+  <pubDate>Sun, 15 Oct 2023 06:02:39 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/ian-schneider-WymR2nYtj5M-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+<item>
+  <title>Cytoscape.js</title>
+  <link>https://garden.errbufferoverfl.me/toolbox/cytoscapejs.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>Graph theory (network) library for visualisation and analysis.</p>
+<p><a href="https://js.cytoscape.org/">Website</a></p>
+
+
+
+ ]]></description>
+  <category>Javascript</category>
+  <category>npm</category>
+  <guid>https://garden.errbufferoverfl.me/toolbox/cytoscapejs.html</guid>
+  <pubDate>Sun, 15 Oct 2023 05:50:04 GMT</pubDate>
+</item>
+<item>
+  <title>dopeely</title>
+  <link>https://garden.errbufferoverfl.me/toolbox/dopeely.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>A bunch of helpful colour tools like pallet, tone, tint and shade generators. Also has digital colour tools for checking contrast and colour blindcheckers.</p>
+<p><a href="https://colors.dopely.top/">Website</a></p>
+
+
+
+ ]]></description>
+  <category>Design</category>
+  <category>Colour Theory</category>
+  <category>Graphic Design</category>
+  <guid>https://garden.errbufferoverfl.me/toolbox/dopeely.html</guid>
+  <pubDate>Sun, 15 Oct 2023 05:49:30 GMT</pubDate>
+</item>
+<item>
+  <title>Distributed Press</title>
+  <link>https://garden.errbufferoverfl.me/toolbox/distributed-press.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>An open source publishing tool for the World Wide Web and [[Distributed Web]]. It automates publishing to the world wide web, and seeds to <a href="../engineering/ipfs.html">IPFS</a> and <a href="../engineering/holepunch.html">Holepunch</a>.</p>
+<p><a href="https://distributed.press/">Website</a> · <a href="https://github.com/hyphacoop/api.distributed.press">Github Repo</a></p>
+<section id="additional-notes" class="level2">
+<h2 class="anchored" data-anchor-id="additional-notes">Additional Notes</h2>
+<ul>
+<li><a href="../engineering/setting-up-distributed-press-on-digital-ocean.html">Setting Up Distributed Press on Digital Ocean</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Distributed Computing</category>
+  <guid>https://garden.errbufferoverfl.me/toolbox/distributed-press.html</guid>
+  <pubDate>Sun, 15 Oct 2023 05:48:28 GMT</pubDate>
+</item>
+<item>
+  <title>temporal</title>
+  <link>https://garden.errbufferoverfl.me/toolbox/temporal.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>An open source programming model that can be used to provide in depth tracing using the concept of “business logic as code”.</p>
+<p><a href="https://temporal.io/">Website</a> · <a href="https://github.com/temporalio/temporal">Github Repo</a></p>
+
+
+
+ ]]></description>
+  <category>Microservices</category>
+  <guid>https://garden.errbufferoverfl.me/toolbox/temporal.html</guid>
+  <pubDate>Sun, 15 Oct 2023 05:47:29 GMT</pubDate>
+</item>
+<item>
+  <title>SES Hardened JavaScript for Fearless Cooperation</title>
+  <link>https://garden.errbufferoverfl.me/toolbox/ses.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>SES is hardened JavaScript. SES stands for fearless cooperation. This package is a SES shim for JavaScript features proposed to ECMA TC39. Hardened JavaScript is highly compatible with ordinary JavaScript. Most existing JavaScript libraries can run on hardened JavaScript.</p>
+<ul>
+<li><p><strong>Compartments</strong> Compartments are separate execution contexts: each one has its own global object and global lexical scope.</p></li>
+<li><p><strong>Frozen realm</strong> Compartments share their intrinsics to avoid identity discontinuity. By freezing the intrinsics, SES protects programs from each other. By sharing the intrinsics, programs from separate compartments can recognize each other’s arrays, data objects, and so on.</p></li>
+<li><p><strong>Strict mode</strong> SES enforces JavaScript strict mode that enhances security, for example by changing some silent failures into thrown errors.</p></li>
+<li><p><strong>POLA</strong> (Principle of Least Authority) By default, Compartments receive no ambient authority. They are created without host-provided APIs, (for example no <code>fetch</code>). Compartments can be selectively endowed with powerful arguments, globals, or modules.</p></li>
+</ul>
+<p><a href="https://www.npmjs.com/package/ses">Website</a></p>
+
+
+
+ ]]></description>
+  <category>Javascript</category>
+  <category>npm</category>
+  <guid>https://garden.errbufferoverfl.me/toolbox/ses.html</guid>
+  <pubDate>Sun, 15 Oct 2023 05:45:24 GMT</pubDate>
+</item>
+<item>
+  <title>Preserving Apples</title>
+  <dc:creator>errbufferoverfl </dc:creator>
+  <link>https://garden.errbufferoverfl.me/microfarm/preserving-apples.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<section id="canning" class="level2">
+<h2 class="anchored" data-anchor-id="canning">Canning</h2>
+<section id="simple-canned-apples" class="level3">
+<h3 class="anchored" data-anchor-id="simple-canned-apples">Simple Canned Apples</h3>
+</section>
+<section id="ingredients" class="level3">
+<h3 class="anchored" data-anchor-id="ingredients">Ingredients</h3>
+<ul>
+<li>600ml of syrup of choice, per ~2 kilos of sliced apples.</li>
+<li>[Optional] Ascorbic acid.</li>
+</ul>
+<p><strong>Yield:</strong> 9kgs of apples will make about 7 pints.</p>
+<section id="method" class="level4">
+<h4 class="anchored" data-anchor-id="method">Method</h4>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>To prevent discolouration, slice apples into water containing ascorbic acid.</p>
+</div>
+</div>
+</div>
+<ul>
+<li>Wash, peel, and core apples.</li>
+<li>Place drained slices in a large saucepan and add ~600ml of syrup per ~2 kilos of sliced apples.</li>
+<li>Bring to the boil, and cook for 5 minutes, stirring occasionally to prevent burning.</li>
+<li>Fill sterile jars with hot slices and syrup. Leaving 1/2-inches head-space.</li>
+<li>Process in a boiling water canner, as recommended in Table 1. Or in a dial-gauge pressure canner, as recommended in Table 2. Let cool, undisturbed, 12 to 24 hours and check for seals.</li>
+</ul>
+<table class="table">
+<caption>Table 1. Recommended process time for <strong>Apples, sliced</strong> in a boiling-water canner.</caption>
+<colgroup>
+<col style="width: 16%">
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 15%">
+<col style="width: 16%">
+<col style="width: 18%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td><strong>Style of Pack</strong></td>
+<td><strong>Jar Size</strong></td>
+<td><strong>0 - 1,000 ft</strong></td>
+<td><strong>1,001 - 3,000 ft</strong></td>
+<td><strong>3,001 - 6,000 ft</strong></td>
+<td><strong>Above 6,000</strong></td>
+</tr>
+<tr class="even">
+<td>Hot</td>
+<td>Pints or Quarts</td>
+<td><strong>20 min</strong></td>
+<td>25</td>
+<td>30</td>
+<td>35</td>
+</tr>
+</tbody>
+</table>
+<table class="table">
+<caption>Table 2. Process Times for <strong>Apples, sliced</strong> in a Dial-Gauge Pressure Canner.</caption>
+<colgroup>
+<col style="width: 19%">
+<col style="width: 16%">
+<col style="width: 16%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 10%">
+<col style="width: 14%">
+</colgroup>
+<tbody>
+<tr class="odd">
+<td></td>
+<td></td>
+<td></td>
+<td>PSI</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="even">
+<td><strong>Style of Pack</strong></td>
+<td><strong>Jar Size</strong></td>
+<td><strong>Process Time</strong></td>
+<td><strong>0 - 2,000 ft</strong></td>
+<td><strong>2,001 - 4,000 ft</strong></td>
+<td><strong>4,001 - 6,000 ft</strong></td>
+<td><strong>6,001 - 8,000 ft</strong></td>
+</tr>
+<tr class="odd">
+<td>Hot</td>
+<td>Pints or Quarts</td>
+<td>8</td>
+<td><strong>6</strong></td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+</tr>
+</tbody>
+</table>
+</section>
+</section>
+</section>
+<section id="additional-resources" class="level2">
+<h2 class="anchored" data-anchor-id="additional-resources">Additional Resources</h2>
+<ul>
+<li><a href="https://nchfp.uga.edu/publications/uga/using_bw_canners.html#gsc.tab=0">Using Boiling Water Canners</a></li>
+<li><a href="https://nchfp.uga.edu/publications/uga/using_press_canners.html#gsc.tab=0">Using Pressure Canners</a></li>
+<li><a href="https://nchfp.uga.edu/publications/usda/GUIDE01_HomeCan_rev0715.pdf">Principles of Home Canning</a></li>
+</ul>
+
+
+</section>
+
+ ]]></description>
+  <category>Boiling-Water Canning</category>
+  <category>Pressure Canning</category>
+  <category>Food Preservation</category>
+  <category>Seed</category>
+  <guid>https://garden.errbufferoverfl.me/microfarm/preserving-apples.html</guid>
+  <pubDate>Fri, 13 Oct 2023 13:00:00 GMT</pubDate>
+  <media:content url="https://garden.errbufferoverfl.me/imgs/marek-studzinski-3D6yReT06p0-unsplash.jpg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
