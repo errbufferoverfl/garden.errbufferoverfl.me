@@ -1,6 +1,5 @@
 ---
 title: "Consensus and Humming in the IETF"
-subtitle: ""
 author: "errbufferoverfl"
 date: 2023-06-20T18:37:06+10:00
 image: "/imgs/shelby-cohron-UQwbKtu-2Ek-unsplash.jpg"
@@ -95,4 +94,4 @@ The IETF doesn't see consensus as the destination, rather consensus-building is 
 
 The author [Pete Resnick](https://www.episteme.net/Work/) goes into more detail and provides more examples in the RFC so I recommend reading it in full to learn more about it.
 
-[^1]: <https://datatracker.ietf.org/doc/html/rfc1603>
+[^1]: [IETF Working Group Guidelines and Procedures](https://datatracker.ietf.org/doc/html/rfc1603)

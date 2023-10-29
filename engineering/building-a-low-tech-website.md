@@ -2,7 +2,6 @@
 title: "Building a Low Tech Website"
 author: "errbufferoverfl"
 date: 2023-10-15T17:12:27+11:00
-draft: true
 categories:
 - Seed
 - Low Tech

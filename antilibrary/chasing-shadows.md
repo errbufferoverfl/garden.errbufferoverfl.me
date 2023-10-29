@@ -16,7 +16,6 @@ categories:
   - Terrorism
 ---
 
-
 ::: columns
 ::: {.column width="50%"}
 

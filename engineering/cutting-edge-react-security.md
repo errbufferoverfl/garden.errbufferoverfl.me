@@ -46,15 +46,11 @@ JavaScript vulnerabilities also apply to contexts such as Electron apps and WebV
 
 > If Google Analytics gets compromised then 99% of the Internet is screwed.
 >
-> --- Dr. Philippe De Ryck, Security model of the web / XSS in React
+> -- Dr. Philippe De Ryck, Security model of the web / XSS in React
 
 - Self-hosting the remote code being included.
 - Using sub-resource integrity or code isolation techniques[^1]
 - Using a Content Security Policy can provide more control over what code can be loaded[^2]
-
-[^1]: What are these?
-
-[^2]: [CSP Is Dead, Long Live CSP! On the Insecurity of Whitelists and the Future of Content Security Policy](https://research.google/pubs/pub45542/)
 
 ### Web App Compartmentalization
 
@@ -62,9 +58,7 @@ Further Reading:
 
 > 40% of packages rely on known vulnerable code[^3]
 >
-> --- Dr. Philippe De Ryck, Security model of the web / XSS in React
-
-[^3]: [Small World with High Risks: A Study of Security Threats in the npm Ecosystem](https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman)
+> -- Dr. Philippe De Ryck, Security model of the web / XSS in React
 
 - [Towards a Theory of Application Compartmentalisation](https://link.springer.com/chapter/10.1007/978-3-642-41717-7_4)
 - [Exploring Compartmentalisation Hypotheses with SOAAP](https://www.researchgate.net/publication/260346153_Exploring_Compartmentalisation_Hypotheses_with_SOAAP)
@@ -89,3 +83,7 @@ Further Reading:
 ## Trusted Types
 
 ## Server-Side Rendering
+
+[^1]: What are these?
+[^2]: [CSP Is Dead, Long Live CSP! On the Insecurity of Whitelists and the Future of Content Security Policy](https://research.google/pubs/pub45542/)
+[^3]: [Small World with High Risks: A Study of Security Threats in the npm Ecosystem](https://www.usenix.org/conference/usenixsecurity19/presentation/zimmerman)

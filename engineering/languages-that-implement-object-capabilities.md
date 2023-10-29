@@ -1,11 +1,8 @@
 ---
 title: "Languages that implement object capabilities"
-subtitle: ""
 author: "errbufferoverfl"
 date: 2023-08-09T12:22:00+10:00
-description: ""
 image: "/imgs/jonny-gios-Vc-QDuMIzlQ-unsplash.jpg"
-image-alt: ""
 categories:
 - Seed
 - Security

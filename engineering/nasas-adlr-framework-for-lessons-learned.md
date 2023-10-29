@@ -1,11 +1,8 @@
 ---
 title: "NASA's ADLR Framework for Lessons Learned"
-subtitle: ""
 author: "errbufferoverfl"
 date: 2023-07-14T11:28:12+10:00
-description: ""
 image: "/imgs/nasa-dCgbRAQmTQA-unsplash.jpg"
-image-alt: ""
 categories:
 - Seed
 - NASA

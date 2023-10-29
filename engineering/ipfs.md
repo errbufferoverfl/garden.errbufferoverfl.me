@@ -1,5 +1,5 @@
 ---
-title: "IPFS"
+title: "InterPlanetary File System"
 subtitle: ""
 author: "errbufferoverfl"
 date: 2023-06-11T00:00:00+10:00

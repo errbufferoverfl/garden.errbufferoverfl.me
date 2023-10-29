@@ -16,8 +16,6 @@ categories:
 
 In 2014, automated testing of the top twenty thousand top-ranked websites using the Facebook SDK, found over 20% were suffering from at least one of five security vulnerabilities.[^1]
 
-[^1]: Zhou and Evans, “SSOScan: Automated Testing of Web Applications for Single Sign-On Vulnerabilities.”
-
 The study focused on five unique vulnerabilities:
 
 -   **Access Token misuse** - a vulnerability where the access token is used to authenticate users rather than authorising users.
@@ -64,16 +62,15 @@ Regarding remediation:
             -   1 site affected by both vulnerabilities, fixed both
 -   An unspecified number of sites that were misusing credentials had migrated from token or signed request flows, to code flow.
 
-[^2]: ***What does this even mean?!*** 😂
-
 Regarding Facebook:[^3] ^and^ [^4]
-
-[^3]: At the time personal data belonging to millions of Facebook users was collected without their consent by British consulting firm Cambridge Analytica.
-
-[^4]: One year prior to this paper being published in June 2013, there was news that a bug in the contact information archive that allowed personal data of approximately 6 million Facebook users to be leaked online. It is believed that the original issue was introduced in 2012.
 
 -   Facebook engineers stated concern with the access token leakage through referer headers
 -   Facebook requested a list of vulnerable clients and contacted 95 sites
     -   They said they would "take enforcement action as necessary" against 10 sites leaking access tokens in the referer header
 -   One month later, only an additional 4 of the 95 reported sites had been remediated
     -   2 of 10 sites leaking access tokens had been remediated
+
+[^1]: Zhou and Evans, “SSOScan: Automated Testing of Web Applications for Single Sign-On Vulnerabilities.”
+[^2]: ***What does this even mean?!*** 😂
+[^3]: At the time personal data belonging to millions of Facebook users was collected without their consent by British consulting firm Cambridge Analytica.
+[^4]: One year prior to this paper being published in June 2013, there was news that a bug in the contact information archive that allowed personal data of approximately 6 million Facebook users to be leaked online. It is believed that the original issue was introduced in 2012.
