@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="errbufferoverfl">
 
 <title>errbufferoverfl, anarchist, illustrator, reluctant security engineer - The Microfarm</title>
 <style>
@@ -19,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -71,10 +38,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script src="../site_libs/quarto-contrib/iconify-1.0.7/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -127,18 +96,21 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   })
   </script>
 <style>html{ scroll-behavior: smooth; }</style>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' localhost:8086 'unsafe-inline'; script-src 'self' https://cdn.jsdelivr.net/npm/mathjax@3/es5/ https://polyfill.io/v3/polyfill.min.js 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com/css2/ 'unsafe-inline'; img-src 'self' data:; font-src data: https://fonts.gstatic.com/s/lato/v24/ https://cdn.jsdelivr.net/npm/mathjax@3/es5/  localhost:8086; connect-src ws://localhost:8086; media-src 'self' localhost:8086; object-src 'none'; prefetch-src 'none'; child-src 'none'; frame-src 'none'; worker-src 'none'; form-action 'none'; upgrade-insecure-requests; disown-opener; base-uri 'self'; manifest-src 'self'">
 
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="../styles.css">
-<link rel="alternate" type="application/rss+xml" title="errbufferoverfl, anarchist, illustrator, reluctant security engineer" href="index.xml"><meta property="og:title" content="errbufferoverfl, anarchist, illustrator, reluctant security engineer - The Microfarm">
+<meta property="og:title" content="errbufferoverfl, anarchist, illustrator, reluctant security engineer - The Microfarm">
 <meta property="og:description" content="A collection of notes about agriculture and urban-gardening.">
 <meta property="og:image" content="https://garden.errbufferoverfl.me/imgs/jacqueline-brandwayn-y1-rEwCZkPg-unsplash.jpg">
 <meta property="og:site-name" content="errbufferoverfl, anarchist, illustrator, reluctant security engineer">
 <meta name="twitter:title" content="errbufferoverfl, anarchist, illustrator, reluctant security engineer - The Microfarm">
 <meta name="twitter:description" content="A collection of notes about agriculture and urban-gardening.">
 <meta name="twitter:image" content="https://garden.errbufferoverfl.me/imgs/jacqueline-brandwayn-y1-rEwCZkPg-unsplash.jpg">
+<meta name="twitter:creator" content="@errbufferoverfl">
+<meta name="twitter:site" content="@errbufferoverfl">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -193,23 +165,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="dropdown-text">The Soapbox</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="../digest.html" rel="" target="">
+ <span class="dropdown-text">The Digest</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../index.html" rel="" target="">
  <span class="dropdown-text">About Me</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-errata" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">Errata</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-errata">    
-        <li>
-    <a class="dropdown-item" href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me" rel="" target="">
- <span class="dropdown-text">Source Code</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/issues" rel="" target="">
- <span class="dropdown-text">Report a Bug</span></a>
   </li>  
     </ul>
   </li>
@@ -220,6 +181,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -228,8 +190,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <div class="quarto-title-block"><div><h1 class="title">The Microfarm</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+    <div class="quarto-title column-body">
+      <h1 class="title">The Microfarm</h1>
             <p class="subtitle lead">A collection of notes about agriculture and urban-gardening.</p>
                       </div>
   </div>
@@ -243,21 +205,19 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
     <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(20)</span></div><div class="category" data-category="Agroecology">Agroecology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Agroforestry">Agroforestry <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Boiling-Water Canning">Boiling-Water Canning <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Composting">Composting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Craft">Craft <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Dehydrating">Dehydrating <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Dehydrating Debugging">Dehydrating Debugging <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Environmental chemistry">Environmental chemistry <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Fermenting">Fermenting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Food Preservation">Food Preservation <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Freezing">Freezing <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Intercropping">Intercropping <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Nutrient pollution">Nutrient pollution <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Permaculture">Permaculture <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Permaculture Design">Permaculture Design <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Plastic">Plastic <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Pollution">Pollution <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Pressure Canning">Pressure Canning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Project">Project <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Recipe">Recipe <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Recycling">Recycling <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Seed">Seed <span class="quarto-category-count">(7)</span></div><div class="category" data-category="Solarpunk">Solarpunk <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Sustainable Agriculture">Sustainable Agriculture <span class="quarto-category-count">(8)</span></div><div class="category" data-category="Urban agriculture">Urban agriculture <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Vermicomposting">Vermicomposting <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Wastewater">Wastewater <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Water pollution">Water pollution <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
 
-
-<!-- -->
 
 
 <div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
@@ -290,7 +250,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </div>
 </div>
 <div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Boiling-Water Canning,Food Preservation,Seed" data-listing-date-sort="1697941308000" data-listing-file-modified-sort="1697956700518" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="0" data-categories="Boiling-Water Canning,Food Preservation,Seed" data-listing-date-sort="1697941308000" data-listing-file-modified-sort="1698549755637" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <a href="../microfarm/preserving-carrots.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -325,13 +285,13 @@ Oct 22, 2023
 </div>
 <div class="card-footer">
 <div class="card-file-modified listing-file-modified">
-<p>10/22/23, 5:38:20 PM</p>
+<p>10/29/23, 2:22:35 PM</p>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Boiling-Water Canning,Food Preservation,Seed" data-listing-date-sort="1697923983000" data-listing-file-modified-sort="1697956700518" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="1" data-categories="Boiling-Water Canning,Food Preservation,Seed" data-listing-date-sort="1697923983000" data-listing-file-modified-sort="1698549734748" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <a href="../microfarm/preserving-cucumbers.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -366,13 +326,13 @@ Oct 22, 2023
 </div>
 <div class="card-footer">
 <div class="card-file-modified listing-file-modified">
-<p>10/22/23, 5:38:20 PM</p>
+<p>10/29/23, 2:22:14 PM</p>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="2" data-categories="Seed,Freezing,Food Preservation" data-listing-date-sort="1697419593000" data-listing-file-modified-sort="1697956700517" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="2" data-categories="Seed,Freezing,Food Preservation" data-listing-date-sort="1697419593000" data-listing-file-modified-sort="1698549773847" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../microfarm/preserving-avacados.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -407,7 +367,7 @@ Oct 16, 2023
 </div>
 <div class="card-footer">
 <div class="card-file-modified listing-file-modified">
-<p>10/22/23, 5:38:20 PM</p>
+<p>10/29/23, 2:22:53 PM</p>
 </div>
 </div>
 </div>
@@ -536,7 +496,7 @@ Oct 9, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="6" data-categories="Seed,Composting" data-listing-date-sort="1696750971000" data-listing-file-modified-sort="1697968768811" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="6" data-categories="Seed,Composting" data-listing-date-sort="1696750971000" data-listing-file-modified-sort="1698549837195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <a href="../microfarm/bokashi-bran.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -568,13 +528,13 @@ Oct 8, 2023
 </div>
 <div class="card-footer">
 <div class="card-file-modified listing-file-modified">
-<p>10/22/23, 8:59:28 PM</p>
+<p>10/29/23, 2:23:57 PM</p>
 </div>
 </div>
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="7" data-categories="Permaculture,Sustainable Agriculture,Permaculture Design" data-listing-date-sort="1694130790000" data-listing-file-modified-sort="1697959349050" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="g-col-1" data-index="7" data-categories="Permaculture,Sustainable Agriculture,Permaculture Design" data-listing-date-sort="1694130790000" data-listing-file-modified-sort="1698549818763" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <a href="../microfarm/fedge.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -609,7 +569,7 @@ Sep 8, 2023
 </div>
 <div class="card-footer">
 <div class="card-file-modified listing-file-modified">
-<p>10/22/23, 6:22:29 PM</p>
+<p>10/29/23, 2:23:38 PM</p>
 </div>
 </div>
 </div>
@@ -653,7 +613,7 @@ Sep 7, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="9" data-categories="Permaculture,Sustainable Agriculture" data-listing-date-sort="1694056609000" data-listing-file-modified-sort="1697956700508" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
+<div class="g-col-1" data-index="9" data-categories="Permaculture,Sustainable Agriculture" data-listing-date-sort="1694056609000" data-listing-file-modified-sort="1698549796913" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <a href="../microfarm/permaculture.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -685,7 +645,7 @@ Sep 7, 2023
 </div>
 <div class="card-footer">
 <div class="card-file-modified listing-file-modified">
-<p>10/22/23, 5:38:20 PM</p>
+<p>10/29/23, 2:23:16 PM</p>
 </div>
 </div>
 </div>
@@ -984,7 +944,7 @@ Aug 6, 2023
 </div>
 </a>
 </div>
-<div class="g-col-1" data-index="17" data-categories="Permaculture,Sustainable Agriculture" data-listing-date-sort="1691315342000" data-listing-file-modified-sort="1697967155236" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
+<div class="g-col-1" data-index="17" data-categories="Permaculture,Sustainable Agriculture" data-listing-date-sort="1691315342000" data-listing-file-modified-sort="1698549789431" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3">
 <a href="../microfarm/polyculture.html" class="quarto-grid-link">
 <div class="quarto-grid-item card h-100 card-left">
 <p class="card-img-top">
@@ -1016,7 +976,7 @@ Aug 6, 2023
 </div>
 <div class="card-footer">
 <div class="card-file-modified listing-file-modified">
-<p>10/22/23, 8:32:35 PM</p>
+<p>10/29/23, 2:23:09 PM</p>
 </div>
 </div>
 </div>
@@ -1105,7 +1065,7 @@ No matching items
 <nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
   <ul class="pagination"></ul>
 </nav>
-</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -1126,6 +1086,121 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -1185,57 +1260,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  const viewSource = window.document.getElementById('quarto-view-source') ||
-                     window.document.getElementById('quarto-code-tools-source');
-  if (viewSource) {
-    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
-    viewSource.addEventListener("click", function(e) {
-      if (sourceUrl) {
-        // rstudio viewer pane
-        if (/\bcapabilities=\b/.test(window.location)) {
-          window.open(sourceUrl);
-        } else {
-          window.location.href = sourceUrl;
-        }
-      } else {
-        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
-        modal.show();
-      }
-      return false;
-    });
-  }
-  function toggleCodeHandler(show) {
-    return function(e) {
-      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
-      for (let i=0; i<detailsSrc.length; i++) {
-        const details = detailsSrc[i].parentElement;
-        if (show) {
-          details.open = true;
-        } else {
-          details.removeAttribute("open");
-        }
-      }
-      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
-      const fromCls = show ? "hidden" : "unhidden";
-      const toCls = show ? "unhidden" : "hidden";
-      for (let i=0; i<cellCodeDivs.length; i++) {
-        const codeDiv = cellCodeDivs[i];
-        if (codeDiv.classList.contains(fromCls)) {
-          codeDiv.classList.remove(fromCls);
-          codeDiv.classList.add(toCls);
-        } 
-      }
-      return false;
-    }
-  }
-  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
-  if (hideAllCode) {
-    hideAllCode.addEventListener("click", toggleCodeHandler(false));
-  }
-  const showAllCode = window.document.getElementById("quarto-show-all-code");
-  if (showAllCode) {
-    showAllCode.addEventListener("click", toggleCodeHandler(true));
-  }
   function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
@@ -1403,33 +1427,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
 });
-</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1"></a><span class="co">---</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a><span class="an">title:</span><span class="co"> "The Microfarm"</span></span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="an">subtitle:</span><span class="co"> "A collection of notes about agriculture and urban-gardening."</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a><span class="an">listing:</span></span>
-<span id="cb1-5"><a href="#cb1-5"></a><span class="co">  contents: .</span></span>
-<span id="cb1-6"><a href="#cb1-6"></a><span class="co">  fields: [image, date, title, categories, reading-time, description, file-modified]</span></span>
-<span id="cb1-7"><a href="#cb1-7"></a><span class="co">  sort: "date desc"</span></span>
-<span id="cb1-8"><a href="#cb1-8"></a><span class="co">  type: grid</span></span>
-<span id="cb1-9"><a href="#cb1-9"></a><span class="co">  categories: numbered</span></span>
-<span id="cb1-10"><a href="#cb1-10"></a><span class="co">  sort-ui: true</span></span>
-<span id="cb1-11"><a href="#cb1-11"></a><span class="co">  filter-ui: true</span></span>
-<span id="cb1-12"><a href="#cb1-12"></a><span class="co">  feed: true</span></span>
-<span id="cb1-13"><a href="#cb1-13"></a><span class="co">  image-placeholder: placeholder.jpg</span></span>
-<span id="cb1-14"><a href="#cb1-14"></a><span class="an">page-layout:</span><span class="co"> full</span></span>
-<span id="cb1-15"><a href="#cb1-15"></a><span class="an">title-block-banner:</span><span class="co"> true</span></span>
-<span id="cb1-16"><a href="#cb1-16"></a><span class="an">citation:</span><span class="co"> false</span></span>
-<span id="cb1-17"><a href="#cb1-17"></a><span class="an">toc:</span><span class="co"> false</span></span>
-<span id="cb1-18"><a href="#cb1-18"></a><span class="an">comments:</span><span class="co"> false</span></span>
-<span id="cb1-19"><a href="#cb1-19"></a><span class="co">---</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div></div></div></div></div>
+</script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Published with <a href="https://quarto.org/">Quarto</a> v1.3.450 | Hosted by <a href="https://pages.github.com/"><iconify-icon inline="" icon="simple-icons:github"></iconify-icon></a></div>   
-    <div class="nav-footer-center"><a href="https://ko-fi.com/errbufferoverfl">Ko-Fi</a> | <a href="https://genericsocialmediapage.com/@errbufferoverfl">Mastodon</a> | <a href="https://mastodon.art/@errbufferoverfl">Art Mastodon</a> | <a href="https://github.com/errbufferoverfl">Github</a> | <a href="https://twitter.com/errbufferoverfl">Twitter</a></div>
-    <div class="nav-footer-right">© 2023 errbufferoverfl | <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.en">CC BY-SA 4.0</a></div>
+    <div class="nav-footer-center">
+      &nbsp;
+    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/edit/hugo/microfarm/index.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/blob/hugo/microfarm/index.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/issues" class="toc-action">Report an issue</a></p></div></div></div>
+    <div class="nav-footer-right">© 2023 errbufferoverfl, Some Rights Reserved | <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.en">CC BY-SA 4.0</a><br><a href="https://ko-fi.com/errbufferoverfl">Ko-Fi</a> | <a href="https://genericsocialmediapage.com/@errbufferoverfl">Mastodon</a> | <a href="https://mastodon.art/@errbufferoverfl">Art Mastodon</a> | <a href="https://github.com/errbufferoverfl">Github</a> | <a href="https://twitter.com/errbufferoverfl">Twitter</a></div>
   </div>
 </footer>
 

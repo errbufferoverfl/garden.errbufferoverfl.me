@@ -72,10 +72,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script src="../site_libs/quarto-contrib/iconify-1.0.7/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -98,6 +100,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' localhost:8086 'unsafe-inline'; script-src 'self' https://cdn.jsdelivr.net/npm/mathjax@3/es5/ https://polyfill.io/v3/polyfill.min.js 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com/css2/ 'unsafe-inline'; img-src 'self' data:; font-src data: https://fonts.gstatic.com/s/lato/v24/ https://cdn.jsdelivr.net/npm/mathjax@3/es5/  localhost:8086; connect-src ws://localhost:8086; media-src 'self' localhost:8086; object-src 'none'; prefetch-src 'none'; child-src 'none'; frame-src 'none'; worker-src 'none'; form-action 'none'; upgrade-insecure-requests; disown-opener; base-uri 'self'; manifest-src 'self'">
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -108,6 +111,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="twitter:title" content="errbufferoverfl, anarchist, illustrator, reluctant security engineer - Setting Up Distributed Press on Digital Ocean">
 <meta name="twitter:description" content="A guide on setting up Distributed Press on Digital Ocean. It covers creating a virtual private server (VPS), installing dependencies, configuring DNS, executing the playbook, and checking the status of the service. It also includes additional notes on creating a new publisher, adding a site to a publisher, and troubleshooting errors.">
 <meta name="twitter:image" content="https://garden.errbufferoverfl.me/imgs/ian-schneider-WymR2nYtj5M-unsplash.jpg">
+<meta name="twitter:creator" content="@errbufferoverfl">
+<meta name="twitter:site" content="@errbufferoverfl">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -162,23 +167,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="dropdown-text">The Soapbox</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="../digest.html" rel="" target="">
+ <span class="dropdown-text">The Digest</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../index.html" rel="" target="">
  <span class="dropdown-text">About Me</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-errata" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">Errata</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-errata">    
-        <li>
-    <a class="dropdown-item" href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me" rel="" target="">
- <span class="dropdown-text">Source Code</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/issues" rel="" target="">
- <span class="dropdown-text">Report a Bug</span></a>
   </li>  
     </ul>
   </li>
@@ -189,6 +183,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -198,7 +193,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <div class="quarto-title-block"><div><h1 class="title">Setting Up Distributed Press on Digital Ocean</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+      <h1 class="title">Setting Up Distributed Press on Digital Ocean</h1>
                   <div>
         <div class="description">
           A guide on setting up Distributed Press on Digital Ocean. It covers creating a virtual private server (VPS), installing dependencies, configuring DNS, executing the playbook, and checking the status of the service. It also includes additional notes on creating a new publisher, adding a site to a publisher, and troubleshooting errors.
@@ -262,7 +257,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </ul></li>
   <li><a href="#additional-resources" id="toc-additional-resources" class="nav-link" data-scroll-target="#additional-resources">Additional Resources</a></li>
   </ul>
-</nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/edit/hugo/engineering/setting-up-distributed-press-on-digital-ocean.md" class="toc-action">Edit this page</a></p><p><a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/blob/hugo/engineering/setting-up-distributed-press-on-digital-ocean.md" class="toc-action">View source</a></p><p><a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/issues" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block page-columns page-full" id="quarto-document-content">
@@ -523,12 +518,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 
 
-<!-- -->
-
 </section>
 
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -549,6 +542,121 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -608,57 +716,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  const viewSource = window.document.getElementById('quarto-view-source') ||
-                     window.document.getElementById('quarto-code-tools-source');
-  if (viewSource) {
-    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
-    viewSource.addEventListener("click", function(e) {
-      if (sourceUrl) {
-        // rstudio viewer pane
-        if (/\bcapabilities=\b/.test(window.location)) {
-          window.open(sourceUrl);
-        } else {
-          window.location.href = sourceUrl;
-        }
-      } else {
-        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
-        modal.show();
-      }
-      return false;
-    });
-  }
-  function toggleCodeHandler(show) {
-    return function(e) {
-      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
-      for (let i=0; i<detailsSrc.length; i++) {
-        const details = detailsSrc[i].parentElement;
-        if (show) {
-          details.open = true;
-        } else {
-          details.removeAttribute("open");
-        }
-      }
-      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
-      const fromCls = show ? "hidden" : "unhidden";
-      const toCls = show ? "unhidden" : "hidden";
-      for (let i=0; i<cellCodeDivs.length; i++) {
-        const codeDiv = cellCodeDivs[i];
-        if (codeDiv.classList.contains(fromCls)) {
-          codeDiv.classList.remove(fromCls);
-          codeDiv.classList.add(toCls);
-        } 
-      }
-      return false;
-    }
-  }
-  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
-  if (hideAllCode) {
-    hideAllCode.addEventListener("click", toggleCodeHandler(false));
-  }
-  const showAllCode = window.document.getElementById("quarto-show-all-code");
-  if (showAllCode) {
-    showAllCode.addEventListener("click", toggleCodeHandler(true));
-  }
   function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
@@ -826,309 +883,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
 });
-</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb19" data-shortcodes="false"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb19-1"><a href="#cb19-1"></a><span class="co">---</span></span>
-<span id="cb19-2"><a href="#cb19-2"></a><span class="an">title:</span><span class="co"> "Setting Up Distributed Press on Digital Ocean"</span></span>
-<span id="cb19-3"><a href="#cb19-3"></a><span class="an">subtitle:</span><span class="co"> ""</span></span>
-<span id="cb19-4"><a href="#cb19-4"></a><span class="an">author:</span><span class="co"> "errbufferoverfl"</span></span>
-<span id="cb19-5"><a href="#cb19-5"></a><span class="an">date:</span><span class="co"> 2023-10-15T17:02:39+11:00</span></span>
-<span id="cb19-6"><a href="#cb19-6"></a><span class="an">description:</span><span class="co"> "A guide on setting up Distributed Press on Digital Ocean. It covers creating a virtual private server (VPS), installing dependencies, configuring DNS, executing the playbook, and checking the status of the service. It also includes additional notes on creating a new publisher, adding a site to a publisher, and troubleshooting errors."</span></span>
-<span id="cb19-7"><a href="#cb19-7"></a><span class="an">image:</span><span class="co"> "/imgs/ian-schneider-WymR2nYtj5M-unsplash.jpg"</span></span>
-<span id="cb19-8"><a href="#cb19-8"></a><span class="an">image-alt:</span><span class="co"> ""</span></span>
-<span id="cb19-9"><a href="#cb19-9"></a><span class="an">categories:</span></span>
-<span id="cb19-10"><a href="#cb19-10"></a><span class="co">- Tree</span></span>
-<span id="cb19-11"><a href="#cb19-11"></a><span class="co">- Distributed Web</span></span>
-<span id="cb19-12"><a href="#cb19-12"></a><span class="co">- Digital Ocean</span></span>
-<span id="cb19-13"><a href="#cb19-13"></a><span class="co">- Project</span></span>
-<span id="cb19-14"><a href="#cb19-14"></a><span class="co">---</span></span>
-<span id="cb19-15"><a href="#cb19-15"></a></span>
-<span id="cb19-16"><a href="#cb19-16"></a>::: {.callout-note}</span>
-<span id="cb19-17"><a href="#cb19-17"></a>**Environment Metadata**</span>
-<span id="cb19-18"><a href="#cb19-18"></a></span>
-<span id="cb19-19"><a href="#cb19-19"></a>Ubuntu 22.10 x64 <span class="co">[</span><span class="ot">Distributed Press v1.2.1</span><span class="co">](https://github.com/hyphacoop/api.distributed.press/releases/tag/v1.2.1)</span></span>
-<span id="cb19-20"><a href="#cb19-20"></a>:::</span>
-<span id="cb19-21"><a href="#cb19-21"></a></span>
-<span id="cb19-22"><a href="#cb19-22"></a><span class="fu">## About Distributed Press</span></span>
-<span id="cb19-23"><a href="#cb19-23"></a></span>
-<span id="cb19-24"><a href="#cb19-24"></a><span class="co">[</span><span class="ot">Distributed Press</span><span class="co">](https://docs.distributed.press/)</span> is an open source publishing tool for the World Wide Web and Distributed Web. It automates publishing and hosting content to the web that it seeds to decentralised protocols like <span class="co">[</span><span class="ot">Hypercore</span><span class="co">](hypercore.md)</span> and <span class="co">[</span><span class="ot">IPFS</span><span class="co">](ipfs.md)</span>.</span>
-<span id="cb19-25"><a href="#cb19-25"></a></span>
-<span id="cb19-26"><a href="#cb19-26"></a>::: {.callout-warning}</span>
-<span id="cb19-27"><a href="#cb19-27"></a>**Prerequisite Knowledge**</span>
-<span id="cb19-28"><a href="#cb19-28"></a></span>
-<span id="cb19-29"><a href="#cb19-29"></a>This doc assumes you're familiar with apt-based Linux, the basics of Linux system administration and how to configure DNS.</span>
-<span id="cb19-30"><a href="#cb19-30"></a>:::</span>
-<span id="cb19-31"><a href="#cb19-31"></a></span>
-<span id="cb19-32"><a href="#cb19-32"></a><span class="fu">## Method</span></span>
-<span id="cb19-33"><a href="#cb19-33"></a></span>
-<span id="cb19-34"><a href="#cb19-34"></a>Create a new virtual private server (VPS) with your provider of choice, when using Digital Ocean I used a droplet with the following specifications: </span>
-<span id="cb19-35"><a href="#cb19-35"></a></span>
-<span id="cb19-36"><a href="#cb19-36"></a><span class="ss">- </span>**Image:** Ubuntu 22.10 x64</span>
-<span id="cb19-37"><a href="#cb19-37"></a><span class="ss">- </span>**CPU:** 4 vCPUs</span>
-<span id="cb19-38"><a href="#cb19-38"></a><span class="ss">- </span>**Memory:** 8GB<span class="ot">[^1]</span></span>
-<span id="cb19-39"><a href="#cb19-39"></a><span class="ss">- </span>**Disk:** 10GB Disk</span>
-<span id="cb19-40"><a href="#cb19-40"></a><span class="ss">- </span>**Droplet Cost:** $AUD 48/mo</span>
-<span id="cb19-41"><a href="#cb19-41"></a></span>
-<span id="cb19-42"><a href="#cb19-42"></a>If you're using Digital Ocean and unfamiliar with configuring your own logging and monitoring I'd advise against enabling the improved metrics monitoring because it will consume <span class="in">`journalctl`</span> making it harder to debug.</span>
-<span id="cb19-43"><a href="#cb19-43"></a></span>
-<span id="cb19-44"><a href="#cb19-44"></a>::: {.callout-warning}</span>
-<span id="cb19-45"><a href="#cb19-45"></a>**System Specifications**</span>
-<span id="cb19-46"><a href="#cb19-46"></a></span>
-<span id="cb19-47"><a href="#cb19-47"></a>The most important part of the system specifications is the memory, you want at a minimum 8GB to ensure that service works as expected.<span class="ot">[^2]</span></span>
-<span id="cb19-48"><a href="#cb19-48"></a>:::</span>
-<span id="cb19-49"><a href="#cb19-49"></a></span>
-<span id="cb19-50"><a href="#cb19-50"></a>Install <span class="in">`ansible`</span> on your desktop, cry a little because this is the only thing that needs it.</span>
-<span id="cb19-51"><a href="#cb19-51"></a></span>
-<span id="cb19-52"><a href="#cb19-52"></a><span class="in">``` {.shell title="terminal"}</span></span>
-<span id="cb19-53"><a href="#cb19-53"></a><span class="ex">brew</span> install ansible</span>
-<span id="cb19-54"><a href="#cb19-54"></a><span class="in">```</span></span>
-<span id="cb19-55"><a href="#cb19-55"></a></span>
-<span id="cb19-56"><a href="#cb19-56"></a>::: {.callout-tip}</span>
-<span id="cb19-57"><a href="#cb19-57"></a>Make sure you install <span class="in">`ansible`</span> and not <span class="in">`ansible-core`</span> which doesn't ship with <span class="in">`ansible-galaxy`</span>.</span>
-<span id="cb19-58"><a href="#cb19-58"></a>:::</span>
-<span id="cb19-59"><a href="#cb19-59"></a></span>
-<span id="cb19-60"><a href="#cb19-60"></a><span class="al">![](/imgs/setting-up-distributed-press-on-digital-ocean.png)</span>{fig-alt="2000 Years Later"}</span>
-<span id="cb19-61"><a href="#cb19-61"></a></span>
-<span id="cb19-62"><a href="#cb19-62"></a>Git clone the <span class="in">`api.distributed.press`</span> repository onto your computer:</span>
-<span id="cb19-63"><a href="#cb19-63"></a></span>
-<span id="cb19-64"><a href="#cb19-64"></a><span class="in">``` {.shell title="terminal"}</span></span>
-<span id="cb19-65"><a href="#cb19-65"></a><span class="fu">git</span> clone https://github.com/hyphacoop/api.distributed.press.git</span>
-<span id="cb19-66"><a href="#cb19-66"></a><span class="in">```</span></span>
-<span id="cb19-67"><a href="#cb19-67"></a></span>
-<span id="cb19-68"><a href="#cb19-68"></a>Using the terminal, navigate to the <span class="in">`ansible`</span> directory:</span>
-<span id="cb19-69"><a href="#cb19-69"></a></span>
-<span id="cb19-70"><a href="#cb19-70"></a><span class="in">``` {.shell title="terminal"}</span></span>
-<span id="cb19-71"><a href="#cb19-71"></a><span class="bu">cd</span> api.distributed.press/ansible</span>
-<span id="cb19-72"><a href="#cb19-72"></a><span class="in">```</span></span>
-<span id="cb19-73"><a href="#cb19-73"></a></span>
-<span id="cb19-74"><a href="#cb19-74"></a>::: {.callout-warning}</span>
-<span id="cb19-75"><a href="#cb19-75"></a>**Check the pinned version of Distribution Press**</span>
-<span id="cb19-76"><a href="#cb19-76"></a></span>
-<span id="cb19-77"><a href="#cb19-77"></a>Before starting I recommend doing a quick sense check that the <span class="in">`distributed_press_git_branch`</span> located in <span class="in">`api.distributed.press/ansible/roles/distributed_press/defaults/main.yml`</span> matches the <span class="co">[</span><span class="ot">latest tagged version</span><span class="co">](https://github.com/hyphacoop/api.distributed.press/tags)</span>, otherwise you can run into esoteric issues that are difficult to debug.</span>
-<span id="cb19-78"><a href="#cb19-78"></a>:::</span>
-<span id="cb19-79"><a href="#cb19-79"></a></span>
-<span id="cb19-80"><a href="#cb19-80"></a>Edit the <span class="in">`inventory.yml`</span> file to specify your own domain to run the scripts on as well as any variables you want to set.</span>
-<span id="cb19-81"><a href="#cb19-81"></a></span>
-<span id="cb19-82"><a href="#cb19-82"></a>You **must** specify the <span class="in">`distributed_press_domain`</span> to be your server, and your <span class="in">`distributed_press_letsencrypt_email`</span> for registering the HTTPS certificate:</span>
-<span id="cb19-83"><a href="#cb19-83"></a></span>
-<span id="cb19-84"><a href="#cb19-84"></a><span class="in">``` {.yaml title="inventory.yml"}</span></span>
-<span id="cb19-85"><a href="#cb19-85"></a><span class="fu">all</span><span class="kw">:</span></span>
-<span id="cb19-86"><a href="#cb19-86"></a><span class="at">  </span><span class="fu">vars</span><span class="kw">:</span></span>
-<span id="cb19-87"><a href="#cb19-87"></a><span class="at">    </span><span class="fu">distributed_press_domain</span><span class="kw">:</span><span class="at"> </span><span class="st">"distributed.errbufferoverfl.me"</span></span>
-<span id="cb19-88"><a href="#cb19-88"></a><span class="at">    </span><span class="fu">distributed_press_letsencrypt_email</span><span class="kw">:</span><span class="at"> </span><span class="st">"rebecca@example.com"</span></span>
-<span id="cb19-89"><a href="#cb19-89"></a><span class="at">    </span><span class="fu">distributed_press_served_sites</span><span class="kw">:</span><span class="at"> </span><span class="kw">[]</span></span>
-<span id="cb19-90"><a href="#cb19-90"></a><span class="at">  </span><span class="fu">children</span><span class="kw">:</span></span>
-<span id="cb19-91"><a href="#cb19-91"></a><span class="at">    </span><span class="fu">distributed_press</span><span class="kw">:</span></span>
-<span id="cb19-92"><a href="#cb19-92"></a><span class="at">      </span><span class="fu">hosts</span><span class="kw">:</span></span>
-<span id="cb19-93"><a href="#cb19-93"></a><span class="at">        </span><span class="fu">distributed.errbufferoverfl.me</span><span class="kw">:</span></span>
-<span id="cb19-94"><a href="#cb19-94"></a><span class="at">          </span><span class="fu">ansible_user</span><span class="kw">:</span><span class="at"> root</span></span>
-<span id="cb19-95"><a href="#cb19-95"></a><span class="in">```</span></span>
-<span id="cb19-96"><a href="#cb19-96"></a></span>
-<span id="cb19-97"><a href="#cb19-97"></a>Install the dependencies on your local machine:</span>
-<span id="cb19-98"><a href="#cb19-98"></a></span>
-<span id="cb19-99"><a href="#cb19-99"></a><span class="in">``` shell</span></span>
-<span id="cb19-100"><a href="#cb19-100"></a><span class="ex">ansible-galaxy</span> install <span class="at">-r</span> ./requirements.yml</span>
-<span id="cb19-101"><a href="#cb19-101"></a><span class="in">```</span></span>
-<span id="cb19-102"><a href="#cb19-102"></a></span>
-<span id="cb19-103"><a href="#cb19-103"></a>Add the VPS's IP address and the <span class="in">`distributed_press_domain`</span> to your <span class="in">`/etc/hosts`</span> file so you don't experience an <span class="in">`UNREACHABLE`</span> error when you run the playbook. e.g.,</span>
-<span id="cb19-104"><a href="#cb19-104"></a></span>
-<span id="cb19-105"><a href="#cb19-105"></a><span class="in">``` {.text title="/etc/hosts"}</span></span>
-<span id="cb19-106"><a href="#cb19-106"></a><span class="in">127.0.0.1   localhost</span></span>
-<span id="cb19-107"><a href="#cb19-107"></a><span class="in">255.255.255.255 broadcasthost</span></span>
-<span id="cb19-108"><a href="#cb19-108"></a><span class="in">::1             localhost%</span></span>
-<span id="cb19-109"><a href="#cb19-109"></a></span>
-<span id="cb19-110"><a href="#cb19-110"></a><span class="in">{{VPS IP ADDRESS}} example.com</span></span>
-<span id="cb19-111"><a href="#cb19-111"></a><span class="in">```</span></span>
-<span id="cb19-112"><a href="#cb19-112"></a></span>
-<span id="cb19-113"><a href="#cb19-113"></a>Execute the playbook:</span>
-<span id="cb19-114"><a href="#cb19-114"></a></span>
-<span id="cb19-115"><a href="#cb19-115"></a><span class="in">``` {.shell title="terminal"}</span></span>
-<span id="cb19-116"><a href="#cb19-116"></a><span class="ex">ansible-playbook</span> distributed_press.yml <span class="at">-i</span> inventory.yml</span>
-<span id="cb19-117"><a href="#cb19-117"></a><span class="in">```</span></span>
-<span id="cb19-118"><a href="#cb19-118"></a></span>
-<span id="cb19-119"><a href="#cb19-119"></a>Once the playbook has finished, login to your DNS provider and add in an new A record pointing your VPS to the new domain:</span>
-<span id="cb19-120"><a href="#cb19-120"></a></span>
-<span id="cb19-121"><a href="#cb19-121"></a><span class="ss">- </span>**Type:** A</span>
-<span id="cb19-122"><a href="#cb19-122"></a><span class="ss">- </span>**Name:** <span class="in">`subdomain`</span></span>
-<span id="cb19-123"><a href="#cb19-123"></a><span class="ss">- </span>**Content:** VPS static IP address</span>
-<span id="cb19-124"><a href="#cb19-124"></a><span class="ss">- </span>**TTL:** Auto</span>
-<span id="cb19-125"><a href="#cb19-125"></a></span>
-<span id="cb19-126"><a href="#cb19-126"></a>Add an <span class="in">`NS`</span> record linking <span class="in">`_dnslink`</span> to your site:</span>
-<span id="cb19-127"><a href="#cb19-127"></a></span>
-<span id="cb19-128"><a href="#cb19-128"></a><span class="ss">- </span>**Type:** NS</span>
-<span id="cb19-129"><a href="#cb19-129"></a><span class="ss">- </span>**Name:** <span class="in">`_dnslink`</span></span>
-<span id="cb19-130"><a href="#cb19-130"></a><span class="ss">- </span>**Content:** the <span class="in">`distributed_press_domain`</span></span>
-<span id="cb19-131"><a href="#cb19-131"></a><span class="ss">- </span>**TTL:** Auto</span>
-<span id="cb19-132"><a href="#cb19-132"></a></span>
-<span id="cb19-133"><a href="#cb19-133"></a>Login to the VPS and check the status of the service.</span>
-<span id="cb19-134"><a href="#cb19-134"></a></span>
-<span id="cb19-135"><a href="#cb19-135"></a><span class="in">``` {.shell title="terminal"}</span></span>
-<span id="cb19-136"><a href="#cb19-136"></a><span class="ex">systemctl</span> status distributed.press</span>
-<span id="cb19-137"><a href="#cb19-137"></a><span class="in">```</span></span>
-<span id="cb19-138"><a href="#cb19-138"></a></span>
-<span id="cb19-139"><a href="#cb19-139"></a>::: {.callout-warning}</span>
-<span id="cb19-140"><a href="#cb19-140"></a>**Ubuntu default DNS server**</span>
-<span id="cb19-141"><a href="#cb19-141"></a></span>
-<span id="cb19-142"><a href="#cb19-142"></a>Also double check the logs using <span class="in">`journalctl -fu distributed.press`</span>, if you see a <span class="in">`bind EADDRINUSE 0.0.0.0:53`</span> error you will need to disable an installed utility called <span class="in">`dnsmasq`</span>.<span class="ot">[^3]</span></span>
-<span id="cb19-143"><a href="#cb19-143"></a>:::</span>
-<span id="cb19-144"><a href="#cb19-144"></a></span>
-<span id="cb19-145"><a href="#cb19-145"></a><span class="fu">## Running a Sense Check</span></span>
-<span id="cb19-146"><a href="#cb19-146"></a></span>
-<span id="cb19-147"><a href="#cb19-147"></a>When I installed my <span class="in">`distributed.press`</span> instance a few things failed to initialize as expected so it's worth manually checking these.</span>
-<span id="cb19-148"><a href="#cb19-148"></a></span>
-<span id="cb19-149"><a href="#cb19-149"></a><span class="fu">### Ensure `ufw` is Active</span></span>
-<span id="cb19-150"><a href="#cb19-150"></a></span>
-<span id="cb19-151"><a href="#cb19-151"></a>To make sure the firewall is up, you can run:</span>
-<span id="cb19-152"><a href="#cb19-152"></a></span>
-<span id="cb19-153"><a href="#cb19-153"></a><span class="in">``` {.shell title="terminal"}</span></span>
-<span id="cb19-154"><a href="#cb19-154"></a><span class="ex">ufw</span> status</span>
-<span id="cb19-155"><a href="#cb19-155"></a><span class="in">```</span></span>
-<span id="cb19-156"><a href="#cb19-156"></a></span>
-<span id="cb19-157"><a href="#cb19-157"></a>Which, if enabled should return something like this:</span>
-<span id="cb19-158"><a href="#cb19-158"></a></span>
-<span id="cb19-159"><a href="#cb19-159"></a><span class="in">``` {.shell title="terminal"}</span></span>
-<span id="cb19-160"><a href="#cb19-160"></a><span class="ex">Status:</span> active</span>
-<span id="cb19-161"><a href="#cb19-161"></a></span>
-<span id="cb19-162"><a href="#cb19-162"></a><span class="ex">To</span>                         Action      From</span>
-<span id="cb19-163"><a href="#cb19-163"></a><span class="ex">--</span>                         <span class="at">------</span>      <span class="at">----</span></span>
-<span id="cb19-164"><a href="#cb19-164"></a><span class="ex">53/udp</span>                     ALLOW       Anywhere</span>
-<span id="cb19-165"><a href="#cb19-165"></a><span class="ex">7976/udp</span>                   ALLOW       Anywhere</span>
-<span id="cb19-166"><a href="#cb19-166"></a><span class="ex">7976/tcp</span>                   ALLOW       Anywhere</span>
-<span id="cb19-167"><a href="#cb19-167"></a><span class="ex">Nginx</span> Full                 ALLOW       Anywhere</span>
-<span id="cb19-168"><a href="#cb19-168"></a><span class="ex">22/tcp</span>                     ALLOW       Anywhere</span>
-<span id="cb19-169"><a href="#cb19-169"></a><span class="ex">53/udp</span> <span class="er">(</span><span class="ex">v6</span><span class="kw">)</span>                <span class="ex">ALLOW</span>       Anywhere <span class="er">(</span><span class="ex">v6</span><span class="kw">)</span></span>
-<span id="cb19-170"><a href="#cb19-170"></a><span class="ex">7976/udp</span> <span class="er">(</span><span class="ex">v6</span><span class="kw">)</span>              <span class="ex">ALLOW</span>       Anywhere <span class="er">(</span><span class="ex">v6</span><span class="kw">)</span></span>
-<span id="cb19-171"><a href="#cb19-171"></a><span class="ex">7976/tcp</span> <span class="er">(</span><span class="ex">v6</span><span class="kw">)</span>              <span class="ex">ALLOW</span>       Anywhere <span class="er">(</span><span class="ex">v6</span><span class="kw">)</span></span>
-<span id="cb19-172"><a href="#cb19-172"></a><span class="ex">Nginx</span> Full <span class="er">(</span><span class="ex">v6</span><span class="kw">)</span>            <span class="ex">ALLOW</span>       Anywhere <span class="er">(</span><span class="ex">v6</span><span class="kw">)</span></span>
-<span id="cb19-173"><a href="#cb19-173"></a><span class="ex">22/tcp</span> <span class="er">(</span><span class="ex">v6</span><span class="kw">)</span>                <span class="ex">ALLOW</span>       Anywhere <span class="er">(</span><span class="ex">v6</span><span class="kw">)</span></span>
-<span id="cb19-174"><a href="#cb19-174"></a><span class="in">```</span></span>
-<span id="cb19-175"><a href="#cb19-175"></a></span>
-<span id="cb19-176"><a href="#cb19-176"></a>::: {.callout-warning}</span>
-<span id="cb19-177"><a href="#cb19-177"></a>**Before enabling `ufw`**</span>
-<span id="cb19-178"><a href="#cb19-178"></a></span>
-<span id="cb19-179"><a href="#cb19-179"></a>Ensure you have added in a firewall rule for which ever management protocol you're using (e.g. ssh). To do this run:</span>
-<span id="cb19-180"><a href="#cb19-180"></a></span>
-<span id="cb19-181"><a href="#cb19-181"></a><span class="in">``` shell</span></span>
-<span id="cb19-182"><a href="#cb19-182"></a><span class="ex">ufw</span> allow 22</span>
-<span id="cb19-183"><a href="#cb19-183"></a><span class="in">```</span></span>
-<span id="cb19-184"><a href="#cb19-184"></a></span>
-<span id="cb19-185"><a href="#cb19-185"></a>:::</span>
-<span id="cb19-186"><a href="#cb19-186"></a></span>
-<span id="cb19-187"><a href="#cb19-187"></a>If you find that <span class="in">`ufw`</span> is not enabled, you'll want to enable it.</span>
-<span id="cb19-188"><a href="#cb19-188"></a></span>
-<span id="cb19-189"><a href="#cb19-189"></a><span class="in">``` {.shell title="terminal"}</span></span>
-<span id="cb19-190"><a href="#cb19-190"></a><span class="ex">ufw</span> enable</span>
-<span id="cb19-191"><a href="#cb19-191"></a><span class="in">```</span></span>
-<span id="cb19-192"><a href="#cb19-192"></a></span>
-<span id="cb19-193"><a href="#cb19-193"></a><span class="fu">### Ensure the Private Keys Are Generated</span></span>
-<span id="cb19-194"><a href="#cb19-194"></a></span>
-<span id="cb19-195"><a href="#cb19-195"></a>Normally <span class="in">`ansible`</span> will <span class="co">[</span><span class="ot">handle generating a key for the JWT</span><span class="co">](https://github.com/hyphacoop/api.distributed.press/blob/b23534e6652cab20c2b10a3dcd85529344139462/ansible/roles/distributed_press/tasks/main.yml#L76-L82)</span> however, in my case this didn't work and I had to manually generate a key.</span>
-<span id="cb19-196"><a href="#cb19-196"></a></span>
-<span id="cb19-197"><a href="#cb19-197"></a>I was able to identify this problem because I recieved the following error when trying to <span class="co">[</span><span class="ot">Get a `root` admin token</span><span class="co">](#Get%20a%20%60root%60%20admin%20token)</span>:</span>
-<span id="cb19-198"><a href="#cb19-198"></a></span>
-<span id="cb19-199"><a href="#cb19-199"></a><span class="in">``` {title="terminal"}</span></span>
-<span id="cb19-200"><a href="#cb19-200"></a><span class="in">Error: ENOENT: no such file or directory, open '/root/.local/share/distributed-press-nodejs/keys/private.key'</span></span>
-<span id="cb19-201"><a href="#cb19-201"></a><span class="in">```</span></span>
-<span id="cb19-202"><a href="#cb19-202"></a></span>
-<span id="cb19-203"><a href="#cb19-203"></a>To resolve this issue I replicated what <span class="in">`ansible`</span> would do, and ran <span class="in">`keygen`</span> again:</span>
-<span id="cb19-204"><a href="#cb19-204"></a></span>
-<span id="cb19-205"><a href="#cb19-205"></a><span class="in">``` {.shell title="terminal"}</span></span>
-<span id="cb19-206"><a href="#cb19-206"></a><span class="fu">sudo</span> su press</span>
-<span id="cb19-207"><a href="#cb19-207"></a><span class="bu">cd</span></span>
-<span id="cb19-208"><a href="#cb19-208"></a><span class="bu">cd</span> api.distributed.press</span>
-<span id="cb19-209"><a href="#cb19-209"></a><span class="ex">npm</span> run keygen</span>
-<span id="cb19-210"><a href="#cb19-210"></a><span class="in">```</span></span>
-<span id="cb19-211"><a href="#cb19-211"></a></span>
-<span id="cb19-212"><a href="#cb19-212"></a><span class="fu">## Get a `root` Admin Token</span></span>
-<span id="cb19-213"><a href="#cb19-213"></a></span>
-<span id="cb19-214"><a href="#cb19-214"></a>Authorisation on the service is handled using JSON Web Tokens (JWTs) that are issued to specific users.</span>
-<span id="cb19-215"><a href="#cb19-215"></a></span>
-<span id="cb19-216"><a href="#cb19-216"></a>::: {.callout-warning}</span>
-<span id="cb19-217"><a href="#cb19-217"></a>By default, tokens expire after a week.</span>
-<span id="cb19-218"><a href="#cb19-218"></a>:::</span>
-<span id="cb19-219"><a href="#cb19-219"></a></span>
-<span id="cb19-220"><a href="#cb19-220"></a>To generate the auth token necessary to make the very first admin user, you must use the 'root' admin token.</span>
-<span id="cb19-221"><a href="#cb19-221"></a></span>
-<span id="cb19-222"><a href="#cb19-222"></a><span class="in">`ssh`</span> into the VPS that is hosting your <span class="in">`distributed.press`</span> instance and navigate to the the root directory of <span class="in">`api.distributed.press`</span></span>
-<span id="cb19-223"><a href="#cb19-223"></a></span>
-<span id="cb19-224"><a href="#cb19-224"></a><span class="in">``` {.shell title="terminal"}</span></span>
-<span id="cb19-225"><a href="#cb19-225"></a><span class="fu">sudo</span> su press</span>
-<span id="cb19-226"><a href="#cb19-226"></a><span class="bu">cd</span></span>
-<span id="cb19-227"><a href="#cb19-227"></a><span class="bu">cd</span> api.distributed.press</span>
-<span id="cb19-228"><a href="#cb19-228"></a><span class="in">```</span></span>
-<span id="cb19-229"><a href="#cb19-229"></a></span>
-<span id="cb19-230"><a href="#cb19-230"></a>Run <span class="in">`npm run make-admin`</span> which will print out the token to stdout.</span>
-<span id="cb19-231"><a href="#cb19-231"></a></span>
-<span id="cb19-232"><a href="#cb19-232"></a>::: {.callout-tip}</span>
-<span id="cb19-233"><a href="#cb19-233"></a>**Save the Token**</span>
-<span id="cb19-234"><a href="#cb19-234"></a></span>
-<span id="cb19-235"><a href="#cb19-235"></a>Be sure to save the token somewhere secure as it will be important for making any administrative calls to the API.</span>
-<span id="cb19-236"><a href="#cb19-236"></a>:::</span>
-<span id="cb19-237"><a href="#cb19-237"></a></span>
-<span id="cb19-238"><a href="#cb19-238"></a>Now that you have the root admin token, and the firewall is enabled, you can go ahead and start tinkering with your new <span class="in">`distributed.press`</span> service.</span>
-<span id="cb19-239"><a href="#cb19-239"></a></span>
-<span id="cb19-240"><a href="#cb19-240"></a>For more information on how to you the API you can find the Swagger docs hosted on your instance at <span class="in">`/v1/docs`</span>.</span>
-<span id="cb19-241"><a href="#cb19-241"></a></span>
-<span id="cb19-242"><a href="#cb19-242"></a><span class="fu">## Additional Notes</span></span>
-<span id="cb19-243"><a href="#cb19-243"></a></span>
-<span id="cb19-244"><a href="#cb19-244"></a><span class="fu">### Creating a New Publisher</span></span>
-<span id="cb19-245"><a href="#cb19-245"></a></span>
-<span id="cb19-246"><a href="#cb19-246"></a>To make sure we're always operating in line with the principal of least privilege exchange the root token for a new one with the publisher subset of capabilities:</span>
-<span id="cb19-247"><a href="#cb19-247"></a></span>
-<span id="cb19-248"><a href="#cb19-248"></a><span class="in">``` {.shell title="terminal"}</span></span>
-<span id="cb19-249"><a href="#cb19-249"></a><span class="ex">curl</span> <span class="at">-X</span> POST https://distributed.errbufferoverfl.me/v1/publisher <span class="dt">\</span></span>
-<span id="cb19-250"><a href="#cb19-250"></a>-H <span class="st">"Content-Type: application/json"</span> <span class="dt">\</span></span>
-<span id="cb19-251"><a href="#cb19-251"></a>-H <span class="st">"Authorization: Bearer JWT"</span> <span class="dt">\</span></span>
-<span id="cb19-252"><a href="#cb19-252"></a>-d <span class="st">'{"name":"garden.errbufferoverfl.me"}'</span></span>
-<span id="cb19-253"><a href="#cb19-253"></a><span class="in">```</span></span>
-<span id="cb19-254"><a href="#cb19-254"></a></span>
-<span id="cb19-255"><a href="#cb19-255"></a><span class="fu">### Add a Site to a Publisher</span></span>
-<span id="cb19-256"><a href="#cb19-256"></a></span>
-<span id="cb19-257"><a href="#cb19-257"></a><span class="in">``` {.shell title="terminal"}</span></span>
-<span id="cb19-258"><a href="#cb19-258"></a><span class="ex">curl</span> <span class="at">-X</span> POST https://distributed.errbufferoverfl.me/v1/sites <span class="dt">\</span></span>
-<span id="cb19-259"><a href="#cb19-259"></a>-H <span class="st">"Content-Type: application/json"</span> <span class="dt">\</span></span>
-<span id="cb19-260"><a href="#cb19-260"></a>-H <span class="st">"Authorization: Bearer JWT"</span> <span class="dt">\</span></span>
-<span id="cb19-261"><a href="#cb19-261"></a>-d <span class="st">'{"domain":"garden.errbufferoverfl.me", "public": true, "protocols":{"http": false, "hyper": true, "ipfs": true} }'</span></span>
-<span id="cb19-262"><a href="#cb19-262"></a><span class="in">```</span></span>
-<span id="cb19-263"><a href="#cb19-263"></a></span>
-<span id="cb19-264"><a href="#cb19-264"></a><span class="fu">## Errors</span></span>
-<span id="cb19-265"><a href="#cb19-265"></a></span>
-<span id="cb19-266"><a href="#cb19-266"></a><span class="fu">### Distributed Press Host Unreachable</span></span>
-<span id="cb19-267"><a href="#cb19-267"></a></span>
-<span id="cb19-268"><a href="#cb19-268"></a>Experience the following error because you didn't add the remote host to your <span class="in">`/etc/host`</span>.</span>
-<span id="cb19-269"><a href="#cb19-269"></a></span>
-<span id="cb19-270"><a href="#cb19-270"></a>*Scream into the void.*</span>
-<span id="cb19-271"><a href="#cb19-271"></a></span>
-<span id="cb19-272"><a href="#cb19-272"></a><span class="in">``` shell</span></span>
-<span id="cb19-273"><a href="#cb19-273"></a><span class="ex">fatal:</span> <span class="pp">[</span><span class="ss">distributed.errbufferoverfl.me</span><span class="pp">]</span>: UNREACHABLE! =<span class="op">&gt;</span> {</span>
-<span id="cb19-274"><a href="#cb19-274"></a>    <span class="st">"changed"</span><span class="ex">:</span> false, </span>
-<span id="cb19-275"><a href="#cb19-275"></a>    <span class="st">"msg"</span><span class="ex">:</span> <span class="st">"Failed to connect to the host via ssh: ssh: Could not resolve</span></span>
-<span id="cb19-276"><a href="#cb19-276"></a><span class="st">     hostname distributed.errbufferoverfl.me: Name or service not known"</span>, </span>
-<span id="cb19-277"><a href="#cb19-277"></a>    <span class="st">"unreachable"</span><span class="ex">:</span> true</span>
-<span id="cb19-278"><a href="#cb19-278"></a><span class="er">}</span></span>
-<span id="cb19-279"><a href="#cb19-279"></a><span class="in">```</span></span>
-<span id="cb19-280"><a href="#cb19-280"></a></span>
-<span id="cb19-281"><a href="#cb19-281"></a><span class="fu">### Unable to Resolve Remote Host **after** Installation</span></span>
-<span id="cb19-282"><a href="#cb19-282"></a></span>
-<span id="cb19-283"><a href="#cb19-283"></a>If you were running on a version of apt-based Linux and had to disable the default DNS server to get node working, when you attempt to run <span class="in">`apt-update`</span> or try to run the Ansible script again it **will** fail.</span>
-<span id="cb19-284"><a href="#cb19-284"></a></span>
-<span id="cb19-285"><a href="#cb19-285"></a><span class="al">![](/imgs/setting-up-distributed-press-on-digital-ocean-1.png)</span>{fig-alt="A Mastodon post written by me that says \"Why won't apt repositories resolve! WHAT IS GOING ON?! Me two hours earlier: 'systemctl disable systemd-resolved'"}</span>
-<span id="cb19-286"><a href="#cb19-286"></a></span>
-<span id="cb19-287"><a href="#cb19-287"></a>To fix this, you'll want to <span class="in">`ssh`</span> onto the remote host, stop the <span class="in">`distributed.press`</span> service and restart <span class="in">`systemd-resolved`</span>.</span>
-<span id="cb19-288"><a href="#cb19-288"></a></span>
-<span id="cb19-289"><a href="#cb19-289"></a><span class="fu">## Additional Resources</span></span>
-<span id="cb19-290"><a href="#cb19-290"></a></span>
-<span id="cb19-291"><a href="#cb19-291"></a><span class="ss">- </span><span class="co">[</span><span class="ot">**hyphacoop/actions-distributed-press**</span><span class="co">](https://github.com/hyphacoop/actions-distributed-press)</span> - Easily deploy a site to Distributed Press using GitHub Actions</span>
-<span id="cb19-292"><a href="#cb19-292"></a></span>
-<span id="cb19-293"><a href="#cb19-293"></a><span class="ot">[^1]: </span>[<span class="co">[</span><span class="ot">Question</span><span class="co">]</span> Adding actions-distributed-press to Quartz Github Action](https://github.com/hyphacoop/actions-distributed-press/issues/2#issue-1751678540)</span>
-<span id="cb19-294"><a href="#cb19-294"></a><span class="ot">[^2]: </span><span class="co">[</span><span class="ot">Distributed Press Minimum Requirements</span><span class="co">](https://github.com/hyphacoop/actions-distributed-press/issues/2#issue-1751678540)</span></span>
-<span id="cb19-295"><a href="#cb19-295"></a><span class="ot">[^3]: </span><span class="co">[</span><span class="ot">Port 53 Problems?</span><span class="co">](https://github.com/MASQ-Project/Node/blob/master/node/docs/PORT_53.md#linux)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div></div></div></div></div>
+</script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Published with <a href="https://quarto.org/">Quarto</a> v1.3.450 | Hosted by <a href="https://pages.github.com/"><iconify-icon inline="" icon="simple-icons:github"></iconify-icon></a></div>   
-    <div class="nav-footer-center"><a href="https://ko-fi.com/errbufferoverfl">Ko-Fi</a> | <a href="https://genericsocialmediapage.com/@errbufferoverfl">Mastodon</a> | <a href="https://mastodon.art/@errbufferoverfl">Art Mastodon</a> | <a href="https://github.com/errbufferoverfl">Github</a> | <a href="https://twitter.com/errbufferoverfl">Twitter</a></div>
-    <div class="nav-footer-right">© 2023 errbufferoverfl | <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.en">CC BY-SA 4.0</a></div>
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">© 2023 errbufferoverfl, Some Rights Reserved | <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.en">CC BY-SA 4.0</a><br><a href="https://ko-fi.com/errbufferoverfl">Ko-Fi</a> | <a href="https://genericsocialmediapage.com/@errbufferoverfl">Mastodon</a> | <a href="https://mastodon.art/@errbufferoverfl">Art Mastodon</a> | <a href="https://github.com/errbufferoverfl">Github</a> | <a href="https://twitter.com/errbufferoverfl">Twitter</a></div>
   </div>
 </footer>
 

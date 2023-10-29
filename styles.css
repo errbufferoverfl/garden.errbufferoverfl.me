@@ -9,15 +9,11 @@ div.quarto-about-broadside .about-main .about-entity {
 
 .card-file-modified:before {
     content: "Updated: ";
-    font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+    font: var(--bs-font-sans-serif);
 }
 
 .card-other-values tr > td:first-of-type {
   display: none;
-}
-
-ul {
-  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
 }
 
 progress {

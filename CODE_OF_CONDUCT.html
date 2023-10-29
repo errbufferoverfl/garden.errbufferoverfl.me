@@ -6,6 +6,7 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="errbufferoverfl">
 
 <title>errbufferoverfl, anarchist, illustrator, reluctant security engineer – code_of_conduct</title>
 <style>
@@ -19,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -69,10 +36,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script src="site_libs/quarto-contrib/iconify-1.0.7/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -95,12 +64,13 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' localhost:8086 'unsafe-inline'; script-src 'self' https://cdn.jsdelivr.net/npm/mathjax@3/es5/ https://polyfill.io/v3/polyfill.min.js 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com/css2/ 'unsafe-inline'; img-src 'self' data:; font-src data: https://fonts.gstatic.com/s/lato/v24/ https://cdn.jsdelivr.net/npm/mathjax@3/es5/  localhost:8086; connect-src ws://localhost:8086; media-src 'self' localhost:8086; object-src 'none'; prefetch-src 'none'; child-src 'none'; frame-src 'none'; worker-src 'none'; form-action 'none'; upgrade-insecure-requests; disown-opener; base-uri 'self'; manifest-src 'self'">
 
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -151,23 +121,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="dropdown-text">The Soapbox</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="./digest.html" rel="" target="">
+ <span class="dropdown-text">The Digest</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="./index.html" rel="" target="">
  <span class="dropdown-text">About Me</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-errata" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">Errata</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-errata">    
-        <li>
-    <a class="dropdown-item" href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me" rel="" target="">
- <span class="dropdown-text">Source Code</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/issues" rel="" target="">
- <span class="dropdown-text">Report a Bug</span></a>
   </li>  
     </ul>
   </li>
@@ -178,6 +137,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -187,9 +147,29 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#citizen-code-of-conduct" id="toc-citizen-code-of-conduct" class="nav-link active" data-scroll-target="#citizen-code-of-conduct">Citizen Code of Conduct</a>
+  <ul class="collapse">
+  <li><a href="#purpose" id="toc-purpose" class="nav-link" data-scroll-target="#purpose">1. Purpose</a></li>
+  <li><a href="#open-sourceculturetech-citizenship" id="toc-open-sourceculturetech-citizenship" class="nav-link" data-scroll-target="#open-sourceculturetech-citizenship">2. Open [Source/Culture/Tech] Citizenship</a></li>
+  <li><a href="#expected-behavior" id="toc-expected-behavior" class="nav-link" data-scroll-target="#expected-behavior">3. Expected Behavior</a></li>
+  <li><a href="#unacceptable-behavior" id="toc-unacceptable-behavior" class="nav-link" data-scroll-target="#unacceptable-behavior">4. Unacceptable Behavior</a></li>
+  <li><a href="#weapons-policy" id="toc-weapons-policy" class="nav-link" data-scroll-target="#weapons-policy">5. Weapons Policy</a></li>
+  <li><a href="#consequences-of-unacceptable-behavior" id="toc-consequences-of-unacceptable-behavior" class="nav-link" data-scroll-target="#consequences-of-unacceptable-behavior">6. Consequences of Unacceptable Behavior</a></li>
+  <li><a href="#reporting-guidelines" id="toc-reporting-guidelines" class="nav-link" data-scroll-target="#reporting-guidelines">7. Reporting Guidelines</a></li>
+  <li><a href="#addressing-grievances" id="toc-addressing-grievances" class="nav-link" data-scroll-target="#addressing-grievances">8. Addressing Grievances</a></li>
+  <li><a href="#scope" id="toc-scope" class="nav-link" data-scroll-target="#scope">9. Scope</a></li>
+  <li><a href="#license-and-attribution" id="toc-license-and-attribution" class="nav-link" data-scroll-target="#license-and-attribution">10. License and attribution</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/edit/hugo/CODE_OF_CONDUCT.md" class="toc-action">Edit this page</a></p><p><a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/blob/hugo/CODE_OF_CONDUCT.md" class="toc-action">View source</a></p><p><a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/issues" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><div class="quarto-title-block"><div class="quarto-title-tools-only"><h1></h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+<main class="content" id="quarto-document-content">
 
 
 
@@ -260,12 +240,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>We expect all community participants (contributors, paid or otherwise; sponsors; and other guests) to abide by this Code of Conduct in all community venues–online and in-person–as well as in all one-on-one communications pertaining to community business.</p>
 <p>This code of conduct and its related procedures also applies to unacceptable behavior occurring outside the scope of community activities when such behavior has the potential to adversely affect the safety and well-being of community members.</p>
 </section>
-<section id="contact-info" class="level2">
-<h2 class="anchored" data-anchor-id="contact-info">10. Contact info</h2>
-<p>j.zhao2k19@gmail.com</p>
-</section>
 <section id="license-and-attribution" class="level2">
-<h2 class="anchored" data-anchor-id="license-and-attribution">11. License and attribution</h2>
+<h2 class="anchored" data-anchor-id="license-and-attribution">10. License and attribution</h2>
 <p>The Citizen Code of Conduct is distributed by <a href="http://stumptownsyndicate.org">Stumptown Syndicate</a> under a <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution-ShareAlike license</a>.</p>
 <p>Portions of text derived from the <a href="https://www.djangoproject.com/conduct/">Django Code of Conduct</a> and the <a href="http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy">Geek Feminism Anti-Harassment Policy</a>.</p>
 <p><em>Revision 2.3. Posted 6 March 2017.</em></p>
@@ -274,12 +250,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p><em>Revision 2.0, adopted by the <a href="http://stumptownsyndicate.org">Stumptown Syndicate</a> board on 10 January 2013. Posted 17 March 2013.</em></p>
 
 
-<!-- -->
-
 </section>
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -300,6 +274,121 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -359,57 +448,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  const viewSource = window.document.getElementById('quarto-view-source') ||
-                     window.document.getElementById('quarto-code-tools-source');
-  if (viewSource) {
-    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
-    viewSource.addEventListener("click", function(e) {
-      if (sourceUrl) {
-        // rstudio viewer pane
-        if (/\bcapabilities=\b/.test(window.location)) {
-          window.open(sourceUrl);
-        } else {
-          window.location.href = sourceUrl;
-        }
-      } else {
-        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
-        modal.show();
-      }
-      return false;
-    });
-  }
-  function toggleCodeHandler(show) {
-    return function(e) {
-      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
-      for (let i=0; i<detailsSrc.length; i++) {
-        const details = detailsSrc[i].parentElement;
-        if (show) {
-          details.open = true;
-        } else {
-          details.removeAttribute("open");
-        }
-      }
-      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
-      const fromCls = show ? "hidden" : "unhidden";
-      const toCls = show ? "unhidden" : "hidden";
-      for (let i=0; i<cellCodeDivs.length; i++) {
-        const codeDiv = cellCodeDivs[i];
-        if (codeDiv.classList.contains(fromCls)) {
-          codeDiv.classList.remove(fromCls);
-          codeDiv.classList.add(toCls);
-        } 
-      }
-      return false;
-    }
-  }
-  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
-  if (hideAllCode) {
-    hideAllCode.addEventListener("click", toggleCodeHandler(false));
-  }
-  const showAllCode = window.document.getElementById("quarto-show-all-code");
-  if (showAllCode) {
-    showAllCode.addEventListener("click", toggleCodeHandler(true));
-  }
   function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
@@ -577,104 +615,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
 });
-</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb1" data-shortcodes="false"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb1-1"><a href="#cb1-1"></a><span class="fu"># Citizen Code of Conduct</span></span>
-<span id="cb1-2"><a href="#cb1-2"></a></span>
-<span id="cb1-3"><a href="#cb1-3"></a><span class="fu">## 1. Purpose</span></span>
-<span id="cb1-4"><a href="#cb1-4"></a></span>
-<span id="cb1-5"><a href="#cb1-5"></a>A primary goal of the Quartz community is to be inclusive to the largest number of contributors, with the most varied and diverse backgrounds possible. As such, we are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, ability, ethnicity, socioeconomic status, and religion (or lack thereof).</span>
-<span id="cb1-6"><a href="#cb1-6"></a></span>
-<span id="cb1-7"><a href="#cb1-7"></a>This code of conduct outlines our expectations for all those who participate in our community, as well as the consequences for unacceptable behavior.</span>
-<span id="cb1-8"><a href="#cb1-8"></a></span>
-<span id="cb1-9"><a href="#cb1-9"></a>We invite all those who participate in the Quartz community to help us create safe and positive experiences for everyone.</span>
-<span id="cb1-10"><a href="#cb1-10"></a></span>
-<span id="cb1-11"><a href="#cb1-11"></a><span class="fu">## 2. Open [Source/Culture/Tech] Citizenship</span></span>
-<span id="cb1-12"><a href="#cb1-12"></a></span>
-<span id="cb1-13"><a href="#cb1-13"></a>A supplemental goal of this Code of Conduct is to increase open <span class="co">[</span><span class="ot">source/culture/tech</span><span class="co">]</span> citizenship by encouraging participants to recognize and strengthen the relationships between our actions and their effects on our community.</span>
-<span id="cb1-14"><a href="#cb1-14"></a></span>
-<span id="cb1-15"><a href="#cb1-15"></a>Communities mirror the societies in which they exist and positive action is essential to counteract the many forms of inequality and abuses of power that exist in society.</span>
-<span id="cb1-16"><a href="#cb1-16"></a></span>
-<span id="cb1-17"><a href="#cb1-17"></a>If you see someone who is making an extra effort to ensure our community is welcoming, friendly, and encourages all participants to contribute to the fullest extent, we want to know.</span>
-<span id="cb1-18"><a href="#cb1-18"></a></span>
-<span id="cb1-19"><a href="#cb1-19"></a><span class="fu">## 3. Expected Behavior</span></span>
-<span id="cb1-20"><a href="#cb1-20"></a></span>
-<span id="cb1-21"><a href="#cb1-21"></a>The following behaviors are expected and requested of all community members:</span>
-<span id="cb1-22"><a href="#cb1-22"></a></span>
-<span id="cb1-23"><a href="#cb1-23"></a><span class="ss">- </span>Participate in an authentic and active way. In doing so, you contribute to the health and longevity of this community.</span>
-<span id="cb1-24"><a href="#cb1-24"></a><span class="ss">- </span>Exercise consideration and respect in your speech and actions.</span>
-<span id="cb1-25"><a href="#cb1-25"></a><span class="ss">- </span>Attempt collaboration before conflict.</span>
-<span id="cb1-26"><a href="#cb1-26"></a><span class="ss">- </span>Refrain from demeaning, discriminatory, or harassing behavior and speech.</span>
-<span id="cb1-27"><a href="#cb1-27"></a><span class="ss">- </span>Be mindful of your surroundings and of your fellow participants. Alert community leaders if you notice a dangerous situation, someone in distress, or violations of this Code of Conduct, even if they seem inconsequential.</span>
-<span id="cb1-28"><a href="#cb1-28"></a><span class="ss">- </span>Remember that community event venues may be shared with members of the public; please be respectful to all patrons of these locations.</span>
-<span id="cb1-29"><a href="#cb1-29"></a></span>
-<span id="cb1-30"><a href="#cb1-30"></a><span class="fu">## 4. Unacceptable Behavior</span></span>
-<span id="cb1-31"><a href="#cb1-31"></a></span>
-<span id="cb1-32"><a href="#cb1-32"></a>The following behaviors are considered harassment and are unacceptable within our community:</span>
-<span id="cb1-33"><a href="#cb1-33"></a></span>
-<span id="cb1-34"><a href="#cb1-34"></a><span class="ss">- </span>Violence, threats of violence or violent language directed against another person.</span>
-<span id="cb1-35"><a href="#cb1-35"></a><span class="ss">- </span>Sexist, racist, homophobic, transphobic, ableist or otherwise discriminatory jokes and language.</span>
-<span id="cb1-36"><a href="#cb1-36"></a><span class="ss">- </span>Posting or displaying sexually explicit or violent material.</span>
-<span id="cb1-37"><a href="#cb1-37"></a><span class="ss">- </span>Posting or threatening to post other people's personally identifying information ("doxing").</span>
-<span id="cb1-38"><a href="#cb1-38"></a><span class="ss">- </span>Personal insults, particularly those related to gender, sexual orientation, race, religion, or disability.</span>
-<span id="cb1-39"><a href="#cb1-39"></a><span class="ss">- </span>Inappropriate photography or recording.</span>
-<span id="cb1-40"><a href="#cb1-40"></a><span class="ss">- </span>Inappropriate physical contact. You should have someone's consent before touching them.</span>
-<span id="cb1-41"><a href="#cb1-41"></a><span class="ss">- </span>Unwelcome sexual attention. This includes, sexualized comments or jokes; inappropriate touching, groping, and unwelcomed sexual advances.</span>
-<span id="cb1-42"><a href="#cb1-42"></a><span class="ss">- </span>Deliberate intimidation, stalking or following (online or in person).</span>
-<span id="cb1-43"><a href="#cb1-43"></a><span class="ss">- </span>Advocating for, or encouraging, any of the above behavior.</span>
-<span id="cb1-44"><a href="#cb1-44"></a><span class="ss">- </span>Sustained disruption of community events, including talks and presentations.</span>
-<span id="cb1-45"><a href="#cb1-45"></a></span>
-<span id="cb1-46"><a href="#cb1-46"></a><span class="fu">## 5. Weapons Policy</span></span>
-<span id="cb1-47"><a href="#cb1-47"></a></span>
-<span id="cb1-48"><a href="#cb1-48"></a>No weapons will be allowed at Quartz community events, community spaces, or in other spaces covered by the scope of this Code of Conduct. Weapons include but are not limited to guns, explosives (including fireworks), and large knives such as those used for hunting or display, as well as any other item used for the purpose of causing injury or harm to others. Anyone seen in possession of one of these items will be asked to leave immediately, and will only be allowed to return without the weapon. Community members are further expected to comply with all state and local laws on this matter.</span>
-<span id="cb1-49"><a href="#cb1-49"></a></span>
-<span id="cb1-50"><a href="#cb1-50"></a><span class="fu">## 6. Consequences of Unacceptable Behavior</span></span>
-<span id="cb1-51"><a href="#cb1-51"></a></span>
-<span id="cb1-52"><a href="#cb1-52"></a>Unacceptable behavior from any community member, including sponsors and those with decision-making authority, will not be tolerated.</span>
-<span id="cb1-53"><a href="#cb1-53"></a></span>
-<span id="cb1-54"><a href="#cb1-54"></a>Anyone asked to stop unacceptable behavior is expected to comply immediately.</span>
-<span id="cb1-55"><a href="#cb1-55"></a></span>
-<span id="cb1-56"><a href="#cb1-56"></a>If a community member engages in unacceptable behavior, the community organizers may take any action they deem appropriate, up to and including a temporary ban or permanent expulsion from the community without warning (and without refund in the case of a paid event).</span>
-<span id="cb1-57"><a href="#cb1-57"></a></span>
-<span id="cb1-58"><a href="#cb1-58"></a><span class="fu">## 7. Reporting Guidelines</span></span>
-<span id="cb1-59"><a href="#cb1-59"></a></span>
-<span id="cb1-60"><a href="#cb1-60"></a>If you are subject to or witness unacceptable behavior, or have any other concerns, please notify a community organizer as soon as possible. j.zhao2k19@gmail.com.</span>
-<span id="cb1-61"><a href="#cb1-61"></a></span>
-<span id="cb1-62"><a href="#cb1-62"></a>Additionally, community organizers are available to help community members engage with local law enforcement or to otherwise help those experiencing unacceptable behavior feel safe. In the context of in-person events, organizers will also provide escorts as desired by the person experiencing distress.</span>
-<span id="cb1-63"><a href="#cb1-63"></a></span>
-<span id="cb1-64"><a href="#cb1-64"></a><span class="fu">## 8. Addressing Grievances</span></span>
-<span id="cb1-65"><a href="#cb1-65"></a></span>
-<span id="cb1-66"><a href="#cb1-66"></a>If you feel you have been falsely or unfairly accused of violating this Code of Conduct, you should notify @jackyzha0 with a concise description of your grievance. Your grievance will be handled in accordance with our existing governing policies.</span>
-<span id="cb1-67"><a href="#cb1-67"></a></span>
-<span id="cb1-68"><a href="#cb1-68"></a><span class="fu">## 9. Scope</span></span>
-<span id="cb1-69"><a href="#cb1-69"></a></span>
-<span id="cb1-70"><a href="#cb1-70"></a>We expect all community participants (contributors, paid or otherwise; sponsors; and other guests) to abide by this Code of Conduct in all community venues--online and in-person--as well as in all one-on-one communications pertaining to community business.</span>
-<span id="cb1-71"><a href="#cb1-71"></a></span>
-<span id="cb1-72"><a href="#cb1-72"></a>This code of conduct and its related procedures also applies to unacceptable behavior occurring outside the scope of community activities when such behavior has the potential to adversely affect the safety and well-being of community members.</span>
-<span id="cb1-73"><a href="#cb1-73"></a></span>
-<span id="cb1-74"><a href="#cb1-74"></a><span class="fu">## 10. Contact info</span></span>
-<span id="cb1-75"><a href="#cb1-75"></a></span>
-<span id="cb1-76"><a href="#cb1-76"></a>j.zhao2k19@gmail.com</span>
-<span id="cb1-77"><a href="#cb1-77"></a></span>
-<span id="cb1-78"><a href="#cb1-78"></a><span class="fu">## 11. License and attribution</span></span>
-<span id="cb1-79"><a href="#cb1-79"></a></span>
-<span id="cb1-80"><a href="#cb1-80"></a>The Citizen Code of Conduct is distributed by <span class="co">[</span><span class="ot">Stumptown Syndicate</span><span class="co">](http://stumptownsyndicate.org)</span> under a <span class="co">[</span><span class="ot">Creative Commons Attribution-ShareAlike license</span><span class="co">](http://creativecommons.org/licenses/by-sa/3.0/)</span>.</span>
-<span id="cb1-81"><a href="#cb1-81"></a></span>
-<span id="cb1-82"><a href="#cb1-82"></a>Portions of text derived from the <span class="co">[</span><span class="ot">Django Code of Conduct</span><span class="co">](https://www.djangoproject.com/conduct/)</span> and the <span class="co">[</span><span class="ot">Geek Feminism Anti-Harassment Policy</span><span class="co">](http://geekfeminism.wikia.com/wiki/Conference_anti-harassment/Policy)</span>.</span>
-<span id="cb1-83"><a href="#cb1-83"></a></span>
-<span id="cb1-84"><a href="#cb1-84"></a>_Revision 2.3. Posted 6 March 2017._</span>
-<span id="cb1-85"><a href="#cb1-85"></a></span>
-<span id="cb1-86"><a href="#cb1-86"></a>_Revision 2.2. Posted 4 February 2016._</span>
-<span id="cb1-87"><a href="#cb1-87"></a></span>
-<span id="cb1-88"><a href="#cb1-88"></a>_Revision 2.1. Posted 23 June 2014._</span>
-<span id="cb1-89"><a href="#cb1-89"></a></span>
-<span id="cb1-90"><a href="#cb1-90"></a>_Revision 2.0, adopted by the [Stumptown Syndicate](http://stumptownsyndicate.org) board on 10 January 2013. Posted 17 March 2013._</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div></div></div></div></div>
+</script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Published with <a href="https://quarto.org/">Quarto</a> v1.3.450 | Hosted by <a href="https://pages.github.com/"><iconify-icon inline="" icon="simple-icons:github"></iconify-icon></a></div>   
-    <div class="nav-footer-center"><a href="https://ko-fi.com/errbufferoverfl">Ko-Fi</a> | <a href="https://genericsocialmediapage.com/@errbufferoverfl">Mastodon</a> | <a href="https://mastodon.art/@errbufferoverfl">Art Mastodon</a> | <a href="https://github.com/errbufferoverfl">Github</a> | <a href="https://twitter.com/errbufferoverfl">Twitter</a></div>
-    <div class="nav-footer-right">© 2023 errbufferoverfl | <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.en">CC BY-SA 4.0</a></div>
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">© 2023 errbufferoverfl, Some Rights Reserved | <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.en">CC BY-SA 4.0</a><br><a href="https://ko-fi.com/errbufferoverfl">Ko-Fi</a> | <a href="https://genericsocialmediapage.com/@errbufferoverfl">Mastodon</a> | <a href="https://mastodon.art/@errbufferoverfl">Art Mastodon</a> | <a href="https://github.com/errbufferoverfl">Github</a> | <a href="https://twitter.com/errbufferoverfl">Twitter</a></div>
   </div>
 </footer>
 

@@ -71,10 +71,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script src="../site_libs/quarto-contrib/iconify-1.0.7/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -97,6 +99,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' localhost:8086 'unsafe-inline'; script-src 'self' https://cdn.jsdelivr.net/npm/mathjax@3/es5/ https://polyfill.io/v3/polyfill.min.js 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com/css2/ 'unsafe-inline'; img-src 'self' data:; font-src data: https://fonts.gstatic.com/s/lato/v24/ https://cdn.jsdelivr.net/npm/mathjax@3/es5/  localhost:8086; connect-src ws://localhost:8086; media-src 'self' localhost:8086; object-src 'none'; prefetch-src 'none'; child-src 'none'; frame-src 'none'; worker-src 'none'; form-action 'none'; upgrade-insecure-requests; disown-opener; base-uri 'self'; manifest-src 'self'">
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -105,6 +108,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta property="og:site-name" content="errbufferoverfl, anarchist, illustrator, reluctant security engineer">
 <meta name="twitter:title" content="errbufferoverfl, anarchist, illustrator, reluctant security engineer - WordPress">
 <meta name="twitter:description" content="">
+<meta name="twitter:creator" content="@errbufferoverfl">
+<meta name="twitter:site" content="@errbufferoverfl">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -159,23 +164,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="dropdown-text">The Soapbox</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="../digest.html" rel="" target="">
+ <span class="dropdown-text">The Digest</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../index.html" rel="" target="">
  <span class="dropdown-text">About Me</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-errata" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">Errata</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-errata">    
-        <li>
-    <a class="dropdown-item" href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me" rel="" target="">
- <span class="dropdown-text">Source Code</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/issues" rel="" target="">
- <span class="dropdown-text">Report a Bug</span></a>
   </li>  
     </ul>
   </li>
@@ -186,6 +180,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -195,7 +190,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <div class="quarto-title-block"><div><h1 class="title">WordPress</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+      <h1 class="title">WordPress</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">Seed</div>
                 <div class="quarto-category">WordPress</div>
@@ -241,7 +236,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#tools" id="toc-tools" class="nav-link" data-scroll-target="#tools">Tools</a></li>
   <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading">Further Reading</a></li>
   </ul>
-</nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/edit/hugo/engineering/wordpress.md" class="toc-action">Edit this page</a></p><p><a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/blob/hugo/engineering/wordpress.md" class="toc-action">View source</a></p><p><a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/issues" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -283,12 +278,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <section id="robots.txt" class="level4">
 <h4 class="anchored" data-anchor-id="robots.txt"><code>robots.txt</code></h4>
 <p>A standard WordPress <code>robots.txt</code> file looks something like:</p>
-<pre><code>User-agent: *
-Disallow: /wp-admin/
-Allow: /wp-admin/admin-ajax.php
-Disallow: /wp-content/uploads/wpforms/
-
-Sitemap: https://example.com/wp-sitemap.xml</code></pre>
+<div class="sourceCode" id="cb1"><pre class="sourceCode numberSource shell number-lines code-with-copy"><code class="sourceCode"><span id="cb1-1"><a href="#cb1-1"></a>User-agent: *</span>
+<span id="cb1-2"><a href="#cb1-2"></a>Disallow: /wp-admin/</span>
+<span id="cb1-3"><a href="#cb1-3"></a>Allow: /wp-admin/admin-ajax.php</span>
+<span id="cb1-4"><a href="#cb1-4"></a>Disallow: /wp-content/uploads/wpforms/</span>
+<span id="cb1-5"><a href="#cb1-5"></a></span>
+<span id="cb1-6"><a href="#cb1-6"></a>Sitemap: https://example.com/wp-sitemap.xml</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <ul>
 <li><code>wp-admin</code> and <code>wp-content</code> are default WordPress directories.</li>
 <li>Attempting to navigate to <code>/wp-admin</code> will redirect you to <code>/wp-login.php</code></li>
@@ -330,11 +325,9 @@ Sitemap: https://example.com/wp-sitemap.xml</code></pre>
 </ul>
 
 
-<!-- -->
-
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -355,6 +348,121 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -414,57 +522,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  const viewSource = window.document.getElementById('quarto-view-source') ||
-                     window.document.getElementById('quarto-code-tools-source');
-  if (viewSource) {
-    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
-    viewSource.addEventListener("click", function(e) {
-      if (sourceUrl) {
-        // rstudio viewer pane
-        if (/\bcapabilities=\b/.test(window.location)) {
-          window.open(sourceUrl);
-        } else {
-          window.location.href = sourceUrl;
-        }
-      } else {
-        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
-        modal.show();
-      }
-      return false;
-    });
-  }
-  function toggleCodeHandler(show) {
-    return function(e) {
-      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
-      for (let i=0; i<detailsSrc.length; i++) {
-        const details = detailsSrc[i].parentElement;
-        if (show) {
-          details.open = true;
-        } else {
-          details.removeAttribute("open");
-        }
-      }
-      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
-      const fromCls = show ? "hidden" : "unhidden";
-      const toCls = show ? "unhidden" : "hidden";
-      for (let i=0; i<cellCodeDivs.length; i++) {
-        const codeDiv = cellCodeDivs[i];
-        if (codeDiv.classList.contains(fromCls)) {
-          codeDiv.classList.remove(fromCls);
-          codeDiv.classList.add(toCls);
-        } 
-      }
-      return false;
-    }
-  }
-  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
-  if (hideAllCode) {
-    hideAllCode.addEventListener("click", toggleCodeHandler(false));
-  }
-  const showAllCode = window.document.getElementById("quarto-show-all-code");
-  if (showAllCode) {
-    showAllCode.addEventListener("click", toggleCodeHandler(true));
-  }
   function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
@@ -632,95 +689,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
 });
-</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb3" data-shortcodes="false"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb3-1"><a href="#cb3-1"></a><span class="co">---</span></span>
-<span id="cb3-2"><a href="#cb3-2"></a><span class="an">title:</span><span class="co"> "WordPress"</span></span>
-<span id="cb3-3"><a href="#cb3-3"></a><span class="an">subtitle:</span><span class="co"> ""</span></span>
-<span id="cb3-4"><a href="#cb3-4"></a><span class="an">author:</span><span class="co"> "errbufferoverfl"</span></span>
-<span id="cb3-5"><a href="#cb3-5"></a><span class="an">date:</span><span class="co"> 2023-10-24T19:59:51+11:00</span></span>
-<span id="cb3-6"><a href="#cb3-6"></a><span class="an">categories:</span></span>
-<span id="cb3-7"><a href="#cb3-7"></a><span class="co">- Seed</span></span>
-<span id="cb3-8"><a href="#cb3-8"></a><span class="co">- WordPress</span></span>
-<span id="cb3-9"><a href="#cb3-9"></a><span class="co">- Fundamentals</span></span>
-<span id="cb3-10"><a href="#cb3-10"></a><span class="co">---</span></span>
-<span id="cb3-11"><a href="#cb3-11"></a></span>
-<span id="cb3-12"><a href="#cb3-12"></a><span class="fu">## Basic Information</span></span>
-<span id="cb3-13"><a href="#cb3-13"></a></span>
-<span id="cb3-14"><a href="#cb3-14"></a><span class="ss">- </span>Flexible Content Management System (CMS)</span>
-<span id="cb3-15"><a href="#cb3-15"></a><span class="ss">    - </span>Offers 50,000+ plugins</span>
-<span id="cb3-16"><a href="#cb3-16"></a><span class="ss">    - </span>A study showed that roughly 8% of WordPress hacks happen due to weak passwords, while 60% were due to an outdated WordPress version</span>
-<span id="cb3-17"><a href="#cb3-17"></a><span class="ss">    - </span>According to WPScan, out of nearly 4,000 known vulnerabilities, 54% are from plugins, 31.5% are from WordPress core, and 14.5% are from WordPress themes.</span>
-<span id="cb3-18"><a href="#cb3-18"></a></span>
-<span id="cb3-19"><a href="#cb3-19"></a><span class="fu">### Discovery &amp; Footprinting</span></span>
-<span id="cb3-20"><a href="#cb3-20"></a></span>
-<span id="cb3-21"><a href="#cb3-21"></a><span class="ss">- </span><span class="in">`wp-activate.php`</span> is used for the email activation process when setting up a new WordPress site.</span>
-<span id="cb3-22"><a href="#cb3-22"></a><span class="ss">- </span>Login folders (may be renamed to hide it):</span>
-<span id="cb3-23"><a href="#cb3-23"></a><span class="ss">    - </span><span class="in">`/wp-admin/login.php`</span></span>
-<span id="cb3-24"><a href="#cb3-24"></a><span class="ss">    - </span><span class="in">`/wp-admin/wp-login.php`</span></span>
-<span id="cb3-25"><a href="#cb3-25"></a><span class="ss">    - </span><span class="in">`/login.php`</span></span>
-<span id="cb3-26"><a href="#cb3-26"></a><span class="ss">    - </span><span class="in">`/wp-login.php`</span></span>
-<span id="cb3-27"><a href="#cb3-27"></a><span class="ss">- </span><span class="in">`xmlrpc.php`</span> is a file that enables WordPress to transmit XML data via HTTP with HTTP. This type of communication has been replaced by the WordPress.</span>
-<span id="cb3-28"><a href="#cb3-28"></a><span class="ss">- </span>The <span class="in">`wp-content`</span> folder is the main directory where plugins and themes are stored.</span>
-<span id="cb3-29"><a href="#cb3-29"></a><span class="ss">    - </span>Plugins are stored in <span class="in">`wp-content/plugins`</span></span>
-<span id="cb3-30"><a href="#cb3-30"></a><span class="ss">    - </span>Themes are stored in <span class="in">`wp-content/themes`</span></span>
-<span id="cb3-31"><a href="#cb3-31"></a><span class="ss">- </span><span class="in">`wp-content/uploads/`</span> Is the directory where any files uploaded to the platform are stored.</span>
-<span id="cb3-32"><a href="#cb3-32"></a><span class="ss">- </span><span class="in">`wp-includes/`</span> This is the directory where core files are stored, such as certificates, fonts, JavaScript files, and widgets.</span>
-<span id="cb3-33"><a href="#cb3-33"></a><span class="ss">- </span>The <span class="in">`wp-config.php`</span> file contains information required by WordPress to connect to the database such as the database name, database host, username and password, authentication keys and salts, and the database table prefix. This configuration file can also be used to activate DEBUG mode, which can useful in troubleshooting.</span>
-<span id="cb3-34"><a href="#cb3-34"></a></span>
-<span id="cb3-35"><a href="#cb3-35"></a><span class="fu">#### `robots.txt`</span></span>
-<span id="cb3-36"><a href="#cb3-36"></a></span>
-<span id="cb3-37"><a href="#cb3-37"></a>A standard WordPress <span class="in">`robots.txt`</span> file looks something like:</span>
-<span id="cb3-38"><a href="#cb3-38"></a></span>
-<span id="cb3-39"><a href="#cb3-39"></a><span class="in">```</span></span>
-<span id="cb3-40"><a href="#cb3-40"></a><span class="in">User-agent: *</span></span>
-<span id="cb3-41"><a href="#cb3-41"></a><span class="in">Disallow: /wp-admin/</span></span>
-<span id="cb3-42"><a href="#cb3-42"></a><span class="in">Allow: /wp-admin/admin-ajax.php</span></span>
-<span id="cb3-43"><a href="#cb3-43"></a><span class="in">Disallow: /wp-content/uploads/wpforms/</span></span>
-<span id="cb3-44"><a href="#cb3-44"></a></span>
-<span id="cb3-45"><a href="#cb3-45"></a><span class="in">Sitemap: https://example.com/wp-sitemap.xml</span></span>
-<span id="cb3-46"><a href="#cb3-46"></a><span class="in">```</span></span>
-<span id="cb3-47"><a href="#cb3-47"></a></span>
-<span id="cb3-48"><a href="#cb3-48"></a><span class="ss">- </span><span class="in">`wp-admin`</span> and <span class="in">`wp-content`</span> are default WordPress directories.</span>
-<span id="cb3-49"><a href="#cb3-49"></a><span class="ss">- </span>Attempting to navigate to <span class="in">`/wp-admin`</span> will redirect you to <span class="in">`/wp-login.php`</span></span>
-<span id="cb3-50"><a href="#cb3-50"></a></span>
-<span id="cb3-51"><a href="#cb3-51"></a><span class="fu">#### `meta generator`</span></span>
-<span id="cb3-52"><a href="#cb3-52"></a></span>
-<span id="cb3-53"><a href="#cb3-53"></a>Viewing the raw HTML can reveal WordPress either in the <span class="in">`meta generator`</span> or in other places.</span>
-<span id="cb3-54"><a href="#cb3-54"></a></span>
-<span id="cb3-55"><a href="#cb3-55"></a><span class="in">```shell</span></span>
-<span id="cb3-56"><a href="#cb3-56"></a><span class="ex">curl</span> <span class="at">-s</span> http://blog.inlanefreight.local <span class="kw">|</span> <span class="fu">grep</span> WordPress</span>
-<span id="cb3-57"><a href="#cb3-57"></a></span>
-<span id="cb3-58"><a href="#cb3-58"></a><span class="ex">...</span></span>
-<span id="cb3-59"><a href="#cb3-59"></a></span>
-<span id="cb3-60"><a href="#cb3-60"></a><span class="op">&lt;</span>meta <span class="va">name</span><span class="op">=</span><span class="st">"generator"</span> <span class="va">content</span><span class="op">=</span><span class="st">"WordPress 5.8"</span> <span class="ex">/</span></span>
-<span id="cb3-61"><a href="#cb3-61"></a><span class="in">```</span></span>
-<span id="cb3-62"><a href="#cb3-62"></a></span>
-<span id="cb3-63"><a href="#cb3-63"></a><span class="fu">### Authorisation</span></span>
-<span id="cb3-64"><a href="#cb3-64"></a></span>
-<span id="cb3-65"><a href="#cb3-65"></a>There are five types of users on a standard WordPress installation.</span>
-<span id="cb3-66"><a href="#cb3-66"></a></span>
-<span id="cb3-67"><a href="#cb3-67"></a><span class="ss">1. </span>Administrator: This user has access to administrative features within the website. This includes adding and deleting users and posts, as well as editing source code.</span>
-<span id="cb3-68"><a href="#cb3-68"></a><span class="ss">2. </span>Editor: An editor can publish and manage posts, including the posts of other users.</span>
-<span id="cb3-69"><a href="#cb3-69"></a><span class="ss">3. </span>Author: They can publish and manage their own posts.</span>
-<span id="cb3-70"><a href="#cb3-70"></a><span class="ss">4. </span>Contributor: These users can write and manage their own posts but cannot publish them.</span>
-<span id="cb3-71"><a href="#cb3-71"></a><span class="ss">5. </span>Subscriber: These are standard users who can browse posts and edit their profiles.</span>
-<span id="cb3-72"><a href="#cb3-72"></a></span>
-<span id="cb3-73"><a href="#cb3-73"></a>Getting access to an administrator is sufficient to obtain code execution on the server. Editors and authors may have access to vulnerable plugins, which normal users don’t.</span>
-<span id="cb3-74"><a href="#cb3-74"></a></span>
-<span id="cb3-75"><a href="#cb3-75"></a><span class="fu">## Tools</span></span>
-<span id="cb3-76"><a href="#cb3-76"></a></span>
-<span id="cb3-77"><a href="#cb3-77"></a><span class="ss">- </span><span class="co">[</span><span class="ot">WPScan</span><span class="co">](https://github.com/wpscanteam/wpscan)</span></span>
-<span id="cb3-78"><a href="#cb3-78"></a></span>
-<span id="cb3-79"><a href="#cb3-79"></a><span class="fu">## Further Reading</span></span>
-<span id="cb3-80"><a href="#cb3-80"></a></span>
-<span id="cb3-81"><a href="#cb3-81"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Hacking WordPress</span><span class="co">](https://academy.hackthebox.com/course/preview/hacking-wordpress)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div></div></div></div></div>
+</script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Published with <a href="https://quarto.org/">Quarto</a> v1.3.450 | Hosted by <a href="https://pages.github.com/"><iconify-icon inline="" icon="simple-icons:github"></iconify-icon></a></div>   
-    <div class="nav-footer-center"><a href="https://ko-fi.com/errbufferoverfl">Ko-Fi</a> | <a href="https://genericsocialmediapage.com/@errbufferoverfl">Mastodon</a> | <a href="https://mastodon.art/@errbufferoverfl">Art Mastodon</a> | <a href="https://github.com/errbufferoverfl">Github</a> | <a href="https://twitter.com/errbufferoverfl">Twitter</a></div>
-    <div class="nav-footer-right">© 2023 errbufferoverfl | <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.en">CC BY-SA 4.0</a></div>
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">© 2023 errbufferoverfl, Some Rights Reserved | <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.en">CC BY-SA 4.0</a><br><a href="https://ko-fi.com/errbufferoverfl">Ko-Fi</a> | <a href="https://genericsocialmediapage.com/@errbufferoverfl">Mastodon</a> | <a href="https://mastodon.art/@errbufferoverfl">Art Mastodon</a> | <a href="https://github.com/errbufferoverfl">Github</a> | <a href="https://twitter.com/errbufferoverfl">Twitter</a></div>
   </div>
 </footer>
 

@@ -71,10 +71,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script src="../site_libs/quarto-contrib/iconify-1.0.7/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -97,6 +99,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' localhost:8086 'unsafe-inline'; script-src 'self' https://cdn.jsdelivr.net/npm/mathjax@3/es5/ https://polyfill.io/v3/polyfill.min.js 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com/css2/ 'unsafe-inline'; img-src 'self' data:; font-src data: https://fonts.gstatic.com/s/lato/v24/ https://cdn.jsdelivr.net/npm/mathjax@3/es5/  localhost:8086; connect-src ws://localhost:8086; media-src 'self' localhost:8086; object-src 'none'; prefetch-src 'none'; child-src 'none'; frame-src 'none'; worker-src 'none'; form-action 'none'; upgrade-insecure-requests; disown-opener; base-uri 'self'; manifest-src 'self'">
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -105,6 +108,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta property="og:site-name" content="errbufferoverfl, anarchist, illustrator, reluctant security engineer">
 <meta name="twitter:title" content="errbufferoverfl, anarchist, illustrator, reluctant security engineer - Joomla">
 <meta name="twitter:description" content="">
+<meta name="twitter:creator" content="@errbufferoverfl">
+<meta name="twitter:site" content="@errbufferoverfl">
 <meta name="twitter:card" content="summary">
 </head>
 
@@ -159,23 +164,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="dropdown-text">The Soapbox</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="../digest.html" rel="" target="">
+ <span class="dropdown-text">The Digest</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../index.html" rel="" target="">
  <span class="dropdown-text">About Me</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-errata" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">Errata</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-errata">    
-        <li>
-    <a class="dropdown-item" href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me" rel="" target="">
- <span class="dropdown-text">Source Code</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/issues" rel="" target="">
- <span class="dropdown-text">Report a Bug</span></a>
   </li>  
     </ul>
   </li>
@@ -186,6 +180,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -195,7 +190,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <div class="quarto-title-block"><div><h1 class="title">Joomla</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+      <h1 class="title">Joomla</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">Seed</div>
                 <div class="quarto-category">Joomla</div>
@@ -241,7 +236,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#tools" id="toc-tools" class="nav-link" data-scroll-target="#tools">Tools</a></li>
   <li><a href="#further-reading" id="toc-further-reading" class="nav-link" data-scroll-target="#further-reading">Further Reading</a></li>
   </ul>
-</nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/edit/hugo/engineering/joomla.md" class="toc-action">Edit this page</a></p><p><a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/blob/hugo/engineering/joomla.md" class="toc-action">View source</a></p><p><a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/issues" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -294,7 +289,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <p>Viewing the raw HTML can reveal WordPress either in the <code>meta generator</code> or in other places.</p>
 <div class="sourceCode" id="cb2"><pre class="sourceCode numberSource shell-session number-lines code-with-copy"><code class="sourceCode"><span id="cb2-1"><a href="#cb2-1"></a>curl -s http://dev.inlanefreight.local/ | grep Joomla</span>
 <span id="cb2-2"><a href="#cb2-2"></a></span>
-<span id="cb2-3"><a href="#cb2-3"></a>    &lt;meta name="generator" content="Joomla! - Open Source Content Management" /&gt;</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb2-3"><a href="#cb2-3"></a> &lt;meta name="generator" content="Joomla! - Open Source Content Management" /&gt;</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </section>
 <section id="readme.txt" class="level4">
 <h4 class="anchored" data-anchor-id="readme.txt"><code>README.txt</code></h4>
@@ -302,10 +297,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode" id="cb3"><pre class="sourceCode numberSource shell-session number-lines code-with-copy"><code class="sourceCode"><span id="cb3-1"><a href="#cb3-1"></a>curl -s http://dev.inlanefreight.local/README.txt | head -n 5</span>
 <span id="cb3-2"><a href="#cb3-2"></a></span>
 <span id="cb3-3"><a href="#cb3-3"></a>1- What is this?</span>
-<span id="cb3-4"><a href="#cb3-4"></a>    * This is a Joomla! installation/upgrade package to version 3.x</span>
-<span id="cb3-5"><a href="#cb3-5"></a>    * Joomla! Official site: https://www.joomla.org</span>
-<span id="cb3-6"><a href="#cb3-6"></a>    * Joomla! 3.9 version history - https://docs.joomla.org/Special:MyLanguage/Joomla_3.9_version_history</span>
-<span id="cb3-7"><a href="#cb3-7"></a>    * Detailed changes in the Changelog: https://github.com/joomla/joomla-cms/commits/staging</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<span id="cb3-4"><a href="#cb3-4"></a> * This is a Joomla! installation/upgrade package to version 3.x</span>
+<span id="cb3-5"><a href="#cb3-5"></a> * Joomla! Official site: https://www.joomla.org</span>
+<span id="cb3-6"><a href="#cb3-6"></a> * Joomla! 3.9 version history - https://docs.joomla.org/Special:MyLanguage/Joomla_3.9_version_history</span>
+<span id="cb3-7"><a href="#cb3-7"></a> * Detailed changes in the Changelog: https://github.com/joomla/joomla-cms/commits/staging</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <p>The <code>cache.xml</code> file can help to give us the approximate version. It is located at <code>plugins/system/cache/cache.xml</code>.</p>
 </section>
 <section id="included-javascript-files" class="level4">
@@ -348,11 +343,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </ul>
 
 
-<!-- -->
-
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -373,6 +366,121 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -432,57 +540,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  const viewSource = window.document.getElementById('quarto-view-source') ||
-                     window.document.getElementById('quarto-code-tools-source');
-  if (viewSource) {
-    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
-    viewSource.addEventListener("click", function(e) {
-      if (sourceUrl) {
-        // rstudio viewer pane
-        if (/\bcapabilities=\b/.test(window.location)) {
-          window.open(sourceUrl);
-        } else {
-          window.location.href = sourceUrl;
-        }
-      } else {
-        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
-        modal.show();
-      }
-      return false;
-    });
-  }
-  function toggleCodeHandler(show) {
-    return function(e) {
-      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
-      for (let i=0; i<detailsSrc.length; i++) {
-        const details = detailsSrc[i].parentElement;
-        if (show) {
-          details.open = true;
-        } else {
-          details.removeAttribute("open");
-        }
-      }
-      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
-      const fromCls = show ? "hidden" : "unhidden";
-      const toCls = show ? "unhidden" : "hidden";
-      for (let i=0; i<cellCodeDivs.length; i++) {
-        const codeDiv = cellCodeDivs[i];
-        if (codeDiv.classList.contains(fromCls)) {
-          codeDiv.classList.remove(fromCls);
-          codeDiv.classList.add(toCls);
-        } 
-      }
-      return false;
-    }
-  }
-  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
-  if (hideAllCode) {
-    hideAllCode.addEventListener("click", toggleCodeHandler(false));
-  }
-  const showAllCode = window.document.getElementById("quarto-show-all-code");
-  if (showAllCode) {
-    showAllCode.addEventListener("click", toggleCodeHandler(true));
-  }
   function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
@@ -650,126 +707,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
 });
-</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb5" data-shortcodes="false"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb5-1"><a href="#cb5-1"></a><span class="co">---</span></span>
-<span id="cb5-2"><a href="#cb5-2"></a><span class="an">title:</span><span class="co"> "Joomla"</span></span>
-<span id="cb5-3"><a href="#cb5-3"></a><span class="an">subtitle:</span><span class="co"> ""</span></span>
-<span id="cb5-4"><a href="#cb5-4"></a><span class="an">author:</span><span class="co"> "errbufferoverfl"</span></span>
-<span id="cb5-5"><a href="#cb5-5"></a><span class="an">date:</span><span class="co"> 2023-10-28T12:25:27+11:00</span></span>
-<span id="cb5-6"><a href="#cb5-6"></a><span class="an">categories:</span></span>
-<span id="cb5-7"><a href="#cb5-7"></a><span class="co">- Seed</span></span>
-<span id="cb5-8"><a href="#cb5-8"></a><span class="co">- Joomla</span></span>
-<span id="cb5-9"><a href="#cb5-9"></a><span class="co">- Fundamentals</span></span>
-<span id="cb5-10"><a href="#cb5-10"></a><span class="co">---</span></span>
-<span id="cb5-11"><a href="#cb5-11"></a></span>
-<span id="cb5-12"><a href="#cb5-12"></a><span class="fu">## Basic Information</span></span>
-<span id="cb5-13"><a href="#cb5-13"></a></span>
-<span id="cb5-14"><a href="#cb5-14"></a><span class="ss">- </span>Flexible Content Management System (CMS)</span>
-<span id="cb5-15"><a href="#cb5-15"></a><span class="ss">- </span>PHP based</span>
-<span id="cb5-16"><a href="#cb5-16"></a></span>
-<span id="cb5-17"><a href="#cb5-17"></a><span class="fu">### Discovery &amp; Footprinting</span></span>
-<span id="cb5-18"><a href="#cb5-18"></a></span>
-<span id="cb5-19"><a href="#cb5-19"></a><span class="fu">#### `robots.txt`</span></span>
-<span id="cb5-20"><a href="#cb5-20"></a></span>
-<span id="cb5-21"><a href="#cb5-21"></a>A standard Joomla <span class="in">`robots.txt`</span> file looks something like:</span>
-<span id="cb5-22"><a href="#cb5-22"></a></span>
-<span id="cb5-23"><a href="#cb5-23"></a><span class="in">```shell-session</span></span>
-<span id="cb5-24"><a href="#cb5-24"></a><span class="co"># If the Joomla site is installed within a folder</span></span>
-<span id="cb5-25"><a href="#cb5-25"></a><span class="co"># eg www.example.com/joomla/ then the robots.txt file</span></span>
-<span id="cb5-26"><a href="#cb5-26"></a><span class="co"># MUST be moved to the site root</span></span>
-<span id="cb5-27"><a href="#cb5-27"></a><span class="co"># eg www.example.com/robots.txt</span></span>
-<span id="cb5-28"><a href="#cb5-28"></a><span class="co"># AND the joomla folder name MUST be prefixed to all of the</span></span>
-<span id="cb5-29"><a href="#cb5-29"></a><span class="co"># paths.</span></span>
-<span id="cb5-30"><a href="#cb5-30"></a><span class="co"># eg the Disallow rule for the /administrator/ folder MUST</span></span>
-<span id="cb5-31"><a href="#cb5-31"></a><span class="co"># be changed to read</span></span>
-<span id="cb5-32"><a href="#cb5-32"></a><span class="co"># Disallow: /joomla/administrator/</span></span>
-<span id="cb5-33"><a href="#cb5-33"></a><span class="co">#</span></span>
-<span id="cb5-34"><a href="#cb5-34"></a><span class="co"># For more information about the robots.txt standard, see:</span></span>
-<span id="cb5-35"><a href="#cb5-35"></a><span class="co"># https://www.robotstxt.org/orig.html</span></span>
-<span id="cb5-36"><a href="#cb5-36"></a></span>
-<span id="cb5-37"><a href="#cb5-37"></a><span class="ex">User-agent:</span> <span class="pp">*</span></span>
-<span id="cb5-38"><a href="#cb5-38"></a><span class="ex">Disallow:</span> /administrator/</span>
-<span id="cb5-39"><a href="#cb5-39"></a><span class="ex">Disallow:</span> /bin/</span>
-<span id="cb5-40"><a href="#cb5-40"></a><span class="ex">Disallow:</span> /cache/</span>
-<span id="cb5-41"><a href="#cb5-41"></a><span class="ex">Disallow:</span> /cli/</span>
-<span id="cb5-42"><a href="#cb5-42"></a><span class="ex">Disallow:</span> /components/</span>
-<span id="cb5-43"><a href="#cb5-43"></a><span class="ex">Disallow:</span> /includes/</span>
-<span id="cb5-44"><a href="#cb5-44"></a><span class="ex">Disallow:</span> /installation/</span>
-<span id="cb5-45"><a href="#cb5-45"></a><span class="ex">Disallow:</span> /language/</span>
-<span id="cb5-46"><a href="#cb5-46"></a><span class="ex">Disallow:</span> /layouts/</span>
-<span id="cb5-47"><a href="#cb5-47"></a><span class="ex">Disallow:</span> /libraries/</span>
-<span id="cb5-48"><a href="#cb5-48"></a><span class="ex">Disallow:</span> /logs/</span>
-<span id="cb5-49"><a href="#cb5-49"></a><span class="ex">Disallow:</span> /modules/</span>
-<span id="cb5-50"><a href="#cb5-50"></a><span class="ex">Disallow:</span> /plugins/</span>
-<span id="cb5-51"><a href="#cb5-51"></a><span class="ex">Disallow:</span> /tmp/</span>
-<span id="cb5-52"><a href="#cb5-52"></a><span class="in">```</span></span>
-<span id="cb5-53"><a href="#cb5-53"></a></span>
-<span id="cb5-54"><a href="#cb5-54"></a><span class="fu">#### `meta generator`</span></span>
-<span id="cb5-55"><a href="#cb5-55"></a></span>
-<span id="cb5-56"><a href="#cb5-56"></a>Viewing the raw HTML can reveal WordPress either in the <span class="in">`meta generator`</span> or in other places.</span>
-<span id="cb5-57"><a href="#cb5-57"></a></span>
-<span id="cb5-58"><a href="#cb5-58"></a><span class="in">```shell-session</span></span>
-<span id="cb5-59"><a href="#cb5-59"></a><span class="ex">curl</span> <span class="at">-s</span> http://dev.inlanefreight.local/ <span class="kw">|</span> <span class="fu">grep</span> Joomla</span>
-<span id="cb5-60"><a href="#cb5-60"></a></span>
-<span id="cb5-61"><a href="#cb5-61"></a>    <span class="op">&lt;</span>meta <span class="va">name</span><span class="op">=</span><span class="st">"generator"</span> <span class="va">content</span><span class="op">=</span><span class="st">"Joomla! - Open Source Content Management"</span> <span class="ex">/</span><span class="op">&gt;</span></span>
-<span id="cb5-62"><a href="#cb5-62"></a><span class="in">```</span></span>
-<span id="cb5-63"><a href="#cb5-63"></a></span>
-<span id="cb5-64"><a href="#cb5-64"></a><span class="fu">#### `README.txt`</span></span>
-<span id="cb5-65"><a href="#cb5-65"></a></span>
-<span id="cb5-66"><a href="#cb5-66"></a>If the target has poor operational hygiene, we can fingerprint the Joomla version if the README.txt file is present:</span>
-<span id="cb5-67"><a href="#cb5-67"></a></span>
-<span id="cb5-68"><a href="#cb5-68"></a><span class="in">```shell-session</span></span>
-<span id="cb5-69"><a href="#cb5-69"></a><span class="ex">curl</span> <span class="at">-s</span> http://dev.inlanefreight.local/README.txt <span class="kw">|</span> <span class="fu">head</span> <span class="at">-n</span> 5</span>
-<span id="cb5-70"><a href="#cb5-70"></a></span>
-<span id="cb5-71"><a href="#cb5-71"></a><span class="ex">1-</span> What is this<span class="pp">?</span></span>
-<span id="cb5-72"><a href="#cb5-72"></a>    <span class="ex">*</span> This is a Joomla! installation/upgrade package to version 3.x</span>
-<span id="cb5-73"><a href="#cb5-73"></a>    <span class="ex">*</span> Joomla! Official site: https://www.joomla.org</span>
-<span id="cb5-74"><a href="#cb5-74"></a>    <span class="ex">*</span> Joomla! 3.9 version history <span class="at">-</span> https://docs.joomla.org/Special:MyLanguage/Joomla_3.9_version_history</span>
-<span id="cb5-75"><a href="#cb5-75"></a>    <span class="ex">*</span> Detailed changes in the Changelog: https://github.com/joomla/joomla-cms/commits/staging</span>
-<span id="cb5-76"><a href="#cb5-76"></a><span class="in">```</span></span>
-<span id="cb5-77"><a href="#cb5-77"></a></span>
-<span id="cb5-78"><a href="#cb5-78"></a>The <span class="in">`cache.xml`</span> file can help to give us the approximate version. It is located at <span class="in">`plugins/system/cache/cache.xml`</span>.</span>
-<span id="cb5-79"><a href="#cb5-79"></a></span>
-<span id="cb5-80"><a href="#cb5-80"></a><span class="fu">#### Included JavaScript Files</span></span>
-<span id="cb5-81"><a href="#cb5-81"></a></span>
-<span id="cb5-82"><a href="#cb5-82"></a>In certain Joomla installs, we may be able to fingerprint the version from JavaScript files in the <span class="in">`media/system/js/`</span> directory or by browsing to <span class="in">`administrator/manifests/files/joomla.xml`</span>.</span>
-<span id="cb5-83"><a href="#cb5-83"></a></span>
-<span id="cb5-84"><a href="#cb5-84"></a><span class="in">```shell-session</span></span>
-<span id="cb5-85"><a href="#cb5-85"></a><span class="ex">curl</span> <span class="at">-s</span> http://dev.inlanefreight.local/administrator/manifests/files/joomla.xml <span class="kw">|</span> <span class="ex">xmllint</span> <span class="at">--format</span> <span class="at">-</span></span>
-<span id="cb5-86"><a href="#cb5-86"></a></span>
-<span id="cb5-87"><a href="#cb5-87"></a><span class="op">&lt;</span><span class="ex">?xml</span> version=<span class="st">"1.0"</span> encoding=<span class="st">"UTF-8"</span><span class="pp">?</span><span class="op">&gt;</span></span>
-<span id="cb5-88"><a href="#cb5-88"></a><span class="op">&lt;</span>extension <span class="va">version</span><span class="op">=</span><span class="st">"3.6"</span> <span class="va">type</span><span class="op">=</span><span class="st">"file"</span> <span class="va">method</span><span class="op">=</span><span class="st">"upgrade"</span><span class="op">&gt;</span></span>
-<span id="cb5-89"><a href="#cb5-89"></a>  <span class="op">&lt;</span>name<span class="op">&gt;</span>files_joomla<span class="op">&lt;</span>/name<span class="op">&gt;</span></span>
-<span id="cb5-90"><a href="#cb5-90"></a>  <span class="op">&lt;</span>author<span class="op">&gt;</span>Joomla! <span class="ex">Project</span><span class="op">&lt;</span>/author<span class="op">&gt;</span></span>
-<span id="cb5-91"><a href="#cb5-91"></a>  <span class="op">&lt;</span>authorEmail<span class="op">&gt;</span>admin@joomla.org<span class="op">&lt;</span>/authorEmail<span class="op">&gt;</span></span>
-<span id="cb5-92"><a href="#cb5-92"></a>  <span class="op">&lt;</span>authorUrl<span class="op">&gt;</span>www.joomla.org<span class="op">&lt;</span>/authorUrl<span class="op">&gt;</span></span>
-<span id="cb5-93"><a href="#cb5-93"></a>  <span class="op">&lt;</span>copyright<span class="op">&gt;(</span><span class="ex">C</span><span class="op">)</span> <span class="ex">2005</span> <span class="at">-</span> 2019 Open Source Matters. All rights reserved<span class="op">&lt;</span>/copyright<span class="op">&gt;</span></span>
-<span id="cb5-94"><a href="#cb5-94"></a>  <span class="op">&lt;</span>license<span class="op">&gt;</span>GNU <span class="ex">General</span> Public License version 2 or later<span class="kw">;</span> <span class="ex">see</span> LICENSE.txt<span class="op">&lt;</span>/license<span class="op">&gt;</span></span>
-<span id="cb5-95"><a href="#cb5-95"></a>  <span class="op">&lt;</span>version<span class="op">&gt;</span>3.9.4<span class="op">&lt;</span>/version<span class="op">&gt;</span></span>
-<span id="cb5-96"><a href="#cb5-96"></a>  <span class="op">&lt;</span>creationDate<span class="op">&gt;</span>March <span class="dv">2019</span><span class="op">&lt;</span>/creationDate<span class="op">&gt;</span></span>
-<span id="cb5-97"><a href="#cb5-97"></a><span class="in">```</span></span>
-<span id="cb5-98"><a href="#cb5-98"></a></span>
-<span id="cb5-99"><a href="#cb5-99"></a><span class="fu">## Remote Code Execution</span></span>
-<span id="cb5-100"><a href="#cb5-100"></a></span>
-<span id="cb5-101"><a href="#cb5-101"></a><span class="ss">- </span>If you can get admin credentials you can get remote code execution by adding a snippet of PHP code to a template.</span>
-<span id="cb5-102"><a href="#cb5-102"></a></span>
-<span id="cb5-103"><a href="#cb5-103"></a><span class="fu">## Tools</span></span>
-<span id="cb5-104"><a href="#cb5-104"></a></span>
-<span id="cb5-105"><a href="#cb5-105"></a><span class="ss">- </span><span class="co">[</span><span class="ot">droopescan</span><span class="co">](https://github.com/droope/droopescan)</span> - a plugin-based scanner that works for SilverStripe, WordPress, and Drupal with limited functionality for Joomla and Moodle.</span>
-<span id="cb5-106"><a href="#cb5-106"></a><span class="ss">- </span><span class="co">[</span><span class="ot">JoomlaScan</span><span class="co">](https://github.com/drego85/JoomlaScan)</span></span>
-<span id="cb5-107"><a href="#cb5-107"></a><span class="ss">- </span><span class="co">[</span><span class="ot">joomscan</span><span class="co">](https://github.com/OWASP/joomscan)</span> - deprecated</span>
-<span id="cb5-108"><a href="#cb5-108"></a><span class="ss">- </span><span class="co">[</span><span class="ot">joomla-brute.py</span><span class="co">](https://github.com/ajnik/joomla-bruteforce)</span></span>
-<span id="cb5-109"><a href="#cb5-109"></a></span>
-<span id="cb5-110"><a href="#cb5-110"></a><span class="fu">## Further Reading</span></span>
-<span id="cb5-111"><a href="#cb5-111"></a></span>
-<span id="cb5-112"><a href="#cb5-112"></a><span class="ss">- </span><span class="co">[</span><span class="ot">Joomla</span><span class="co">](https://book.hacktricks.xyz/network-services-pentesting/pentesting-web/joomla)</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div></div></div></div></div>
+</script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Published with <a href="https://quarto.org/">Quarto</a> v1.3.450 | Hosted by <a href="https://pages.github.com/"><iconify-icon inline="" icon="simple-icons:github"></iconify-icon></a></div>   
-    <div class="nav-footer-center"><a href="https://ko-fi.com/errbufferoverfl">Ko-Fi</a> | <a href="https://genericsocialmediapage.com/@errbufferoverfl">Mastodon</a> | <a href="https://mastodon.art/@errbufferoverfl">Art Mastodon</a> | <a href="https://github.com/errbufferoverfl">Github</a> | <a href="https://twitter.com/errbufferoverfl">Twitter</a></div>
-    <div class="nav-footer-right">© 2023 errbufferoverfl | <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.en">CC BY-SA 4.0</a></div>
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">© 2023 errbufferoverfl, Some Rights Reserved | <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.en">CC BY-SA 4.0</a><br><a href="https://ko-fi.com/errbufferoverfl">Ko-Fi</a> | <a href="https://genericsocialmediapage.com/@errbufferoverfl">Mastodon</a> | <a href="https://mastodon.art/@errbufferoverfl">Art Mastodon</a> | <a href="https://github.com/errbufferoverfl">Github</a> | <a href="https://twitter.com/errbufferoverfl">Twitter</a></div>
   </div>
 </footer>
 

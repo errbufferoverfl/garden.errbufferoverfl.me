@@ -71,10 +71,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script src="../site_libs/quarto-contrib/iconify-1.0.7/iconify-icon.min.js"></script>
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -97,6 +99,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' localhost:8086 'unsafe-inline'; script-src 'self' https://cdn.jsdelivr.net/npm/mathjax@3/es5/ https://polyfill.io/v3/polyfill.min.js 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com/css2/ 'unsafe-inline'; img-src 'self' data:; font-src data: https://fonts.gstatic.com/s/lato/v24/ https://cdn.jsdelivr.net/npm/mathjax@3/es5/  localhost:8086; connect-src ws://localhost:8086; media-src 'self' localhost:8086; object-src 'none'; prefetch-src 'none'; child-src 'none'; frame-src 'none'; worker-src 'none'; form-action 'none'; upgrade-insecure-requests; disown-opener; base-uri 'self'; manifest-src 'self'">
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -107,6 +110,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <meta name="twitter:title" content="errbufferoverfl, anarchist, illustrator, reluctant security engineer - Using Pytest with Flask">
 <meta name="twitter:description" content="">
 <meta name="twitter:image" content="https://garden.errbufferoverfl.me/imgs/vincent-ghilione-MTPGo7m1PhI-unsplash.jpg">
+<meta name="twitter:creator" content="@errbufferoverfl">
+<meta name="twitter:site" content="@errbufferoverfl">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -161,23 +166,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
  <span class="dropdown-text">The Soapbox</span></a>
   </li>  
         <li>
+    <a class="dropdown-item" href="../digest.html" rel="" target="">
+ <span class="dropdown-text">The Digest</span></a>
+  </li>  
+        <li>
     <a class="dropdown-item" href="../index.html" rel="" target="">
  <span class="dropdown-text">About Me</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-errata" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
- <span class="menu-text">Errata</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-errata">    
-        <li>
-    <a class="dropdown-item" href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me" rel="" target="">
- <span class="dropdown-text">Source Code</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/issues" rel="" target="">
- <span class="dropdown-text">Report a Bug</span></a>
   </li>  
     </ul>
   </li>
@@ -188,6 +182,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
 </ul>
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
@@ -197,7 +192,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <div class="quarto-title-block"><div><h1 class="title">Using Pytest with Flask</h1><button type="button" class="btn code-tools-button" id="quarto-code-tools-source"><i class="bi"></i> Code</button></div></div>
+      <h1 class="title">Using Pytest with Flask</h1>
                                 <div class="quarto-categories">
                 <div class="quarto-category">Seed</div>
                 <div class="quarto-category">PyTest</div>
@@ -242,7 +237,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#testing-for-exceptions" id="toc-testing-for-exceptions" class="nav-link" data-scroll-target="#testing-for-exceptions">Testing for Exceptions</a></li>
   <li><a href="#pytest-fixtures" id="toc-pytest-fixtures" class="nav-link" data-scroll-target="#pytest-fixtures">Pytest Fixtures</a></li>
   </ul>
-</nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/edit/hugo/engineering/using-pytest-with-flask.md" class="toc-action">Edit this page</a></p><p><a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/blob/hugo/engineering/using-pytest-with-flask.md" class="toc-action">View source</a></p><p><a href="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/issues" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -332,11 +327,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <span id="cb5-9"><a href="#cb5-9"></a>    <span class="cf">assert</span> new_user.role <span class="op">==</span> <span class="st">'user'</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
-<!-- -->
-
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -357,6 +350,121 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
   const icon = "";
   const anchorJS = new window.AnchorJS();
   anchorJS.options = {
@@ -416,57 +524,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  const viewSource = window.document.getElementById('quarto-view-source') ||
-                     window.document.getElementById('quarto-code-tools-source');
-  if (viewSource) {
-    const sourceUrl = viewSource.getAttribute("data-quarto-source-url");
-    viewSource.addEventListener("click", function(e) {
-      if (sourceUrl) {
-        // rstudio viewer pane
-        if (/\bcapabilities=\b/.test(window.location)) {
-          window.open(sourceUrl);
-        } else {
-          window.location.href = sourceUrl;
-        }
-      } else {
-        const modal = new bootstrap.Modal(document.getElementById('quarto-embedded-source-code-modal'));
-        modal.show();
-      }
-      return false;
-    });
-  }
-  function toggleCodeHandler(show) {
-    return function(e) {
-      const detailsSrc = window.document.querySelectorAll(".cell > details > .sourceCode");
-      for (let i=0; i<detailsSrc.length; i++) {
-        const details = detailsSrc[i].parentElement;
-        if (show) {
-          details.open = true;
-        } else {
-          details.removeAttribute("open");
-        }
-      }
-      const cellCodeDivs = window.document.querySelectorAll(".cell > .sourceCode");
-      const fromCls = show ? "hidden" : "unhidden";
-      const toCls = show ? "unhidden" : "hidden";
-      for (let i=0; i<cellCodeDivs.length; i++) {
-        const codeDiv = cellCodeDivs[i];
-        if (codeDiv.classList.contains(fromCls)) {
-          codeDiv.classList.remove(fromCls);
-          codeDiv.classList.add(toCls);
-        } 
-      }
-      return false;
-    }
-  }
-  const hideAllCode = window.document.getElementById("quarto-hide-all-code");
-  if (hideAllCode) {
-    hideAllCode.addEventListener("click", toggleCodeHandler(false));
-  }
-  const showAllCode = window.document.getElementById("quarto-show-all-code");
-  if (showAllCode) {
-    showAllCode.addEventListener("click", toggleCodeHandler(true));
-  }
   function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
@@ -634,130 +691,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       }
     }
 });
-</script><div class="modal fade" id="quarto-embedded-source-code-modal" tabindex="-1" aria-labelledby="quarto-embedded-source-code-modal-label" aria-hidden="true"><div class="modal-dialog modal-dialog-scrollable"><div class="modal-content"><div class="modal-header"><h5 class="modal-title" id="quarto-embedded-source-code-modal-label">Source Code</h5><button class="btn-close" data-bs-dismiss="modal"></button></div><div class="modal-body"><div class="">
-<div class="sourceCode" id="cb6" data-shortcodes="false"><pre class="sourceCode numberSource markdown number-lines code-with-copy"><code class="sourceCode markdown"><span id="cb6-1"><a href="#cb6-1"></a><span class="co">---</span></span>
-<span id="cb6-2"><a href="#cb6-2"></a><span class="an">title:</span><span class="co"> "Using Pytest with Flask"</span></span>
-<span id="cb6-3"><a href="#cb6-3"></a><span class="an">subtitle:</span><span class="co"> ""</span></span>
-<span id="cb6-4"><a href="#cb6-4"></a><span class="an">author:</span><span class="co"> "errbufferoverfl"</span></span>
-<span id="cb6-5"><a href="#cb6-5"></a><span class="an">date:</span><span class="co"> 2023-07-14T11:44:22+10:00</span></span>
-<span id="cb6-6"><a href="#cb6-6"></a><span class="an">description:</span><span class="co"> ""</span></span>
-<span id="cb6-7"><a href="#cb6-7"></a><span class="an">image:</span><span class="co"> "/imgs/vincent-ghilione-MTPGo7m1PhI-unsplash.jpg"</span></span>
-<span id="cb6-8"><a href="#cb6-8"></a><span class="an">image-alt:</span><span class="co"> ""</span></span>
-<span id="cb6-9"><a href="#cb6-9"></a><span class="an">categories:</span></span>
-<span id="cb6-10"><a href="#cb6-10"></a><span class="co">- Seed</span></span>
-<span id="cb6-11"><a href="#cb6-11"></a><span class="co">- PyTest</span></span>
-<span id="cb6-12"><a href="#cb6-12"></a><span class="co">- Python</span></span>
-<span id="cb6-13"><a href="#cb6-13"></a><span class="co">- Flask</span></span>
-<span id="cb6-14"><a href="#cb6-14"></a><span class="co">- Unit Testing</span></span>
-<span id="cb6-15"><a href="#cb6-15"></a><span class="co">---</span></span>
-<span id="cb6-16"><a href="#cb6-16"></a></span>
-<span id="cb6-17"><a href="#cb6-17"></a><span class="fu">## What to Test?</span></span>
-<span id="cb6-18"><a href="#cb6-18"></a></span>
-<span id="cb6-19"><a href="#cb6-19"></a>Unit tests should focus on testing a small unit of code in isolation:</span>
-<span id="cb6-20"><a href="#cb6-20"></a></span>
-<span id="cb6-21"><a href="#cb6-21"></a><span class="ss">- </span>Database models</span>
-<span id="cb6-22"><a href="#cb6-22"></a><span class="ss">- </span>Utility functions</span>
-<span id="cb6-23"><a href="#cb6-23"></a></span>
-<span id="cb6-24"><a href="#cb6-24"></a>Functional tests should focus on how the view functions operate:</span>
-<span id="cb6-25"><a href="#cb6-25"></a></span>
-<span id="cb6-26"><a href="#cb6-26"></a><span class="ss">- </span>Nominal conditions (GET, POST, etc.) for a view function</span>
-<span id="cb6-27"><a href="#cb6-27"></a><span class="ss">- </span>Invalid HTTP methods are handled properly for a view function</span>
-<span id="cb6-28"><a href="#cb6-28"></a><span class="ss">- </span>Invalid data is passed to a view function</span>
-<span id="cb6-29"><a href="#cb6-29"></a></span>
-<span id="cb6-30"><a href="#cb6-30"></a><span class="fu">## Documenting Tests</span></span>
-<span id="cb6-31"><a href="#cb6-31"></a></span>
-<span id="cb6-32"><a href="#cb6-32"></a>Martin Fowler provides a really idiomatic way of describing tests in his blog post on <span class="co">[</span><span class="ot">GivenWhenThen</span><span class="co">](https://martinfowler.com/bliki/GivenWhenThen.html)</span>:</span>
-<span id="cb6-33"><a href="#cb6-33"></a></span>
-<span id="cb6-34"><a href="#cb6-34"></a><span class="in">```python</span></span>
-<span id="cb6-35"><a href="#cb6-35"></a><span class="co">"""</span></span>
-<span id="cb6-36"><a href="#cb6-36"></a><span class="co">GIVEN a User model</span></span>
-<span id="cb6-37"><a href="#cb6-37"></a><span class="co">WHEN a new User is created</span></span>
-<span id="cb6-38"><a href="#cb6-38"></a><span class="co">THEN check the email, hashed_password, and role fields are defined correctly</span></span>
-<span id="cb6-39"><a href="#cb6-39"></a><span class="co">"""</span></span>
-<span id="cb6-40"><a href="#cb6-40"></a><span class="in">```</span></span>
-<span id="cb6-41"><a href="#cb6-41"></a></span>
-<span id="cb6-42"><a href="#cb6-42"></a><span class="ss">- </span>GIVEN - what are the initial conditions for the test?</span>
-<span id="cb6-43"><a href="#cb6-43"></a><span class="ss">- </span>WHEN - what is occurring that needs to be tested?</span>
-<span id="cb6-44"><a href="#cb6-44"></a><span class="ss">- </span>THEN - what is the expected response?</span>
-<span id="cb6-45"><a href="#cb6-45"></a></span>
-<span id="cb6-46"><a href="#cb6-46"></a><span class="fu">## Testing for Exceptions</span></span>
-<span id="cb6-47"><a href="#cb6-47"></a></span>
-<span id="cb6-48"><a href="#cb6-48"></a>Asserting an exception **is** raised:</span>
-<span id="cb6-49"><a href="#cb6-49"></a></span>
-<span id="cb6-50"><a href="#cb6-50"></a><span class="in">```python</span></span>
-<span id="cb6-51"><a href="#cb6-51"></a><span class="im">import</span> pytest</span>
-<span id="cb6-52"><a href="#cb6-52"></a></span>
-<span id="cb6-53"><a href="#cb6-53"></a><span class="kw">def</span> test_raises_exception():</span>
-<span id="cb6-54"><a href="#cb6-54"></a>    <span class="cf">with</span> pytest.raises(<span class="pp">ZeroDivisionError</span>):</span>
-<span id="cb6-55"><a href="#cb6-55"></a>        <span class="dv">1</span> <span class="op">/</span> <span class="dv">0</span></span>
-<span id="cb6-56"><a href="#cb6-56"></a><span class="in">```</span></span>
-<span id="cb6-57"><a href="#cb6-57"></a></span>
-<span id="cb6-58"><a href="#cb6-58"></a>Asserting an exception **is not** raised:</span>
-<span id="cb6-59"><a href="#cb6-59"></a></span>
-<span id="cb6-60"><a href="#cb6-60"></a><span class="in">```python</span></span>
-<span id="cb6-61"><a href="#cb6-61"></a><span class="kw">def</span> my_division_function(a, b):</span>
-<span id="cb6-62"><a href="#cb6-62"></a>    <span class="cf">return</span> a <span class="op">/</span> b</span>
-<span id="cb6-63"><a href="#cb6-63"></a></span>
-<span id="cb6-64"><a href="#cb6-64"></a><span class="kw">def</span> test_code_raises_no_exception():</span>
-<span id="cb6-65"><a href="#cb6-65"></a>    <span class="co">"""</span></span>
-<span id="cb6-66"><a href="#cb6-66"></a><span class="co">    Assert your python code raises no exception.    </span></span>
-<span id="cb6-67"><a href="#cb6-67"></a><span class="co">    """</span></span>
-<span id="cb6-68"><a href="#cb6-68"></a>    <span class="cf">try</span>:</span>
-<span id="cb6-69"><a href="#cb6-69"></a>        my_division_function(<span class="dv">10</span>, <span class="dv">5</span>)</span>
-<span id="cb6-70"><a href="#cb6-70"></a>    <span class="cf">except</span> <span class="pp">ZeroDivisionError</span> <span class="im">as</span> exc:</span>
-<span id="cb6-71"><a href="#cb6-71"></a>        <span class="cf">assert</span> <span class="va">False</span>, <span class="ss">f"'10 / 5' raised an exception </span><span class="sc">{</span>exc<span class="sc">}</span><span class="ss">"</span></span>
-<span id="cb6-72"><a href="#cb6-72"></a><span class="in">```</span></span>
-<span id="cb6-73"><a href="#cb6-73"></a></span>
-<span id="cb6-74"><a href="#cb6-74"></a><span class="fu">## Pytest Fixtures</span></span>
-<span id="cb6-75"><a href="#cb6-75"></a></span>
-<span id="cb6-76"><a href="#cb6-76"></a>Fixtures initialise tests to a known state to run tests in a predictable and repeatable manner, these should be created in your <span class="in">`conftest.py`</span> file.</span>
-<span id="cb6-77"><a href="#cb6-77"></a></span>
-<span id="cb6-78"><a href="#cb6-78"></a>In Pytest, fixtures can be run with different scopes:</span>
-<span id="cb6-79"><a href="#cb6-79"></a></span>
-<span id="cb6-80"><a href="#cb6-80"></a><span class="ss">- </span><span class="in">`function`</span> - run once per test function (default scope)</span>
-<span id="cb6-81"><a href="#cb6-81"></a><span class="ss">- </span><span class="in">`class`</span> - run once per test class</span>
-<span id="cb6-82"><a href="#cb6-82"></a><span class="ss">- </span><span class="in">`module`</span> - run once per module (e.g., a test file)</span>
-<span id="cb6-83"><a href="#cb6-83"></a><span class="ss">- </span><span class="in">`session`</span> - run once per session</span>
-<span id="cb6-84"><a href="#cb6-84"></a></span>
-<span id="cb6-85"><a href="#cb6-85"></a>For example, to create a User as a fixture:</span>
-<span id="cb6-86"><a href="#cb6-86"></a></span>
-<span id="cb6-87"><a href="#cb6-87"></a><span class="in">```python</span></span>
-<span id="cb6-88"><a href="#cb6-88"></a><span class="im">from</span> project.models <span class="im">import</span> User</span>
-<span id="cb6-89"><a href="#cb6-89"></a></span>
-<span id="cb6-90"><a href="#cb6-90"></a><span class="at">@pytest.fixture</span>(scope<span class="op">=</span><span class="st">'module'</span>)</span>
-<span id="cb6-91"><a href="#cb6-91"></a><span class="kw">def</span> new_user():</span>
-<span id="cb6-92"><a href="#cb6-92"></a>    user <span class="op">=</span> User(<span class="st">'username@example.com'</span>, <span class="st">'Password1!'</span>)</span>
-<span id="cb6-93"><a href="#cb6-93"></a>    <span class="cf">return</span> user</span>
-<span id="cb6-94"><a href="#cb6-94"></a><span class="in">```</span></span>
-<span id="cb6-95"><a href="#cb6-95"></a></span>
-<span id="cb6-96"><a href="#cb6-96"></a><span class="in">`@pytest.fixture(scope='module')`</span></span>
-<span id="cb6-97"><a href="#cb6-97"></a></span>
-<span id="cb6-98"><a href="#cb6-98"></a>This decorator specifies that a function is a fixture with a module-level scope. So this fixture will be called once per test module.</span>
-<span id="cb6-99"><a href="#cb6-99"></a></span>
-<span id="cb6-100"><a href="#cb6-100"></a><span class="in">`def new_user()`</span></span>
-<span id="cb6-101"><a href="#cb6-101"></a></span>
-<span id="cb6-102"><a href="#cb6-102"></a>Is the function that creates an instance of a User using valid arguments.</span>
-<span id="cb6-103"><a href="#cb6-103"></a></span>
-<span id="cb6-104"><a href="#cb6-104"></a>To use this fixture, in other tests you pass it in as the first argument to a subsequent test, e.g.,</span>
-<span id="cb6-105"><a href="#cb6-105"></a></span>
-<span id="cb6-106"><a href="#cb6-106"></a><span class="in">```python</span></span>
-<span id="cb6-107"><a href="#cb6-107"></a><span class="kw">def</span> test_new_user_with_fixture(new_user):</span>
-<span id="cb6-108"><a href="#cb6-108"></a>    <span class="co">"""</span></span>
-<span id="cb6-109"><a href="#cb6-109"></a><span class="co">    GIVEN a User model</span></span>
-<span id="cb6-110"><a href="#cb6-110"></a><span class="co">    WHEN a new User is created</span></span>
-<span id="cb6-111"><a href="#cb6-111"></a><span class="co">    THEN check the email, hashed_password, and role fields are defined correctly</span></span>
-<span id="cb6-112"><a href="#cb6-112"></a><span class="co">    """</span></span>
-<span id="cb6-113"><a href="#cb6-113"></a>    <span class="cf">assert</span> new_user.email <span class="op">==</span> <span class="st">'username@example.com'</span></span>
-<span id="cb6-114"><a href="#cb6-114"></a>    <span class="cf">assert</span> new_user.hashed_password <span class="op">!=</span> <span class="st">'Password1!'</span></span>
-<span id="cb6-115"><a href="#cb6-115"></a>    <span class="cf">assert</span> new_user.role <span class="op">==</span> <span class="st">'user'</span></span>
-<span id="cb6-116"><a href="#cb6-116"></a><span class="in">```</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</div></div></div></div></div>
+</script>
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">Published with <a href="https://quarto.org/">Quarto</a> v1.3.450 | Hosted by <a href="https://pages.github.com/"><iconify-icon inline="" icon="simple-icons:github"></iconify-icon></a></div>   
-    <div class="nav-footer-center"><a href="https://ko-fi.com/errbufferoverfl">Ko-Fi</a> | <a href="https://genericsocialmediapage.com/@errbufferoverfl">Mastodon</a> | <a href="https://mastodon.art/@errbufferoverfl">Art Mastodon</a> | <a href="https://github.com/errbufferoverfl">Github</a> | <a href="https://twitter.com/errbufferoverfl">Twitter</a></div>
-    <div class="nav-footer-right">© 2023 errbufferoverfl | <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.en">CC BY-SA 4.0</a></div>
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">© 2023 errbufferoverfl, Some Rights Reserved | <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.en">CC BY-SA 4.0</a><br><a href="https://ko-fi.com/errbufferoverfl">Ko-Fi</a> | <a href="https://genericsocialmediapage.com/@errbufferoverfl">Mastodon</a> | <a href="https://mastodon.art/@errbufferoverfl">Art Mastodon</a> | <a href="https://github.com/errbufferoverfl">Github</a> | <a href="https://twitter.com/errbufferoverfl">Twitter</a></div>
   </div>
 </footer>
 
