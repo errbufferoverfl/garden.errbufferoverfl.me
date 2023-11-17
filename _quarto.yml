@@ -22,8 +22,8 @@ website:
     creator: "@errbufferoverfl"
     site: "@errbufferoverfl"
   open-graph: true
-  repo-url: https://github.com/errbufferoverfl/garden.errbufferoverfl.me
-  issue-url: https://github.com/errbufferoverfl/garden.errbufferoverfl.me/issues
+  repo-url: https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me
+  issue-url: https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me/-/issues
   repo-branch: hugo
   repo-actions:
     - edit
