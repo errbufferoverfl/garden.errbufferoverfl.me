@@ -14,12 +14,6 @@ before_script:
   - dpkg -i quarto.deb
 pages:
   script:
-    - quarto add data-intuitive/quarto-d2
-    - quarto add quarto-ext/fontawesome
-    - quarto add quarto-ext/lightbox
-    - quarto add schochastics/nutshell
-    - quarto add mcanouil/iconify
-    - quarto add Progress
     - quarto render . --output-dir public
   artifacts:
     paths:
