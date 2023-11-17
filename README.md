@@ -24,7 +24,7 @@
 </div>
 
 <div align="center">
-  <img src="https://github.com/errbufferoverfl/garden.errbufferoverfl.me/blob/b9a8775a6ca458370f9708095072d3f8f1634031/screenshot.png" width="500"><br>
+  <img src="https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me/-/raw/hugo/screenshot.png" width="500"><br>
   <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a><br>
   <sub>The little experiment that could. Built with ❤︎ by
   <a href="https://twitter.com/errbufferoverfl">errbufferoverfl</a>
