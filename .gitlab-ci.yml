@@ -1,0 +1,21 @@
+# The Docker image that will be used to build your app
+image: ubuntu:latest
+# Functions that should be executed before the build script is run
+before_script:
+  - apt-get update
+  - apt-get -y install wget ca-certificates
+  - wget
+    "https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.deb"
+    -O quarto.deb
+  - dpkg -i quarto.deb
+pages:
+  script:
+    - quarto render . --output-dir public
+  artifacts:
+    paths:
+      # The folder that contains the files to be exposed at the Page URL
+      - public
+  rules:
+    # This ensures that only pushes to the default branch will trigger
+    # a pages deploy
+    - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
