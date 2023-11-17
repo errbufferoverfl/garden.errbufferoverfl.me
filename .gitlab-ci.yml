@@ -1,5 +1,9 @@
 # The Docker image that will be used to build your app
 image: ubuntu:latest
+
+variables:
+  QUARTO_VERSION: "1.3.450"
+
 # Functions that should be executed before the build script is run
 before_script:
   - apt-get update
