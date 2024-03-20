@@ -13,6 +13,9 @@ about:
     - icon: mastodon
       text: Art Mastodon
       href: https://mastodon.art/@errbufferoverfl
+    - icon: gitlab
+      text: GitLab
+      href: https://gitlab.com/errbufferoverfl
     - icon: github
       text: Github
       href: https://github.com/errbufferoverfl

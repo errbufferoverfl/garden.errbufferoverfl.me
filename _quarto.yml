@@ -22,8 +22,8 @@ website:
     creator: "@errbufferoverfl"
     site: "@errbufferoverfl"
   open-graph: true
-  repo-url: https://github.com/errbufferoverfl/garden.errbufferoverfl.me
-  issue-url: https://github.com/errbufferoverfl/garden.errbufferoverfl.me/issues
+  repo-url: https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me
+  issue-url: https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me/-/issues
   repo-branch: hugo
   repo-actions:
     - edit
@@ -61,8 +61,9 @@ website:
 
   page-footer:
     border: false
-    left: "Published with [Quarto](https://quarto.org/) v<?quarto.version?> | Hosted by [{{< iconify simple-icons github >}}](https://pages.github.com/)"
-    right: "© 2023 errbufferoverfl, Some Rights Reserved | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en)<br>[Ko-Fi](https://ko-fi.com/errbufferoverfl) | [Mastodon](https://genericsocialmediapage.com/@errbufferoverfl) | [Art Mastodon](https://mastodon.art/@errbufferoverfl) | [Github](https://github.com/errbufferoverfl) | [Twitter](https://twitter.com/errbufferoverfl)"
+    left: "Published with [Quarto](https://quarto.org/) v<?quarto.version?> | Hosted by [{{< iconify simple-icons gitlab >}}](https://pages.gitlab.com/)"
+    right: "© 2023 errbufferoverfl, Some Rights Reserved | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en)<br>[Ko-Fi](https://ko-fi.com/errbufferoverfl) | [Mastodon](https://genericsocialmediapage.com/@errbufferoverfl) | [Art Mastodon](https://mastodon
+    .art/@errbufferoverfl) | [GitLab](https://gitlab.com/errbufferoverfl) | [Github](https://github.com/errbufferoverfl) | [Twitter](https://twitter.com/errbufferoverfl)"
 
 format:
   html:
