@@ -5,11 +5,11 @@ date-modified: 2023-10-2023
 image: /imgs/how-to-stand-up-to-a-dictator.png
 cover: /imgs/how-to-stand-up-to-a-dictator
 alt: "How to Stand Up to a Dictator Book Cover"
-started: 
-completed: 
-page:
+started: 2023-08-11
+completed: 2023-09-07
+page: 269
 pages: 269
-status: In Progress
+status: "Completed"
 rating: ★★★☆☆
 publisher: Random House
 author:

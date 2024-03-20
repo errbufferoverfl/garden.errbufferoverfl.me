@@ -24,6 +24,7 @@ page: 0
 pages: {{totalPage}}
 publisher: {{publisher}}
 status: "<% status %>"
+rating: ☆☆☆☆☆
 author: 
 <% authors.map(line => `- ${line.trim()}\n`) -%>
 categories:
@@ -36,8 +37,15 @@ categories:
 
 :::
 
-:::: {.columns}
+::: columns
+::: {.column width="50%"}
 
+_{{description}}_
+
+:::
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
 ::: {.column width="40%"}
 
 ![]({{< meta cover >}})
@@ -47,34 +55,4 @@ published on {{publishDate}} by {{< meta publisher >}}
 {{< progress >}}
 
 :::
-
-::: {.column width="10%"}
-<!-- empty column to create gap -->
 :::
-
-::: {.column width="50%"}
-
-_{{description}}_
-
-:::
-
-::::
-
-## Summary
-
-
-## Themes
-
-
-## 3 Main Takeaways
-
-- 
-- 
-- 
-
-## Quotes
-
-
-## Other Notes
-
-

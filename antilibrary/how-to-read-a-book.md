@@ -7,7 +7,7 @@ started: 2023-10-17
 completed:
 page:
 pages:
-status: In Progress
+status: Incomplete
 publisher: Simon & Schuster, Inc
 author:
 - Mortimer J. Adler
@@ -50,18 +50,6 @@ published on 2014-09-30 by {{< meta publisher >}}
 :::
 
 :::
-
-## Summary
-
-## Themes
-
-## 3 Main Takeaways
-
--
-
--
-
--
 
 ## Quotes
 
@@ -131,7 +119,6 @@ Inspectional reading is where one starts to develop as a reader. Inspectional re
   - What crucial terms can you find? Sample a few pages, what does the book have to say on these topics?
 
 - Read the publishers blurb
-
 
 #### Superficial Reading
 

@@ -9,6 +9,7 @@ publisher: Harper Collins
 page: "104"
 pages: 309
 status: Completed
+rating: ★★★★☆
 author:
   - Amanda Montell
 categories:
@@ -34,7 +35,6 @@ categories:
 The following notes discuss sexual abuse, coercive control, suicide and murder. 
 
 :::
-
 :::: {.columns}
 
 ::: {.column width="50%"}
@@ -138,7 +138,7 @@ __What is the Sapir-Worf hypothesis?__
 
 Also known as linguistic relativity it's a principle that suggests that the structure of language influences its speakers worldview and thus it their perceptions of the world.
 
-![Source: [Linguistic Relativity by Govind Gnanakumar](https://blog.govindgnana.com/2020/01/05/linguistic-relativity/)](cultish-1.png)
+![Source: [Linguistic Relativity by Govind Gnanakumar](https://blog.govindgnana.com/2020/01/05/linguistic-relativity/)](/imgs/cultish-1.png)
 
 ## Further Reading
 
@@ -151,6 +151,6 @@ Also known as linguistic relativity it's a principle that suggests that the stru
 
 [^1]: [cult (n.)](https://www.etymonline.com/word/cult)
 [^2]: The Fourth Great Awakening was a Christian awakening that some scholars say took place in the United States either in the late 1960s and early 1970s or the era after World War II. The terminology is controversial as some historians argue that the "awakening" was vastly different to the prior three.
-[^3]: ![](cultish.png)
+[^3]: ![](/imgs/cultish-2.png)
 [^4]: The Healthy, Happy Holy Organisation (3HO), a Sikh-derived group formed in the 1970s. Their guru Yogi Bhajan claims to speak for all western-Sikhs. They host regular Kundalini yoga classes. Sikh Dharma International and its associated corporate entities and directors created and control the [Yogi Tea](https://en.wikipedia.org/wiki/Yogi_Tea "Yogi Tea") and [Akal Security](https://en.wikipedia.org/wiki/Akal_Security "Akal Security").
 [^5]: The overconfidence effect is a well-established bias in which a person's subjective _confidence_ in their judgments is reliably greater than the objective _accuracy_ of those judgments, especially when confidence is relatively high.

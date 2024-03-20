@@ -1,8 +1,8 @@
 ---
 title: Chasing Shadows
+date: 2022-12-09
 image: /imgs/chasing-shadows.png
 cover: /imgs/chasing-shadows
-date: 2022-12-09
 started: 2022-12-09
 completed: 2023-01-22
 page: 251
@@ -27,11 +27,9 @@ categories:
 *It explores the religious cults of Ananda Marga and Aum Shinrikyo, and the jihadist networks of Al-Qaeda and Islamic State. It also traverses right-wing extremism, from Croatian fascists through to the white supremacists who have dominated headlines since the Christchurch massacre.*
 
 :::
-
 ::: {.column width="10%"}
 <!-- empty column to create gap -->
 :::
-
 ::: {.column width="40%"}
 
 ![]({{< meta cover >}})

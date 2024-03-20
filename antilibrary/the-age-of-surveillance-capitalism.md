@@ -8,7 +8,7 @@ started: 2022-06-01
 completed: 
 page: 105
 pages: 704
-status: Incomplete
+status: "Incomplete"
 publisher: Profile Books
 author:
   - Shoshana Zuboff
