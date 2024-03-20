@@ -1,7 +1,7 @@
 ---
 title: "Gouache"
 author: "errbufferoverfl"
-date: 2023-06-02T00:00:00+10:00
+date: 2023-06-01T23:30:00+09:30
 filters:
 - lightbox
 lightbox: auto
