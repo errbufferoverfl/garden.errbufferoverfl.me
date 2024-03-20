@@ -54,10 +54,13 @@ published on 2014-09-30 by {{< meta publisher >}}
 ## Quotes
 
 > We do not have to know everything about something in order to understand it.
+>
 
 > To be informed is to know simply that something is the case. To be enlightened is to know, in addition, what its connections are with other facts, is what respects is the same, in what respects it is different and so forth.
+>
 
 > The Greeks had a name for such a mixture of learning and folly which might be applied to the bookish but poorly read of all ages. They are all *sophomores*.
+> 
 
 > Some books are to be tasted, others to be swallowed, and some few to be chewed and digested.\
 > -- Francis Bacon

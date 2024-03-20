@@ -38,7 +38,6 @@ categories:
 *Written by dedicated anarchist scholars and organizers, and based on the widely popular Anarchic Agreements pamphlet series, this book facilitates grassroots activism and provides methods to improve and streamline decision making. It is an inspiring celebration of the novel, complex and flexible constitutions Anarchists have date over time. This book shows how to realize another world, collectively without domination, while leaving the future open to infinite other possibilities.*
 
 :::
-
 ::: {.column width="10%"}
 <!-- empty column to create gap -->
 :::

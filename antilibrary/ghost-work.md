@@ -27,7 +27,6 @@ categories:
 ---
 
 ::: columns
-
 ::: {.column width="50%"}
 *"A startling exposé of the invisible human workforce that powers the web--and how to bring it out of the shadows. Hidden beneath the surface of the internet, a new, stark reality is looming--one that cuts to the very heart of our endless debates about the impact of AI.*
 
@@ -49,7 +48,6 @@ published on 2019 by {{< meta publisher >}}
 {{< progress >}}
 
 :::
-
 :::
 
 ## Other Notes

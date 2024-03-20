@@ -1,0 +1,1960 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+
+<head>
+
+<meta charset="utf-8" />
+<meta name="generator" content="quarto-1.3.450" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+
+<meta name="author" content="errbufferoverfl" />
+
+<title>errbufferoverfl, anarchist, illustrator, reluctant security engineer – The Back of the Book</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+<!-- htmldependencies:E3FAD763 -->
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-description','listing-file-modified',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-title-sort'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 30,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-title","listing-description"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<style>html{ scroll-behavior: smooth; }</style>
+<meta http-equiv="Content-Security-Policy" content="default-src 'self' https://garden.errbufferoverfl.me localhost:8086 'unsafe-inline'; script-src 'self' https://cdn.jsdelivr.net/npm/mathjax@3/es5/ https://polyfill.io/v3/polyfill.min.js 'unsafe-inline'; style-src 'self' https://fonts.googleapis.com/css2/ 'unsafe-inline'; img-src 'self' data:; font-src data: https://garden.errbufferoverfl.me https://fonts.gstatic.com/s/lato/v24/ https://cdn.jsdelivr.net/npm/mathjax@3/es5/  localhost:8086; connect-src ws://localhost:8086 https://api.simplesvg.com/simple-icons.json; media-src 'self' localhost:8086; object-src 'none'; prefetch-src https://garden.errbufferoverfl.me; child-src 'none'; frame-src 'none'; worker-src 'none'; form-action 'none'; upgrade-insecure-requests; disown-opener; base-uri 'self'; manifest-src 'self'">
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="/notebook/" class="navbar-brand navbar-brand-logo">
+    <img src="/imgs/logo.png" alt="Illustration of a snail looking up." class="navbar-logo" />
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+  aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"
+  onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="/notebook/" rel="" target="">
+ <span class="menu-text">The Notebook</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="/microfarm/" rel="" target="">
+ <span class="menu-text">The Microfarm</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="/art-studio/" rel="" target="">
+ <span class="menu-text">The Art Studio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="/antilibrary/" rel="" target="">
+ <span class="menu-text">The Anti-Library</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="/engineering/" rel="" target="">
+ <span class="menu-text">The Engineering Anthology</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-more" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+ <span class="menu-text">More</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-more">    
+        <li>
+    <a class="dropdown-item" href="/toolbox/" rel="" target="">
+ <span class="dropdown-text">The Toolbox</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="/soapbox/" rel="" target="">
+ <span class="dropdown-text">The Soapbox</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="/bob.html" rel="" target="">
+ <span class="dropdown-text">The Back of the Book</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="/index.html" rel="" target="">
+ <span class="dropdown-text">About Me</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item compact">
+    <a class="nav-link" href="/index.xml" rel="" target=""><i 
+  class="bi bi-rss" 
+  role="img" 
+>
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+<header id="title-block-header" class="quarto-title-block default">
+  <div class="quarto-title-banner">
+    <div class="quarto-title column-body">
+      <h1 class="title">The Back of the Book</h1>
+            <p class="subtitle lead">The official back of the book for this digital garden.</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header>
+
+<div id="quarto-navigation-envelope" class="hidden">
+<p><span class="hidden" data-render-id="quarto-int-sidebar-title">errbufferoverfl, anarchist, illustrator, reluctant security engineer</span> <span class="hidden" data-render-id="quarto-int-navbar-title">errbufferoverfl, anarchist, illustrator, reluctant security engineer</span> <span class="hidden" data-render-id="quarto-int-navbar:The Notebook">The Notebook</span> <span class="hidden" data-render-id="quarto-int-navbar:/notebook/">/notebook/</span> <span class="hidden" data-render-id="quarto-int-navbar:The Microfarm">The Microfarm</span> <span class="hidden" data-render-id="quarto-int-navbar:/microfarm/">/microfarm/</span> <span class="hidden" data-render-id="quarto-int-navbar:The Art Studio">The Art Studio</span> <span class="hidden" data-render-id="quarto-int-navbar:/art-studio/">/art-studio/</span> <span class="hidden" data-render-id="quarto-int-navbar:The Anti-Library">The Anti-Library</span> <span class="hidden" data-render-id="quarto-int-navbar:/antilibrary/">/antilibrary/</span> <span class="hidden" data-render-id="quarto-int-navbar:The Engineering Anthology">The Engineering Anthology</span> <span class="hidden" data-render-id="quarto-int-navbar:/engineering/">/engineering/</span> <span class="hidden" data-render-id="quarto-int-navbar:More">More</span> <span class="hidden" data-render-id="quarto-int-navbar:The Toolbox">The Toolbox</span> <span class="hidden" data-render-id="quarto-int-navbar:/toolbox/">/toolbox/</span> <span class="hidden" data-render-id="quarto-int-navbar:The Soapbox">The Soapbox</span> <span class="hidden" data-render-id="quarto-int-navbar:/soapbox/">/soapbox/</span> <span class="hidden" data-render-id="quarto-int-navbar:The Back of the Book">The Back of the Book</span> <span class="hidden" data-render-id="quarto-int-navbar:/bob.html">/bob.html</span> <span class="hidden" data-render-id="quarto-int-navbar:About Me">About Me</span> <span class="hidden" data-render-id="quarto-int-navbar:/index.html">/index.html</span> <span class="hidden" data-render-id="quarto-int-navbar:/index.xml">/index.xml</span> <span class="hidden" data-render-id="footer-left">Published with <a href="https://quarto.org/">Quarto</a> v1.3.450 | Hosted by <a href="https://pages.github.com/"><iconify-icon inline icon="simple-icons:github"></iconify-icon></a></span> <span class="hidden" data-render-id="footer-right">© 2023 errbufferoverfl, Some Rights Reserved | <a href="https://creativecommons.org/licenses/by-sa/4.0/legalcode.en">CC BY-SA 4.0</a><br><a href="https://ko-fi.com/errbufferoverfl">Ko-Fi</a> | <a href="https://genericsocialmediapage.com/@errbufferoverfl">Mastodon</a> | <a href="https://mastodon.art/@errbufferoverfl">Art Mastodon</a> | <a href="https://github.com/errbufferoverfl">Github</a> | <a href="https://twitter.com/errbufferoverfl">Twitter</a></span></p>
+</div>
+<div id="quarto-listing-pipeline" class="hidden">
+<p><span class="hidden" data-render-id="quarto-enable-math-inline"><span class="math inline">\(e = mC^2\)</span></span></p>
+<div class="hidden" data-render-id="pipeline-listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+     <select
+      id="listing-listing-sort"
+      class="form-select"
+      aria-label="Order By"
+      onChange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})"
+    >
+       <option value="" disabled selected hidden>Order By</option>
+       <option value="index" data-direction="asc">Default</option>
+         <option
+          value="listing-title-sort"
+          data-direction="asc">
+          Title
+        </option>
+         <option
+          value="listing-date-sort"
+          data-direction="asc">
+          Date - Oldest
+        </option>
+         <option
+          value="listing-date-sort"
+          data-direction="desc">
+          Date - Newest
+        </option>
+         <option
+          value="listing-file-modified-sort"
+          data-direction="asc">
+          Modified - Oldest
+        </option>
+         <option
+          value="listing-file-modified-sort"
+          data-direction="desc">
+          Modified - Newest
+        </option>
+     </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter" />
+    </div>
+</div>
+
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+<a class="sort" data-sort="listing-date-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Date</a>
+</th>
+<th>
+<a class="sort" data-sort="listing-title-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Title</a>
+</th>
+<th>
+Description
+</th>
+<th>
+<a class="sort" data-sort="listing-file-modified-sort" onclick="if (this.classList.contains('sort-asc')) { this.classList.add('sort-desc'); this.classList.remove('sort-asc') } else { this.classList.add('sort-asc'); this.classList.remove('sort-desc')} return false;">Modified</a>
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="Non-Fiction,Political Science,Anarchy,Anarchism,Constitutions,History and Theory" data-listing-date-sort="1684593000000" data-listing-file-modified-sort="1710898610635" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-title-sort="Anarchic Agreements, a Field Guide to Collective Organising" data-listing-filename-sort="anarchic-agreements-a-field-guide-to-collective-organising.md">
+<td>
+<span class="listing-date">May 21, 2023</span>
+</td>
+<td>
+<a href="/antilibrary/anarchic-agreements-a-field-guide-to-collective-organising.md" class="title listing-title">Anarchic Agreements, a Field Guide to Collective Organising</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:antilibrary/anarchic-agreements-a-field-guide-to-collective-organising.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">3/20/24, 12:06:50 PM</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="Solarpunk,Project" data-listing-date-sort="1685714400000" data-listing-file-modified-sort="1697960239482" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Aquarium Algae Scrubber" data-listing-filename-sort="aquarium-algae-scrubber.md">
+<td>
+<span class="listing-date">Jun 2, 2023</span>
+</td>
+<td>
+<a href="/microfarm/aquarium-algae-scrubber.md" class="title listing-title">Aquarium Algae Scrubber</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:microfarm/aquarium-algae-scrubber.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 6:07:19 PM</span>
+</td>
+</tr>
+<tr data-index="2" data-categories="Art,Culture,Mediaeval,15th Century" data-listing-date-sort="1687505467000" data-listing-file-modified-sort="1698549850334" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Ars Moriendi" data-listing-filename-sort="ars-moriendi.md">
+<td>
+<span class="listing-date">Jun 23, 2023</span>
+</td>
+<td>
+<a href="/notebook/ars-moriendi.md" class="title listing-title">Ars Moriendi</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:notebook/ars-moriendi.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 1:54:10 PM</span>
+</td>
+</tr>
+<tr data-index="3" data-categories="Seed,Distributed Computing,Distributed Web,Hypercore Protocol,Definition" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1697956700050" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Autobase" data-listing-filename-sort="autobase.md">
+<td>
+<span class="listing-date">Jun 10, 2023</span>
+</td>
+<td>
+<a href="/engineering/autobase.md" class="title listing-title">Autobase</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/autobase.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="4" data-categories="Distributed Computing,Distributed Web,Hypercore Protocol,Definition" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1697956700050" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="BTree" data-listing-filename-sort="b-tree.md">
+<td>
+<span class="listing-date">Jun 10, 2023</span>
+</td>
+<td>
+<a href="/engineering/b-tree.md" class="title listing-title">BTree</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/b-tree.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="5" data-categories="Non-Fiction,History,Technology,Politics,Business,Economics,Science,Technology &amp; Engineering" data-listing-date-sort="1710895877000" data-listing-file-modified-sort="1710897253592" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Blood in the Machine" data-listing-filename-sort="blood-in-the-machine.md">
+<td>
+<span class="listing-date">Mar 20, 2024</span>
+</td>
+<td>
+<a href="/antilibrary/blood-in-the-machine.md" class="title listing-title">Blood in the Machine</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:antilibrary/blood-in-the-machine.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">3/20/24, 11:44:13 AM</span>
+</td>
+</tr>
+<tr data-index="6" data-categories="Seed,Composting" data-listing-date-sort="1696750971000" data-listing-file-modified-sort="1698549837195" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Bokashi Bran" data-listing-filename-sort="bokashi-bran.md">
+<td>
+<span class="listing-date">Oct 8, 2023</span>
+</td>
+<td>
+<a href="/microfarm/bokashi-bran.md" class="title listing-title">Bokashi Bran</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:microfarm/bokashi-bran.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 1:53:57 PM</span>
+</td>
+</tr>
+<tr data-index="7" data-categories="Non-Fiction,Politics,History,Technology,Philosophy,Economics,Labor,Political Science" data-listing-date-sort="1710896029000" data-listing-file-modified-sort="1710897154151" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Breaking Things at Work" data-listing-filename-sort="breaking-things-at-work.md">
+<td>
+<span class="listing-date">Mar 20, 2024</span>
+</td>
+<td>
+<a href="/antilibrary/breaking-things-at-work.md" class="title listing-title">Breaking Things at Work</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:antilibrary/breaking-things-at-work.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">3/20/24, 11:42:34 AM</span>
+</td>
+</tr>
+<tr data-index="8" data-categories="Seed,Low Tech,Project" data-listing-date-sort="1697350347000" data-listing-file-modified-sort="1698559496849" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-title-sort="Building a Low Tech Website" data-listing-filename-sort="building-a-low-tech-website.md">
+<td>
+<span class="listing-date">Oct 15, 2023</span>
+</td>
+<td>
+<a href="/engineering/building-a-low-tech-website.md" class="title listing-title">Building a Low Tech Website</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/building-a-low-tech-website.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 4:34:56 PM</span>
+</td>
+</tr>
+<tr data-index="9" data-categories="Food Preservation,Dehydrating,Dehydrating Debugging" data-listing-date-sort="1693697563000" data-listing-file-modified-sort="1697960345682" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Case Hardening" data-listing-filename-sort="case-hardening.md">
+<td>
+<span class="listing-date">Sep 3, 2023</span>
+</td>
+<td>
+<a href="/microfarm/case-hardening.md" class="title listing-title">Case Hardening</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:microfarm/case-hardening.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 6:09:05 PM</span>
+</td>
+</tr>
+<tr data-index="10" data-categories="Agriculture,Definition,Political Science" data-listing-date-sort="1687505467000" data-listing-file-modified-sort="1697956700520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Cash Crops" data-listing-filename-sort="cash-crops.md">
+<td>
+<span class="listing-date">Jun 23, 2023</span>
+</td>
+<td>
+<a href="/notebook/cash-crops.md" class="title listing-title">Cash Crops</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:notebook/cash-crops.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="11" data-categories="Political Science,Terrorism" data-listing-date-sort="1670506200000" data-listing-file-modified-sort="1710898353340" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Chasing Shadows" data-listing-filename-sort="chasing-shadows.md">
+<td>
+<span class="listing-date">Dec 9, 2022</span>
+</td>
+<td>
+<a href="/antilibrary/chasing-shadows.md" class="title listing-title">Chasing Shadows</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:antilibrary/chasing-shadows.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">3/20/24, 12:02:33 PM</span>
+</td>
+</tr>
+<tr data-index="12" data-categories="Sapling,RFC,RFC-7282,Concencus Building,Internet Governance,IETF" data-listing-date-sort="1687250226000" data-listing-file-modified-sort="1698559547140" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-title-sort="Consensus and Humming in the IETF" data-listing-filename-sort="consensus-and-humming-in-the-ietf.md">
+<td>
+<span class="listing-date">Jun 20, 2023</span>
+</td>
+<td>
+<a href="/engineering/consensus-and-humming-in-the-ietf.md" class="title listing-title">Consensus and Humming in the IETF</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/consensus-and-humming-in-the-ietf.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 4:35:47 PM</span>
+</td>
+</tr>
+<tr data-index="13" data-categories="Trust &amp; Saftey,Open Standard,Beta" data-listing-date-sort="1697965272000" data-listing-file-modified-sort="1697968659264" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Content Credentials" data-listing-filename-sort="content-credentials.md">
+<td>
+<span class="listing-date">Oct 22, 2023</span>
+</td>
+<td>
+<a href="/toolbox/content-credentials.md" class="title listing-title">Content Credentials</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:toolbox/content-credentials.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 8:27:39 PM</span>
+</td>
+</tr>
+<tr data-index="14" data-categories="Non-Fiction,Psychology,History,Sociology,Cults,Religion,Language,True Crime,Lunguistics" data-listing-date-sort="1697882667000" data-listing-file-modified-sort="1710898257320" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-title-sort="Cultish" data-listing-filename-sort="cultish.md">
+<td>
+<span class="listing-date">Oct 21, 2023</span>
+</td>
+<td>
+<a href="/antilibrary/cultish.md" class="title listing-title">Cultish</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:antilibrary/cultish.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">3/20/24, 12:00:57 PM</span>
+</td>
+</tr>
+<tr data-index="15" data-categories="Seed,Pragmatic Web Security,React Security,JavaScript,Web Security" data-listing-date-sort="1697596100000" data-listing-file-modified-sort="1698559564208" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="Cutting Edge React Security" data-listing-filename-sort="cutting-edge-react-security.md">
+<td>
+<span class="listing-date">Oct 18, 2023</span>
+</td>
+<td>
+<a href="/engineering/cutting-edge-react-security.md" class="title listing-title">Cutting Edge React Security</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/cutting-edge-react-security.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 4:36:04 PM</span>
+</td>
+</tr>
+<tr data-index="16" data-categories="Javascript,npm" data-listing-date-sort="1697349004000" data-listing-file-modified-sort="1697956700545" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Cytoscape.js" data-listing-filename-sort="cytoscapejs.md">
+<td>
+<span class="listing-date">Oct 15, 2023</span>
+</td>
+<td>
+<a href="/toolbox/cytoscapejs.md" class="title listing-title">Cytoscape.js</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:toolbox/cytoscapejs.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="17" data-categories="Seed,Distributed Computing,Distributed Web,Hypercore Protocol,Definition" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1697956700051" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="DHT" data-listing-filename-sort="dht.md">
+<td>
+<span class="listing-date">Jun 10, 2023</span>
+</td>
+<td>
+<a href="/engineering/dht.md" class="title listing-title">DHT</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/dht.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="18" data-categories="Non-Fiction,Business &amp; Economics,History,Anthropology,Politics,Finance" data-listing-date-sort="1710895487000" data-listing-file-modified-sort="1710897010818" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Debt The First 5,000 Years" data-listing-filename-sort="debt.md">
+<td>
+<span class="listing-date">Mar 20, 2024</span>
+</td>
+<td>
+<a href="/antilibrary/debt.md" class="title listing-title">Debt The First 5,000 Years</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:antilibrary/debt.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">3/20/24, 11:40:10 AM</span>
+</td>
+</tr>
+<tr data-index="19" data-categories="Seed,Distributed Computing,Distributed Web,Hypercore Protocol,Definition" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1698559692651" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Decentralized identifier" data-listing-filename-sort="did.md">
+<td>
+<span class="listing-date">Jun 10, 2023</span>
+</td>
+<td>
+<a href="/engineering/did.md" class="title listing-title">Decentralized identifier</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/did.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 4:38:12 PM</span>
+</td>
+</tr>
+<tr data-index="20" data-categories="Distributed Computing" data-listing-date-sort="1697348908000" data-listing-file-modified-sort="1697956700545" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Distributed Press" data-listing-filename-sort="distributed-press.md">
+<td>
+<span class="listing-date">Oct 15, 2023</span>
+</td>
+<td>
+<a href="/toolbox/distributed-press.md" class="title listing-title">Distributed Press</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:toolbox/distributed-press.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="21" data-categories="Political Science,Feminism,Internet,Definition" data-listing-date-sort="1686492000000" data-listing-file-modified-sort="1697956700520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Embodiment" data-listing-filename-sort="embodiment.md">
+<td>
+<span class="listing-date">Jun 11, 2023</span>
+</td>
+<td>
+<a href="/notebook/embodiment.md" class="title listing-title">Embodiment</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:notebook/embodiment.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="22" data-categories="Erlaubnis,Project,Diagram" data-listing-date-sort="1687952205000" data-listing-file-modified-sort="1697956700052" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="Erlaubnis Project Diagrams" data-listing-filename-sort="erlaubnis-project-diagrams.qmd">
+<td>
+<span class="listing-date">Jun 28, 2023</span>
+</td>
+<td>
+<a href="/engineering/erlaubnis-project-diagrams.qmd" class="title listing-title">Erlaubnis Project Diagrams</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/erlaubnis-project-diagrams.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="23" data-categories="Pollution,Nutrient pollution,Water pollution,Environmental chemistry" data-listing-date-sort="1691317228000" data-listing-file-modified-sort="1697960489264" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Eutrophication" data-listing-filename-sort="eutrophication.md">
+<td>
+<span class="listing-date">Aug 6, 2023</span>
+</td>
+<td>
+<a href="/microfarm/eutrophication.md" class="title listing-title">Eutrophication</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:microfarm/eutrophication.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 6:11:29 PM</span>
+</td>
+</tr>
+<tr data-index="24" data-categories="Non-Fiction,Political Science,Politics,Anarchism,Philosophy,Activism,Social Justice,Feminism,Counter Culture" data-listing-date-sort="1687260640000" data-listing-file-modified-sort="1698553160169" data-listing-date-modified-sort="1694261394000" data-listing-reading-time-sort="3" data-listing-title-sort="Expect Resistance: A Crimethink Field Manual" data-listing-filename-sort="expect-resistance-a-crimethinc-field-manual.md">
+<td>
+<span class="listing-date">Jun 20, 2023</span>
+</td>
+<td>
+<a href="/antilibrary/expect-resistance-a-crimethinc-field-manual.md" class="title listing-title">Expect Resistance: A Crimethink Field Manual</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:antilibrary/expect-resistance-a-crimethinc-field-manual.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 2:49:20 PM</span>
+</td>
+</tr>
+<tr data-index="25" data-categories="Permaculture,Sustainable Agriculture,Vermicomposting" data-listing-date-sort="1691878804000" data-listing-file-modified-sort="1697960535207" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Fat Worm Recipe" data-listing-filename-sort="fat-worm-recipe.md">
+<td>
+<span class="listing-date">Aug 13, 2023</span>
+</td>
+<td>
+<a href="/microfarm/fat-worm-recipe.md" class="title listing-title">Fat Worm Recipe</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:microfarm/fat-worm-recipe.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 6:12:15 PM</span>
+</td>
+</tr>
+<tr data-index="26" data-categories="Permaculture,Sustainable Agriculture,Permaculture Design" data-listing-date-sort="1694130790000" data-listing-file-modified-sort="1698549818763" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Fedge" data-listing-filename-sort="fedge.md">
+<td>
+<span class="listing-date">Sep 8, 2023</span>
+</td>
+<td>
+<a href="/microfarm/fedge.md" class="title listing-title">Fedge</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:microfarm/fedge.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 1:53:38 PM</span>
+</td>
+</tr>
+<tr data-index="27" data-categories="Political Science,Feminism,Internet,Definition" data-listing-date-sort="1686492000000" data-listing-file-modified-sort="1697956700520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Feminist Principles of the Internet" data-listing-filename-sort="feminist-principles-of-the-internet.md">
+<td>
+<span class="listing-date">Jun 11, 2023</span>
+</td>
+<td>
+<a href="/notebook/feminist-principles-of-the-internet.md" class="title listing-title">Feminist Principles of the Internet</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:notebook/feminist-principles-of-the-internet.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="28" data-categories="Technology,Non-Fiction,Economics,Business,Labor,Anthropology,Politics,Sociology,Intelligence" data-listing-date-sort="1688043643000" data-listing-file-modified-sort="1710133069085" data-listing-date-modified-sort="1697282304000" data-listing-reading-time-sort="6" data-listing-title-sort="Ghost Work" data-listing-filename-sort="ghost-work.md">
+<td>
+<span class="listing-date">Jun 29, 2023</span>
+</td>
+<td>
+<a href="/antilibrary/ghost-work.md" class="title listing-title">Ghost Work</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:antilibrary/ghost-work.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">3/11/24, 3:27:49 PM</span>
+</td>
+</tr>
+<tr data-index="29" data-categories="Medium,Painting,Art Note,Seed" data-listing-date-sort="1685628000000" data-listing-file-modified-sort="1710895318769" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Gouache" data-listing-filename-sort="gouache.md">
+<td>
+<span class="listing-date">Jun 1, 2023</span>
+</td>
+<td>
+<a href="/art-studio/gouache.md" class="title listing-title">Gouache</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:art-studio/gouache.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">3/20/24, 11:11:58 AM</span>
+</td>
+</tr>
+<tr data-index="30" data-categories="Learning,Hack the Box,Hack the Box Academy,General" data-listing-date-sort="1697870183000" data-listing-file-modified-sort="1698559722975" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-title-sort="Hack the Box" data-listing-filename-sort="hack-the-box-way-of-learning.md">
+<td>
+<span class="listing-date">Oct 21, 2023</span>
+</td>
+<td>
+<a href="/engineering/hack-the-box-way-of-learning.md" class="title listing-title">Hack the Box</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/hack-the-box-way-of-learning.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 4:38:42 PM</span>
+</td>
+</tr>
+<tr data-index="31" data-categories="Seed,Distributed Computing,Distributed Web,Hypercore Protocol,Definition,Protocol" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1697956700053" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Holepunch" data-listing-filename-sort="holepunch.md">
+<td>
+<span class="listing-date">Jun 10, 2023</span>
+</td>
+<td>
+<a href="/engineering/holepunch.md" class="title listing-title">Holepunch</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/holepunch.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="32" data-categories="Non-Fiction,Self Help,Education,Books About Books,Writing,Reference,Personal Development,Productivity,Philosophy" data-listing-date-sort="1697797901000" data-listing-file-modified-sort="1710897563478" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-title-sort="How to Read a Book" data-listing-filename-sort="how-to-read-a-book.md">
+<td>
+<span class="listing-date">Oct 20, 2023</span>
+</td>
+<td>
+<a href="/antilibrary/how-to-read-a-book.md" class="title listing-title">How to Read a Book</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:antilibrary/how-to-read-a-book.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">3/20/24, 11:49:23 AM</span>
+</td>
+</tr>
+<tr data-index="33" data-categories="Non-Fiction,Political Science,Politics,Memoir,History,Biography,Journalism,Asia,Sociology" data-listing-date-sort="1668603600000" data-listing-file-modified-sort="1710897469922" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="How to Stand Up to a Dictator" data-listing-filename-sort="how-to-stand-up-to-a-dictator.md">
+<td>
+<span class="listing-date">Nov 16, 2022</span>
+</td>
+<td>
+<a href="/antilibrary/how-to-stand-up-to-a-dictator.md" class="title listing-title">How to Stand Up to a Dictator</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:antilibrary/how-to-stand-up-to-a-dictator.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">3/20/24, 11:47:49 AM</span>
+</td>
+</tr>
+<tr data-index="34" data-categories="Seed,Distributed Computing,Distributed Web,Hypercore Protocol,Definition" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1697956700054" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="HyperDHT" data-listing-filename-sort="hyperdht.md">
+<td>
+<span class="listing-date">Jun 10, 2023</span>
+</td>
+<td>
+<a href="/engineering/hyperdht.md" class="title listing-title">HyperDHT</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/hyperdht.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="35" data-categories="Seed,Distributed Computing,Distributed Web,Hypercore Protocol,Definition" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1697956700053" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Hyperbee" data-listing-filename-sort="hyperbee.md">
+<td>
+<span class="listing-date">Jun 10, 2023</span>
+</td>
+<td>
+<a href="/engineering/hyperbee.md" class="title listing-title">Hyperbee</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/hyperbee.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="36" data-categories="Seed,Distributed Computing,Distributed Web,Hypercore Protocol,Definition" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1697956700053" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Hypercore" data-listing-filename-sort="hypercore.md">
+<td>
+<span class="listing-date">Jun 10, 2023</span>
+</td>
+<td>
+<a href="/engineering/hypercore.md" class="title listing-title">Hypercore</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/hypercore.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="37" data-categories="Seed,Distributed Computing,Distributed Web,Hypercore Protocol,Definition" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1697956700054" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Hyperdrive" data-listing-filename-sort="hyperdrive.md">
+<td>
+<span class="listing-date">Jun 10, 2023</span>
+</td>
+<td>
+<a href="/engineering/hyperdrive.md" class="title listing-title">Hyperdrive</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/hyperdrive.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="38" data-categories="Seed,Distributed Computing,Distributed Web,Hypercore Protocol,Definition" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1697956700054" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Hyperswarm" data-listing-filename-sort="hyperswarm.md">
+<td>
+<span class="listing-date">Jun 10, 2023</span>
+</td>
+<td>
+<a href="/engineering/hyperswarm.md" class="title listing-title">Hyperswarm</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/hyperswarm.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="39" data-categories="Seed,Protocol,Distributed Computing,Distributed Web" data-listing-date-sort="1686405600000" data-listing-file-modified-sort="1698559735310" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="InterPlanetary File System" data-listing-filename-sort="ipfs.md">
+<td>
+<span class="listing-date">Jun 10, 2023</span>
+</td>
+<td>
+<a href="/engineering/ipfs.md" class="title listing-title">InterPlanetary File System</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/ipfs.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 4:38:55 PM</span>
+</td>
+</tr>
+<tr data-index="40" data-categories="Permaculture,Agroecology,Urban agriculture,Agroforestry,Sustainable Agriculture" data-listing-date-sort="1692874484000" data-listing-file-modified-sort="1697960144990" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Intercropping" data-listing-filename-sort="intercropping.md">
+<td>
+<span class="listing-date">Aug 24, 2023</span>
+</td>
+<td>
+<a href="/microfarm/intercropping.md" class="title listing-title">Intercropping</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:microfarm/intercropping.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 6:05:44 PM</span>
+</td>
+</tr>
+<tr data-index="41" data-categories="Permaculture,Sustainable Agriculture,Intercropping" data-listing-date-sort="1691319177000" data-listing-file-modified-sort="1697956700506" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Intercropping Examples" data-listing-filename-sort="intercropping-examples.md">
+<td>
+<span class="listing-date">Aug 6, 2023</span>
+</td>
+<td>
+<a href="/microfarm/intercropping-examples.md" class="title listing-title">Intercropping Examples</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:microfarm/intercropping-examples.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="42" data-categories="Seed,Joomla,Fundamentals" data-listing-date-sort="1698456327000" data-listing-file-modified-sort="1698549921862" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Joomla" data-listing-filename-sort="joomla.md">
+<td>
+<span class="listing-date">Oct 28, 2023</span>
+</td>
+<td>
+<a href="/engineering/joomla.md" class="title listing-title">Joomla</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/joomla.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 1:55:21 PM</span>
+</td>
+</tr>
+<tr data-index="43" data-categories="Seed,Security,Security Model,Programming Languages" data-listing-date-sort="1691547720000" data-listing-file-modified-sort="1698559771090" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Languages that implement object capabilities" data-listing-filename-sort="languages-that-implement-object-capabilities.md">
+<td>
+<span class="listing-date">Aug 9, 2023</span>
+</td>
+<td>
+<a href="/engineering/languages-that-implement-object-capabilities.md" class="title listing-title">Languages that implement object capabilities</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/languages-that-implement-object-capabilities.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 4:39:31 PM</span>
+</td>
+</tr>
+<tr data-index="44" data-categories="Seed,Pollution,Wastewater" data-listing-date-sort="1697419479000" data-listing-file-modified-sort="1697960029044" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Leachate" data-listing-filename-sort="leachate.md">
+<td>
+<span class="listing-date">Oct 16, 2023</span>
+</td>
+<td>
+<a href="/microfarm/leachate.md" class="title listing-title">Leachate</a>
+</td>
+<td>
+<span class="listing-description">Provides an overview of leachate, describing it as a liquid that accumulates harmful substances while passing through solids, often containing high concentrations of undesirable materials.</span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 6:03:49 PM</span>
+</td>
+</tr>
+<tr data-index="45" data-categories="Non-Fiction,Politics,Sociology,Economics,History,Philosophy,Feminism,Labor,Theory,Activism" data-listing-date-sort="1681048800000" data-listing-file-modified-sort="1698553307472" data-listing-date-modified-sort="1694261394000" data-listing-reading-time-sort="1" data-listing-title-sort="Lost in Work Escaping Capitalism" data-listing-filename-sort="lost-in-work-escaping-capitalism.md">
+<td>
+<span class="listing-date">Apr 9, 2023</span>
+</td>
+<td>
+<a href="/antilibrary/lost-in-work-escaping-capitalism.md" class="title listing-title">Lost in Work Escaping Capitalism</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:antilibrary/lost-in-work-escaping-capitalism.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 2:51:47 PM</span>
+</td>
+</tr>
+<tr data-index="46" data-categories="Craft,Plastic,Recycling" data-listing-date-sort="1692015341000" data-listing-file-modified-sort="1697959948842" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Making Plastic Yarn (Plarn)" data-listing-filename-sort="making-plastic-yarn-plarn.md">
+<td>
+<span class="listing-date">Aug 14, 2023</span>
+</td>
+<td>
+<a href="/microfarm/making-plastic-yarn-plarn.md" class="title listing-title">Making Plastic Yarn (Plarn)</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:microfarm/making-plastic-yarn-plarn.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 6:02:28 PM</span>
+</td>
+</tr>
+<tr data-index="47" data-categories="Seed,NASA,Retrospective,Lessons Learned" data-listing-date-sort="1689298092000" data-listing-file-modified-sort="1698559780607" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="NASA&#39;s ADLR Framework for Lessons Learned" data-listing-filename-sort="nasas-adlr-framework-for-lessons-learned.md">
+<td>
+<span class="listing-date">Jul 14, 2023</span>
+</td>
+<td>
+<a href="/engineering/nasas-adlr-framework-for-lessons-learned.md" class="title listing-title">NASA’s ADLR Framework for Lessons Learned</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/nasas-adlr-framework-for-lessons-learned.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 4:39:40 PM</span>
+</td>
+</tr>
+<tr data-index="48" data-categories="Political Science,Definition" data-listing-date-sort="1687515630000" data-listing-file-modified-sort="1697956700521" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Neocolonialism" data-listing-filename-sort="neocolonialism.md">
+<td>
+<span class="listing-date">Jun 23, 2023</span>
+</td>
+<td>
+<a href="/notebook/neocolonialism.md" class="title listing-title">Neocolonialism</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:notebook/neocolonialism.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="49" data-categories="Seed,Definition,Security,OWASP" data-listing-date-sort="1696975588000" data-listing-file-modified-sort="1698549929787" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="OWASP CLASP" data-listing-filename-sort="owasp-clasp.md">
+<td>
+<span class="listing-date">Oct 11, 2023</span>
+</td>
+<td>
+<a href="/engineering/owasp-clasp.md" class="title listing-title">OWASP CLASP</a>
+</td>
+<td>
+<span class="listing-description">Introduces OWASP CLASP, a ‘comprehensive’ and ‘lightweight’ application security process that aims to integrate security into software development programs in a structured and measurable way. It outlines the different views and components of CLASP and discusses the vulnerability use cases and taxonomy.</span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 1:55:29 PM</span>
+</td>
+</tr>
+<tr data-index="50" data-categories="Seed,Security,Security Model" data-listing-date-sort="1691547269000" data-listing-file-modified-sort="1698559802476" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Object-capability model" data-listing-filename-sort="object-capability-model.md">
+<td>
+<span class="listing-date">Aug 9, 2023</span>
+</td>
+<td>
+<a href="/engineering/object-capability-model.md" class="title listing-title">Object-capability model</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/object-capability-model.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 4:40:02 PM</span>
+</td>
+</tr>
+<tr data-index="51" data-categories="Permaculture,Sustainable Agriculture" data-listing-date-sort="1694072290000" data-listing-file-modified-sort="1697959381610" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Opportunistic Plants" data-listing-filename-sort="opportunistic-plants.md">
+<td>
+<span class="listing-date">Sep 7, 2023</span>
+</td>
+<td>
+<a href="/microfarm/opportunistic-plants.md" class="title listing-title">Opportunistic Plants</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:microfarm/opportunistic-plants.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:53:01 PM</span>
+</td>
+</tr>
+<tr data-index="52" data-categories="Permaculture,Sustainable Agriculture" data-listing-date-sort="1694056609000" data-listing-file-modified-sort="1698549796913" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Permaculture" data-listing-filename-sort="permaculture.md">
+<td>
+<span class="listing-date">Sep 7, 2023</span>
+</td>
+<td>
+<a href="/microfarm/permaculture.md" class="title listing-title">Permaculture</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:microfarm/permaculture.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 1:53:16 PM</span>
+</td>
+</tr>
+<tr data-index="53" data-categories="Permaculture,Sustainable Agriculture" data-listing-date-sort="1691315342000" data-listing-file-modified-sort="1698549789431" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="Polyculture" data-listing-filename-sort="polyculture.md">
+<td>
+<span class="listing-date">Aug 6, 2023</span>
+</td>
+<td>
+<a href="/microfarm/polyculture.md" class="title listing-title">Polyculture</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:microfarm/polyculture.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 1:53:09 PM</span>
+</td>
+</tr>
+<tr data-index="54" data-categories="Permaculture,Sustainable Agriculture" data-listing-date-sort="1691316240000" data-listing-file-modified-sort="1697959902759" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Polyculture Practices" data-listing-filename-sort="polyculture-practices.md">
+<td>
+<span class="listing-date">Aug 6, 2023</span>
+</td>
+<td>
+<a href="/microfarm/polyculture-practices.md" class="title listing-title">Polyculture Practices</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:microfarm/polyculture-practices.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 6:01:42 PM</span>
+</td>
+</tr>
+<tr data-index="55" data-categories="Non-Fiction,Feminism,Race,Social Justice,Food,American History,Political Science" data-listing-date-sort="1694048141000" data-listing-file-modified-sort="1698553331959" data-listing-date-modified-sort="1694261394000" data-listing-reading-time-sort="2" data-listing-title-sort="Power Hungry" data-listing-filename-sort="power-hungry.md">
+<td>
+<span class="listing-date">Sep 7, 2023</span>
+</td>
+<td>
+<a href="/antilibrary/power-hungry.md" class="title listing-title">Power Hungry</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:antilibrary/power-hungry.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 2:52:11 PM</span>
+</td>
+</tr>
+<tr data-index="56" data-categories="Boiling-Water Canning,Pressure Canning,Food Preservation,Seed" data-listing-date-sort="1697202000000" data-listing-file-modified-sort="1697960568699" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-title-sort="Preserving Apples" data-listing-filename-sort="preserving-apples.md">
+<td>
+<span class="listing-date">Oct 13, 2023</span>
+</td>
+<td>
+<a href="/microfarm/preserving-apples.md" class="title listing-title">Preserving Apples</a>
+</td>
+<td>
+<span class="listing-description">A step-by-step guide on canning apples, including the ingredients needed, the preparation process, and additional information for reference.</span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 6:12:48 PM</span>
+</td>
+</tr>
+<tr data-index="57" data-categories="Seed,Freezing,Food Preservation" data-listing-date-sort="1697419593000" data-listing-file-modified-sort="1698549773847" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Preserving Avacados" data-listing-filename-sort="preserving-avacados.md">
+<td>
+<span class="listing-date">Oct 16, 2023</span>
+</td>
+<td>
+<a href="/microfarm/preserving-avacados.md" class="title listing-title">Preserving Avacados</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:microfarm/preserving-avacados.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 1:52:53 PM</span>
+</td>
+</tr>
+<tr data-index="58" data-categories="Boiling-Water Canning,Food Preservation,Seed" data-listing-date-sort="1697941308000" data-listing-file-modified-sort="1698549755637" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Preserving Carrots" data-listing-filename-sort="preserving-carrots.md">
+<td>
+<span class="listing-date">Oct 22, 2023</span>
+</td>
+<td>
+<a href="/microfarm/preserving-carrots.md" class="title listing-title">Preserving Carrots</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:microfarm/preserving-carrots.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 1:52:35 PM</span>
+</td>
+</tr>
+<tr data-index="59" data-categories="Boiling-Water Canning,Food Preservation,Seed" data-listing-date-sort="1697923983000" data-listing-file-modified-sort="1698549734748" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Preserving Cucumbers" data-listing-filename-sort="preserving-cucumbers.md">
+<td>
+<span class="listing-date">Oct 22, 2023</span>
+</td>
+<td>
+<a href="/microfarm/preserving-cucumbers.md" class="title listing-title">Preserving Cucumbers</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:microfarm/preserving-cucumbers.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 1:52:14 PM</span>
+</td>
+</tr>
+<tr data-index="60" data-categories="Political Science,Definition,Tree" data-listing-date-sort="1685800800000" data-listing-file-modified-sort="1697956700533" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="Reproductive Labor" data-listing-filename-sort="reproductive-labor.md">
+<td>
+<span class="listing-date">Jun 3, 2023</span>
+</td>
+<td>
+<a href="/notebook/reproductive-labor.md" class="title listing-title">Reproductive Labor</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:notebook/reproductive-labor.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="61" data-categories="Non-Fiction,Social Science,Feminism,Politics,Philosophy,Theory,Essays,Gender" data-listing-date-sort="1674824400000" data-listing-file-modified-sort="1698553349359" data-listing-date-modified-sort="1694261394000" data-listing-reading-time-sort="5" data-listing-title-sort="Revolution at Point Zero" data-listing-filename-sort="revolution-at-point-zero.md">
+<td>
+<span class="listing-date">Jan 27, 2023</span>
+</td>
+<td>
+<a href="/antilibrary/revolution-at-point-zero.md" class="title listing-title">Revolution at Point Zero</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:antilibrary/revolution-at-point-zero.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 2:52:29 PM</span>
+</td>
+</tr>
+<tr data-index="62" data-categories="Political Science,Definition,Neoliberalism" data-listing-date-sort="1692270050000" data-listing-file-modified-sort="1697956700534" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Rugged Individualism" data-listing-filename-sort="rugged-individualism.md">
+<td>
+<span class="listing-date">Aug 17, 2023</span>
+</td>
+<td>
+<a href="/notebook/rugged-individualism.md" class="title listing-title">Rugged Individualism</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:notebook/rugged-individualism.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="63" data-categories="Javascript,npm" data-listing-date-sort="1697348724000" data-listing-file-modified-sort="1697956700547" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="SES Hardened JavaScript for Fearless Cooperation" data-listing-filename-sort="ses.md">
+<td>
+<span class="listing-date">Oct 15, 2023</span>
+</td>
+<td>
+<a href="/toolbox/ses.md" class="title listing-title">SES Hardened JavaScript for Fearless Cooperation</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:toolbox/ses.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="64" data-categories="Fermenting,Recipe" data-listing-date-sort="1688168289000" data-listing-file-modified-sort="1697956700518" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Sauerkraut Recipe" data-listing-filename-sort="sauerkraut-recipe.md">
+<td>
+<span class="listing-date">Jul 1, 2023</span>
+</td>
+<td>
+<a href="/microfarm/sauerkraut-recipe.md" class="title listing-title">Sauerkraut Recipe</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:microfarm/sauerkraut-recipe.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="65" data-categories="Seed,SSO,OAuth,Vulnerabilities,OAuth Vulnerabilities" data-listing-date-sort="1698489750000" data-listing-file-modified-sort="1698559827305" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-title-sort="Security Vulnerabilities in Single-Sign On" data-listing-filename-sort="security-vulnerabilities-in-single-sign-on.md">
+<td>
+<span class="listing-date">Oct 28, 2023</span>
+</td>
+<td>
+<a href="/engineering/security-vulnerabilities-in-single-sign-on.md" class="title listing-title">Security Vulnerabilities in Single-Sign On</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/security-vulnerabilities-in-single-sign-on.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 4:40:27 PM</span>
+</td>
+</tr>
+<tr data-index="66" data-categories="Meta,Fruit" data-listing-date-sort="1697202000000" data-listing-file-modified-sort="1697956700534" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Seeds? Trees? Fruit?" data-listing-filename-sort="seeds-trees-fruit-digital-gardening-with-intent.md">
+<td>
+<span class="listing-date">Oct 13, 2023</span>
+</td>
+<td>
+<a href="/notebook/seeds-trees-fruit-digital-gardening-with-intent.md" class="title listing-title">Seeds? Trees? Fruit?</a>
+</td>
+<td>
+<span class="listing-description">This post explores the concept of digital gardening, emphasizing the importance of reclaiming time, iterative learning, and embracing complexity. It introduces the metaphor of seeds, trees, and fruit to describe the different stages of content creation in a digital garden.</span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="67" data-categories="Tree,Distributed Web,Digital Ocean,Project" data-listing-date-sort="1697349759000" data-listing-file-modified-sort="1698549946019" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-title-sort="Setting Up Distributed Press on Digital Ocean" data-listing-filename-sort="setting-up-distributed-press-on-digital-ocean.md">
+<td>
+<span class="listing-date">Oct 15, 2023</span>
+</td>
+<td>
+<a href="/engineering/setting-up-distributed-press-on-digital-ocean.md" class="title listing-title">Setting Up Distributed Press on Digital Ocean</a>
+</td>
+<td>
+<span class="listing-description">A guide on setting up Distributed Press on Digital Ocean. It covers creating a virtual private server (VPS), installing dependencies, configuring DNS, executing the playbook, and checking the status of the service. It also includes additional notes on creating a new publisher, adding a site to a publisher, and troubleshooting errors.</span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 1:55:46 PM</span>
+</td>
+</tr>
+<tr data-index="68" data-categories="Fiction,History,Germany,Politics,Memoir,Biography,German Literature" data-listing-date-sort="1694048055000" data-listing-file-modified-sort="1698553366956" data-listing-date-modified-sort="1694261394000" data-listing-reading-time-sort="2" data-listing-title-sort="Stasiland" data-listing-filename-sort="stasiland.md">
+<td>
+<span class="listing-date">Sep 7, 2023</span>
+</td>
+<td>
+<a href="/antilibrary/stasiland.md" class="title listing-title">Stasiland</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:antilibrary/stasiland.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 2:52:46 PM</span>
+</td>
+</tr>
+<tr data-index="69" data-categories="Seed,Strange Loop,Conference Talks" data-listing-date-sort="1698560383000" data-listing-file-modified-sort="1698561832666" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Strange Loop Talks of Interest" data-listing-filename-sort="strange-loop-talks-of-interest.md">
+<td>
+<span class="listing-date">Oct 29, 2023</span>
+</td>
+<td>
+<a href="/engineering/strange-loop-talks-of-interest.md" class="title listing-title">Strange Loop Talks of Interest</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/strange-loop-talks-of-interest.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 5:13:52 PM</span>
+</td>
+</tr>
+<tr data-index="70" data-categories="Political Science,Debt,Definition,Neocolonialism" data-listing-date-sort="1687514707000" data-listing-file-modified-sort="1698549858458" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Structural Adjustment Programs" data-listing-filename-sort="structural-adjustment-programs.md">
+<td>
+<span class="listing-date">Jun 23, 2023</span>
+</td>
+<td>
+<a href="/notebook/structural-adjustment-programs.md" class="title listing-title">Structural Adjustment Programs</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:notebook/structural-adjustment-programs.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 1:54:18 PM</span>
+</td>
+</tr>
+<tr data-index="71" data-categories="Political Science,Definition" data-listing-date-sort="1686492000000" data-listing-file-modified-sort="1697956700535" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Surveillance Capitalism" data-listing-filename-sort="surveillance-capitalism.md">
+<td>
+<span class="listing-date">Jun 11, 2023</span>
+</td>
+<td>
+<a href="/notebook/surveillance-capitalism.md" class="title listing-title">Surveillance Capitalism</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:notebook/surveillance-capitalism.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="72" data-categories="Political Science,Definition" data-listing-date-sort="1697352589000" data-listing-file-modified-sort="1697956700535" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Technocratic" data-listing-filename-sort="technocratic.md">
+<td>
+<span class="listing-date">Oct 15, 2023</span>
+</td>
+<td>
+<a href="/notebook/technocratic.md" class="title listing-title">Technocratic</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:notebook/technocratic.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="73" data-categories="Fiction,Politics,Alternate History,War,Science Fiction,Speculative Fiction,Military Fiction,Thriller" data-listing-date-sort="1694047990000" data-listing-file-modified-sort="1698553382627" data-listing-date-modified-sort="1694261394000" data-listing-reading-time-sort="1" data-listing-title-sort="The 2020 Commission Report on the North Korean Nuclear Attacks Against The United States" data-listing-filename-sort="the-2020-commission-report-on-the-north-korean-nuclear-attacks-against-the-united-states.md">
+<td>
+<span class="listing-date">Sep 7, 2023</span>
+</td>
+<td>
+<a href="/antilibrary/the-2020-commission-report-on-the-north-korean-nuclear-attacks-against-the-united-states.md" class="title listing-title">The 2020 Commission Report on the North Korean Nuclear Attacks Against The United States</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:antilibrary/the-2020-commission-report-on-the-north-korean-nuclear-attacks-against-the-united-states.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 2:53:02 PM</span>
+</td>
+</tr>
+<tr data-index="74" data-categories="Seed,Policy,Government,Privacy,End to End Encryption,ACCCE" data-listing-date-sort="1686492000000" data-listing-file-modified-sort="1698559708851" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="The ACCCE &amp; Police&#39;s attack on End-to-End Encryption Tweet Storm" data-listing-filename-sort="e2e-fear-campaign-accce-and-police.md">
+<td>
+<span class="listing-date">Jun 11, 2023</span>
+</td>
+<td>
+<a href="/engineering/e2e-fear-campaign-accce-and-police.md" class="title listing-title">The ACCCE &amp; Police’s attack on End-to-End Encryption Tweet Storm</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/e2e-fear-campaign-accce-and-police.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 4:38:28 PM</span>
+</td>
+</tr>
+<tr data-index="75" data-categories="Non-Fiction,Politics,Economics,Technology,Business,Sociology,Computers" data-listing-date-sort="1686492000000" data-listing-file-modified-sort="1710897481757" data-listing-date-modified-sort="1694261394000" data-listing-reading-time-sort="2" data-listing-title-sort="The Age of Surveillance Capitalism" data-listing-filename-sort="the-age-of-surveillance-capitalism.md">
+<td>
+<span class="listing-date">Jun 11, 2023</span>
+</td>
+<td>
+<a href="/antilibrary/the-age-of-surveillance-capitalism.md" class="title listing-title">The Age of Surveillance Capitalism</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:antilibrary/the-age-of-surveillance-capitalism.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">3/20/24, 11:48:01 AM</span>
+</td>
+</tr>
+<tr data-index="76" data-listing-file-modified-sort="1698548820129" data-listing-reading-time-sort="1" data-listing-title-sort="The Anti-Library" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">undefined</span>
+</td>
+<td>
+<a href="/antilibrary/index.qmd" class="title listing-title">The Anti-Library</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:antilibrary/index.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 1:37:00 PM</span>
+</td>
+</tr>
+<tr data-index="77" data-listing-file-modified-sort="1698548962971" data-listing-reading-time-sort="1" data-listing-title-sort="The Art Studio" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">undefined</span>
+</td>
+<td>
+<a href="/art-studio/index.qmd" class="title listing-title">The Art Studio</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:art-studio/index.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 1:39:22 PM</span>
+</td>
+</tr>
+<tr data-index="78" data-listing-file-modified-sort="1698548969166" data-listing-reading-time-sort="1" data-listing-title-sort="The Engineering Anthology" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">undefined</span>
+</td>
+<td>
+<a href="/engineering/index.qmd" class="title listing-title">The Engineering Anthology</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/index.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 1:39:29 PM</span>
+</td>
+</tr>
+<tr data-index="79" data-categories="Non-Fiction,Feminism,Politics,Philosophy,Theory,Feminist Theory,Gender,Social Justice,Academia" data-listing-date-sort="1685541600000" data-listing-file-modified-sort="1698553413901" data-listing-date-modified-sort="1694261394000" data-listing-reading-time-sort="1" data-listing-title-sort="The Feminist and the Sex Offender" data-listing-filename-sort="the-feminist-and-the-sex-offender.md">
+<td>
+<span class="listing-date">May 31, 2023</span>
+</td>
+<td>
+<a href="/antilibrary/the-feminist-and-the-sex-offender.md" class="title listing-title">The Feminist and the Sex Offender</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:antilibrary/the-feminist-and-the-sex-offender.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 2:53:33 PM</span>
+</td>
+</tr>
+<tr data-index="80" data-listing-file-modified-sort="1698548919236" data-listing-reading-time-sort="1" data-listing-title-sort="The Microfarm" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">undefined</span>
+</td>
+<td>
+<a href="/microfarm/index.qmd" class="title listing-title">The Microfarm</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:microfarm/index.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 1:38:39 PM</span>
+</td>
+</tr>
+<tr data-index="81" data-listing-file-modified-sort="1698548927516" data-listing-reading-time-sort="1" data-listing-title-sort="The Notebook" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">undefined</span>
+</td>
+<td>
+<a href="/notebook/index.qmd" class="title listing-title">The Notebook</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:notebook/index.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 1:38:47 PM</span>
+</td>
+</tr>
+<tr data-index="82" data-categories="Seed,Political Science,Definition,Anarchism" data-listing-date-sort="1686492000000" data-listing-file-modified-sort="1697959668641" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="The State" data-listing-filename-sort="the-state.md">
+<td>
+<span class="listing-date">Jun 11, 2023</span>
+</td>
+<td>
+<a href="/notebook/the-state.md" class="title listing-title">The State</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:notebook/the-state.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:57:48 PM</span>
+</td>
+</tr>
+<tr data-index="83" data-listing-file-modified-sort="1698548935489" data-listing-reading-time-sort="1" data-listing-title-sort="The Toolbox" data-listing-filename-sort="index.qmd">
+<td>
+<span class="listing-date">undefined</span>
+</td>
+<td>
+<a href="/toolbox/index.qmd" class="title listing-title">The Toolbox</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:toolbox/index.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 1:38:55 PM</span>
+</td>
+</tr>
+<tr data-index="84" data-categories="Seed,PyTest,Python,Flask,Unit Testing" data-listing-date-sort="1689299062000" data-listing-file-modified-sort="1697956700065" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="Using Pytest with Flask" data-listing-filename-sort="using-pytest-with-flask.md">
+<td>
+<span class="listing-date">Jul 14, 2023</span>
+</td>
+<td>
+<a href="/engineering/using-pytest-with-flask.md" class="title listing-title">Using Pytest with Flask</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/using-pytest-with-flask.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="85" data-categories="Peoples,History" data-listing-date-sort="1685109600000" data-listing-file-modified-sort="1698549868441" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="Wadawurrung and Dja Dja Wurrung People" data-listing-filename-sort="wadawurrung-and-dja-dja-wurrung-people.md">
+<td>
+<span class="listing-date">May 26, 2023</span>
+</td>
+<td>
+<a href="/notebook/wadawurrung-and-dja-dja-wurrung-people.md" class="title listing-title">Wadawurrung and Dja Dja Wurrung People</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:notebook/wadawurrung-and-dja-dja-wurrung-people.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 1:54:28 PM</span>
+</td>
+</tr>
+<tr data-index="86" data-categories="Non-Fiction,Environment,Australia,Climate Change,Politics,Science,Food,Economics,Political Science" data-listing-date-sort="1694047644000" data-listing-file-modified-sort="1698553451084" data-listing-date-modified-sort="1694261394000" data-listing-reading-time-sort="2" data-listing-title-sort="Why you should give a f*ck about farming" data-listing-filename-sort="why-you-should-give-a-f-ck-about-farming.md">
+<td>
+<span class="listing-date">Sep 7, 2023</span>
+</td>
+<td>
+<a href="/antilibrary/why-you-should-give-a-f-ck-about-farming.md" class="title listing-title">Why you should give a f*ck about farming</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:antilibrary/why-you-should-give-a-f-ck-about-farming.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 2:54:11 PM</span>
+</td>
+</tr>
+<tr data-index="87" data-categories="Medium,Relief Printing,Textile Arts,Art Note,Seed" data-listing-date-sort="1685714400000" data-listing-file-modified-sort="1710895323688" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Woodblock" data-listing-filename-sort="woodblock.md">
+<td>
+<span class="listing-date">Jun 2, 2023</span>
+</td>
+<td>
+<a href="/art-studio/woodblock.md" class="title listing-title">Woodblock</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:art-studio/woodblock.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">3/20/24, 11:12:03 AM</span>
+</td>
+</tr>
+<tr data-index="88" data-categories="Seed,WordPress,Fundamentals" data-listing-date-sort="1698137991000" data-listing-file-modified-sort="1698550226721" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-title-sort="WordPress" data-listing-filename-sort="wordpress.md">
+<td>
+<span class="listing-date">Oct 24, 2023</span>
+</td>
+<td>
+<a href="/engineering/wordpress.md" class="title listing-title">WordPress</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:engineering/wordpress.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/29/23, 2:00:26 PM</span>
+</td>
+</tr>
+<tr data-index="89" data-categories="Seed,Vermicomposting" data-listing-date-sort="1696803295000" data-listing-file-modified-sort="1697968862488" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-title-sort="Worm Water" data-listing-filename-sort="worm-water.md">
+<td>
+<span class="listing-date">Oct 9, 2023</span>
+</td>
+<td>
+<a href="/microfarm/worm-water.md" class="title listing-title">Worm Water</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:microfarm/worm-water.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 8:31:02 PM</span>
+</td>
+</tr>
+<tr data-index="90" data-categories="Design,Colour Theory,Graphic Design" data-listing-date-sort="1697348970000" data-listing-file-modified-sort="1697956700545" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="dopeely" data-listing-filename-sort="dopeely.md">
+<td>
+<span class="listing-date">Oct 15, 2023</span>
+</td>
+<td>
+<a href="/toolbox/dopeely.md" class="title listing-title">dopeely</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:toolbox/dopeely.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="91" data-listing-date-sort="1685109600000" data-listing-file-modified-sort="1697956700520" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="errbufferoverfl" data-listing-filename-sort="errbufferoverfl.md">
+<td>
+<span class="listing-date">May 26, 2023</span>
+</td>
+<td>
+<a href="/notebook/errbufferoverfl.md" class="title listing-title">errbufferoverfl</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:notebook/errbufferoverfl.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+<tr data-index="92" data-categories="Microservices" data-listing-date-sort="1697348849000" data-listing-file-modified-sort="1697956700548" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-title-sort="temporal" data-listing-filename-sort="temporal.md">
+<td>
+<span class="listing-date">Oct 15, 2023</span>
+</td>
+<td>
+<a href="/toolbox/temporal.md" class="title listing-title">temporal</a>
+</td>
+<td>
+<span class="listing-description"><!-- desc(5A0113B34292)[max=175]:toolbox/temporal.html --></span>
+</td>
+<td>
+<span class="listing-file-modified">10/22/23, 5:08:20 PM</span>
+</td>
+</tr>
+</tbody>
+
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div>
+</div>
+<div id="quarto-meta-markdown" class="hidden">
+<p><span class="hidden" data-render-id="quarto-metatitle">errbufferoverfl, anarchist, illustrator, reluctant security engineer - The Back of the Book</span> <span class="hidden" data-render-id="quarto-twittercardtitle">errbufferoverfl, anarchist, illustrator, reluctant security engineer - The Back of the Book</span> <span class="hidden" data-render-id="quarto-ogcardtitle">errbufferoverfl, anarchist, illustrator, reluctant security engineer - The Back of the Book</span> <span class="hidden" data-render-id="quarto-metasitename">errbufferoverfl, anarchist, illustrator, reluctant security engineer</span> <span class="hidden" data-render-id="quarto-twittercarddesc">The official back of the book for this digital garden.</span> <span class="hidden" data-render-id="quarto-ogcardddesc">The official back of the book for this digital garden.</span></p>
+</div>
+
+</main> <!-- /main -->
+<script id = "quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/garden\.errbufferoverfl\.me");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <div class='footer-contents'>Published with [Quarto](https://quarto.org/) v<?quarto.version?> | Hosted by [](https://pages.github.com/)</div>  
+    </div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      <div class='footer-contents'>© 2023 errbufferoverfl, Some Rights Reserved | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en)<br>[Ko-Fi](https://ko-fi.com/errbufferoverfl) | [Mastodon](https://genericsocialmediapage.com/@errbufferoverfl) | [Art Mastodon](https://mastodon.art/@errbufferoverfl) | [Github](https://github.com/errbufferoverfl) | [Twitter](https://twitter.com/errbufferoverfl)</div>  
+    </div>
+  </div>
+</footer>
+
+</body>
+
+</html>
