@@ -1,7 +1,7 @@
 ---
 title: "Worm Water"
 author: "errbufferoverfl"
-date: 2023-10-09T09:14:55+11:00
+date: 2023-10-09T08:44:55+10:30
 image: "/imgs/jonathan-kemper-YD5TvbPgmQc-unsplash.jpg"
 categories:
 - Seed
@@ -28,4 +28,7 @@ They also reported trace amounts of Iron, Copper, Manganese, Zinc, Molybdenum, a
 
 But these macro and micro-nutrients will likely fluctuate between leachate batches depending on the contents of the worm farm.
 
-While the jury seems to be out on whether worm water is good or bad for the garden there appear to be common rules while using it: - Ensure it is heavily diluted, most sources indicate a ratio of 1 part leachate to 10 parts water is good. - Use it on ornamental or decorative plants.
+While the jury seems to be out on whether worm water is good or bad for the garden there appear to be common rules while using it: 
+
+- Ensure it is heavily diluted, most sources indicate a ratio of 1 part leachate to 10 parts water is good. 
+- Use it on ornamental or decorative plants.
