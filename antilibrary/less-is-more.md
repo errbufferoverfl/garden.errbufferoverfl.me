@@ -3,13 +3,13 @@ title: Less is More
 date: 2024-03-20T12:28:23+10:30
 image: /imgs/less-is-more.png
 cover: /imgs/less-is-more
-started: 2023-03-02
-completed: 
-page: 202
+started: 2024-03-02
+completed: 2024-04-14
+page: 293
 pages: 293
 publisher: Random House
-status: In Progress
-rating: ☆☆☆☆☆
+status: Completed
+rating: ★★★★★
 author:
   - Jason Hickel
 categories:

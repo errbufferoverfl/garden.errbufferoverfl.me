@@ -4,11 +4,12 @@ date: 2024-03-20T11:23:49+10:30
 image: /imgs/breaking-things-at-work.png
 cover: /imgs/breaking-things-at-work
 started: 2024-02-01
-completed: 
-page: 64
+completed: 2024-04-17
+page: 177
 pages: 177
 publisher: Verso Books
-status: In Progress
+status: Completed
+rating: ★★★★☆
 author: 
 - Gavin Mueller
 categories:
