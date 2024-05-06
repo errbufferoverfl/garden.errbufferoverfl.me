@@ -5,7 +5,7 @@ image: /imgs/environmental-warfare-in-gaza.png
 cover: /imgs/environmental-warfare-in-gaza
 started: 2024-05-05
 completed: 
-page: 0
+page: 10
 pages: 160
 publisher: Pluto Press
 status: "In Progress"
