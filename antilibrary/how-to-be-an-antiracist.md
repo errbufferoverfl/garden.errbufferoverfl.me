@@ -1,8 +1,8 @@
 ---
 title: "How to Be an Antiracist"
 date: 2024-05-06T15:54:18+09:30
-image: /imgs/how-to-be-an-antiracist
-cover: /imgs/how-to-be-an-antiracist.png
+image: /imgs/how-to-be-an-antiracist.png
+cover: /imgs/how-to-be-an-antiracist
 started: 2024-05-04
 completed: 
 page: 88
