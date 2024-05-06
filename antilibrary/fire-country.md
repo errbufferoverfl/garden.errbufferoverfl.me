@@ -1,5 +1,5 @@
 ---
-title: Fire Country How Indigenous Fire Management Could Help Save Australia
+title: "Fire Country How Indigenous Fire Management Could Help Save Australia"
 date: 2024-03-25T14:07:57+10:30
 image: /imgs/fire-country.png
 cover: /imgs/fire-country

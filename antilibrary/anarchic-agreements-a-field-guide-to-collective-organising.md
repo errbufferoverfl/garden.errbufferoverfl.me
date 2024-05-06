@@ -1,5 +1,5 @@
 ---
-title: Anarchic Agreements, a Field Guide to Collective Organising
+title: "Anarchic Agreements, a Field Guide to Collective Organising"
 image: /imgs/anarchic-agreements-a-field-guide-to-collective-organising.png
 cover: /imgs/anarchic-agreements-a-field-guide-to-collective-organising
 date: 2023-05-21

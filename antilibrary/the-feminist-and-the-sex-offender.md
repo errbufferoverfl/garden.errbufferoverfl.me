@@ -1,5 +1,5 @@
 ---
-title: The Feminist and the Sex Offender
+title: "The Feminist and the Sex Offender"
 date: 2023-06-01T00:00:00+10:00
 date-modified: 2023-09-09T22:09:54+10:00
 image: /imgs/the-feminist-and-the-sex-offender.png

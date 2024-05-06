@@ -1,5 +1,5 @@
 ---
-title: Why you should give a f*ck about farming
+title: "Why you should give a f*ck about farming"
 date: 2023-09-07T10:47:24+10:00
 date-modified: 2023-09-09T22:09:54+10:00
 image: /imgs/why-you-should-give-a-f-ck-about-farming.png

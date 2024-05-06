@@ -1,5 +1,5 @@
 ---
-title: Environmental Warfare in Gaza: Colonial Violence and New Landscapes of Resistance
+title: "Environmental Warfare in Gaza Colonial Violence and New Landscapes of Resistance"
 date: 2024-05-06T15:32:07+09:30
 image: /imgs/environmental-warfare-in-gaza.png
 cover: /imgs/environmental-warfare-in-gaza

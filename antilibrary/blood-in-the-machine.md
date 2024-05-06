@@ -1,5 +1,5 @@
 ---
-title: Blood in the Machine
+title: "Blood in the Machine"
 date: 2024-03-20T11:21:17+10:30
 image: /imgs/blood-in-the-machine.png
 cover: /imgs/blood-in-the-machine

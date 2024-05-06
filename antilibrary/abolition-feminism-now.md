@@ -1,5 +1,5 @@
 ---
-title: Abolition. Feminism. Now.
+title: "Abolition. Feminism. Now."
 date: 2024-04-18T06:53:45+09:30
 image: /imgs/abolition-feminism-now.png
 cover: /imgs/abolition-feminism-now

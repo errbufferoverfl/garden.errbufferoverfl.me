@@ -1,5 +1,5 @@
 ---
-title: Cultish
+title: "Cultish"
 date: 2023-10-21T21:04:27+11:00
 image: /imgs/cultish.png
 cover: /imgs/cultish

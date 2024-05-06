@@ -1,5 +1,5 @@
 ---
-title: How to Read a Book
+title: "How to Read a Book"
 date: 2023-10-20T21:31:41+11:00
 image: /imgs/how-to-read-a-book.png
 cover: /imgs/how-to-read-a-book

@@ -1,5 +1,5 @@
 ---
-title: Debt The First 5,000 Years
+title: "Debt The First 5,000 Years"
 date: 2024-03-20T11:14:47+10:30
 image: /imgs/debt.png
 cover: /imgs/debt

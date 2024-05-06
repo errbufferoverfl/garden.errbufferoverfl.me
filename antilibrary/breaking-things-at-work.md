@@ -1,5 +1,5 @@
 ---
-title: Breaking Things at Work
+title: "Breaking Things at Work"
 date: 2024-03-20T11:23:49+10:30
 image: /imgs/breaking-things-at-work.png
 cover: /imgs/breaking-things-at-work

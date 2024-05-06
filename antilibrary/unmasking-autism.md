@@ -1,5 +1,5 @@
 ---
-title: Unmasking Autism: Discovering the New Faces of Neurodiversity
+title: "Unmasking Autism Discovering the New Faces of Neurodiversity"
 date: 2024-05-06T15:25:03+09:30
 image: /imgs/unmasking-autism.png
 cover: /imgs/unmasking-autism

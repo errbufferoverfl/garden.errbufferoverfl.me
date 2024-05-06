@@ -1,5 +1,5 @@
 ---
-title: Less is More
+title: "Less is More"
 date: 2024-03-20T12:28:23+10:30
 image: /imgs/less-is-more.png
 cover: /imgs/less-is-more

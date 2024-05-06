@@ -1,5 +1,5 @@
 ---
-title: Chasing Shadows
+title: "Chasing Shadows"
 date: 2022-12-09
 image: /imgs/chasing-shadows.png
 cover: /imgs/chasing-shadows

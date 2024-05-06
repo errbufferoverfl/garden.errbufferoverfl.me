@@ -1,5 +1,5 @@
 ---
-title: Ghost Work
+title: "Ghost Work"
 date: 2023-06-29T23:00:43+10:00
 date-modified: 2023-10-14T22:18:24+11:00
 image: /imgs/ghost-work.png

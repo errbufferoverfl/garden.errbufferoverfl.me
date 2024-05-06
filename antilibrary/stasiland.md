@@ -1,5 +1,5 @@
 ---
-title: Stasiland
+title: "Stasiland"
 date: 2023-09-07T10:54:15+10:00
 date-modified: 2023-09-09T22:09:54+10:00
 image: /imgs/stasiland.png
