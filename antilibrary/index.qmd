@@ -8,7 +8,7 @@ listing:
     sort: "date desc"
     type: grid
     categories: numbered
-    sort-ui: true
+    sort-ui: false
     filter-ui: true
     include:
       status: "Backlog"
@@ -18,7 +18,7 @@ listing:
     sort: "date desc"
     type: grid
     categories: numbered
-    sort-ui: true
+    sort-ui: false
     filter-ui: true
     include:
       status: "In Progress"
@@ -28,7 +28,7 @@ listing:
     sort: "completed desc"
     type: grid
     categories: numbered
-    sort-ui: true
+    sort-ui: false
     filter-ui: true
     include:
       status: "Completed"
@@ -38,7 +38,7 @@ listing:
     sort: "completed desc"
     type: grid
     categories: numbered
-    sort-ui: true
+    sort-ui: false
     filter-ui: true
     include:
       status: "Incomplete"
