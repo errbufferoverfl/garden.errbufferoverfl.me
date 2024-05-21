@@ -11,6 +11,7 @@ page: 256
 pages: 256
 rating: ★★★★★
 publisher: PM Press
+type: Book
 author:
   - Silvia Federici
 categories:

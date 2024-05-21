@@ -10,6 +10,7 @@ pages: 362
 publisher: Hachette UK
 status: "In Progress"
 rating: ☆☆☆☆☆
+type: Book
 author: 
 - Vincent Bevins
 categories:

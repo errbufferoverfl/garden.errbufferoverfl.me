@@ -10,6 +10,7 @@ pages: 197
 publisher: Haymarket Books
 status: "Completed"
 rating: ★★★★★
+type: "Book"
 author: 
 - Angela Y. Davis
 - Gina Dent

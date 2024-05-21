@@ -12,6 +12,7 @@ pages: 269
 status: "Completed"
 rating: ★★★☆☆
 publisher: Random House
+type: Book
 author:
   - Maria Ressa
 categories:

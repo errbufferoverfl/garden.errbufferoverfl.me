@@ -9,6 +9,7 @@ page:
 pages:
 status: Incomplete
 publisher: Simon & Schuster, Inc
+type: Book
 author:
 - Mortimer J. Adler
 - Charles Van Doren

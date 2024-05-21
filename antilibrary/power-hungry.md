@@ -11,6 +11,7 @@ pages: 269
 status: "Completed"
 rating: ★★★☆☆
 publisher: Chicago Review Press
+type: Book
 author:
   - Suzanne Cope
 categories:

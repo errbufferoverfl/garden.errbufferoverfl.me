@@ -11,6 +11,7 @@ pages: 286
 status: "Completed"
 rating: ★★★★☆
 publisher: Odyssey Editions
+type: Book
 author:
   - Anna Funder
 categories:

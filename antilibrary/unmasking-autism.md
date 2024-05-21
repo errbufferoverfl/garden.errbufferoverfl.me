@@ -8,8 +8,9 @@ completed: 2024-04-05
 page: 300
 pages: 300
 publisher: Hachette UK
-status: "Completed"
+status: Completed
 rating: ★★★★★
+type: Book
 author: 
 - Devon Price
 categories:

@@ -10,6 +10,7 @@ pages: 176
 status: "Completed"
 rating: ★★★☆☆
 publisher: Pluto Press
+type: Book
 author:
   - Amelia Horgan
 categories:

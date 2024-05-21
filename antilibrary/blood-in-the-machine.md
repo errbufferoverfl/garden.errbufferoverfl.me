@@ -8,6 +8,7 @@ completed:
 page: 0
 pages: 545
 publisher: Hachette UK
+type: Book
 status: Backlog
 author: 
 - Brian Merchant

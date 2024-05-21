@@ -10,6 +10,7 @@ page: 105
 pages: 704
 status: "Incomplete"
 publisher: Profile Books
+type: Book
 author:
   - Shoshana Zuboff
 categories:

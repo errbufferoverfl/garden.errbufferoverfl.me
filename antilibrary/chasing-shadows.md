@@ -7,7 +7,8 @@ started: 2022-12-09
 completed: 2023-01-22
 page: 251
 pages: 392
-status: "Completed"
+status: Completed
+type: Book
 rating: ★★★★☆
 publisher: "Allen & Unwin"
 author:

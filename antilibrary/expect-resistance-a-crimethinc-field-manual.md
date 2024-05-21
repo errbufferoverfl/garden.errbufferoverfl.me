@@ -10,6 +10,7 @@ page:
 pages:
 status: Incomplete
 publisher: CrimethInc. Collective
+type: Book
 author:
   - CrimethInc. Ex-Workers' Collective
 categories:

@@ -10,6 +10,7 @@ pages: 260
 publisher: Hardie Grant Publishing
 status: "In Progress"
 rating: ☆☆☆☆☆
+type: Book
 author: 
 - Victor Steffensen
 categories:

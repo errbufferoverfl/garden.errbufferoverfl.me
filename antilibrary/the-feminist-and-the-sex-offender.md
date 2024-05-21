@@ -11,6 +11,7 @@ pages: 225
 status: "Completed"
 rating: ★★★★☆
 publisher: Verso Books
+type: Book
 author:
   - Judith Levine
   - Erica R. Meiners

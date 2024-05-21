@@ -10,6 +10,7 @@ pages: 401
 publisher: One World
 status: "In Progress"
 rating: ☆☆☆☆☆
+type: Book
 author: 
 - Ibram X. Kendi
 categories:

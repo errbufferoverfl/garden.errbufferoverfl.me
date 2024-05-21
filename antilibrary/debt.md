@@ -8,6 +8,7 @@ completed:
 page: 75
 pages: 534
 publisher: National Geographic Books
+type: Book
 status: In Progress
 author: 
   - David Graeber

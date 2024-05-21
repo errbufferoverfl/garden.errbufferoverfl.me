@@ -10,6 +10,7 @@ pages: 293
 publisher: Random House
 status: Completed
 rating: ★★★★★
+type: Book
 author:
   - Jason Hickel
 categories:

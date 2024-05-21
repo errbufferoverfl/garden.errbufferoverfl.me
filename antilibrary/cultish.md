@@ -6,9 +6,10 @@ cover: /imgs/cultish
 started: 2023-10-21
 completed: 2023-11-02
 publisher: Harper Collins
-page: "104"
+page: 104
 pages: 309
 status: Completed
+type: Book
 rating: ★★★★☆
 author:
   - Amanda Montell

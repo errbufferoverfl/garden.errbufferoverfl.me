@@ -8,9 +8,10 @@ started: 2023-01-22
 completed: 2023-01-28
 page: 295
 pages: 322
-status: "Completed"
+status: Completed
 rating: ★★★★☆
 publisher: Random House Australia
+type: Book
 author:
   - Gabrielle Chan
 categories:

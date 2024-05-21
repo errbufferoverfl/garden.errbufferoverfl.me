@@ -11,6 +11,7 @@ page: 297
 pages: 297
 rating: ★★★☆☆
 publisher: Eamon Dolan Books
+type: Book
 author:
   - Mary L. Gray
   - Siddharth Suri

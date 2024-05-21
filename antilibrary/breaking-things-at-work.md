@@ -9,6 +9,7 @@ page: 177
 pages: 177
 publisher: Verso Books
 status: Completed
+type: Book
 rating: ★★★★☆
 author: 
 - Gavin Mueller

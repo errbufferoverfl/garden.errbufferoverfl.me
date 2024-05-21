@@ -9,6 +9,7 @@ page: 113
 pages: 113
 status: "Completed"
 rating: ★★★★★
+type: "Book"
 publisher: PM Press
 author:
   - Ruth Kinna
