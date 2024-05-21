@@ -3,13 +3,14 @@ title: Environmental Warfare in Gaza Colonial Violence and New Landscapes of Res
 date: 2024-05-06T15:32:07+09:30
 image: /imgs/environmental-warfare-in-gaza.png
 cover: /imgs/environmental-warfare-in-gaza
-started: 2024-05-05
+started: 2024-05-21
 completed: 2024-05-17
-page: 10
+page: 160
 pages: 160
 publisher: Pluto Press
 type: Book
 status: Completed
+rating: ★★★★☆
 author:
   - Shourideh. C. Molavi
 categories:

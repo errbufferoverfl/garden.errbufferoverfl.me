@@ -25,6 +25,7 @@ pages: {{totalPage}}
 publisher: {{publisher}}
 status: "<% status %>"
 rating: ☆☆☆☆☆
+type: Book
 author: 
 <% authors.map(line => `- ${line.trim()}\n`) -%>
 categories:
