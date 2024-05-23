@@ -190,6 +190,10 @@ User-agent: GPTBot
 User-agent: ChatGPT-User
 User-agent: Google-Extended
 User-agent: CCBot
+User-agent: PerplexityBot
+User-agent: anthropic-ai
+User-agent: Claude-Web
+User-agent: ClaudeBot
 Disallow: /
 
 Sitemap: https://garden.errbufferoverfl.me/sitemap.xml
