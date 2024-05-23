@@ -57,7 +57,7 @@ website:
           - text: About Me
             url: index.qmd
       - icon: rss
-        href: index.xml
+        href: bob.xml
 
   page-footer:
     border: false
