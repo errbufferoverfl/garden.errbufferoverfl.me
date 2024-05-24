@@ -3,7 +3,6 @@ title: "How to Stand Up to a Dictator"
 date: 2022-11-17T00:00:00+11:00
 date-modified: 2023-10-2023
 image: /imgs/how-to-stand-up-to-a-dictator.png
-cover: /imgs/how-to-stand-up-to-a-dictator
 alt: "How to Stand Up to a Dictator Book Cover"
 started: 2023-08-11
 completed: 2023-09-07
@@ -45,7 +44,7 @@ _How to Stand Up to a Dictator is the story of how democracy dies by a thousand 
 
 ::: {.column width="40%"}
 
-![]({{< meta cover >}})
+![]({{< meta image >}})
 
 published on November 17, 2022 by {{< meta publisher >}}
 

@@ -2,7 +2,6 @@
 title: "How to Read a Book"
 date: 2023-10-20T21:31:41+11:00
 image: /imgs/how-to-read-a-book.png
-cover: /imgs/how-to-read-a-book
 started: 2023-10-17
 completed:
 page:
@@ -42,7 +41,7 @@ categories:
 :::
 
 ::: {.column width="40%"}
-![]({{< meta cover >}})
+![]({{< meta image >}})
 
 published on 2014-09-30 by {{< meta publisher >}}
 

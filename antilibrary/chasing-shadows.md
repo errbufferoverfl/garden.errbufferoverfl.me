@@ -2,7 +2,6 @@
 title: "Chasing Shadows"
 date: 2022-12-09
 image: /imgs/chasing-shadows.png
-cover: /imgs/chasing-shadows
 started: 2022-12-09
 completed: 2023-01-22
 page: 251
@@ -33,7 +32,7 @@ categories:
 :::
 ::: {.column width="40%"}
 
-![]({{< meta cover >}})
+![]({{< meta image >}})
 
 published on Feburary 01, 2022 by {{< meta publisher >}}
 

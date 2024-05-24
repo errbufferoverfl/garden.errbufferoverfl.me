@@ -3,7 +3,6 @@ title: "Expect Resistance: A Crimethink Field Manual"
 date: 2023-06-20T21:30:40+10:00
 date-modified: 2023-09-09T22:09:54+10:00
 image: /imgs/expect-resistance-a-crimethinc-field-manual.png
-cover: /imgs/expect-resistance-a-crimethinc-field-manual
 started: 
 completed: 
 page:
@@ -41,7 +40,7 @@ _Together these comprise a third book, an exploration of the complex relationshi
 
 ::: {.column width="40%"}
 
-![]({{< meta cover >}})
+![]({{< meta image >}})
 
 published in 2008 by {{< meta publisher >}}
 

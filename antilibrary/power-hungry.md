@@ -3,7 +3,6 @@ title: "Power Hungry"
 date: 2023-09-07T10:55:41+10:00
 date-modified: 2023-09-09T22:09:54+10:00
 image: "/imgs/power-hungry.png"
-cover: "/imgs/power-hungry"
 started: 2023-01-30
 completed: 2023-02-22
 page: 269
@@ -44,7 +43,7 @@ _The leadership of these women cooking and serving food in a safe space for thei
 
 ::: {.column width="40%"}
 
-![]({{< meta cover >}})
+![]({{< meta image >}})
 
 published on November 09, 2021 by {{< meta publisher >}}
 

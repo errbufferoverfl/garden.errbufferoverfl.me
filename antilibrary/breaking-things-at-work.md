@@ -2,7 +2,6 @@
 title: "Breaking Things at Work"
 date: 2024-03-20T11:23:49+10:30
 image: /imgs/breaking-things-at-work.png
-cover: /imgs/breaking-things-at-work
 started: 2024-02-01
 completed: 2024-04-17
 page: 177
@@ -45,7 +44,7 @@ categories:
 
 ::: {.column width="40%"}
 
-![]({{< meta cover >}})
+![]({{< meta image >}})
 
 published on March 02, 2021 by {{< meta publisher >}}
 

@@ -3,7 +3,6 @@ title: "Why you should give a f*ck about farming"
 date: 2023-09-07T10:47:24+10:00
 date-modified: 2023-09-09T22:09:54+10:00
 image: /imgs/why-you-should-give-a-f-ck-about-farming.png
-cover: /imgs/why-you-should-give-a-f-ck-about-farming
 started: 2023-01-22
 completed: 2023-01-28
 page: 295
@@ -46,7 +45,7 @@ _She lays out how our nation, its leaders, farmers and eaters can usher in new w
 
 ::: {.column width="40%"}
 
-![]({{< meta cover >}})
+![]({{< meta image >}})
 
 published on August 31, 2021 by {{< meta publisher >}}
 

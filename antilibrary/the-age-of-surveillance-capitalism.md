@@ -3,7 +3,6 @@ title: "The Age of Surveillance Capitalism"
 date: 2023-06-12T00:00:00+10:00
 date-modified: 2023-09-09T22:09:54+10:00
 image: /imgs/the-age-of-surveillance-capitalism.png
-cover: /imgs/the-age-of-surveillance-capitalism
 started: 2022-06-01
 completed: 
 page: 105
@@ -43,7 +42,7 @@ _The Age of Surveillance Capitalism is a deeply-reasoned examination of the thre
 
 ::: {.column width="40%"}
 
-![]({{< meta cover >}})
+![]({{< meta image >}})
 
 published on January 31, 2019 by {{< meta publisher >}}
 

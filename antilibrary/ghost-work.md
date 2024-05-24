@@ -3,7 +3,6 @@ title: "Ghost Work"
 date: 2023-06-29T23:00:43+10:00
 date-modified: 2023-10-14T22:18:24+11:00
 image: /imgs/ghost-work.png
-cover: /imgs/ghost-work
 status: "Completed"
 started: 2023-08-01
 completed: 2023-08-17
@@ -42,7 +41,7 @@ categories:
 
 ::: {.column width="40%"}
 
-![]({{< meta cover >}})
+![]({{< meta image >}})
 
 published on 2019 by {{< meta publisher >}}
 

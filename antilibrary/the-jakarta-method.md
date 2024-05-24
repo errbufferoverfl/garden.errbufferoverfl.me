@@ -2,7 +2,6 @@
 title: "The Jakarta Method Washington's Anticommunist Crusade and the Mass Murder Program that Shaped Our World"
 date: 2024-05-06T15:57:17+09:30
 image: /imgs/the-jakarta-method.png
-cover: /imgs/the-jakarta-method
 started: 2024-05-04
 completed: 
 page: 32
@@ -46,7 +45,7 @@ categories:
 :::
 ::: {.column width="40%"}
 
-![]({{< meta cover >}})
+![]({{< meta image >}})
 
 published on 2020-05-19 by {{< meta publisher >}}
 

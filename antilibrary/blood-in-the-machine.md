@@ -2,7 +2,6 @@
 title: "Blood in the Machine"
 date: 2024-03-20T11:21:17+10:30
 image: /imgs/blood-in-the-machine.png
-cover: /imgs/blood-in-the-machine
 started: 
 completed: 
 page: 0
@@ -48,7 +47,7 @@ categories:
 
 ::: {.column width="40%"}
 
-![]({{< meta cover >}})
+![]({{< meta image >}})
 
 published on September 26, 2023 by {{< meta publisher >}}
 

@@ -2,7 +2,6 @@
 title: "Cultish"
 date: 2023-10-21T21:04:27+11:00
 image: /imgs/cultish.png
-cover: /imgs/cultish
 started: 2023-10-21
 completed: 2023-11-02
 publisher: Harper Collins
@@ -54,7 +53,7 @@ _In both positive ways and shadowy ones, cultish language is something we hearâ€
 
 ::: {.column width="40%"}
 
-![]({{< meta cover >}})
+![]({{< meta image >}})
 
 published on 2021-06-15 by {{< meta publisher >}}
 

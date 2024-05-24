@@ -3,7 +3,6 @@ title: "Revolution at Point Zero"
 date: 2023-01-28T00:00:00+11:00
 date-modified: 2023-09-09T22:09:54+10:00
 image: /imgs/revolution-at-point-zero.png
-cover: /imgs/revolution-at-point-zero
 started: 2022-04-30
 completed: 2023-01-28
 status: "Completed"
@@ -41,7 +40,7 @@ _Beginning with Federici’s organisational work in the Wages for Housework move
 
 ::: {.column width="40%"}
 
-![]({{< meta cover >}})
+![]({{< meta image >}})
 
 published on August 01, 2020 by {{< meta publisher >}}
 

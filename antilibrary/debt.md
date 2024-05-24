@@ -2,7 +2,6 @@
 title: "Debt The First 5,000 Years"
 date: 2024-03-20T11:14:47+10:30
 image: /imgs/debt.png
-cover: /imgs/debt
 started: 2024-02-01
 completed: 
 page: 75
@@ -46,7 +45,7 @@ categories:
 
 ::: {.column width="40%"}
 
-![]({{< meta cover >}})
+![]({{< meta image >}})
 
 published on November 22, 2022 by {{< meta publisher >}}
 

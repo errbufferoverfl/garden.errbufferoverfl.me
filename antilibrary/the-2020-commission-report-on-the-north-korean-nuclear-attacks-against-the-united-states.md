@@ -3,7 +3,6 @@ title: "The 2020 Commission Report on the North Korean Nuclear Attacks Against T
 date: 2023-09-07T10:53:10+10:00
 date-modified: 2023-09-09T22:09:54+10:00
 image: /imgs/the-2020-commission-report-on-the-north-korean-nuclear-attacks-against-the-united-states.png
-cover: /imgs/the-2020-commission-report-on-the-north-korean-nuclear-attacks-against-the-united-states
 rating: ★★★★☆
 page: 304
 pages: 304
@@ -40,7 +39,7 @@ _‘The skies over the Korean Peninsula on March 21, 2020, were clear and blue .
 
 ::: {.column width="40%"}
 
-![]({{< meta cover >}})
+![]({{< meta image >}})
 
 published on August 07, 2018 by {{< meta publisher >}}
 
