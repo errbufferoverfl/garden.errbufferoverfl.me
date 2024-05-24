@@ -7,7 +7,7 @@ project:
     - "*.jpg"
     - "*.png"
   post-render:
-    - python attach_xsl.py
+    - python3 attach_xsl.py
 
   preview:
       port: 8086
