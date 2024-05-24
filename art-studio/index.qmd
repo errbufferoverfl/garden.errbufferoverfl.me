@@ -10,7 +10,7 @@ listing:
     categories: numbered
     sort-ui: true
     filter-ui: true
-    image-placeholder: placeholder.jpg
+    image-placeholder: ../imgs/placeholder-art-studio.jpg
     include:
       status: "Illustration"
   - id: notes
@@ -21,7 +21,7 @@ listing:
     categories: numbered
     sort-ui: true
     filter-ui: true
-    image-placeholder: placeholder.jpg
+    image-placeholder: /imgs/placeholder-art-studio.jpg
     include:
       categories: "Art Note"
 toc: false

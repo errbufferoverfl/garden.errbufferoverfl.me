@@ -9,6 +9,6 @@ listing:
     categories: numbered
     sort-ui: true
     filter-ui: true
-    image-placeholder: "placeholder.png"
+    image-placeholder: /imgs/placeholder-notebook.png
 toc: false
 ---

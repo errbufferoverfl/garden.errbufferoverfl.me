@@ -9,6 +9,6 @@ listing:
   categories: numbered
   sort-ui: true
   filter-ui: true
-  image-placeholder: placeholder.jpg
+  image-placeholder: /imgs/placeholder-engineering.jpg
 toc: false
 ---
