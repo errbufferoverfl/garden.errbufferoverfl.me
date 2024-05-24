@@ -2,9 +2,9 @@
 title: "errbufferoverfl"
 image: /imgs/profile.png
 about:
-  template: broadside
+  template: trestles
   links:
-    - icon: cup
+    - icon: postage-heart-fill
       text: Ko-Fi
       href: https://ko-fi.com/errbufferoverfl
     - icon: mastodon
@@ -27,12 +27,10 @@ toc: false
 
 ## anarchist, illustrator, reluctant security engineer
 
-I'm an anarchist, gardener, knowledge librarian & artist at heart, but security engineer by trade. I currently live on the unceded land of the [Wadawurrung and Dja Dja Wurrung People](/notebook/wadawurrung-and-dja-dja-wurrung-people.md).
+Howdy! I'm errbufferoverfl. Welcome to my digital garden. I'm happy you're here. Please make yourself comfortable. By day, I'm the reluctant security engineer working on browser-based ecosystem security and OAuth stuff. By night I'm a gardener, knowledge librarian & artist. I currently live on the unceded land of the Boandik Peoples.
 
-I'm passionate about social-anarchy, anti-capitalism & revolution; my main focuses are subsistence-farming, sustainable living, subverting surveillance capitalism, peer to peer technologies and a host of other things.
+I'm passionate about social-anarchy, anti-capitalism & revolution; my main focuses are subsistence-farming, sustainable living, subverting surveillance capitalism, peer to peer technologies and anything I'm hyper fixated on at the time.
 
-My favourite RFC is [RFC 7282](/engineering/consensus-and-humming-in-the-ietf.md) 🐝.
+_Gardens_ while not originally named is my digital garden and personal assistant. It's an ever growing, changing, living document that functions as a repository for projects and a personal database for knowledge. It is a place where I collect words and thoughts as the years drift by. 
 
-This is my digital garden a space at the intersection of a notebook and a blog where I cultivate my thoughts in public. Inside, you'll find very few polished articles, but lots of free form, work in progress notes.
-
-A garden stands before you. Take a deep breath [and enter](/notebook/index.qmd).
+Welcome, I'm glad you're here, feel free to [poke around](/notebook).
