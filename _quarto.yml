@@ -1,6 +1,13 @@
 project:
   type: website
   output-dir: _site
+  resources:
+    - "*.xsl"
+    - "xsl.css"
+    - "*.jpg"
+    - "*.png"
+  post-render:
+    - python attach_xsl.py
 
   preview:
       port: 8086
