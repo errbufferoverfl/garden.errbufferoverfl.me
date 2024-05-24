@@ -27,7 +27,7 @@ def attach_xsl_to_xml(xml_file_path, xsl_file_name):
 
 def main():
     # Directory where the Quarto output files are located
-    output_dir = '_site'  # Adjust this if your output directory is different
+    output_dir = 'public'  # Adjust this if your output directory is different
     
     # Define the specific files and their corresponding XSL files
     xsl_mapping = {
