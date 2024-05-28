@@ -30,6 +30,10 @@ body{
     background-color: #fffbf2;
 }
 
+.navbar-brand > img {
+    max-height: 40px 
+  }
+
 .navbar .dropdown-item {
     color: $theme-link-color !important;
     font-family: $font-family-sans-serif !important;
@@ -121,6 +125,10 @@ a {
     &:hover {
         color: $theme-link-hover-color;
     }
+}
+
+progress {
+    width: 100%;
 }
 
 .page-columns .column-page-left table {
