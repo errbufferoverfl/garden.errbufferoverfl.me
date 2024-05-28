@@ -101,10 +101,8 @@ format:
     lang: en
     author-meta: errbufferoverfl
     theme: 
-      light: flatly
-      dark: darkly
-    css: 
-      - styles.css
+      - cosmo
+      - assets/custom.scss
     include-in-header: "csp.html"
     highlight-style: dracula
 

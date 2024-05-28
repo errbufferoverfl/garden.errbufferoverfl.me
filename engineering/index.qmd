@@ -3,7 +3,7 @@ title: "The Engineering Anthology"
 subtitle: "A collection of musings and evolving ideas about security engineering and development practices."
 listing:
   contents: .
-  fields: [image, date, title, categories, reading-time, description]
+  fields: [image, date, title, categories]
   sort: "date desc"
   type: grid
   categories: numbered

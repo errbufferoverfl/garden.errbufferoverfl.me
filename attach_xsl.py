@@ -31,8 +31,8 @@ def main():
     
     # Define the specific files and their corresponding XSL files
     xsl_mapping = {
-        'sitemap.xml': 'sitemap.xsl',
-        'bob.xml': 'rss.xsl'
+        'sitemap.xml': 'assets/sitemap.xsl',
+        'bob.xml': 'assets/rss.xsl'
     }
     
     # Find all XML files in the output directory

@@ -3,7 +3,7 @@ title: "The Notebook"
 subtitle: "A collection of musings and evolving ideas."
 listing:
     contents: .
-    fields: [image, date, title, categories, reading-time, description]
+    fields: [image, date, title, categories]
     sort: "date desc"
     type: grid
     categories: numbered
