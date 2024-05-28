@@ -1,11 +1,8 @@
 ---
 title: "InterPlanetary File System"
-subtitle: ""
 author: "errbufferoverfl"
-date: 2023-06-11T00:00:00+10:00
-description: ""
+date: 2023-06-10T23:30:00+09:30
 image: "/imgs/pawel-czerwinski-OALPS7O3jXs-unsplash.jpg"
-image-alt: ""
 categories:
 - Seed
 - Protocol

@@ -10,4 +10,5 @@ listing:
 date-format: "MMMM, YYYY"
 max-description-length: 500
 toc: false
+repo-actions: false
 ---

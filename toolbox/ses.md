@@ -1,6 +1,6 @@
 ---
 title: "SES Hardened JavaScript for Fearless Cooperation"
-date: 2023-10-15T16:45:24+11:00
+date: 2023-10-15T16:15:24+10:30
 url: 
 categories:
 - Javascript

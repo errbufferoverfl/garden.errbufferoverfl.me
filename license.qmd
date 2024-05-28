@@ -1,0 +1,9 @@
+---
+title: "License"
+citation: false
+toc: false
+comments: false
+repo-actions: false
+---
+
+All pages on [garden.errbufferoverfl.me](https://garden.errbufferoverfl.me) are labeled with the license for the document under the `#reuse` anchor. For detailed information about how content can be reused, please refer to the licensing information provided there.

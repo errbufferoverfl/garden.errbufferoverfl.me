@@ -25,6 +25,7 @@ listing:
     include:
       categories: "Art Note"
 toc: false
+repo-actions: false
 ---
 
 If you've been enjoying my work and finding it entertaining. Your support means the world to me, and I can't thank you enough for being a part of this journey.

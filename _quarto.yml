@@ -28,7 +28,10 @@ website:
   twitter-card:
     creator: "@errbufferoverfl"
     site: "@errbufferoverfl"
-  open-graph: true
+    card-style: summary
+  open-graph:
+    locale: en_EN
+    site-name: garden.errbufferoverfl.me
   repo-url: https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me
   issue-url: https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me/-/issues
   repo-branch: hugo
@@ -36,6 +39,9 @@ website:
     - edit
     - source
     - issue
+
+  search:
+    show-item-context: true
 
   navbar:
     logo: "/imgs/logo.png"
@@ -61,16 +67,34 @@ website:
             url: /soapbox/
           - text: The Back of the Book
             url: bob.qmd
-          - text: About Me
-            url: index.qmd
-      - icon: rss
-        href: bob.xml
 
   page-footer:
     border: false
     left: "Published with [Quarto](https://quarto.org/) v<?quarto.version?> | Hosted by [{{< iconify simple-icons gitlab >}}](https://pages.gitlab.com/)"
-    right: "© 2023 errbufferoverfl, Some Rights Reserved | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en)<br>[Ko-Fi](https://ko-fi.com/errbufferoverfl) | [Mastodon](https://genericsocialmediapage.com/@errbufferoverfl) | [Art Mastodon](https://mastodon
-    .art/@errbufferoverfl) | [GitLab](https://gitlab.com/errbufferoverfl) | [Github](https://github.com/errbufferoverfl) | [Twitter](https://twitter.com/errbufferoverfl)"
+    center: |
+      <a class="link-dark me-1" href="https://ko-fi.com/errbufferoverfl" title="Ko-Fi" target="_blank"rel="noopener">{{< fa solid mug-hot >}}</a>
+      <a class="link-dark me-1" href="https://mastodon.art/@errbufferoverfl" title="Mastodon" target="_blank" rel="noopener">{{< fa solid paintbrush >}}</a>
+      <a class="link-dark me-1" href="https://genericsocialmediapage.com/@errbufferoverfl" title="Mastodon" target="_blank" rel="noopener">{{< fa brands mastodon >}}</a>
+      <a class="link-dark me-1" href="https://gitlab.com/errbufferoverfl" title="Gitlab" target="_blank" rel="noopener">{{< fa brands gitlab >}}</a>
+      <a class="link-dark me-1" href="https://github.com/errbufferoverfl" title="Github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
+      <a class="link-dark me-1" href="https://x.com/errbufferoverfl" title="X (formerly Twitter)" target="_blank" rel="noopener">{{<fa brands twitter>}}</a>
+
+    right:
+      - text: "Contact"
+        aria-label: "Contact Form"
+        href: "contact.qmd"
+      - text: "License"
+        aria-label: "License Details"
+        href: "license.qmd"
+      - text: About
+        aria-label: "About Me"
+        url: "index.qmd"
+      - text: "The Back of the Book"
+        aria-label: "All Pages"
+        url: "bob.qmd"
+      - text: "|"
+      - icon: rss
+        href: bob.xml
 
 format:
   html:
@@ -104,6 +128,14 @@ format:
     anchor-sections: true
     callout-appearance: simple
     email-obfuscation: javascript
+
+    page-layout: article
+
+    lightbox: true
+    license: CC BY-SA
+
+    appendix-style: plain
+    appendix-cite-as: display
     
 filters:
   - quarto-version.lua

@@ -1,6 +1,6 @@
 ---
 title: "Content Credentials"
-date: 2023-10-22T20:01:12+11:00
+date: 2023-10-22T19:31:12+10:30
 categories:
 - Trust & Saftey
 - Open Standard
@@ -12,5 +12,3 @@ Content Credentials make the origin and history of content available for everyon
 Content Credentials are based on an open technical specification developed and maintained by the [C2PA](https://c2pa.org/), a cross-industry standards development organisation. You can review the specification anytime.
 
 [Website](https://contentcredentials.org/)
-
-## **Additional Notes**

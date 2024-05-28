@@ -31,4 +31,5 @@ title-block-banner: true
 citation: false
 toc: false
 comments: false
+repo-actions: false
 ---

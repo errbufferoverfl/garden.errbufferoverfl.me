@@ -10,4 +10,5 @@ listing:
   sort-ui: true
   filter-ui: true
 toc: false
+repo-actions: false
 ---

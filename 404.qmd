@@ -1,5 +1,9 @@
 ---
 title: Page Not Found
+citation: false
+toc: false
+comments: false
+repo-actions: false
 ---
 
 ::: columns

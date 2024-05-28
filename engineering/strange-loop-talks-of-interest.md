@@ -1,7 +1,7 @@
 ---
 title: "Strange Loop Talks of Interest"
 author: "errbufferoverfl"
-date: 2023-10-29T17:19:43+11:00
+date: 2023-10-29T16:49:43+10:30
 categories:
 - Seed
 - Strange Loop
@@ -10,7 +10,7 @@ categories:
 
 - [All About Regular Expressions](https://www.thestrangeloop.com/2022/all-slash-sabout-slash-sregular-slash-sexpressions-$.html)
 - [Improving code reading skills together](https://www.thestrangeloop.com/2022/improving-code-reading-skills-together.html)
-	- https://github.com/neontribe/code-reading-club/
+	- [Github - Code Reading Club](https://github.com/neontribe/code-reading-club/)
 - [The State of JavaScript - Strange Loop](https://www.thestrangeloop.com/2012/the-state-of-javascript.html)
 - [Pushing the Limits of Web Browsers - Strange Loop](https://www.thestrangeloop.com/2012/pushing-the-limits-of-web-browsers.html)
 - [Chrome Security Secret Sauce - Strange Loop](https://www.thestrangeloop.com/2013/chrome-security-secret-sauce.html)

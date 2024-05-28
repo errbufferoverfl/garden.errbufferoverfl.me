@@ -1,0 +1,37 @@
+---
+pagetitle: errbufferoverfl - Send me a Note
+---
+
+::: columns
+::: {.column width="50%"}
+
+# Send me a note {{< fa feather-pointed >}}
+
+Hey there!
+
+Before you try to contact me, let's get a few things straight. If you’re here to ask me to be the next hire on your security engineering team or think, based on my website I'd make a great culture fit, let me stop you right there. The only "culture fits" I want to hear about are organizing fermented products in the cold store, and frankly I've got enough on my plate already.
+
+You see, if the universe really wanted me to be that contactable, it would have equipped me with an SMTP server at birth. Instead, it gave me a a strong desire to become the creature that terrifies the townfolk and a cat named Lyla who demands most of my attention.
+
+For everything else, go ahead and drop me a line. Just remember, I might take a while to respond – after all, I’m still waiting for my built-in email system upgrade.
+
+<a class="link-dark me-1" href="https://ko-fi.com/errbufferoverfl" title="Ko-Fi" target="_blank"rel="noopener">{{< fa solid mug-hot >}}</a>
+<a class="link-dark me-1" href="https://mastodon.art/@errbufferoverfl" title="Mastodon" target="_blank" rel="noopener">{{< fa solid paintbrush >}}</a>
+<a class="link-dark me-1" href="https://genericsocialmediapage.com/@errbufferoverfl" title="Mastodon" target="_blank" rel="noopener">{{< fa brands mastodon >}}</a>
+<a class="link-dark me-1" href="https://gitlab.com/errbufferoverfl" title="Gitlab" target="_blank" rel="noopener">{{< fa brands gitlab >}}</a>
+<a class="link-dark me-1" href="https://github.com/errbufferoverfl" title="Github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
+<a class="link-dark me-1" href="https://x.com/errbufferoverfl" title="X (formerly Twitter)" target="_blank" rel="noopener">{{<fa brands twitter>}}</a>
+
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="40%"}
+<br>
+<br>
+<br>
+![](/imgs/pexels-juan-felipe-ramirez-312591454-14412883.jpg){fig-alt="Monster Standing in Forest."}
+:::
+:::

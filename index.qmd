@@ -22,7 +22,10 @@ about:
     - icon: twitter
       text: Twitter
       href: https://twitter.com/errbufferoverfl
+citation: false
 toc: false
+comments: false
+repo-actions: false
 ---
 
 ## anarchist, illustrator, reluctant security engineer

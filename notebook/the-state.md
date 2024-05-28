@@ -1,7 +1,7 @@
 ---
 title: "The State"
 author: "errbufferoverfl"
-date: 2023-06-12T00:00:00+10:00
+date: 2023-06-11T23:30:00+09:30
 categories:
 - Seed
 - Political Science

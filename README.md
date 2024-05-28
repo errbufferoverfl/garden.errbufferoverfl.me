@@ -246,7 +246,7 @@ To resolve this issue:
 
 Quarto is distributed under [GNU GPLv2](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html).
 
-The content on garden.errbufferoverfl.me is licenced under [Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/legalcode.en) (CC BY-SA 4.0), unless otherwise specified.
+All pages on garden.errbufferoverfl.me are labeled with the license for the document under the `#reuse` anchor. For detailed information about how content can be reused, please refer to the licensing information provided there.
 
 <!-- CONTACT -->
 

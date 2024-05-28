@@ -2,7 +2,7 @@
 title: "Seeds? Trees? Fruit?"
 subtitle: "Digital Gardening with Intent"
 author: errbufferoverfl
-date: 2023-10-14T00:00:00+11:00
+date: 2023-10-13T23:30:00+10:30
 image: /imgs/semyon-borisov-OlD42_xCbho-unsplash.jpg
 image-alt: "A bushel of red apples hanging on a tree."
 description: "This post explores the concept of digital gardening, emphasizing the importance of reclaiming time, iterative learning, and embracing complexity. It introduces the metaphor of seeds, trees, and fruit to describe the different stages of content creation in a digital garden."

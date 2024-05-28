@@ -2,7 +2,8 @@
 title: "Ars Moriendi"
 subtitle: "The 15th Century Guide to Dying"
 author: "errbufferoverfl"
-date: 2023-06-23T17:31:07+10:00
+date: 2023-06-23T17:01:07+09:30
+date-modified: 2024-05-28T15:46:13+09:30
 categories:
 - Art
 - Culture

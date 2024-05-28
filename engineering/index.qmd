@@ -11,4 +11,5 @@ listing:
   filter-ui: true
   image-placeholder: /imgs/placeholder-engineering.jpg
 toc: false
+repo-actions: false
 ---

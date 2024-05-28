@@ -11,4 +11,5 @@ listing:
     filter-ui: true
     image-placeholder: /imgs/placeholder-notebook.png
 toc: false
+repo-actions: false
 ---
