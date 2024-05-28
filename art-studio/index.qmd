@@ -17,7 +17,7 @@ listing:
     contents: .
     fields: [date, title, description]
     sort: "date desc"
-    type: table
+    type: grid
     categories: numbered
     sort-ui: true
     filter-ui: true

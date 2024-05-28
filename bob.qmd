@@ -6,7 +6,7 @@ listing:
     type: table
     sort: title
     feed: true
-    fields: [date, title, description, file-modified]
+    fields: [date, title, description]
     sort-ui: [title, date, file-modified, categories]
     filter-ui: [title, description]
     contents:

@@ -3,7 +3,7 @@ title: "The Microfarm"
 subtitle: "A collection of notes about agriculture and urban-gardening."
 listing:
   contents: .
-  fields: [image, date, title, categories, reading-time, description, file-modified]
+  fields: [image, date, title, categories, reading-time, description]
   sort: "date desc"
   type: grid
   categories: numbered
