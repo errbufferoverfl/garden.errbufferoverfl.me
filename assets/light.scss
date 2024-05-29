@@ -1,0 +1,274 @@
+/*-- scss:defaults --*/
+
+/* Importing fonts from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
+
+/* Primary and secondary colors */
+$primary: #a23e02;
+$secondary: #545555;
+
+/* Theme colors */
+$theme-heading-color: $secondary;
+$theme-primary-text: #2c251d;
+$theme-text-secondary: $secondary;
+$theme-text-secondary-emphasis: #968d85;
+
+/* Link colors */
+$theme-link-color: $secondary;
+$theme-link-color-hover: #737575;
+
+/* Background and navbar colors */
+$theme-body-bg: #fffbf2;
+$theme-navbar-color: $secondary;
+
+/* Font families */
+$theme-font-family-sans-serif: "Alegreya Sans", sans-serif;
+$theme-font-family-serif: "Alegreya", serif;
+$theme-font-family-headings: $theme-font-family-serif;
+$theme-font-weight-headings: 400;
+
+/* Link decoration */
+$theme-link-decoration: underline;
+
+/* Colors for internal and external links */
+$internal-link-color: #8B3C00;
+$external-link-color: #006B6B;
+
+/* Visited link colors */
+$visited-internal-link-color: #6B2E00;
+$visited-external-link-color: #004F4F;
+
+/*-- scss:rules --*/
+
+/* Body styles */
+body {
+    color: $theme-primary-text;
+    background-color: $theme-body-bg;
+    font-family: $theme-font-family-serif;
+}
+
+p {
+    font-family: $theme-font-family-serif;
+    color: $theme-primary-text;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: $theme-body-bg;
+}
+
+/* Search icon color in navbar */
+.navbar #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon {
+    color: $theme-navbar-color;
+}
+
+/* Dark theme navbar toggler icon */
+[data-bs-theme="dark"] .navbar-toggler-icon {
+    --bs-navbar-toggler-icon-bg: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23545555' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+}
+
+.navbar .quarto-navbar-tools .quarto-navigation-tool {
+    color: $theme-navbar-color !important;
+}
+
+/* Navbar brand image styles */
+.navbar-brand > img {
+    max-height: 40px;
+}
+
+/* Dropdown item styles in navbar */
+.navbar .dropdown-item {
+    color: $theme-link-color !important;
+    font-family: $theme-font-family-sans-serif !important;
+    text-transform: lowercase;
+
+    &:hover {
+        text-decoration: $theme-link-decoration;
+        background-color: darken($theme-body-bg, 5%);
+    }
+}
+
+/* Navbar link styles */
+.navbar-nav .nav-link {
+    color: $theme-link-color !important;
+    font-family: $theme-font-family-sans-serif !important;
+    text-transform: lowercase;
+    margin: 0px 10px;
+    padding: 2px 2px 4px 2px !important;
+
+    &:hover {
+        text-decoration: $theme-link-decoration;
+        color: darken($theme-link-color, 10%);
+    }
+}
+
+.subtitle.lead {
+    color: lighten($theme-heading-color, 10%);
+    font-family: $theme-font-family-sans-serif;
+}
+
+/* Title banner styles */
+.quarto-title-banner {
+    color: lighten($theme-heading-color, 10%);
+    background-color: transparent;
+}
+
+/* Heading styles */
+h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1,
+.quarto-title-banner h1, .quarto-title-banner .h1, .quarto-title-banner h2, .quarto-title-banner .h2 {
+    color: $theme-heading-color;
+    font-family: $theme-font-family-headings;
+    font-weight: $theme-font-weight-headings;
+}
+
+/* Subtitle styles */
+.subtitle {
+    color: $theme-heading-color;
+}
+
+/* Listing category styles */
+.listing-categories .listing-category,
+.quarto-categories .quarto-category {
+    color: $primary !important;
+    border-color: $primary !important;
+
+    &:hover {
+        background-color: $primary !important;
+        color: $theme-body-bg !important;
+
+        a {
+            background-color: $primary !important;
+            color: $theme-body-bg !important;
+        }
+    }
+}
+
+/* Description styles */
+.description p {
+    text-align: center;
+    margin: 0 1em 10em 1em;
+    padding: 0 0 5em 0;
+}
+
+.description a {
+    text-decoration: underline !important;
+}
+
+.description a:hover {
+    text-decoration: none !important;
+}
+
+/* Card styles */
+.card {
+    background: transparent;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Card image styles */
+.card-img {
+    border-radius: 8px 8px 0px 0px;
+}
+
+/* Card title styles */
+.quarto-grid-item .card-title {
+    margin-bottom: .5em !important;
+}
+
+/* Listing date styles */
+.listing-date {
+    font-family: $theme-font-family-sans-serif;
+}
+
+/* Paragraph and list link styles */
+p a,
+li a {
+    color: $external-link-color;
+
+    &:hover {
+        color: lighten($external-link-color, 10%);
+    }
+
+    &[href^="https://garden.errbufferoverfl.me"],
+    &[href^="http://localhost:8086"] {
+        color: $internal-link-color;
+
+        &:hover {
+            color: darken($internal-link-color, 10%);
+        }
+
+        &:visited {
+            color: $visited-internal-link-color;
+        }
+    }
+}
+
+/* License link styles */
+a[rel~=license] {
+    color: $internal-link-color;
+
+    &:hover {
+        color: darken($internal-link-color, 10%);
+    }
+
+    &:visited {
+        color: $visited-internal-link-color;
+    }
+}
+
+/* Specific link styles */
+a.me-1 {
+    color: $primary !important;
+
+    &:hover {
+        color: darken($primary, 10%);
+    }
+
+    &:visited {
+        color: $primary;
+    }
+}
+
+/* Progress bar styles */
+progress {
+    width: 100%;
+}
+
+/* Table styles */
+.page-columns .column-page-left table {
+    background-color: $theme-body-bg;
+}
+
+/* Page link styles */
+.page-link {
+    border-color: $theme-primary-text;
+
+    &:hover {
+        border-color: $theme-primary-text;
+        color: darken($theme-link-color, 10%);
+    }
+}
+
+/* Active page link styles */
+.page-link.active, .active > .page-link {
+    border-color: $theme-primary-text;
+    background-color: $theme-heading-color;
+    color: $theme-body-bg !important;
+}
+
+/* Footer styles */
+.footer .nav-footer {
+    background-color: $theme-body-bg;
+}
+
+/* Footer link styles */
+.nav-footer a {
+    color: $theme-link-color;
+
+    &:hover {
+        text-decoration: $theme-link-decoration;
+        color: darken($theme-link-color, 10%);
+    }
+}

@@ -100,14 +100,14 @@ format:
   html:
     lang: en
     author-meta: errbufferoverfl
-    theme: 
-      - cosmo
-      - assets/custom.scss
+    theme:
+      - litera
+      - assets/light.scss
     include-in-header: "csp.html"
-    highlight-style: dracula
+    highlight-style: one-dark
 
     toc: true
-    toc-title: Table of contents
+    toc-title: Table of Contents
     toc-location: right
 
     link-external-newwindow: true
@@ -115,7 +115,7 @@ format:
     code-line-numbers: true
     code-fold: true
     code-annotations: true
-    code-overflow: wrap
+    code-overflow: scroll
     code-copy: hover
 
     smooth-scroll: true
