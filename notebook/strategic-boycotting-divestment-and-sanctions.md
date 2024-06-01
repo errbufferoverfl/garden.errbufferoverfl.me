@@ -1,7 +1,7 @@
 ---
 title: "Strategic Boycotting, Divestment and Sanctions"
 subtitle: "Navigating BDS: An Insight into Strategic Boycotting, Divestment, and Sanctions"
-date-modified: 2024-06-01T19:26:14+09:30
+date-modified: 2024-06-01T19:49:05+09:30
 date: 2024-06-01T14:49:39+09:30
 author: errbufferoverfl
 description: ""
@@ -73,11 +73,9 @@ There are many different kinds of BDS campaigns, each playing an important strat
 
 4. **Organic boycott targets**: The BDS movement supports grassroots boycott campaigns against brands complicit in Israel’s genocide and apartheid, even if they did not initiate these campaigns themselves.
 
-## How to Approach Boycotts
+## Approaching Boycotts
 
-There are a lot of prohibitively long lists on social media circulating online that call for the boycott of companies, and in *some* cases there is no credible evidence of their connection to Israel's regime. 
-
-These lists can also be confusing because there are no clear demands to the companies about what we expect them to do to end the boycott, making them ineffective.
+There are a lot of prohibitively long lists on social media circulating online that call for the boycott of companies, and in *some* cases there is no credible evidence of their connection to Israel's regime. These lists can also be confusing because there are no clear demands to the companies about what we expect them to do to end the boycott, making them less effective.
 
 That's not to say that grassroots boycott and disinvestment schemes are ineffective, because there is always merit in holding genuinely complicit corporations (and institutions) accountable for supporting Israel. 
 
@@ -90,5 +88,3 @@ At the end of the day, we all have limited human capacity, so it's better to use
 - [BDS Action Alerts](https://bdsmovement.net/get-involved/action-alerts)
 - [BDS Know What to Boycott](https://bdsmovement.net/get-involved/what-to-boycott)
 - [UN list of complicit companies operating in the illegal Israeli settlements](https://bdsaustralia.net.au/un-list-of-complicit-companies/)
-
-
