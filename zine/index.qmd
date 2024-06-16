@@ -1,0 +1,13 @@
+---
+title: "Zine Wiki"
+subtitle: "A small catalog of zinesters, distros and zine resources."
+listing:
+  contents: .
+  fields: [title, date, description]
+  sort: title
+  type: grid
+  exclude:
+    categories: "Review"
+toc: false
+repo-actions: false
+---

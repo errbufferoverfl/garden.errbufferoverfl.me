@@ -1,0 +1,16 @@
+---
+title: "Reviews"
+description: Discover amazing zines that are sure to spark your creativity and passion. Happy reading!
+listing:
+    contents: .
+    type: table
+    sort: title
+    fields: [title, date, description, categories]
+    categories: numbered
+    include:
+      categories: "Review"
+toc: false
+repo-actions: false
+---
+
+Here, I dive into the wild and wonderful world of zines, sharing my thoughts on all the indie creations I can get my hands on! Sit back, relax, and get ready to discover amazing zines that are sure to spark your creativity and passion. Happy reading!

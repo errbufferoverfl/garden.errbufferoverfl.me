@@ -1,0 +1,20 @@
+- title: "Wizard Zines"
+  description: >
+    Programming zines by Julia Evans
+  path: "https://wizardzines.com/"
+  categories: [Technology, Security, Active]
+- title: "Bug Report"
+  description: >
+    Experiences of tech workers in a deeply broken industry
+  path: "https://bugreportzine.noblogs.org/"
+  categories: [Technology, Security, Sociology, Politics, Inactive]
+- title: "Kult of the Cyber Witch"
+  description: >
+    A holistic information security and culture zine that centers on people of marginalised genders and sexes experiences within the Oceania region. 
+  path: "https://kultofthecyberw.itch.io/"
+  categories: [Technology, Security, Inactive]
+- title: "Bubble Sort Zines"
+  description: >
+    Zines that cover computer science concepts in an accessible way, targeted towards people who don't think computer science is for them.
+  path: "https://shop.bubblesort.io/"
+  categories: [Technology, Computers, Computer Science, Active]

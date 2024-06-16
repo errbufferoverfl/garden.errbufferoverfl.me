@@ -1,0 +1,19 @@
+---
+title: "Libraries & Archives"
+description: "Information on libraries, archives, and special collections that house extensive zine collections online and around the world."
+listing:
+  - id: library
+    contents: 
+      - library.yaml
+    type: grid
+    sort: title
+    fields: [title, description, categories]
+    categories: numbered
+toc: false
+repo-actions: false
+---
+
+Information on libraries, archives, and special collections that house extensive zine collections online and around the world.
+
+::: {#library}
+:::

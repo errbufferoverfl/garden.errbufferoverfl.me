@@ -1,0 +1,25 @@
+- title: "Fiend Shop"
+  description: >
+    Fiend is an online and pop-up bookshop based out of Naarm that showcases zines, small press and independent publications; both local and international.
+  path: "https://www.fiendshop.org/"
+  categories: [Melbourne, Victoria, Australia, Online, Active]
+- title: "Tiny Tech Zine"
+  description: >
+    Tiny Tech Zines (TTZ) is a tech zine fair and collective. Their work emphasizes care and centers the way that marginalized communities think about technology.
+  path: "https://tinytechzines.org/"
+  categories: [United States, Online, Active]
+- title: "Migrant Zine Collective"
+  description: >
+    Migrant Zine Collective are dedicated to creating a space that challenges white-dominated power structures and allows people of colour to express themselves in unapologetic, critical and disruptive ways.
+  path: "https://www.migrantzinecollective.com/"
+  categories: [Aotearoa, New Zealand, Australia, Guåhan, Guam, Online, Active]
+- title: "Wolfbound Books"
+  description: >
+    Wolfbound Books is a book studio & zine distro dedicated to supporting independent small press, self-publishers and zine makers from across Australia and around the world.
+  path: "https://www.wolfboundbooks.com.au/"
+  categories: [Zetland, New South Wales, Australia, Online, Active]
+- title: "BLOOMURDER"
+  description: >
+    A small Etsy based zine store specialising in Poetry, Mythology & Poisonous Plants.
+  path: "https://www.etsy.com/au/shop/BLOOMURDER"
+  categories: [Brisbane, Queensland, Australia, Online, Inactive]

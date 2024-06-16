@@ -1,0 +1,38 @@
+---
+title: "Distros"
+description: DIY and community-focused zine distributors.
+listing:
+  - id: distros
+    contents: 
+      - distros.yaml
+    type: grid
+    sort: title
+    fields: [title, description, categories]
+    categories: numbered
+    include:
+      categories: Active
+  - id: distros-inactive
+    contents: 
+      - distros.yaml
+    type: table
+    sort: title
+    fields: [title, description, categories]
+    include:
+      categories: Inactive
+toc: false
+repo-actions: false
+---
+
+A distro, short for "distribution," is kind of like your cool friend who has a knack for finding the most unique and underground stuff and then shares it with everyone. Distros are typically run by passionate folks who collect zines from various creators and then make them available to a wider audience. 
+
+They might have an online store, set up shop at zine fests, or even trade zines with other distros. The vibe here is very DIY and community-focused, with a lot of emphasis on supporting indie creators and spreading the love for zine culture.
+
+## Active
+
+::: {#distros}
+:::
+
+### Inactive Distros
+
+::: {#distros-inactive}
+:::

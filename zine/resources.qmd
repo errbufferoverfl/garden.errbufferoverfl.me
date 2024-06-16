@@ -1,0 +1,19 @@
+---
+title: "Resources"
+description: "Helpful information to support your zine-making journey!"
+listing:
+  - id: resources
+    contents: 
+      - resources.yaml
+    type: grid
+    sort: title
+    fields: [title, description, categories]
+    categories: numbered
+toc: false
+repo-actions: false
+---
+
+Looking for tips, tools, and guidance on creating and distributing zines? You're in luck! This page is packed with helpful information to support your zine-making journey. From tutorials and templates to printing services and distribution networks, you'll find everything you need to bring your zine ideas to life.
+
+::: {#resources}
+:::

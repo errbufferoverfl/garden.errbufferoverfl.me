@@ -1,0 +1,19 @@
+---
+title: "Bookshops"
+description: Information on bookstores stocking zines across Australia and the globe.
+listing:
+  - id: bookshops
+    contents: 
+      - bookshops.yaml
+    type: grid
+    sort: title
+    fields: [title, description, categories]
+    categories: numbered
+toc: false
+repo-actions: false
+---
+
+Bookshops listed here are like your local indie bookstore that has a cozy little corner dedicated to zines. These shops usually have a wider range of books, but they carve out some space for zines because they appreciate the art form and want to support local or independent creators. The selection might not be as extensive or niche as a distro, but it's still a great place to discover new zines.
+
+::: {#bookshops}
+:::

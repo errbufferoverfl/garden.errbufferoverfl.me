@@ -1,0 +1,19 @@
+---
+title: "Creators"
+description: Folks who bring their vibrant and unique voices to the world of zines.
+listing:
+  - id: creators
+    contents: 
+      - creators.yaml
+    type: grid
+    sort: title
+    fields: [title, description, categories]
+    categories: numbered
+toc: false
+repo-actions: false
+---
+
+Folks who bring their vibrant and unique voices to the world of zines.
+
+::: {#creators}
+:::

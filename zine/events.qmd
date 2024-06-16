@@ -1,0 +1,19 @@
+---
+title: "Events"
+description: "Information on zine fests and workshops to meet-ups and exhibitions!"
+listing:
+  - id: events
+    contents: 
+      - events.yaml
+    type: grid
+    sort: title
+    fields: [title, description, categories]
+    categories: numbered
+toc: false
+repo-actions: false
+---
+
+Information on zine fests and workshops to meet-ups and exhibitions!
+
+::: {#events}
+:::
