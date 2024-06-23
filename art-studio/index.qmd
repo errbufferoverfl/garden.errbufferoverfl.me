@@ -24,6 +24,12 @@ listing:
     image-placeholder: /imgs/placeholder-art-studio.jpg
     include:
       categories: "Art Note"
+- id: resources
+    contents: 
+      - resources.yaml
+	fields: [title, description, categories]
+    type: grid
+    categories: numbered
 toc: false
 repo-actions: false
 ---
@@ -40,4 +46,9 @@ If you want to stay connected and show your support, you can follow or supported
 ## Art Notes
 
 ::: {#notes}
+:::
+
+## Resources
+
+::: {#resources}
 :::
