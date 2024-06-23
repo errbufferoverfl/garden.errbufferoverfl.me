@@ -25,10 +25,11 @@ listing:
     include:
       categories: "Art Note"
   - id: resources
-    contents:
+    contents: 
       - resources.yaml
-	  fields: [title, description, categories]
     type: grid
+    sort: title
+    fields: [title, description, categories]
     categories: numbered
 toc: false
 repo-actions: false
