@@ -24,10 +24,10 @@ listing:
     image-placeholder: /imgs/placeholder-art-studio.jpg
     include:
       categories: "Art Note"
-- id: resources
-    contents: 
+  - id: resources
+    contents:
       - resources.yaml
-	fields: [title, description, categories]
+	  fields: [title, description, categories]
     type: grid
     categories: numbered
 toc: false
