@@ -1,12 +1,14 @@
 ---
 title: "The State"
-author: "errbufferoverfl"
+author:
+  - "errbufferoverfl"
 date: 2023-06-11T23:30:00+09:30
+date-modified: 2024-07-06T13:36:54+09:30
 categories:
-- Seed
-- Political Science
-- Definition
-- Anarchism
+  - Anarchism
+  - Definition
+  - Political Science
+  - Seed
 ---
 
 The "state" is a centralised political organisation that imposes and enforces rules over a population within a territory.

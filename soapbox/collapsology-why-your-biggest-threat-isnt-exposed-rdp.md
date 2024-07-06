@@ -1,12 +1,14 @@
 ---
 title: "Collapsology: Why your biggest threat isn’t exposed RDP"
-author: "errbufferoverfl"
-date: 2021-09-01T23:00:00+10:00
-abstract: For decades, anthropologists, quantitative historians, and sociologists have discussed and proposed various explanations for the collapse of civilizations, from unsustainable complexity, decay of social cohesion, rising inequality and general misfortune. Using our time-travelling phone booth, we’ll investigate historical collapses and conduct a root cause analysis to investigate why these collapses happened, and how we can observe similar issues in modern business environments.
+author:
+  - "errbufferoverfl"
+date: 2021-09-01T22:30:00+09:30
+date-modified: 2024-07-06T13:37:16+09:30
 categories:
-- PyCon
-- Security
-- Culture
+  - Culture
+  - PyCon
+  - Security
+abstract: For decades, anthropologists, quantitative historians, and sociologists have discussed and proposed various explanations for the collapse of civilizations, from unsustainable complexity, decay of social cohesion, rising inequality and general misfortune. Using our time-travelling phone booth, we’ll investigate historical collapses and conduct a root cause analysis to investigate why these collapses happened, and how we can observe similar issues in modern business environments.
 ---
 
 For decades, anthropologists, quantitative historians, and sociologists have discussed and proposed various explanations for the collapse of civilizations, from unsustainable complexity, decay of social cohesion, rising inequality and general misfortune.

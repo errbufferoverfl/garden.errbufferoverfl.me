@@ -1,13 +1,15 @@
 ---
 title: "InterPlanetary File System"
-author: "errbufferoverfl"
+author:
+  - "errbufferoverfl"
 date: 2023-06-10T23:30:00+09:30
+date-modified: 2024-07-06T13:36:41+09:30
 image: "/imgs/pawel-czerwinski-OALPS7O3jXs-unsplash.jpg"
 categories:
-- Seed
-- Protocol
-- Distributed Computing
-- Distributed Web
+  - Distributed Computing
+  - Distributed Web
+  - Protocol
+  - Seed
 ---
 
 InterPlanetary File System (IPFS) is a protocol, hypermedia and file sharing peer-to-peer network for storing and sharing data to a distributed file system.
@@ -35,5 +37,5 @@ Cloudflare started using IPFS in 2018 and launched its own gateway in 2022.
 - Command and Control
   - The IPStore botnet uses IPFS to hide C2 traffic amongst the flow of legitimate data on the IPFS network.[^1] [^2]
 
-[^1]: AQUINO, Bruno Macabeus M. de; LIMA, Marcus Vinicius L. de; OLIVEIRA, João Paolo Cavalcante M. de; SOUZA, Cidcley Teixeira de. [Protocolos IPFS e IPNS como meio para o controle de botnet: prova de conceito](https://sol.sbc.org.br/index.php/wscdc/article/view/2400). _In_: CONNECTED DEVICES CYBERSECURITY WORKSHOP (WSCDC), 1. , 2018, São José dos Campos. **Anais** [...]. Porto Alegre: Sociedade Brasileira de Computação, 2018.
+[^1]: AQUINO, Bruno Macabeus M. de; LIMA, Marcus Vinicius L. de; OLIVEIRA, João Paolo Cavalcante M. de; SOUZA, Cidcley Teixeira de. [Protocolos IPFS e IPNS como meio para o controle de botnet: prova de conceito](https://sol.sbc.org.br/index.php/wscdc/article/view/2400). *In*: CONNECTED DEVICES CYBERSECURITY WORKSHOP (WSCDC), 1. , 2018, São José dos Campos. **Anais** [...]. Porto Alegre: Sociedade Brasileira de Computação, 2018.
 [^2]: "IPFS and IPNS protocols as a means of botnet control: proof of concept" English Translation - [[../attachements/IPFS-and-IPNS-protocols-as-a-means-of-botnet-control-proof-of-concept.pdf|IPFS-and-IPNS-protocols-as-a-means-of-botnet-control-proof-of-concept]]

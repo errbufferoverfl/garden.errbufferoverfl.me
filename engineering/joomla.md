@@ -1,12 +1,14 @@
 ---
 title: "Joomla"
 subtitle: ""
-author: "errbufferoverfl"
-date: 2023-10-28T12:25:27+11:00
+author:
+  - "errbufferoverfl"
+date: 2023-10-28T11:55:27+10:30
+date-modified: 2024-07-06T13:36:41+09:30
 categories:
-- Seed
-- Joomla
-- Fundamentals
+  - Fundamentals
+  - Joomla
+  - Seed
 ---
 
 ## Basic Information

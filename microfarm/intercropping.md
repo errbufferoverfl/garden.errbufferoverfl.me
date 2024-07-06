@@ -1,17 +1,19 @@
 ---
 title: "Intercropping"
-author: "errbufferoverfl"
-date: 2023-08-24T20:54:44+10:00
-images: /imgs/stella-de-smit-L-cj8xXUSHo-unsplash.jpg
+author:
+  - "errbufferoverfl"
+date: 2023-08-24T20:24:44+09:30
+date-modified: 2024-07-06T13:36:48+09:30
 categories:
-- Permaculture
-- Agroecology
-- Urban agriculture
-- Agroforestry
-- Sustainable Agriculture
+  - Agroecology
+  - Agroforestry
+  - Permaculture
+  - Sustainable Agriculture
+  - Urban agriculture
+images: /imgs/stella-de-smit-L-cj8xXUSHo-unsplash.jpg
 ---
 
-Because there is some degree of ambiguity about what a [polyculture](polyculture.md) this can have a flow on effect to associated terms such as _intercropping_.
+Because there is some degree of ambiguity about what a [polyculture](polyculture.md) this can have a flow on effect to associated terms such as *intercropping*.
 
 For example Gomez & Gomez 1983 defines intercropping as:
 

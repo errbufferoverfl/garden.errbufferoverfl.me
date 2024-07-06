@@ -1,18 +1,19 @@
 ---
 title: "OWASP CLASP"
-author: "errbufferoverfl"
+author:
+  - "errbufferoverfl"
 date: 2023-10-11T08:36:28+10:30
+date-modified: 2024-07-06T13:36:41+09:30
 description: "Introduces OWASP CLASP, a 'comprehensive' and 'lightweight' application security process that aims to integrate security into software development programs in a structured and measurable way. It outlines the different views and components of CLASP and discusses the vulnerability use cases and taxonomy."
 image: "/imgs/owasp-clasp.png"
 categories:
-- Seed
-- Definition
-- Security
-- OWASP
-date-modified: 2024-06-17T20:18:43+09:30
+  - Definition
+  - OWASP
+  - Security
+  - Seed
 ---
 
-### Introduction to OWASP CLASP
+## Introduction to OWASP CLASP
 
 The OWASP Comprehensive, Lightweight Application Security Process (CLASP) is an activity-driven, role-based set of processes which look to build security into an existing or new software development program in a structured, repeatable and, measurable way. It was once an important framework that provided organizations with immature security operations a structured view and clear use cases to address common vulnerabilities and improve application security practices. However, as the landscape of application security evolved, the need for a more comprehensive and adaptable framework became apparent.
 
@@ -156,7 +157,7 @@ These use cases are specific scenarios and examples that show how vulnerabilitie
 
 ::: {.callout-warning}
 
-The vulnerability use cases are based on common component architectures such as: monolithic UNIX, monolithic mainframe and distributed (HTTPS & TCP/IP) architectures so there _might_ be gaps when used with modern software architecture.
+The vulnerability use cases are based on common component architectures such as: monolithic UNIX, monolithic mainframe and distributed (HTTPS & TCP/IP) architectures so there *might* be gaps when used with modern software architecture.
 
 :::
 

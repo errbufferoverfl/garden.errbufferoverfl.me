@@ -1,14 +1,15 @@
 ---
 title: "Ars Moriendi"
 subtitle: "The 15th Century Guide to Dying"
-author: "errbufferoverfl"
+author:
+  - "errbufferoverfl"
 date: 2023-06-23T17:01:07+09:30
-date-modified: 2024-05-28T15:46:13+09:30
+date-modified: 2024-07-06T13:36:54+09:30
 categories:
-- Art
-- Culture
-- Mediaeval
-- 15th Century
+  - 15th Century
+  - Art
+  - Culture
+  - Mediaeval
 ---
 
 The Ars Moriendi (The Art of Dying) is a Mediaeval Christian death manual that appeared around the middle of the fifteenth century. The text is understood to be a response to the devastation of the Black Death.

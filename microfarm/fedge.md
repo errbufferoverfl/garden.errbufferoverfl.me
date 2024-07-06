@@ -1,12 +1,14 @@
 ---
 title: "Fedge"
-author: "errbufferoverfl"
-date: 2023-09-08T09:53:10+10:00
+author:
+  - "errbufferoverfl"
+date: 2023-09-08T09:23:10+09:30
+date-modified: 2024-07-06T13:36:48+09:30
 image: /imgs/fedge.png
 categories:
-- Permaculture
-- Sustainable Agriculture
-- Permaculture Design
+  - Permaculture
+  - Permaculture Design
+  - Sustainable Agriculture
 ---
 
 A fence made up of living plants. The base is typically made of shaped willow and creeping plants are grown over the top of it.

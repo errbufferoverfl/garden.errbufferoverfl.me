@@ -1,10 +1,12 @@
 ---
 title: "Aquarium Algae Scrubber"
-author: "errbufferoverfl"
-date: 2023-06-03T00:00:00+10:00
+author:
+  - "errbufferoverfl"
+date: 2023-06-02T23:30:00+09:30
+date-modified: 2024-07-06T13:36:48+09:30
 categories:
-- Solarpunk
-- Project
+  - Project
+  - Solarpunk
 source: "https://www.youtube.com/watch?v=qGLnBvDkaO0"
 ---
 

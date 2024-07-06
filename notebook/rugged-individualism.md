@@ -1,17 +1,19 @@
 ---
 title: "Rugged Individualism"
-author: "errbufferoverfl"
-date: 2023-08-17T21:00:50+10:00
+author:
+  - "errbufferoverfl"
+date: 2023-08-17T20:30:50+09:30
+date-modified: 2024-07-06T13:36:54+09:30
 categories:
-- Political Science
-- Definition
-- Neoliberalism
+  - Definition
+  - Neoliberalism
+  - Political Science
 ---
 
 A term coined by US-Republican president Herbert Hoover, it's a term that indicates that an individual is self-reliant and independent from outside, usually state assistance.
 
 > We were challenged with a... choice between the American system of rugged individualism and a European philosophy of diametrically opposed doctrines ­ doctrines of paternalism and state socialism. The acceptance of these ideas would have meant the destruction of self-government through centralization... [and] the undermining of the individual initiative and enterprise through which our people have grown to unparalleled greatness.
->
+> 
 > -— Herbert Hoover, 1928
 
 Through the mid-twentieth century Ray Lyman Wilbur, an American politician, physician, and *eugenicist* doubled down on this idea, writing:

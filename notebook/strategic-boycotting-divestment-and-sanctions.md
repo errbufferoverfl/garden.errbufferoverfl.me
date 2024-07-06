@@ -1,16 +1,17 @@
 ---
 title: "Strategic Boycotting, Divestment, and Sanctions. A Comprehensive Guide"
 subtitle: "A Deep Dive into the BDS Movement Understanding the Players, Strategies, and Targets"
-date-modified: 2024-06-01T19:57:00+09:30
+author:
+  - errbufferoverfl
 date: 2024-06-01T14:49:39+09:30
-author: errbufferoverfl
+date-modified: 2024-07-06T13:36:54+09:30
 description: "This post is an in-depth overview of the Boycott, Divest, Sanction (BDS) movement, exploring the role of the BDS National Committee (BNC) and the differences between boycotting, divestment, and sanctions. It discusses the nuances of targeted versus non-targeted boycotts, the various types of boycotts, and the criteria used to select BDS targets. The post also offers insights into how to approach boycotts effectively to support Palestinian rights and achieve meaningful, sustainable results."
 categories:
-  - Political Activism
   - Boycott
   - Divestment
-  - Sanction
   - Palestine
+  - Political Activism
+  - Sanction
 ---
 
 ## Who is the BDS National Committee (BNC)?

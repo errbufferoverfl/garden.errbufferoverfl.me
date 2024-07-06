@@ -2,12 +2,13 @@
 title: "Gouache"
 author: "errbufferoverfl"
 date: 2023-06-01T23:30:00+09:30
+date-modified: 2024-07-06T13:30:59+09:30
 lightbox: auto
 categories:
-- Medium
-- Painting
-- Art Note
-- Seed
+  - Art Note
+  - Medium
+  - Painting
+  - Seed
 ---
 
 Gouache is a water based medium made of pigment, water and a binding agent, normally gum arabic or dextrin.

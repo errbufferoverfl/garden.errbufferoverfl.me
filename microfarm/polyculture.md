@@ -1,11 +1,13 @@
 ---
 title: Polyculture
-author: "errbufferoverfl"
-images: /imgs/florian-giorgio-t6kr9bbHaVg-unsplash.jpg
-date: 2023-08-06T19:49:02+10:00
+author:
+  - "errbufferoverfl"
+date: 2023-08-06T19:19:02+09:30
+date-modified: 2024-07-06T13:36:48+09:30
 categories:
-- Permaculture
-- Sustainable Agriculture
+  - Permaculture
+  - Sustainable Agriculture
+images: /imgs/florian-giorgio-t6kr9bbHaVg-unsplash.jpg
 ---
 
 A polyculture is the practice of growing more than one crop or species in the same space at the same time.

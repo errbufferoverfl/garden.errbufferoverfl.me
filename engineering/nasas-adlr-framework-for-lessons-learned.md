@@ -1,13 +1,15 @@
 ---
 title: "NASA's ADLR Framework for Lessons Learned"
-author: "errbufferoverfl"
-date: 2023-07-14T11:28:12+10:00
+author:
+  - "errbufferoverfl"
+date: 2023-07-14T10:58:12+09:30
+date-modified: 2024-07-06T13:36:41+09:30
 image: "/imgs/nasa-dCgbRAQmTQA-unsplash.jpg"
 categories:
-- Seed
-- NASA
-- Retrospective
-- Lessons Learned
+  - Lessons Learned
+  - NASA
+  - Retrospective
+  - Seed
 source: https://www.cortexfutura.com/nasa-adlr-lessons-learned-tana/
 ---
 

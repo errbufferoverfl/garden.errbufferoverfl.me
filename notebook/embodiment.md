@@ -1,12 +1,14 @@
 ---
 title: "Embodiment"
-author: "errbufferoverfl"
-date: 2023-06-12T00:00:00+10:00
+author:
+  - "errbufferoverfl"
+date: 2023-06-11T23:30:00+09:30
+date-modified: 2024-07-06T13:36:54+09:30
 categories:
-- Political Science
-- Feminism
-- Internet
-- Definition
+  - Definition
+  - Feminism
+  - Internet
+  - Political Science
 ---
 
 The principles of **embodiment** look at diverse experiences and relationships as human beings embodying multiple identities and realities in “disembodied” online spaces.

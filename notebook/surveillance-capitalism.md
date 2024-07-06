@@ -1,10 +1,12 @@
 ---
 title: "Surveillance Capitalism"
-author: "errbufferoverfl"
-date: 2023-06-12T00:00:00+10:00
+author:
+  - "errbufferoverfl"
+date: 2023-06-11T23:30:00+09:30
+date-modified: 2024-07-06T13:36:54+09:30
 categories:
-- Political Science
-- Definition
+  - Definition
+  - Political Science
 ---
 
 Surveillance capitalism is a type of capitalism market form, and a [technocratic](technocratic.md)-oriented phenomenon that centres on the commodification of personal data by corporations.

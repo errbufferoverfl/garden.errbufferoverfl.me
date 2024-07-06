@@ -1,13 +1,15 @@
 ---
 title: "Hack the Box"
 subtitle: "Module: Way of Learning"
-author: "errbufferoverfl"
-date: 2023-10-21T17:36:23+11:00
+author:
+  - "errbufferoverfl"
+date: 2023-10-21T17:06:23+10:30
+date-modified: 2024-07-06T13:35:22+09:30
 categories:
-- Learning
-- Hack the Box
-- Hack the Box Academy
-- General
+  - General
+  - Hack the Box
+  - Hack the Box Academy
+  - Learning
 ---
 
 > Progress is noticeable when the question that tortured us has lost its meaning.

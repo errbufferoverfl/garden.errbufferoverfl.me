@@ -1,10 +1,11 @@
 ---
 title: "Content Credentials"
 date: 2023-10-22T19:31:12+10:30
+date-modified: 2024-07-06T13:37:31+09:30
 categories:
-- Trust & Saftey
-- Open Standard
-- Beta
+  - Beta
+  - Open Standard
+  - Trust & Saftey
 ---
 
 Content Credentials make the origin and history of content available for everyone to access, anytime. With this information at your fingertips, you have the ability to decide if you trust the content you see---understanding what it is and how much editing or manipulation it went through.

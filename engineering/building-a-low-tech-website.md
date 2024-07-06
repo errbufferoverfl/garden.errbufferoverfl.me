@@ -1,11 +1,13 @@
 ---
 title: "Building a Low Tech Website"
-author: "errbufferoverfl"
-date: 2023-10-15T17:12:27+11:00
+author:
+  - "errbufferoverfl"
+date: 2023-10-15T16:42:27+10:30
+date-modified: 2024-07-06T13:36:41+09:30
 categories:
-- Seed
-- Low Tech
-- Project
+  - Low Tech
+  - Project
+  - Seed
 ---
 
 As discourse around the impacts of Artificial intelligence (Ai) swirls in the background, one of the things I've been thinking about a lot is this idea we have that someday Ai will automate the boring things so everyone can focus on endeavours that are more fulfilling.
@@ -22,7 +24,7 @@ But in turn, more customers means more infrastructure, more infrastructure means
 
 ## The Tech Industries Carbon Footprint
 
-In 2021, the [International Energy Agency (IEA)](https://www.iea.org/about)  reported that global CO2 emissions rose by 6% to 36.3 billion tonnes, their highest ever level.[^5]
+In 2021, the [International Energy Agency (IEA)](https://www.iea.org/about) reported that global CO2 emissions rose by 6% to 36.3 billion tonnes, their highest ever level.[^5]
 
 During the same period it's estimated that the global technology industry produced 2 to 3% of the world's carbon emissions.
 

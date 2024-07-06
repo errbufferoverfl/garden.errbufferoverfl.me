@@ -2,13 +2,14 @@
 title: "Woodblock"
 author: "errbufferoverfl"
 date: 2023-06-02T23:30:00+09:30
+date-modified: 2024-07-06T13:32:32+09:30
 lightbox: auto
 categories:
-- Medium
-- Relief Printing
-- Textile Arts
-- Art Note
-- Seed
+  - Art Note
+  - Medium
+  - Relief Printing
+  - Seed
+  - Textile Arts
 ---
 
 A technique originally developed in China as a way of printing on textiles and later on paper, the oldest surviving fragments to survive date back to the Han dynasty (before 220).

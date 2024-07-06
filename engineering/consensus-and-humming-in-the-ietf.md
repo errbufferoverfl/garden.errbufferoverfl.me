@@ -1,22 +1,24 @@
 ---
 title: "Consensus and Humming in the IETF"
-author: "errbufferoverfl"
-date: 2023-06-20T18:37:06+10:00
+author:
+  - "errbufferoverfl"
+date: 2023-06-20T18:07:06+09:30
+date-modified: 2024-07-06T13:36:41+09:30
 image: "/imgs/shelby-cohron-UQwbKtu-2Ek-unsplash.jpg"
 categories:
-- Sapling
-- RFC
-- RFC-7282
-- Concencus Building
-- Internet Governance
-- IETF
+  - Concencus Building
+  - IETF
+  - Internet Governance
+  - RFC
+  - RFC-7282
+  - Sapling
 ---
 
 This post summarises the key points of [RFC 7282](https://datatracker.ietf.org/doc/html/rfc7282) an informational RFC (Request for Comment) published in 2014. This post is? will be? part of an ongoing collection on decision making and consensus building that looks to explore how groups make decisions and why.
 
 > We reject: kinds, presidents and voting.
 > We believe in: rough consensus and running code.
->
+> 
 > -- Dave Clark, 1992 plenary presentation on decision making in the IETF.
 
 The IETF (Internet Engineering Task Force) does a lot of their technical work through a consensus process, taking into account different views amongst participants and aims to come to a rough consensus using a majority rule philosophy.
@@ -30,7 +32,7 @@ Instead the IETF have a tradition of humming – for example, when there is a fa
 ## 1. Lack of Disagreement is More Important than Agreement
 
 Consider the following:
-> The chair asks on the mailing list, "Is everyone OK with format A?"  Inevitably, a number of people object to format A for one or another technical reason.  The chair then says, "It sounds like we don't have consensus to use format A.  Is everyone OK with format B?" This time even more people object to format B, on different technical grounds.  The chair, not having agreement on either format A or format B, is left perplexed, thinking the working group has deadlocked.
+> The chair asks on the mailing list, "Is everyone OK with format A?" Inevitably, a number of people object to format A for one or another technical reason. The chair then says, "It sounds like we don't have consensus to use format A. Is everyone OK with format B?" This time even more people object to format B, on different technical grounds. The chair, not having agreement on either format A or format B, is left perplexed, thinking the working group has deadlocked.
 
 The problem experienced is the chair conflated **determining** consensus, with **coming to** a consensus, with **having** consensus.
 

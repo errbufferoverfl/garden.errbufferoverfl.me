@@ -1,11 +1,13 @@
 ---
 title: Bokashi Bran
-author: errbufferoverfl
-date: 2023-10-08T18:42:51+11:00
+author:
+  - errbufferoverfl
+date: 2023-10-08T18:12:51+10:30
+date-modified: 2024-07-06T13:36:48+09:30
 image: "/imgs/utsman-media-tyVcPQfncrg-unsplash.jpg"
 categories:
-- Seed
-- Composting
+  - Composting
+  - Seed
 ---
 
 ## Do It Yourself Bokashi Bran

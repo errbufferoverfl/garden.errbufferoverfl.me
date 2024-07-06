@@ -1,14 +1,16 @@
 ---
 title: "Cutting Edge React Security"
 subtitle: "Session 1, Part 1"
-author: "errbufferoverfl"
-date: 2023-10-18T13:28:20+11:00
+author:
+  - "errbufferoverfl"
+date: 2023-10-18T12:58:20+10:30
+date-modified: 2024-07-06T13:36:41+09:30
 categories:
-- Seed
-- Pragmatic Web Security
-- React Security
-- JavaScript
-- Web Security
+  - JavaScript
+  - Pragmatic Web Security
+  - React Security
+  - Seed
+  - Web Security
 ---
 
 ## Security Model of the Web
@@ -45,7 +47,7 @@ JavaScript vulnerabilities also apply to contexts such as Electron apps and WebV
 #### RCI Mitigation
 
 > If Google Analytics gets compromised then 99% of the Internet is screwed.
->
+> 
 > -- Dr. Philippe De Ryck, Security model of the web / XSS in React
 
 - Self-hosting the remote code being included.
@@ -57,7 +59,7 @@ JavaScript vulnerabilities also apply to contexts such as Electron apps and WebV
 Further Reading:
 
 > 40% of packages rely on known vulnerable code[^3]
->
+> 
 > -- Dr. Philippe De Ryck, Security model of the web / XSS in React
 
 - [Towards a Theory of Application Compartmentalisation](https://link.springer.com/chapter/10.1007/978-3-642-41717-7_4)

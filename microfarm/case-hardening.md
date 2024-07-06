@@ -1,12 +1,14 @@
 ---
 title: "Case Hardening"
-author: "errbufferoverfl"
-date: 2023-09-03T09:32:43+10:00
-images: /imgs/priscilla-du-preez-9wNOMieg0fs-unsplash.jpg
+author:
+  - "errbufferoverfl"
+date: 2023-09-03T09:02:43+09:30
+date-modified: 2024-07-06T13:36:48+09:30
 categories:
-- Food Preservation
-- Dehydrating
-- Dehydrating Debugging
+  - Dehydrating
+  - Dehydrating Debugging
+  - Food Preservation
+images: /imgs/priscilla-du-preez-9wNOMieg0fs-unsplash.jpg
 ---
 
 Case hardening occurs when produce is dehydrated at too high of a temperature, this causes the outside to become hard, making it difficult for the moisture inside to escape.

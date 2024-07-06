@@ -1,12 +1,14 @@
 ---
 title: "Making Plastic Yarn (Plarn)"
-author: "errbufferoverfl"
-date: 2023-08-14T22:15:41+10:00
-images: /imgs/christopher-vega-nnlRR2NF2ko-unsplash.jpg
+author:
+  - "errbufferoverfl"
+date: 2023-08-14T21:45:41+09:30
+date-modified: 2024-07-06T13:36:48+09:30
 categories:
-- Craft
-- Plastic
-- Recycling
+  - Craft
+  - Plastic
+  - Recycling
+images: /imgs/christopher-vega-nnlRR2NF2ko-unsplash.jpg
 link: https://www.thesprucecrafts.com/how-to-make-plarn-2117354
 ---
 

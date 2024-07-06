@@ -1,15 +1,17 @@
 ---
 title: "The ACCCE & Police's attack on End-to-End Encryption Tweet Storm"
-author: "errbufferoverfl"
-date: 2023-06-12T00:00:00+10:00
+author:
+  - "errbufferoverfl"
+date: 2023-06-11T23:30:00+09:30
+date-modified: 2024-07-06T13:36:41+09:30
 image: "/imgs/markus-winkler-djDQKdjdYss-unsplash.jpg"
 categories:
-- Seed
-- Policy
-- Government
-- Privacy
-- End to End Encryption
-- ACCCE
+  - ACCCE
+  - End to End Encryption
+  - Government
+  - Policy
+  - Privacy
+  - Seed
 ---
 
 [Post on Twitter](https://twitter.com/errbufferoverfl/status/1646427897727688704?s=20)

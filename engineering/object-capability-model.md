@@ -1,12 +1,14 @@
 ---
 title: "Object-capability model"
-author: "errbufferoverfl"
-date: 2023-08-09T12:14:29+10:00
+author:
+  - "errbufferoverfl"
+date: 2023-08-09T11:44:29+09:30
+date-modified: 2024-07-06T13:36:41+09:30
 image: "/imgs/ashkan-forouzani-v31lgBn5114-unsplash.jpg"
 categories:
-- Seed
-- Security
-- Security Model
+  - Security
+  - Security Model
+  - Seed
 ---
 The object-capability model (also seen written as "ocap") is a [object-capability security](object-capability%20security) concept that describes a computer security model. In ocap a capability describes a transferable right to perform one or more operations on a given object.
 
@@ -30,8 +32,8 @@ This means that its easier to establish and maintain the security properties whe
 
 These assertions are enforceable because of two structural properties enforced when using OCAP:
 
-1. An object _A_ can send a message to _B_ only if object _A_ holds a reference to _B_.
-2. An object _A_ can obtain a reference to _C_ only if object _A_ receives a message containing a reference to _C_.
+1. An object *A* can send a message to *B* only if object *A* holds a reference to *B*.
+2. An object *A* can obtain a reference to *C* only if object *A* receives a message containing a reference to *C*.
 
 An analogy used by E. Dean Tribble to describe the OCAP model was it's like giving a valet the key to your car, without handing over the right to car ownership.
 

@@ -1,13 +1,15 @@
 ---
 title: My Primer to the V8 Engine
-author: errbufferoverfl
+author:
+  - errbufferoverfl
 date: 2024-05-27T10:15:37+09:30
+date-modified: 2024-07-06T13:36:41+09:30
 categories:
-- Seed
-- Sandboxing
-- Chrome
-- Browser Security
-- Security
+  - Browser Security
+  - Chrome
+  - Sandboxing
+  - Security
+  - Seed
 ---
 
 ## Browser Architecture Overview

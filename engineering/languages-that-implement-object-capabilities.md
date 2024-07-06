@@ -1,13 +1,15 @@
 ---
 title: "Languages that implement object capabilities"
-author: "errbufferoverfl"
-date: 2023-08-09T12:22:00+10:00
+author:
+  - "errbufferoverfl"
+date: 2023-08-09T11:52:00+09:30
+date-modified: 2024-07-06T13:36:41+09:30
 image: "/imgs/jonny-gios-Vc-QDuMIzlQ-unsplash.jpg"
 categories:
-- Seed
-- Security
-- Security Model
-- Programming Languages
+  - Programming Languages
+  - Security
+  - Security Model
+  - Seed
 source: https://en.wikipedia.org/wiki/Object-capability_model
 ---
 The following programming languages implement an [Object Capability Model](object-capability-model.md):

@@ -1,11 +1,13 @@
 ---
 title: "Strange Loop Talks of Interest"
-author: "errbufferoverfl"
+author:
+  - "errbufferoverfl"
 date: 2023-10-29T16:49:43+10:30
+date-modified: 2024-07-06T13:36:41+09:30
 categories:
-- Seed
-- Strange Loop
-- Conference Talks
+  - Conference Talks
+  - Seed
+  - Strange Loop
 ---
 
 - [All About Regular Expressions](https://www.thestrangeloop.com/2022/all-slash-sabout-slash-sregular-slash-sexpressions-$.html)

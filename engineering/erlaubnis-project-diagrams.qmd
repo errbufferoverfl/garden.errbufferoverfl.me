@@ -1,11 +1,8 @@
 ---
 title: "Erlaubnis Project Diagrams"
-subtitle: ""
 author: "errbufferoverfl"
 date: 2023-06-28T21:36:45+10:00
-description: ""
 image: "/imgs/brandi-redd-aJTiW00qqtI-unsplash.jpg"
-image-alt: ""
 categories:
 - Erlaubnis
 - Project

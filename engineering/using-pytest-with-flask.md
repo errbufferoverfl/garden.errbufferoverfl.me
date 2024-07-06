@@ -1,17 +1,19 @@
 ---
 title: "Using Pytest with Flask"
 subtitle: ""
-author: "errbufferoverfl"
-date: 2023-07-14T11:44:22+10:00
+author:
+  - "errbufferoverfl"
+date: 2023-07-14T11:14:22+09:30
+date-modified: 2024-07-06T13:36:41+09:30
 description: ""
 image: "/imgs/vincent-ghilione-MTPGo7m1PhI-unsplash.jpg"
-image-alt: ""
 categories:
-- Seed
-- PyTest
-- Python
-- Flask
-- Unit Testing
+  - Flask
+  - PyTest
+  - Python
+  - Seed
+  - Unit Testing
+image-alt: ""
 ---
 
 ## What to Test?

@@ -1,13 +1,15 @@
 ---
 title: "Eutrophication"
-author: "errbufferoverfl"
-date: 2023-08-06T20:20:28+10:00
+author:
+  - "errbufferoverfl"
+date: 2023-08-06T19:50:28+09:30
+date-modified: 2024-07-06T13:36:48+09:30
 image: /imgs/michael-diane-weidner-PtaGvYqe5BI-unsplash.jpg
 categories:
-- Pollution
-- Nutrient pollution
-- Water pollution
-- Environmental chemistry
+  - Environmental chemistry
+  - Nutrient pollution
+  - Pollution
+  - Water pollution
 ---
 
 The process by which an entire body of water, or parts of it become enriched with minerals and nutrients, particularly nitrogen and phosphorus.

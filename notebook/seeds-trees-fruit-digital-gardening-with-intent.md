@@ -1,18 +1,20 @@
 ---
 title: "Seeds? Trees? Fruit?"
 subtitle: "Digital Gardening with Intent"
-author: errbufferoverfl
+author:
+  - errbufferoverfl
 date: 2023-10-13T23:30:00+10:30
-image: /imgs/semyon-borisov-OlD42_xCbho-unsplash.jpg
-image-alt: "A bushel of red apples hanging on a tree."
+date-modified: 2024-07-06T13:36:54+09:30
 description: "This post explores the concept of digital gardening, emphasizing the importance of reclaiming time, iterative learning, and embracing complexity. It introduces the metaphor of seeds, trees, and fruit to describe the different stages of content creation in a digital garden."
+image: /imgs/semyon-borisov-OlD42_xCbho-unsplash.jpg
 categories:
-  - Meta
   - Fruit
+  - Meta
+image-alt: "A bushel of red apples hanging on a tree."
 ---
 
 > **Today, the imagination behind the internet is dominantly shaped by militarization, consumerism, and surveillance. Given the options, I understand the desire to log off and dream in greener places.**
->
+> 
 > -- *[Annika Hansteen-Izora](https://www.annikaizora.com/), artist, writer and designer.*
 
 ## Ethos

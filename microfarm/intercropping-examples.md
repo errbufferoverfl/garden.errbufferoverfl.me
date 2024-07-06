@@ -1,11 +1,13 @@
 ---
 title: "Intercropping Examples"
-author: "errbufferoverfl"
-date: 2023-08-06T20:52:57+10:00
+author:
+  - "errbufferoverfl"
+date: 2023-08-06T20:22:57+09:30
+date-modified: 2024-07-06T13:36:48+09:30
 categories:
-- Permaculture
-- Sustainable Agriculture
-- Intercropping
+  - Intercropping
+  - Permaculture
+  - Sustainable Agriculture
 ---
 
 The following examples were collated from online searches of intercropping online, and many were rightly or wrongly compiled on the foundation of companion planting.

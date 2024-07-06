@@ -1,7 +1,9 @@
 ---
 title: "Preserving Cucumbers"
-author: "errbufferoverfl"
-date: 2023-10-22T08:33:03+11:00
+author:
+  - "errbufferoverfl"
+date: 2023-10-22T08:03:03+10:30
+date-modified: 2024-07-06T13:36:48+09:30
 image: /imgs/reka-biro-horvath-cAVv_E77q1Q-unsplash.jpg
 categories:
   - Boiling-Water Canning
