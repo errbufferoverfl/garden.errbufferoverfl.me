@@ -18,3 +18,23 @@
     Zines that cover computer science concepts in an accessible way, targeted towards people who don't think computer science is for them.
   path: "https://shop.bubblesort.io/"
   categories: [Technology, Computers, Computer Science, Active]
+- title: "All of My Mistakes"
+  description: >
+    All of My Mistakes (AOMM) is a perzine about mistakes that has been running since 2020 by b. b writes about driving and stars and caterpillars; losing friends and estranged mothers; bad luck, bathrooms, and new beginnings.
+  path: "http://aomm.xyz/"
+  categories: [Sydney, Australia, Perizne, Active]
+- title: "Batcities Zines and Illustrations"
+  description: >
+    Kento Cady is a hāfu illustrator that uses mixed media to create his unique artwork to explore community perspectives and togetherness in his illustrations and zines. 
+  path: "https://batcities.ca/"
+  categories: [Illustration, Community, Ontario, Canada, Active]
+- title: "Bitter Tea Hymnal Zines"
+  description: >
+    Perzines about abuse, mental illness, the fear of the end times, and gender. 
+  path: "https://torlowell.neocities.org/zines"
+  categories: [Perizine, Queer, Online, Active]
+- title: "Bitter Tea Hymnal Zines"
+  description: >
+    Bracey is a Nigerian born, fandom-lover and studier of internet culture making zines from a Black queer indigenous centre about gender, queerness and race.
+  path: "https://appeikumoh.carrd.co/"
+  categories: [Queer, Race, Sex, Online, Active]
