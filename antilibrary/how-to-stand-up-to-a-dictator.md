@@ -26,8 +26,13 @@ categories:
   - Sociology
 ---
 
-:::: {.columns}
+::: {.content-hidden when-format="html"}
 
+`button-updateReadingStatus`  · `button-updateCurrentPage`
+
+:::
+
+:::: {.columns}
 ::: {.column width="50%"}
 
 _What will you sacrifice for the truth? Maria Ressa has spent decades speaking truth to power. But her work tracking disinformation networks seeded by her own government, spreading lies to its own citizens laced with anger and hate, has landed her in trouble with the most powerful man in the country: President Duterte._

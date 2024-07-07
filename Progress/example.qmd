@@ -1,9 +1,0 @@
----
-title: "Progress Example"
-pages: 100
-page: 25
----
-
-# Introduction
-
-{{< progress >}}

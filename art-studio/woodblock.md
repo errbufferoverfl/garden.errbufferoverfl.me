@@ -1,15 +1,16 @@
 ---
-title: "Woodblock"
-author: "errbufferoverfl"
+title: Woodblock
+author:
+  - errbufferoverfl
 date: 2023-06-02T23:30:00+09:30
-date-modified: 2024-07-06T13:32:32+09:30
-lightbox: auto
+date-modified: 2024-07-08T09:11:29+09:30
 categories:
   - Art Note
   - Medium
   - Relief Printing
   - Seed
   - Textile Arts
+lightbox: auto
 ---
 
 A technique originally developed in China as a way of printing on textiles and later on paper, the oldest surviving fragments to survive date back to the Han dynasty (before 220).

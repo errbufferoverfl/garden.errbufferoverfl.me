@@ -24,9 +24,15 @@ categories:
 - Philosophy
 ---
 
-::: columns
+::: {.content-hidden when-format="html"}
 
+`button-updateReadingStatus`  · `button-updateCurrentPage`
+
+:::
+
+::: columns
 ::: {.column width="50%"}
+
 *How to Read a Book, originally published in 1940, has become a rare phenomenon, a living classic. It is the best and most successful guide to reading comprehension for the general reader. And now it has been completely rewritten and updated.*
 
 *You are told about the various levels of reading and how to achieve them -- from elementary reading, through systematic skimming and inspectional reading, to speed reading, you learn how to pigeon-hole a book, X-ray it, extract the author's message, criticize.*
@@ -48,7 +54,6 @@ published on 2014-09-30 by {{< meta publisher >}}
 {{< progress >}}
 
 :::
-
 :::
 
 ## Quotes

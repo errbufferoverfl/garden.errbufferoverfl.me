@@ -1,11 +1,10 @@
 ---
-title: "SES Hardened JavaScript for Fearless Cooperation"
+title: SES Hardened JavaScript for Fearless Cooperation
 date: 2023-10-15T16:15:24+10:30
-date-modified: 2024-07-06T13:37:31+09:30
+date-modified: 2024-07-08T09:13:30+09:30
 categories:
   - Javascript
   - npm
-url: 
 ---
 
 SES is hardened JavaScript. SES stands for fearless cooperation. This package is a SES shim for JavaScript features proposed to ECMA TC39. Hardened JavaScript is highly compatible with ordinary JavaScript. Most existing JavaScript libraries can run on hardened JavaScript.

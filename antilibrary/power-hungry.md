@@ -23,8 +23,13 @@ categories:
   - Political Science
 ---
 
-:::: {.columns}
+::: {.content-hidden when-format="html"}
 
+`button-updateReadingStatus`  · `button-updateCurrentPage`
+
+:::
+
+:::: {.columns}
 ::: {.column width="50%"}
 
 _Two unsung women whose power using food as a political weapon during the civil rights movement was so great it brought the ire of government agents working against them._

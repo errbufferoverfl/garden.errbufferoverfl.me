@@ -26,8 +26,13 @@ categories:
   - Activism
 ---
 
-:::: {.columns}
+::: {.content-hidden when-format="html"}
 
+`button-updateReadingStatus`  · `button-updateCurrentPage`
+
+:::
+
+:::: {.columns}
 ::: {.column width="50%"}
 
 _'Work hard, get paid.' It's simple. Self-evident. But it's also a lie—at least for most of us. For young people today, the old assumptions are crumbling; hard work in school no longer guarantees a secure, well-paying job in the future. Far from equating to riches and fulfilment, 'work' increasingly means precarity, anxiety and alienation._

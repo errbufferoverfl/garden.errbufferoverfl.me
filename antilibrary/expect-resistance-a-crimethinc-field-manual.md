@@ -24,8 +24,13 @@ categories:
   - Counter Culture
 ---
 
-:::: {.columns}
+::: {.content-hidden when-format="html"}
 
+`button-updateReadingStatus`  · `button-updateCurrentPage`
+
+:::
+
+:::: {.columns}
 ::: {.column width="50%"}
 
 _Expect Resistance is not one but three books, each of which may be read as a complete work unto itself. The first book, printed in standard black ink, continues the inquiry into modern life and its discontents begun in [Days of War, Nights of Love](https://crimethinc.com/books/days-of-war-nights-of-love). Just as that book included improved versions of texts originally published between 1996 and 1999, this book draws on CrimethInc. material from 2000 to 2004, painstakingly refined and augmented with a great deal of new content. The second book, in red ink, is a composite account, related by three narrators, of the adventures and tribulations that inevitably ensue when people pursuing their dreams enter into conflict with the world as it is._

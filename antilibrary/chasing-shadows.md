@@ -17,6 +17,12 @@ categories:
   - Terrorism
 ---
 
+::: {.content-hidden when-format="html"}
+
+`button-updateReadingStatus`  · `button-updateCurrentPage`
+
+:::
+
 ::: columns
 ::: {.column width="50%"}
 
