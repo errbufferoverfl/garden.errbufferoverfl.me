@@ -12,4 +12,5 @@ listing:
     image-placeholder: /imgs/placeholder-notebook.png
 toc: false
 repo-actions: false
+comments: false
 ---

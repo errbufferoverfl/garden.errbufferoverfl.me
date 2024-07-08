@@ -10,4 +10,5 @@ listing:
     categories: "Review"
 toc: false
 repo-actions: false
+comments: false
 ---

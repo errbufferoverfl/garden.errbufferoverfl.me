@@ -11,4 +11,5 @@ listing:
   filter-ui: true
 toc: false
 repo-actions: false
+comments: false
 ---
