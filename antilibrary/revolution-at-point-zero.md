@@ -1,7 +1,6 @@
 ---
 title: "Revolution at Point Zero"
-date: 2023-01-28T00:00:00+11:00
-date-modified: 2023-09-09T22:09:54+10:00
+date: August 01, 2020
 image: /imgs/revolution-at-point-zero.png
 started: 2022-04-30
 completed: 2023-01-28
@@ -24,8 +23,13 @@ categories:
   - Gender
 ---
 
-:::: {.columns}
+::: {.content-hidden when-format="html"}
 
+`button-updateReadingStatus`  · `button-updateCurrentPage`
+
+:::
+
+:::: {.columns}
 ::: {.column width="50%"}
 
 _Written between 1974 and 2016, Revolution at Point Zero collects four decades of research and theorising on the nature of housework, social reproduction, and women’s struggles on this terrain—to escape it, to better its conditions, to reconstruct it in ways that provide an alternative to capitalist relations. Indeed, as Federici reveals, behind the capitalist organisation of work and the contradictions inherent in “alienated labor” is an explosive ground zero for revolutionary practice upon which are decided the daily realities of our collective reproduction._
@@ -33,21 +37,16 @@ _Written between 1974 and 2016, Revolution at Point Zero collects four decades o
 _Beginning with Federici’s organisational work in the Wages for Housework movement, the essays collected here unravel the power and politics of wide but related issues including the international restructuring of [[../the-notebook/reproductive-labor|reproductive work]] and its effects on the sexual division of labor, the globalisation of care work and sex work, the crisis of elder care, the development of affective labor, and the politics of the commons. This revised and expanded edition includes three additional essays and a new preface by the author._
 
 :::
-
 ::: {.column width="10%"}
 <!-- empty column to create gap -->
 :::
-
 ::: {.column width="40%"}
 
 ![]({{< meta image >}})
 
-published on August 01, 2020 by {{< meta publisher >}}
-
 {{< progress >}}
 
 :::
-
 ::::
 
 ## High-Level Thoughts

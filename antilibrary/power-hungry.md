@@ -1,7 +1,6 @@
 ---
 title: "Power Hungry"
-date: 2023-09-07T10:55:41+10:00
-date-modified: 2023-09-09T22:09:54+10:00
+date: November 09, 2021
 image: "/imgs/power-hungry.png"
 started: 2023-01-30
 completed: 2023-02-22
@@ -41,19 +40,14 @@ _These two women's tales, separated by a handful of years, tell the same story: 
 _The leadership of these women cooking and serving food in a safe space for their communities was so powerful, the FBI resorted to coordinated extensive and often illegal means to stop the efforts of these two women, and those using similar tactics, under COINTELPRO--turning a blind eye to the firebombing of the children of a restaurant owner, destroying food intended for poor kids, and declaring a community breakfast program a major threat to public safety. But of course, it was never just about the food._
 
 :::
-
 ::: {.column width="10%"}
 <!-- empty column to create gap -->
 :::
-
 ::: {.column width="40%"}
 
 ![]({{< meta image >}})
 
-published on November 09, 2021 by {{< meta publisher >}}
-
 {{< progress >}}
 
 :::
-
 ::::

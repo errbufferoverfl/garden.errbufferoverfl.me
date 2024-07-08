@@ -1,6 +1,6 @@
 ---
 title: "Less is More"
-date: 2024-03-20T12:28:23+10:30
+date: 2020-08-13
 image: /imgs/less-is-more.png
 started: 2024-03-02
 completed: 2024-04-14
@@ -46,8 +46,6 @@ categories:
 ::: {.column width="40%"}
 
 ![]({{< meta image >}})
-
-published on 2020-08-13 by {{< meta publisher >}}
 
 {{< progress >}}
 

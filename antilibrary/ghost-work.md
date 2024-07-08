@@ -1,7 +1,6 @@
 ---
 title: "Ghost Work"
-date: 2023-06-29T23:00:43+10:00
-date-modified: 2023-10-14T22:18:24+11:00
+date: May 7, 2019
 image: /imgs/ghost-work.png
 status: "Completed"
 started: 2023-08-01
@@ -26,6 +25,12 @@ categories:
   - Intelligence
 ---
 
+::: {.content-hidden when-format="html"}
+
+`button-updateReadingStatus`  · `button-updateCurrentPage`
+
+:::
+
 ::: columns
 ::: {.column width="50%"}
 *"A startling exposé of the invisible human workforce that powers the web--and how to bring it out of the shadows. Hidden beneath the surface of the internet, a new, stark reality is looming--one that cuts to the very heart of our endless debates about the impact of AI.*
@@ -34,16 +39,12 @@ categories:
 
 *They often earn less than legal minimums for traditional work, they have no health benefits, and they can be fired at any time for any reason, or for no reason at all. An estimated 8 percent of Americans have worked in this 'ghost economy,' and that number is growing every day. In this unprecedented investigation, Gray and Suri make the case that robots will never completely eliminate 'ghost work' and the unchecked quest for artificial intelligence could spark catastrophic work conditions if not stopped in its tracks. Ultimately, they show how this essential type of work can create opportunity--rather than misery--for those who do it."*
 :::
-
 ::: {.column width="10%"}
 <!-- empty column to create gap -->
 :::
-
 ::: {.column width="40%"}
 
 ![]({{< meta image >}})
-
-published on 2019 by {{< meta publisher >}}
 
 {{< progress >}}
 
@@ -97,6 +98,11 @@ Gray interviewed a bunch of people some looking to starve off boredom, or pay fo
 - Mechanical Turk (MTurk): The Amazon on-demand work platform.
 - Universal Human Relevance System (UHRS): The Microsoft on-demand work platform, can only be used by Microsoft staff and authorised third-parties.
 - CrowdFlower (Figure Eight Inc.)
+
+## Further Reading
+
+- [Ghost Work](https://www.ghostwork.org/)
+- [Ghost Work Readers Guide](https://ghostwork.info/wp-content/uploads/2019/07/GhostWorkReaderGuideJuly2019.pdf)
 
 [^1]: Ghost Work, Mary L. Gray, Siddharth Suri, Introduction, page. xiii
 [^2]: [Sense of Urgency](https://www.whitesupremacyculture.info/urgency.html)

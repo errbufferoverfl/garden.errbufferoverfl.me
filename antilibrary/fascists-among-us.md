@@ -1,6 +1,6 @@
 ---
 title: Fascists Among Us
-date: 2024-05-21T19:22:47+09:30
+date: 2019-11-19
 image: /imgs/fascists-among-us.png
 started: 2024-05-17
 completed: 2024-05-17
@@ -34,8 +34,6 @@ _The first book since Christchurch to trace the massacre’s fascist roots and w
 ::: {.column width="40%"}
 
 ![]({{< meta image >}})
-
-published on 2019-11-19 by {{< meta publisher >}}
 
 {{< progress >}}
 

@@ -1,6 +1,6 @@
 ---
 title: "Abolition. Feminism. Now."
-date: 2024-04-18T06:53:45+09:30
+date: 2022-01-18
 image: /imgs/abolition-feminism-now.png
 started: 2024-04-18
 completed: 2024-04-18
@@ -47,8 +47,6 @@ _This pathbreaking book also features illustrations documenting the work of gras
 ::: {.column width="40%"}
 
 ![]({{< meta image >}})
-
-published on 2022-01-18 by {{< meta publisher >}}
 
 {{< progress >}}
 

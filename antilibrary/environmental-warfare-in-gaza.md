@@ -1,6 +1,6 @@
 ---
 title: Environmental Warfare in Gaza Colonial Violence and New Landscapes of Resistance
-date: 2024-05-06T15:32:07+09:30
+date: 20 February 2024
 image: /imgs/environmental-warfare-in-gaza.png
 started: 2024-05-21
 completed: 2024-05-17

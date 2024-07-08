@@ -1,6 +1,6 @@
 ---
 title: "Cultish"
-date: 2023-10-21T21:04:27+11:00
+date: 2021-06-15
 image: /imgs/cultish.png
 started: 2023-10-21
 completed: 2023-11-02
@@ -36,7 +36,6 @@ The following notes discuss sexual abuse, coercive control, suicide and murder.
 
 :::
 :::: {.columns}
-
 ::: {.column width="50%"}
 
 _The author of the widely praised Wordslut analyzes the social science of cult influence: how cultish groups from Jonestown and Scientology to SoulCycle and social media gurus use language as the ultimate form of power. What makes “cults” so intriguing and frightening? What makes them powerful? The reason why so many of us binge Manson documentaries by the dozen and fall down rabbit holes researching suburban moms gone QAnon is because we’re looking for a satisfying explanation for what causes people to join—and more importantly, stay in—extreme groups._
@@ -46,21 +45,16 @@ _We secretly want to know: could it happen to me? Amanda Montell’s argument is
 _In both positive ways and shadowy ones, cultish language is something we hear—and are influenced by—every single day. Through juicy storytelling and cutting original research, Montell exposes the verbal elements that make a wide spectrum of communities “cultish,” revealing how they affect followers of groups as notorious as Heaven’s Gate, but also how they pervade our modern start-ups, Peloton leaderboards, and Instagram feeds. Incisive and darkly funny, this enrapturing take on the curious social science of power and belief will make you hear the fanatical language of “cultish” everywhere._
 
 :::
-
 ::: {.column width="10%"}
 <!-- empty column to create gap -->
 :::
-
 ::: {.column width="40%"}
 
 ![]({{< meta image >}})
 
-published on 2021-06-15 by {{< meta publisher >}}
-
 {{< progress >}}
 
 :::
-
 ::::
 
 ## Quotes

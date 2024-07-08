@@ -1,6 +1,6 @@
 ---
 title: "How to Read a Book"
-date: 2023-10-20T21:31:41+11:00
+date: 2014-09-30
 image: /imgs/how-to-read-a-book.png
 started: 2023-10-17
 completed:
@@ -41,15 +41,11 @@ categories:
 
 *Finally, the authors offer a recommended reading list and supply reading tests whereby you can measure your own progress in reading skills, comprehension and speed.*
 :::
-
 ::: {.column width="10%"}
 <!-- empty column to create gap -->
 :::
-
 ::: {.column width="40%"}
 ![]({{< meta image >}})
-
-published on 2014-09-30 by {{< meta publisher >}}
 
 {{< progress >}}
 

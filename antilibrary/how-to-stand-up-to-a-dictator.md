@@ -1,6 +1,6 @@
 ---
 title: "How to Stand Up to a Dictator"
-date: 2022-11-17T00:00:00+11:00
+date: November 17, 2022
 date-modified: 2023-10-2023
 image: /imgs/how-to-stand-up-to-a-dictator.png
 alt: "How to Stand Up to a Dictator Book Cover"
@@ -42,21 +42,16 @@ _Now, hounded by the state, she has multiple arrest warrants against her name, a
 _How to Stand Up to a Dictator is the story of how democracy dies by a thousand cuts, and how an invisible atom bomb has exploded online that is killing our freedoms. It maps a network of disinformation - a heinous web of cause and effect - that has netted the globe: from Duterte's drug wars, to America's Capitol Hill, to Britain's Brexit, to Russian and Chinese cyber-warfare, to Facebook and Silicon Valley, to our own clicks and our own votes. Told from the frontline of the digital war, this is Maria Ressa's urgent cry for us to wake up and hold the line, before it is too late._
 
 :::
-
 ::: {.column width="10%"}
 <!-- empty column to create gap -->
 :::
-
 ::: {.column width="40%"}
 
 ![]({{< meta image >}})
 
-published on November 17, 2022 by {{< meta publisher >}}
-
 {{< progress >}}
 
 :::
-
 ::::
 
 

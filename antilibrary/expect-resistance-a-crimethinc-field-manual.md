@@ -1,7 +1,6 @@
 ---
 title: "Expect Resistance: A Crimethink Field Manual"
-date: 2023-06-20T21:30:40+10:00
-date-modified: 2023-09-09T22:09:54+10:00
+date: 12 Oct 2007
 image: /imgs/expect-resistance-a-crimethinc-field-manual.png
 started: 
 completed: 
@@ -38,11 +37,9 @@ _Expect Resistance is not one but three books, each of which may be read as a co
 _Together these comprise a third book, an exploration of the complex relationship between ideals and reality. Expect Resistance is a field manual for a field on which all manuals are useless, a meditation on individual transformation and collective resistance in disastrous times, and a masterpiece that raises the bar for radical publishing._
 
 :::
-
 ::: {.column width="10%"}
 <!-- empty column to create gap -->
 :::
-
 ::: {.column width="40%"}
 
 ![]({{< meta image >}})
@@ -52,7 +49,6 @@ published in 2008 by {{< meta publisher >}}
 {{< progress >}}
 
 :::
-
 ::::
 
 ## High-Level Thoughts

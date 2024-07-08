@@ -1,6 +1,6 @@
 ---
 title: "Debt The First 5,000 Years"
-date: 2024-03-20T11:14:47+10:30
+date: November 22, 2022
 image: /imgs/debt.png
 started: 2024-02-01
 completed: 
@@ -38,16 +38,12 @@ categories:
 *Debt: The First 5,000 Years is a fascinating chronicle of this little known history—as well as how it has defined human history, and what it means for the credit crisis of the present day and the future of our economy.*
 
 :::
-
 ::: {.column width="10%"}
 <!-- empty column to create gap -->
 :::
-
 ::: {.column width="40%"}
 
 ![]({{< meta image >}})
-
-published on November 22, 2022 by {{< meta publisher >}}
 
 {{< progress >}}
 

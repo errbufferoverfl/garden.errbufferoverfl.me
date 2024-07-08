@@ -1,7 +1,7 @@
 ---
 title: "Breaking Things at Work"
-date: 2024-03-20T11:23:49+10:30
 image: /imgs/breaking-things-at-work.png
+date: March 02, 2021
 started: 2024-02-01
 completed: 2024-04-17
 page: 177
@@ -37,16 +37,12 @@ categories:
 *Breaking Things at Work is an innovative rethinking of labour and machines, leaping from textile mills to algorithms, from existentially threatened knife cutters of rural Germany to surveillance-evading truckers driving across the continental United States. Mueller argues that the future stability and empowerment of working-class movements will depend on subverting these technologies and preventing their spread wherever possible. The task is intimidating, but the seeds of this resistance are already present in the neo-Luddite efforts of hackers, pirates, and dark web users who are challenging surveillance and control, often through older systems of communication technology.*
 
 :::
-
 ::: {.column width="10%"}
 <!-- empty column to create gap -->
 :::
-
 ::: {.column width="40%"}
 
 ![]({{< meta image >}})
-
-published on March 02, 2021 by {{< meta publisher >}}
 
 {{< progress >}}
 

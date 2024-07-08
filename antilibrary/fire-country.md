@@ -1,6 +1,6 @@
 ---
 title: "Fire Country How Indigenous Fire Management Could Help Save Australia"
-date: 2024-03-25T14:07:57+10:30
+date: 2020-02-18
 image: /imgs/fire-country.png
 started: 2023-12-17
 completed: 
@@ -40,8 +40,6 @@ _Delving deep into the Australian landscape and the environmental challenges we 
 ::: {.column width="40%"}
 
 ![]({{< meta image >}})
-
-published on 2020-02-18 by {{< meta publisher >}}
 
 {{< progress >}}
 

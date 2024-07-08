@@ -1,7 +1,6 @@
 ---
 title: "Lost in Work Escaping Capitalism"
-date: 2023-04-10T00:00:00+10:00
-date-modified: 2023-09-09T22:09:54+10:00
+date: June 20, 2021
 image: "/imgs/lost-in-work-escaping-capitalism.png"
 started: 2023-04-27
 completed: 2023-05-12
@@ -42,19 +41,14 @@ _Amelia Horgan poses three big questions: what is work? How does it harm us? And
 _While abolishing work altogether is not the answer, _Lost in Work_ shows that when workers are able to take control of their workplaces, they become less miserable, and even open doors allowing them to fight back against the elite._
 
 :::
-
 ::: {.column width="10%"}
 <!-- empty column to create gap -->
 :::
-
 ::: {.column width="40%"}
 
 ![]({{< meta image >}})
 
-published on June 20, 2021 by {{< meta publisher >}}
-
 {{< progress >}}
 
 :::
-
 ::::

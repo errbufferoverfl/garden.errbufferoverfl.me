@@ -1,7 +1,7 @@
 ---
 title: "Anarchic Agreements, a Field Guide to Collective Organising"
 image: /imgs/anarchic-agreements-a-field-guide-to-collective-organising.png
-date: 2023-05-21
+date: November 22, 2022
 started: 2023-05-21
 completed: 2023-06-05
 page: 113
@@ -51,8 +51,6 @@ categories:
 ::: {.column width="40%"}
 
 ![]({{< meta image >}})
-
-published on November 22, 2022 by {{< meta publisher >}}
 
 {{< progress >}}
 

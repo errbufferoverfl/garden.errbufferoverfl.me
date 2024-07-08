@@ -1,7 +1,7 @@
 ---
 title: "Blood in the Machine"
-date: 2024-03-20T11:21:17+10:30
 image: /imgs/blood-in-the-machine.png
+date: September 26, 2023
 started: 
 completed: 
 page: 0
@@ -40,16 +40,12 @@ categories:
 *The answers lie in Blood in the Machine. Brian Merchant intertwines a lucid examination of our current age with the story of the Luddites, showing how automation changed our world—and is shaping our future.*
 
 :::
-
 ::: {.column width="10%"}
 <!-- empty column to create gap -->
 :::
-
 ::: {.column width="40%"}
 
 ![]({{< meta image >}})
-
-published on September 26, 2023 by {{< meta publisher >}}
 
 {{< progress >}}
 

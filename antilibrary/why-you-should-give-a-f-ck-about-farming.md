@@ -1,7 +1,6 @@
 ---
 title: "Why you should give a f*ck about farming"
-date: 2023-09-07T10:47:24+10:00
-date-modified: 2023-09-09T22:09:54+10:00
+date: August 31, 2021
 image: /imgs/why-you-should-give-a-f-ck-about-farming.png
 started: 2023-01-22
 completed: 2023-01-28
@@ -25,8 +24,13 @@ categories:
   - Political Science
 ---
 
-:::: {.columns}
+::: {.content-hidden when-format="html"}
 
+`button-updateReadingStatus`  · `button-updateCurrentPage`
+
+:::
+
+:::: {.columns}
 ::: {.column width="50%"}
 
 _There is no farmers and others. If you eat or wear clothes, the decisions you make influence farming. ‘Eaters will be the ultimate arbiter of where and how food is grown and how the land is cared for ... We all have a stake in the future of food and farming. I am going to show you why.’_
@@ -38,19 +42,14 @@ _People with means can shop at farmers’ markets and order brunch, by the prove
 _She lays out how our nation, its leaders, farmers and eaters can usher in new ways for us to work and live on our unique and precious land. We must forge a new social contract if we are to grow healthy food on a thriving landscape, while mitigating climate and biodiversity loss. This important book will change your thinking about food, farming and how you eat._
 
 :::
-
 ::: {.column width="10%"}
 <!-- empty column to create gap -->
 :::
-
 ::: {.column width="40%"}
 
 ![]({{< meta image >}})
 
-published on August 31, 2021 by {{< meta publisher >}}
-
 {{< progress >}}
 
 :::
-
 ::::

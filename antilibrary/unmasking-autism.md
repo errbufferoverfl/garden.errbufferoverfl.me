@@ -1,6 +1,6 @@
 ---
 title: "Unmasking Autism Discovering the New Faces of Neurodiversity"
-date: 2024-05-06T15:25:03+09:30
+date: 2022-04-07
 image: /imgs/unmasking-autism.png
 started: 2024-04-03
 completed: 2024-04-05
@@ -47,8 +47,6 @@ categories:
 ::: {.column width="40%"}
 
 ![]({{< meta image >}})
-
-published on 2022-04-07 by {{< meta publisher >}}
 
 {{< progress >}}
 

@@ -1,6 +1,6 @@
 ---
 title: "How to Be an Antiracist"
-date: 2024-05-06T15:54:18+09:30
+date: 2019-08-13
 image: /imgs/how-to-be-an-antiracist.png
 started: 2024-05-04
 completed: 
@@ -41,8 +41,6 @@ categories:
 ::: {.column width="40%"}
 
 ![]({{< meta image >}})
-
-published on 2019-08-13 by {{< meta publisher >}}
 
 {{< progress >}}
 
