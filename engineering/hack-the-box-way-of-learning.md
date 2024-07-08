@@ -2,7 +2,7 @@
 title: "Hack the Box"
 subtitle: "Module: Way of Learning"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2023-10-21T17:06:23+10:30
 date-modified: 2024-07-06T13:35:22+09:30
 categories:

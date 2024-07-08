@@ -1,7 +1,7 @@
 ---
 title: "The Big Cloud Security Debate: Hackers vs Security Engineers"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2019-11-01T22:49:31+10:30
 date-modified: 2024-07-06T13:37:16+09:30
 categories:

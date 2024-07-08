@@ -1,7 +1,7 @@
 ---
 title: "Neocolonialism"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2023-06-23T19:50:30+09:30
 date-modified: 2024-07-06T13:36:54+09:30
 categories:

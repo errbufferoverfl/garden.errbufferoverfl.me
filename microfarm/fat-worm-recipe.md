@@ -1,7 +1,7 @@
 ---
 title: "Fat Worm Recipe"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2023-08-13T07:50:04+09:30
 date-modified: 2024-07-06T13:36:48+09:30
 categories:

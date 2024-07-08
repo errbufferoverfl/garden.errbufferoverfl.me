@@ -13,13 +13,12 @@ fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
 await tp.file.rename(`${fileTitle}`);
 -%>
 ---
-title: "<% title %>"
-alias:
-- "<% title %>"
-created: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
-modified: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
-tags:
-- adlr
+title: <% title %>
+author: 
+  - errbufferoverfl
+date: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
+categories:
+  - adlr
 ---
 
 ## Abstract

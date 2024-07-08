@@ -1,7 +1,7 @@
 ---
 title: "Collapsology: Why your biggest threat isn’t exposed RDP"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2021-09-01T22:30:00+09:30
 date-modified: 2024-07-06T13:37:16+09:30
 categories:

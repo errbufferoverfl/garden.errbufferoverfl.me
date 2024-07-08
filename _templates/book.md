@@ -15,15 +15,15 @@ await tp.file.rename(`${fileTitle}`);
 -%>
 ---
 title: {{title}}
-date: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
-image: {{coverUrl}}
+date: {{publishDate}}
+image: /imgs/<% fileTitle %>.png
 cover: 
 started: 
 completed: 
 page: 0
 pages: {{totalPage}}
 publisher: {{publisher}}
-status: "<% status %>"
+status: <% status %>
 rating: ☆☆☆☆☆
 type: Book
 author: 
@@ -50,8 +50,6 @@ _{{description}}_
 ::: {.column width="40%"}
 
 ![]({{< meta cover >}})
-
-published on {{publishDate}} by {{< meta publisher >}}
 
 {{< progress >}}
 

@@ -1,7 +1,7 @@
 ---
 title: "Agloe - What the Map Makers of the 1930s can Teach us About Protecting our Data in 2018"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2018-11-01T22:56:34+10:30
 date-modified: 2024-07-06T13:37:16+09:30
 categories:

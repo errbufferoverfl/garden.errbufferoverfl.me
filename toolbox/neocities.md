@@ -1,7 +1,7 @@
 ---
 title: Neocities
 date: 2024-07-06T09:52:28+09:30
-date-modified: 2024-07-08T09:12:46+09:30
+date-modified: 2024-07-08T13:30:29+09:30
 categories:
   - Ad-Free
   - Classic Internet

@@ -1,7 +1,7 @@
 ---
 title: "Intercropping"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2023-08-24T20:24:44+09:30
 date-modified: 2024-07-06T13:36:48+09:30
 categories:

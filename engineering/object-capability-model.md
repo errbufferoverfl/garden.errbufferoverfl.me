@@ -1,7 +1,7 @@
 ---
 title: "Object-capability model"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2023-08-09T11:44:29+09:30
 date-modified: 2024-07-06T13:36:41+09:30
 image: "/imgs/ashkan-forouzani-v31lgBn5114-unsplash.jpg"

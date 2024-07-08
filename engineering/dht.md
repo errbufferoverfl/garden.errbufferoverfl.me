@@ -1,7 +1,7 @@
 ---
 title: "DHT"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2023-06-10T23:30:00+09:30
 date-modified: 2024-07-06T13:36:41+09:30
 image: "/imgs/ruchindra-gunasekara-GK8x_XCcDZg-unsplash.jpg"

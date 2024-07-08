@@ -1,7 +1,7 @@
 ---
 title: Content Credentials
 date: 2023-10-22T19:31:12+10:30
-date-modified: 2024-07-06T13:37:31+09:30
+date-modified: 2024-07-08T13:29:28+09:30
 categories:
   - Beta
   - Open Standard

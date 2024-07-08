@@ -2,7 +2,7 @@
 title: "Security Vulnerabilities in Single-Sign On"
 subtitle: "A very unscientific meta analysis"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2023-10-28T21:12:30+10:30
 date-modified: 2024-07-06T13:36:41+09:30
 description: ""

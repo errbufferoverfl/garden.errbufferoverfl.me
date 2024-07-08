@@ -1,7 +1,7 @@
 ---
 title: "A Brief History of Tamper Evident Locks"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2019-10-01T21:50:46+09:30
 date-modified: 2024-07-06T13:37:16+09:30
 categories:

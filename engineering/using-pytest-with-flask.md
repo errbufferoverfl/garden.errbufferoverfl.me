@@ -2,7 +2,7 @@
 title: "Using Pytest with Flask"
 subtitle: ""
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2023-07-14T11:14:22+09:30
 date-modified: 2024-07-06T13:36:41+09:30
 description: ""

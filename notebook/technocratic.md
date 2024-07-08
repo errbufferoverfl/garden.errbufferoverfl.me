@@ -1,7 +1,7 @@
 ---
 title: "Technocratic"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2023-10-15T17:19:49+10:30
 date-modified: 2024-07-06T13:36:54+09:30
 categories:

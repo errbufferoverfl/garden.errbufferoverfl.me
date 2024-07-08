@@ -1,7 +1,7 @@
 ---
 title: "Snake Charming for Beginners"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2019-04-01T22:54:19+10:30
 date-modified: 2024-07-06T13:37:16+09:30
 categories:

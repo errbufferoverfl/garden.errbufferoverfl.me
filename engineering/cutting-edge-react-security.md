@@ -2,7 +2,7 @@
 title: "Cutting Edge React Security"
 subtitle: "Session 1, Part 1"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2023-10-18T12:58:20+10:30
 date-modified: 2024-07-06T13:36:41+09:30
 categories:

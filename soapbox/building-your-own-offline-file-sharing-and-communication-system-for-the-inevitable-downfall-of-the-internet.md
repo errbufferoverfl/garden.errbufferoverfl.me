@@ -1,7 +1,7 @@
 ---
 title: "Building your own offline file-sharing and communication system for the inevitable downfall of the Internet"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2018-02-01T22:58:02+10:30
 date-modified: 2024-07-06T13:37:16+09:30
 categories:

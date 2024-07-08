@@ -1,7 +1,7 @@
 ---
 title: "Languages that implement object capabilities"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2023-08-09T11:52:00+09:30
 date-modified: 2024-07-06T13:36:41+09:30
 image: "/imgs/jonny-gios-Vc-QDuMIzlQ-unsplash.jpg"

@@ -1,7 +1,7 @@
 ---
 title: "OWASP CLASP"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2023-10-11T08:36:28+10:30
 date-modified: 2024-07-06T13:36:41+09:30
 description: "Introduces OWASP CLASP, a 'comprehensive' and 'lightweight' application security process that aims to integrate security into software development programs in a structured and measurable way. It outlines the different views and components of CLASP and discusses the vulnerability use cases and taxonomy."

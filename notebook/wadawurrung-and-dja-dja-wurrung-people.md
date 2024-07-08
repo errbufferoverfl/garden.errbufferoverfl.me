@@ -1,7 +1,7 @@
 ---
 title: "Wadawurrung and Dja Dja Wurrung People"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2023-05-26T23:30:00+09:30
 date-modified: 2024-07-06T13:36:54+09:30
 image: "/imgs/wadawurrung-country.png"

@@ -14,10 +14,10 @@ fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
 await tp.file.rename(`${fileTitle}`);
 -%>
 ---
-title: "<% title %>"
+title: <% title %>
 date: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
 categories:
-
+  - 
 ---
 
 

@@ -13,13 +13,13 @@ fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
 await tp.file.rename(`${fileTitle}`);
 -%>
 ---
-title: "<% title %>"
+title: <% title %>
 date: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
-author: errbufferoverfl
-image: "/imgs/art/<% fileTitle %>.png"
-image-alt: ""
+author: 
+  - errbufferoverfl
+image: /imgs/<% fileTitle %>.png
 categories:
-- oeuvre
+  - oeuvre
 ---
 
 ![<% title %>](/imgs/art/<% fileTitle %>.png)

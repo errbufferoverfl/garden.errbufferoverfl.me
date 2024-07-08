@@ -1,7 +1,7 @@
 ---
 title: "Case Hardening"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2023-09-03T09:02:43+09:30
 date-modified: 2024-07-06T13:36:48+09:30
 categories:

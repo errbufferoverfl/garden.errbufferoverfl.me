@@ -1,7 +1,7 @@
 ---
 title: "Worm Water"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2023-10-09T08:44:55+10:30
 date-modified: 2024-07-06T13:36:48+09:30
 image: "/imgs/jonathan-kemper-YD5TvbPgmQc-unsplash.jpg"

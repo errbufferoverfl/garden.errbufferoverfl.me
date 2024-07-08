@@ -1,7 +1,7 @@
 ---
 title: "Fedge"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2023-09-08T09:23:10+09:30
 date-modified: 2024-07-06T13:36:48+09:30
 image: /imgs/fedge.png

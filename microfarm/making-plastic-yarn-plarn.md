@@ -1,7 +1,7 @@
 ---
 title: "Making Plastic Yarn (Plarn)"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2023-08-14T21:45:41+09:30
 date-modified: 2024-07-06T13:36:48+09:30
 categories:

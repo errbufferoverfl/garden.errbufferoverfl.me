@@ -1,7 +1,7 @@
 ---
 title: "Intercropping Examples"
 author:
-  - "errbufferoverfl"
+  - errbufferoverfl
 date: 2023-08-06T20:22:57+09:30
 date-modified: 2024-07-06T13:36:48+09:30
 categories:
