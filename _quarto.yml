@@ -112,6 +112,9 @@ format:
     toc-title: Table of Contents
     toc-location: right
 
+    comments:
+      hypothesis: true
+
     link-external-newwindow: true
 
     code-line-numbers: true
