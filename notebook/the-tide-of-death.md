@@ -19,6 +19,6 @@ categories:
 
 Like many early films, *The Tide Of Death* was likely lost due to the fragile nature of film materials used during that era and the lack of proper archival methods. Films from the early 20th century were made on nitrate film stock, which is highly flammable and prone to decomposition over time.
 
-Global events, such as World War II, also led to the destruction or neglect of cultural artefacts, including films. Storage facilities could have been repurposed, damaged, or destroyed during the war.
+Global events, such as World War II, ed to the destruction or neglect of cultural artefacts, including films. Storage facilities could have been repurposed, damaged, or destroyed during the war.
 
 Film stock was also sometimes recycled for its silver content, particularly during times of material shortages, contributing to the loss of original prints.
