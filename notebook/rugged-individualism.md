@@ -3,7 +3,7 @@ title: "Rugged Individualism"
 author:
   - errbufferoverfl
 date: 2023-08-17T20:30:50+09:30
-date-modified: 2024-07-06T13:36:54+09:30
+date-modified: 2024-07-13T22:35:25+09:30
 categories:
   - Definition
   - Neoliberalism

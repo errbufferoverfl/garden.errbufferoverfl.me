@@ -4,12 +4,16 @@ subtitle: Actress, screenwriter, editor, and director
 author:
   - errbufferoverfl
 date: 2024-07-13T20:46:27+09:30
-date-modified: 2024-07-13T22:23:42+09:30
+date-modified: 2024-07-13T22:34:46+09:30
 description: Lottie Lyell, born Charlotte Edith Cox, was an important figure in early Australian cinema. She was an actress, screenwriter, editor, and director.
 image: /imgs/lottie-lyell.png
 categories:
+  - Actor
   - Australian Film
   - Director
+  - Editor
+  - History
+  - Screenwriter
   - Seed
 ---
 
