@@ -4,7 +4,7 @@ subtitle: "The 15th Century Guide to Dying"
 author:
   - errbufferoverfl
 date: 2023-06-23T17:01:07+09:30
-date-modified: 2024-07-06T13:36:54+09:30
+date-modified: 2024-07-13T20:02:32+09:30
 categories:
   - 15th Century
   - Art
