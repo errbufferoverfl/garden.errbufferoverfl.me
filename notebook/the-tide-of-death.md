@@ -4,16 +4,18 @@ subtitle: Australia's first horror movie, lost to time.
 author:
   - errbufferoverfl
 date: 2024-07-13T20:38:10+09:30
-date-modified: 2024-07-13T21:10:52+09:30
+date-modified: 2024-07-13T21:23:29+09:30
 description: 
 image: /imgs/the-tide-of-death.png
 categories:
+  - Australian Horror
   - Film
+  - Horror
   - Lost Film
   - Seed
 ---
 
-*The Tide of Death* is a 1912 Australian silent film directed by Raymond Longford based on an original story by Longford. It is generally considered the first Australian horror movie, however has since been lost.
+*The Tide of Death* is a 1912 Australian silent film directed by [Raymond Longford](raymond-longford.md) based on an original story by Longford. It is generally considered the first Australian horror movie, however has since been lost.
 
 Like many early films, *The Tide Of Death* was likely lost due to the fragile nature of film materials used during that era and the lack of proper archival methods. Films from the early 20th century were made on nitrate film stock, which is highly flammable and prone to decomposition over time.
 
