@@ -1,11 +1,9 @@
 ---
 title: "Sauerkraut Recipe"
-subtitle: ""
 author:
   - errbufferoverfl
 date: 2023-07-01T09:08:09+09:30
-date-modified: 2024-07-06T13:36:48+09:30
-description: ""
+date-modified: 2024-07-13T23:05:58+09:30
 categories:
   - Fermenting
   - Recipe

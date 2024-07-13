@@ -3,11 +3,11 @@ title: Opportunistic Plants
 author:
   - errbufferoverfl
 date: 2023-09-07T17:08:10+09:30
-date-modified: 2024-07-06T13:36:48+09:30
+date-modified: 2024-07-13T23:05:31+09:30
+image: /imgs/opportunistic-plants-1.png
 categories:
   - Permaculture
   - Sustainable Agriculture
-images: /imgs/opportunistic-plants-1.png
 ---
 
 For a variety of reasons, some more valid than others, there are certain genus of plants that are classified as weeds, or invasive species. However, these can be overloaded terms, that doesn't always translate well between movements.

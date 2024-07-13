@@ -3,7 +3,7 @@ title: "Autobase"
 author:
   - errbufferoverfl
 date: 2023-06-10T23:30:00+09:30
-date-modified: 2024-07-06T13:34:35+09:30
+date-modified: 2024-07-13T23:03:45+09:30
 image: "/imgs/kenny-eliason-2PMH43yG9eU-unsplash.jpg"
 categories:
   - Definition

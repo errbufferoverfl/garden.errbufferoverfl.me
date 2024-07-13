@@ -11,7 +11,6 @@ categories:
   - Food Preservation
   - Pressure Canning
   - Seed
-image-alt: "A bushel of red apples hanging on a tree."
 ---
 
 ## Canning

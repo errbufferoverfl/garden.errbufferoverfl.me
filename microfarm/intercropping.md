@@ -3,14 +3,14 @@ title: "Intercropping"
 author:
   - errbufferoverfl
 date: 2023-08-24T20:24:44+09:30
-date-modified: 2024-07-06T13:36:48+09:30
+date-modified: 2024-07-13T23:05:14+09:30
+image: /imgs/stella-de-smit-L-cj8xXUSHo-unsplash.jpg
 categories:
   - Agroecology
   - Agroforestry
   - Permaculture
   - Sustainable Agriculture
   - Urban agriculture
-images: /imgs/stella-de-smit-L-cj8xXUSHo-unsplash.jpg
 ---
 
 Because there is some degree of ambiguity about what a [polyculture](polyculture.md) this can have a flow on effect to associated terms such as *intercropping*.

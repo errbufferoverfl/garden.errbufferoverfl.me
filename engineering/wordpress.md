@@ -1,10 +1,9 @@
 ---
 title: "WordPress"
-subtitle: ""
 author:
   - errbufferoverfl
 date: 2023-10-24T19:29:51+10:30
-date-modified: 2024-07-06T13:36:41+09:30
+date-modified: 2024-07-13T23:04:29+09:30
 categories:
   - Fundamentals
   - Seed

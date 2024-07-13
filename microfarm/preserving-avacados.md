@@ -3,7 +3,7 @@ title: "Preserving Avacados"
 author:
   - errbufferoverfl
 date: 2023-10-16T11:56:33+10:30
-date-modified: 2024-07-06T13:36:48+09:30
+date-modified: 2024-07-13T23:05:48+09:30
 image: "/imgs/louis-hansel-_t-KIMvlNrc-unsplash.jpg"
 categories:
   - Food Preservation

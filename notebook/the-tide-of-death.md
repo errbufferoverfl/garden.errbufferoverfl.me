@@ -4,7 +4,7 @@ subtitle: Australia's first horror movie, lost to time.
 author:
   - errbufferoverfl
 date: 2024-07-13T20:38:10+09:30
-date-modified: 2024-07-13T22:13:04+09:30
+date-modified: 2024-07-13T23:06:32+09:30
 description: About 'The Tide of Death' a lost 1912 Australian silent film.
 image: /imgs/the-tide-of-death.png
 categories:

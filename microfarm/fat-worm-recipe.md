@@ -3,12 +3,12 @@ title: "Fat Worm Recipe"
 author:
   - errbufferoverfl
 date: 2023-08-13T07:50:04+09:30
-date-modified: 2024-07-06T13:36:48+09:30
+date-modified: 2024-07-13T23:05:07+09:30
+image: /imgs/gio-bartlett-jvP3OT4IG8k-unsplash.jpg
 categories:
   - Permaculture
   - Sustainable Agriculture
   - Vermicomposting
-images: /imgs/gio-bartlett-jvP3OT4IG8k-unsplash.jpg
 ---
 
 - 50% [Chicken Layer Pellets](https://www.petbarn.com.au/peckish-performance-poultry-layer-pellets-20kg)

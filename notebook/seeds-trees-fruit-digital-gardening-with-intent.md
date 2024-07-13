@@ -10,7 +10,6 @@ image: /imgs/semyon-borisov-OlD42_xCbho-unsplash.jpg
 categories:
   - Fruit
   - Meta
-image-alt: "A bushel of red apples hanging on a tree."
 ---
 
 > **Today, the imagination behind the internet is dominantly shaped by militarization, consumerism, and surveillance. Given the options, I understand the desire to log off and dream in greener places.**

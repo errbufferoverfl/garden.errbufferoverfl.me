@@ -48,6 +48,7 @@ website:
     logo-alt: "Illustration of a snail looking up."
     logo-href: "/notebook/"
     title: false
+    reader-mode: true
     right:
       - text: The Notebook
         href: /notebook/

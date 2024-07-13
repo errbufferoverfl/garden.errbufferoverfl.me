@@ -3,11 +3,11 @@ title: "Polyculture Practices"
 author:
   - errbufferoverfl
 date: 2023-08-06T19:34:00+09:30
-date-modified: 2024-07-06T13:36:48+09:30
+date-modified: 2024-07-13T23:05:37+09:30
+image: /imgs/www-zanda-photography-RBdE3jv5y68-unsplash.jpg
 categories:
   - Permaculture
   - Sustainable Agriculture
-images: /imgs/www-zanda-photography-RBdE3jv5y68-unsplash.jpg
 ---
 
 While there are no hard or fast rules to using a [polyculture](polyculture.md) there are common practices that can be implemented depending on the plants, spatial distribution and time spent cohabiting.

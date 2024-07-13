@@ -3,7 +3,7 @@ title: "Permaculture"
 author:
   - errbufferoverfl
 date: 2023-09-07T12:46:49+09:30
-date-modified: 2024-07-06T13:36:48+09:30
+date-modified: 2024-07-13T23:05:33+09:30
 categories:
   - Permaculture
   - Sustainable Agriculture
