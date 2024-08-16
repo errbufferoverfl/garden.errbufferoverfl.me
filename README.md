@@ -215,6 +215,12 @@ To use the Quarto Progress Plugin in your `.qmd` or `.md` files, you need to def
    <progress max="100" value="25"></progress>
    <p>Progress: 25/100 pages</p>
    ```
+   
+## Other Tools
+
+- [xsl4quarto](https://gitlab.com/errbufferoverfl/xsl4quarto) - A Quarto post-render project script for attaching XSL files to XML.
+- [quarto-progress-bar](https://gitlab.com/errbufferoverfl/quarto-progress-bar) - A Lua script designed for Quarto to display the reading progress of a document as a progress bar in HTML format.
+- [obsidian-scripts](https://gitlab.com/errbufferoverfl/obsidian-scripts) - Scripts used to make my note-taking experience better.
 
 ## Common Issues
 
