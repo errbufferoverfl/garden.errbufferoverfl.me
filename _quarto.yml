@@ -7,7 +7,7 @@ project:
     - "*.jpg"
     - "*.png"
   post-render:
-    - python3 attach_xsl.py
+    - python3 xsl4quarto.py
 
   preview:
       port: 8086
