@@ -3,8 +3,7 @@ title: "Fat Worm Recipe"
 author:
   - errbufferoverfl
 date: 2023-08-13T07:50:04+09:30
-date-modified: 2024-07-13T23:05:07+09:30
-image: /imgs/gio-bartlett-jvP3OT4IG8k-unsplash.jpg
+date-modified: 2024-09-15T12:25:47+09:30
 categories:
   - Permaculture
   - Sustainable Agriculture

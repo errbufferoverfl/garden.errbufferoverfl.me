@@ -4,9 +4,8 @@ subtitle: Australian Film Director
 author:
   - errbufferoverfl
 date: 2024-07-13T20:40:24+09:30
-date-modified: 2024-07-13T22:35:01+09:30
+date-modified: 2024-09-15T12:25:54+09:30
 description: Raymond Longford, a key contributor in early Australian cinema.
-image: /imgs/raymond-longford.png
 categories:
   - Actor
   - Australian Film

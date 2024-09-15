@@ -3,8 +3,7 @@ title: "Polyculture Practices"
 author:
   - errbufferoverfl
 date: 2023-08-06T19:34:00+09:30
-date-modified: 2024-07-13T23:05:37+09:30
-image: /imgs/www-zanda-photography-RBdE3jv5y68-unsplash.jpg
+date-modified: 2024-09-15T12:25:47+09:30
 categories:
   - Permaculture
   - Sustainable Agriculture

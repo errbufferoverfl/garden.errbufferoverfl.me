@@ -3,8 +3,7 @@ title: Opportunistic Plants
 author:
   - errbufferoverfl
 date: 2023-09-07T17:08:10+09:30
-date-modified: 2024-07-13T23:05:31+09:30
-image: /imgs/opportunistic-plants-1.png
+date-modified: 2024-09-15T12:25:47+09:30
 categories:
   - Permaculture
   - Sustainable Agriculture

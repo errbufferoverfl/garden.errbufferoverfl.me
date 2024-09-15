@@ -3,8 +3,7 @@ title: "Consensus and Humming in the IETF"
 author:
   - errbufferoverfl
 date: 2023-06-20T18:07:06+09:30
-date-modified: 2024-07-13T23:04:38+09:30
-image: "/imgs/shelby-cohron-UQwbKtu-2Ek-unsplash.jpg"
+date-modified: 2024-09-15T12:25:13+09:30
 categories:
   - Concencus Building
   - IETF

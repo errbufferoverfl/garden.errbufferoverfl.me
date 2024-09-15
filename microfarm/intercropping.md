@@ -3,8 +3,7 @@ title: "Intercropping"
 author:
   - errbufferoverfl
 date: 2023-08-24T20:24:44+09:30
-date-modified: 2024-07-13T23:05:14+09:30
-image: /imgs/stella-de-smit-L-cj8xXUSHo-unsplash.jpg
+date-modified: 2024-09-15T12:25:47+09:30
 categories:
   - Agroecology
   - Agroforestry

@@ -3,9 +3,8 @@ title: "Setting Up Distributed Press on Digital Ocean"
 author:
   - errbufferoverfl
 date: 2023-10-15T16:32:39+10:30
-date-modified: 2024-07-06T13:36:41+09:30
+date-modified: 2024-09-15T12:25:14+09:30
 description: "A guide on setting up Distributed Press on Digital Ocean. It covers creating a virtual private server (VPS), installing dependencies, configuring DNS, executing the playbook, and checking the status of the service. It also includes additional notes on creating a new publisher, adding a site to a publisher, and troubleshooting errors."
-image: "/imgs/ian-schneider-WymR2nYtj5M-unsplash.jpg"
 categories:
   - Digital Ocean
   - Distributed Web

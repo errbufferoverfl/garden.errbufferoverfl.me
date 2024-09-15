@@ -3,9 +3,8 @@ title: Preserving Apples
 author:
   - errbufferoverfl
 date: 2023-10-13T23:30:00+10:30
-date-modified: 2024-07-06T13:36:48+09:30
+date-modified: 2024-09-15T12:25:47+09:30
 description: A step-by-step guide on canning apples, including the ingredients needed, the preparation process, and additional information for reference.
-image: /imgs/marek-studzinski-3D6yReT06p0-unsplash.jpg
 categories:
   - Boiling-Water Canning
   - Food Preservation

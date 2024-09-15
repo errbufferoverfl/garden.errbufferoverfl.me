@@ -3,8 +3,7 @@ title: "Case Hardening"
 author:
   - errbufferoverfl
 date: 2023-09-03T09:02:43+09:30
-date-modified: 2024-07-13T23:04:53+09:30
-image: /imgs/priscilla-du-preez-9wNOMieg0fs-unsplash.jpg
+date-modified: 2024-09-15T12:25:47+09:30
 categories:
   - Dehydrating
   - Dehydrating Debugging

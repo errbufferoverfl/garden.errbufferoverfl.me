@@ -4,9 +4,8 @@ subtitle: "A very unscientific meta analysis"
 author:
   - errbufferoverfl
 date: 2023-10-28T21:12:30+10:30
-date-modified: 2024-07-06T13:36:41+09:30
+date-modified: 2024-09-15T12:25:14+09:30
 description: ""
-image: "/imgs/julia-joppien-XFUqd0u5U7w-unsplash.jpg"
 categories:
   - OAuth
   - OAuth Vulnerabilities

@@ -3,8 +3,7 @@ title: Bokashi Bran
 author:
   - errbufferoverfl
 date: 2023-10-08T18:12:51+10:30
-date-modified: 2024-07-13T23:05:00+09:30
-image: /imgs/utsman-media-tyVcPQfncrg-unsplash.jpg
+date-modified: 2024-09-15T12:25:47+09:30
 categories:
   - Composting
   - Seed

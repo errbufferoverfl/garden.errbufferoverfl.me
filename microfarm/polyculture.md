@@ -3,8 +3,7 @@ title: Polyculture
 author:
   - errbufferoverfl
 date: 2023-08-06T19:19:02+09:30
-date-modified: 2024-07-13T23:05:40+09:30
-image: /imgs/florian-giorgio-t6kr9bbHaVg-unsplash.jpg
+date-modified: 2024-09-15T12:25:47+09:30
 categories:
   - Permaculture
   - Sustainable Agriculture

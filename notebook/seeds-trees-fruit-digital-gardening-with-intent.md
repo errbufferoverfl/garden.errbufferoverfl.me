@@ -4,9 +4,8 @@ subtitle: "Digital Gardening with Intent"
 author:
   - errbufferoverfl
 date: 2023-10-13T23:30:00+10:30
-date-modified: 2024-07-06T13:36:54+09:30
+date-modified: 2024-09-15T12:25:54+09:30
 description: "This post explores the concept of digital gardening, emphasizing the importance of reclaiming time, iterative learning, and embracing complexity. It introduces the metaphor of seeds, trees, and fruit to describe the different stages of content creation in a digital garden."
-image: /imgs/semyon-borisov-OlD42_xCbho-unsplash.jpg
 categories:
   - Fruit
   - Meta

@@ -3,8 +3,7 @@ title: "Using Pytest with Flask"
 author:
   - errbufferoverfl
 date: 2023-07-14T11:14:22+09:30
-date-modified: 2024-07-13T23:04:20+09:30
-image: "/imgs/vincent-ghilione-MTPGo7m1PhI-unsplash.jpg"
+date-modified: 2024-09-15T12:25:14+09:30
 categories:
   - Flask
   - PyTest

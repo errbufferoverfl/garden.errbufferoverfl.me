@@ -3,8 +3,7 @@ title: "Preserving Carrots"
 author:
   - errbufferoverfl
 date: 2023-10-22T12:51:48+10:30
-date-modified: 2024-07-13T23:05:50+09:30
-image: /imgs/jacqueline-brandwayn-y1-rEwCZkPg-unsplash.jpg
+date-modified: 2024-09-15T12:25:47+09:30
 categories:
   - Boiling-Water Canning
   - Food Preservation

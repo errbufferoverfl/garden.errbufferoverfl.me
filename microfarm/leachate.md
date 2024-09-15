@@ -3,9 +3,8 @@ title: "Leachate"
 author:
   - errbufferoverfl
 date: 2023-10-16T11:54:39+10:30
-date-modified: 2024-07-13T23:05:26+09:30
+date-modified: 2024-09-15T12:25:47+09:30
 description: "Provides an overview of leachate, describing it as a liquid that accumulates harmful substances while passing through solids, often containing high concentrations of undesirable materials."
-image: /imgs/kayla-gibson-Qv0qZfsoGEk-unsplash.jpg
 categories:
   - Pollution
   - Seed

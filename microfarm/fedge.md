@@ -3,8 +3,7 @@ title: "Fedge"
 author:
   - errbufferoverfl
 date: 2023-09-08T09:23:10+09:30
-date-modified: 2024-07-13T23:05:10+09:30
-image: /imgs/fedge.png
+date-modified: 2024-09-15T12:25:47+09:30
 categories:
   - Permaculture
   - Permaculture Design

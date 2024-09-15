@@ -3,8 +3,7 @@ title: "Preserving Cucumbers"
 author:
   - errbufferoverfl
 date: 2023-10-22T08:03:03+10:30
-date-modified: 2024-07-13T23:05:51+09:30
-image: /imgs/reka-biro-horvath-cAVv_E77q1Q-unsplash.jpg
+date-modified: 2024-09-15T12:25:47+09:30
 categories:
   - Boiling-Water Canning
   - Food Preservation
