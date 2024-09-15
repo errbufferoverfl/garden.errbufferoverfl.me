@@ -28,8 +28,9 @@
 </div>
 
 <div align="center">
-  <img src="https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me/-/raw/hugo/screenshot.png" width="500"><br>
-  <img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/sa.svg?ref=chooser-v1"></a><br>
+  <img src="https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me/-/raw/hugo/screenshot_garden.errbufferoverfl.me_.png" width="250">
+  <img src="https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me/-/raw/hugo/screenshot_garden.errbufferoverfl.me_notebook_.png" width="250">
+  <br>
   <sub>The little experiment that could. Built with ❤︎ by
   <a href="https://twitter.com/errbufferoverfl">errbufferoverfl</a>
 </div>
