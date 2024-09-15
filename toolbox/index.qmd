@@ -2,14 +2,18 @@
 title: "The Toolbox"
 subtitle: "Interesting tools that may or may not be useful one day."
 listing:
-  contents: .
-  fields: [title, date, categories, description]
-  sort: title
-  type: grid
-  categories: numbered
-  sort-ui: true
-  filter-ui: true
+    contents: .
+    fields: [date, title]
+    sort: "date desc"
+    type: table
+    categories: numbered
+    sort-ui: true
 toc: false
 repo-actions: false
 comments: false
+image: "/imgs/the-toolbox-banner.png"
+format:
+  html:
+    template-partials:
+      - ../templates/title-block.html
 ---

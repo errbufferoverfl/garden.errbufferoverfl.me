@@ -11,4 +11,9 @@ listing:
 toc: false
 repo-actions: false
 comments: false
+image: "/imgs/the-zine-banner.png"
+format:
+  html:
+    template-partials:
+      - ../templates/title-block.html
 ---

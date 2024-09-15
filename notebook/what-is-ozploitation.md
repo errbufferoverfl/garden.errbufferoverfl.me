@@ -1,11 +1,9 @@
 ---
 title: What is Ozploitation?
-subtitle: 
 author:
   - errbufferoverfl
 date: 2024-09-13T10:16:48+09:30
 date-modified: 2024-09-15T09:28:04+09:30
-description: 
 image: /imgs/what-is-ozploitation.jpg
 categories:
   - Seed

@@ -12,4 +12,9 @@ max-description-length: 500
 toc: false
 repo-actions: false
 comments: false
+image: "/imgs/the-soapbox-banner.png"
+format:
+  html:
+    template-partials:
+      - ../templates/title-block.html
 ---

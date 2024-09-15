@@ -138,6 +138,7 @@ format:
     lightbox: true
     license: CC BY-SA
 
+    title-block-style: default
     appendix-style: plain
     appendix-cite-as: display
     

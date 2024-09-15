@@ -2,15 +2,18 @@
 title: "The Engineering Anthology"
 subtitle: "A collection of musings and evolving ideas about security engineering and development practices."
 listing:
-  contents: .
-  fields: [image, date, title, categories]
-  sort: "date desc"
-  type: grid
-  categories: numbered
-  sort-ui: true
-  filter-ui: true
-  image-placeholder: /imgs/placeholder-engineering.jpg
+    contents: .
+    fields: [date, title]
+    sort: "date desc"
+    type: table
+    categories: numbered
+    sort-ui: true
 toc: false
 repo-actions: false
 comments: false
+image: "/imgs/the-engineering-banner.png"
+format:
+  html:
+    template-partials:
+      - ../templates/title-block.html
 ---

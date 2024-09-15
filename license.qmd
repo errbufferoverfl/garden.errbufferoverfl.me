@@ -4,6 +4,13 @@ citation: false
 toc: false
 comments: false
 repo-actions: false
+image: "/imgs/license-banner.png"
+format:
+  html:
+    template-partials:
+      - /templates/title-block.html
 ---
 
 All pages on [garden.errbufferoverfl.me](https://garden.errbufferoverfl.me) are labeled with the license for the document under the `#reuse` anchor. For detailed information about how content can be reused, please refer to the licensing information provided there.
+
+The primary font is called Volume TC and the secondary font is called Volume TC Sans. Both are handcrafted by Tom Chalky. The graphics are from old books that Tom vectorized and offers in different illustration packages.

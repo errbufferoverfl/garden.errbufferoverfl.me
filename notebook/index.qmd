@@ -3,14 +3,17 @@ title: "The Notebook"
 subtitle: "A collection of musings and evolving ideas."
 listing:
     contents: .
-    fields: [image, date, title, categories]
+    fields: [date, title]
     sort: "date desc"
-    type: grid
+    type: table
     categories: numbered
     sort-ui: true
-    filter-ui: true
-    image-placeholder: /imgs/placeholder-notebook.png
 toc: false
 repo-actions: false
 comments: false
+image: "/imgs/the-notebook-banner.png"
+format:
+  html:
+    template-partials:
+      - ../templates/title-block.html
 ---

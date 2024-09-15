@@ -1,9 +1,20 @@
 ---
 pagetitle: errbufferoverfl - Send me a Note
+page-layout: full
 ---
 
 ::: columns
 ::: {.column width="50%"}
+<br>
+<br>
+![](/imgs/contact-me.png){fig-alt="Vintage engraving of person stabbing self in head."}
+:::
+
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="45%"}
 
 # Send me a note {{< fa feather-pointed >}}
 
@@ -22,16 +33,5 @@ For everything else, go ahead and drop me a line. Just remember, I might take a 
 <a class="link-dark me-1" href="https://github.com/errbufferoverfl" title="Github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
 <a class="link-dark me-1" href="https://x.com/errbufferoverfl" title="X (formerly Twitter)" target="_blank" rel="noopener">{{<fa brands twitter>}}</a>
 
-:::
-
-::: {.column width="10%"}
-<!-- empty column to create gap -->
-:::
-
-::: {.column width="40%"}
-<br>
-<br>
-<br>
-![](/imgs/pexels-juan-felipe-ramirez-312591454-14412883.jpg){fig-alt="Monster Standing in Forest."}
 :::
 :::

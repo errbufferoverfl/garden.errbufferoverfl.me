@@ -2,15 +2,18 @@
 title: "The Microfarm"
 subtitle: "A collection of notes about agriculture and urban-gardening."
 listing:
-  contents: .
-  fields: [image, date, title, categories]
-  sort: "date desc"
-  type: grid
-  categories: numbered
-  sort-ui: true
-  filter-ui: true
-  image-placeholder: /imgs/placeholder-microfarm.jpg
+    contents: .
+    fields: [date, title]
+    sort: "date desc"
+    type: table
+    categories: numbered
+    sort-ui: true
 toc: false
 repo-actions: false
 comments: false
+image: "/imgs/the-microfarm-banner.png"
+format:
+  html:
+    template-partials:
+      - ../templates/title-block.html
 ---

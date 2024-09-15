@@ -4,6 +4,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=swap');
 
+/* Import OTF files */
+@font-face {
+    font-family: 'VolumeTCRusticSansSolidLight';
+    src: url('assets/volume-tc-rustic-sans-solid-light.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VolumeTCRustic';
+    src: url('assets/volume-tc-rustic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VolumeTCRusticItalic';
+    src: url('assets/volume-tc-rustic-italic.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Primary and secondary colors */
 $primary: #a23e02;
 $secondary: #545555;
@@ -23,8 +45,9 @@ $theme-body-bg: #fffbf2;
 $theme-navbar-color: $secondary;
 
 /* Font families */
-$theme-font-family-sans-serif: "Alegreya Sans", sans-serif;
-$theme-font-family-serif: "Alegreya", serif;
+$theme-font-family-sans-serif: "VolumeTCRusticSansSolidLight", sans-serif;
+$theme-font-family-serif: "VolumeTCRustic", serif;
+$theme-font-family-italic: "VolumeTCRusticItalic", serif, italic;
 $theme-font-family-headings: $theme-font-family-serif;
 $theme-font-weight-headings: 400;
 
@@ -112,7 +135,19 @@ p {
 /* Title banner styles */
 .quarto-title-banner {
     color: lighten($theme-heading-color, 10%);
-    background-color: transparent;
+    background-color: $theme-body-bg;
+    font-family: $theme-font-family-italic;
+}
+
+.banner-image-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.banner-image {
+    width: auto;
+    max-height: 500px;
+    object-fit: cover;
 }
 
 /* Heading styles */
@@ -121,6 +156,10 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1,
     color: $theme-heading-color;
     font-family: $theme-font-family-headings;
     font-weight: $theme-font-weight-headings;
+}
+
+.custom-title-block-header {
+    text-align: center;
 }
 
 /* Subtitle styles */
@@ -242,6 +281,40 @@ progress {
     background-color: $theme-body-bg;
 }
 
+/* Override Quarto default table styles to make the table background and borders transparent 
+   This only applies to tables with the 'quarto-listing-table' class */
+   .quarto-listing-table {
+    background-color: transparent;
+    border-collapse: collapse; /* Ensures borders are rendered as one */
+  
+    /* Make table borders and cell borders transparent */
+    th, td {
+      border: 1px solid transparent; /* Make cell borders transparent */
+      background-color: transparent; /* Transparent cell background */
+    }
+  
+    /* Collapse the table header (thead) */
+    thead {
+      display: none; /* Hides the table header */
+    }
+  
+    /* Optional: Adjust table caption (if used) */
+    caption {
+      background-color: transparent; /* Transparent caption */
+    }
+  
+    /* Set the first column to a fixed width of 150px */
+    td:first-child, th:first-child {
+      width: 150px;
+      white-space: nowrap; /* Ensure text doesn't wrap in the first column */
+    }
+    
+    /* Optional: Adjust hover effects if needed */
+    tr:hover {
+      background-color: rgba(0, 0, 0, 0.05); /* Slight background on hover (optional) */
+    }
+  }  
+  
 /* Page link styles */
 .page-link {
     border-color: $theme-primary-text;
