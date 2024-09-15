@@ -22,7 +22,6 @@ editor: visual
 
 website:
   title: "errbufferoverfl, anarchist, illustrator, reluctant security engineer"
-  favicon: ""
   site-url: https://garden.errbufferoverfl.me
   description: "A garden of evolving ideas about society, microfarming, and sometimes security engineering."
   twitter-card:
@@ -106,7 +105,9 @@ format:
     theme:
       - litera
       - assets/light.scss
-    include-in-header: "csp.html"
+    include-in-header: 
+      - "csp.html"
+      - "manifest.html"
     highlight-style: one-dark
 
     toc: true

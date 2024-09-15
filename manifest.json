@@ -1,0 +1,26 @@
+{
+    "name": "errbufferoverfl's digital garden",
+    "short_name": "errbufferoverfl",
+    "description": "Gardens, while not originally named is my digital garden and personal assistant. It's an ever growing, changing, living document that functions as a repository for projects and a personal database for knowledge. It is a place where I collect words and thoughts as the years drift by.",
+    "start_url": "/index.html",
+    "display": "minimal-ui",
+    "background_color": "#fffbf2",
+    "theme_color": "#a23e02",
+    "icons": [
+      {
+        "src": "/imgs/icon-192x192.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "/imgs/icon-512x512.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ],
+    "lang": "en-US",
+    "orientation": "portrait-primary",
+    "scope": "/",
+    "categories": ["productivity", "utilities", "digital-garden"]
+  }
+  
