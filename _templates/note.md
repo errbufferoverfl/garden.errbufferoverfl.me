@@ -19,7 +19,7 @@ author:
   - errbufferoverfl
 date: <% tp.file.creation_date("YYYY-MM-DDTHH:mm:ssZ") %>
 description: 
-image: /imgs/<% fileTitle %>.png
+draft: true
 categories:
   - Seed
 ---
