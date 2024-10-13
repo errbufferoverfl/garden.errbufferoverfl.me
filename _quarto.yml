@@ -106,8 +106,8 @@ format:
       - litera
       - assets/light.scss
     include-in-header: 
-      - "csp.html"
-      - "manifest.html"
+      - "_layouts/csp.html"
+      - "_layouts/manifest.html"
     highlight-style: one-dark
 
     toc: true

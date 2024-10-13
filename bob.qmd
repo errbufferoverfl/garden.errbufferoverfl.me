@@ -36,5 +36,5 @@ image: "/imgs/the-bob-banner.png"
 format:
   html:
     template-partials:
-      - /templates/title-block.html
+      - /_layouts/title-block.html
 ---

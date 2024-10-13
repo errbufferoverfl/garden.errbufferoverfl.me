@@ -8,7 +8,7 @@ image: "/imgs/license-banner.png"
 format:
   html:
     template-partials:
-      - /templates/title-block.html
+      - /_layouts/title-block.html
 ---
 
 All pages on [garden.errbufferoverfl.me](https://garden.errbufferoverfl.me) are labeled with the license for the document under the `#reuse` anchor. For detailed information about how content can be reused, please refer to the licensing information provided there.

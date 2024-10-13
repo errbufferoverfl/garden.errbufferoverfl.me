@@ -15,5 +15,5 @@ image: "/imgs/the-microfarm-banner.png"
 format:
   html:
     template-partials:
-      - ../templates/title-block.html
+      - ../_layouts/title-block.html
 ---
