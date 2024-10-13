@@ -37,5 +37,6 @@ deploy:
     url: $PROD_DEPLOY_URL
   rules:
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+  when: manual
   needs:
     - build
