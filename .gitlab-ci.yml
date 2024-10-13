@@ -18,24 +18,14 @@ before_script:
   - python3 -m pip install --upgrade pip
   - pip install beautifulsoup4==4.12.0
 
-build:
-  stage: build
+pages:
   script:
     - quarto render . --output-dir public
   artifacts:
     paths:
+      # The folder that contains the files to be exposed at the Page URL
       - public
   rules:
-    - if: $CI_COMMIT_REF_NAME
-
-deploy:
-  stage: deploy
-  script:
-    - echo "Deploying to Production Environment at $PROD_DEPLOY_URL"
-  environment:
-    name: production
-    url: $PROD_DEPLOY_URL
-  rules:
+    # This ensures that only pushes to the default branch will trigger
+    # a pages deploy
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
-  needs:
-    - build
