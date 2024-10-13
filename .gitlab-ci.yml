@@ -1,22 +1,18 @@
 # The Docker image that will be used to build your app
-image: ubuntu:latest
+image: python:3.12-slim
 
 variables:
   QUARTO_VERSION: "1.4.554"
 
 # Functions that should be executed before the build script is run
 before_script:
-  - apt-get -yq update
-  - apt-get -yq install software-properties-common
-  - add-apt-repository -y ppa:deadsnakes/ppa
-  - apt-get -yq update
-  - apt-get -yq install python3.12 python3-pip
-  - apt-get -y install wget ca-certificates
-  - wget
-    "https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.deb"
-    -O quarto.deb
+  - apt-get update && apt-get install -y wget ca-certificates
+  - wget "https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.deb" -O quarto.deb
   - dpkg -i quarto.deb
-  - pip install beautifulsoup4
+  - rm quarto.deb
+  - python3 -m pip install --upgrade pip
+  - pip install beautifulsoup4==4.12.0
+
 pages:
   script:
     - quarto render . --output-dir public
