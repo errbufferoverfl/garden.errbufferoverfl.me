@@ -2,7 +2,7 @@ import os
 from bs4 import BeautifulSoup
 
 # Path to the rendered "About Me" page (adjust this based on your site's structure)
-about_me_page = "_site/index.html"
+about_me_page = "assets/index.html"
 
 def add_rel_me_to_links(file_path):
     # Check if the file exists
