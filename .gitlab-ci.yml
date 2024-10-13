@@ -16,6 +16,7 @@ before_script:
     "https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.deb"
     -O quarto.deb
   - dpkg -i quarto.deb
+  - pip3 install beautifulsoup4
 pages:
   script:
     - quarto render . --output-dir public
