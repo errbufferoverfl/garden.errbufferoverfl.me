@@ -8,6 +8,7 @@ project:
     - "*.png"
   post-render:
     - python3 xsl4quarto.py
+    - python3 rel-me.py
 
   preview:
       port: 8086
