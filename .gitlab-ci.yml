@@ -10,7 +10,7 @@ before_script:
   - apt-get -yq install software-properties-common
   - add-apt-repository -y ppa:deadsnakes/ppa
   - apt-get -yq update
-  - apt-get -yq install python3.12
+  - apt-get -yq install python3.12 python3-pip
   - apt-get -y install wget ca-certificates
   - wget
     "https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.deb"
