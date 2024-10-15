@@ -4,7 +4,7 @@ subtitle: Submission in Response to the Senate Standing Committees on Legal and 
 author:
   - errbufferoverfl
 date: 2024-10-09T20:54:04+10:30
-date-modified: 2024-10-15T19:24:37+10:30
+date-modified: 2024-10-15T19:28:00+10:30
 description: In this post, I provide my submission to the Senate Standing Committees on Legal and Constitutional Affairs regarding the Privacy and Other Legislation Amendment Bill 2024. I discuss key concerns surrounding privacy protections, the definition of personal information, automated decision-making (ADM), and the small business exemption. I also emphasize the need for a clear timeline for future reforms and highlight the privacy risks related to age verification and children's social media use.
 categories:
   - Government Submission
@@ -13,7 +13,7 @@ categories:
 
 <center><strong>Submission in Response to the Senate Standing Committees on Legal and Constitutional Affairs regarding the inquiry into the Privacy and Other Legislation Amendment Bill 2024 [Provisions], September 2024</strong></center>
 
-<center><i>Prepared by Rebecca Trapani on Wednesday, 09 October 2024</i>
+<center><i>Prepared by Rebecca Trapani on Wednesday, 09 October 2024</i></center>
 
 Thank you for the opportunity to submit comments to the Senate Standing Committees on Legal and Constitutional Affairs regarding the inquiry into the *Privacy and Other Legislation Amendment Bill 2024 [Provisions]*.
 
