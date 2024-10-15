@@ -11,6 +11,7 @@ listing:
     categories: numbered
 toc: false
 repo-actions: false
+disable_flesch: true
 ---
 
 Information on zine fests and workshops to meet-ups and exhibitions!

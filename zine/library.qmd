@@ -11,6 +11,7 @@ listing:
     categories: numbered
 toc: false
 repo-actions: false
+disable_flesch: true
 ---
 
 Information on libraries, archives, and special collections that house extensive zine collections online and around the world.

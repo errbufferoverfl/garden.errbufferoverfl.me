@@ -28,8 +28,12 @@
 </div>
 
 <div align="center">
-  <img src="https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me/-/raw/hugo/screenshot_garden.errbufferoverfl.me_.png" width="250">
-  <img src="https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me/-/raw/hugo/screenshot_garden.errbufferoverfl.me_notebook_.png" width="250">
+  <img src="https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me/-/raw/hugo/_readme/screenshot_garden.errbufferoverfl.me_.png" width="250" alt="Screenshot of the landing page of garden.errbufferoverfl.me, featuring a black and white botanical illustration of a vine with large leaves. The 
+title 'errbufferoverfl' is displayed below the image, with several social media and developer platform icons including Ko-Fi, Mastodon, GitLab, GitHub, and Twitter. There is a focus on personal projects and a living document referred to as 'Gardens.' The license section at the bottom displays 
+CC BY-SA 4.0.">
+  <img src="https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me/-/raw/hugo/_readme/screenshot_garden.errbufferoverfl.me_notebook_.png" width="250" alt="Screenshot of the webpage 'The Notebook'. It features a detailed black and white illustration of a crowned, intertwined beast with 
+serpentine features. Below the illustration, there is a heading that reads, 'The Notebook: A collection of musings and evolving ideas.' A list of dated articles. Categories are listed on the right side. At the bottom, a 'Reuse' section shows the CC BY-SA 4.0 license. The page is published with 
+Quarto and hosted by Gitlab.">
   <br>
   <sub>The little experiment that could. Built with ❤︎ by
   <a href="https://twitter.com/errbufferoverfl">errbufferoverfl</a>

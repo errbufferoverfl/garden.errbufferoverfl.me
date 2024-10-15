@@ -20,7 +20,7 @@ before_script:
 
 pages:
   script:
-    - quarto render . --output-dir public
+    - make render
   artifacts:
     paths:
       # The folder that contains the files to be exposed at the Page URL

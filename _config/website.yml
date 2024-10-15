@@ -1,0 +1,79 @@
+website:
+  title: "errbufferoverfl, anarchist, illustrator, reluctant security engineer"
+  site-url: https://garden.errbufferoverfl.me
+  description: "A garden of evolving ideas about society, microfarming, and sometimes security engineering."
+
+  twitter-card:
+    creator: "@errbufferoverfl"
+    site: "@errbufferoverfl"
+    card-style: summary
+
+  open-graph:
+    locale: en_EN
+    site-name: garden.errbufferoverfl.me
+
+  repo-url: https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me
+  issue-url: https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me/-/issues
+  repo-branch: hugo
+  repo-actions:
+    - edit
+    - source
+    - issue
+
+  search:
+    show-item-context: true
+
+  navbar:
+    logo: "/imgs/logo.png"
+    logo-alt: "Illustration of a snail looking up."
+    logo-href: "/notebook/"
+    title: false
+    reader-mode: true
+    right:
+      - text: The Notebook
+        href: /notebook/
+      - text: The Microfarm
+        href: /microfarm/
+      - text: The Art Studio
+        href: /art-studio/
+      - text: The Anti-Library
+        href: /antilibrary/
+      - text: The Zine Wiki
+        url: /zine/
+      - text: The Engineering Anthology
+        href: /engineering/
+      - text: More
+        menu:
+          - text: The Toolbox
+            url: /toolbox/
+          - text: The Soapbox
+            url: /soapbox/
+          - text: The Back of the Book
+            url: bob.qmd
+
+  page-footer:
+    border: false
+    left: "Published with [Quarto](https://quarto.org/) v<?quarto.version?> | Hosted by [{{< iconify simple-icons gitlab >}}](https://pages.gitlab.com/)"
+    center: |
+      <a class="link-dark me-1" href="https://ko-fi.com/errbufferoverfl" title="Ko-Fi" target="_blank"rel="noopener">{{< fa solid mug-hot >}}</a>
+      <a class="link-dark me-1" href="https://mastodon.art/@errbufferoverfl" title="Mastodon" target="_blank" rel="noopener">{{< fa solid paintbrush >}}</a>
+      <a class="link-dark me-1" href="https://genericsocialmediapage.com/@errbufferoverfl" title="Mastodon" target="_blank" rel="noopener">{{< fa brands mastodon >}}</a>
+      <a class="link-dark me-1" href="https://gitlab.com/errbufferoverfl" title="Gitlab" target="_blank" rel="noopener">{{< fa brands gitlab >}}</a>
+      <a class="link-dark me-1" href="https://github.com/errbufferoverfl" title="Github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
+      <a class="link-dark me-1" href="https://x.com/errbufferoverfl" title="X (formerly Twitter)" target="_blank" rel="noopener">{{<fa brands twitter>}}</a>
+    right:
+      - text: "Contact"
+        aria-label: "Contact Form"
+        href: "contact.qmd"
+      - text: "License"
+        aria-label: "License Details"
+        href: "license.qmd"
+      - text: About
+        aria-label: "About Me"
+        url: "index.qmd"
+      - text: "The Back of the Book"
+        aria-label: "All Pages"
+        url: "bob.qmd"
+      - text: "|"
+      - icon: rss
+        href: bob.xml

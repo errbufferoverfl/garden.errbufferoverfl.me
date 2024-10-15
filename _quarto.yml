@@ -7,31 +7,31 @@ project:
     - "*.jpg"
     - "*.png"
   post-render:
-    - python3 xsl4quarto.py
-    - python3 rel-me.py
+    - python3 _utils/xsl4quarto.py
+    - python3 _utils/rel-me.py
 
   preview:
-      port: 8086
-      browser: true
-
+    port: 8086
+    browser: true
 execute:
   freeze: auto
   warning: false
   message: false
 
-editor: visual
-
 website:
   title: "errbufferoverfl, anarchist, illustrator, reluctant security engineer"
   site-url: https://garden.errbufferoverfl.me
   description: "A garden of evolving ideas about society, microfarming, and sometimes security engineering."
+
   twitter-card:
     creator: "@errbufferoverfl"
     site: "@errbufferoverfl"
     card-style: summary
+
   open-graph:
     locale: en_EN
     site-name: garden.errbufferoverfl.me
+
   repo-url: https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me
   issue-url: https://gitlab.com/errbufferoverfl/garden-errbufferoverfl-me/-/issues
   repo-branch: hugo
@@ -81,7 +81,6 @@ website:
       <a class="link-dark me-1" href="https://gitlab.com/errbufferoverfl" title="Gitlab" target="_blank" rel="noopener">{{< fa brands gitlab >}}</a>
       <a class="link-dark me-1" href="https://github.com/errbufferoverfl" title="Github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
       <a class="link-dark me-1" href="https://x.com/errbufferoverfl" title="X (formerly Twitter)" target="_blank" rel="noopener">{{<fa brands twitter>}}</a>
-
     right:
       - text: "Contact"
         aria-label: "Contact Form"
@@ -106,7 +105,7 @@ format:
     theme:
       - litera
       - assets/light.scss
-    include-in-header: 
+    include-in-header:
       - "_layouts/csp.html"
       - "_layouts/manifest.html"
     highlight-style: one-dark
@@ -143,6 +142,7 @@ format:
     title-block-style: default
     appendix-style: plain
     appendix-cite-as: display
-    
+
 filters:
-  - quarto-version.lua
+  - _utils/quarto-version.lua
+  - _utils/quarto-flesch-score.lua

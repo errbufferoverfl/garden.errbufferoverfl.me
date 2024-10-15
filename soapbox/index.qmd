@@ -17,4 +17,5 @@ format:
   html:
     template-partials:
       - ../_layouts/title-block.html
+disable_flesch: true
 ---

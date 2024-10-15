@@ -21,6 +21,7 @@ listing:
       categories: Inactive
 toc: false
 repo-actions: false
+disable_flesch: true
 ---
 
 A distro, short for "distribution," is kind of like your cool friend who has a knack for finding the most unique and underground stuff and then shares it with everyone. Distros are typically run by passionate folks who collect zines from various creators and then make them available to a wider audience. 

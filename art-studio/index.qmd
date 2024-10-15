@@ -39,6 +39,7 @@ format:
   html:
     template-partials:
       - ../_layouts/title-block.html
+disable_flesch: true
 ---
 
 If you've been enjoying my work and finding it entertaining. Your support means the world to me, and I can't thank you enough for being a part of this journey.
