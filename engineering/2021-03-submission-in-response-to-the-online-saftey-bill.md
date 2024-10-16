@@ -8,7 +8,7 @@ date-modified: 2024-10-12T09:21:49+10:30
 description: My March 2021 submission provided to the Senate Environment and Communications Legislation Committee regarding the Online Safety Bill 2021. The submission raises concerns about the bill's impact on marginalized communities, especially sex workers, and critiques the broad powers granted to the eSafety Commissioner. It calls for transparency, oversight, and community representation in the bill’s implementation, emphasizing the need for updates to the National Classification Code and protections for online content creators.
 categories:
   - Government Submission
-  - Online Saftey Bill
+  - Online Safety Bill
 ---
 
 **Online Safety Bill – Submission to the Senate Environment and Communications Legislation Committee**
