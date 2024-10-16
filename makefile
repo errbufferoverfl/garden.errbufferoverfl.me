@@ -1,7 +1,7 @@
 # Variables
 QUARTO = quarto
 SOURCE_DIR = .
-OUTPUT_DIR = public
+OUTPUT_DIR = _site
 PYTHON_SCRIPT = python3 _utils/generate_quarto.py
 
 # Default target
