@@ -4,8 +4,8 @@ subtitle: Submission to the Parliamentary Joint Committee on Intelligence and Se
 author:
   - errbufferoverfl
 date: 2024-10-14T20:46:45+10:30
-date-modified: 2024-10-22T18:24:37+10:30
-description: 
+date-modified: 2024-10-22T19:12:22+10:30
+description: My submission to the Joint Committee on Intelligence and Security regarding the Cyber Security Legislative Package 2024, in particular Part 2 - Security standards for smart devices.
 categories:
   - Cyber Security
   - Government Submission
