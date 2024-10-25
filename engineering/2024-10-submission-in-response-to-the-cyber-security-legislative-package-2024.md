@@ -4,7 +4,7 @@ subtitle: Submission to the Parliamentary Joint Committee on Intelligence and Se
 author:
   - errbufferoverfl
 date: 2024-10-26T20:46:45+10:30
-date-modified: 2024-10-25T18:34:04+10:30
+date-modified: 2024-10-25T18:38:27+10:30
 description: My submission to the Joint Committee on Intelligence and Security regarding the Cyber Security Legislative Package 2024, in particular Part 2 - Security standards for smart devices.
 categories:
   - Cyber Security
@@ -127,6 +127,8 @@ In conclusion, I believe that **Part 2—Security standards for smart devices** 
 Furthermore, ensuring that compliance is enforceable through clear guidelines and robust mechanisms is essential for preventing manufacturers from cutting corners. Supporting security researchers through safe harbour provisions and protecting them from legal threats is also critical to fostering a safer internet. Lastly, establishing or designating an ombudsman to oversee the enforcement of these security standards would provide the transparency, accountability, and consumer protection that is needed in an increasingly interconnected world.
 
 Thank you again for the opportunity to submit my comments. I look forward to seeing how this bill evolves and how it will contribute to a safer and more secure digital landscape for all Australians.
+
+Originally published under [Rebecca Trapani](https://www.aph.gov.au/Parliamentary_Business/Committees/Joint/Intelligence_and_Security/CyberSecurityPackage/Submissions).
 
 [^1]: [Robot vacuum cleaners yell racial slurs, chase pets after cyber attack](https://www.cyberdaily.au/security/11236-robot-vacuum-cleaners-yell-slurs-racial-slurs-chase-pets-after-cyber-attack)
 [^2]: [ACCC Media Release on Recalled Products](https://www.accc.gov.au/media-release/over-a-million-recalled-products-still-in-circulation-in-australia)
