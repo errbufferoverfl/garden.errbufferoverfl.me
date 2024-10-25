@@ -28,7 +28,7 @@ There are several key components that makeup the modern browser:
 - **Render Process Viewport**: The part of the renderer process that displays the processed content to the user.
 - **Network Process**: Handles network operations like fetching resources from the internet, isolated from direct execution within the renderer processes for security.
 
-```mermaid
+```{mermaid}
 graph TB
     UI(User Interface) --> CB(Control Bus)
     CB --> BM(Browser Main Process)
@@ -124,7 +124,7 @@ The V8 sandbox architecture revolves around process isolation, restricted APIs a
 - **Sandbox Layer**: The core component that enforces restrictions on JavaScript execution, including memory access controls, execution flow restrictions, and API access limitations.
 - **System Resources**: Includes the filesystem, network, and other OS-level resources. Access to these resources from the V8 engine is heavily restricted and monitored.
 
-```mermaid
+```{mermaid}
 graph TB
     subgraph Sandbox["V8 Sandbox Region"]
         PC["Pointer Compression Cage"]
@@ -186,7 +186,7 @@ Sandboxed V8 integrates closely with broader browser security mechanisms like th
 - **Blocked by SOP/CSP Block**: Illustrates the attempt by Script B (Malicious) to perform an XSS attack on Script A. This action is blocked due to the enforcement of Same-Origin Policy (SOP) and Content Security Policy (CSP), represented by the "Blocked by SOP/CSP" decision node.
 - **Sensitive Data Access**: Clarifies that Script A, functioning under established security policies, may have controlled access to sensitive data, whereas Script B's attempts to access or manipulate Script A or sensitive data are thwarted by SOP/CSP, showcasing the effectiveness of sandboxing and security policies in preventing cross-site scripting and injection attacks.
 
-```mermaid
+```{mermaid}
 graph TD
     User(Web User) -->|Accesses Web Page|Browser{Browser}
     Browser -->|Loads Scripts|Sandbox[V8<br>Sandbox]
