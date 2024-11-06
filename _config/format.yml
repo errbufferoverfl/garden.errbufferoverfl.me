@@ -8,7 +8,7 @@ format:
     include-in-header:
       - "_layouts/csp.html"
       - "_layouts/manifest.html"
-    highlight-style: one-dark
+    highlight-style: dracula
 
     toc: true
     toc-title: Table of Contents

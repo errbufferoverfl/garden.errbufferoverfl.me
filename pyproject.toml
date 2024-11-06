@@ -9,6 +9,7 @@ packages = [{include = "garden"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 beautifulsoup4 = "^4.12.3"
+jupyter = "^1.1.1"
 
 
 [build-system]
