@@ -42,13 +42,11 @@ format:
 disable_flesch: true
 ---
 
-If you've been enjoying my work and finding it entertaining. Your support means the world to me, and I can't thank you enough for being a part of this journey.
+You can also discover more of my work and support my creations over on [Ko-Fi](https://ko-fi.com/errbufferoverfl)! You’ll also find stickers and other fun items available for purchase.
 
-If you want to stay connected and show your support, you can follow or supported me on [Ko-Fi](https://ko-fi.com/errbufferoverfl). It's a fantastic way to help me create more amazing content and keep the creative juices flowing.
+## Recent Posts
 
-## Recent Illustrations
-
-::: {#illustrations}
+::: {#newsletter}
 :::
 
 ## Art Notes
