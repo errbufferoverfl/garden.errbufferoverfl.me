@@ -5,6 +5,7 @@ image: /imgs/the-2020-commission-report-on-the-north-korean-nuclear-attacks-agai
 rating: ★★★★☆
 page: 304
 pages: 304
+started: 2020-01-20
 completed: 2020-01-28
 status: "Completed"
 publisher: Random House
