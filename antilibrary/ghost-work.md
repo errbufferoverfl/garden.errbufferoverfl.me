@@ -1,43 +1,43 @@
 ---
 title: "Ghost Work"
-date: May 7, 2019
-image: /imgs/ghost-work.png
-status: "Completed"
-started: 2023-08-01
-completed: 2023-08-17
-page: 297
-pages: 297
-rating: ★★★☆☆
-publisher: Eamon Dolan Books
-type: Book
 author:
   - Mary L. Gray
   - Siddharth Suri
+date: 2019-05-07T00:00:00+09:30
+date-modified: 2024-11-10T20:49:31+10:30
 categories:
-  - Technology
-  - Non-Fiction
-  - Economics
-  - Business
-  - Labor
   - Anthropology
+  - Business
+  - Economics
+  - Intelligence
+  - Labor
+  - Non-Fiction
   - Politics
   - Sociology
-  - Intelligence
+  - Technology
+completed: 2023-08-17
+page: 297
+pages: 297
+publisher: Eamon Dolan Books
+rating: ★★★☆☆
+started: 2023-08-01
+status: "Completed"
+type: Book
 ---
 
 ::: {.content-hidden when-format="html"}
 
-`button-updateReadingStatus`  · `button-updateCurrentPage`
+`button-updateReadingStatus` · `button-updateCurrentPage`
 
 :::
 
 ::: columns
 ::: {.column width="50%"}
-*"A startling exposé of the invisible human workforce that powers the web--and how to bring it out of the shadows. Hidden beneath the surface of the internet, a new, stark reality is looming--one that cuts to the very heart of our endless debates about the impact of AI.*
+*A startling exposé of the invisible human workforce that powers the web--and how to bring it out of the shadows. Hidden beneath the surface of the internet, a new, stark reality is looming--one that cuts to the very heart of our endless debates about the impact of AI.*
 
 *Anthropologist Mary L. Gray and computer scientist Siddharth Suri unveil how the services we use from companies like Amazon, Google, Microsoft, and Uber can only function smoothly thanks to the judgment and experience of a vast human labor force that is kept deliberately concealed. The people who do 'ghost work' make the internet seem smart. They perform high-tech, on-demand piecework: flagging X-rated content, proofreading, transcribing audio, confirming identities, captioning video, and much more. The shameful truth is that no labor laws protect them or even acknowledge their existence.*
 
-*They often earn less than legal minimums for traditional work, they have no health benefits, and they can be fired at any time for any reason, or for no reason at all. An estimated 8 percent of Americans have worked in this 'ghost economy,' and that number is growing every day. In this unprecedented investigation, Gray and Suri make the case that robots will never completely eliminate 'ghost work' and the unchecked quest for artificial intelligence could spark catastrophic work conditions if not stopped in its tracks. Ultimately, they show how this essential type of work can create opportunity--rather than misery--for those who do it."*
+*They often earn less than legal minimums for traditional work, they have no health benefits, and they can be fired at any time for any reason, or for no reason at all. An estimated 8 percent of Americans have worked in this 'ghost economy,' and that number is growing every day. In this unprecedented investigation, Gray and Suri make the case that robots will never completely eliminate 'ghost work' and the unchecked quest for artificial intelligence could spark catastrophic work conditions if not stopped in its tracks. Ultimately, they show how this essential type of work can create opportunity--rather than misery--for those who do it.*
 :::
 ::: {.column width="10%"}
 <!-- empty column to create gap -->

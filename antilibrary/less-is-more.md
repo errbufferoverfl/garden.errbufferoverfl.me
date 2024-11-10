@@ -21,7 +21,6 @@ categories:
   - Sustainability
   - Ecology
   - Business & Economics
-
 ---
 
 ::: {.content-hidden when-format="html"}
