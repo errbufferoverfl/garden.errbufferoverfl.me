@@ -1,51 +1,6 @@
 ---
 title: "The Anti-Library"
 subtitle: "Books that are in some state of read, being read, or to be read."
-listing:
-  - id: backlog
-    image-height: 100%
-    contents: .
-    fields: [image, title, categories]
-    sort: "date desc"
-    type: grid
-    categories: numbered
-    sort-ui: false
-    filter-ui: true
-    include:
-      status: "Backlog"
-  - id: in-progress
-    image-height: 100%
-    contents: .
-    fields: [image, title, categories]
-    sort: "date desc"
-    type: grid
-    categories: numbered
-    sort-ui: false
-    filter-ui: true
-    include:
-      status: "In Progress"
-  - id: completed
-    image-height: 100%
-    contents: .
-    fields: [image, title, categories, rating]
-    sort: "completed desc"
-    type: grid
-    categories: numbered
-    sort-ui: false
-    filter-ui: true
-    include:
-      status: "Completed"
-  - id: incomplete
-    image-height: 100%
-    contents: .
-    fields: [image, title, categories]
-    sort: "completed desc"
-    type: grid
-    categories: numbered
-    sort-ui: false
-    filter-ui: true
-    include:
-      status: "Incomplete"
 page-layout: full
 toc: false
 repo-actions: false
@@ -58,32 +13,6 @@ format:
 disable_flesch: true
 ---
 
-> a scholar conscious of the power of \[their\] antilibrary is not concerned with treating knowledge as a property to possess or consume; rather \[...\] how much you don't know---and how to find out that information when you need it.
->
-> -- Giovanni da Col, HAU: Journal of Ethnographic Theory
+**Anti-Library Update**
 
-::: callout-warning
-**Before you Begin**
-
-The notes and summaries included in these pages are snippets that remind me, or help me relate and explore high-level concepts. They aren't a summary of the chapter or book!
-:::
-
-## In Progress
-
-::: {#in-progress}
-:::
-
-## Completed
-
-::: {#completed}
-:::
-
-## Incomplete
-
-::: {#incomplete}
-:::
-
-## Backlog
-
-::: {#backlog}
-:::
+Tracking for my anti-library has moved! You can now find my list of unread, in-progress, and curious reads over at [BookWyrm](https://bookwyrm.social/user/errbufferoverfl).

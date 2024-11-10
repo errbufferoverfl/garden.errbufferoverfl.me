@@ -146,5 +146,5 @@ In order to see progress, two specific states are compared, including a specific
 If we cannot give ourselves the confirmation, we look for it from others. However, no one else can give us confirmation without taking the path together with us.
 
 [^1]: [Learning Pyramid Criticisms](https://www.researchgate.net/publication/285798853_A_rebuttal_of_NTL_Institute%27s_learning_pyramid)
-[^2]: Because the original research was lost, I wonder what the reading level of participants was? If they never achieved a reading level above [elementary reading](../antilibrary/how-to-read-a-book.md) it would make sense they didn't retain much information.
+[^2]: Because the original research was lost, I wonder what the reading level of participants was? If they never achieved a reading level above [elementary reading](how-to-read-a-book.md) it would make sense they didn't retain much information.
 [^3]: [Yerkes-Dodson law](https://en.wikipedia.org/wiki/Yerkes%E2%80%93Dodson_law)
