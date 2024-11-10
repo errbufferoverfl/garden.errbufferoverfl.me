@@ -10,7 +10,7 @@ categories:
   - Tree
 ---
 
-Reproductive labor was first brought into the discourse during the *wages for housework* campaign during the 1970s (discussed in [Revolution at Point Zero](revolution-at-point-zero.md)). Referring to it this was is important because it emphasises that reproductive activities are also labor that are enforced by the gender hierarchy and not a goodwill gesture of women.
+Reproductive labor was first brought into the discourse during the *wages for housework* campaign during the 1970s (discussed in _Revolution at Point Zero_). Referring to it this was is important because it emphasises that reproductive activities are also labor that are enforced by the gender hierarchy and not a goodwill gesture of women.
 
 I think reproductive labor can be a bit of a misnomer when used without sufficient context because “reproductive” on its own would suggest reproductive labor is focused on… well reproduction of humans.
 

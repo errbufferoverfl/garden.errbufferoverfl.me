@@ -7,6 +7,9 @@ about:
     - icon: mastodon
       text: Mastodon
       href: https://genericsocialmediapage.com/@errbufferoverfl
+    - icon: book
+      text: Bookwyrm
+      href: https://bookwyrm.social/user/errbufferoverfl
     - icon: gitlab
       text: GitLab
       href: https://gitlab.com/errbufferoverfl

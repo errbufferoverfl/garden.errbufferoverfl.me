@@ -22,7 +22,7 @@ If social media wanted to they could embed consent into their product, but they 
 
 In the *general* (read: Newscorp & Murdoch) media, we see a lack of outrage about a lack of transparency in privacy breaches.
 
-This is also a core theme of [The Age of Surveillance Capitalism](the-age-of-surveillance-capitalism.md) and is core to maintaining [surveillance capitalism](surveillance-capitalism.md).
+This is also a core theme of _The Age of Surveillance Capitalism_ and is core to maintaining [surveillance capitalism](surveillance-capitalism.md).
 
 ### Principle in Action
 

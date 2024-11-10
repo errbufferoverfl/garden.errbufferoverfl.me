@@ -52,22 +52,22 @@ website:
     right:
       - text: The Notebook
         href: /notebook/
-      - text: The Microfarm
-        href: /microfarm/
       - text: The Art Studio
         href: /art-studio/
-      - text: The Anti-Library
-        href: /antilibrary/
       - text: The Zine Wiki
         url: /zine/
       - text: The Engineering Anthology
         href: /engineering/
+      - text: The Soapbox
+        url: /soapbox/
       - text: More
         menu:
+          - text: The Microfarm
+            href: /microfarm/
           - text: The Toolbox
             url: /toolbox/
-          - text: The Soapbox
-            url: /soapbox/
+          - text: The Anti-Library
+            href: /antilibrary/
           - text: The Back of the Book
             url: bob.qmd
 

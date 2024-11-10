@@ -13,6 +13,6 @@ format:
 disable_flesch: true
 ---
 
-**Anti-Library Update**
+# Anti-Library Update
 
 Tracking for my anti-library has moved! You can now find my list of unread, in-progress, and curious reads over at [BookWyrm](https://bookwyrm.social/user/errbufferoverfl).
