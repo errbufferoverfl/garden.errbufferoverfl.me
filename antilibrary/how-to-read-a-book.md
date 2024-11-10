@@ -1,32 +1,32 @@
 ---
 title: "How to Read a Book"
-date: 2014-09-30
-image: /imgs/how-to-read-a-book.png
-started: 2023-10-17
-completed:
-page:
-pages:
-status: Incomplete
-publisher: Simon & Schuster, Inc
-type: Book
 author:
-- Mortimer J. Adler
-- Charles Van Doren
+  - Charles Van Doren
+  - Mortimer J. Adler
+date: 2014-09-30T00:00:00+09:30
+date-modified: 2024-11-10T21:27:19+10:30
 categories:
-- Non-Fiction
-- Self Help
-- Education
-- Books About Books
-- Writing
-- Reference
-- Personal Development
-- Productivity
-- Philosophy
+  - Books About Books
+  - Education
+  - Non-Fiction
+  - Personal Development
+  - Philosophy
+  - Productivity
+  - Reference
+  - Self Help
+  - Writing
+completed: 
+page: 
+pages: 
+publisher: Simon & Schuster, Inc
+started: 2023-10-17
+status: Incomplete
+type: Book
 ---
 
 ::: {.content-hidden when-format="html"}
 
-`button-updateReadingStatus`  · `button-updateCurrentPage`
+`button-updateReadingStatus` · `button-updateCurrentPage`
 
 :::
 
@@ -61,7 +61,7 @@ categories:
 >
 
 > The Greeks had a name for such a mixture of learning and folly which might be applied to the bookish but poorly read of all ages. They are all *sophomores*.
-> 
+>  
 
 > Some books are to be tasted, others to be swallowed, and some few to be chewed and digested.\
 > -- Francis Bacon

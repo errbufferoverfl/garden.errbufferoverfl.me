@@ -1,32 +1,32 @@
 ---
 title: "The Jakarta Method Washington's Anticommunist Crusade and the Mass Murder Program that Shaped Our World"
-date: 2020-05-19
-image: /imgs/the-jakarta-method.png
-started: 2024-05-04
+author:
+  - Vincent Bevins
+date: 2020-05-19T00:00:00+09:30
+date-modified: 2024-11-10T21:27:41+10:30
+categories:
+  - Communism
+  - History
+  - Imperialism
+  - Indonesia
+  - International Relations
+  - Latin America
+  - Non-Fiction
+  - Politics
+  - War
 completed: 
 page: 32
 pages: 362
 publisher: Hachette UK
-status: "In Progress"
 rating: ☆☆☆☆☆
+started: 2024-05-04
+status: "In Progress"
 type: Book
-author: 
-- Vincent Bevins
-categories:
-- Non-Fiction
-- History
-- Politics
-- Indonesia
-- Imperialism
-- Communism
-- Latin America
-- War
-- International Relations
 ---
 
 ::: {.content-hidden when-format="html"}
 
-`button-updateReadingStatus`  · `button-updateCurrentPage`
+`button-updateReadingStatus` · `button-updateCurrentPage`
 
 :::
 

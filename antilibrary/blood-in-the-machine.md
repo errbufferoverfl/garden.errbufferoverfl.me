@@ -1,30 +1,30 @@
 ---
 title: "Blood in the Machine"
-image: /imgs/blood-in-the-machine.png
-date: September 26, 2023
-started: 
+author:
+  - Brian Merchant
+date: 2023-09-26T00:00:00+09:30
+date-modified: 2024-11-10T21:26:57+10:30
+categories:
+  - Business
+  - Economics
+  - History
+  - Non-Fiction
+  - Politics
+  - Science
+  - Technology
+  - Technology & Engineering
 completed: 
 page: 0
 pages: 545
 publisher: Hachette UK
-type: Book
+started: 
 status: Backlog
-author: 
-- Brian Merchant
-categories:
-- Non-Fiction
-- History
-- Technology
-- Politics
-- Business
-- Economics
-- Science
-- Technology & Engineering
+type: Book
 ---
 
 ::: {.content-hidden when-format="html"}
 
-`button-updateReadingStatus`  · `button-updateCurrentPage`
+`button-updateReadingStatus` · `button-updateCurrentPage`
 
 :::
 

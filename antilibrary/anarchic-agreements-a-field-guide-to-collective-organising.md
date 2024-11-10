@@ -1,32 +1,32 @@
 ---
 title: "Anarchic Agreements, a Field Guide to Collective Organising"
-image: /imgs/anarchic-agreements-a-field-guide-to-collective-organising.png
-date: November 22, 2022
-started: 2023-05-21
+author:
+  - Alex Prichard
+  - Ruth Kinna
+  - Seeds for Change
+  - Thomas Swann
+date: 2022-11-22T00:00:00+10:30
+date-modified: 2024-11-10T21:26:52+10:30
+categories:
+  - Anarchism
+  - Anarchy
+  - Constitutions
+  - History and Theory
+  - Non-Fiction
+  - Political Science
 completed: 2023-06-05
 page: 113
 pages: 113
-status: "Completed"
-rating: ★★★★★
-type: "Book"
 publisher: PM Press
-author:
-  - Ruth Kinna
-  - Alex Prichard
-  - Thomas Swann
-  - Seeds for Change
-categories:
-  - Non-Fiction
-  - Political Science
-  - Anarchy
-  - Anarchism
-  - Constitutions
-  - History and Theory
+rating: ★★★★★
+started: 2023-05-21
+status: "Completed"
+type: "Book"
 ---
 
 ::: {.content-hidden when-format="html"}
 
-`button-updateReadingStatus`  · `button-updateCurrentPage`
+`button-updateReadingStatus` · `button-updateCurrentPage`
 
 :::
 

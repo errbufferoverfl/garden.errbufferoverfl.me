@@ -1,31 +1,31 @@
 ---
 title: "Less is More"
-date: 2020-08-13
-image: /imgs/less-is-more.png
-started: 2024-03-02
+author:
+  - Jason Hickel
+date: 2020-08-13T00:00:00+09:30
+date-modified: 2024-11-10T21:27:23+10:30
+categories:
+  - Business & Economics
+  - Climate Change
+  - Ecology
+  - Economics
+  - Environment
+  - Non-Fiction
+  - Politics
+  - Sustainability
 completed: 2024-04-14
 page: 293
 pages: 293
 publisher: Random House
-status: Completed
 rating: ★★★★★
+started: 2024-03-02
+status: Completed
 type: Book
-author:
-  - Jason Hickel
-categories:
-  - Non-Fiction
-  - Economics
-  - Politics
-  - Environment
-  - Climate Change
-  - Sustainability
-  - Ecology
-  - Business & Economics
 ---
 
 ::: {.content-hidden when-format="html"}
 
-`button-updateReadingStatus`  · `button-updateCurrentPage`
+`button-updateReadingStatus` · `button-updateCurrentPage`
 
 :::
 

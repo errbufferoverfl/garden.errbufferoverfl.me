@@ -1,31 +1,31 @@
 ---
 title: "Breaking Things at Work"
-image: /imgs/breaking-things-at-work.png
-date: March 02, 2021
-started: 2024-02-01
+author:
+  - Gavin Mueller
+date: 2021-03-02T00:00:00+10:30
+date-modified: 2024-11-10T21:27:00+10:30
+categories:
+  - Economics
+  - History
+  - Labor
+  - Non-Fiction
+  - Philosophy
+  - Political Science
+  - Politics
+  - Technology
 completed: 2024-04-17
 page: 177
 pages: 177
 publisher: Verso Books
+rating: ★★★★☆
+started: 2024-02-01
 status: Completed
 type: Book
-rating: ★★★★☆
-author: 
-- Gavin Mueller
-categories:
-- Non-Fiction
-- Politics
-- History
-- Technology
-- Philosophy
-- Economics
-- Labor
-- Political Science
 ---
 
 ::: {.content-hidden when-format="html"}
 
-`button-updateReadingStatus`  · `button-updateCurrentPage`
+`button-updateReadingStatus` · `button-updateCurrentPage`
 
 :::
 

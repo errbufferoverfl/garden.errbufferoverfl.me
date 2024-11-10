@@ -1,45 +1,44 @@
 ---
 title: "How to Stand Up to a Dictator"
-date: November 17, 2022
-date-modified: 2023-10-2023
-image: /imgs/how-to-stand-up-to-a-dictator.png
-alt: "How to Stand Up to a Dictator Book Cover"
-started: 2023-08-11
-completed: 2023-09-07
-page: 269
-pages: 269
-status: "Completed"
-rating: ★★★☆☆
-publisher: Random House
-type: Book
 author:
   - Maria Ressa
+date: 2022-11-17T00:00:00+10:30
+date-modified: 2024-11-10T21:27:21+10:30
 categories:
+  - Asia
+  - Biography
+  - History
+  - Journalism
+  - Memoir
   - Non-Fiction
   - Political Science
   - Politics
-  - Memoir
-  - History
-  - Biography
-  - Journalism
-  - Asia
   - Sociology
+alt: "How to Stand Up to a Dictator Book Cover"
+completed: 2023-09-07
+page: 269
+pages: 269
+publisher: Random House
+rating: ★★★☆☆
+started: 2023-08-11
+status: "Completed"
+type: Book
 ---
 
 ::: {.content-hidden when-format="html"}
 
-`button-updateReadingStatus`  · `button-updateCurrentPage`
+`button-updateReadingStatus` · `button-updateCurrentPage`
 
 :::
 
 :::: {.columns}
 ::: {.column width="50%"}
 
-_What will you sacrifice for the truth? Maria Ressa has spent decades speaking truth to power. But her work tracking disinformation networks seeded by her own government, spreading lies to its own citizens laced with anger and hate, has landed her in trouble with the most powerful man in the country: President Duterte._
+*What will you sacrifice for the truth? Maria Ressa has spent decades speaking truth to power. But her work tracking disinformation networks seeded by her own government, spreading lies to its own citizens laced with anger and hate, has landed her in trouble with the most powerful man in the country: President Duterte.*
 
-_Now, hounded by the state, she has multiple arrest warrants against her name, and a potential 100+ years behind bars to prepare for - while she stands trial for speaking the truth._
+*Now, hounded by the state, she has multiple arrest warrants against her name, and a potential 100+ years behind bars to prepare for - while she stands trial for speaking the truth.*
 
-_How to Stand Up to a Dictator is the story of how democracy dies by a thousand cuts, and how an invisible atom bomb has exploded online that is killing our freedoms. It maps a network of disinformation - a heinous web of cause and effect - that has netted the globe: from Duterte's drug wars, to America's Capitol Hill, to Britain's Brexit, to Russian and Chinese cyber-warfare, to Facebook and Silicon Valley, to our own clicks and our own votes. Told from the frontline of the digital war, this is Maria Ressa's urgent cry for us to wake up and hold the line, before it is too late._
+*How to Stand Up to a Dictator is the story of how democracy dies by a thousand cuts, and how an invisible atom bomb has exploded online that is killing our freedoms. It maps a network of disinformation - a heinous web of cause and effect - that has netted the globe: from Duterte's drug wars, to America's Capitol Hill, to Britain's Brexit, to Russian and Chinese cyber-warfare, to Facebook and Silicon Valley, to our own clicks and our own votes. Told from the frontline of the digital war, this is Maria Ressa's urgent cry for us to wake up and hold the line, before it is too late.*
 
 :::
 ::: {.column width="10%"}

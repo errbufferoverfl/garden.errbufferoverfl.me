@@ -1,29 +1,29 @@
 ---
 title: "Unmasking Autism Discovering the New Faces of Neurodiversity"
-date: 2022-04-07
-image: /imgs/unmasking-autism.png
-started: 2024-04-03
+author:
+  - Devon Price
+date: 2022-04-07T00:00:00+09:30
+date-modified: 2024-11-10T21:27:44+10:30
+categories:
+  - Autism Spectrum Disorder
+  - Disability
+  - Mental Health
+  - Non-Fiction
+  - Psychology
+  - Self Help
 completed: 2024-04-05
 page: 300
 pages: 300
 publisher: Hachette UK
-status: Completed
 rating: ★★★★★
+started: 2024-04-03
+status: Completed
 type: Book
-author: 
-- Devon Price
-categories:
-- Non-Fiction
-- Autism Spectrum Disorder
-- Psychology
-- Mental Health
-- Self Help
-- Disability
 ---
 
 ::: {.content-hidden when-format="html"}
 
-`button-updateReadingStatus`  · `button-updateCurrentPage`
+`button-updateReadingStatus` · `button-updateCurrentPage`
 
 :::
 

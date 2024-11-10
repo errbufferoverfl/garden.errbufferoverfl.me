@@ -1,40 +1,40 @@
 ---
 title: "Revolution at Point Zero"
-date: August 01, 2020
-image: /imgs/revolution-at-point-zero.png
-started: 2022-04-30
-completed: 2023-01-28
-status: "Completed"
-page: 256
-pages: 256
-rating: ★★★★★
-publisher: PM Press
-type: Book
 author:
   - Silvia Federici
+date: 2020-08-01T00:00:00+09:30
+date-modified: 2024-11-10T21:27:28+10:30
 categories:
-  - Non-Fiction
-  - Social Science
-  - Feminism
-  - Politics
-  - Philosophy
-  - Theory
   - Essays
+  - Feminism
   - Gender
+  - Non-Fiction
+  - Philosophy
+  - Politics
+  - Social Science
+  - Theory
+completed: 2023-01-28
+page: 256
+pages: 256
+publisher: PM Press
+rating: ★★★★★
+started: 2022-04-30
+status: "Completed"
+type: Book
 ---
 
 ::: {.content-hidden when-format="html"}
 
-`button-updateReadingStatus`  · `button-updateCurrentPage`
+`button-updateReadingStatus` · `button-updateCurrentPage`
 
 :::
 
 :::: {.columns}
 ::: {.column width="50%"}
 
-_Written between 1974 and 2016, Revolution at Point Zero collects four decades of research and theorising on the nature of housework, social reproduction, and women’s struggles on this terrain—to escape it, to better its conditions, to reconstruct it in ways that provide an alternative to capitalist relations. Indeed, as Federici reveals, behind the capitalist organisation of work and the contradictions inherent in “alienated labor” is an explosive ground zero for revolutionary practice upon which are decided the daily realities of our collective reproduction._
+*Written between 1974 and 2016, Revolution at Point Zero collects four decades of research and theorising on the nature of housework, social reproduction, and women’s struggles on this terrain—to escape it, to better its conditions, to reconstruct it in ways that provide an alternative to capitalist relations. Indeed, as Federici reveals, behind the capitalist organisation of work and the contradictions inherent in “alienated labor” is an explosive ground zero for revolutionary practice upon which are decided the daily realities of our collective reproduction.*
 
-_Beginning with Federici’s organisational work in the Wages for Housework movement, the essays collected here unravel the power and politics of wide but related issues including the international restructuring of [[../the-notebook/reproductive-labor|reproductive work]] and its effects on the sexual division of labor, the globalisation of care work and sex work, the crisis of elder care, the development of affective labor, and the politics of the commons. This revised and expanded edition includes three additional essays and a new preface by the author._
+*Beginning with Federici’s organisational work in the Wages for Housework movement, the essays collected here unravel the power and politics of wide but related issues including the international restructuring of [[../the-notebook/reproductive-labor|reproductive work]] and its effects on the sexual division of labor, the globalisation of care work and sex work, the crisis of elder care, the development of affective labor, and the politics of the commons. This revised and expanded edition includes three additional essays and a new preface by the author.*
 
 :::
 ::: {.column width="10%"}
@@ -58,7 +58,7 @@ A series of essays that explore globalisation, [reproductive work](/notebook/rep
 ### War, Globalisation and Reproduction (2000)
 
 > First came the foreign bankers eager to lend at extortionate rates; then the financial controllers to see that the interest was paid; then the thousands of foreign advisors taking their cut. Finally, when the country was bankrupt and helpless, it was time for the foreign troops to “rescue” the ruler from his “rebellious” people. One last gulp and the country had gone.
-> – Thomas Pakenham, _The Scramble for Africa_
+> – Thomas Pakenham, *The Scramble for Africa*
 
 Developed world initiatives are largely based on globalisation and pushing imperialism, but it takes the form of food aid and humanitarianism. These are just tactics to gain and maintain control over other states.
 

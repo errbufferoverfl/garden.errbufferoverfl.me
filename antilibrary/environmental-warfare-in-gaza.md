@@ -3,7 +3,7 @@ title: Environmental Warfare in Gaza Colonial Violence and New Landscapes of Res
 author:
   - Shourideh. C. Molavi
 date: 2024-02-20T00:00:00+10:30
-date-modified: 2024-11-10T20:39:24+10:30
+date-modified: 2024-11-10T21:27:08+10:30
 categories:
   - Ecocide
   - Environment

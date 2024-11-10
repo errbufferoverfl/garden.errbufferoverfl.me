@@ -1,28 +1,28 @@
 ---
 title: "Debt The First 5,000 Years"
-date: November 22, 2022
-image: /imgs/debt.png
-started: 2024-02-01
+author:
+  - David Graeber
+date: 2022-11-22T00:00:00+10:30
+date-modified: 2024-11-10T21:27:06+10:30
+categories:
+  - Anthropology
+  - Business & Economics
+  - Finance
+  - History
+  - Non-Fiction
+  - Politics
 completed: 
 page: 75
 pages: 534
 publisher: National Geographic Books
-type: Book
+started: 2024-02-01
 status: In Progress
-author: 
-  - David Graeber
-categories:
-  - Non-Fiction
-  - Business & Economics
-  - History
-  - Anthropology
-  - Politics
-  - Finance
+type: Book
 ---
 
 ::: {.content-hidden when-format="html"}
 
-`button-updateReadingStatus`  · `button-updateCurrentPage`
+`button-updateReadingStatus` · `button-updateCurrentPage`
 
 :::
 

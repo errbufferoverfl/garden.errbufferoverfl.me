@@ -1,29 +1,29 @@
 ---
 title: "How to Be an Antiracist"
-date: 2019-08-13
-image: /imgs/how-to-be-an-antiracist.png
-started: 2024-05-04
+author:
+  - Ibram X. Kendi
+date: 2019-08-13T00:00:00+09:30
+date-modified: 2024-11-10T21:27:17+10:30
+categories:
+  - Anti-Racist
+  - History
+  - Non-Fiction
+  - Politics
+  - Race
+  - Social Justice
 completed: 
 page: 88
 pages: 401
 publisher: One World
-status: "In Progress"
 rating: ☆☆☆☆☆
+started: 2024-05-04
+status: "In Progress"
 type: Book
-author: 
-- Ibram X. Kendi
-categories:
-- Non-Fiction
-- Race
-- Social Justice
-- Anti-Racist
-- Politics
-- History
 ---
 
 ::: {.content-hidden when-format="html"}
 
-`button-updateReadingStatus`  · `button-updateCurrentPage`
+`button-updateReadingStatus` · `button-updateCurrentPage`
 
 :::
 
