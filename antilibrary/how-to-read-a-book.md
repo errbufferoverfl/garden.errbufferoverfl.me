@@ -17,7 +17,7 @@ categories:
   - Writing
 completed: 
 page: 
-pages: 
+pages: 430
 publisher: Simon & Schuster, Inc
 started: 2023-10-17
 status: Incomplete
