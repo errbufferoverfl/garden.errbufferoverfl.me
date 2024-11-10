@@ -14,14 +14,12 @@ author:
   - Gabrielle Chan
 categories:
   - Non-Fiction
-  - Environment
-  - Australia
-  - Climate Change
-  - Politics
-  - Science
-  - Food
-  - Economics
-  - Political Science
+  - Politics & Government
+  - Agriculture & Farming
+  - Environmental Studies
+  - Food Policy
+  - Australian & Oceanian Politics
+  - Cultural Anthropology
 ---
 
 ::: {.content-hidden when-format="html"}
