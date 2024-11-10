@@ -1,25 +1,30 @@
 ---
 title: "Chasing Shadows"
-date: Feburary 01, 2022
-image: /imgs/chasing-shadows.png
-started: 2022-12-09
+author:
+  - Kristy Campion
+date: 2022-02-20T00:00:00+10:30
+date-modified: 2024-11-10T20:22:58+10:30
+categories:
+  - Australasian & Pacific History
+  - Biographies & True Stories
+  - History
+  - Non-Fiction
+  - Political Activism
+  - Politics & Government
+  - Terrorism
 completed: 2023-01-22
 page: 251
 pages: 392
+publisher: "Allen & Unwin"
+rating: ★★★★☆
+started: 2022-12-09
 status: Completed
 type: Book
-rating: ★★★★☆
-publisher: "Allen & Unwin"
-author:
-  - Kristy Campion
-categories:
-  - Political Science
-  - Terrorism
 ---
 
 ::: {.content-hidden when-format="html"}
 
-`button-updateReadingStatus`  · `button-updateCurrentPage`
+`button-updateReadingStatus` · `button-updateCurrentPage`
 
 :::
 
