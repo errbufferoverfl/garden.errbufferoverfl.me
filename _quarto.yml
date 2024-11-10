@@ -52,8 +52,6 @@ website:
     right:
       - text: The Notebook
         href: /notebook/
-      - text: The Art Studio
-        href: /art-studio/
       - text: The Zine Wiki
         url: /zine/
       - text: The Engineering Anthology
@@ -62,6 +60,8 @@ website:
         url: /soapbox/
       - text: More
         menu:
+          - text: The Art Studio
+            href: /art-studio/
           - text: The Microfarm
             href: /microfarm/
           - text: The Toolbox
