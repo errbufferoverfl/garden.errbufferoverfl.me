@@ -4,7 +4,7 @@ subtitle: Submission to the Senate
 author:
   - errbufferoverfl
 date: 2024-11-22T09:16:17+11:00
-date-modified: 2024-11-22T09:32:09+11:00
+date-modified: 2024-11-22T09:41:39+11:00
 description: 
 categories:
   - Government Submission
@@ -16,11 +16,19 @@ draft: true
 
 <center><i>Prepared by Rebecca Trapani on Monday, 22 November 2024</i></center>
 
-The proposed Online Safety Amendment (Social Media Minimum Age) Bill 2024 introduces significant regulatory changes under the guise of improving online safety for children. While protecting young Australians from online harm is a vital goal, the approach outlined in this Bill is deeply flawed, both in terms of its practicality and its broader societal implications.
+The proposed Online Safety Amendment (Social Media Minimum Age) Bill 2024 introduces significant regulatory changes under the guise of improving online safety for children. While protecting young Australians from online harm is a vital goal, the approach outlined in this Bill is deeply flawed and inconsistent with previous government positions.
 
 It is also disheartening that, given the ongoing national conversation surrounding the Social Media Minimum Age and its far-reaching consequences, the Senate has allowed only 24 hours for public consultation. This limited timeframe demonstrates a lack of genuine interest in consulting the Australian public on such a critical matter. Recent **Crikey** reporting highlights that this rushed approach aligns with the Federal Government's broader strategy of prioritizing optics over substance.[^1] Internal emails from South Australian Premier Peter Malinauskas’ office and interviews with attendees at related events suggest these were carefully stage-managed to create “momentum” for the social media ban, rather than fostering meaningful dialogue about its implications​.
 
-I address the key issues below and propose alternative solutions:
+## Contradiction with the Government’s 2023 Response to the Roadmap for Age Verification
+
+This Bill directly contradicts the Federal Government's response to the **Roadmap for Age Verification** published in August 2023,[^2] which stated:
+
+"The Roadmap makes clear that a decision to mandate age assurance is not ready to be taken. Without the technology to support mandatory age verification being available in the near term, the Government will require industry to do more and will hold them to account."
+
+At the time, the Government acknowledged that the technologies required to enforce mandatory age assurance were immature and presented privacy, security, and implementation challenges​.
+
+The Senate should reject this Bill until the Government fulfills the commitments made in its 2023 response, including prioritizing education and outreach to mitigate online harms.
 
 ## Unworkable Implementation
 
@@ -30,13 +38,15 @@ The Bill mandates that providers of age-restricted social media platforms take "
 - Platforms that fail to comply face significant penalties. However, compliance mechanisms remain unclear, creating regulatory uncertainty for businesses operating in Australia.
 - This Bill effectively mandates a backdoor social media identification system, exposing users—including adults—to heightened risks of data breaches and misuse of personal information.
 
-**Recommendation:** Focus efforts on supporting education about online safety and developing tools that empower children to manage their own online safety, with support from their parents and guardians. Shift the emphasis away from parents and guardians solely policing online usage and instead prioritize fostering digital literacy and resilience among young people. Avoid regulatory mandates that require invasive or impractical technological solutions.
+### Recommendation
 
-## Privacy Implications
+Focus efforts on: 
 
-The collection and processing of personal information to verify age directly contradict the principles of privacy outlined in existing frameworks such as the Australian Privacy Act 1988 and the Australian Privacy Principles.
+- Providing age-appropriate, inclusive, and stigma-free education about online safety, consent, and respectful relationships.
+- Supporting education about online safety and developing tools that empower children to manage their own online safety, with support from their parents and guardians. 
+- Shifting the emphasis away from parents and guardians solely policing online usage and instead prioritize digital literacy and resilience among young people. 
+- Avoiding regulatory mandates that require invasive or impractical technological solutions.
 
-- Even with protections against unauthorized use of collected data, the proposed model would force Australians to surrender sensitive information.
-- Mandating age checks could pave the way for broader surveillance and normalization of invasive identity verification practices.
 
 [^1]: [Emails reveal how Labor engineered event to support its own teen social media ban](https://www.crikey.com.au/2024/11/21/teen-social-media-ban-jonathan-haidt-peter-malinauskas/)
+[^2]: [Government response to the Roadmap for Age Verification](https://www.infrastructure.gov.au/sites/default/files/documents/government-response-to-the-roadmap-for-age-verification-august2023.pdf)
