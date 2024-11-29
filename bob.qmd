@@ -5,7 +5,8 @@ listing:
     categories: numbered
     type: table
     sort: title
-    feed: true
+    feed:
+      type: partial
     fields: [date, title, description]
     sort-ui: [title, date, file-modified, categories]
     filter-ui: [title, description]
