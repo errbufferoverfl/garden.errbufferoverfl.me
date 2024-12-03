@@ -1,15 +1,15 @@
 ---
-title: Decentralized identifier
+title: "Decentralized identifier"
+subtitle: "also known as DID"
 author:
   - errbufferoverfl
 date: 2023-06-10T23:30:00+09:30
 date-modified: 2024-09-15T12:25:13+09:30
 categories:
-  - Definition
-  - Distributed Computing
   - Distributed Web
-  - Hypercore Protocol
-  - Seed
+  - Web3
+  - Hypercore
+  - Decentralized Identity
 ---
 
 Decentralized identifier (DIDs) identifies any subject (e.g., a person, organization, thing, data model, abstract entity, etc.) that the controller of the DID decides that it identifies.

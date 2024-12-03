@@ -1,5 +1,5 @@
 ---
-title: What is Ozploitation?
+title: "What is Ozploitation?"
 author:
   - errbufferoverfl
 date: 2024-09-13T10:16:48+09:30

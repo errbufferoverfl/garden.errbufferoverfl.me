@@ -6,11 +6,9 @@ author:
 date: 2023-06-11T23:30:00+09:30
 date-modified: 2024-09-15T12:24:05+09:30
 categories:
-  - ACCCE
-  - End to End Encryption
-  - Government
-  - Policy
-  - Privacy
+  - Encryption and Privacy Advocacy
+  - Surveillance and Government Policy
+  - Child Safety and Digital Ethics
 ---
 
 In recent months, Australian police and the Australian Centre to Counter Child Exploitation (ACCCE) have ramped up a fear-driven campaign, warning about the "sextortion" of teenagers and calling for weakened end-to-end encryption on digital platforms. While these calls may seem rooted in protecting young people, they echo tactics from the ongoing "crypto wars," with motives far removed from child safety.

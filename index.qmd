@@ -1,44 +1,24 @@
 ---
-title: "errbufferoverfl"
-image: /imgs/profile.png
-about:
-  template: trestles
-  links:
-    - icon: chat-square-quote-fill
-      text: Bluesky
-      href: https://bsky.app/profile/errbufferoverfl.bsky.social
-    - icon: mastodon
-      text: Mastodon
-      href: https://genericsocialmediapage.com/@errbufferoverfl
-    - icon: postage-heart-fill
-      text: Ko-Fi
-      href: https://ko-fi.com/errbufferoverfl
-    - icon: book
-      text: Bookwyrm
-      href: https://bookwyrm.social/user/errbufferoverfl
-    - icon: gitlab
-      text: GitLab
-      href: https://gitlab.com/errbufferoverfl
-    - icon: github
-      text: Github
-      href: https://github.com/errbufferoverfl
-citation: false
-toc: false
+title: "The Notebook"
+listing:
+  contents:
+    - notebook
+    - engineering
+  fields: [date, title]
+  sort: "date desc"
+  type: default
+  sort-ui: false
+  filter-ui: false
+  categories: true
+  feed:
+    type: partial
 comments: false
-repo-actions: false
+citation: false
 disable_flesch: true
+page-layout: full
+repo-actions: false
+title-block-banner: false
+toc: false
 ---
 
-## anarchist, illustrator, reluctant security engineer
 
-Howdy! I'm errbufferoverfl. Welcome to Bits & Bytes. I'm happy you're here — please make yourself comfortable. By day, I'm the reluctant security 
-engineer working on browser-based ecosystem security and OAuth stuff. By night I'm a gardener, knowledge librarian & artist. I currently live on the 
-unceded land of the Boandik Peoples.
-
-I'm passionate about social-anarchy, anti-capitalism & revolution; my main focuses are subsistence-farming, sustainable living, subverting 
-surveillance capitalism, peer to peer technologies and anything I'm hyper fixated on at the time.
-
-_Bits & Bytes_ is exactly that—bits and bites of work, part digital garden, part knowledge base. It’s a dynamic, living document that serves as 
-both a project repository and a knowledge base, where I gather fragments of thoughts, ideas, and ongoing projects as they evolve over time.
-
-Welcome, I'm glad you're here, feel free to [poke around](/notebook).

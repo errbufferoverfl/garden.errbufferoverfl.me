@@ -1,15 +1,14 @@
 ---
 title: "OWASP CLASP"
+subtitle: "A Deprecated Framework for Building Security into Software Development and Evolving Towards Modern Maturity Models"
 author:
   - errbufferoverfl
 date: 2023-10-11T08:36:28+10:30
 date-modified: 2024-09-15T12:25:14+09:30
-description: "Introduces OWASP CLASP, a 'comprehensive' and 'lightweight' application security process that aims to integrate security into software development programs in a structured and measurable way. It outlines the different views and components of CLASP and discusses the vulnerability use cases and taxonomy."
 categories:
-  - Definition
-  - OWASP
-  - Security
-  - Seed
+  - Application Security Frameworks
+  - Software Development Life Cycle Security
+  - OWASP Tools and Practices
 ---
 
 ## Introduction to OWASP CLASP

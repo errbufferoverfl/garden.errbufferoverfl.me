@@ -11,7 +11,7 @@ categories:
   - Seed
 source: https://en.wikipedia.org/wiki/Object-capability_model
 ---
-The following programming languages implement an [Object Capability Model](object-capability-model.md):
+The following programming languages implement an [Object Capability Model](/engineering/object-capability-model.md):
 
 - Act 1 (1981)
 - Eden (1985)

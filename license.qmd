@@ -1,17 +1,22 @@
 ---
 title: "License"
-citation: false
-toc: false
 comments: false
-repo-actions: false
-image: "/imgs/license-banner.png"
+citation: false
 disable_flesch: true
-format:
-  html:
-    template-partials:
-      - /_layouts/title-block.html
+page-layout: full
+repo-actions: false
+title-block-banner: false
+toc: false
 ---
 
-All pages on [garden.errbufferoverfl.me](https://garden.errbufferoverfl.me) include a document license under the `#reuse` anchor. For details on how content can be reused, please refer to the licensing information there.
+All pages on [garden.errbufferoverfl.me](https://garden.errbufferoverfl.me) are licensed under **[CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/)**.
 
-The primary font, **Volume TC**, and the secondary font, **Volume TC Sans**, were both crafted by Tom Chalky. The graphics come from vintage books, vectorized by Tom, and are available in various illustration packages.
+This license allows reusers to distribute, remix, adapt, and build upon the material in any medium or format for **noncommercial purposes only**, and only if **attribution** is given to the creator. If you remix, adapt, or build upon the material, you must license the modified material under **identical terms**.
+
+**CC BY-NC-SA** includes the following elements:
+
+- **BY**: Credit must be given to the creator.
+- **NC**: Only noncommercial uses of the work are permitted.
+- **SA**: Adaptations must be shared under the same terms.
+
+For details on how content can be reused, please refer to the [CC BY-NC-SA](https://creativecommons.org/licenses/by-nc-sa/4.0/) deed.

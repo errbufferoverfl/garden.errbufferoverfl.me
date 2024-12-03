@@ -7,11 +7,10 @@ date-modified: 2024-09-15T12:25:14+09:30
 categories:
   - Security
   - Security Model
-  - Seed
 ---
-The object-capability model (also seen written as "ocap") is a [object-capability security](object-capability%20security) concept that describes a computer security model. In ocap a capability describes a transferable right to perform one or more operations on a given object.
+The object-capability model (also seen written as "ocap") is an object-capability security concept that describes a computer security model. In ocap a capability describes a transferable right to perform one or more operations on a given object.
 
-To implement a object-capability model you need:
+To implement an object-capability model you need:
 
 - An unforgeable reference that can be sent in messages;
 
@@ -27,7 +26,7 @@ Many of the benefits of object-oriented programming (OOP), like encapsulation, m
 
 Because OCAP seems to use OOP as an underlying programming paradigm it favours modularity in code design and reliable encapsulation. As a consequence it can be easier to analyse security properties, for example: information flow properties.
 
-This means that its easier to establish and maintain the security properties when adding new objects that contain unknown and possibly malicious code.
+This means that it's easier to establish and maintain the security properties when adding new objects that contain unknown and possibly malicious code.
 
 These assertions are enforceable because of two structural properties enforced when using OCAP:
 

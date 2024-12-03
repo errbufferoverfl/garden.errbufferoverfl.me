@@ -1,11 +1,10 @@
 ---
-title: April 2023 Submission in Response to the Attorney-General’s Department Privacy Act Review Report
-subtitle: Submission to the Attorney-General’s Department
+title: "April 2023 Submission in Response to the Attorney-General’s Department Privacy Act Review Report"
+subtitle: "Submission to the Attorney-General’s Department"
 author:
   - errbufferoverfl
 date: 2023-03-31T13:55:32+10:30
 date-modified: 2024-10-12T09:22:19+10:30
-description: My April 2023 submission to the Attorney-General's Department regarding the Privacy Act Review Report of 1988, the submission highlights concerns about the lack of federal protections for privacy as a human right. It covers issues such as data collection practices, the definition of personal information, consent models, and exemptions for small businesses, political parties, and media organizations.
 categories:
   - Government Submission
   - Privacy Act

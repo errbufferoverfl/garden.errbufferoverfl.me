@@ -5,8 +5,10 @@ author:
   - errbufferoverfl
 date: 2021-11-01T22:23:29+10:30
 date-modified: 2024-10-12T09:15:16+10:30
-description: My November 2021 submission to the Department of Infrastructure, Transport, Regional Development and Communications, addressing concerns about the draft Online Safety (Basic Online Safety Expectations) Determination. It examines the vague principles and the broad discretion given to the eSafety Commissioner, highlighting potential risks to online privacy, security, and marginalized communities, including sex workers. The post calls for greater clarity, transparency, and protection measures for service providers and users to ensure a safe and equitable digital landscape.
 categories:
+  - Encryption and Privacy Advocacy
+  - Surveillance and Government Policy
+  - Child Safety and Digital Ethics
   - Government Submission
   - Online Safety Bill
 ---

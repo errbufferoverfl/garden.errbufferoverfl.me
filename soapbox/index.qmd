@@ -9,13 +9,9 @@ listing:
   sort-ui: true
 date-format: "MMMM, YYYY"
 max-description-length: 500
+title-block-banner: false
 toc: false
 repo-actions: false
 comments: false
-image: "/imgs/the-soapbox-banner.png"
-format:
-  html:
-    template-partials:
-      - ../_layouts/title-block.html
 disable_flesch: true
 ---

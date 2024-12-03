@@ -1,11 +1,10 @@
 ---
 title: October 2024 Submission to the Privacy Act Review
-subtitle: Submission in Response to the Senate Standing Committees on Legal and Constitutional Affairs
+subtitle: Submission to the Senate Standing Committees on Legal and Constitutional Affairs
 author:
   - errbufferoverfl
 date: 2024-10-09T20:54:04+10:30
 date-modified: 2024-10-15T19:28:00+10:30
-description: My submission to the Senate Standing Committees on Legal and Constitutional Affairs regarding the Privacy and Other Legislation Amendment Bill 2024. I discuss key concerns surrounding privacy protections, the definition of personal information, automated decision-making (ADM), and the small business exemption. I also emphasize the need for a clear timeline for future reforms and highlight the privacy risks related to age verification and children's social media use.
 categories:
   - Government Submission
   - Privacy Act

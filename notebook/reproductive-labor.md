@@ -5,9 +5,9 @@ author:
 date: 2023-06-03T23:30:00+09:30
 date-modified: 2024-09-15T12:25:54+09:30
 categories:
-  - Definition
-  - Political Science
-  - Tree
+  - Feminist Theory
+  - Labor Economics
+  - Queer Studies
 ---
 
 Reproductive labor was first brought into the discourse during the *wages for housework* campaign during the 1970s (discussed in _Revolution at Point Zero_). Referring to it this was is important because it emphasises that reproductive activities are also labor that are enforced by the gender hierarchy and not a goodwill gesture of women.

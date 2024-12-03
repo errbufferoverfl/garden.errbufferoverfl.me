@@ -5,14 +5,12 @@ author:
   - errbufferoverfl
 date: 2023-10-28T21:12:30+10:30
 date-modified: 2024-09-15T12:25:14+09:30
-description: ""
 categories:
   - OAuth
   - OAuth Vulnerabilities
   - Seed
   - SSO
   - Vulnerabilities
-image-alt: "A smashed computer lying on the floor."
 ---
 
 In 2014, automated testing of the top twenty thousand top-ranked websites using the Facebook SDK, found over 20% were suffering from at least one of five security vulnerabilities.[^1]

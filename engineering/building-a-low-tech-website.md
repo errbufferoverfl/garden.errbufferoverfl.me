@@ -7,7 +7,6 @@ date-modified: 2024-09-15T12:25:13+09:30
 categories:
   - Low Tech
   - Project
-  - Seed
 ---
 
 As discourse around the impacts of Artificial intelligence (Ai) swirls in the background, one of the things I've been thinking about a lot is this idea we have that someday Ai will automate the boring things so everyone can focus on endeavours that are more fulfilling.

@@ -5,10 +5,9 @@ author:
   - errbufferoverfl
 date: 2023-10-13T23:30:00+10:30
 date-modified: 2024-09-15T12:25:54+09:30
-description: "This post explores the concept of digital gardening, emphasizing the importance of reclaiming time, iterative learning, and embracing complexity. It introduces the metaphor of seeds, trees, and fruit to describe the different stages of content creation in a digital garden."
 categories:
-  - Fruit
-  - Meta
+  - Philosophy of Mind
+  - Research Methods
 ---
 
 > **Today, the imagination behind the internet is dominantly shaped by militarization, consumerism, and surveillance. Given the options, I understand the desire to log off and dream in greener places.**

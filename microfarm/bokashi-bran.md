@@ -1,12 +1,14 @@
 ---
-title: Bokashi Bran
+title: "Bokashi Bran"
+subtitle: "A Recipe for Making Bokashi Bran at Home"
 author:
   - errbufferoverfl
 date: 2023-10-08T18:12:51+10:30
 date-modified: 2024-09-15T12:25:47+09:30
 categories:
-  - Composting
-  - Seed
+  - Composting Techniques
+  - Sustainable Living
+  - Homesteading and Gardening
 ---
 
 ## Do It Yourself Bokashi Bran

@@ -1,15 +1,14 @@
 ---
-title: Why are Fragments not Allowed in RFC 6749?
-subtitle: Exploring the security rationale behind RFC 6749's prohibition of fragment components in OAuth 2 redirects.
+title: "Why are Fragments not Allowed in RFC 6749?"
+subtitle: "Exploring the security rationale behind RFC 6749's prohibition of fragment components in OAuth 2 redirects."
 author:
   - errbufferoverfl
 date: 2024-10-13T10:56:50+10:30
 date-modified: 2024-10-14T12:12:35+10:30
-description: Discover why RFC 6749 forbids the use of fragment components in OAuth 2's `redirect_uri`. This post delves into the history, security implications, and best practices surrounding this decision, with insights from OAuth Working Group discussions and real-world vulnerabilities like the 2014 covert redirect.
 categories:
-  - OAuth
-  - Technology Archeology
-  - Why?
+  - OAuth Security
+  - Web Standards and Protocols
+  - Vulnerabilities and Mitigations
 ---
 
 ## Why Are Fragment Components Forbidden in the `redirect_uri`?

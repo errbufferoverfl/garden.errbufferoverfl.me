@@ -5,12 +5,9 @@ author:
 date: 2023-06-20T18:07:06+09:30
 date-modified: 2024-09-15T12:25:13+09:30
 categories:
-  - Concencus Building
+  - Consensus Building
   - IETF
-  - Internet Governance
-  - RFC
   - RFC-7282
-  - Sapling
 ---
 
 This post summarises the key points of [RFC 7282](https://datatracker.ietf.org/doc/html/rfc7282) an informational RFC (Request for Comment) published in 2014. This post is? will be? part of an ongoing collection on decision making and consensus building that looks to explore how groups make decisions and why.

@@ -1,3 +1,0 @@
-filters:
-  - _utils/quarto-version.lua
-  - _utils/quarto-flesch-score.lua

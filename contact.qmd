@@ -1,7 +1,11 @@
 ---
-pagetitle: errbufferoverfl - Send me a Note
-page-layout: full
+pagetitle: Contact
+comments: false
+citation: false
 disable_flesch: true
+page-layout: full
+repo-actions: false
+toc: false
 ---
 
 ::: columns
@@ -21,18 +25,22 @@ disable_flesch: true
 
 Hey there!
 
-Before you try to contact me, let's get a few things straight. If you’re here to ask me to be the next hire on your security engineering team or think, based on my website I'd make a great culture fit, let me stop you right there. The only "culture fits" I want to hear about are organising fermented products in the cold store, and frankly I've got enough on my plate already.
+Before you try to contact me, let's get a few things straight. If you’re here to ask me to be the next hire on your
+security engineering team or think, based on my website, I'd make a great culture fit, let me stop you right there.
+The only "culture fits" I want to hear about are organizing fermented products in the cold store, and frankly, I've
+got enough on my plate already.
 
-You see, if the universe really wanted me to be that contactable, it would have equipped me with an SMTP server at birth. Instead, it gave me a a strong desire to become the creature that terrifies the townsfolk and a cat named Lyla who demands most of my attention.
+That said, if you represent a socially engaged organization or an ethical company that values thoughtful, deliberate
+work, prioritizes fostering strong, collaborative relationships between engineering and security teams, and is focused
+on people over profit, feel free to reach out. I’m only interested in opportunities aligned with my values and dedicated
+to creating meaningful, impactful work.
 
-For everything else, go ahead and drop me a line. Just remember, I might take a while to respond – after all, I’m still waiting for my built-in email system upgrade.
+You see, if the universe really wanted me to be that contactable, it would have equipped me with an SMTP server at
+birth. Instead, it gave me a a strong desire to become the creature that terrifies the townsfolk and a cat named
+Lyla who demands most of my attention.
 
-<a class="link-dark me-1" href="https://ko-fi.com/errbufferoverfl" title="Ko-Fi" target="_blank"rel="noopener">{{< fa solid mug-hot >}}</a>
-<a class="link-dark me-1" href="https://mastodon.art/@errbufferoverfl" title="Mastodon" target="_blank" rel="noopener">{{< fa solid paintbrush >}}</a>
-<a class="link-dark me-1" href="https://genericsocialmediapage.com/@errbufferoverfl" title="Mastodon" target="_blank" rel="noopener">{{< fa brands mastodon >}}</a>
-<a class="link-dark me-1" href="https://gitlab.com/errbufferoverfl" title="Gitlab" target="_blank" rel="noopener">{{< fa brands gitlab >}}</a>
-<a class="link-dark me-1" href="https://github.com/errbufferoverfl" title="Github" target="_blank" rel="noopener">{{< fa brands github >}}</a>
-<a class="link-dark me-1" href="https://x.com/errbufferoverfl" title="X (formerly Twitter)" target="_blank" rel="noopener">{{<fa brands twitter>}}</a>
+For everything else, go ahead and drop me a line. Just remember, I might take a while to respond – after all, I’m
+still waiting for my built-in email system upgrade.
 
 :::
 :::

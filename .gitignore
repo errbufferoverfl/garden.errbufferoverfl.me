@@ -19,5 +19,5 @@ _site
 node_modules
 private/
 prof
-public
+public/
 site_libs/*

@@ -5,17 +5,16 @@ author:
 date: 2023-06-10T23:30:00+09:30
 date-modified: 2024-09-15T12:25:13+09:30
 categories:
-  - Distributed Computing
   - Distributed Web
-  - Protocol
-  - Seed
+  - Web3
+  - InterPlanetary File System
 ---
 
 InterPlanetary File System (IPFS) is a protocol, hypermedia and file sharing peer-to-peer network for storing and sharing data to a distributed file system.
 
 It is an alternative location-based hyper media server protocol that could replace HTTP/HTTPS. It allows users to host and receive content is a similar way to BitTorrent.
 
-Any user in the network can serve a file by it's content address, and many other peers in the network can find and request content from any node who has it using a [DHT](dht.md).
+Any user in the network can serve a file by its content address, and many other peers in the network can find and request content from any node who has it using a [DHT](/engineering/dht.md).
 
 IPFS seems to be strongly aligned to Web3, and is often mentioned in the same breath as cryptocurrency protocols. 🚨
 
@@ -27,7 +26,7 @@ Cloudflare started using IPFS in 2018 and launched its own gateway in 2022.
 
 - Cryptocurrency
 - Content Delivery
-- Microsoft has built their [DID](did.md) on IPFS
+- Microsoft has built their [DID](/engineering/did.md) on IPFS
 - Discussion systems
 - To prevent and/or circumvent censorship
   - [Distributed, privacy-enhancing technologies in the 2017 Catalan referendum on independence: New tactics and models of participatory democracy](https://firstmonday.org/ojs/index.php/fm/article/view/9402/7692)

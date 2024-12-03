@@ -1,0 +1,174 @@
+/* Root Variables */
+:root {
+    --bs-navbar-hover-color: #4D4D4D; /* Navbar hover color */
+    --bs-nav-link-hover-color: #4D4D4D;
+    --bs-navbar-active-color: #4D4D4D; /* Navbar active color */
+    --bs-nav-link-padding-y: 0.25rem;
+    --bs-pagination-active-bg: #fcdae9;
+    --bs-pagination-active-border-color: #fcdae9;
+
+    --bs-pagination-hover-bg: #fcdae9; /* Light pink background on hover */
+    --bs-pagination-hover-border-color: #fcdae9; /* Matching border color */
+    --bs-pagination-hover-color: #4D4D4D; /* Dark gray text for high contrast on pink */
+}
+
+/* General Body Styling */
+body {
+    font: 17px "Avenir Next", Avenir, "-apple-system", Helvetica, Arial, sans-serif;
+    color: #4D4D4D;
+    text-rendering: optimizeLegibility;
+}
+
+/* Typography */
+p, li {
+    line-height: 1.7;
+}
+
+h1, h2, h3 {
+    color: #4D4D4D;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+p.small {
+    font-size: 14px;
+    display: block;
+}
+
+p.subtitle {
+    margin-top: 0.25em;
+    margin-bottom: 0.5em;
+    color: #37373e;
+    font-weight: normal;
+}
+
+/* Accent Color and Links */
+a {
+    text-decoration: none;
+    color: #4D4D4D;
+}
+
+nav.navbar a {
+    top: 8px;
+    right: 6px;
+    color: #4D4D4D;
+    font-size: 13px;
+    line-height: 1.35;
+    font-weight: 500;
+    margin-left: 12px;
+}
+
+.navbar-brand:hover,
+.navbar-brand:focus {
+    color: var(--bs-navbar-hover-color);
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: var(--bs-navbar-active-color);
+}
+
+/* Link Hover Effects */
+nav.navbar a,
+footer a,
+#post-nav a,
+p a {
+    color: #4D4D4D;
+    font-weight: 500;
+    box-shadow: inset 0 -2px 0 #fcdae9;
+    transition: all 0.35s cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+nav.navbar a:hover,
+footer a:hover,
+#post-nav a:hover,
+p a:hover {
+    box-shadow: inset 0 -25px 0 #fcdae9;
+}
+
+/* Navbar Links */
+.nav-link {
+    padding: 0.25rem var(--bs-nav-link-padding-x);
+}
+
+/* Footer Link Hover Effects */
+footer a:hover {
+    box-shadow: inset 0 -25px 0 #fcdae9;
+    transition: all 0.35s cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+/* Navbar Link Hover Effects */
+.navbar-nav a:hover {
+    box-shadow: inset 0 42px 0 #fcdae9;
+    transition: all 0.35s cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+/* Quarto Listing Categories */
+.quarto-listing-category .category {
+    font-family: "Avenir Next", Avenir, "-apple-system", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+}
+
+/* Category Count Styling */
+.quarto-category-count {
+    font-size: 14px;
+    color: #666;
+    font-weight: normal;
+}
+
+/* Hover Effect for Categories */
+.quarto-listing-category .category:hover {
+    box-shadow: inset 0 -25px 0 #fcdae9;
+    transition: all 0.35s cubic-bezier(0.7, 0, 0.3, 1);
+}
+
+div.quarto-post .metadata {
+    flex-basis: 16%;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: var(--bs-pagination-padding-y) var(--bs-pagination-padding-x);
+    font-size: var(--bs-pagination-font-size);
+    color: #333333; /* Neutral dark text color for AAA contrast */
+    text-decoration: none;
+    background-color: #ffffff; /* White background for high contrast */
+    border: var(--bs-pagination-border-width) solid #ccc; /* Light gray border for subtle separation */
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.page-link:hover {
+    z-index: 2;
+    color: #333333; /* Maintain contrast on hover */
+    background-color: #fcdae9; /* Light pink highlight color */
+    border-color: #fcdae9; /* Match border with the background */
+}
+
+.page-link.active, .active > .page-link {
+    z-index: 3;
+    color: #333333; /* Dark gray text for AAA contrast */
+    background-color: #fcdae9; /* Light pink background for active state */
+    border-color: #fcdae9; /* Match border color with background */
+    font-weight: bold; /* Optional: Emphasize active link visually */
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+ul.pagination li.disabled a, ul.pagination li.active a {
+    color: #333333; /* Maintain contrast on hover */
+}

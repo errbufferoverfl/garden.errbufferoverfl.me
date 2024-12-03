@@ -1,15 +1,14 @@
 ---
 title: "Setting Up Distributed Press on Digital Ocean"
+subtitle: "A Step-by-Step Guide to Deploying Distributed Press on Digital Ocean with Tips and Troubleshooting"
 author:
   - errbufferoverfl
 date: 2023-10-15T16:32:39+10:30
 date-modified: 2024-09-15T12:25:14+09:30
-description: "A guide on setting up Distributed Press on Digital Ocean. It covers creating a virtual private server (VPS), installing dependencies, configuring DNS, executing the playbook, and checking the status of the service. It also includes additional notes on creating a new publisher, adding a site to a publisher, and troubleshooting errors."
 categories:
-  - Digital Ocean
-  - Distributed Web
-  - Project
-  - Tree
+  - Distributed Web Deployment
+  - Server Administration
+  - Decentralized Publishing
 ---
 
 ::: {.callout-note}
@@ -20,7 +19,7 @@ Ubuntu 22.10 x64 [Distributed Press v1.2.1](https://github.com/hyphacoop/api.dis
 
 ## About Distributed Press
 
-[Distributed Press](https://docs.distributed.press/) is an open source publishing tool for the World Wide Web and Distributed Web. It automates publishing and hosting content to the web that it seeds to decentralised protocols like [Hypercore](hypercore.md) and [IPFS](ipfs.md).
+[Distributed Press](https://docs.distributed.press/) is an open source publishing tool for the World Wide Web and Distributed Web. It automates publishing and hosting content to the web that it seeds to decentralised protocols like [Hypercore](/engineering/hypercore.md) and [IPFS](/engineering/ipfs.md).
 
 ::: {.callout-warning}
 **Prerequisite Knowledge**
@@ -73,7 +72,7 @@ cd api.distributed.press/ansible
 ::: {.callout-warning}
 **Check the pinned version of Distribution Press**
 
-Before starting I recommend doing a quick sense check that the `distributed_press_git_branch` located in `api.distributed.press/ansible/roles/distributed_press/defaults/main.yml` matches the [latest tagged version](https://github.com/hyphacoop/api.distributed.press/tags), otherwise you can run into esoteric issues that are difficult to debug.
+Before starting, I recommend doing a quick sense check that the `distributed_press_git_branch` located in `api.distributed.press/ansible/roles/distributed_press/defaults/main.yml` matches the [latest tagged version](https://github.com/hyphacoop/api.distributed.press/tags), otherwise you can run into esoteric issues that are difficult to debug.
 :::
 
 Edit the `inventory.yml` file to specify your own domain to run the scripts on as well as any variables you want to set.
@@ -138,7 +137,7 @@ systemctl status distributed.press
 ::: {.callout-warning}
 **Ubuntu default DNS server**
 
-Also double check the logs using `journalctl -fu distributed.press`, if you see a `bind EADDRINUSE 0.0.0.0:53` error you will need to disable an installed utility called `dnsmasq`.[^3]
+Also double-check the logs using `journalctl -fu distributed.press`, if you see a `bind EADDRINUSE 0.0.0.0:53` error you will need to disable an installed utility called `dnsmasq`.[^3]
 :::
 
 ## Running a Sense Check
@@ -193,7 +192,7 @@ ufw enable
 
 Normally `ansible` will [handle generating a key for the JWT](https://github.com/hyphacoop/api.distributed.press/blob/b23534e6652cab20c2b10a3dcd85529344139462/ansible/roles/distributed_press/tasks/main.yml#L76-L82) however, in my case this didn't work and I had to manually generate a key.
 
-I was able to identify this problem because I recieved the following error when trying to [Get a `root` admin token](#Get%20a%20%60root%60%20admin%20token):
+I was able to identify this problem because I received the following error when trying to [Get a `root` admin token](#Get%20a%20%60root%60%20admin%20token):
 
 ``` {title="terminal"}
 Error: ENOENT: no such file or directory, open '/root/.local/share/distributed-press-nodejs/keys/private.key'

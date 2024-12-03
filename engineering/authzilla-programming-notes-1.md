@@ -5,7 +5,6 @@ author:
   - errbufferoverfl
 date: 2024-11-05T15:27:36+10:30
 date-modified: 2024-11-07T09:46:51+10:30
-description: "A development log in which I dive into the yaks I’ve shaved while building an Auth0-inspired platform—not. I wrangle schemas, unexpected serialization issues, and past-Bec design decisions that are questionable at best. Spoiler: it's a yak-packed journey with plenty of RESTful regrets along the way."
 categories:
   - Programming
   - Python

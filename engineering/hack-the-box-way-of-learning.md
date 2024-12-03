@@ -1,14 +1,14 @@
 ---
-title: "Hack the Box: Way of Learning"
+title: "Mastering the Way of Learning: Insights from Hack the Box"
+subtitle: "A Practical Guide to Learning, Overcoming Obstacles, and Asking the Right Questions in Cybersecurity"
 author:
   - errbufferoverfl
 date: 2023-10-21T17:06:23+10:30
 date-modified: 2024-10-25T14:15:40+10:30
 categories:
-  - General
-  - Hack the Box
-  - Hack the Box Academy
-  - Learning
+  - Learning Strategies in Cybersecurity
+  - Hack the Box Insights
+  - Questions and Progress in Learning
 ---
 
 > Progress is noticeable when the question that tortured us has lost its meaning.

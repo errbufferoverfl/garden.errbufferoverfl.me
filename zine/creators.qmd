@@ -9,12 +9,13 @@ listing:
     sort: title
     fields: [title, description, categories]
     categories: numbered
-toc: false
-repo-actions: false
+comments: false
+citation: false
 disable_flesch: true
+page-layout: full
+repo-actions: false
+toc: false
 ---
-
-Folks who bring their vibrant and unique voices to the world of zines.
 
 ::: {#creators}
 :::

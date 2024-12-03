@@ -5,14 +5,9 @@ author:
   - errbufferoverfl
 date: 2024-07-13T20:40:24+09:30
 date-modified: 2024-09-15T12:25:54+09:30
-description: Raymond Longford, a key contributor in early Australian cinema.
 categories:
-  - Actor
-  - Australian Film
-  - Director
-  - Editor
-  - History
-  - Screenwriter
+  - Pioneers of Australian Cinema
+  - Australian Cultural History
 ---
 
 Raymond Longford was a key contributor in early Australian cinema, known for his work as a director, writer, and actor. His contributions laid the foundation for the Australian film industry, and he is best remembered for his collaborations with [Lottie Lyell](lottie-lyell.md).

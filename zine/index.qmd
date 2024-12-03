@@ -8,13 +8,11 @@ listing:
   type: grid
   exclude:
     categories: "Review"
-toc: false
-repo-actions: false
+title-block-banner: false
 comments: false
-image: "/imgs/the-zine-banner.png"
-format:
-  html:
-    template-partials:
-      - ../_layouts/title-block.html
+citation: false
 disable_flesch: true
+page-layout: full
+repo-actions: false
+toc: false
 ---

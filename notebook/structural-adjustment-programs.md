@@ -5,13 +5,12 @@ author:
 date: 2023-06-23T19:35:07+09:30
 date-modified: 2024-09-15T12:25:54+09:30
 categories:
-  - Debt
-  - Definition
-  - Neocolonialism
   - Political Science
+  - Governance
+  - Economic Systems
 ---
 
-Structural adjustment programs are a [neocolonist](neocolonialism.md) tool that sets out a set of economic reforms that a country must adhere to secure a loan from the International Monetary Fund and/or the World Bank.
+Structural adjustment programs are a [neocolonist](/notebook/neocolonialism.md) tool that sets out a set of economic reforms that a country must adhere to secure a loan from the International Monetary Fund and/or the World Bank.
 
 These reforms have been in place since the 1940s but there was a significant push in the 1980s as part of a push to lend to "crisis-stricken poor" countries.
 

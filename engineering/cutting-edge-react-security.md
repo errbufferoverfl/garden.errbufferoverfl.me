@@ -6,11 +6,8 @@ author:
 date: 2023-10-18T12:58:20+10:30
 date-modified: 2024-09-15T12:25:13+09:30
 categories:
-  - JavaScript
   - Pragmatic Web Security
-  - React Security
-  - Seed
-  - Web Security
+  - Notes
 ---
 
 ## Security Model of the Web
