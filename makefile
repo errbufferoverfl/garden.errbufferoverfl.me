@@ -2,13 +2,12 @@
 QUARTO = quarto
 SOURCE_DIR = .
 OUTPUT_DIR = public
-PYTHON_SCRIPT = python3 _utils/generate_quarto.py
 
 # Default target
 all: render
 
 # Render all Quarto files
-render: generate_quarto
+render:
 	@echo "Rendering Quarto files..."
 	$(QUARTO) render $(SOURCE_DIR)
 
@@ -18,7 +17,7 @@ clean:
 	rm -rf $(OUTPUT_DIR)
 
 # Watch for changes and re-render
-watch: generate_quarto
+watch:
 	@echo "Watching files for changes..."
 	$(QUARTO) preview
 
@@ -28,11 +27,6 @@ publish: render
 	git add .
 	git commit -m "Publishing updates"
 	git push origin main
-
-# Run the Python script to generate _quarto.yml
-generate_quarto:
-	@echo "Generating _quarto.yml using Python script..."
-	$(PYTHON_SCRIPT)
 
 # Help
 help:
@@ -44,4 +38,4 @@ help:
 	@echo "  make publish   - Render and publish to GitLab Pages"
 	@echo "  make help      - Display this help"
 
-.PHONY: all render clean watch publish generate_quarto help
+.PHONY: all render clean watch publish help
