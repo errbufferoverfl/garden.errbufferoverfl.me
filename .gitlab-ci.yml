@@ -2,7 +2,7 @@
 image: python:3.12-slim
 
 variables:
-  QUARTO_VERSION: "1.4.554"
+  QUARTO_VERSION: "1.6.39"
   PROD_DEPLOY_URL: "https://garden.errbufferoverfl.me"
 
 cache:
@@ -15,8 +15,6 @@ before_script:
   - wget "https://github.com/quarto-dev/quarto-cli/releases/download/v${QUARTO_VERSION}/quarto-${QUARTO_VERSION}-linux-amd64.deb" -O quarto.deb
   - dpkg -i quarto.deb
   - rm quarto.deb
-  - python3 -m pip install --upgrade pip
-  - pip install beautifulsoup4==4.12.0
 
 pages:
   script:
