@@ -4,10 +4,10 @@ subtitle: "A Practical Guide to Learning, Overcoming Obstacles, and Asking the R
 author:
   - errbufferoverfl
 date: 2023-10-21T17:06:23+10:30
-date-modified: 2024-10-25T14:15:40+10:30
+date-modified: 2024-12-03T10:57:18+10:30
 categories:
-  - Learning Strategies in Cybersecurity
   - Hack the Box Insights
+  - Learning Strategies in Cybersecurity
   - Questions and Progress in Learning
 ---
 

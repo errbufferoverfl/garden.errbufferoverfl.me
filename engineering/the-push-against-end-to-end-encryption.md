@@ -4,11 +4,11 @@ subtitle: "Who Really Benefits?"
 author:
   - errbufferoverfl
 date: 2023-06-11T23:30:00+09:30
-date-modified: 2024-09-15T12:24:05+09:30
+date-modified: 2024-12-03T10:57:18+10:30
 categories:
+  - Child Safety and Digital Ethics
   - Encryption and Privacy Advocacy
   - Surveillance and Government Policy
-  - Child Safety and Digital Ethics
 ---
 
 In recent months, Australian police and the Australian Centre to Counter Child Exploitation (ACCCE) have ramped up a fear-driven campaign, warning about the "sextortion" of teenagers and calling for weakened end-to-end encryption on digital platforms. While these calls may seem rooted in protecting young people, they echo tactics from the ongoing "crypto wars," with motives far removed from child safety.
@@ -23,5 +23,5 @@ The issue of child safety online is complex and cannot be solved by holding plat
 
 The ACCCE and police may claim their goal is child safety, but their push aligns more with expanding government surveillance capabilities. If this were truly about protecting children, the focus would shift to empowering them, increasing their self-determination, and offering better protections against family and domestic violence. End-to-end encryption is not the threat—it’s a lifeline for countless vulnerable people who depend on secure communication to stay safe.
 
-* [Post on Twitter](https://twitter.com/errbufferoverfl/status/1646427897727688704?s=20)
-* [Post on Mastodon](https://mastodon.errbufferoverfl.me/@errbufferoverfl/110190569356553694)
+- [Post on Twitter](https://twitter.com/errbufferoverfl/status/1646427897727688704?s=20)
+- [Post on Mastodon](https://mastodon.errbufferoverfl.me/@errbufferoverfl/110190569356553694)

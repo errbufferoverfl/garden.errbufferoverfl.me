@@ -3,7 +3,7 @@ title: "Object-capability model"
 author:
   - errbufferoverfl
 date: 2023-08-09T11:44:29+09:30
-date-modified: 2024-09-15T12:25:14+09:30
+date-modified: 2024-12-03T10:57:18+10:30
 categories:
   - Security
   - Security Model

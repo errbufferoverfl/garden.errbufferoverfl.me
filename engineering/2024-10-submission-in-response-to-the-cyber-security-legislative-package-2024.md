@@ -4,11 +4,11 @@ subtitle: "Submission to the Parliamentary Joint Committee on Intelligence and S
 author:
   - errbufferoverfl
 date: 2024-10-26T20:46:45+10:30
-date-modified: 2024-10-25T18:38:27+10:30
+date-modified: 2024-12-03T10:57:18+10:30
 categories:
-  - Government Submission
-  - Cyber Security Legislative Package
   - Cyber Security
+  - Cyber Security Legislative Package
+  - Government Submission
 ---
 
 <center><strong>Submission in Response to the Parliamentary Joint Committee on Intelligence and Security regarding the inquiry into the Cyber Security Legislative Package 2024, October 2024</strong></center>

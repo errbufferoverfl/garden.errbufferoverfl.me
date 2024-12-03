@@ -4,10 +4,10 @@ subtitle: "Session 1, Part 1"
 author:
   - errbufferoverfl
 date: 2023-10-18T12:58:20+10:30
-date-modified: 2024-09-15T12:25:13+09:30
+date-modified: 2024-12-03T10:57:18+10:30
 categories:
-  - Pragmatic Web Security
   - Notes
+  - Pragmatic Web Security
 ---
 
 ## Security Model of the Web

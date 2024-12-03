@@ -3,7 +3,7 @@ title: "Consensus and Humming in the IETF"
 author:
   - errbufferoverfl
 date: 2023-06-20T18:07:06+09:30
-date-modified: 2024-09-15T12:25:13+09:30
+date-modified: 2024-12-03T10:57:18+10:30
 categories:
   - Consensus Building
   - IETF

@@ -4,13 +4,13 @@ subtitle: Submission to the Department of Infrastructure, Transport, Regional De
 author:
   - errbufferoverfl
 date: 2021-11-01T22:23:29+10:30
-date-modified: 2024-10-12T09:15:16+10:30
+date-modified: 2024-12-03T10:57:12+10:30
 categories:
-  - Encryption and Privacy Advocacy
-  - Surveillance and Government Policy
   - Child Safety and Digital Ethics
+  - Encryption and Privacy Advocacy
   - Government Submission
   - Online Safety Bill
+  - Surveillance and Government Policy
 ---
 
 **RE: Consultation on the draft Online Safety (Basic Online Safety Expectations) Determination**

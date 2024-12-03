@@ -4,11 +4,11 @@ subtitle: "Tools and Frameworks Powering Decentralized Communication and Web Dev
 author:
   - errbufferoverfl
 date: 2023-06-10T23:30:00+09:30
-date-modified: 2024-09-15T12:24:34+09:30
+date-modified: 2024-12-03T10:57:18+10:30
 categories:
   - Distributed Web
-  - Web3
   - Hypercore
+  - Web3
 ---
 
 [Holepunch](https://github.com/holepunchto) is a company and suite of tools that "equips developers with a powerful suite of independent components to effortlessly construct peer-to-peer applications."

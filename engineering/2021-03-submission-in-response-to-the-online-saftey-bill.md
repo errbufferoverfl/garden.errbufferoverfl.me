@@ -4,13 +4,13 @@ subtitle: Submission to the Senate Environment and Communications Legislation Co
 author:
   - errbufferoverfl
 date: 2021-03-01T22:20:25+10:30
-date-modified: 2024-10-12T09:21:49+10:30
+date-modified: 2024-12-03T10:57:18+10:30
 categories:
-  - Encryption and Privacy Advocacy
-  - Surveillance and Government Policy
   - Child Safety and Digital Ethics
+  - Encryption and Privacy Advocacy
   - Government Submission
   - Online Safety Bill
+  - Surveillance and Government Policy
 ---
 
 **Online Safety Bill – Submission to the Senate Environment and Communications Legislation Committee**

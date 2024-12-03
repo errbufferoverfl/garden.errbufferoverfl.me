@@ -4,7 +4,7 @@ subtitle: "The Rule of the 'Expert' Elite?"
 author:
   - errbufferoverfl
 date: 2023-10-15T17:19:49+10:30
-date-modified: 2024-09-15T12:25:54+09:30
+date-modified: 2024-12-03T10:57:18+10:30
 categories:
   - Critiques of Governance
   - Democracy and Power

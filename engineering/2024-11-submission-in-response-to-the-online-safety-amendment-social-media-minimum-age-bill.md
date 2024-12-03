@@ -4,13 +4,13 @@ subtitle: Submission to the Senate
 author:
   - errbufferoverfl
 date: 2024-11-22T09:16:17+11:00
-date-modified: 2024-11-22T10:11:17+11:00
+date-modified: 2024-12-03T10:57:18+10:30
 categories:
-  - Encryption and Privacy Advocacy
-  - Surveillance and Government Policy
   - Child Safety and Digital Ethics
+  - Encryption and Privacy Advocacy
   - Government Submission
   - Online Safety Bill
+  - Surveillance and Government Policy
 ---
 
 <center><strong>Submission in Response to the Senate regarding the inquiry into the Online Safety Amendment (Social Media Minimum Age) Bill 2024, November 2024</strong></center>

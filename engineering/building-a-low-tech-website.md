@@ -3,7 +3,7 @@ title: "Building a Low Tech Website"
 author:
   - errbufferoverfl
 date: 2023-10-15T16:42:27+10:30
-date-modified: 2024-09-15T12:25:13+09:30
+date-modified: 2024-12-03T10:57:18+10:30
 categories:
   - Low Tech
   - Project

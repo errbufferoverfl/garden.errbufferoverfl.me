@@ -4,11 +4,11 @@ subtitle: "Exploring the security rationale behind RFC 6749's prohibition of fra
 author:
   - errbufferoverfl
 date: 2024-10-13T10:56:50+10:30
-date-modified: 2024-10-14T12:12:35+10:30
+date-modified: 2024-12-03T10:57:18+10:30
 categories:
   - OAuth Security
-  - Web Standards and Protocols
   - Vulnerabilities and Mitigations
+  - Web Standards and Protocols
 ---
 
 ## Why Are Fragment Components Forbidden in the `redirect_uri`?

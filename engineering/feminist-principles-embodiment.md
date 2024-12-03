@@ -4,12 +4,12 @@ subtitle: "Empowering Agency and Defending Rights in Digital Spaces"
 author:
   - errbufferoverfl
 date: 2023-06-11T23:30:00+09:30
-date-modified: 2024-10-16T10:44:37+10:30
+date-modified: 2024-12-03T10:57:18+10:30
 categories:
-  - Feminist Theory
   - Digital Rights and Feminism
-  - Surveillance and Privacy Advocacy
   - Empowering Marginalized Voices Online
+  - Feminist Theory
+  - Surveillance and Privacy Advocacy
 ---
 
 The principles of **embodiment** look at diverse experiences and relationships as human beings embodying multiple identities and realities in “disembodied” online spaces.
@@ -22,7 +22,7 @@ If social media wanted to they could embed consent into their product, but they 
 
 In the *general* (read: Newscorp & Murdoch) media, we see a lack of outrage about a lack of transparency in privacy breaches.
 
-This is also a core theme of _The Age of Surveillance Capitalism_ and is core to maintaining [surveillance capitalism](surveillance-capitalism.md).
+This is also a core theme of *The Age of Surveillance Capitalism* and is core to maintaining [surveillance capitalism](surveillance-capitalism.md).
 
 ### Principle in Action
 

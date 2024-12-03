@@ -4,7 +4,7 @@ subtitle: "And why should I care?"
 author:
   - errbufferoverfl
 date: 2023-06-11T23:30:00+09:30
-date-modified: 2024-09-15T12:25:54+09:30
+date-modified: 2024-12-03T10:57:18+10:30
 categories:
   - Definition
   - Political Science
@@ -16,7 +16,7 @@ It is distinct from government-surveillance, though they can, and often do reinf
 
 Surveillance capitalism's modern day roots can be traced back to Google's AdWords, which really cemented what was possible when personal data was aggregated and mined to target consumers more precisely.
 
-In Shoshana Zuboff's book _The Age of Surveillance Capitalism_ there are four key features in the logic of surveillance capitalism and explicitly follows the four key features identified by Google's chief economist:
+In Shoshana Zuboff's book *The Age of Surveillance Capitalism* there are four key features in the logic of surveillance capitalism and explicitly follows the four key features identified by Google's chief economist:
 
 1. The drive toward more and more data extraction and analysis.
 2. The development of new contractual forms using computer-monitoring and automation.

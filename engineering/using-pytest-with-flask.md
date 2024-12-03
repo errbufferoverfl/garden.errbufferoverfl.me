@@ -4,10 +4,10 @@ subtitle: "Some Notes on Writing Reliable Tests for Flask Applications with Pyte
 author:
   - errbufferoverfl
 date: 2023-07-14T11:14:22+09:30
-date-modified: 2024-09-15T12:25:14+09:30
+date-modified: 2024-12-03T10:57:18+10:30
 categories:
-  - Python Testing Frameworks
   - Flask Application Development
+  - Python Testing Frameworks
   - Unit and Functional Testing
 ---
 

@@ -4,11 +4,11 @@ subtitle: "A Deprecated Framework for Building Security into Software Developmen
 author:
   - errbufferoverfl
 date: 2023-10-11T08:36:28+10:30
-date-modified: 2024-09-15T12:25:14+09:30
+date-modified: 2024-12-03T10:57:18+10:30
 categories:
   - Application Security Frameworks
-  - Software Development Life Cycle Security
   - OWASP Tools and Practices
+  - Software Development Life Cycle Security
 ---
 
 ## Introduction to OWASP CLASP

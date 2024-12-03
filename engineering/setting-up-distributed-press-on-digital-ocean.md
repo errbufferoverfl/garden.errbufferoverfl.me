@@ -4,11 +4,11 @@ subtitle: "A Step-by-Step Guide to Deploying Distributed Press on Digital Ocean 
 author:
   - errbufferoverfl
 date: 2023-10-15T16:32:39+10:30
-date-modified: 2024-09-15T12:25:14+09:30
+date-modified: 2024-12-03T10:57:18+10:30
 categories:
+  - Decentralized Publishing
   - Distributed Web Deployment
   - Server Administration
-  - Decentralized Publishing
 ---
 
 ::: {.callout-note}

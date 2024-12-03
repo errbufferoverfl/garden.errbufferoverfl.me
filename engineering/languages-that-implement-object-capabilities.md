@@ -3,7 +3,7 @@ title: "Languages that implement object capabilities"
 author:
   - errbufferoverfl
 date: 2023-08-09T11:52:00+09:30
-date-modified: 2024-09-15T12:25:13+09:30
+date-modified: 2024-12-03T10:57:18+10:30
 categories:
   - Programming Languages
   - Security
