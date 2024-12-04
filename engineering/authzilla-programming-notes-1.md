@@ -1,5 +1,5 @@
 ---
-title: "AuthZilla Programming Notes #1"
+title: "AuthZilla Programming Notes I"
 subtitle: "In which a Yak was shaved."
 author:
   - errbufferoverfl

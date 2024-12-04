@@ -15,7 +15,7 @@ source: https://feministinternet.org/en/page/about
 
 The Feminist Principles of the Internet are a series of statements that offer a gender and sexual rights lens on critical Internet-related rights.
 
-There are 17 principles in total, organized into 5 clusters:
+There are 17 principles in total, organised into 5 clusters:
 
 - Access
 - Movements

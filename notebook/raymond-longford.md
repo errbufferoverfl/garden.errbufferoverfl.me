@@ -4,15 +4,15 @@ subtitle: Australian Film Director
 author:
   - errbufferoverfl
 date: 2024-07-13T20:40:24+09:30
-date-modified: 2024-09-15T12:25:54+09:30
+date-modified: 2024-12-04T10:26:07+10:30
 categories:
-  - Pioneers of Australian Cinema
   - Australian Cultural History
+  - Pioneers of Australian Cinema
 ---
 
-Raymond Longford was a key contributor in early Australian cinema, known for his work as a director, writer, and actor. His contributions laid the foundation for the Australian film industry, and he is best remembered for his collaborations with [Lottie Lyell](lottie-lyell.md).
+Raymond Longford was a key contributor in early Australian cinema, known for his work as a director, writer, and actor. His contributions laid the foundation for the Australian film industry, and he is best remembered for his collaborations with [Lottie Lyell](/notebook/lottie-lyell.md).
 
-While not counted as one of his most notable film, Longford wrote and directed what is often considered the first Australian horror movie [The Tide of Death](the-tide-of-death.md).
+While not counted as one of his most notable film, Longford wrote and directed what is often considered the first Australian horror movie [The Tide of Death](/notebook/the-tide-of-death.md).
 
 He was an early member of the Australian actors union, a forerunner to Actors Equity.
 

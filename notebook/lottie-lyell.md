@@ -4,14 +4,14 @@ subtitle: "Actress, screenwriter, editor, and director"
 author:
   - errbufferoverfl
 date: 2024-07-13T20:46:27+09:30
-date-modified: 2024-09-15T12:25:54+09:30
+date-modified: 2024-12-04T10:26:19+10:30
 categories:
+  - Australian Cultural History
   - Pioneers of Australian Cinema
   - Women in Film
-  - Australian Cultural History
 ---
 
-Lottie Lyell, born Charlotte Edith Cox, was an important figure in early Australian cinema. She was an actress, screenwriter, editor, and director, known for her extensive collaboration with [Raymond Longford](raymond-longford.md). Lyell’s contributions to the film industry were groundbreaking, particularly at a time when women's roles in filmmaking were limited.
+Lottie Lyell, born Charlotte Edith Cox, was an important figure in early Australian cinema. She was an actress, screenwriter, editor, and director, known for her extensive collaboration with [Raymond Longford](/notebook/raymond-longford.md). Lyell’s contributions to the film industry were groundbreaking, particularly at a time when women's roles in filmmaking were limited.
 
 ## Contributions
 
