@@ -10,10 +10,14 @@ fileTitle = fileTitle.replace(/ /g, "-").toLowerCase();
 fileTitle = fileTitle.replace(/[&'’‘’:,–.;?()“”$]/g, "").toLowerCase();
 fileTitle = fileTitle.replace(/--/g, "-").toLowerCase();
 fileTitle = fileTitle.replace(/-—-/g, "-").toLowerCase();
+
+let newTitle = title;
+newTitle = newTitle.replace(/[:]/g, "");
+
 await tp.file.rename(`${fileTitle}`);
 -%>
 ---
-title: <% title %>
+title: <% newTitle %>
 subtitle: ""
 author: 
   - errbufferoverfl
