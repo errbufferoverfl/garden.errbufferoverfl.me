@@ -2,7 +2,7 @@
 image: python:3.12-slim
 
 variables:
-  QUARTO_VERSION: "1.6.39"
+  QUARTO_VERSION: "1.7.32"
   PROD_DEPLOY_URL: "https://garden.errbufferoverfl.me"
 
 cache:

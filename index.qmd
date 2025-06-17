@@ -4,7 +4,7 @@ listing:
   contents:
     - notebook
     - engineering
-  fields: [date, title]
+  fields: [date, title, subtitle]
   sort: "date desc"
   type: default
   sort-ui: false

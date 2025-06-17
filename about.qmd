@@ -47,10 +47,9 @@ I’m [errbufferoverfl](notebook/errbufferoverfl.md), also known as Bec (they/th
 for exploring the intersection of culture, politics, and InfoSec, and I’ve become increasingly involved in critiquing
 digital policy in Australia.
 
-I currently call Berrin home and dream of transitioning to life as a subsistence farmer on a microfarm—a humble
-residential plot where I can cultivate food and live more sustainably. When I’m not daydreaming about farming, I’m an
-enthusiastic zinester and artist, spending my time painting or creating zines that explore topics like tech policy,
-queer identity, and the beauty and complexity of everyday life.
+I currently call Berrin home and dream of transitioning to life as a subsistence farmer on a microfarm.
+When I’m not daydreaming about farming, I’m an enthusiastic zinester and artist, spending my time painting or creating
+zines that explore topics like tech policy, queer identity, and the beauty and complexity of everyday life.
 
 By day, I’m a security engineer focused on security partnerships, working within an app-based browser ecosystem to
 enhance collaboration between engineering and security teams. My goal is to build long-term partnerships that foster
