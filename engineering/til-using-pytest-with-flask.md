@@ -1,6 +1,6 @@
 ---
-title: "Using Pytest with Flask"
-subtitle: "Some Notes on Writing Reliable Tests for Flask Applications with Pytest"
+title: Some Notes on Writing Reliable Tests for Flask Applications with Pytest
+subtitle: Today I Learned
 author:
   - errbufferoverfl
 date: 2023-07-14T11:14:22+09:30
@@ -9,6 +9,8 @@ categories:
   - Flask Application Development
   - Python Testing Frameworks
   - Unit and Functional Testing
+  - Today I Learned
+series: Today I Learned
 ---
 
 ## What to Test?

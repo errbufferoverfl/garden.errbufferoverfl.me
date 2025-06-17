@@ -6,7 +6,7 @@ author:
 date: 2018-11-22T12:02:29+10:30
 date-modified: 2024-12-03T12:05:51+10:30
 categories:
-  - Tech Workflow Optimization
+  - RICEing
   - Today I Learned
 ---
 

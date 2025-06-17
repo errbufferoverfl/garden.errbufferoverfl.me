@@ -1,13 +1,14 @@
 ---
 title: Adding XSLT Stylesheets to Quarto
-subtitle: Improving the Readability of RSS Feeds and Sitemaps
+subtitle: Today I Learned
 author:
   - errbufferoverfl
 date: 2024-12-03T11:21:57+10:30
 date-modified: 2024-12-03T11:44:59+10:30
 categories:
-  - Quarto Development Tips
+  - Quarto
   - Today I Learned
+series: Today I Learned
 ---
 
 For the past year I've been using Quarto as my static website generator, it has great support for Jupyter notebooks and rendering dynamic content in blog posts.

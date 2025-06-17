@@ -1,6 +1,6 @@
 ---
-title: "Why are Fragments not Allowed in RFC 6749?"
-subtitle: "Exploring the security rationale behind RFC 6749's prohibition of fragment components in OAuth 2 redirects."
+title: Why are Fragments not Allowed in OAuth?
+subtitle: Today I Learned
 author:
   - errbufferoverfl
 date: 2024-10-13T10:56:50+10:30
@@ -9,18 +9,19 @@ categories:
   - OAuth Security
   - Vulnerabilities and Mitigations
   - Web Standards and Protocols
+  - Today I Learned
+series: Today I Learned
 ---
 
 ## Why Are Fragment Components Forbidden in the `redirect_uri`?
 
 ::: {.callout-note}
 
-This post delves into technology archeology, exploring discussions and decisions that date back nearly a decade. The information presented is based on historical documentation and relies on the original authors' insights and justifications at the time.
+This post is about tech archeology and tries to find answers by looking at discussions and decisions that date back nearly a decade — the information is based on historical documentation and relies on the original authors' insights and justifications at the time.
 
 :::
 
-I recently found myself pondering this question. After being failed by Google search results, which seemed to fall somewhere between half-hearted answers like "because the spec says so" and "because fragments are passed in 3xx redirects," I decided to find the answer myself.
-
+I've been building an authorization platform for some time now, and I've always wondered what the deal is with the OAuth spec being so particular about disallowing fragments in redirect URIs — given that at least in my lifetime fragments are primarily used to send you directly to a subheading it seemed pretty non-consequential to the underlying security of the flow. After being failed by Google search results, which seemed to fall somewhere between half-hearted answers like "because the spec says so" and "because fragments are passed in 3xx redirects," I decided to find the answer myself.
 
 ### The History of Fragments in OAuth
 

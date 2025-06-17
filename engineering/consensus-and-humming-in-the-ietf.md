@@ -1,5 +1,6 @@
 ---
-title: "Consensus and Humming in the IETF"
+title: Consensus and Humming in the IETF
+subtitle: Like flight of the bumblebee but for computer people
 author:
   - errbufferoverfl
 date: 2023-06-20T18:07:06+09:30

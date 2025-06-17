@@ -1,15 +1,14 @@
 ---
-title: "Quarto Supports `rel=me` Out of the Box"
-subtitle: "Today I Learned"
+title: Quarto Supports `rel=me` Out of the Box
+subtitle: Today I Learned
 author:
   - errbufferoverfl
 date: 2024-12-03T10:57:32+10:30
 date-modified: 2024-12-03T11:17:44+10:30
 categories:
-  - Quarto Development Tips
-  - Tech Workflow Optimization
+  - Quarto
   - Today I Learned
-series: "Today I Learned"
+series: Today I Learned
 ---
 
 For a while now, I’ve been wrestling with how to make my social links more functional, specifically for platforms like Mastodon and Bluesky that use `rel=me` for identity verification. Adding `rel=me` to links isn't hard per se, but automating it in a way that fits seamlessly into my site’s build process has been surprisingly tedious.
