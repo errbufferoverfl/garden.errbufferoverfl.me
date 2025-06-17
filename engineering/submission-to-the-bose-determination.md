@@ -1,13 +1,13 @@
 ---
 title: November 2021 Submission in Response to the Online Safety (Basic Online Safety Expectations) Determination
+aliases:
+  - /archive/2021-11-01-submission-in-response-to-the-bose-determination
 subtitle: Submission to the Department of Infrastructure, Transport, Regional Development and Communications Committee
 author:
   - errbufferoverfl
 date: 2021-11-01T22:23:29+10:30
 date-modified: 2024-12-03T10:57:12+10:30
 categories:
-  - Child Safety and Digital Ethics
-  - Encryption and Privacy Advocacy
   - Government Submission
   - Online Safety Bill
   - Surveillance and Government Policy

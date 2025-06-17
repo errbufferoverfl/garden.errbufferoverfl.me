@@ -7,7 +7,6 @@ date: 2018-11-14T12:09:33+10:30
 date-modified: 2024-12-04T10:02:09+10:30
 categories:
   - Data Security
-  - Historical Lessons in Technology
   - Threat Detection
 ---
 

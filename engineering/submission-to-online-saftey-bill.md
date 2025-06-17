@@ -1,13 +1,13 @@
 ---
 title: March 2021 Submission in Response to the Online Safety Bill
+aliases:
+  - /archive/2021-03-01-submission-in-response-to-the-online-saftey-bill
 subtitle: Submission to the Senate Environment and Communications Legislation Committee
 author:
   - errbufferoverfl
 date: 2021-03-01T22:20:25+10:30
 date-modified: 2024-12-03T10:57:18+10:30
 categories:
-  - Child Safety and Digital Ethics
-  - Encryption and Privacy Advocacy
   - Government Submission
   - Online Safety Bill
   - Surveillance and Government Policy

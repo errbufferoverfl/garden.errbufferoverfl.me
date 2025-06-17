@@ -1,5 +1,7 @@
 ---
 title: "October 2024 Submission in Response to the Cyber Security Legislative Package 2024"
+aliases:
+  - /archive/2024-10-26-submission-to-the-cyber-security-legislative-package-2024
 subtitle: "Submission to the Parliamentary Joint Committee on Intelligence and Security"
 author:
   - errbufferoverfl

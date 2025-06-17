@@ -1,5 +1,7 @@
 ---
 title: "April 2023 Submission in Response to the Attorney-General’s Department Privacy Act Review Report"
+aliases:
+  - /archive/2023-03-31-submission-in-response-to-the-privacy-act-review-report
 subtitle: "Submission to the Attorney-General’s Department"
 author:
   - errbufferoverfl
@@ -8,6 +10,7 @@ date-modified: 2024-12-03T10:57:18+10:30
 categories:
   - Government Submission
   - Privacy Act
+  - Surveillance and Government Policy
 ---
 
 <center><strong>Submission in Response to the Attorney-General’s Department Privacy Act Review Report, March 2023</strong></center>
