@@ -1,13 +1,12 @@
 ---
-title: Why are Fragments not Allowed in OAuth?
+title: "Why are Fragments not Allowed in OAuth?"
 subtitle: Today I Learned
 author:
   - errbufferoverfl
 date: 2024-10-13T10:56:50+10:30
 date-modified: 2024-12-03T10:57:18+10:30
 categories:
-  - OAuth Security
-  - Vulnerabilities and Mitigations
+  - OAuth
   - Web Standards and Protocols
   - Today I Learned
 series: Today I Learned

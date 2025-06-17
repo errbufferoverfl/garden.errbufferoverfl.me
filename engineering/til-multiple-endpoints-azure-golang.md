@@ -9,6 +9,7 @@ categories:
   - Cloud Development
   - Golang Programming
   - Today I Learned
+series: Today I Learned
 draft: true
 ---
 

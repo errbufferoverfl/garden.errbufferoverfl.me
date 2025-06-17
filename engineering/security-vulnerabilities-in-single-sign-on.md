@@ -7,9 +7,6 @@ date: 2023-10-28T21:12:30+10:30
 date-modified: 2024-12-03T10:57:18+10:30
 categories:
   - OAuth
-  - OAuth Vulnerabilities
-  - Seed
-  - SSO
   - Vulnerabilities
 ---
 

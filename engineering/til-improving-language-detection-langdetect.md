@@ -8,6 +8,7 @@ date-modified: 2024-12-04T10:30:22+10:30
 categories:
   - Python Programming
   - Today I Learned
+series: Today I Learned
 draft: true
 ---
 

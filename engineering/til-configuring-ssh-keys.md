@@ -8,6 +8,7 @@ date-modified: 2024-12-03T12:05:51+10:30
 categories:
   - RICEing
   - Today I Learned
+series: Today I Learned
 ---
 
 What up! ☝🏻
