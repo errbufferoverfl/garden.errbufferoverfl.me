@@ -1,5 +1,7 @@
 ---
 title: "Agloe I"
+aliases:
+  - /archive/2018-11-14-map-making-and-data-security
 subtitle: "What the Map Makers of the 1930s Can Teach Us About Protecting Data in 2018"
 author:
   - errbufferoverfl

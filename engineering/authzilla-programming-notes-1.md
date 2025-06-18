@@ -9,6 +9,8 @@ date: 2024-11-05T15:27:36+10:30
 date-modified: 2024-12-03T10:57:18+10:30
 categories:
   - Python
+  - OAuth
+  - Project
 ---
 
 I don't normally write too much about my development efforts, 1. because I don't build things outside of work very often and 2. it constantly feels like I have nothing meaningful to contribute. But after reading a Mastodon post that I can't seem to find anymore I'm starting to reconsider. That post made me realise that sharing my work—even the messy, unfinished parts—might resonate with others who are also grappling with similar issues or ideas.

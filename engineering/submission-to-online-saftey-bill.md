@@ -11,6 +11,7 @@ categories:
   - Government Submission
   - Online Safety Bill
   - Surveillance and Government Policy
+series: Government Submission
 ---
 
 **Online Safety Bill – Submission to the Senate Environment and Communications Legislation Committee**

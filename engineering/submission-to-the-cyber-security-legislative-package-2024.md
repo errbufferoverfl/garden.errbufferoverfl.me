@@ -11,6 +11,7 @@ categories:
   - Cyber Security
   - Cyber Security Legislative Package
   - Government Submission
+series: Government Submission
 ---
 
 <center><strong>Submission in Response to the Parliamentary Joint Committee on Intelligence and Security regarding the inquiry into the Cyber Security Legislative Package 2024, October 2024</strong></center>

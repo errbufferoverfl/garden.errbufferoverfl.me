@@ -1,5 +1,7 @@
 ---
 title: Quarto Supports `rel=me` Out of the Box
+aliases:
+  - /archive/2024-12-03-til-about-quartos-rel-me-support
 subtitle: Today I Learned
 author:
   - errbufferoverfl

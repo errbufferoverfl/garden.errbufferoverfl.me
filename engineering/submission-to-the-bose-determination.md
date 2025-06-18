@@ -11,6 +11,7 @@ categories:
   - Government Submission
   - Online Safety Bill
   - Surveillance and Government Policy
+series: Government Submission
 ---
 
 **RE: Consultation on the draft Online Safety (Basic Online Safety Expectations) Determination**
