@@ -2,7 +2,7 @@
 title: digital pottering activities
 author: 
   - errbufferoverfl
-date: 2025-06-18T20:18:44+09:30
+date: 2025-02-13T20:18:44+09:30
 ---
 
 - redoing your email filters

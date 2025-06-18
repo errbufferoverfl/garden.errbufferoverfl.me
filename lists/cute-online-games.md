@@ -2,7 +2,7 @@
 title: cute online games
 author: 
   - errbufferoverfl
-date: 2025-06-18T20:18:44+09:30
+date: 2025-06-01T20:18:44+09:30
 ---
 
 - [FoodGuessr](https://www.foodguessr.com/)
@@ -11,3 +11,4 @@ date: 2025-06-18T20:18:44+09:30
 - [Sandboxels](https://sandboxels.r74n.com/)
 - [Infinite Chef](https://r74n.com/cook/)
 - [Guess the Pixel Flag](https://r74n.com/pixelflags/guess)
+- [OrbFarm](https://orb.farm/)
