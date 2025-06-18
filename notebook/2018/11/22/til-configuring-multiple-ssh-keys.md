@@ -1,14 +1,10 @@
 ---
 title: Contacting the Spirits in Multiple Dimensions with SSH Keys
-aliases:
-  - /archive/2018/11/22/til-configuring-multiple-ssh-keys
-  - /archive/2018/11/22/til-configuring-ssh-keys
-  - til-configuring-ssh-keys
 subtitle: Today I Learnt
 author:
   - errbufferoverfl
 date: 2018-11-22T12:02:29+10:30
-date-modified: 2024-12-03T12:05:51+10:30
+date-modified: 2025-06-18T15:00:18+09:30
 categories:
   - RICEing
   - Today I Learnt

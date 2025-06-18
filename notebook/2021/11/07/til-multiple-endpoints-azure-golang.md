@@ -1,17 +1,15 @@
 ---
 title: Creating Multiple Endpoints in Azure Functions with Go
-aliases:
-  - /archive/2021/11/07/til-multiple-endpoints-azure-golang
 subtitle: Today I Learnt
 author:
   - errbufferoverfl
 date: 2021-11-07T10:11:10+10:30
-date-modified: 2024-12-04T10:15:41+10:30
+date-modified: 2025-06-18T15:01:08+09:30
 categories:
   - Golang
   - Today I Learnt
-series: Today I Learnt
 draft: true
+series: Today I Learnt
 ---
 
 ::: {.callout-note}

@@ -8,7 +8,7 @@ categories:
   - History
   - Lock Picking
   - Locksport
-abstract: A talk that discussed common “canary locks” or locks with tamper evident mechanisms through the ages, Buffy trawled through 11,335,427 patents to identify several high and low profile locks and their known, or speculated bypass techniques.
+desciption: A talk that discussed common “canary locks” or locks with tamper evident mechanisms through the ages, Buffy trawled through 11,335,427 patents to identify several high and low profile locks and their known, or speculated bypass techniques.
 ---
 
 A talk that discussed common “canary locks” or locks with tamper evident mechanisms through the ages, Buffy trawled through 11,335,427 patents to identify several high and low profile locks and their known, or speculated bypass techniques.

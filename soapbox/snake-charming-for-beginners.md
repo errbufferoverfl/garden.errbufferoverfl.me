@@ -8,7 +8,8 @@ categories:
   - Exploit Development
   - Programming
   - Security
-abstract: Snake-charming is an age-old practice of hypnotizing snakes by playing and waving a murli - in the modern day this practice looks much different, equipped with an Integrated Development Environment (IDE), a clackity keyboard and a trusty guide we’ll be taking you through how you can effectively charm Python 3.6. On the first day of our trek through the dense jungles of Pythonia we will be looking at how to build a simple sub-domain enumeration tool and how to get started building simple exploits - for those who have trekked these paths before - extra challenges will await you.
+description: Snake-charming is an age-old practice of hypnotizing snakes by playing and waving a murli - in the modern day this practice looks much different, equipped with an Integrated Development Environment (IDE), a clackity keyboard and a trusty guide we’ll be taking you through how you can 
+  effectively charm Python 3.6. On the first day of our trek through the dense jungles of Pythonia we will be looking at how to build a simple sub-domain enumeration tool and how to get started building simple exploits - for those who have trekked these paths before - extra challenges will await you.
 ---
 
 Snake-charming is an age-old practice of hypnotizing snakes by playing and waving a murli - in the modern day this practice looks much different, equipped with an Integrated Development Environment (IDE), a clackity keyboard and a trusty guide we’ll be taking you through how you can effectively charm Python 3.6.

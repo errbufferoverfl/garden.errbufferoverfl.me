@@ -8,7 +8,8 @@ categories:
   - Culture
   - PyCon
   - Security
-abstract: For decades, anthropologists, quantitative historians, and sociologists have discussed and proposed various explanations for the collapse of civilizations, from unsustainable complexity, decay of social cohesion, rising inequality and general misfortune. Using our time-travelling phone booth, we’ll investigate historical collapses and conduct a root cause analysis to investigate why these collapses happened, and how we can observe similar issues in modern business environments.
+description: For decades, anthropologists, quantitative historians, and sociologists have discussed and proposed various explanations for the collapse of civilizations, from unsustainable complexity, decay of social cohesion, rising inequality and general misfortune. Using our time-travelling phone 
+  booth, we’ll investigate historical collapses and conduct a root cause analysis to investigate why these collapses happened, and how we can observe similar issues in modern business environments.
 ---
 
 For decades, anthropologists, quantitative historians, and sociologists have discussed and proposed various explanations for the collapse of civilizations, from unsustainable complexity, decay of social cohesion, rising inequality and general misfortune.

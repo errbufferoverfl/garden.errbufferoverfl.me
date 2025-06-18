@@ -1,12 +1,10 @@
 ---
 title: Rethinking Lazy
-aliases:
-  - /archive/2021/06/04/rethinking-lazy
 subtitle: Understanding the Barriers Behind Inaction
 author:
   - errbufferoverfl
 date: 2021-06-04T10:04:13+10:30
-date-modified: 2025-01-20T09:14:32+10:30
+date-modified: 2025-06-18T15:01:08+09:30
 categories:
   - Security Culture
 draft: true

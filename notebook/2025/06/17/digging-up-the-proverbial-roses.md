@@ -1,16 +1,15 @@
 ---
 title: Digging up the Proverbial Roses
-aliases:
-  - /archive/2025/06/17/digging-up-the-proverbial-roses
-author: 
+author:
   - errbufferoverfl
 date: 2025-06-17T20:18:44+09:30
-draft: true
+date-modified: 2025-06-18T15:01:08+09:30
 categories:
   - draft
+draft: true
 ---
 
-I started this site in May 27, 2023 which was probably around the time I got myself out of a deep obsession with Obsidian, and decided to make it a functional-obsession by publishing it on the web. This is also probably around the time I though to myself traditional blogging "wasn't for me" and I became enamoured with the concept of digital gardening and wanted to develop an online commonplace book or some shit[^1].
+I started this site in May 27, 2023 which was probably around the time I got myself out of a deep obsession with Obsidian, and decided to make it a functional-obsession by publishing it on the web. This is also probably around the time I though to myself traditional blogging "wasn't for me" and I became enamoured with the concept of digital gardening and wanted to develop an online commonplace book or some shit.[^1]
 
 It was around this time I migrated from my original site which was using Sphinx and ablog — one of my first (and favourite) esoteric blog configurations where I spent more time learning how to repackage furo so it was compatible with ablog — to something less esoteric like Obsidian and Hugo (see footnote[^1]). At this point it's gone through a few different frameworks and looks — hugo maybe with quartz when it was still a hugo theme, then maybe quartz when it was its own static site, then back to hugo, then onto quarto… since then I seem to have settled nicely into quarto.
 

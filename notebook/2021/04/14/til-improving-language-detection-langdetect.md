@@ -1,17 +1,15 @@
 ---
 title: "TIL: How to Improve Language Detection Using `langdetect`"
-aliases:
-  - /archive/2021/04/14/til-improving-language-detection-langdetect
 subtitle: Today I Learnt
 author:
   - errbufferoverfl
 date: 2021-04-14T10:15:45+10:30
-date-modified: 2024-12-04T10:30:22+10:30
+date-modified: 2025-06-18T15:01:08+09:30
 categories:
   - Python Programming
   - Today I Learnt
-series: Today I Learnt
 draft: true
+series: Today I Learnt
 ---
 
 ::: {.callout-note}

@@ -8,7 +8,7 @@ categories:
   - Cloud Security
   - Debate
   - Security
-abstract: A debate organised by ANZ, Contino and Meetup Madness where 4 hackers vs 4 security experts engaging in a fiery debate to determine all the ways they can hack and defend cloud environments. errbufferoverfl participated as part of the “hackers”/”red team”.
+description: A debate organised by ANZ, Contino and Meetup Madness where 4 hackers vs 4 security experts engaging in a fiery debate to determine all the ways they can hack and defend cloud environments. errbufferoverfl participated as part of the “hackers”/”red team”.
 ---
 
 A debate organised by ANZ, Contino and Meetup Madness where 4 hackers vs 4 security experts engaging in a fiery debate to determine all the ways they can hack and defend cloud environments. errbufferoverfl participated as part of the “hackers”/”red team”.

@@ -1,17 +1,15 @@
 ---
 title: How to Include Media in Anki Cards Using Genanki
-aliases:
-  - /archive/2021/04/14/til-include-media-in-anki-cards-genanki
 subtitle: Today I Learnt
 author:
   - errbufferoverfl
 date: 2021-04-14T10:20:54+10:30
-date-modified: 2024-12-04T10:30:21+10:30
+date-modified: 2025-06-18T15:01:08+09:30
 categories:
   - Python Programming
   - Today I Learnt
-series: Today I Learnt
 draft: true
+series: Today I Learnt
 ---
 
 ::: {.callout-note}

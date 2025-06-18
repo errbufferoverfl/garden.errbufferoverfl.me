@@ -1,12 +1,10 @@
 ---
 title: October 2024 Submission to the Privacy Act Review
-aliases:
-  - /archive/2024/10/09/submission-to-the-privacy-amendment-bill
 subtitle: Submission to the Senate Standing Committees on Legal and Constitutional Affairs
 author:
   - errbufferoverfl
 date: 2024-10-09T20:54:04+10:30
-date-modified: 2024-12-03T10:57:18+10:30
+date-modified: 2025-06-18T15:01:08+09:30
 categories:
   - Government Submission
   - Privacy Act

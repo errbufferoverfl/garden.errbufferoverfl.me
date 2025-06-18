@@ -1,12 +1,10 @@
 ---
 title: Why are Fragments not Allowed in OAuth?
-aliases:
-  - /archive/2024/10/13/til-why-are-fragments-not-allowed-in-rfc-6749
 subtitle: Today I Learnt
 author:
   - errbufferoverfl
 date: 2024-10-13T10:56:50+10:30
-date-modified: 2024-12-03T10:57:18+10:30
+date-modified: 2025-06-18T15:01:08+09:30
 categories:
   - OAuth
   - Today I Learnt

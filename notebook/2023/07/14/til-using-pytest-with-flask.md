@@ -1,12 +1,10 @@
 ---
 title: Some Notes on Writing Reliable Tests for Flask Applications with Pytest
-aliases:
-  - /archive/2023/07/14/til-using-pytest-with-flask
 subtitle: Today I Learnt
 author:
   - errbufferoverfl
 date: 2023-07-14T11:14:22+09:30
-date-modified: 2024-12-03T10:57:18+10:30
+date-modified: 2025-06-18T15:01:08+09:30
 categories:
   - Python
   - Today I Learnt

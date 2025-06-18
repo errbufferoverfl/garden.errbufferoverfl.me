@@ -1,12 +1,10 @@
 ---
 title: Setting Up Distributed Press on Digital Ocean
-aliases:
-  - /archive/2023/10/15/setting-up-distributed-press-on-digital-ocean
 subtitle: A Step-by-Step Guide to Deploying Distributed Press on Digital Ocean with Tips and Troubleshooting
 author:
   - errbufferoverfl
 date: 2023-10-15T16:32:39+10:30
-date-modified: 2024-12-03T10:57:18+10:30
+date-modified: 2025-06-18T15:01:08+09:30
 categories:
   - Decentralized Publishing
   - Project
