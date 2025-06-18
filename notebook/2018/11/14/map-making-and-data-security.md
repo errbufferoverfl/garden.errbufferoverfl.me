@@ -57,13 +57,13 @@ In the 1950s, something strange occurred though -- a small general store was bui
   
 So for many years, this small general store persisted as a fairly nondescript building, below is an image of the former Agloe General Store, from [a video](https://www.youtube.com/watch?v=tj6T6atITWo) by YouTube user and John Green fan [ObviouslyBenHughes](https://www.youtube.com/watch?v=tj6T6atITWo), who visited Agloe in 2010.
 
-![A photo showing a large brown shack, with a missing door and overgrown scrub.](/imgs/agloe-part-one/agloe-what-map-makers-1.png)
+![A photo showing a large brown shack, with a missing door and overgrown scrub.](/imgs/agloe-what-map-makers-1.png)
   
 As the story goes, several years, after the Agloe General Store was established the town of Agloe started to appear on Rand McNally[^5] maps, who was a competing map maker at the time.  
   
 This triggered the trap, and Esso being the primary license holder tried to sue McNally for copyright infringement. But in a classic Yu-Gi-Oh move McNally activated a trap card of their own.
 
-![A photo of a man holding Yu-Gi-Oh trading cards with a sinister look on his face. Over laid is white text that reads "You have activated my trap card".](/imgs/memes/you-activated-my-trap-card.jpg)
+![A photo of a man holding Yu-Gi-Oh trading cards with a sinister look on his face. Over laid is white text that reads "You have activated my trap card".](/imgs/you-activated-my-trap-card.jpg)
   
 It turned out that because the Agloe General Store existed, and was registered with the Delaware County administration as existing in the hamlet of Agloe, it basically brought the town into existence and made the original trap set by the General Drafting Company ineffective.  
   
