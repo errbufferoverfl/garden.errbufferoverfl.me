@@ -1,6 +1,8 @@
 ---
-title: "Security Vulnerabilities in Single-Sign On"
-subtitle: "A very unscientific meta analysis"
+title: Security Vulnerabilities in Single-Sign On
+aliases:
+  - /archive/2023-10-28-security-vulnerabilities-in-single-sign-on
+subtitle: A Very Unscientific Meta Analysis
 author:
   - errbufferoverfl
 date: 2023-10-28T21:12:30+10:30

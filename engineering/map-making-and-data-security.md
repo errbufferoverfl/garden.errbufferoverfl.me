@@ -1,8 +1,8 @@
 ---
-title: "Agloe I"
+title: What the Map Makers of the 1930s Can Teach Us About Protecting Data in 2018
 aliases:
   - /archive/2018-11-14-map-making-and-data-security
-subtitle: "What the Map Makers of the 1930s Can Teach Us About Protecting Data in 2018"
+  - /agloe-part-one
 author:
   - errbufferoverfl
 date: 2018-11-14T12:09:33+10:30
@@ -10,6 +10,7 @@ date-modified: 2024-12-04T10:02:09+10:30
 categories:
   - Data Security
   - Threat Detection
+  - Conference Talk
 ---
 
 Throughout 2018, I presented a conference talk entitled "Agloe: What the map makers-of the 1930s can teach us about protecting data in 2018" where we looked back to the 1930’s to see what the General Drafting Company could teach us about securing data and breach notification in the modern day. In the talk I discussed how using free and open-source solutions, defensive thinking and a bit of creativity, we can easily identify network breaches, and catch the bad guys in the act.

@@ -1,8 +1,8 @@
 ---
-title: "AuthZilla Programming Notes I"
+title: AuthZilla Programming Notes I
 aliases:
   - /archive/2024-11-05-authzilla-programming-notes-1
-subtitle: "In which a Yak was shaved."
+subtitle: In which a Yak was shaved
 author:
   - errbufferoverfl
 date: 2024-11-05T15:27:36+10:30

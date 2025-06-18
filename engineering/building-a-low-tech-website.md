@@ -1,5 +1,7 @@
 ---
-title: "Building a Low Tech Website"
+title: Building a Low Tech Website
+aliases:
+  - /archive/2023-10-15-building-a-low-tech-website
 author:
   - errbufferoverfl
 date: 2023-10-15T16:42:27+10:30

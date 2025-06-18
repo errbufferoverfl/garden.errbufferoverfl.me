@@ -1,13 +1,13 @@
 ---
-title: Collapsology
-subtitle: "Why Exposed RDP Isn't Your Biggest Threat"
+title: Collapsology Why Exposed RDP Isn't Your Biggest Corporate Threat
+aliases:
+  - /archive/2021-09-10-collapsology-why-exposed-rdp-isnt-your-biggest-threat
 author:
   - errbufferoverfl
 date: 2021-09-10T12:41:28+10:30
 date-modified: 2024-12-03T12:43:25+10:30
 categories:
-  - Conference Talks
-  - Organizational Threats
+  - Conference Talk
   - Security Culture
 draft: true
 ---
