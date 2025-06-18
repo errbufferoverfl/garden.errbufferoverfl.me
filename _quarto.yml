@@ -41,7 +41,11 @@ website:
     background: light
     right:
       - text: The Notebook
-        url: /
+        menu:
+          - text: Writing
+            href: /
+          - text: Lists
+            href: /lists/
       - text: The Zine Wiki
         url: /zine/
       - text: The Soapbox
@@ -111,4 +115,3 @@ execute:
 
 filters:
   - _utils/quarto-version.lua
-  - _utils/quarto-flesch-score.lua

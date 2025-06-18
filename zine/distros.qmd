@@ -20,7 +20,6 @@ listing:
       categories: Inactive
 comments: false
 citation: false
-disable_flesch: true
 page-layout: full
 repo-actions: false
 toc: false

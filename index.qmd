@@ -1,5 +1,5 @@
 ---
-title: "The Notebook"
+title: "Writing"
 listing:
   contents:
     - notebook

@@ -1,0 +1,15 @@
+---
+title: "Lists"
+listing:
+  contents: .
+  fields: [title, date, description]
+  sort: title
+  type: grid
+  max-description-length: 400
+title-block-banner: false
+comments: false
+citation: false
+page-layout: full
+repo-actions: false
+toc: false
+---

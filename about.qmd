@@ -1,9 +1,8 @@
 ---
 title: "About"
-image: /imgs/profile.jpeg
+image: /imgs/profile.png
 about:
-  template: jolla
-  image-width: 80px
+  template: trestles
   links:
     - icon: chat-square-quote-fill
       text: Bluesky
@@ -41,19 +40,38 @@ repo-actions: false
 toc: false
 ---
 
-Howdy, y'all! 👉🏻🤠👉🏻
+i'm **errbufferoverfl** (they/them). welcome to my webhouse.
 
-I’m [errbufferoverfl](notebook/errbufferoverfl.md), also known as Bec (they/them). I’m a political thembo with a passion
-for exploring the intersection of culture, politics, and InfoSec, and I’ve become increasingly involved in critiquing
-digital policy in Australia.
+work only takes up 23.81% of my time so instead of making it my whole personality, i fill the rest with:
 
-I currently call Berrin home and dream of transitioning to life as a subsistence farmer on a microfarm.
-When I’m not daydreaming about farming, I’m an enthusiastic zinester and artist, spending my time painting or creating
-zines that explore topics like tech policy, queer identity, and the beauty and complexity of everyday life.
+* making zines about things like who _really_ picks pantone’s colour of the year, the politics of horror movies, and why hot chips deserve more respect
+* drawing, painting, and occasionally battling linoleum blocks like they personally wronged me
+* reading books i pretend are research (but really just deeply niche interests)
+* writing strongly-worded submissions to government consultations
+* staring at my plants and wondering if they’re judging me
+* staring at my plants and judging them like they judge me
+* building things (like oauth servers or random scripts) i may or may not finish
 
-By day, I’m a security engineer focused on security partnerships, working within an app-based browser ecosystem to
-enhance collaboration between engineering and security teams. My goal is to build long-term partnerships that foster
-secure, resilient systems, though navigating this in corporate spaces is an ongoing challenge.
+**the other 23.81% of my time?**
 
-I’m also a Python programmer who enjoys tackling a wide range of problems, from automation to technical challenges,
-whenever the need or curiosity arises.
+by day, i’m a security engineer focused on security partnerships, working within an app-based browser ecosystem. i mostly write python (because i believe in using the right tool for the job—and sometimes the fun one). I’ve got a bit of a knack for federated identity (if I do say so myself), and  i
+like building little tools that either solve problems or create entirely new ones.
+
+depends on the day.
+
+**what's your favourite...?**
+
+* **thing to do when I'm supposed to be productive?**
+tag books on libby as "want to read" knowing i never will
+
+* **kitchen utensil with no practical purpose in my life?**
+my silicone rabbit tea infuser, because i never make just one cup of tea
+
+* **thing to dramatically sigh about?**
+my computer charger being just out of reach
+
+* **way to assert dominance over inanimate objects?**
+apologising when i bump into them
+
+* **completely unnecessary step in my routine?**
+putting five extra pillows on my bed
