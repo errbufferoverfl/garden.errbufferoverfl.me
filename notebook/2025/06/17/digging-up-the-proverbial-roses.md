@@ -5,8 +5,7 @@ author:
 date: 2025-06-17T20:18:44+09:30
 date-modified: 2025-06-18T15:01:08+09:30
 categories:
-  - draft
-draft: true
+  - Meta
 ---
 
 I started this site in May 27, 2023 which was probably around the time I got myself out of a deep obsession with Obsidian, and decided to make it a functional-obsession by publishing it on the web (lol). This is also probably around the time I convinced myself traditional blogging "wasn't for me", and instead I became enamoured with the concept of digital gardening and wanted to develop an online commonplace book or some shit.[^1]
