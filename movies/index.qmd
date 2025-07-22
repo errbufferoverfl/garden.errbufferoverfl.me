@@ -1,0 +1,22 @@
+---
+title: "Cinema"
+description: Films I've watched over the years
+listing:
+  - id: movies
+    contents: 
+      - movies.yml
+    type: grid
+    grid-item-align: center
+    sort: title
+    fields: [image, title, categories]
+    categories: numbered
+    image-height: 300px
+comments: false
+citation: false
+page-layout: full
+repo-actions: false
+toc: false
+---
+
+::: {#movies}
+:::

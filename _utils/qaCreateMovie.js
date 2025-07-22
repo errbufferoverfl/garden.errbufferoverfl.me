@@ -249,22 +249,8 @@ async function start(params, settings) {
         statuses,
     );
 
-    let started;
-    if (movieStatus === inProgressStatus) {
-        started = moment().format("YYYY-MM-DD");
-    }
-
-    let finished;
     let rating;
     if (movieStatus === watchStatus) {
-        finished = await QuickAdd.quickAddApi.inputPrompt(
-            "Date Finished",
-            moment().format("YYYY-MM-DD"),
-        );
-
-        started = started ? started : finished;
-        finished = finished ? finished : moment().format("YYYY-MM-DD");
-
         const ratingScale = Settings.RATINGS ? parseList(Settings.RATINGS) : parseList(RATINGS);
         const ratingStars = numberToStars(ratingScale);
 
@@ -280,6 +266,7 @@ async function start(params, settings) {
         ...selectedShow,
         genreLink: linkifyList(selectedShow.Genre),
         genreTags: stringToHashtagString(selectedShow.Genre),
+        genresArray: splitGenres(selectedShow.Genre),
         directorLink: linkifyList(selectedShow.Director),
         countryLink: linkifyList(selectedShow.Country),
         actorLink: linkifyList(selectedShow.Actors),
@@ -287,13 +274,29 @@ async function start(params, settings) {
         filename: fileName,
         type: selectedShow.Type === "movie" ? "Movie" : "Series",
         status: movieStatus,
-        started: started ? started : "none",
-        finished: finished ? finished : "none",
         rating: rating ? rating : "Unrated",
         platform: platform ? platform : "Unspecified",
     };
 
-    return fileName;
+    const yamlRecord = buildYamlRecord({
+        title: selectedShow.Title,
+        description: selectedShow.Plot || "No description.",
+        runtime: selectedShow.Runtime,
+        image: selectedShow.Poster || "placeholder.png",
+        rating: QuickAdd.variables.rating,
+        categories: [QuickAdd.variables.type, QuickAdd.variables.platform, ...QuickAdd.variables.genresArray],
+    });
+    QuickAdd.variables.yamlRecord = yamlRecord;
+
+    const yamlFileName = "movies/movies.yml";
+    const yamlFile = QuickAdd.app.vault.getAbstractFileByPath(yamlFileName);
+
+    if (yamlFile) {
+        await QuickAdd.app.vault.append(yamlFile, "\n" + yamlRecord);
+    } else {
+        await QuickAdd.app.vault.create(yamlFileName, yamlRecord);
+    }
+
 }
 
 /**
@@ -511,4 +514,46 @@ function checkFilmExists(imdbId) {
 function stringToHashtagString(str) {
     const arr = str.split(",").map(s => s.trim());
     return arr.map(s => `#genre/${s.toLowerCase().replace(/[^a-z0-9-]/g, "")}`).join(" ");
+}
+
+/**
+ * Turn a string like "Action, Drama, Thriller" into ["Action","Drama","Thriller"]
+ * @param {string} str
+ * @returns {string[]}
+ */
+const splitGenres = (str) =>
+    (str || "")
+        .split(",")
+        .map((g) => g.trim())
+        .filter(Boolean);
+
+/**
+ * Build a YAML list-item for a movie/series that looks like
+ *
+ * - title: "Blade Runner"
+ *   description: >
+ *     A blade runner must pursue and terminate...
+ *   image: "https://…/poster.jpg"
+ *   rating: "4"
+ *   categories: ["Netflix", "Sci-Fi", "Thriller"]
+ *
+ * @param {Object} opts
+ * @param {string} opts.title
+ * @param {string} opts.description
+ * @param {string} opts.img
+ * @param {string} opts.rating
+ * @param {string[]} opts.categories
+ * @returns {string}
+ */
+function buildYamlRecord({ title, description, runtime, image, rating, categories }) {
+    const indent = (text) => text.replace(/^/gm, "    "); // 4-space indent
+    const catLine = `[${categories.map((c) => JSON.stringify(c)).join(", ")}]`;
+
+    return `- title: ${JSON.stringify(title)}
+  description: >
+${indent(description)}
+  runtime: ${JSON.stringify(runtime)}
+  image: ${JSON.stringify(image)}
+  rating: ${JSON.stringify(rating)}
+  categories: ${catLine}`;
 }
