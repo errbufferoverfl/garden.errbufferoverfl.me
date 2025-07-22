@@ -18,13 +18,13 @@ Despite this, some early notes I wrote while in an ADHD study hole have become s
 
 Despite how fantastic the ✨analytics✨ are when I read over these posts they don't read like my writing — they read like I'm a multi-national company where union busting is a fun after work activity.
 
-![An awkward monkey puppet looking away and many particle lines, the awkward monkey puppet looking and two particle lines — demonstrating the particle effect.](imgs/digging-up-the-proverbial-roses.png)
+![An awkward monkey puppet looking away and many particle lines, the awkward monkey puppet looking and two particle lines — demonstrating the particle effect.](/imgs/digging-up-the-proverbial-roses.png)
 
 Don't get me wrong, I spent the like first 4 years of my career in consulting so I seem to naturally write like a multi-national company — but I want to go back to the version of that multi-national company where its normal to watch your coworker go on a Monday afternoon spiral in Slack because they just found out the reason they couldn't authenticate to the DataDog API was because their PiHole added the DataDog domains to the default block list, where nerd-sniping is considered a team sport and slide decks are equal parts security engineering and arcane ritual.
 
 And I guess this is all just a long winded way of talking about overhauling the content of my blog and clearing out the roses with god damn thorns that always seem to get you no matter how careful you are… and despite the fact they are nice and you get lots of compliments from the neighbours (which is nice), probably need to be cut back, or just like dug up and chipped to make way for something a little less formal and maybe a bit nicer in that way that informal native gardens tend to be… ya know?
 
-![The scene from Fargo where Peter Stormare is pushing a body into the woodchipper.](imgs/digging-up-the-proverbial-roses-1.png)
+![The scene from Fargo where Peter Stormare is pushing a body into the woodchipper.](/imgs/digging-up-the-proverbial-roses-1.png)
 
 Lets be honest though I probably won't publish anyway, but at least the content will be equally unpopular and I won't get Google Search Console notification congratulating me on my OWASP CLASP page being the top search result for like the 12th month in a row… fuck thats depressing.
 

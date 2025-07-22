@@ -1,6 +1,5 @@
 ---
 title: We Don't Deserve the Marketplaces We've Built
-subtitle: ""
 author: 
   - errbufferoverfl
 date: 2025-06-20T13:02:15+09:30
