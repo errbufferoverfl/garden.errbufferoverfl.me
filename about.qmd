@@ -14,7 +14,7 @@ about:
       rel: "me"
     - icon: postage-heart-fill
       text: Ko-Fi
-      href: https://ko-fi.com/errbufferoverfl
+      href: https://ko-fi.com/crackedeggpress
       rel: "me"
     - icon: book
       text: Bookwyrm
