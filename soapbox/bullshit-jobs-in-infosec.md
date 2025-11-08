@@ -3,7 +3,7 @@ title: "Is My Job Even Real? Bullshit Jobs in Infosec"
 author:
   - errbufferoverfl
 date: 2025-11-07T21:50:46+09:30
-date-modified: 2025-10-28T21:50:46+09:30
+date-modified: 2025-11-08T21:50:46+09:30
 categories:
   - Sociology
   - InfoSec
