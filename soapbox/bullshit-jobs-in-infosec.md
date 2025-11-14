@@ -3,7 +3,7 @@ title: "Is My Job Even Real? Bullshit Jobs in Infosec"
 author:
   - errbufferoverfl
 date: 2025-11-07T21:50:46+09:30
-date-modified: 2025-11-14T11:35:02+10:30
+date-modified: 2025-11-14T18:04:36+10:30
 categories:
   - Culture
   - InfoSec
@@ -31,6 +31,11 @@ And a question: do we need to build something better?
     src="https://www.canva.com/design/DAG4FUp0VdQ/2Jaf02k2N05664DdCR157Q/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
+
+> [!NOTE]
+> The published dataset includes aggregated survey responses and normalised local information. To protect participants’ 
+> privacy, it does not include submission dates or times, long-form written responses, interview transcripts, or any 
+> details that could enable identification.
 
 [Slides (PDF Download)](https://drive.google.com/file/d/1055NBsYt0l5SMGeiB7p3RVDBl0HdGXAo/view?usp=sharing) · Recording (Coming Soon!) · <a href="/resources/2025-10-InfoSec-Worker-Survey-Normalised-Published.csv" download>Dataset</a> · 
 [Data Analysis](/notebook/2025/11/11/bullshit-jobs-survey-findings.qmd) · Zine (Coming Soon!) · [Kawaiicon](https://kawaiicon.org/)
