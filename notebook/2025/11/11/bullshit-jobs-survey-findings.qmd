@@ -492,19 +492,17 @@ fig.update_layout(showlegend=False)
 fig.show()
 ```
 
-This distribution suggests that while few InfoSec professionals see their work as completely devoid of purpose, many experience periodic or situational feelings of futility. The large proportion of "Sometimes" responses hints at a tension between knowing their work has value in theory and feeling that value is undermined in practice, whether through bureaucracy, organisational politics, or performative processes that disconnect effort from impact. These results align with broader findings in the Likert-scale data, where respondents expressed both a belief that their jobs are meaningful and frustration that much of their effort is spent on administrative or symbolic work. Taken together, this chart reinforces the idea that information security work is rarely "bullshit" in itself, but that the structures surrounding it often make it feel that way.
-
-These results align with broader findings in the Likert-scale data, where respondents expressed both a belief that their jobs are meaningful and frustration that much of their effort is spent on administrative or symbolic work. Taken together, this chart reinforces the idea that information security work is rarely "bullshit" in itself, but that the structures surrounding it often make it feel that way.
+This distribution suggests that while few InfoSec professionals see their work as completely devoid of purpose, many experience periodic or situational feelings of futility. The large proportion of "Sometimes" responses hints at a tension between knowing their work has value in theory and feeling that value is undermined in practice, whether through bureaucracy, organisational politics, or performative processes that disconnect effort from impact. These results align with broader findings in the Likert-scale data, where respondents expressed both a belief that their jobs are meaningful and frustration that much of their effort is spent on administrative or symbolic work. Taken together, this chart reinforces the idea that InfoSec work is rarely "bullshit" in itself, but that the structures surrounding it often make it feel that way.
 
 ### By Gender
 
 When broken down by gender, the overall pattern remains consistent: most respondents answered "Sometimes" or "No", rather than a definitive "Yes".
 
-Among men, responses were almost evenly split between "Sometimes" and “No,” suggesting that while many experience moments of frustration or futility, few feel their roles are entirely meaningless. Women were somewhat more likely than men to select “Sometimes,” indicating a slightly higher degree of ambivalence about the value or structure of their work.
+Among men, responses were almost evenly split between "Sometimes" and "No", suggesting that while many experience moments of frustration or futility, few feel their roles are entirely meaningless. Women were somewhat more likely than men to select "Sometimes"," indicating a slightly higher degree of ambivalence about the value or structure of their work.
 
-A small number of non-binary and gender-diverse respondents also leaned toward "Sometimes", though the sample size here is too small for strong conclusions. Althought there is limited data I think it reflects a shared undercurrent across groups, that the issue isn’t about total meaninglessness, but about periodic disconnection between the purpose of security work and how it is practiced day-to-day.
+A small number of non-binary and gender-diverse respondents also leaned toward "Sometimes", though the sample size here is too small for strong conclusions. Although there is limited data, I think it reflects a shared undercurrent across groups that the issue isn’t about total meaninglessness, but about periodic disconnection between the purpose of security work and how it is practiced day-to-day.
 
-These results align with existing discussions around "glue work" and gendered labour: women and gender-diverse professionals may be more likely to shoulder invisible coordination, communication, or compliance tasks, the kind of work that can feel essential but undervalued. This may contribute to greater moments of perceived "bullshit" even when the work itself serves an important function.
+These results align with existing discussions about "glue work" and gendered labour: women and gender-diverse professionals may be more likely to shoulder invisible coordination, communication, or compliance tasks, the kind of work that can feel essential but undervalued. This may contribute to greater moments of perceived "bullshit" even when the work itself serves an important function.
 
 Overall, while no gender group overwhelmingly identifies their work as wholly "bullshit", the differences in degree of ambivalence hint at how role expectations and recognition may intersect with identity to shape how meaning (or futility) is experienced in the field.
 
@@ -532,7 +530,7 @@ Participants aged 25-34 also lean heavily toward "Sometimes", suggesting that ea
 
 Very few respondents under 25 or over 55 participated, but those who did were split: a small handful of younger respondents answered "Sometimes" or "Yes", while a few older respondents leaned more toward "No". The limited representation makes it hard to generalise, but it hints that perceptions of meaning may shift with both time and stability in one’s career.
 
-Taken together, this chart reinforces a key theme across the data: ambivalence is the dominant emotion. Most information security professionals don’t feel their work is entirely meaningless, but many see enough bureaucracy, repetition, or misalignment of purpose to question its value at times.
+Taken together, this chart reinforces a key theme across the data: ambivalence is the dominant emotion. Most InfoSec professionals don’t feel their work is entirely meaningless, but many see enough bureaucracy, repetition, or misalignment of purpose to question its value at times.
 
 ```{python}
 #| jupyter: {source_hidden: true}
@@ -643,9 +641,9 @@ Responses by country largely mirror the overall trend: most participants answere
 
 The largest response groups came from Australia and the United States, and in both countries, the majority of participants selected "Sometimes". This suggests a shared sense of occasional disillusionment or frustration across regions, that is, professionals in both contexts recognise moments where their work feels performative, bureaucratic, or disconnected from impact, even if they do not see their roles as wholly meaningless.
 
-Respondents from other countries, including the United Kingdom, Canada, and New Zealand, followed a similar distribution, though smaller sample sizes make it difficult to draw firm comparisons. The consistency across regions hints that feelings of futility in information security work transcend national or organisational boundaries, suggesting they stem less from local workplace culture and more from the structural nature of the industry itself, shaped by compliance frameworks, constant audit demands, and performative risk management.
+Respondents from other countries, including the United Kingdom, Canada, and New Zealand, followed a similar distribution, though smaller sample sizes make it difficult to draw firm comparisons. The consistency across regions hints that feelings of futility in InfoSec work transcend national or organisational boundaries, suggesting they stem less from local workplace culture and more from the structural nature of the industry itself, shaped by compliance frameworks, constant audit demands, and performative risk management.
 
-While it would be interesting to explore how local economic or cultural factors influence these perceptions, this dataset points toward a shared professional experience: the sense that even in different countries and contexts, information security workers encounter the same contradictions between meaning, necessity, and bureaucracy.
+While it would be interesting to explore how local economic or cultural factors influence these perceptions, this dataset points toward a shared professional experience: the sense that even in different countries and contexts, InfoSec workers encounter the same contradictions between meaning, necessity, and bureaucracy.
 
 ```{python}
 #| jupyter: {source_hidden: true}
@@ -768,7 +766,7 @@ The "Sometimes" group sits predictably in the middle for most questions, almost 
 conditions that make it feel that way.
 
 One of the clearest points of consensus is that very few respondents believe security would improve if fewer people had jobs like theirs. Scores on this question are low across all groups. Even those who view their job as bullshit don’t think that reducing staff would produce better
-outcomes; so at a minimum there is a shared belief that the work is necessary, even when the structures around it feel dysfunctional.
+outcomes; so at a minimum, there is a shared belief that the work is necessary, even when the structures around it feel dysfunctional.
 
 Finally, the plot shows that many respondents spend a significant amount of time explaining or justifying their work. This burden is rated the highest by the "Yes" and "Sometimes" groups, suggesting that the perception of bullshit often grows out of how work is communicated, validated, or understood by
 others. In sum, the plot paints a picture of a field where the core work is meaningful, but the surrounding environment frequently undermines that meaning.
@@ -813,7 +811,7 @@ When asked whether “My work is constrained by bureaucracy or political posturi
 On the more existential end, questions like “If my job disappeared tomorrow, things would get worse for someone” and “My work directly improves the security of people or systems” draw consistent agreement across genders. The “prefer not to say” and “self-describe” categories show more variation,
 but the overall pattern indicates that most respondents believe their work is meaningful and has real impact, even when parts of the job feel performative.
 
-Finally, for “My job feels meaningful,” men and non-binary respondents cluster more tightly around agreement, whereas women’s responses are more widely distributed. This may suggest a greater diversity of experiences among women in terms of meaning, satisfaction, or consistency of role expectations.
+Finally, for "My job feels meaningful", men and non-binary respondents cluster more tightly around agreement, whereas women’s responses are more widely distributed. This may suggest a greater diversity of experiences among women in terms of meaning, satisfaction, or consistency of role expectations.
 
 ### By Age
 
