@@ -3,8 +3,8 @@ title: Working
 subtitle: Talking About What We Do All Day and How We Feel About What We Do
 author:
   - errbufferoverfl
-date: 2025-11-13T20:18:21+10:30
-date-modified: 2025-11-14T11:32:08+10:30
+date: 2025-11-15T20:18:21+10:30
+date-modified: 2025-11-15T11:32:08+10:30
 categories:
   - Culture
   - InfoSec
