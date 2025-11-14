@@ -1,7 +1,6 @@
 ---
-title: Is My Job Even Real?
-subtitles: Bullshit Jobs in Infosec — Survey Findings
-date: '2025-11-15T08:18:21+10:30'
+title: Is My Job Even Real? Bullshit Jobs in Infosec — Survey Findings
+date: '2025-11-11T08:18:21+10:30'
 date-modified: '2025-11-15T20:18:21+10:30'
 format:
   html:
