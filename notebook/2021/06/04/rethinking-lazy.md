@@ -7,7 +7,6 @@ date: 2021-06-04T10:04:13+10:30
 date-modified: 2025-06-18T15:01:08+09:30
 categories:
   - Security Culture
-draft: true
 ---
 
 ::: {.callout-note}

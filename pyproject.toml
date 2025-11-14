@@ -1,0 +1,25 @@
+[project]
+name = "garden-errbufferoverfl-me"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "errbufferoverfl",email = "gitlab@errbufferoverfl.me"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pandas (>=2.3.3)",
+    "matplotlib (>=3.10.7,<4.0.0)",
+    "plotly (>=6.4.0,<7.0.0)",
+    "wordcloud (>=1.9.4,<2.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
+    "pyyaml (>=6.0.3,<7.0.0)"
+]
+
+[tool.poetry]
+packages = [{include = "garden"}]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

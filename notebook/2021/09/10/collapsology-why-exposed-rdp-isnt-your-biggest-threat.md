@@ -7,7 +7,6 @@ date-modified: 2025-06-18T15:01:08+09:30
 categories:
   - Conference Talk
   - Security Culture
-draft: true
 ---
 
 ::: {.callout-note}

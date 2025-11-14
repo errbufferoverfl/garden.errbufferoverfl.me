@@ -3,11 +3,14 @@ title: "Is My Job Even Real? Bullshit Jobs in Infosec"
 author:
   - errbufferoverfl
 date: 2025-11-07T21:50:46+09:30
-date-modified: 2025-11-08T21:50:46+09:30
+date-modified: 2025-11-14T11:35:02+10:30
 categories:
-  - Sociology
-  - InfoSec
   - Culture
+  - InfoSec
+  - Sociology
+tags:
+  - Culture
+  - InfoSec
 ---
 
 Ever feel like you’re just ticking off compliance checklists while everything is on fire? 
@@ -29,8 +32,9 @@ And a question: do we need to build something better?
   </iframe>
 </div>
 
-[Slides (PDF Download)](https://drive.google.com/file/d/1055NBsYt0l5SMGeiB7p3RVDBl0HdGXAo/view?usp=sharing) · Recording (Coming Soon!) · Dataset (Coming Soon!) · Zine (Coming Soon!) · [Kawaiicon](https://kawaiicon.org/) ·
+[Slides (PDF Download)](https://drive.google.com/file/d/1055NBsYt0l5SMGeiB7p3RVDBl0HdGXAo/view?usp=sharing) · Recording (Coming Soon!) · <a href="/resources/2025-10-InfoSec-Worker-Survey-Normalised-Published.csv" download>Dataset</a> · 
+[Data Analysis](/notebook/2025/11/11/bullshit-jobs-survey-findings.qmd) · Zine (Coming Soon!) · [Kawaiicon](https://kawaiicon.org/)
 
 ## License
 
-<a href="https://drive.google.com/file/d/1055NBsYt0l5SMGeiB7p3RVDBl0HdGXAo/view">Is My Job Even Real? Bullshit Jobs in Infosec</a> © 2025 by <a href="https://garden.errbufferoverfl.me/about.html">errbufferoverfl</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>
+<a href="https://garden.errbufferoverfl.me/soapbox/bullshit-jobs-in-infosec.html">Is My Job Even Real? Bullshit Jobs in Infosec</a> © 2025 by <a href="https://garden.errbufferoverfl.me/about.html">errbufferoverfl</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>
