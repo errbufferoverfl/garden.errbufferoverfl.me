@@ -32,10 +32,11 @@ And a question: do we need to build something better?
   </iframe>
 </div>
 
-> [!NOTE]
-> The published dataset includes aggregated survey responses and normalised local information. To protect participants’ 
-> privacy, it does not include submission dates or times, long-form written responses, interview transcripts, or any 
-> details that could enable identification.
+::: {.callout-important}
+
+The published dataset includes aggregated survey responses and normalised local information. To protect participants’ privacy, it does not include submission dates or times, long-form written responses, interview transcripts, or any details that could enable identification.
+
+:::
 
 [Slides (PDF Download)](https://drive.google.com/file/d/1055NBsYt0l5SMGeiB7p3RVDBl0HdGXAo/view?usp=sharing) · Recording (Coming Soon!) · <a href="/resources/2025-10-InfoSec-Worker-Survey-Normalised-Published.csv" download>Dataset</a> · 
 [Data Analysis](/notebook/2025/11/11/bullshit-jobs-survey-findings.qmd) · Zine (Coming Soon!) · [Kawaiicon](https://kawaiicon.org/)
