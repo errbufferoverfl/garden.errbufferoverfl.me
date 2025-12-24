@@ -38,7 +38,7 @@ The published dataset includes aggregated survey responses and normalised local 
 
 :::
 
-[Slides (PDF Download)](https://drive.google.com/file/d/1055NBsYt0l5SMGeiB7p3RVDBl0HdGXAo/view?usp=sharing) · Recording (Coming Soon!) · <a href="/resources/2025-10-InfoSec-Worker-Survey-Normalised-Published.csv" download>Dataset</a> · 
+[Slides (PDF Download)](https://drive.google.com/file/d/1055NBsYt0l5SMGeiB7p3RVDBl0HdGXAo/view?usp=sharing) · [Recording](https://www.youtube.com/watch?v=g3M71PyheQU) · <a href="/resources/2025-10-InfoSec-Worker-Survey-Normalised-Published.csv" download>Dataset</a> · 
 [Data Analysis](/notebook/2025/11/11/bullshit-jobs-survey-findings.qmd) · Zine (Coming Soon!) · [Kawaiicon](https://kawaiicon.org/)
 
 ## License
