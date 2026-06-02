@@ -104,7 +104,8 @@ Every security speciality will have examples like this. The hardest and most val
 
 ## Judgement and communication are deeply contextual
 
-In 2021, I presented a conference talk called ["Collapsology: Why Exposed RDP Isn't Your Biggest Threat"](soapbox/collapsology-why-your-biggest-threat-isnt-exposed-rdp.md). In that talk, I talked about security culture, how to identify cultural threats, and how modern tools can help us detect those threats before they lead to security culture collapse.
+In 2021, I presented a conference talk called ["Collapsology: Why Exposed RDP Isn't Your Biggest Threat"](soapbox/collapsology-why-your-biggest-threat-isnt-exposed-rdp.html). In that talk, I talked about security culture, how to identify cultural threats, and how modern tools can help us detect 
+those threats before they lead to security culture collapse.
 
 So I have big thoughts about one of the follow-up questions the stupid bot asked me about measuring and assessing so-called "soft skills" like judgement and communication.
 
