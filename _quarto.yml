@@ -79,8 +79,6 @@ format:
     theme: cosmo
     css:
       - resources/styles.css
-    include-before-body:
-      - _layouts/hidden-elements.html
     link-external-newwindow: true
     highlight-style: dracula
     anchor-sections: true
