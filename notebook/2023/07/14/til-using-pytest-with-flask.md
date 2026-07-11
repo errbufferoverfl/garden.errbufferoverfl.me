@@ -1,10 +1,12 @@
 ---
 title: Some Notes on Writing Reliable Tests for Flask Applications with Pytest
 subtitle: Today I Learnt
+description: "A TIL on structuring reliable Flask tests with pytest, covering unit tests, functional tests, fixtures, databases, and application setup."
 author:
   - errbufferoverfl
 date: 2023-07-14T11:14:22+09:30
 date-modified: 2025-06-18T15:01:08+09:30
+canonical-url: true
 categories:
   - Python
   - Today I Learnt

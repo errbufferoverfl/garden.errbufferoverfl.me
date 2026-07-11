@@ -1,10 +1,12 @@
 ---
 title: How to Include Media in Anki Cards Using Genanki
 subtitle: Today I Learnt
+description: "A TIL on bundling images and audio into Anki decks generated with Python's genanki package, including note fields and media references."
 author:
   - errbufferoverfl
 date: 2021-04-14T10:20:54+10:30
 date-modified: 2025-06-18T15:01:08+09:30
+canonical-url: true
 categories:
   - Python Programming
   - Today I Learnt

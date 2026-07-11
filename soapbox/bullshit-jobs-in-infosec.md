@@ -1,9 +1,11 @@
 ---
 title: "Is My Job Even Real? Bullshit Jobs in Infosec"
+description: "A Kiwicon talk using David Graeber's theory of bullshit jobs and survey data to question meaning, performance, and purpose in information security work."
 author:
   - errbufferoverfl
 date: 2025-11-07T21:50:46+09:30
 date-modified: 2025-11-14T18:04:36+10:30
+canonical-url: true
 categories:
   - Culture
   - InfoSec

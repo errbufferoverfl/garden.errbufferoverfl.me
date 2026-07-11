@@ -1,10 +1,12 @@
 ---
 title: Security Vulnerabilities in Single-Sign On
 subtitle: A Very Unscientific Meta Analysis
+description: "A literature-style note on common single sign-on security failures in OAuth and Facebook SDK integrations, from token misuse to credential leakage."
 author:
   - errbufferoverfl
 date: 2023-10-28T21:12:30+10:30
 date-modified: 2025-06-18T15:01:08+09:30
+canonical-url: true
 categories:
   - OAuth
 ---

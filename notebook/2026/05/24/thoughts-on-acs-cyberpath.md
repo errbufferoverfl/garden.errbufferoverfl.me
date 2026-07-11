@@ -1,7 +1,8 @@
 ---
 title: My thoughts on the CyberPath Professionalisation Pilot Survey
 subtitle: I came here to back up some data and all I got was angry about an accreditation program
-author: 
+description: "A critique of the ACS CyberPath Professionalisation Pilot, focusing on accreditation risks, labour protections, exclusion, AI, and contextual security capability."
+author:
   - errbufferoverfl
 date: 2026-05-24T08:45:16+09:30
 draft: false
@@ -13,6 +14,7 @@ categories:
   - ACS CyberPath
   - Security Culture
 date-modified: 2026-05-24T09:31:49+09:30
+canonical-url: true
 ---
 
 At this point it feels like the only time I venture online (outside of doomscrolling Reddit) anymore is because I'm angry about something, or delighted.

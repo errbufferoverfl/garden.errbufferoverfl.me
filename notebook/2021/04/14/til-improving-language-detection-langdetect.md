@@ -1,10 +1,12 @@
 ---
 title: "TIL: How to Improve Language Detection Using `langdetect`"
 subtitle: Today I Learnt
+description: "A TIL on improving Python langdetect for constrained language choices by loading detector profiles and weighting likely languages."
 author:
   - errbufferoverfl
 date: 2021-04-14T10:15:45+10:30
 date-modified: 2025-06-18T15:01:08+09:30
+canonical-url: true
 categories:
   - Python Programming
   - Today I Learnt

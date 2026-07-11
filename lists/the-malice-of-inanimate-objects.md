@@ -1,5 +1,7 @@
 ---
 title: the malice of inanimate objects
+description: "A list of ordinary objects and tiny household failures that seem to choose the most inconvenient possible moment to cause trouble."
+canonical-url: true
 author: 
   - errbufferoverfl
 date: 2025-06-18T20:18:44+09:30

@@ -1,9 +1,11 @@
 ---
 title: Digging up the Proverbial Roses
+description: "A reflective post about moving from digital gardening ambitions toward a more maintained personal site, with notes on writing voice, Quarto, and old content."
 author:
   - errbufferoverfl
 date: 2025-06-17T20:18:44+09:30
 date-modified: 2025-06-18T15:01:08+09:30
+canonical-url: true
 categories:
   - Meta
 ---

@@ -1,5 +1,7 @@
 ---
 title: "About"
+description: "About errbufferoverfl: a zinester, artist, writer, and security engineer interested in federated identity, zines, plants, and small web projects."
+canonical-url: true
 image: /imgs/profile.png
 about:
   template: trestles

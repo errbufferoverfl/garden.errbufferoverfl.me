@@ -1,5 +1,12 @@
 ---
 title: Page Not Found
+description: "The requested page could not be found on garden.errbufferoverfl.me."
+search: false
+format:
+  html:
+    include-in-header:
+      text: |
+        <meta name="robots" content="noindex">
 comments: false
 citation: false
 disable_flesch: true

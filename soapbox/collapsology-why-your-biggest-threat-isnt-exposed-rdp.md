@@ -1,14 +1,15 @@
 ---
 title: "Collapsology: Why your biggest threat isn’t exposed RDP"
+description: "A security culture talk using historical collapse research to explain why business complexity, cohesion, and organisational drift can matter more than exposed RDP."
 author:
   - errbufferoverfl
 date: 2021-09-01T22:30:00+09:30
 date-modified: 2024-07-06T13:37:16+09:30
+canonical-url: true
 categories:
   - Culture
   - PyCon
   - Security
-description: For decades, anthropologists, quantitative historians, and sociologists have discussed and proposed various explanations for the collapse of civilizations, from unsustainable complexity, decay of social cohesion, rising inequality and general misfortune. Using our time-travelling phone booth, we’ll investigate historical collapses and conduct a root cause analysis to investigate why these collapses happened, and how we can observe similar issues in modern business environments.
 ---
 
 For decades, anthropologists, quantitative historians, and sociologists have discussed and proposed various explanations for the collapse of civilizations, from unsustainable complexity, decay of social cohesion, rising inequality and general misfortune.

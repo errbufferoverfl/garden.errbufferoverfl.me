@@ -1,6 +1,8 @@
 ---
 title: "Zine Wiki"
 subtitle: "A small catalog of zinesters, distros and zine resources."
+description: "A small zine wiki cataloging zinesters, distros, bookshops, libraries, events, reviews, and resources for making and finding zines."
+canonical-url: true
 listing:
   contents: .
   fields: [title, date, description]

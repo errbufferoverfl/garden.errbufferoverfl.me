@@ -1,10 +1,12 @@
 ---
 title: November 2024 Submission in Response to the Online Safety Amendment (Social Media Minimum Age) Bill
 subtitle: Submission to the Senate
+description: "A November 2024 submission opposing the Social Media Minimum Age Bill's rushed consultation, surveillance risks, and mandatory age-assurance approach."
 author:
   - errbufferoverfl
 date: 2024-11-22T09:16:17+11:00
 date-modified: 2025-06-18T15:01:08+09:30
+canonical-url: true
 categories:
   - Government Submission
   - Online Safety Bill

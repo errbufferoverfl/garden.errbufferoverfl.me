@@ -1,6 +1,7 @@
 ---
 title: "Reviews"
-description: Discover amazing zines that are sure to spark your creativity and passion. Happy reading!
+description: "A collection of zine reviews and reading notes from the zine wiki."
+canonical-url: true
 listing:
     contents: .
     type: table

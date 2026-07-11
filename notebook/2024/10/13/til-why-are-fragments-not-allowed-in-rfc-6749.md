@@ -1,10 +1,12 @@
 ---
 title: Why are Fragments not Allowed in OAuth?
 subtitle: Today I Learnt
+description: "A historical look at why RFC 6749 forbids fragment components in OAuth redirect URIs, tracing OAuth Working Group discussions, browser redirect behavior, and covert redirect risks."
 author:
   - errbufferoverfl
 date: 2024-10-13T10:56:50+10:30
 date-modified: 2025-06-18T15:01:08+09:30
+canonical-url: true
 categories:
   - OAuth
   - Today I Learnt

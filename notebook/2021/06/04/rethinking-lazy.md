@@ -1,10 +1,12 @@
 ---
 title: Rethinking Lazy
 subtitle: Understanding the Barriers Behind Inaction
+description: "An essay on why calling people, teams, or systems lazy hides structural barriers such as burnout, competing priorities, poor tooling, and lack of support."
 author:
   - errbufferoverfl
 date: 2021-06-04T10:04:13+10:30
 date-modified: 2025-06-18T15:01:08+09:30
+canonical-url: true
 categories:
   - Security Culture
 ---

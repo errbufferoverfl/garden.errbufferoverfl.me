@@ -1,10 +1,12 @@
 ---
 title: Creating Multiple Endpoints in Azure Functions with Go
 subtitle: Today I Learnt
+description: "A TIL on building multiple endpoints in Azure Functions with Go custom handlers, including function directories, routing, and handler setup."
 author:
   - errbufferoverfl
 date: 2021-11-07T10:11:10+10:30
 date-modified: 2025-06-18T15:01:08+09:30
+canonical-url: true
 categories:
   - Golang
   - Today I Learnt

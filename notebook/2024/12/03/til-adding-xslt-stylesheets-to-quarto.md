@@ -1,10 +1,12 @@
 ---
 title: Adding XSLT Stylesheets to Quarto
 subtitle: Today I Learnt
+description: "A TIL on adding XSLT stylesheets to Quarto-generated RSS feeds and sitemaps so XML files render as readable browser pages."
 author:
   - errbufferoverfl
 date: 2024-12-03T11:21:57+10:30
 date-modified: 2025-06-18T15:01:08+09:30
+canonical-url: true
 categories:
   - Quarto
   - Today I Learnt

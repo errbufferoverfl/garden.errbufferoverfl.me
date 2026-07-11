@@ -1,10 +1,12 @@
 ---
 title: Working
 subtitle: Talking About What We Do All Day and How We Feel About What We Do
+description: "A reflection on Studs Terkel's Working, InfoSec labour stories, and writing about ordinary security work beyond conference talks and polished career narratives."
 author:
   - errbufferoverfl
 date: 2025-11-15T20:18:21+10:30
-date-modified: 2025-11-15T11:32:08+10:30
+date-modified: 2025-11-15T20:18:21+10:30
+canonical-url: true
 categories:
   - Culture
   - InfoSec

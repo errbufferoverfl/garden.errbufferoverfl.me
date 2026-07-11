@@ -1,10 +1,12 @@
 ---
 title: October 2024 Submission in Response to the Cyber Security Legislative Package 2024
 subtitle: Submission to the Parliamentary Joint Committee on Intelligence and Security
+description: "An October 2024 submission on the Cyber Security Legislative Package, focusing on smart device security standards and consumer privacy risks."
 author:
   - errbufferoverfl
 date: 2024-10-26T20:46:45+10:30
 date-modified: 2025-06-18T15:01:08+09:30
+canonical-url: true
 categories:
   - Cyber Security
   - Government Submission

@@ -1,6 +1,7 @@
 ---
 title: "Lists"
-description: "Inspired by *The Pillow Book* by Sei Shōnagon and the [List Jam](https://itch.io/jam/list-jam)."
+description: "A small collection of personal lists inspired by The Pillow Book and List Jam, from online games and digital pottering to characters and everyday annoyances."
+canonical-url: true
 listing:
   contents: .
   fields: [title, date, description]

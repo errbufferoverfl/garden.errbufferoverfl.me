@@ -1,9 +1,11 @@
 ---
 title: Collapsology Why Exposed RDP Isn't Your Biggest Corporate Threat
+description: "A companion post for the Collapsology talk, collecting slides and notes on spotting security culture risks before they become organisational failures."
 author:
   - errbufferoverfl
 date: 2021-09-10T12:41:28+10:30
 date-modified: 2025-06-18T15:01:08+09:30
+canonical-url: true
 categories:
   - Conference Talk
   - Security Culture

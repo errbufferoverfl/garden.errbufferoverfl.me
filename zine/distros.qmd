@@ -1,5 +1,7 @@
 ---
 title: "Distros"
+description: "A catalog of active and inactive zine distros that distribute independent publications, support creators, and connect readers with DIY publishing."
+canonical-url: true
 listing:
   - id: distros
     contents: 

@@ -1,6 +1,7 @@
 ---
 title: "Libraries & Archives"
-description: "Information on libraries, archives, and special collections that house extensive zine collections online and around the world."
+description: "A catalog of libraries, archives, and special collections that preserve zines and make zine collections available online or in person."
+canonical-url: true
 listing:
   - id: library
     contents: 

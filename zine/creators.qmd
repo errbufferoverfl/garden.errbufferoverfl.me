@@ -1,6 +1,7 @@
 ---
 title: "Creators"
-description: Folks who bring their vibrant and unique voices to the world of zines.
+description: "A catalog of zine creators, artists, writers, and small press makers with distinctive voices and independent publications."
+canonical-url: true
 listing:
   - id: creators
     contents: 

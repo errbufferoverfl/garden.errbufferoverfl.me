@@ -1,10 +1,12 @@
 ---
 title: Contacting the Spirits in Multiple Dimensions with SSH Keys
 subtitle: Today I Learnt
+description: "A TIL on using SSH config host aliases to manage multiple GitHub SSH keys without reusing credentials across accounts or repositories."
 author:
   - errbufferoverfl
 date: 2018-11-22T12:02:29+10:30
 date-modified: 2025-06-18T15:00:18+09:30
+canonical-url: true
 categories:
   - RICEing
   - Today I Learnt

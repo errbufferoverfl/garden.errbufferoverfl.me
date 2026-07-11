@@ -1,10 +1,12 @@
 ---
 title: November 2021 Submission in Response to the Online Safety (Basic Online Safety Expectations) Determination
 subtitle: Submission to the Department of Infrastructure, Transport, Regional Development and Communications Committee
+description: "A November 2021 submission on the draft Basic Online Safety Expectations Determination, focusing on privacy, security, and overreach risks."
 author:
   - errbufferoverfl
 date: 2021-11-01T22:23:29+10:30
 date-modified: 2025-06-18T15:01:08+09:30
+canonical-url: true
 categories:
   - Government Submission
   - Online Safety Bill

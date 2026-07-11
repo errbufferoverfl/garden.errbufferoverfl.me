@@ -1,5 +1,7 @@
 ---
 title: cute online games
+description: "A short list of cute, low-stakes online games for quick breaks, guessing games, sandboxes, cooking experiments, and tiny browser distractions."
+canonical-url: true
 author: 
   - errbufferoverfl
 date: 2025-06-01T20:18:44+09:30

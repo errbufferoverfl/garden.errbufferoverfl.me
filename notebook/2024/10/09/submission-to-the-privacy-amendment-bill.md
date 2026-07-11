@@ -1,10 +1,12 @@
 ---
 title: October 2024 Submission to the Privacy Act Review
 subtitle: Submission to the Senate Standing Committees on Legal and Constitutional Affairs
+description: "An October 2024 submission on Australia's Privacy and Other Legislation Amendment Bill, arguing for stronger privacy rights, consent, and enforcement reforms."
 author:
   - errbufferoverfl
 date: 2024-10-09T20:54:04+10:30
 date-modified: 2025-06-18T15:01:08+09:30
+canonical-url: true
 categories:
   - Government Submission
   - Privacy Act

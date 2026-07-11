@@ -1,6 +1,7 @@
 ---
 title: "Events"
-description: "Information on zine fests and workshops to meet-ups and exhibitions!"
+description: "A catalog of zine fairs, workshops, meetups, exhibitions, and community events for zine makers and readers."
+canonical-url: true
 listing:
   - id: events
     contents: 

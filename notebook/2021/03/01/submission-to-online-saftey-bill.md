@@ -1,10 +1,12 @@
 ---
 title: March 2021 Submission in Response to the Online Safety Bill
 subtitle: Submission to the Senate Environment and Communications Legislation Committee
+description: "A March 2021 submission raising concerns about the Online Safety Bill, including scope creep, privacy impacts, and risks for marginalised communities."
 author:
   - errbufferoverfl
 date: 2021-03-01T22:20:25+10:30
 date-modified: 2025-06-18T15:00:18+09:30
+canonical-url: true
 categories:
   - Government Submission
   - Online Safety Bill

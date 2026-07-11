@@ -1,5 +1,7 @@
 ---
 pagetitle: Contact
+description: "Contact errbufferoverfl for notes, thoughtful work opportunities, collaborations, and other messages aligned with the values of this site."
+canonical-url: true
 comments: false
 citation: false
 disable_flesch: true

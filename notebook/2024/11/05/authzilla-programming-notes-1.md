@@ -1,10 +1,12 @@
 ---
 title: AuthZilla Programming Notes I
 subtitle: In which a Yak was shaved
+description: "Programming notes from building an Auth0-like authorization playground, covering pagination metadata, API design, and the messy edges of secure access control."
 author:
   - errbufferoverfl
 date: 2024-11-05T15:27:36+10:30
 date-modified: 2025-06-18T15:01:08+09:30
+canonical-url: true
 categories:
   - OAuth
   - Project

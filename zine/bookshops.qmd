@@ -1,6 +1,7 @@
 ---
 title: "Bookshops"
-description: Information on bookstores stocking zines across Australia and the globe.
+description: "A catalog of bookshops and stores that stock zines across Australia and around the world."
+canonical-url: true
 listing:
   - id: bookshops
     contents: 

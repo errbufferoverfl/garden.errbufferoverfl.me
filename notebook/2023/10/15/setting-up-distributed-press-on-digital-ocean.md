@@ -1,10 +1,12 @@
 ---
 title: Setting Up Distributed Press on Digital Ocean
 subtitle: A Step-by-Step Guide to Deploying Distributed Press on Digital Ocean with Tips and Troubleshooting
+description: "A deployment guide for running Distributed Press on a Digital Ocean droplet with Ubuntu, DNS configuration, Ansible setup, and troubleshooting notes."
 author:
   - errbufferoverfl
 date: 2023-10-15T16:32:39+10:30
 date-modified: 2025-06-18T15:01:08+09:30
+canonical-url: true
 categories:
   - Decentralized Publishing
   - Project

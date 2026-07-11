@@ -1,14 +1,15 @@
 ---
 title: "The Big Cloud Security Debate: Hackers vs Security Engineers"
+description: "A debate appearance about how attackers and defenders think about cloud environments, from red-team tradeoffs to security engineering perspectives."
 author:
   - errbufferoverfl
 date: 2019-11-01T22:49:31+10:30
 date-modified: 2024-07-06T13:37:16+09:30
+canonical-url: true
 categories:
   - Cloud Security
   - Debate
   - Security
-description: A debate organised by ANZ, Contino and Meetup Madness where 4 hackers vs 4 security experts engaging in a fiery debate to determine all the ways they can hack and defend cloud environments. errbufferoverfl participated as part of the “hackers”/”red team”.
 ---
 
 A debate organised by ANZ, Contino and Meetup Madness where 4 hackers vs 4 security experts engaging in a fiery debate to determine all the ways they can hack and defend cloud environments. errbufferoverfl participated as part of the “hackers”/”red team”.

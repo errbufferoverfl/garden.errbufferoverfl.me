@@ -1,10 +1,12 @@
 ---
 title: Quarto Supports `rel=me` Out of the Box
 subtitle: Today I Learnt
+description: "A TIL showing how Quarto can emit rel=me identity verification links without a custom post-render script for Mastodon or Bluesky profiles."
 author:
   - errbufferoverfl
 date: 2024-12-03T10:57:32+10:30
 date-modified: 2025-06-18T15:01:08+09:30
+canonical-url: true
 categories:
   - Quarto
   - Today I Learnt

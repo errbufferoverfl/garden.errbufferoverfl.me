@@ -1,9 +1,11 @@
 ---
 title: What the Map Makers of the 1930s Can Teach Us About Protecting Data in 2018
+description: "A post expanding the Agloe talk into paper towns, canary tokens, and practical ways to detect data misuse with existing infrastructure."
 author:
   - errbufferoverfl
 date: 2018-11-14T12:09:33+10:30
 date-modified: 2025-06-18T15:00:18+09:30
+canonical-url: true
 categories:
   - Conference Talk
   - Data Security

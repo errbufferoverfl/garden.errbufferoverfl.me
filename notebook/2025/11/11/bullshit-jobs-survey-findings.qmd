@@ -1,7 +1,11 @@
 ---
 title: Is My Job Even Real? Bullshit Jobs in Infosec — Survey Findings
+description: "Exploratory survey findings from 118 InfoSec workers and 11 follow-up interviews on bullshit jobs, meaning, bureaucracy, pay, and security work."
+author:
+  - errbufferoverfl
 date: '2025-11-11T08:18:21+10:30'
 date-modified: '2025-11-15T20:18:21+10:30'
+canonical-url: true
 format:
   html:
     code-fold: true
