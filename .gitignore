@@ -21,3 +21,5 @@ private/
 prof
 public/
 site_libs/*
+
+**/*.quarto_ipynb

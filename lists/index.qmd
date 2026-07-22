@@ -1,6 +1,5 @@
 ---
 title: "Lists"
-description: "A small collection of personal lists inspired by The Pillow Book and List Jam, from online games and digital pottering to characters and everyday annoyances."
 canonical-url: true
 listing:
   contents: .

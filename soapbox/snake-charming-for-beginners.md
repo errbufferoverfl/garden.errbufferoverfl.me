@@ -20,4 +20,4 @@ Day two we will move further into the dark jungles of Pythonia delving into forb
 
 While writing this training description, errbufferoverfl wrote two Python fan fictions, the next cyber-themed Hollywood blockbuster and Shakespearian a play about the training.
 
-[0xCC](https://www.0xcc.sh/) • Download the iPython (Coming Soon) • [GitHub](https://errbufferoverfl.github.io/snake-charming/)
+[0xCC](https://www.0xcc.sh/) • [Training Material](https://python-offsec.errbufferoverfl.me/)

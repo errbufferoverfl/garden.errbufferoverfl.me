@@ -195,7 +195,7 @@ Normally `ansible` will [handle generating a key for the JWT](https://github.com
 
 I was able to identify this problem because I received the following error when trying to [Get a `root` admin token](#Get%20a%20%60root%60%20admin%20token):
 
-``` {title="terminal"}
+``` {.text title="terminal"}
 Error: ENOENT: no such file or directory, open '/root/.local/share/distributed-press-nodejs/keys/private.key'
 ```
 

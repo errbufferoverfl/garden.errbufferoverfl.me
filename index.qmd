@@ -1,6 +1,5 @@
 ---
 title: "Writing"
-description: "The main writing index for garden.errbufferoverfl.me, collecting notebook entries, essays, technical notes, submissions, and ongoing projects."
 canonical-url: true
 listing:
   contents:

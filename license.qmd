@@ -1,6 +1,5 @@
 ---
 title: "License"
-description: "Licensing information for garden.errbufferoverfl.me, including the Creative Commons terms for reuse, attribution, noncommercial use, and share-alike adaptations."
 canonical-url: true
 comments: false
 citation: false

@@ -18,6 +18,6 @@ This workshop will go through the steps of setting up your very own PirateBox, u
 
 ## Student Prerequisites
 
-This is a beginner friendly course, little to no prior knowledge of OpenWRT is needed, but users should have basic understanding of the command line.
+This is a beginner-friendly course, little to no prior knowledge of OpenWRT is needed, but users should have basic understanding of the command line.
 
-Download the PDF (Coming Soon)
+[Download the PDF](/resources/piratebox-training.pdf)
